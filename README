@@ -1,0 +1,3 @@
+basic.py is the very basic code -- small set of classes, rooms, times. currently issue where the wrong LP solver is used.
+weighted.py builds off basic.py and is a nonworking attempt to include an objective function of minimizing the number of students affected by classes overlapping.
+ignore_attept.py is a failed attempt based on a preexisting repository. ignore this.
