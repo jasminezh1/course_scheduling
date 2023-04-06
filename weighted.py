@@ -36,6 +36,9 @@ rVars = pl.LpVariable.dicts("Room Assignment", (classes, rooms), 0, None, pl.LpI
 #     pl.lpSum([cVars[c][t] * overlap[c][t] for (c,t) in classAssignments])
 # )
 
+
+# need to have an indicator variable for o_{c1,c2}
+# 1 if x_{c1,t}
 conflicts = 0
 count1 = 0
 for class1 in classes:
@@ -70,6 +73,7 @@ for c1 in classes:
     for c2 in classes:
         for t in classTimeSlots:
             for r in rooms:
+                if(c1==c2): continue
                 sched += (
                     cVars[c1][t] + cVars[c2][t] + rVars[c1][r] + rVars[c2][r] <=3
                 )

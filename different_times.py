@@ -22,7 +22,9 @@ for i in classTimeDict:
 
 classAssignments = [(c,t) for c in classTimeDict for t in classTimeDict[c]] 
 # this will need to be adjusted for variable time slots open
-cVars = pl.LpVariable.dicts("Class Assignment", (classTimeDict, classTimeDict.values()), 0, None, pl.LpInteger)
+# need to split this up. get the values for every classtime, then let that be the second argument
+# can i build up cVars
+cVars = pl.LpVariable.dicts("Class Assignment", ((c, classTimeDict[c]) for c in classTimeDict), 0, None, pl.LpInteger) 
 
 roomAssignments = [(c,r) for c in classTimeDict for r in roomTimeDict]
 rVars = pl.LpVariable.dicts("Room Assignment", (classTimeDict, roomTimeDict), 0, None, pl.LpInteger)
@@ -61,6 +63,7 @@ for c1 in classTimeDict:
     for c2 in classTimeDict:
         for t in classTimeDict[c1]:
             for r in roomTimeDict:
+                if(c1==c2): continue
                 sched += (
                     cVars[c1][t] + cVars[c2][t] + rVars[c1][r] + rVars[c2][r] <=3
                 )

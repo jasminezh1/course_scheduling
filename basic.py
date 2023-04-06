@@ -23,6 +23,7 @@ R = len(rooms)
 classAssignments = [(c,t) for c in classes for t in classTimeSlots] 
 # this will need to be adjusted for variable time slots open
 cVars = pl.LpVariable.dicts("Class Assignment", (classes, classTimeSlots), 0, None, pl.LpInteger)
+print(cVars)
 
 roomAssignments = [(c,r) for c in classes for r in rooms]
 rVars = pl.LpVariable.dicts("Room Assignment", (classes, rooms), 0, None, pl.LpInteger)
@@ -43,6 +44,7 @@ for c1 in classes:
     for c2 in classes:
         for t in classTimeSlots:
             for r in rooms:
+                if(c1==c2): continue
                 sched += (
                     cVars[c1][t] + cVars[c2][t] + rVars[c1][r] + rVars[c2][r] <=3
                 )
