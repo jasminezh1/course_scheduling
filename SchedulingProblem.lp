@@ -1,6 +1,9 @@
 \* Course_Scheduling *\
 Minimize
-minimize_the_number_of_conflicts.: __dummy
+minimize_the_number_of_conflicts.: 0.5 Overlap_A_C + Overlap_A_E
+ + 0.5 Overlap_B_A + 1.5 Overlap_B_D + 2 Overlap_B_E + 1.5 Overlap_C_B
+ + 0.5 Overlap_C_E + Overlap_D_A + 2 Overlap_D_B + 0.5 Overlap_D_C
+ + 1.5 Overlap_E_A + 5 Overlap_E_B + Overlap_E_C + 1.5 Overlap_E_D
 Subject To
 Sum_of_Assignments_for_class_A: Class_Assignment_A_1 + Class_Assignment_A_2
  + Class_Assignment_A_3 = 1
@@ -493,7 +496,6 @@ Bounds
  0 <= Room_Assignment_E_1
  0 <= Room_Assignment_E_2
  0 <= Room_Assignment_E_3
- __dummy = 0
 Generals
 Class_Assignment_A_1
 Class_Assignment_A_2

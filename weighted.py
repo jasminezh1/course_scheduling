@@ -11,8 +11,6 @@ roomTimeSlots = [1,2,3]
 # assume for now all the rooms have the correct resources for all the classes
 
 overlap = np.array([[0,1,0,2,3],[1,0,3,4,10],[0,3,0,1,2],[2,4,1,0,3],[3,10,2,3,0]])
-overlap = pl.makeDict([classes, classes], overlap, 0)
-
 
 sched = pl.LpProblem("Course Scheduling")
 
