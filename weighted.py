@@ -10,11 +10,9 @@ roomTimeSlots = [1,2,3]
 #roomTimeSlots = [[1,2,3],[1],[1,2],[1,2,3]] # time slots that rooms can be scheduled at
 # assume for now all the rooms have the correct resources for all the classes
 
-overlap = np.array([[0,1,0,2,3],[1,0,3,4,5],[0,3,0,1,2],[2,4,1,0,3],[3,5,2,3,0]])
+overlap = np.array([[0,1,0,2,3],[1,0,3,4,10],[0,3,0,1,2],[2,4,1,0,3],[3,10,2,3,0]])
 overlap = pl.makeDict([classes, classes], overlap, 0)
 
-#combine rooms and room time slots to simplify things for now?
-roomTimes = ['a1', 'a2', 'a3', 'b1', 'b2', 'b3', 'c1', 'c2', 'c3']
 
 sched = pl.LpProblem("Course Scheduling")
 
@@ -29,6 +27,9 @@ cVars = pl.LpVariable.dicts("Class Assignment", (classes, classTimeSlots), 0, No
 
 roomAssignments = [(c,r) for c in classes for r in rooms]
 rVars = pl.LpVariable.dicts("Room Assignment", (classes, rooms), 0, None, pl.LpInteger)
+
+indicateOverlap = [(c1,c2) for c1 in classes for c2 in classes]
+oVars = pl.LpVariable.dicts("Overlap", (classes, classes), 0, None, pl.LpInteger)
 
 # hmmm want to weight by comparing the classes that are at the same time
 # **** below is very wrong because overlap is not used correctly
@@ -45,7 +46,7 @@ for class1 in classes:
     count2 = 0
     for class2 in classes:
         if class1 == class2: continue # -- a course can't conflict with itself.
-        overlap_size = overlap[count1][count2]
+        overlap_size = overlap[count1][count2] * oVars[class1][class2]
         conflicts += (overlap_size/2.0)
         count2+=1
     count1+=1
@@ -78,6 +79,15 @@ for c1 in classes:
                     cVars[c1][t] + cVars[c2][t] + rVars[c1][r] + rVars[c2][r] <=3
                 )
 
+
+for c1 in classes:
+    for c2 in classes:
+        for t in classTimeSlots:
+            if(c1==c2): continue
+            sched += (
+                cVars[c1][t] + cVars[c2][t]  <= oVars[c1][c2] + 1
+            )
+
 # The problem data is written to an .lp file
 sched.writeLP("SchedulingProblem.lp")
 
@@ -90,3 +100,6 @@ print("Status:", pl.LpStatus[sched.status])
 # Each of the variables is printed with it's resolved optimum value
 for v in sched.variables():
     print(v.name, "=", v.varValue)
+
+
+# assignments look very suspicious. check validity.

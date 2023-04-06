@@ -204,20 +204,80 @@ _C18: Class_Assignment_A_3 + Class_Assignment_C_3 + Room_Assignment_A_3
  + Room_Assignment_C_3 <= 3
 _C180: Class_Assignment_D_3 + Class_Assignment_E_3 + Room_Assignment_D_3
  + Room_Assignment_E_3 <= 3
+_C181: Class_Assignment_A_1 + Class_Assignment_B_1 - Overlap_A_B <= 1
+_C182: Class_Assignment_A_2 + Class_Assignment_B_2 - Overlap_A_B <= 1
+_C183: Class_Assignment_A_3 + Class_Assignment_B_3 - Overlap_A_B <= 1
+_C184: Class_Assignment_A_1 + Class_Assignment_C_1 - Overlap_A_C <= 1
+_C185: Class_Assignment_A_2 + Class_Assignment_C_2 - Overlap_A_C <= 1
+_C186: Class_Assignment_A_3 + Class_Assignment_C_3 - Overlap_A_C <= 1
+_C187: Class_Assignment_A_1 + Class_Assignment_D_1 - Overlap_A_D <= 1
+_C188: Class_Assignment_A_2 + Class_Assignment_D_2 - Overlap_A_D <= 1
+_C189: Class_Assignment_A_3 + Class_Assignment_D_3 - Overlap_A_D <= 1
 _C19: Class_Assignment_A_1 + Class_Assignment_D_1 + Room_Assignment_A_1
  + Room_Assignment_D_1 <= 3
+_C190: Class_Assignment_A_1 + Class_Assignment_E_1 - Overlap_A_E <= 1
+_C191: Class_Assignment_A_2 + Class_Assignment_E_2 - Overlap_A_E <= 1
+_C192: Class_Assignment_A_3 + Class_Assignment_E_3 - Overlap_A_E <= 1
+_C193: Class_Assignment_A_1 + Class_Assignment_B_1 - Overlap_B_A <= 1
+_C194: Class_Assignment_A_2 + Class_Assignment_B_2 - Overlap_B_A <= 1
+_C195: Class_Assignment_A_3 + Class_Assignment_B_3 - Overlap_B_A <= 1
+_C196: Class_Assignment_B_1 + Class_Assignment_C_1 - Overlap_B_C <= 1
+_C197: Class_Assignment_B_2 + Class_Assignment_C_2 - Overlap_B_C <= 1
+_C198: Class_Assignment_B_3 + Class_Assignment_C_3 - Overlap_B_C <= 1
+_C199: Class_Assignment_B_1 + Class_Assignment_D_1 - Overlap_B_D <= 1
 _C2: Class_Assignment_A_1 + Class_Assignment_B_1 + Room_Assignment_A_2
  + Room_Assignment_B_2 <= 3
 _C20: Class_Assignment_A_1 + Class_Assignment_D_1 + Room_Assignment_A_2
  + Room_Assignment_D_2 <= 3
+_C200: Class_Assignment_B_2 + Class_Assignment_D_2 - Overlap_B_D <= 1
+_C201: Class_Assignment_B_3 + Class_Assignment_D_3 - Overlap_B_D <= 1
+_C202: Class_Assignment_B_1 + Class_Assignment_E_1 - Overlap_B_E <= 1
+_C203: Class_Assignment_B_2 + Class_Assignment_E_2 - Overlap_B_E <= 1
+_C204: Class_Assignment_B_3 + Class_Assignment_E_3 - Overlap_B_E <= 1
+_C205: Class_Assignment_A_1 + Class_Assignment_C_1 - Overlap_C_A <= 1
+_C206: Class_Assignment_A_2 + Class_Assignment_C_2 - Overlap_C_A <= 1
+_C207: Class_Assignment_A_3 + Class_Assignment_C_3 - Overlap_C_A <= 1
+_C208: Class_Assignment_B_1 + Class_Assignment_C_1 - Overlap_C_B <= 1
+_C209: Class_Assignment_B_2 + Class_Assignment_C_2 - Overlap_C_B <= 1
 _C21: Class_Assignment_A_1 + Class_Assignment_D_1 + Room_Assignment_A_3
  + Room_Assignment_D_3 <= 3
+_C210: Class_Assignment_B_3 + Class_Assignment_C_3 - Overlap_C_B <= 1
+_C211: Class_Assignment_C_1 + Class_Assignment_D_1 - Overlap_C_D <= 1
+_C212: Class_Assignment_C_2 + Class_Assignment_D_2 - Overlap_C_D <= 1
+_C213: Class_Assignment_C_3 + Class_Assignment_D_3 - Overlap_C_D <= 1
+_C214: Class_Assignment_C_1 + Class_Assignment_E_1 - Overlap_C_E <= 1
+_C215: Class_Assignment_C_2 + Class_Assignment_E_2 - Overlap_C_E <= 1
+_C216: Class_Assignment_C_3 + Class_Assignment_E_3 - Overlap_C_E <= 1
+_C217: Class_Assignment_A_1 + Class_Assignment_D_1 - Overlap_D_A <= 1
+_C218: Class_Assignment_A_2 + Class_Assignment_D_2 - Overlap_D_A <= 1
+_C219: Class_Assignment_A_3 + Class_Assignment_D_3 - Overlap_D_A <= 1
 _C22: Class_Assignment_A_2 + Class_Assignment_D_2 + Room_Assignment_A_1
  + Room_Assignment_D_1 <= 3
+_C220: Class_Assignment_B_1 + Class_Assignment_D_1 - Overlap_D_B <= 1
+_C221: Class_Assignment_B_2 + Class_Assignment_D_2 - Overlap_D_B <= 1
+_C222: Class_Assignment_B_3 + Class_Assignment_D_3 - Overlap_D_B <= 1
+_C223: Class_Assignment_C_1 + Class_Assignment_D_1 - Overlap_D_C <= 1
+_C224: Class_Assignment_C_2 + Class_Assignment_D_2 - Overlap_D_C <= 1
+_C225: Class_Assignment_C_3 + Class_Assignment_D_3 - Overlap_D_C <= 1
+_C226: Class_Assignment_D_1 + Class_Assignment_E_1 - Overlap_D_E <= 1
+_C227: Class_Assignment_D_2 + Class_Assignment_E_2 - Overlap_D_E <= 1
+_C228: Class_Assignment_D_3 + Class_Assignment_E_3 - Overlap_D_E <= 1
+_C229: Class_Assignment_A_1 + Class_Assignment_E_1 - Overlap_E_A <= 1
 _C23: Class_Assignment_A_2 + Class_Assignment_D_2 + Room_Assignment_A_2
  + Room_Assignment_D_2 <= 3
+_C230: Class_Assignment_A_2 + Class_Assignment_E_2 - Overlap_E_A <= 1
+_C231: Class_Assignment_A_3 + Class_Assignment_E_3 - Overlap_E_A <= 1
+_C232: Class_Assignment_B_1 + Class_Assignment_E_1 - Overlap_E_B <= 1
+_C233: Class_Assignment_B_2 + Class_Assignment_E_2 - Overlap_E_B <= 1
+_C234: Class_Assignment_B_3 + Class_Assignment_E_3 - Overlap_E_B <= 1
+_C235: Class_Assignment_C_1 + Class_Assignment_E_1 - Overlap_E_C <= 1
+_C236: Class_Assignment_C_2 + Class_Assignment_E_2 - Overlap_E_C <= 1
+_C237: Class_Assignment_C_3 + Class_Assignment_E_3 - Overlap_E_C <= 1
+_C238: Class_Assignment_D_1 + Class_Assignment_E_1 - Overlap_E_D <= 1
+_C239: Class_Assignment_D_2 + Class_Assignment_E_2 - Overlap_E_D <= 1
 _C24: Class_Assignment_A_2 + Class_Assignment_D_2 + Room_Assignment_A_3
  + Room_Assignment_D_3 <= 3
+_C240: Class_Assignment_D_3 + Class_Assignment_E_3 - Overlap_E_D <= 1
 _C25: Class_Assignment_A_3 + Class_Assignment_D_3 + Room_Assignment_A_1
  + Room_Assignment_D_1 <= 3
 _C26: Class_Assignment_A_3 + Class_Assignment_D_3 + Room_Assignment_A_2
@@ -398,6 +458,26 @@ Bounds
  0 <= Class_Assignment_E_1
  0 <= Class_Assignment_E_2
  0 <= Class_Assignment_E_3
+ 0 <= Overlap_A_B
+ 0 <= Overlap_A_C
+ 0 <= Overlap_A_D
+ 0 <= Overlap_A_E
+ 0 <= Overlap_B_A
+ 0 <= Overlap_B_C
+ 0 <= Overlap_B_D
+ 0 <= Overlap_B_E
+ 0 <= Overlap_C_A
+ 0 <= Overlap_C_B
+ 0 <= Overlap_C_D
+ 0 <= Overlap_C_E
+ 0 <= Overlap_D_A
+ 0 <= Overlap_D_B
+ 0 <= Overlap_D_C
+ 0 <= Overlap_D_E
+ 0 <= Overlap_E_A
+ 0 <= Overlap_E_B
+ 0 <= Overlap_E_C
+ 0 <= Overlap_E_D
  0 <= Room_Assignment_A_1
  0 <= Room_Assignment_A_2
  0 <= Room_Assignment_A_3
@@ -430,6 +510,26 @@ Class_Assignment_D_3
 Class_Assignment_E_1
 Class_Assignment_E_2
 Class_Assignment_E_3
+Overlap_A_B
+Overlap_A_C
+Overlap_A_D
+Overlap_A_E
+Overlap_B_A
+Overlap_B_C
+Overlap_B_D
+Overlap_B_E
+Overlap_C_A
+Overlap_C_B
+Overlap_C_D
+Overlap_C_E
+Overlap_D_A
+Overlap_D_B
+Overlap_D_C
+Overlap_D_E
+Overlap_E_A
+Overlap_E_B
+Overlap_E_C
+Overlap_E_D
 Room_Assignment_A_1
 Room_Assignment_A_2
 Room_Assignment_A_3
