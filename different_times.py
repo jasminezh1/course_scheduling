@@ -36,26 +36,34 @@ classTimeDict = {'A': [1,2,3], 'B': [1], 'C': [1,2,3], 'D': [1,2], 'E': [2,3]}
 k = []
 v = []
 
-for i in classTimeDict:
-    for j in classTimeDict[i]:
-        k.append(i)
-        v.append(j)
+# for i in classTimeDict:
+#     for j in classTimeDict[i]:
+#         k.append(i)
+#         v.append(j)
 
-print(k)
-print(v)
+test = {}
+
+for i in classTimeDict:
+    cVars = pl.LpVariable.dicts("Class Assignment", (classTimeDict, classTimeDict[i]), 0, None, pl.LpInteger)
+    print(cVars)
+    test.append(cVars)
+
+print(test)
 
 #grr = pt.TupList((t, p) for t in bgh for p in agh)
 #print(grr)
 
 #cVars = pl.LpVariable.dicts("Class Assignment", ((classTimeDict, classTimeDict[c]) for c in classTimeDict.keys()), 0, None, pl.LpInteger) 
-#cVars = pl.LpVariable.dicts("Class Assignment", (classTimeDict, classTimeSlots), 0, None, pl.LpInteger)
+cVars = pl.LpVariable.dicts("Class Assignment", (classTimeDict, classTimeSlots), 0, None, pl.LpInteger)
+
 #cVars = pl.LpVariable.dicts("Class Assignment", ((bgh, agh[c]) for c in range(len(bgh))), 0, None, pl.LpInteger)
 #cVars = pl.LpVariable.dicts("Class Assignment", (k, v), 0, None, pl.LpInteger)
 
-cVars = pl.LpVariable.dicts("Class Assignment", ((k[i],v[i]) for i in range(len(k))), 0, None, pl.LpInteger)
+#cVars = pl.LpVariable.dicts("Class Assignment", ((k[i],v[i]) for i in range(len(k))), 0, None, pl.LpInteger)
 
 # DESIRED CVARS: {'A': {1: Class_Assignment_A_1, 2: Class_Assignment_A_2, 3: Class_Assignment_A_3}, 'B': {1: Class_Assignment_B_1,}, 'C': {1: Class_Assignment_C_1, 2: Class_Assignment_C_2, 3: Class_Assignment_C_3}, 'D': {1: Class_Assignment_D_1, 2: Class_Assignment_D_2}, 'E': {2: Class_Assignment_E_2, 3: Class_Assignment_E_3}}
 # CURRENT CVARS: {('A', 1): Class_Assignment_('A',_1), ('A', 2): Class_Assignment_('A',_2), ('A', 3): Class_Assignment_('A',_3), ('B', 1): Class_Assignment_('B',_1), ('C', 1): Class_Assignment_('C',_1), ('C', 2): Class_Assignment_('C',_2), ('C', 3): Class_Assignment_('C',_3), ('D', 1): Class_Assignment_('D',_1), ('D', 2): Class_Assignment_('D',_2), ('E', 2): Class_Assignment_('E',_2), ('E', 3): Class_Assignment_('E',_3)}
+
 
 print(cVars)
 
