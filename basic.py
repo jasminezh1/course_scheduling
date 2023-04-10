@@ -58,6 +58,10 @@ sched.solve()
 # The status of the solution is printed to the screen
 print("Status:", pl.LpStatus[sched.status])
 
-# Each of the variables is printed with it's resolved optimum value
+# Each of the variables is printed with its resolved optimum value
 for v in sched.variables():
-    print(v.name, "=", v.varValue)
+    if(v.varValue == 1):
+        print(v.name, "=", v.varValue)
+
+# format the results so it looks good
+# use some string parser

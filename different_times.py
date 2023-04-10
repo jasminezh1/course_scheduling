@@ -18,13 +18,25 @@ T = len(classTimeSlots)
 R = len(rooms)
 
 for i in classTimeDict:
-    print(classTimeDict[i])
+    for j in classTimeDict[i]:
+        print(i, " ", j)
 
 classAssignments = [(c,t) for c in classTimeDict for t in classTimeDict[c]] 
+
 # this will need to be adjusted for variable time slots open
 # need to split this up. get the values for every classtime, then let that be the second argument
 # can i build up cVars
-cVars = pl.LpVariable.dicts("Class Assignment", ((c, classTimeDict[c]) for c in classTimeDict), 0, None, pl.LpInteger) 
+
+
+classes = ['A', 'B', 'C', 'D', 'E']
+classTimeSlots = [1,2,3]
+classTimeDict = {'A': [1,2,3], 'B': [1], 'C': [1,2,3], 'D': [1,2], 'E': [2,3]}
+
+cVars = pl.LpVariable.dicts("Class Assignment", ((classTimeDict, classTimeDict[c]) for c in classTimeDict.keys()), 0, None, pl.LpInteger) 
+#cVars = pl.LpVariable.dicts("Class Assignment", (classTimeDict, classTimeSlots), 0, None, pl.LpInteger)
+
+
+print(cVars)
 
 roomAssignments = [(c,r) for c in classTimeDict for r in roomTimeDict]
 rVars = pl.LpVariable.dicts("Room Assignment", (classTimeDict, roomTimeDict), 0, None, pl.LpInteger)
@@ -43,20 +55,6 @@ for c in classTimeDict:
         f"Sum_of_Assignments_for_room_{c}",
     )
 
-# rooms only scheduled when available
-# want to check that for the time and the room the class is scheduled for, then that time is in the val of the roomTimeDict
-# for c in classTimeDict:
-#     for t in classTimeDict[c]:
-#         for r in roomTimeDict:
-#             # t \in roomTimeDict[r]
-#             roomTimes = roomTimeDict[r]
-#             sched += (
-#                 # if (cVars[c][t] + rVars[c][r] == 2), then enforce t in roomTimes
-#                 # how to translate this to LP? searched it up, not sure how decision variable works
-#             )
-
-#classes only scheduled during available class time
-# i think this is satisfied by nature of the array? not positive
 
 # no two classes in the same room in the same time
 for c1 in classTimeDict:
@@ -77,6 +75,10 @@ sched.solve()
 # The status of the solution is printed to the screen
 print("Status:", pl.LpStatus[sched.status])
 
-# Each of the variables is printed with it's resolved optimum value
+# Each of the variables is printed with its resolved optimum value
 for v in sched.variables():
-    print(v.name, "=", v.varValue)
+    if(v.varValue == 1):
+        print(v.name, "=", v.varValue)
+
+# format the results so it looks good
+# use some string parser

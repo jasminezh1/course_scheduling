@@ -20,6 +20,9 @@ R = len(rooms)
 
 
 classAssignments = [(c,t) for c in classes for t in classTimeSlots] 
+
+print(type(classTimeSlots))
+
 # this will need to be adjusted for variable time slots open
 cVars = pl.LpVariable.dicts("Class Assignment", (classes, classTimeSlots), 0, None, pl.LpInteger)
 
@@ -95,9 +98,13 @@ sched.solve()
 # The status of the solution is printed to the screen
 print("Status:", pl.LpStatus[sched.status])
 
-# Each of the variables is printed with it's resolved optimum value
+# Each of the variables is printed with its resolved optimum value
 for v in sched.variables():
-    print(v.name, "=", v.varValue)
+    if(v.varValue == 1):
+        print(v.name, "=", v.varValue)
 
+# format the results so it looks good
+# use some string parser
 
-# assignments look very suspicious. check validity.
+print("Number of students in overlapping courses: ", pl.value(sched.objective))
+#
