@@ -25,6 +25,7 @@ print(type(classTimeSlots))
 
 # this will need to be adjusted for variable time slots open
 cVars = pl.LpVariable.dicts("Class Assignment", (classes, classTimeSlots), 0, None, pl.LpInteger)
+print(cVars)
 
 roomAssignments = [(c,r) for c in classes for r in rooms]
 rVars = pl.LpVariable.dicts("Room Assignment", (classes, rooms), 0, None, pl.LpInteger)
