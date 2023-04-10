@@ -111,8 +111,8 @@ print("Status:", pl.LpStatus[sched.status])
 
 # Each of the variables is printed with its resolved optimum value
 for v in sched.variables():
-    # if(v.varValue == 1):
-    print(v.name, "=", v.varValue)
+    if(v.varValue == 1):
+        print(v.name, "=", v.varValue)
 
 # format the results so it looks good
 # use some string parser
