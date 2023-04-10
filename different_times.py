@@ -41,20 +41,22 @@ v = []
 #         k.append(i)
 #         v.append(j)
 
-test = {}
+cVars = {}
 
 for i in classTimeDict:
-    cVars = pl.LpVariable.dicts("Class Assignment", (classTimeDict, classTimeDict[i]), 0, None, pl.LpInteger)
-    print(cVars)
-    test.append(cVars)
+    up = pl.LpVariable.dicts("Class Assignment", (i, classTimeDict[i]), 0, None, pl.LpInteger)
+    # print("!!!!!!!")
+    # print(cVars)
+    cVars.update(up)
 
-print(test)
+print("!!!!!!AAAAAAAAAA!!!!!!")
+print(cVars)
 
 #grr = pt.TupList((t, p) for t in bgh for p in agh)
 #print(grr)
 
 #cVars = pl.LpVariable.dicts("Class Assignment", ((classTimeDict, classTimeDict[c]) for c in classTimeDict.keys()), 0, None, pl.LpInteger) 
-cVars = pl.LpVariable.dicts("Class Assignment", (classTimeDict, classTimeSlots), 0, None, pl.LpInteger)
+#cVars = pl.LpVariable.dicts("Class Assignment", (classTimeDict, classTimeSlots), 0, None, pl.LpInteger)
 
 #cVars = pl.LpVariable.dicts("Class Assignment", ((bgh, agh[c]) for c in range(len(bgh))), 0, None, pl.LpInteger)
 #cVars = pl.LpVariable.dicts("Class Assignment", (k, v), 0, None, pl.LpInteger)
@@ -65,8 +67,6 @@ cVars = pl.LpVariable.dicts("Class Assignment", (classTimeDict, classTimeSlots),
 # CURRENT CVARS: {('A', 1): Class_Assignment_('A',_1), ('A', 2): Class_Assignment_('A',_2), ('A', 3): Class_Assignment_('A',_3), ('B', 1): Class_Assignment_('B',_1), ('C', 1): Class_Assignment_('C',_1), ('C', 2): Class_Assignment_('C',_2), ('C', 3): Class_Assignment_('C',_3), ('D', 1): Class_Assignment_('D',_1), ('D', 2): Class_Assignment_('D',_2), ('E', 2): Class_Assignment_('E',_2), ('E', 3): Class_Assignment_('E',_3)}
 
 
-print(cVars)
-
 roomAssignments = [(c,r) for c in classTimeDict for r in roomTimeDict]
 rVars = pl.LpVariable.dicts("Room Assignment", (classTimeDict, roomTimeDict), 0, None, pl.LpInteger)
 
@@ -75,7 +75,7 @@ rVars = pl.LpVariable.dicts("Room Assignment", (classTimeDict, roomTimeDict), 0,
 for c in classTimeDict:
     # all classes assigned a time
     sched += (
-        pl.lpSum([cVars[c][t] for t in classTimeSlots]) == 1,
+        pl.lpSum([cVars[c][t] for t in classTimeDict[c]]) == 1,
         f"Sum_of_Assignments_for_class_{c}",
     )
     # all classes assigned a room
@@ -91,6 +91,11 @@ for c1 in classTimeDict:
         for t in classTimeDict[c1]:
             for r in roomTimeDict:
                 if(c1==c2): continue
+                # print("testing", cVars[c2])
+                # print("testing2",cVars[c2][t])
+                # print(cVars[c2].get(t))
+                if(cVars[c2].get(t) == None): 
+                    continue
                 sched += (
                     cVars[c1][t] + cVars[c2][t] + rVars[c1][r] + rVars[c2][r] <=3
                 )
@@ -106,8 +111,8 @@ print("Status:", pl.LpStatus[sched.status])
 
 # Each of the variables is printed with its resolved optimum value
 for v in sched.variables():
-    if(v.varValue == 1):
-        print(v.name, "=", v.varValue)
+    # if(v.varValue == 1):
+    print(v.name, "=", v.varValue)
 
 # format the results so it looks good
 # use some string parser
