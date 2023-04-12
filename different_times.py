@@ -63,11 +63,14 @@ for c in classTimeDict:
 # no two classes in the same room in the same time
 for c1 in classTimeDict:
     for c2 in classTimeDict:
+        if(c1==c2): continue
         for t in classTimeDict[c1]:
+            if(t not in classTimeDict[c2]): 
+                print("BAD!", c1, ", ", c2, ", ", t)
+                continue
+            print("GOOD!", c1, ", ", c2, ", ", t)
+
             for r in roomTimeDict: # this is ROOM NUMBER ! but also this should work?
-                if(c1==c2): continue
-                if(cVars[c2].get(t) == None): 
-                    continue
 
                 # alright need to check for availabity of room?
                 sched += (
