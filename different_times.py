@@ -10,6 +10,8 @@ roomTimeSlots = [1,2,3]
 
 # class --> time slot class can be scheduled at
 classTimeDict = {'A': [1,2,3], 'B': [1], 'C': [1,2,3], 'D': [1,2], 'E': [2,3]}
+# oh no I need to map to what rooms each class can be in. grrrr
+
 # room --> time slot room can be scheduled at
 roomTimeDict = {1:[1,2,3], 2:[1], 3:[1,2], 4: [3]}
 numRooms = len(roomTimeDict)
@@ -30,7 +32,7 @@ print(Z)
 
 classAssignments = [(c,t) for c in classTimeDict for t in classTimeDict[c]] 
 
-
+# class, time
 cVars = {}
 
 for i in classTimeDict:
@@ -39,6 +41,8 @@ for i in classTimeDict:
 
 
 roomAssignments = [(c,r) for c in classTimeDict for r in roomTimeDict]
+
+# class, room
 rVars = pl.LpVariable.dicts("Room Assignment", (classTimeDict, roomTimeDict), 0, None, pl.LpInteger)
 
 # need to represent x_{c,t} and y_{c,r}
@@ -60,24 +64,26 @@ for c in classTimeDict:
 for c1 in classTimeDict:
     for c2 in classTimeDict:
         for t in classTimeDict[c1]:
-            for r in roomTimeDict:
+            for r in roomTimeDict: # this is ROOM NUMBER ! but also this should work?
                 if(c1==c2): continue
                 if(cVars[c2].get(t) == None): 
                     continue
+
+                # alright need to check for availabity of room?
                 sched += (
                     cVars[c1][t] + cVars[c2][t] + rVars[c1][r] + rVars[c2][r] <=3
                 )
 
-
+# class only scheduled in a room if room available during that time
 for c in classTimeDict:
     for t in classTimeDict[c]:
         for r in roomTimeDict:
-            print(t not in roomTimeDict[r])
-            if(t not in roomTimeDict[r]): 
-                continue
+
+            # pretty sure this is correct
             sched += (
                 cVars[c][t] + rVars[c][r] - 1 <= Z[r-1][t-1]
             )
+            # print(cVars[c][t], ", ", rVars[c][r], " -1 <= ", Z[r-1][t-1])
 
 # The problem data is written to an .lp file
 sched.writeLP("SchedulingProblem.lp")
@@ -95,3 +101,10 @@ for v in sched.variables():
 
 # format the results so it looks good
 # use some string parser
+
+print(cVars)
+print(rVars)
+print(cVars['D'].get(1))
+print(cVars['C'].get(1))
+print(rVars['D'].get(1))
+print(rVars['C'].get(1))
