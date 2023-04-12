@@ -3,13 +3,16 @@ import numpy as np
 
 
 # class --> time slot class can be scheduled at
-classTimeDict = {'A': [1,2,3], 'B': [1], 'C': [1,2,3]}
+classTimeDict = {'A': [1,2,3], 'B': [1], 'C': [1,2,3], 'D': [1,2,3], 'E': [2,3], 
+                 'F': [1,2,3], 'G': [3], 'H': [1,2], 'I': [1,2,3], 'J': [2,3]}
 
 # class --> room it can be scheduled in
-classRoomDict = {'A': [1,2,3], 'B': [2,3], 'C': [1]}
+classRoomDict = {'A': [1,2,3,4,5,6,7,8,9,10], 'B': [2,3], 'C': [1,4,6,8,9], 'D': [2,3,5], 'E': [2,3,4],
+                 'F': [1,2,3,9,10], 'G': [2,3,5,6,8,10], 'H': [1,4,5], 'I': [2,3,5,6], 'J': [2,3,4]}
 
 # room --> time slot room can be scheduled at
-roomTimeDict = {1:[1,2,3], 2:[3,4],3:[1,2,3,4]}
+roomTimeDict = {1:[1,2,3], 2:[1], 3:[1,2], 4: [3], 5: [3,4],
+                6:[2,3], 7:[1], 8:[1,2], 9: [3,4], 10: [1,3,4]}
 
 # |C| x |C| number of students that conflict in a pair of courses
 overlap = np.array([[0,1,0,2,3,1,2,3,4,5],
