@@ -1,4 +1,7 @@
+combined.py combines weighted.py and different_times.py. This is the most updated working version.
+
 basic.py is the very basic code -- small set of classes, rooms, times. currently issue where the wrong LP solver is used.
-weighted.py builds off basic.py and is a nonworking attempt to include an objective function of minimizing the number of students affected by classes overlapping.
-different_times.py is a nonworking attempt to have rooms and classes only be available at certain times
+weighted.py builds off basic.py and includes an objective function to minimizing the number of students affected by classes overlapping.
+different_times.py has rooms and classes be only be available at different variable length times, and classes scheduled at variable number of and certain rooms
+
 ignore_attept.py is a failed attempt based on a preexisting repository. ignore this.
