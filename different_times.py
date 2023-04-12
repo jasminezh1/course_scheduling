@@ -10,6 +10,7 @@ roomTimeSlots = [1,2,3]
 
 # class --> time slot class can be scheduled at
 classTimeDict = {'A': [1,2,3], 'B': [1], 'C': [1,2,3], 'D': [1,2], 'E': [2,3]}
+classRoomDict = {'A': [1,2,3,4], 'B': [2,3], 'C': [1,4], 'D': [1,2], 'E': [2,3,4]}
 # oh no I need to map to what rooms each class can be in. grrrr
 
 # room --> time slot room can be scheduled at
@@ -20,30 +21,22 @@ Z = np.zeros((numRooms,numTimes))
 
 sched = pl.LpProblem("Course Scheduling")
 
-C = len(classes)
-T = len(classTimeSlots)
-R = len(rooms)
-
 for i in roomTimeDict:
     for j in roomTimeDict[i]:
         Z[i-1][j-1] = 1
 
-print(Z)
-
-classAssignments = [(c,t) for c in classTimeDict for t in classTimeDict[c]] 
-
 # class, time
 cVars = {}
+# class, room
+rVars = {}
 
 for i in classTimeDict:
-    up = pl.LpVariable.dicts("Class Assignment", (i, classTimeDict[i]), 0, None, pl.LpInteger)
+    up = pl.LpVariable.dicts("Time Assignment", (i, classTimeDict[i]), 0, None, pl.LpInteger)
     cVars.update(up)
 
-
-roomAssignments = [(c,r) for c in classTimeDict for r in roomTimeDict]
-
-# class, room
-rVars = pl.LpVariable.dicts("Room Assignment", (classTimeDict, roomTimeDict), 0, None, pl.LpInteger)
+for i in classRoomDict:
+    up = pl.LpVariable.dicts("Room Assignment", (i, classRoomDict[i]), 0, None, pl.LpInteger)
+    rVars.update(up)
 
 # need to represent x_{c,t} and y_{c,r}
 
@@ -55,7 +48,7 @@ for c in classTimeDict:
     )
     # all classes assigned a room
     sched += (
-        pl.lpSum([rVars[c][r] for r in roomTimeDict]) == 1,
+        pl.lpSum([rVars[c][r] for r in classRoomDict[c]]) == 1,
         f"Sum_of_Assignments_for_room_{c}",
     )
 
@@ -66,11 +59,20 @@ for c1 in classTimeDict:
         if(c1==c2): continue
         for t in classTimeDict[c1]:
             if(t not in classTimeDict[c2]): 
-                print("BAD!", c1, ", ", c2, ", ", t)
+                # print("BAD!", c1, ", ", c2, ", ", t)
                 continue
-            print("GOOD!", c1, ", ", c2, ", ", t)
+            # print("GOOD!", c1, ", ", c2, ", ", t)
 
-            for r in roomTimeDict: # this is ROOM NUMBER ! but also this should work?
+            for r in classRoomDict[c1]: # this is ROOM NUMBER ! but also this should work?
+
+                if(r not in classRoomDict[c2]): 
+                    # print("BAD!", c1, ", ", c2, ", ", t, ", ", r)
+                    continue
+                # print("GOOD!", c1, ", ", c2, ", ", t, ", ", r)
+                # print(cVars[c1][t])
+                # print(cVars[c2][t])
+                # print(rVars[c1][r])
+                # print(rVars[c2][r])
 
                 # alright need to check for availabity of room?
                 sched += (
@@ -80,7 +82,7 @@ for c1 in classTimeDict:
 # class only scheduled in a room if room available during that time
 for c in classTimeDict:
     for t in classTimeDict[c]:
-        for r in roomTimeDict:
+        for r in classRoomDict[c]:
 
             # pretty sure this is correct
             sched += (
@@ -104,10 +106,3 @@ for v in sched.variables():
 
 # format the results so it looks good
 # use some string parser
-
-print(cVars)
-print(rVars)
-print(cVars['D'].get(1))
-print(cVars['C'].get(1))
-print(rVars['D'].get(1))
-print(rVars['C'].get(1))
