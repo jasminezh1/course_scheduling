@@ -66,8 +66,8 @@ for c1 in classTimeDict:
         for t in classTimeDict[c1]:
             for r in roomTimeDict: # this is ROOM NUMBER ! but also this should work?
                 if(c1==c2): continue
-                if(cVars[c2].get(t) == None): 
-                    continue
+                # if(cVars[c2].get(t) == None): 
+                #     continue
 
                 # alright need to check for availabity of room?
                 sched += (
