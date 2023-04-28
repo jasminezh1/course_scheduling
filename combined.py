@@ -1,30 +1,29 @@
 import pulp as pl
 import numpy as np
+import pandas as pd
 
+def read_in(filename):
+
+    df = pd.read_csv(filename)
+    my_dict = df.to_dict()
+
+    for i in my_dict:
+        vals = list(my_dict[i].values())
+        cleanedList = [int(x) for x in vals if x == x]
+        my_dict[i] = cleanedList
+    return my_dict
 
 # class --> time slot class can be scheduled at
-classTimeDict = {'A': [1,2,3], 'B': [1], 'C': [1,2,3], 'D': [1,2,3], 'E': [2,3], 
-                 'F': [1,2,3], 'G': [3], 'H': [1,2], 'I': [1,2,3], 'J': [2,3]}
+classTimeDict = read_in("courses_times.csv")
 
 # class --> room it can be scheduled in
-classRoomDict = {'A': [1,2,3,4,5,6,7,8,9,10], 'B': [2,3], 'C': [1,4,6,8,9], 'D': [2,3,5], 'E': [2,3,4],
-                 'F': [1,2,3,9,10], 'G': [2,3,5,6,8,10], 'H': [1,4,5], 'I': [2,3,5,6], 'J': [2,3,4]}
+classRoomDict = read_in("courses_rooms.csv")
 
 # room --> time slot room can be scheduled at
-roomTimeDict = {1:[1,2,3], 2:[1], 3:[1,2], 4: [3], 5: [3,4],
-                6:[2,3], 7:[1], 8:[1,2], 9: [3,4], 10: [1,3,4]}
+roomTimeDict = read_in("rooms_times2.csv")
 
 # |C| x |C| number of students that conflict in a pair of courses
-overlap = np.array([[0,1,0,2,3,1,2,3,4,5],
-                    [1,0,3,4,10,2,2,2,2,2],
-                    [0,3,0,1,2,0,0,0,0,1],
-                    [2,4,1,0,100,1,5,1,5,1],
-                    [3,10,2,100,0,3,4,5,6,7],
-                    [1,2,0,1,3,0,10,10,10,10],
-                    [2,2,0,5,4,10,0,1,2,3],
-                    [3,2,0,1,5,10,1,0,5,10],
-                    [4,2,0,5,6,10,2,5,0,100],
-                    [5,2,1,1,7,10,3,10,100,0]])
+overlap = np.loadtxt(open("overlap.csv"), delimiter=",")
 
 numRooms = len(roomTimeDict)
 numTimes = max(max(roomTimeDict.values()))
@@ -34,7 +33,8 @@ sched = pl.LpProblem("Course Scheduling")
 
 for i in roomTimeDict:
     for j in roomTimeDict[i]:
-        Z[i-1][j-1] = 1
+        ind = int(i)
+        Z[ind-1][j-1] = 1
 
 # class, time
 cVars = {}
@@ -42,6 +42,7 @@ cVars = {}
 rVars = {}
 
 for i in classTimeDict:
+    print(i, " ****** ", classTimeDict[i])
     up = pl.LpVariable.dicts("Time Assignment", (i, classTimeDict[i]), 0, None, pl.LpInteger)
     cVars.update(up)
 
@@ -66,7 +67,7 @@ for class1 in classTimeDict:
 
 sched += conflicts, "minimize the number of conflicts."
 
-
+print(cVars)
 
 for c in classTimeDict:
     # all classes assigned a time
@@ -116,6 +117,3 @@ print("Status:", pl.LpStatus[sched.status])
 for v in sched.variables():
     if(v.varValue == 1):
         print(v.name, "=", v.varValue)
-
-# format the results so it looks good
-# use some string parser
