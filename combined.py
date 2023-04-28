@@ -14,16 +14,16 @@ def read_in(filename):
     return my_dict
 
 # class --> time slot class can be scheduled at
-classTimeDict = read_in("courses_times.csv")
+classTimeDict = read_in("data_files/courses_times.csv")
 
 # class --> room it can be scheduled in
-classRoomDict = read_in("courses_rooms.csv")
+classRoomDict = read_in("data_files/courses_rooms.csv")
 
 # room --> time slot room can be scheduled at
-roomTimeDict = read_in("rooms_times2.csv")
+roomTimeDict = read_in("data_files/rooms_times2.csv")
 
 # |C| x |C| number of students that conflict in a pair of courses
-overlap = np.loadtxt(open("overlap.csv"), delimiter=",")
+overlap = np.loadtxt(open("data_files/overlap.csv"), delimiter=",")
 
 numRooms = len(roomTimeDict)
 numTimes = max(max(roomTimeDict.values()))
@@ -42,7 +42,6 @@ cVars = {}
 rVars = {}
 
 for i in classTimeDict:
-    print(i, " ****** ", classTimeDict[i])
     up = pl.LpVariable.dicts("Time Assignment", (i, classTimeDict[i]), 0, None, pl.LpInteger)
     cVars.update(up)
 
@@ -66,8 +65,6 @@ for class1 in classTimeDict:
     count1+=1
 
 sched += conflicts, "minimize the number of conflicts."
-
-print(cVars)
 
 for c in classTimeDict:
     # all classes assigned a time
