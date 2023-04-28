@@ -1,4 +1,4 @@
-combined.py combines weighted.py and different_times.py. This is the most updated working version.
+scheduled.py is the most updated working version.
 
 basic.py is the very basic code -- small set of classes, rooms, times. currently issue where the wrong LP solver is used.
 weighted.py builds off basic.py and includes an objective function to minimizing the number of students affected by classes overlapping.
