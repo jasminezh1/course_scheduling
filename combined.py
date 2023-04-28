@@ -13,6 +13,16 @@ def read_in(filename):
         my_dict[i] = cleanedList
     return my_dict
 
+def get_course(filename):
+
+    df = pd.read_csv(filename)
+    my_dict = df.to_dict()
+    for i in my_dict:
+        vals = list(my_dict[i].values())
+        my_dict[i] = vals[0]
+    return my_dict
+
+
 # class --> time slot class can be scheduled at
 classTimeDict = read_in("data_files/courses_times.csv")
 
@@ -110,7 +120,26 @@ sched.writeLP("SchedulingProblem.lp")
 sched.solve()
 print("Status:", pl.LpStatus[sched.status])
 
+finalTimes = {}
+finalRooms = {}
+course_names = get_course("data_files/map_name.csv")
+room_names = get_course("data_files/map_room.csv")
+time_names = get_course("data_files/map_time.csv")
+
 # print optimal values
 for v in sched.variables():
     if(v.varValue == 1):
         print(v.name, "=", v.varValue)
+        course = v.name[16:17]
+        course = course_names[course]
+        if(v.name[0:4] == "Room"):
+            room = v.name[18:]
+            room = room_names[room]
+            finalRooms[course] = room
+        else:
+            time = v.name[18:]
+            time = time_names[time]
+            finalTimes[course] = time
+
+for i in finalTimes:
+    print(i, "is scheduled in", finalRooms[i], "from", finalTimes[i], ".")
