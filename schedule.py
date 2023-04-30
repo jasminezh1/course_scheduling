@@ -51,25 +51,12 @@ cVars = {}
 # class, room
 rVars = {}
 
-# for i in classTimeDict:
-#     up = pl.LpVariable.dicts("Time Assignment", (i, classTimeDict[i]), 0, None, pl.LpInteger)
-#     # print("THIS IS i: ", i)
-#     # please = i
-#     # up = pl.LpVariable.dicts("Time Assignment", please, lowBound = 0, upBound = 1, cat = pl.LpInteger)
-#     # up[i].setInitialValue(classTimeDict[i])
-#     cVars.update(up)
-
 for key, values in classTimeDict.items():
     cVars[key] = {}
     for value in values:
         var = 'Time_Assignment_' + key + '_' + str(value)
         cVars[key][value] = pl.LpVariable(var, lowBound=0, upBound=1, cat=pl.LpInteger)
 
-print("THESE ARE THE VARS ", cVars)
-
-# for i in classRoomDict:
-#     up = pl.LpVariable.dicts("Room Assignment", (i, classRoomDict[i]), 0, None, pl.LpInteger)
-#     rVars.update(up)
 
 for key, values in classRoomDict.items():
     rVars[key] = {}
@@ -141,7 +128,6 @@ for c in classTimeDict:
 sched.writeLP("SchedulingProblem.lp")
 
 solver_list = pl.listSolvers(onlyAvailable=True)
-print("THESE ARE THE SOLVERS: ", solver_list)
 solver = pl.getSolver('GLPK_CMD')
 
 start_time = time.time()
@@ -165,7 +151,6 @@ for v in sched.variables():
         substring = var.split('_')
         course = substring[2]
         val = substring[3]
-        print("THIS IS THE COURSE NAME: ", course, "VAL : ", val)
         if(v.name[0:4] == "Room"):
             room = room_names[val]
             finalRooms[course] = room
