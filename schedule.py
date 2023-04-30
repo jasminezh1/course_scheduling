@@ -1,6 +1,7 @@
 import pulp as pl
 import numpy as np
 import pandas as pd
+import time
 
 def read_in(filename):
 
@@ -22,12 +23,11 @@ def get_course(filename):
         my_dict[i] = vals[0]
     return my_dict
 
-
 # class --> time slot class can be scheduled at
-classTimeDict = read_in("data_files/courses_times.csv")
+classTimeDict = read_in("data_files/courses_times2.csv")
 
 # class --> room it can be scheduled in
-classRoomDict = read_in("data_files/courses_rooms.csv")
+classRoomDict = read_in("data_files/courses_rooms2.csv")
 
 # room --> time slot room can be scheduled at
 roomTimeDict = read_in("data_files/rooms_times2.csv")
@@ -51,13 +51,31 @@ cVars = {}
 # class, room
 rVars = {}
 
-for i in classTimeDict:
-    up = pl.LpVariable.dicts("Time Assignment", (i, classTimeDict[i]), 0, None, pl.LpInteger)
-    cVars.update(up)
+# for i in classTimeDict:
+#     up = pl.LpVariable.dicts("Time Assignment", (i, classTimeDict[i]), 0, None, pl.LpInteger)
+#     # print("THIS IS i: ", i)
+#     # please = i
+#     # up = pl.LpVariable.dicts("Time Assignment", please, lowBound = 0, upBound = 1, cat = pl.LpInteger)
+#     # up[i].setInitialValue(classTimeDict[i])
+#     cVars.update(up)
 
-for i in classRoomDict:
-    up = pl.LpVariable.dicts("Room Assignment", (i, classRoomDict[i]), 0, None, pl.LpInteger)
-    rVars.update(up)
+for key, values in classTimeDict.items():
+    cVars[key] = {}
+    for value in values:
+        var = 'Time_Assignment_' + key + '_' + str(value)
+        cVars[key][value] = pl.LpVariable(var, lowBound=0, upBound=1, cat=pl.LpInteger)
+
+print("THESE ARE THE VARS ", cVars)
+
+# for i in classRoomDict:
+#     up = pl.LpVariable.dicts("Room Assignment", (i, classRoomDict[i]), 0, None, pl.LpInteger)
+#     rVars.update(up)
+
+for key, values in classRoomDict.items():
+    rVars[key] = {}
+    for value in values:
+        var = 'Room_Assignment_' + key + '_' + str(value)
+        rVars[key][value] = pl.LpVariable(var, lowBound=0, upBound=1, cat=pl.LpInteger)
 
 oVars = pl.LpVariable.dicts("Overlap", (classTimeDict, classTimeDict), 0, None, pl.LpInteger)
 
@@ -93,6 +111,11 @@ for c in classTimeDict:
 for c1 in classTimeDict:
     for c2 in classTimeDict:
         if(c1==c2): continue
+
+        sched += (
+            oVars[c1][c2] <=1
+        )
+
         for t in classTimeDict[c1]:
             if(t not in classTimeDict[c2]): 
                 continue
@@ -117,8 +140,16 @@ for c in classTimeDict:
 # write to an lp file
 sched.writeLP("SchedulingProblem.lp")
 
-sched.solve()
+solver_list = pl.listSolvers(onlyAvailable=True)
+print("THESE ARE THE SOLVERS: ", solver_list)
+solver = pl.getSolver('GLPK_CMD')
+
+start_time = time.time()
+sched.solve(solver)
 print("Status:", pl.LpStatus[sched.status])
+
+seconds = time.time()
+print("THE TIME IT TOOK IS: ", seconds - start_time)
 
 finalTimes = {}
 finalRooms = {}
@@ -129,16 +160,17 @@ time_names = get_course("data_files/map_time.csv")
 # print optimal values
 for v in sched.variables():
     if(v.varValue == 1):
-        print(v.name, "=", v.varValue)
-        course = v.name[16:17]
-        course = course_names[course]
+        print(len(v.name))
+        var = v.name
+        substring = var.split('_')
+        course = substring[2]
+        val = substring[3]
+        print("THIS IS THE COURSE NAME: ", course, "VAL : ", val)
         if(v.name[0:4] == "Room"):
-            room = v.name[18:]
-            room = room_names[room]
+            room = room_names[val]
             finalRooms[course] = room
         else:
-            time = v.name[18:]
-            time = time_names[time]
+            time = time_names[val]
             finalTimes[course] = time
 
 for i in finalTimes:
