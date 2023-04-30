@@ -1672,175 +1672,191 @@ minimize_the_number_of_conflicts.: 39.5 Overlap_AAS201_ASA238
  + 20.5 Overlap_URB201_REL100 + 44.5 Overlap_URB201_REL232
  + Overlap_URB201_SML201
 Subject To
-Sum_of_Assignments_for_class_AAS201: Time_Assignment_AAS201_1
- + Time_Assignment_AAS201_2 = 1
-Sum_of_Assignments_for_class_ASA203: Time_Assignment_ASA203_3
- + Time_Assignment_ASA203_4 + Time_Assignment_ASA203_5 = 1
-Sum_of_Assignments_for_class_ASA238: Time_Assignment_ASA238_1
- + Time_Assignment_ASA238_2 + Time_Assignment_ASA238_3
- + Time_Assignment_ASA238_4 + Time_Assignment_ASA238_5 = 1
-Sum_of_Assignments_for_class_COS126: Time_Assignment_COS126_1 = 1
-Sum_of_Assignments_for_class_COS217: Time_Assignment_COS217_3 = 1
-Sum_of_Assignments_for_class_COS226: Time_Assignment_COS226_2 = 1
-Sum_of_Assignments_for_class_COS333: Time_Assignment_COS333_4 = 1
-Sum_of_Assignments_for_class_COS342: Time_Assignment_COS342_5 = 1
-Sum_of_Assignments_for_class_COS423: Time_Assignment_COS423_3
- + Time_Assignment_COS423_4 + Time_Assignment_COS423_5 = 1
-Sum_of_Assignments_for_class_COS432: Time_Assignment_COS432_3
- + Time_Assignment_COS432_4 = 1
-Sum_of_Assignments_for_class_COS484: Time_Assignment_COS484_1
- + Time_Assignment_COS484_3 = 1
-Sum_of_Assignments_for_class_COS522: Time_Assignment_COS522_1
- + Time_Assignment_COS522_5 = 1
-Sum_of_Assignments_for_class_COS528: Time_Assignment_COS528_4
- + Time_Assignment_COS528_5 = 1
-Sum_of_Assignments_for_class_ECO100: Time_Assignment_ECO100_1
- + Time_Assignment_ECO100_2 = 1
-Sum_of_Assignments_for_class_ECO102: Time_Assignment_ECO102_1 = 1
-Sum_of_Assignments_for_class_ECO202: Time_Assignment_ECO202_3
- + Time_Assignment_ECO202_4 + Time_Assignment_ECO202_5 = 1
-Sum_of_Assignments_for_class_ECO300: Time_Assignment_ECO300_2
- + Time_Assignment_ECO300_3 = 1
-Sum_of_Assignments_for_class_ECO301: Time_Assignment_ECO301_2
- + Time_Assignment_ECO301_4 + Time_Assignment_ECO301_5 = 1
-Sum_of_Assignments_for_class_ECO302: Time_Assignment_ECO302_1
- + Time_Assignment_ECO302_3 = 1
-Sum_of_Assignments_for_class_ECO310: Time_Assignment_ECO310_2
- + Time_Assignment_ECO310_4 = 1
-Sum_of_Assignments_for_class_ECO312: Time_Assignment_ECO312_3
- + Time_Assignment_ECO312_5 = 1
-Sum_of_Assignments_for_class_GER101: Time_Assignment_GER101_1
- + Time_Assignment_GER101_2 + Time_Assignment_GER101_3 = 1
-Sum_of_Assignments_for_class_GER103: Time_Assignment_GER103_2
- + Time_Assignment_GER103_3 + Time_Assignment_GER103_4 = 1
-Sum_of_Assignments_for_class_GER105: Time_Assignment_GER105_3
- + Time_Assignment_GER105_4 = 1
-Sum_of_Assignments_for_class_GER107: Time_Assignment_GER107_3 = 1
-Sum_of_Assignments_for_class_LIN201: Time_Assignment_LIN201_1
- + Time_Assignment_LIN201_4 = 1
-Sum_of_Assignments_for_class_LIN300: Time_Assignment_LIN300_2 = 1
-Sum_of_Assignments_for_class_MAT103: Time_Assignment_MAT103_2
- + Time_Assignment_MAT103_3 + Time_Assignment_MAT103_5 = 1
-Sum_of_Assignments_for_class_MAT104: Time_Assignment_MAT104_5 = 1
-Sum_of_Assignments_for_class_MAT201: Time_Assignment_MAT201_4
- + Time_Assignment_MAT201_5 = 1
-Sum_of_Assignments_for_class_MAT202: Time_Assignment_MAT202_1 = 1
-Sum_of_Assignments_for_class_MAT203: Time_Assignment_MAT203_1 = 1
-Sum_of_Assignments_for_class_MAT204: Time_Assignment_MAT204_1 = 1
-Sum_of_Assignments_for_class_MAT215: Time_Assignment_MAT215_2
- + Time_Assignment_MAT215_3 + Time_Assignment_MAT215_4 = 1
-Sum_of_Assignments_for_class_MAT216: Time_Assignment_MAT216_2
- + Time_Assignment_MAT216_3 = 1
-Sum_of_Assignments_for_class_MAT217: Time_Assignment_MAT217_4 = 1
-Sum_of_Assignments_for_class_MAT218: Time_Assignment_MAT218_1 = 1
-Sum_of_Assignments_for_class_MAT300: Time_Assignment_MAT300_5 = 1
-Sum_of_Assignments_for_class_MAT325: Time_Assignment_MAT325_1
- + Time_Assignment_MAT325_5 = 1
-Sum_of_Assignments_for_class_MAT335: Time_Assignment_MAT335_1
- + Time_Assignment_MAT335_5 = 1
-Sum_of_Assignments_for_class_MAT370: Time_Assignment_MAT370_1
- + Time_Assignment_MAT370_5 = 1
-Sum_of_Assignments_for_class_MAT377: Time_Assignment_MAT377_1
- + Time_Assignment_MAT377_2 = 1
-Sum_of_Assignments_for_class_MAT385: Time_Assignment_MAT385_1
- + Time_Assignment_MAT385_2 + Time_Assignment_MAT385_3 = 1
-Sum_of_Assignments_for_class_MAT400: Time_Assignment_MAT400_2
- + Time_Assignment_MAT400_3 + Time_Assignment_MAT400_4 = 1
-Sum_of_Assignments_for_class_ORF245: Time_Assignment_ORF245_3
- + Time_Assignment_ORF245_4 = 1
-Sum_of_Assignments_for_class_ORF307: Time_Assignment_ORF307_2
- + Time_Assignment_ORF307_3 + Time_Assignment_ORF307_4
- + Time_Assignment_ORF307_5 = 1
-Sum_of_Assignments_for_class_ORF309: Time_Assignment_ORF309_2
- + Time_Assignment_ORF309_3 + Time_Assignment_ORF309_4
- + Time_Assignment_ORF309_5 = 1
-Sum_of_Assignments_for_class_ORF350: Time_Assignment_ORF350_3
- + Time_Assignment_ORF350_4 + Time_Assignment_ORF350_5 = 1
-Sum_of_Assignments_for_class_ORF363: Time_Assignment_ORF363_4 = 1
-Sum_of_Assignments_for_class_ORF445: Time_Assignment_ORF445_3
- + Time_Assignment_ORF445_4 = 1
-Sum_of_Assignments_for_class_PHY103: Time_Assignment_PHY103_1
- + Time_Assignment_PHY103_2 + Time_Assignment_PHY103_3
- + Time_Assignment_PHY103_4 + Time_Assignment_PHY103_5 = 1
-Sum_of_Assignments_for_class_PHY104: Time_Assignment_PHY104_1
- + Time_Assignment_PHY104_5 = 1
-Sum_of_Assignments_for_class_PHY105: Time_Assignment_PHY105_1
- + Time_Assignment_PHY105_2 + Time_Assignment_PHY105_3
- + Time_Assignment_PHY105_4 + Time_Assignment_PHY105_5 = 1
-Sum_of_Assignments_for_class_PHY106: Time_Assignment_PHY106_1
- + Time_Assignment_PHY106_5 = 1
-Sum_of_Assignments_for_class_PHY208: Time_Assignment_PHY208_2
- + Time_Assignment_PHY208_4 + Time_Assignment_PHY208_5 = 1
-Sum_of_Assignments_for_class_REL100: Time_Assignment_REL100_3 = 1
-Sum_of_Assignments_for_class_REL232: Time_Assignment_REL232_4
- + Time_Assignment_REL232_5 = 1
-Sum_of_Assignments_for_class_SML201: Time_Assignment_SML201_1
- + Time_Assignment_SML201_5 = 1
-Sum_of_Assignments_for_class_URB201: Time_Assignment_URB201_2
- + Time_Assignment_URB201_4 + Time_Assignment_URB201_5 = 1
-Sum_of_Assignments_for_room_AAS201: Room_Assignment_AAS201_1
- + Room_Assignment_AAS201_2 + Room_Assignment_AAS201_3
- + Room_Assignment_AAS201_4 + Room_Assignment_AAS201_5 = 1
-Sum_of_Assignments_for_room_ASA203: Room_Assignment_ASA203_1
- + Room_Assignment_ASA203_12 + Room_Assignment_ASA203_13
- + Room_Assignment_ASA203_21 + Room_Assignment_ASA203_3
- + Room_Assignment_ASA203_43 + Room_Assignment_ASA203_5 = 1
-Sum_of_Assignments_for_room_ASA238: Room_Assignment_ASA238_2
- + Room_Assignment_ASA238_23 + Room_Assignment_ASA238_3
- + Room_Assignment_ASA238_50 + Room_Assignment_ASA238_65
- + Room_Assignment_ASA238_75 = 1
-Sum_of_Assignments_for_room_COS126: Room_Assignment_COS126_1
- + Room_Assignment_COS126_2 + Room_Assignment_COS126_3
- + Room_Assignment_COS126_4 + Room_Assignment_COS126_5
- + Room_Assignment_COS126_6 + Room_Assignment_COS126_7
- + Room_Assignment_COS126_8 + Room_Assignment_COS126_9 = 1
-Sum_of_Assignments_for_room_COS217: Room_Assignment_COS217_6
- + Room_Assignment_COS217_7 + Room_Assignment_COS217_70
- + Room_Assignment_COS217_73 + Room_Assignment_COS217_74 = 1
-Sum_of_Assignments_for_room_COS226: Room_Assignment_COS226_35
- + Room_Assignment_COS226_38 + Room_Assignment_COS226_4
- + Room_Assignment_COS226_42 + Room_Assignment_COS226_59
- + Room_Assignment_COS226_61 + Room_Assignment_COS226_70 = 1
-Sum_of_Assignments_for_room_COS333: Room_Assignment_COS333_20
- + Room_Assignment_COS333_21 + Room_Assignment_COS333_22
- + Room_Assignment_COS333_3 + Room_Assignment_COS333_65
- + Room_Assignment_COS333_66 + Room_Assignment_COS333_67 = 1
-Sum_of_Assignments_for_room_COS342: Room_Assignment_COS342_40
- + Room_Assignment_COS342_42 + Room_Assignment_COS342_9 = 1
-Sum_of_Assignments_for_room_COS423: Room_Assignment_COS423_51
- + Room_Assignment_COS423_52 + Room_Assignment_COS423_53
- + Room_Assignment_COS423_54 + Room_Assignment_COS423_55 = 1
-Sum_of_Assignments_for_room_COS432: Room_Assignment_COS432_10
- + Room_Assignment_COS432_12 + Room_Assignment_COS432_14
- + Room_Assignment_COS432_16 + Room_Assignment_COS432_18
- + Room_Assignment_COS432_2 + Room_Assignment_COS432_20
- + Room_Assignment_COS432_4 + Room_Assignment_COS432_6
- + Room_Assignment_COS432_8 = 1
-Sum_of_Assignments_for_room_COS484: Room_Assignment_COS484_10
- + Room_Assignment_COS484_15 + Room_Assignment_COS484_20
- + Room_Assignment_COS484_25 + Room_Assignment_COS484_3
- + Room_Assignment_COS484_30 + Room_Assignment_COS484_5 = 1
-Sum_of_Assignments_for_room_COS522: Room_Assignment_COS522_16
- + Room_Assignment_COS522_24 + Room_Assignment_COS522_32
- + Room_Assignment_COS522_40 + Room_Assignment_COS522_48
- + Room_Assignment_COS522_56 + Room_Assignment_COS522_64
- + Room_Assignment_COS522_72 + Room_Assignment_COS522_8 = 1
-Sum_of_Assignments_for_room_COS528: Room_Assignment_COS528_11
- + Room_Assignment_COS528_13 + Room_Assignment_COS528_17
- + Room_Assignment_COS528_19 + Room_Assignment_COS528_23
- + Room_Assignment_COS528_29 + Room_Assignment_COS528_31
- + Room_Assignment_COS528_37 + Room_Assignment_COS528_7 = 1
-Sum_of_Assignments_for_room_ECO100: Room_Assignment_ECO100_3
- + Room_Assignment_ECO100_6 + Room_Assignment_ECO100_9 = 1
-Sum_of_Assignments_for_room_ECO102: Room_Assignment_ECO102_35
- + Room_Assignment_ECO102_37 + Room_Assignment_ECO102_46
- + Room_Assignment_ECO102_48 + Room_Assignment_ECO102_49
- + Room_Assignment_ECO102_50 + Room_Assignment_ECO102_51 = 1
-Sum_of_Assignments_for_room_ECO202: Room_Assignment_ECO202_20
- + Room_Assignment_ECO202_21 + Room_Assignment_ECO202_22
- + Room_Assignment_ECO202_23 + Room_Assignment_ECO202_24
- + Room_Assignment_ECO202_25 + Room_Assignment_ECO202_26
- + Room_Assignment_ECO202_27 = 1
+Sum_of_Assignments_for_class_AAS201: Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_AAS201_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_ASA203: Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ASA203_2:30_3:20_PM
+ = 1
+Sum_of_Assignments_for_class_ASA238: Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ASA238_11:00_11:50_AM + Time_Assignment_ASA238_1:30_2:20_PM
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_ASA238_9:00_9:50_AM
+ = 1
+Sum_of_Assignments_for_class_COS126: Time_Assignment_COS126_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_COS217: Time_Assignment_COS217_11:00_11:50_AM = 1
+Sum_of_Assignments_for_class_COS226: Time_Assignment_COS226_10:00_10:50_AM = 1
+Sum_of_Assignments_for_class_COS333: Time_Assignment_COS333_1:30_2:20_PM = 1
+Sum_of_Assignments_for_class_COS342: Time_Assignment_COS342_2:30_3:20_PM = 1
+Sum_of_Assignments_for_class_COS423: Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_COS423_2:30_3:20_PM
+ = 1
+Sum_of_Assignments_for_class_COS432: Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_COS432_1:30_2:20_PM = 1
+Sum_of_Assignments_for_class_COS484: Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_COS484_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_COS522: Time_Assignment_COS522_2:30_3:20_PM
+ + Time_Assignment_COS522_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_COS528: Time_Assignment_COS528_1:30_2:20_PM
+ + Time_Assignment_COS528_2:30_3:20_PM = 1
+Sum_of_Assignments_for_class_ECO100: Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_ECO100_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_ECO102: Time_Assignment_ECO102_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_ECO202: Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ECO202_2:30_3:20_PM
+ = 1
+Sum_of_Assignments_for_class_ECO300: Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM = 1
+Sum_of_Assignments_for_class_ECO301: Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_ECO301_2:30_3:20_PM
+ = 1
+Sum_of_Assignments_for_class_ECO302: Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_ECO302_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_ECO310: Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_ECO310_1:30_2:20_PM = 1
+Sum_of_Assignments_for_class_ECO312: Time_Assignment_ECO312_11:00_11:50_AM
+ + Time_Assignment_ECO312_2:30_3:20_PM = 1
+Sum_of_Assignments_for_class_GER101: Time_Assignment_GER101_10:00_10:50_AM
+ + Time_Assignment_GER101_11:00_11:50_AM + Time_Assignment_GER101_9:00_9:50_AM
+ = 1
+Sum_of_Assignments_for_class_GER103: Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM + Time_Assignment_GER103_1:30_2:20_PM
+ = 1
+Sum_of_Assignments_for_class_GER105: Time_Assignment_GER105_11:00_11:50_AM
+ + Time_Assignment_GER105_1:30_2:20_PM = 1
+Sum_of_Assignments_for_class_GER107: Time_Assignment_GER107_11:00_11:50_AM = 1
+Sum_of_Assignments_for_class_LIN201: Time_Assignment_LIN201_1:30_2:20_PM
+ + Time_Assignment_LIN201_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_LIN300: Time_Assignment_LIN300_10:00_10:50_AM = 1
+Sum_of_Assignments_for_class_MAT103: Time_Assignment_MAT103_10:00_10:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM + Time_Assignment_MAT103_2:30_3:20_PM
+ = 1
+Sum_of_Assignments_for_class_MAT104: Time_Assignment_MAT104_2:30_3:20_PM = 1
+Sum_of_Assignments_for_class_MAT201: Time_Assignment_MAT201_1:30_2:20_PM
+ + Time_Assignment_MAT201_2:30_3:20_PM = 1
+Sum_of_Assignments_for_class_MAT202: Time_Assignment_MAT202_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_MAT203: Time_Assignment_MAT203_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_MAT204: Time_Assignment_MAT204_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_MAT215: Time_Assignment_MAT215_10:00_10:50_AM
+ + Time_Assignment_MAT215_11:00_11:50_AM + Time_Assignment_MAT215_1:30_2:20_PM
+ = 1
+Sum_of_Assignments_for_class_MAT216: Time_Assignment_MAT216_10:00_10:50_AM
+ + Time_Assignment_MAT216_11:00_11:50_AM = 1
+Sum_of_Assignments_for_class_MAT217: Time_Assignment_MAT217_1:30_2:20_PM = 1
+Sum_of_Assignments_for_class_MAT218: Time_Assignment_MAT218_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_MAT300: Time_Assignment_MAT300_2:30_3:20_PM = 1
+Sum_of_Assignments_for_class_MAT325: Time_Assignment_MAT325_2:30_3:20_PM
+ + Time_Assignment_MAT325_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_MAT335: Time_Assignment_MAT335_2:30_3:20_PM
+ + Time_Assignment_MAT335_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_MAT370: Time_Assignment_MAT370_2:30_3:20_PM
+ + Time_Assignment_MAT370_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_MAT377: Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_MAT377_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_MAT385: Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ = 1
+Sum_of_Assignments_for_class_MAT400: Time_Assignment_MAT400_10:00_10:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM + Time_Assignment_MAT400_1:30_2:20_PM
+ = 1
+Sum_of_Assignments_for_class_ORF245: Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_ORF245_1:30_2:20_PM = 1
+Sum_of_Assignments_for_class_ORF307: Time_Assignment_ORF307_10:00_10:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM + Time_Assignment_ORF307_1:30_2:20_PM
+ + Time_Assignment_ORF307_2:30_3:20_PM = 1
+Sum_of_Assignments_for_class_ORF309: Time_Assignment_ORF309_10:00_10:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM + Time_Assignment_ORF309_1:30_2:20_PM
+ + Time_Assignment_ORF309_2:30_3:20_PM = 1
+Sum_of_Assignments_for_class_ORF350: Time_Assignment_ORF350_11:00_11:50_AM
+ + Time_Assignment_ORF350_1:30_2:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ = 1
+Sum_of_Assignments_for_class_ORF363: Time_Assignment_ORF363_1:30_2:20_PM = 1
+Sum_of_Assignments_for_class_ORF445: Time_Assignment_ORF445_11:00_11:50_AM
+ + Time_Assignment_ORF445_1:30_2:20_PM = 1
+Sum_of_Assignments_for_class_PHY103: Time_Assignment_PHY103_10:00_10:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM + Time_Assignment_PHY103_1:30_2:20_PM
+ + Time_Assignment_PHY103_2:30_3:20_PM + Time_Assignment_PHY103_9:00_9:50_AM
+ = 1
+Sum_of_Assignments_for_class_PHY104: Time_Assignment_PHY104_2:30_3:20_PM
+ + Time_Assignment_PHY104_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_PHY105: Time_Assignment_PHY105_10:00_10:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM + Time_Assignment_PHY105_1:30_2:20_PM
+ + Time_Assignment_PHY105_2:30_3:20_PM + Time_Assignment_PHY105_9:00_9:50_AM
+ = 1
+Sum_of_Assignments_for_class_PHY106: Time_Assignment_PHY106_2:30_3:20_PM
+ + Time_Assignment_PHY106_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_PHY208: Time_Assignment_PHY208_10:00_10:50_AM
+ + Time_Assignment_PHY208_1:30_2:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ = 1
+Sum_of_Assignments_for_class_REL100: Time_Assignment_REL100_11:00_11:50_AM = 1
+Sum_of_Assignments_for_class_REL232: Time_Assignment_REL232_1:30_2:20_PM
+ + Time_Assignment_REL232_2:30_3:20_PM = 1
+Sum_of_Assignments_for_class_SML201: Time_Assignment_SML201_2:30_3:20_PM
+ + Time_Assignment_SML201_9:00_9:50_AM = 1
+Sum_of_Assignments_for_class_URB201: Time_Assignment_URB201_10:00_10:50_AM
+ + Time_Assignment_URB201_1:30_2:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ = 1
+Sum_of_Assignments_for_room_AAS201: Room_Assignment_AAS201_1.0
+ + Room_Assignment_AAS201_2.0 + Room_Assignment_AAS201_3.0
+ + Room_Assignment_AAS201_4.0 + Room_Assignment_AAS201_5.0 = 1
+Sum_of_Assignments_for_room_ASA203: Room_Assignment_ASA203_1.0
+ + Room_Assignment_ASA203_12.0 + Room_Assignment_ASA203_13.0
+ + Room_Assignment_ASA203_21.0 + Room_Assignment_ASA203_3.0
+ + Room_Assignment_ASA203_43.0 + Room_Assignment_ASA203_5.0 = 1
+Sum_of_Assignments_for_room_ASA238: Room_Assignment_ASA238_2.0
+ + Room_Assignment_ASA238_23.0 + Room_Assignment_ASA238_3.0
+ + Room_Assignment_ASA238_50.0 + Room_Assignment_ASA238_65.0
+ + Room_Assignment_ASA238_75.0 = 1
+Sum_of_Assignments_for_room_COS126: Room_Assignment_COS126_1.0
+ + Room_Assignment_COS126_2.0 + Room_Assignment_COS126_3.0
+ + Room_Assignment_COS126_4.0 + Room_Assignment_COS126_5.0
+ + Room_Assignment_COS126_6.0 + Room_Assignment_COS126_7.0
+ + Room_Assignment_COS126_8.0 + Room_Assignment_COS126_9.0 = 1
+Sum_of_Assignments_for_room_COS217: Room_Assignment_COS217_6.0
+ + Room_Assignment_COS217_7.0 + Room_Assignment_COS217_70.0
+ + Room_Assignment_COS217_73.0 + Room_Assignment_COS217_74.0 = 1
+Sum_of_Assignments_for_room_COS226: Room_Assignment_COS226_35.0
+ + Room_Assignment_COS226_38.0 + Room_Assignment_COS226_4.0
+ + Room_Assignment_COS226_42.0 + Room_Assignment_COS226_59.0
+ + Room_Assignment_COS226_61.0 + Room_Assignment_COS226_70.0 = 1
+Sum_of_Assignments_for_room_COS333: Room_Assignment_COS333_20.0
+ + Room_Assignment_COS333_21.0 + Room_Assignment_COS333_22.0
+ + Room_Assignment_COS333_3.0 + Room_Assignment_COS333_65.0
+ + Room_Assignment_COS333_66.0 + Room_Assignment_COS333_67.0 = 1
+Sum_of_Assignments_for_room_COS342: Room_Assignment_COS342_40.0
+ + Room_Assignment_COS342_42.0 + Room_Assignment_COS342_9.0 = 1
+Sum_of_Assignments_for_room_COS423: Room_Assignment_COS423_51.0
+ + Room_Assignment_COS423_52.0 + Room_Assignment_COS423_53.0
+ + Room_Assignment_COS423_54.0 + Room_Assignment_COS423_55.0 = 1
+Sum_of_Assignments_for_room_COS432: Room_Assignment_COS432_10.0
+ + Room_Assignment_COS432_12.0 + Room_Assignment_COS432_14.0
+ + Room_Assignment_COS432_16.0 + Room_Assignment_COS432_18.0
+ + Room_Assignment_COS432_2.0 + Room_Assignment_COS432_20.0
+ + Room_Assignment_COS432_4.0 + Room_Assignment_COS432_6.0
+ + Room_Assignment_COS432_8.0 = 1
+Sum_of_Assignments_for_room_COS484: Room_Assignment_COS484_10.0
+ + Room_Assignment_COS484_15.0 + Room_Assignment_COS484_20.0
+ + Room_Assignment_COS484_25.0 + Room_Assignment_COS484_3.0
+ + Room_Assignment_COS484_30.0 + Room_Assignment_COS484_5.0 = 1
+Sum_of_Assignments_for_room_COS522: Room_Assignment_COS522_16.0
+ + Room_Assignment_COS522_24.0 + Room_Assignment_COS522_32.0
+ + Room_Assignment_COS522_40.0 + Room_Assignment_COS522_48.0
+ + Room_Assignment_COS522_56.0 + Room_Assignment_COS522_64.0
+ + Room_Assignment_COS522_72.0 + Room_Assignment_COS522_8.0 = 1
+Sum_of_Assignments_for_room_COS528: Room_Assignment_COS528_11.0
+ + Room_Assignment_COS528_13.0 + Room_Assignment_COS528_17.0
+ + Room_Assignment_COS528_19.0 + Room_Assignment_COS528_23.0
+ + Room_Assignment_COS528_29.0 + Room_Assignment_COS528_31.0
+ + Room_Assignment_COS528_37.0 + Room_Assignment_COS528_7.0 = 1
+Sum_of_Assignments_for_room_ECO100: Room_Assignment_ECO100_3.0
+ + Room_Assignment_ECO100_6.0 + Room_Assignment_ECO100_9.0 = 1
+Sum_of_Assignments_for_room_ECO102: Room_Assignment_ECO102_35.0
+ + Room_Assignment_ECO102_37.0 + Room_Assignment_ECO102_46.0
+ + Room_Assignment_ECO102_48.0 + Room_Assignment_ECO102_49.0
+ + Room_Assignment_ECO102_50.0 + Room_Assignment_ECO102_51.0 = 1
+Sum_of_Assignments_for_room_ECO202: Room_Assignment_ECO202_20.0
+ + Room_Assignment_ECO202_21.0 + Room_Assignment_ECO202_22.0
+ + Room_Assignment_ECO202_23.0 + Room_Assignment_ECO202_24.0
+ + Room_Assignment_ECO202_25.0 + Room_Assignment_ECO202_26.0
+ + Room_Assignment_ECO202_27.0 = 1
 Sum_of_Assignments_for_room_ECO300: Room_Assignment_ECO300_1
  + Room_Assignment_ECO300_21 + Room_Assignment_ECO300_24
  + Room_Assignment_ECO300_27 + Room_Assignment_ECO300_29
@@ -1849,315 +1865,363 @@ Sum_of_Assignments_for_room_ECO300: Room_Assignment_ECO300_1
  + Room_Assignment_ECO300_45 + Room_Assignment_ECO300_47
  + Room_Assignment_ECO300_5 + Room_Assignment_ECO300_51
  + Room_Assignment_ECO300_55 + Room_Assignment_ECO300_7 = 1
-Sum_of_Assignments_for_room_ECO301: Room_Assignment_ECO301_3
- + Room_Assignment_ECO301_5 + Room_Assignment_ECO301_7 = 1
-Sum_of_Assignments_for_room_ECO302: Room_Assignment_ECO302_60
- + Room_Assignment_ECO302_61 + Room_Assignment_ECO302_64
- + Room_Assignment_ECO302_65 + Room_Assignment_ECO302_68
- + Room_Assignment_ECO302_71 = 1
-Sum_of_Assignments_for_room_ECO310: Room_Assignment_ECO310_30
- + Room_Assignment_ECO310_32 + Room_Assignment_ECO310_34
- + Room_Assignment_ECO310_35 + Room_Assignment_ECO310_37 = 1
-Sum_of_Assignments_for_room_ECO312: Room_Assignment_ECO312_41
- + Room_Assignment_ECO312_42 + Room_Assignment_ECO312_44
- + Room_Assignment_ECO312_48 + Room_Assignment_ECO312_49 = 1
-Sum_of_Assignments_for_room_GER101: Room_Assignment_GER101_26
- + Room_Assignment_GER101_27 + Room_Assignment_GER101_28
- + Room_Assignment_GER101_29 = 1
-Sum_of_Assignments_for_room_GER103: Room_Assignment_GER103_3
- + Room_Assignment_GER103_5 + Room_Assignment_GER103_8
- + Room_Assignment_GER103_9 = 1
-Sum_of_Assignments_for_room_GER105: Room_Assignment_GER105_1
- + Room_Assignment_GER105_3 = 1
-Sum_of_Assignments_for_room_GER107: Room_Assignment_GER107_70
- + Room_Assignment_GER107_71 + Room_Assignment_GER107_72
- + Room_Assignment_GER107_73 + Room_Assignment_GER107_74
- + Room_Assignment_GER107_75 = 1
-Sum_of_Assignments_for_room_LIN201: Room_Assignment_LIN201_50
- + Room_Assignment_LIN201_51 + Room_Assignment_LIN201_52
- + Room_Assignment_LIN201_53 + Room_Assignment_LIN201_54
- + Room_Assignment_LIN201_55 + Room_Assignment_LIN201_56
- + Room_Assignment_LIN201_57 = 1
-Sum_of_Assignments_for_room_LIN300: Room_Assignment_LIN300_43
- + Room_Assignment_LIN300_45 + Room_Assignment_LIN300_47
- + Room_Assignment_LIN300_48 + Room_Assignment_LIN300_49 = 1
-Sum_of_Assignments_for_room_MAT103: Room_Assignment_MAT103_11
- + Room_Assignment_MAT103_12 + Room_Assignment_MAT103_21
- + Room_Assignment_MAT103_22 + Room_Assignment_MAT103_23
- + Room_Assignment_MAT103_32 + Room_Assignment_MAT103_33 = 1
-Sum_of_Assignments_for_room_MAT104: Room_Assignment_MAT104_12
- + Room_Assignment_MAT104_34 + Room_Assignment_MAT104_4
- + Room_Assignment_MAT104_49 + Room_Assignment_MAT104_54
- + Room_Assignment_MAT104_63 = 1
-Sum_of_Assignments_for_room_MAT201: Room_Assignment_MAT201_1
- + Room_Assignment_MAT201_2 + Room_Assignment_MAT201_3
- + Room_Assignment_MAT201_4 + Room_Assignment_MAT201_5
- + Room_Assignment_MAT201_6 + Room_Assignment_MAT201_7
- + Room_Assignment_MAT201_8 = 1
-Sum_of_Assignments_for_room_MAT202: Room_Assignment_MAT202_1
- + Room_Assignment_MAT202_5 + Room_Assignment_MAT202_6
- + Room_Assignment_MAT202_7 = 1
-Sum_of_Assignments_for_room_MAT203: Room_Assignment_MAT203_22
- + Room_Assignment_MAT203_23 + Room_Assignment_MAT203_24
- + Room_Assignment_MAT203_29 + Room_Assignment_MAT203_30 = 1
-Sum_of_Assignments_for_room_MAT204: Room_Assignment_MAT204_10
- + Room_Assignment_MAT204_12 + Room_Assignment_MAT204_16
- + Room_Assignment_MAT204_18 + Room_Assignment_MAT204_20
- + Room_Assignment_MAT204_8 = 1
-Sum_of_Assignments_for_room_MAT215: Room_Assignment_MAT215_31
- + Room_Assignment_MAT215_32 + Room_Assignment_MAT215_33
- + Room_Assignment_MAT215_34 + Room_Assignment_MAT215_35
- + Room_Assignment_MAT215_36 + Room_Assignment_MAT215_37 = 1
-Sum_of_Assignments_for_room_MAT216: Room_Assignment_MAT216_56
- + Room_Assignment_MAT216_57 + Room_Assignment_MAT216_58
- + Room_Assignment_MAT216_59 + Room_Assignment_MAT216_60
- + Room_Assignment_MAT216_61 = 1
-Sum_of_Assignments_for_room_MAT217: Room_Assignment_MAT217_2
- + Room_Assignment_MAT217_24 + Room_Assignment_MAT217_3
- + Room_Assignment_MAT217_32 + Room_Assignment_MAT217_34
- + Room_Assignment_MAT217_35 + Room_Assignment_MAT217_4
- + Room_Assignment_MAT217_5 = 1
-Sum_of_Assignments_for_room_MAT218: Room_Assignment_MAT218_13
- + Room_Assignment_MAT218_24 + Room_Assignment_MAT218_35
- + Room_Assignment_MAT218_46 + Room_Assignment_MAT218_7
- + Room_Assignment_MAT218_74 = 1
-Sum_of_Assignments_for_room_MAT300: Room_Assignment_MAT300_1
- + Room_Assignment_MAT300_2 + Room_Assignment_MAT300_3
- + Room_Assignment_MAT300_4 = 1
-Sum_of_Assignments_for_room_MAT325: Room_Assignment_MAT325_10
- + Room_Assignment_MAT325_57 + Room_Assignment_MAT325_58
- + Room_Assignment_MAT325_59 + Room_Assignment_MAT325_61
- + Room_Assignment_MAT325_8 = 1
-Sum_of_Assignments_for_room_MAT335: Room_Assignment_MAT335_10
- + Room_Assignment_MAT335_2 + Room_Assignment_MAT335_3
- + Room_Assignment_MAT335_4 + Room_Assignment_MAT335_5
- + Room_Assignment_MAT335_6 + Room_Assignment_MAT335_7
- + Room_Assignment_MAT335_8 = 1
-Sum_of_Assignments_for_room_MAT370: Room_Assignment_MAT370_12
- + Room_Assignment_MAT370_2 + Room_Assignment_MAT370_31
- + Room_Assignment_MAT370_53 + Room_Assignment_MAT370_64
- + Room_Assignment_MAT370_75 = 1
-Sum_of_Assignments_for_room_MAT377: Room_Assignment_MAT377_14
- + Room_Assignment_MAT377_15 + Room_Assignment_MAT377_16
- + Room_Assignment_MAT377_17 + Room_Assignment_MAT377_18
- + Room_Assignment_MAT377_19 + Room_Assignment_MAT377_2
- + Room_Assignment_MAT377_4 + Room_Assignment_MAT377_5
- + Room_Assignment_MAT377_6 = 1
-Sum_of_Assignments_for_room_MAT385: Room_Assignment_MAT385_2
- + Room_Assignment_MAT385_3 + Room_Assignment_MAT385_43
- + Room_Assignment_MAT385_5 + Room_Assignment_MAT385_6
- + Room_Assignment_MAT385_7 = 1
-Sum_of_Assignments_for_room_MAT400: Room_Assignment_MAT400_13
- + Room_Assignment_MAT400_24 + Room_Assignment_MAT400_42
- + Room_Assignment_MAT400_45 + Room_Assignment_MAT400_54
- + Room_Assignment_MAT400_65 = 1
-Sum_of_Assignments_for_room_ORF245: Room_Assignment_ORF245_25
- + Room_Assignment_ORF245_31 + 2 Room_Assignment_ORF245_34
- + Room_Assignment_ORF245_5 + Room_Assignment_ORF245_65
- + Room_Assignment_ORF245_7 + Room_Assignment_ORF245_8 = 1
-Sum_of_Assignments_for_room_ORF307: Room_Assignment_ORF307_10
- + Room_Assignment_ORF307_15 + Room_Assignment_ORF307_20
- + Room_Assignment_ORF307_25 + Room_Assignment_ORF307_30
- + Room_Assignment_ORF307_35 + Room_Assignment_ORF307_40
- + Room_Assignment_ORF307_45 + Room_Assignment_ORF307_5
- + Room_Assignment_ORF307_50 = 1
-Sum_of_Assignments_for_room_ORF309: Room_Assignment_ORF309_13
- + Room_Assignment_ORF309_23 + Room_Assignment_ORF309_43
- + Room_Assignment_ORF309_53 + Room_Assignment_ORF309_63
- + Room_Assignment_ORF309_73 = 1
-Sum_of_Assignments_for_room_ORF350: Room_Assignment_ORF350_19
- + Room_Assignment_ORF350_29 + Room_Assignment_ORF350_39
- + Room_Assignment_ORF350_49 + Room_Assignment_ORF350_59
- + Room_Assignment_ORF350_6 + Room_Assignment_ORF350_69
- + Room_Assignment_ORF350_9 = 1
-Sum_of_Assignments_for_room_ORF363: Room_Assignment_ORF363_11
- + Room_Assignment_ORF363_21 + Room_Assignment_ORF363_31
- + Room_Assignment_ORF363_41 + Room_Assignment_ORF363_51
- + Room_Assignment_ORF363_61 = 1
-Sum_of_Assignments_for_room_ORF445: Room_Assignment_ORF445_12
- + Room_Assignment_ORF445_24 + Room_Assignment_ORF445_31
- + Room_Assignment_ORF445_46 + Room_Assignment_ORF445_5
- + Room_Assignment_ORF445_53 + Room_Assignment_ORF445_54
- + Room_Assignment_ORF445_64 = 1
-Sum_of_Assignments_for_room_PHY103: Room_Assignment_PHY103_1
- + Room_Assignment_PHY103_2 + Room_Assignment_PHY103_74
- + Room_Assignment_PHY103_75 = 1
-Sum_of_Assignments_for_room_PHY104: Room_Assignment_PHY104_28
- + Room_Assignment_PHY104_37 + Room_Assignment_PHY104_58
- + Room_Assignment_PHY104_71 = 1
-Sum_of_Assignments_for_room_PHY105: Room_Assignment_PHY105_1
- + Room_Assignment_PHY105_10 + Room_Assignment_PHY105_12
- + Room_Assignment_PHY105_2 + Room_Assignment_PHY105_3
- + Room_Assignment_PHY105_4 + Room_Assignment_PHY105_5
- + Room_Assignment_PHY105_6 + Room_Assignment_PHY105_7
- + Room_Assignment_PHY105_8 + Room_Assignment_PHY105_9 = 1
-Sum_of_Assignments_for_room_PHY106: Room_Assignment_PHY106_11
- + Room_Assignment_PHY106_19 + Room_Assignment_PHY106_21
- + Room_Assignment_PHY106_29 + Room_Assignment_PHY106_31
- + Room_Assignment_PHY106_39 + Room_Assignment_PHY106_41
- + Room_Assignment_PHY106_49 = 1
-Sum_of_Assignments_for_room_PHY208: Room_Assignment_PHY208_18
- + Room_Assignment_PHY208_28 + Room_Assignment_PHY208_38
- + Room_Assignment_PHY208_48 + Room_Assignment_PHY208_58
- + Room_Assignment_PHY208_68 = 1
-Sum_of_Assignments_for_room_REL100: Room_Assignment_REL100_24
- + Room_Assignment_REL100_43 + Room_Assignment_REL100_51
- + Room_Assignment_REL100_54 + Room_Assignment_REL100_61
- + Room_Assignment_REL100_65 + Room_Assignment_REL100_9 = 1
-Sum_of_Assignments_for_room_REL232: Room_Assignment_REL232_43
- + Room_Assignment_REL232_44 + Room_Assignment_REL232_45
- + Room_Assignment_REL232_46 + Room_Assignment_REL232_47
- + Room_Assignment_REL232_49 = 1
-Sum_of_Assignments_for_room_SML201: Room_Assignment_SML201_31
- + Room_Assignment_SML201_33 + Room_Assignment_SML201_43
- + Room_Assignment_SML201_52 + Room_Assignment_SML201_62 = 1
-Sum_of_Assignments_for_room_URB201: Room_Assignment_URB201_31
- + Room_Assignment_URB201_36 + Room_Assignment_URB201_56 = 1
+Sum_of_Assignments_for_room_ECO301: Room_Assignment_ECO301_3.0
+ + Room_Assignment_ECO301_5.0 + Room_Assignment_ECO301_7.0 = 1
+Sum_of_Assignments_for_room_ECO302: Room_Assignment_ECO302_60.0
+ + Room_Assignment_ECO302_61.0 + Room_Assignment_ECO302_64.0
+ + Room_Assignment_ECO302_65.0 + Room_Assignment_ECO302_68.0
+ + Room_Assignment_ECO302_71.0 = 1
+Sum_of_Assignments_for_room_ECO310: Room_Assignment_ECO310_30.0
+ + Room_Assignment_ECO310_32.0 + Room_Assignment_ECO310_34.0
+ + Room_Assignment_ECO310_35.0 + Room_Assignment_ECO310_37.0 = 1
+Sum_of_Assignments_for_room_ECO312: Room_Assignment_ECO312_41.0
+ + Room_Assignment_ECO312_42.0 + Room_Assignment_ECO312_44.0
+ + Room_Assignment_ECO312_48.0 + Room_Assignment_ECO312_49.0 = 1
+Sum_of_Assignments_for_room_GER101: Room_Assignment_GER101_26.0
+ + Room_Assignment_GER101_27.0 + Room_Assignment_GER101_28.0
+ + Room_Assignment_GER101_29.0 = 1
+Sum_of_Assignments_for_room_GER103: Room_Assignment_GER103_3.0
+ + Room_Assignment_GER103_5.0 + Room_Assignment_GER103_8.0
+ + Room_Assignment_GER103_9.0 = 1
+Sum_of_Assignments_for_room_GER105: Room_Assignment_GER105_1.0
+ + Room_Assignment_GER105_3.0 = 1
+Sum_of_Assignments_for_room_GER107: Room_Assignment_GER107_70.0
+ + Room_Assignment_GER107_71.0 + Room_Assignment_GER107_72.0
+ + Room_Assignment_GER107_73.0 + Room_Assignment_GER107_74.0
+ + Room_Assignment_GER107_75.0 = 1
+Sum_of_Assignments_for_room_LIN201: Room_Assignment_LIN201_50.0
+ + Room_Assignment_LIN201_51.0 + Room_Assignment_LIN201_52.0
+ + Room_Assignment_LIN201_53.0 + Room_Assignment_LIN201_54.0
+ + Room_Assignment_LIN201_55.0 + Room_Assignment_LIN201_56.0
+ + Room_Assignment_LIN201_57.0 = 1
+Sum_of_Assignments_for_room_LIN300: Room_Assignment_LIN300_43.0
+ + Room_Assignment_LIN300_45.0 + Room_Assignment_LIN300_47.0
+ + Room_Assignment_LIN300_48.0 + Room_Assignment_LIN300_49.0 = 1
+Sum_of_Assignments_for_room_MAT103: Room_Assignment_MAT103_11.0
+ + Room_Assignment_MAT103_12.0 + Room_Assignment_MAT103_21.0
+ + Room_Assignment_MAT103_22.0 + Room_Assignment_MAT103_23.0
+ + Room_Assignment_MAT103_32.0 + Room_Assignment_MAT103_33.0 = 1
+Sum_of_Assignments_for_room_MAT104: Room_Assignment_MAT104_12.0
+ + Room_Assignment_MAT104_34.0 + Room_Assignment_MAT104_4.0
+ + Room_Assignment_MAT104_49.0 + Room_Assignment_MAT104_54.0
+ + Room_Assignment_MAT104_63.0 = 1
+Sum_of_Assignments_for_room_MAT201: Room_Assignment_MAT201_1.0
+ + Room_Assignment_MAT201_2.0 + Room_Assignment_MAT201_3.0
+ + Room_Assignment_MAT201_4.0 + Room_Assignment_MAT201_5.0
+ + Room_Assignment_MAT201_6.0 + Room_Assignment_MAT201_7.0
+ + Room_Assignment_MAT201_8.0 = 1
+Sum_of_Assignments_for_room_MAT202: Room_Assignment_MAT202_1.0
+ + Room_Assignment_MAT202_5.0 + Room_Assignment_MAT202_6.0
+ + Room_Assignment_MAT202_7.0 = 1
+Sum_of_Assignments_for_room_MAT203: Room_Assignment_MAT203_22.0
+ + Room_Assignment_MAT203_23.0 + Room_Assignment_MAT203_24.0
+ + Room_Assignment_MAT203_29.0 + Room_Assignment_MAT203_30.0 = 1
+Sum_of_Assignments_for_room_MAT204: Room_Assignment_MAT204_10.0
+ + Room_Assignment_MAT204_12.0 + Room_Assignment_MAT204_16.0
+ + Room_Assignment_MAT204_18.0 + Room_Assignment_MAT204_20.0
+ + Room_Assignment_MAT204_8.0 = 1
+Sum_of_Assignments_for_room_MAT215: Room_Assignment_MAT215_31.0
+ + Room_Assignment_MAT215_32.0 + Room_Assignment_MAT215_33.0
+ + Room_Assignment_MAT215_34.0 + Room_Assignment_MAT215_35.0
+ + Room_Assignment_MAT215_36.0 + Room_Assignment_MAT215_37.0 = 1
+Sum_of_Assignments_for_room_MAT216: Room_Assignment_MAT216_56.0
+ + Room_Assignment_MAT216_57.0 + Room_Assignment_MAT216_58.0
+ + Room_Assignment_MAT216_59.0 + Room_Assignment_MAT216_60.0
+ + Room_Assignment_MAT216_61.0 = 1
+Sum_of_Assignments_for_room_MAT217: Room_Assignment_MAT217_2.0
+ + Room_Assignment_MAT217_24.0 + Room_Assignment_MAT217_3.0
+ + Room_Assignment_MAT217_32.0 + Room_Assignment_MAT217_34.0
+ + Room_Assignment_MAT217_35.0 + Room_Assignment_MAT217_4.0
+ + Room_Assignment_MAT217_5.0 = 1
+Sum_of_Assignments_for_room_MAT218: Room_Assignment_MAT218_13.0
+ + Room_Assignment_MAT218_24.0 + Room_Assignment_MAT218_35.0
+ + Room_Assignment_MAT218_46.0 + Room_Assignment_MAT218_7.0
+ + Room_Assignment_MAT218_74.0 = 1
+Sum_of_Assignments_for_room_MAT300: Room_Assignment_MAT300_1.0
+ + Room_Assignment_MAT300_2.0 + Room_Assignment_MAT300_3.0
+ + Room_Assignment_MAT300_4.0 = 1
+Sum_of_Assignments_for_room_MAT325: Room_Assignment_MAT325_10.0
+ + Room_Assignment_MAT325_57.0 + Room_Assignment_MAT325_58.0
+ + Room_Assignment_MAT325_59.0 + Room_Assignment_MAT325_61.0
+ + Room_Assignment_MAT325_8.0 = 1
+Sum_of_Assignments_for_room_MAT335: Room_Assignment_MAT335_10.0
+ + Room_Assignment_MAT335_2.0 + Room_Assignment_MAT335_3.0
+ + Room_Assignment_MAT335_4.0 + Room_Assignment_MAT335_5.0
+ + Room_Assignment_MAT335_6.0 + Room_Assignment_MAT335_7.0
+ + Room_Assignment_MAT335_8.0 = 1
+Sum_of_Assignments_for_room_MAT370: Room_Assignment_MAT370_12.0
+ + Room_Assignment_MAT370_2.0 + Room_Assignment_MAT370_31.0
+ + Room_Assignment_MAT370_53.0 + Room_Assignment_MAT370_64.0
+ + Room_Assignment_MAT370_75.0 = 1
+Sum_of_Assignments_for_room_MAT377: Room_Assignment_MAT377_14.0
+ + Room_Assignment_MAT377_15.0 + Room_Assignment_MAT377_16.0
+ + Room_Assignment_MAT377_17.0 + Room_Assignment_MAT377_18.0
+ + Room_Assignment_MAT377_19.0 + Room_Assignment_MAT377_2.0
+ + Room_Assignment_MAT377_4.0 + Room_Assignment_MAT377_5.0
+ + Room_Assignment_MAT377_6.0 = 1
+Sum_of_Assignments_for_room_MAT385: Room_Assignment_MAT385_2.0
+ + Room_Assignment_MAT385_3.0 + Room_Assignment_MAT385_43.0
+ + Room_Assignment_MAT385_5.0 + Room_Assignment_MAT385_6.0
+ + Room_Assignment_MAT385_7.0 = 1
+Sum_of_Assignments_for_room_MAT400: Room_Assignment_MAT400_13.0
+ + Room_Assignment_MAT400_24.0 + Room_Assignment_MAT400_42.0
+ + Room_Assignment_MAT400_45.0 + Room_Assignment_MAT400_54.0
+ + Room_Assignment_MAT400_65.0 = 1
+Sum_of_Assignments_for_room_ORF245: Room_Assignment_ORF245_25.0
+ + Room_Assignment_ORF245_31.0 + 2 Room_Assignment_ORF245_34.0
+ + Room_Assignment_ORF245_5.0 + Room_Assignment_ORF245_65.0
+ + Room_Assignment_ORF245_7.0 + Room_Assignment_ORF245_8.0 = 1
+Sum_of_Assignments_for_room_ORF307: Room_Assignment_ORF307_10.0
+ + Room_Assignment_ORF307_15.0 + Room_Assignment_ORF307_20.0
+ + Room_Assignment_ORF307_25.0 + Room_Assignment_ORF307_30.0
+ + Room_Assignment_ORF307_35.0 + Room_Assignment_ORF307_40.0
+ + Room_Assignment_ORF307_45.0 + Room_Assignment_ORF307_5.0
+ + Room_Assignment_ORF307_50.0 = 1
+Sum_of_Assignments_for_room_ORF309: Room_Assignment_ORF309_13.0
+ + Room_Assignment_ORF309_23.0 + Room_Assignment_ORF309_43.0
+ + Room_Assignment_ORF309_53.0 + Room_Assignment_ORF309_63.0
+ + Room_Assignment_ORF309_73.0 = 1
+Sum_of_Assignments_for_room_ORF350: Room_Assignment_ORF350_19.0
+ + Room_Assignment_ORF350_29.0 + Room_Assignment_ORF350_39.0
+ + Room_Assignment_ORF350_49.0 + Room_Assignment_ORF350_59.0
+ + Room_Assignment_ORF350_6.0 + Room_Assignment_ORF350_69.0
+ + Room_Assignment_ORF350_9.0 = 1
+Sum_of_Assignments_for_room_ORF363: Room_Assignment_ORF363_11.0
+ + Room_Assignment_ORF363_21.0 + Room_Assignment_ORF363_31.0
+ + Room_Assignment_ORF363_41.0 + Room_Assignment_ORF363_51.0
+ + Room_Assignment_ORF363_61.0 = 1
+Sum_of_Assignments_for_room_ORF445: Room_Assignment_ORF445_12.0
+ + Room_Assignment_ORF445_24.0 + Room_Assignment_ORF445_31.0
+ + Room_Assignment_ORF445_46.0 + Room_Assignment_ORF445_5.0
+ + Room_Assignment_ORF445_53.0 + Room_Assignment_ORF445_54.0
+ + Room_Assignment_ORF445_64.0 = 1
+Sum_of_Assignments_for_room_PHY103: Room_Assignment_PHY103_1.0
+ + Room_Assignment_PHY103_2.0 + Room_Assignment_PHY103_74.0
+ + Room_Assignment_PHY103_75.0 = 1
+Sum_of_Assignments_for_room_PHY104: Room_Assignment_PHY104_28.0
+ + Room_Assignment_PHY104_37.0 + Room_Assignment_PHY104_58.0
+ + Room_Assignment_PHY104_71.0 = 1
+Sum_of_Assignments_for_room_PHY105: Room_Assignment_PHY105_1.0
+ + Room_Assignment_PHY105_10.0 + Room_Assignment_PHY105_12.0
+ + Room_Assignment_PHY105_2.0 + Room_Assignment_PHY105_3.0
+ + Room_Assignment_PHY105_4.0 + Room_Assignment_PHY105_5.0
+ + Room_Assignment_PHY105_6.0 + Room_Assignment_PHY105_7.0
+ + Room_Assignment_PHY105_8.0 + Room_Assignment_PHY105_9.0 = 1
+Sum_of_Assignments_for_room_PHY106: Room_Assignment_PHY106_11.0
+ + Room_Assignment_PHY106_19.0 + Room_Assignment_PHY106_21.0
+ + Room_Assignment_PHY106_29.0 + Room_Assignment_PHY106_31.0
+ + Room_Assignment_PHY106_39.0 + Room_Assignment_PHY106_41.0
+ + Room_Assignment_PHY106_49.0 = 1
+Sum_of_Assignments_for_room_PHY208: Room_Assignment_PHY208_18.0
+ + Room_Assignment_PHY208_28.0 + Room_Assignment_PHY208_38.0
+ + Room_Assignment_PHY208_48.0 + Room_Assignment_PHY208_58.0
+ + Room_Assignment_PHY208_68.0 = 1
+Sum_of_Assignments_for_room_REL100: Room_Assignment_REL100_24.0
+ + Room_Assignment_REL100_43.0 + Room_Assignment_REL100_51.0
+ + Room_Assignment_REL100_54.0 + Room_Assignment_REL100_61.0
+ + Room_Assignment_REL100_65.0 + Room_Assignment_REL100_9.0 = 1
+Sum_of_Assignments_for_room_REL232: Room_Assignment_REL232_43.0
+ + Room_Assignment_REL232_44.0 + Room_Assignment_REL232_45.0
+ + Room_Assignment_REL232_46.0 + Room_Assignment_REL232_47.0
+ + Room_Assignment_REL232_49.0 = 1
+Sum_of_Assignments_for_room_SML201: Room_Assignment_SML201_31.0
+ + Room_Assignment_SML201_33.0 + Room_Assignment_SML201_43.0
+ + Room_Assignment_SML201_52.0 + Room_Assignment_SML201_62.0 = 1
+Sum_of_Assignments_for_room_URB201: Room_Assignment_URB201_31.0
+ + Room_Assignment_URB201_36.0 + Room_Assignment_URB201_56.0 = 1
 _C1: Overlap_AAS201_ASA203 <= 1
-_C10: Room_Assignment_AAS201_3 + Room_Assignment_COS126_3
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
-_C100: Room_Assignment_AAS201_3 + Room_Assignment_PHY105_3
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
+_C10: Room_Assignment_AAS201_3.0 + Room_Assignment_COS126_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
+_C100: Room_Assignment_AAS201_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C1000: Overlap_COS484_COS217 <= 1
 _C1001: Overlap_COS484_COS333 <= 1
 _C1002: Overlap_COS484_COS342 <= 1
 _C1003: Overlap_COS484_COS423 <= 1
 _C1004: Overlap_COS484_COS432 <= 1
-_C1005: Room_Assignment_COS432_10 + Room_Assignment_COS484_10
- + Time_Assignment_COS432_3 + Time_Assignment_COS484_3 <= 3
-_C1006: Room_Assignment_COS432_20 + Room_Assignment_COS484_20
- + Time_Assignment_COS432_3 + Time_Assignment_COS484_3 <= 3
+_C1005: Room_Assignment_COS432_10.0 + Room_Assignment_COS484_10.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
+_C1006: Room_Assignment_COS432_20.0 + Room_Assignment_COS484_20.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
 _C1007: Overlap_COS484_COS522 <= 1
 _C1008: Overlap_COS484_COS528 <= 1
 _C1009: Overlap_COS484_ECO100 <= 1
-_C101: Room_Assignment_AAS201_4 + Room_Assignment_PHY105_4
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
-_C1010: Room_Assignment_COS484_3 + Room_Assignment_ECO100_3
- + Time_Assignment_COS484_1 + Time_Assignment_ECO100_1 <= 3
+_C101: Room_Assignment_AAS201_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C1010: Room_Assignment_COS484_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
 _C1011: Overlap_COS484_ECO102 <= 1
 _C1012: Overlap_COS484_ECO202 <= 1
-_C1013: Room_Assignment_COS484_20 + Room_Assignment_ECO202_20
- + Time_Assignment_COS484_3 + Time_Assignment_ECO202_3 <= 3
-_C1014: Room_Assignment_COS484_25 + Room_Assignment_ECO202_25
- + Time_Assignment_COS484_3 + Time_Assignment_ECO202_3 <= 3
+_C1013: Room_Assignment_COS484_20.0 + Room_Assignment_ECO202_20.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
+_C1014: Room_Assignment_COS484_25.0 + Room_Assignment_ECO202_25.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
 _C1015: Overlap_COS484_ECO300 <= 1
-_C1016: Room_Assignment_COS484_5 + Room_Assignment_ECO300_5
- + Time_Assignment_COS484_3 + Time_Assignment_ECO300_3 <= 3
-_C1017: Room_Assignment_COS484_3 + Room_Assignment_ECO300_3
- + Time_Assignment_COS484_3 + Time_Assignment_ECO300_3 <= 3
+_C1016: Room_Assignment_COS484_5.0 + Room_Assignment_ECO300_5
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1017: Room_Assignment_COS484_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C1018: Overlap_COS484_ECO301 <= 1
 _C1019: Overlap_COS484_ECO302 <= 1
-_C102: Room_Assignment_AAS201_5 + Room_Assignment_PHY105_5
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
+_C102: Room_Assignment_AAS201_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C1020: Overlap_COS484_ECO310 <= 1
 _C1021: Overlap_COS484_ECO312 <= 1
 _C1022: Overlap_COS484_GER101 <= 1
 _C1023: Overlap_COS484_GER103 <= 1
-_C1024: Room_Assignment_COS484_5 + Room_Assignment_GER103_5
- + Time_Assignment_COS484_3 + Time_Assignment_GER103_3 <= 3
-_C1025: Room_Assignment_COS484_3 + Room_Assignment_GER103_3
- + Time_Assignment_COS484_3 + Time_Assignment_GER103_3 <= 3
+_C1024: Room_Assignment_COS484_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C1025: Room_Assignment_COS484_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
 _C1026: Overlap_COS484_GER105 <= 1
-_C1027: Room_Assignment_COS484_3 + Room_Assignment_GER105_3
- + Time_Assignment_COS484_3 + Time_Assignment_GER105_3 <= 3
+_C1027: Room_Assignment_COS484_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
 _C1028: Overlap_COS484_GER107 <= 1
 _C1029: Overlap_COS484_LIN201 <= 1
-_C103: Room_Assignment_AAS201_1 + Room_Assignment_PHY105_1
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
+_C103: Room_Assignment_AAS201_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C1030: Overlap_COS484_LIN300 <= 1
 _C1031: Overlap_COS484_MAT103 <= 1
 _C1032: Overlap_COS484_MAT104 <= 1
 _C1033: Overlap_COS484_MAT201 <= 1
 _C1034: Overlap_COS484_MAT202 <= 1
-_C1035: Room_Assignment_COS484_5 + Room_Assignment_MAT202_5
- + Time_Assignment_COS484_1 + Time_Assignment_MAT202_1 <= 3
+_C1035: Room_Assignment_COS484_5.0 + Room_Assignment_MAT202_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C1036: Overlap_COS484_MAT203 <= 1
-_C1037: Room_Assignment_COS484_30 + Room_Assignment_MAT203_30
- + Time_Assignment_COS484_1 + Time_Assignment_MAT203_1 <= 3
+_C1037: Room_Assignment_COS484_30.0 + Room_Assignment_MAT203_30.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT203_9:00_9:50_AM
+ <= 3
 _C1038: Overlap_COS484_MAT204 <= 1
-_C1039: Room_Assignment_COS484_10 + Room_Assignment_MAT204_10
- + Time_Assignment_COS484_1 + Time_Assignment_MAT204_1 <= 3
-_C104: Room_Assignment_AAS201_2 + Room_Assignment_PHY105_2
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
-_C1040: Room_Assignment_COS484_20 + Room_Assignment_MAT204_20
- + Time_Assignment_COS484_1 + Time_Assignment_MAT204_1 <= 3
+_C1039: Room_Assignment_COS484_10.0 + Room_Assignment_MAT204_10.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
+_C104: Room_Assignment_AAS201_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1040: Room_Assignment_COS484_20.0 + Room_Assignment_MAT204_20.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
 _C1041: Overlap_COS484_MAT215 <= 1
 _C1042: Overlap_COS484_MAT216 <= 1
 _C1043: Overlap_COS484_MAT217 <= 1
 _C1044: Overlap_COS484_MAT218 <= 1
 _C1045: Overlap_COS484_MAT300 <= 1
 _C1046: Overlap_COS484_MAT325 <= 1
-_C1047: Room_Assignment_COS484_10 + Room_Assignment_MAT325_10
- + Time_Assignment_COS484_1 + Time_Assignment_MAT325_1 <= 3
+_C1047: Room_Assignment_COS484_10.0 + Room_Assignment_MAT325_10.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C1048: Overlap_COS484_MAT335 <= 1
-_C1049: Room_Assignment_COS484_5 + Room_Assignment_MAT335_5
- + Time_Assignment_COS484_1 + Time_Assignment_MAT335_1 <= 3
-_C105: Room_Assignment_AAS201_3 + Room_Assignment_PHY105_3
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
-_C1050: Room_Assignment_COS484_10 + Room_Assignment_MAT335_10
- + Time_Assignment_COS484_1 + Time_Assignment_MAT335_1 <= 3
-_C1051: Room_Assignment_COS484_3 + Room_Assignment_MAT335_3
- + Time_Assignment_COS484_1 + Time_Assignment_MAT335_1 <= 3
+_C1049: Room_Assignment_COS484_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C105: Room_Assignment_AAS201_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1050: Room_Assignment_COS484_10.0 + Room_Assignment_MAT335_10.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C1051: Room_Assignment_COS484_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C1052: Overlap_COS484_MAT370 <= 1
 _C1053: Overlap_COS484_MAT377 <= 1
-_C1054: Room_Assignment_COS484_5 + Room_Assignment_MAT377_5
- + Time_Assignment_COS484_1 + Time_Assignment_MAT377_1 <= 3
-_C1055: Room_Assignment_COS484_15 + Room_Assignment_MAT377_15
- + Time_Assignment_COS484_1 + Time_Assignment_MAT377_1 <= 3
+_C1054: Room_Assignment_COS484_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C1055: Room_Assignment_COS484_15.0 + Room_Assignment_MAT377_15.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C1056: Overlap_COS484_MAT385 <= 1
-_C1057: Room_Assignment_COS484_5 + Room_Assignment_MAT385_5
- + Time_Assignment_COS484_1 + Time_Assignment_MAT385_1 <= 3
-_C1058: Room_Assignment_COS484_3 + Room_Assignment_MAT385_3
- + Time_Assignment_COS484_1 + Time_Assignment_MAT385_1 <= 3
-_C1059: Room_Assignment_COS484_5 + Room_Assignment_MAT385_5
- + Time_Assignment_COS484_3 + Time_Assignment_MAT385_3 <= 3
-_C106: Room_Assignment_AAS201_4 + Room_Assignment_PHY105_4
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
-_C1060: Room_Assignment_COS484_3 + Room_Assignment_MAT385_3
- + Time_Assignment_COS484_3 + Time_Assignment_MAT385_3 <= 3
+_C1057: Room_Assignment_COS484_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C1058: Room_Assignment_COS484_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C1059: Room_Assignment_COS484_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C106: Room_Assignment_AAS201_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1060: Room_Assignment_COS484_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C1061: Overlap_COS484_MAT400 <= 1
 _C1062: Overlap_COS484_ORF245 <= 1
-_C1063: Room_Assignment_COS484_5 + Room_Assignment_ORF245_5
- + Time_Assignment_COS484_3 + Time_Assignment_ORF245_3 <= 3
-_C1064: Room_Assignment_COS484_25 + Room_Assignment_ORF245_25
- + Time_Assignment_COS484_3 + Time_Assignment_ORF245_3 <= 3
+_C1063: Room_Assignment_COS484_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C1064: Room_Assignment_COS484_25.0 + Room_Assignment_ORF245_25.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C1065: Overlap_COS484_ORF307 <= 1
-_C1066: Room_Assignment_COS484_5 + Room_Assignment_ORF307_5
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C1067: Room_Assignment_COS484_10 + Room_Assignment_ORF307_10
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C1068: Room_Assignment_COS484_15 + Room_Assignment_ORF307_15
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C1069: Room_Assignment_COS484_20 + Room_Assignment_ORF307_20
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C107: Room_Assignment_AAS201_5 + Room_Assignment_PHY105_5
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
-_C1070: Room_Assignment_COS484_25 + Room_Assignment_ORF307_25
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C1071: Room_Assignment_COS484_30 + Room_Assignment_ORF307_30
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
+_C1066: Room_Assignment_COS484_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C1067: Room_Assignment_COS484_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C1068: Room_Assignment_COS484_15.0 + Room_Assignment_ORF307_15.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C1069: Room_Assignment_COS484_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C107: Room_Assignment_AAS201_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1070: Room_Assignment_COS484_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C1071: Room_Assignment_COS484_30.0 + Room_Assignment_ORF307_30.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
 _C1072: Overlap_COS484_ORF309 <= 1
 _C1073: Overlap_COS484_ORF350 <= 1
 _C1074: Overlap_COS484_ORF363 <= 1
 _C1075: Overlap_COS484_ORF445 <= 1
-_C1076: Room_Assignment_COS484_5 + Room_Assignment_ORF445_5
- + Time_Assignment_COS484_3 + Time_Assignment_ORF445_3 <= 3
+_C1076: Room_Assignment_COS484_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C1077: Overlap_COS484_PHY103 <= 1
 _C1078: Overlap_COS484_PHY104 <= 1
 _C1079: Overlap_COS484_PHY105 <= 1
 _C108: Overlap_AAS201_PHY106 <= 1
-_C1080: Room_Assignment_COS484_5 + Room_Assignment_PHY105_5
- + Time_Assignment_COS484_1 + Time_Assignment_PHY105_1 <= 3
-_C1081: Room_Assignment_COS484_10 + Room_Assignment_PHY105_10
- + Time_Assignment_COS484_1 + Time_Assignment_PHY105_1 <= 3
-_C1082: Room_Assignment_COS484_3 + Room_Assignment_PHY105_3
- + Time_Assignment_COS484_1 + Time_Assignment_PHY105_1 <= 3
-_C1083: Room_Assignment_COS484_5 + Room_Assignment_PHY105_5
- + Time_Assignment_COS484_3 + Time_Assignment_PHY105_3 <= 3
-_C1084: Room_Assignment_COS484_10 + Room_Assignment_PHY105_10
- + Time_Assignment_COS484_3 + Time_Assignment_PHY105_3 <= 3
-_C1085: Room_Assignment_COS484_3 + Room_Assignment_PHY105_3
- + Time_Assignment_COS484_3 + Time_Assignment_PHY105_3 <= 3
+_C1080: Room_Assignment_COS484_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C1081: Room_Assignment_COS484_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C1082: Room_Assignment_COS484_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C1083: Room_Assignment_COS484_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C1084: Room_Assignment_COS484_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C1085: Room_Assignment_COS484_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C1086: Overlap_COS484_PHY106 <= 1
 _C1087: Overlap_COS484_PHY208 <= 1
 _C1088: Overlap_COS484_REL100 <= 1
@@ -2169,135 +2233,168 @@ _C1092: Overlap_COS522_AAS201 <= 1
 _C1093: Overlap_COS522_ASA203 <= 1
 _C1094: Overlap_COS522_ASA238 <= 1
 _C1095: Overlap_COS522_COS126 <= 1
-_C1096: Room_Assignment_COS126_8 + Room_Assignment_COS522_8
- + Time_Assignment_COS126_1 + Time_Assignment_COS522_1 <= 3
+_C1096: Room_Assignment_COS126_8.0 + Room_Assignment_COS522_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_COS522_9:00_9:50_AM
+ <= 3
 _C1097: Overlap_COS522_COS226 <= 1
 _C1098: Overlap_COS522_COS217 <= 1
 _C1099: Overlap_COS522_COS333 <= 1
-_C11: Room_Assignment_AAS201_4 + Room_Assignment_COS126_4
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
+_C11: Room_Assignment_AAS201_4.0 + Room_Assignment_COS126_4.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
 _C110: Overlap_AAS201_REL100 <= 1
 _C1100: Overlap_COS522_COS342 <= 1
-_C1101: Room_Assignment_COS342_40 + Room_Assignment_COS522_40
- + Time_Assignment_COS342_5 + Time_Assignment_COS522_5 <= 3
+_C1101: Room_Assignment_COS342_40.0 + Room_Assignment_COS522_40.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_COS522_2:30_3:20_PM
+ <= 3
 _C1102: Overlap_COS522_COS423 <= 1
 _C1103: Overlap_COS522_COS432 <= 1
 _C1104: Overlap_COS522_COS484 <= 1
 _C1105: Overlap_COS522_COS528 <= 1
 _C1106: Overlap_COS522_ECO100 <= 1
 _C1107: Overlap_COS522_ECO102 <= 1
-_C1108: Room_Assignment_COS522_48 + Room_Assignment_ECO102_48
- + Time_Assignment_COS522_1 + Time_Assignment_ECO102_1 <= 3
+_C1108: Room_Assignment_COS522_48.0 + Room_Assignment_ECO102_48.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_ECO102_9:00_9:50_AM
+ <= 3
 _C1109: Overlap_COS522_ECO202 <= 1
 _C111: Overlap_AAS201_REL232 <= 1
-_C1110: Room_Assignment_COS522_24 + Room_Assignment_ECO202_24
- + Time_Assignment_COS522_5 + Time_Assignment_ECO202_5 <= 3
+_C1110: Room_Assignment_COS522_24.0 + Room_Assignment_ECO202_24.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_ECO202_2:30_3:20_PM
+ <= 3
 _C1111: Overlap_COS522_ECO300 <= 1
 _C1112: Overlap_COS522_ECO301 <= 1
 _C1113: Overlap_COS522_ECO302 <= 1
-_C1114: Room_Assignment_COS522_64 + Room_Assignment_ECO302_64
- + Time_Assignment_COS522_1 + Time_Assignment_ECO302_1 <= 3
+_C1114: Room_Assignment_COS522_64.0 + Room_Assignment_ECO302_64.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_ECO302_9:00_9:50_AM
+ <= 3
 _C1115: Overlap_COS522_ECO310 <= 1
 _C1116: Overlap_COS522_ECO312 <= 1
-_C1117: Room_Assignment_COS522_48 + Room_Assignment_ECO312_48
- + Time_Assignment_COS522_5 + Time_Assignment_ECO312_5 <= 3
+_C1117: Room_Assignment_COS522_48.0 + Room_Assignment_ECO312_48.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_ECO312_2:30_3:20_PM
+ <= 3
 _C1118: Overlap_COS522_GER101 <= 1
 _C1119: Overlap_COS522_GER103 <= 1
 _C112: Overlap_AAS201_SML201 <= 1
 _C1120: Overlap_COS522_GER105 <= 1
 _C1121: Overlap_COS522_GER107 <= 1
 _C1122: Overlap_COS522_LIN201 <= 1
-_C1123: Room_Assignment_COS522_56 + Room_Assignment_LIN201_56
- + Time_Assignment_COS522_1 + Time_Assignment_LIN201_1 <= 3
+_C1123: Room_Assignment_COS522_56.0 + Room_Assignment_LIN201_56.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_LIN201_9:00_9:50_AM
+ <= 3
 _C1124: Overlap_COS522_LIN300 <= 1
 _C1125: Overlap_COS522_MAT103 <= 1
-_C1126: Room_Assignment_COS522_32 + Room_Assignment_MAT103_32
- + Time_Assignment_COS522_5 + Time_Assignment_MAT103_5 <= 3
+_C1126: Room_Assignment_COS522_32.0 + Room_Assignment_MAT103_32.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C1127: Overlap_COS522_MAT104 <= 1
 _C1128: Overlap_COS522_MAT201 <= 1
-_C1129: Room_Assignment_COS522_8 + Room_Assignment_MAT201_8
- + Time_Assignment_COS522_5 + Time_Assignment_MAT201_5 <= 3
+_C1129: Room_Assignment_COS522_8.0 + Room_Assignment_MAT201_8.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C113: Overlap_AAS201_URB201 <= 1
 _C1130: Overlap_COS522_MAT202 <= 1
 _C1131: Overlap_COS522_MAT203 <= 1
-_C1132: Room_Assignment_COS522_24 + Room_Assignment_MAT203_24
- + Time_Assignment_COS522_1 + Time_Assignment_MAT203_1 <= 3
+_C1132: Room_Assignment_COS522_24.0 + Room_Assignment_MAT203_24.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT203_9:00_9:50_AM
+ <= 3
 _C1133: Overlap_COS522_MAT204 <= 1
-_C1134: Room_Assignment_COS522_8 + Room_Assignment_MAT204_8
- + Time_Assignment_COS522_1 + Time_Assignment_MAT204_1 <= 3
-_C1135: Room_Assignment_COS522_16 + Room_Assignment_MAT204_16
- + Time_Assignment_COS522_1 + Time_Assignment_MAT204_1 <= 3
+_C1134: Room_Assignment_COS522_8.0 + Room_Assignment_MAT204_8.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
+_C1135: Room_Assignment_COS522_16.0 + Room_Assignment_MAT204_16.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
 _C1136: Overlap_COS522_MAT215 <= 1
 _C1137: Overlap_COS522_MAT216 <= 1
 _C1138: Overlap_COS522_MAT217 <= 1
 _C1139: Overlap_COS522_MAT218 <= 1
 _C114: Overlap_ASA203_AAS201 <= 1
-_C1140: Room_Assignment_COS522_24 + Room_Assignment_MAT218_24
- + Time_Assignment_COS522_1 + Time_Assignment_MAT218_1 <= 3
+_C1140: Room_Assignment_COS522_24.0 + Room_Assignment_MAT218_24.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
 _C1141: Overlap_COS522_MAT300 <= 1
 _C1142: Overlap_COS522_MAT325 <= 1
-_C1143: Room_Assignment_COS522_8 + Room_Assignment_MAT325_8
- + Time_Assignment_COS522_1 + Time_Assignment_MAT325_1 <= 3
-_C1144: Room_Assignment_COS522_8 + Room_Assignment_MAT325_8
- + Time_Assignment_COS522_5 + Time_Assignment_MAT325_5 <= 3
+_C1143: Room_Assignment_COS522_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
+_C1144: Room_Assignment_COS522_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT325_2:30_3:20_PM
+ <= 3
 _C1145: Overlap_COS522_MAT335 <= 1
-_C1146: Room_Assignment_COS522_8 + Room_Assignment_MAT335_8
- + Time_Assignment_COS522_1 + Time_Assignment_MAT335_1 <= 3
-_C1147: Room_Assignment_COS522_8 + Room_Assignment_MAT335_8
- + Time_Assignment_COS522_5 + Time_Assignment_MAT335_5 <= 3
+_C1146: Room_Assignment_COS522_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C1147: Room_Assignment_COS522_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C1148: Overlap_COS522_MAT370 <= 1
-_C1149: Room_Assignment_COS522_64 + Room_Assignment_MAT370_64
- + Time_Assignment_COS522_1 + Time_Assignment_MAT370_1 <= 3
+_C1149: Room_Assignment_COS522_64.0 + Room_Assignment_MAT370_64.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
 _C115: Overlap_ASA203_ASA238 <= 1
-_C1150: Room_Assignment_COS522_64 + Room_Assignment_MAT370_64
- + Time_Assignment_COS522_5 + Time_Assignment_MAT370_5 <= 3
+_C1150: Room_Assignment_COS522_64.0 + Room_Assignment_MAT370_64.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C1151: Overlap_COS522_MAT377 <= 1
-_C1152: Room_Assignment_COS522_16 + Room_Assignment_MAT377_16
- + Time_Assignment_COS522_1 + Time_Assignment_MAT377_1 <= 3
+_C1152: Room_Assignment_COS522_16.0 + Room_Assignment_MAT377_16.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C1153: Overlap_COS522_MAT385 <= 1
 _C1154: Overlap_COS522_MAT400 <= 1
 _C1155: Overlap_COS522_ORF245 <= 1
 _C1156: Overlap_COS522_ORF307 <= 1
-_C1157: Room_Assignment_COS522_40 + Room_Assignment_ORF307_40
- + Time_Assignment_COS522_5 + Time_Assignment_ORF307_5 <= 3
+_C1157: Room_Assignment_COS522_40.0 + Room_Assignment_ORF307_40.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C1158: Overlap_COS522_ORF309 <= 1
 _C1159: Overlap_COS522_ORF350 <= 1
-_C116: Room_Assignment_ASA203_3 + Room_Assignment_ASA238_3
- + Time_Assignment_ASA203_3 + Time_Assignment_ASA238_3 <= 3
+_C116: Room_Assignment_ASA203_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ASA238_11:00_11:50_AM <= 3
 _C1160: Overlap_COS522_ORF363 <= 1
 _C1161: Overlap_COS522_ORF445 <= 1
 _C1162: Overlap_COS522_PHY103 <= 1
 _C1163: Overlap_COS522_PHY104 <= 1
 _C1164: Overlap_COS522_PHY105 <= 1
-_C1165: Room_Assignment_COS522_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS522_1 + Time_Assignment_PHY105_1 <= 3
-_C1166: Room_Assignment_COS522_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS522_5 + Time_Assignment_PHY105_5 <= 3
+_C1165: Room_Assignment_COS522_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C1166: Room_Assignment_COS522_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C1167: Overlap_COS522_PHY106 <= 1
 _C1168: Overlap_COS522_PHY208 <= 1
-_C1169: Room_Assignment_COS522_48 + Room_Assignment_PHY208_48
- + Time_Assignment_COS522_5 + Time_Assignment_PHY208_5 <= 3
-_C117: Room_Assignment_ASA203_3 + Room_Assignment_ASA238_3
- + Time_Assignment_ASA203_4 + Time_Assignment_ASA238_4 <= 3
+_C1169: Room_Assignment_COS522_48.0 + Room_Assignment_PHY208_48.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
+_C117: Room_Assignment_ASA203_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ASA238_1:30_2:20_PM
+ <= 3
 _C1170: Overlap_COS522_REL100 <= 1
 _C1171: Overlap_COS522_REL232 <= 1
 _C1172: Overlap_COS522_SML201 <= 1
 _C1173: Overlap_COS522_URB201 <= 1
-_C1174: Room_Assignment_COS522_56 + Room_Assignment_URB201_56
- + Time_Assignment_COS522_5 + Time_Assignment_URB201_5 <= 3
+_C1174: Room_Assignment_COS522_56.0 + Room_Assignment_URB201_56.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
 _C1175: Overlap_COS528_AAS201 <= 1
 _C1176: Overlap_COS528_ASA203 <= 1
-_C1177: Room_Assignment_ASA203_13 + Room_Assignment_COS528_13
- + Time_Assignment_ASA203_4 + Time_Assignment_COS528_4 <= 3
-_C1178: Room_Assignment_ASA203_13 + Room_Assignment_COS528_13
- + Time_Assignment_ASA203_5 + Time_Assignment_COS528_5 <= 3
+_C1177: Room_Assignment_ASA203_13.0 + Room_Assignment_COS528_13.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_COS528_1:30_2:20_PM
+ <= 3
+_C1178: Room_Assignment_ASA203_13.0 + Room_Assignment_COS528_13.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_COS528_2:30_3:20_PM
+ <= 3
 _C1179: Overlap_COS528_ASA238 <= 1
-_C118: Room_Assignment_ASA203_3 + Room_Assignment_ASA238_3
- + Time_Assignment_ASA203_5 + Time_Assignment_ASA238_5 <= 3
-_C1180: Room_Assignment_ASA238_23 + Room_Assignment_COS528_23
- + Time_Assignment_ASA238_4 + Time_Assignment_COS528_4 <= 3
-_C1181: Room_Assignment_ASA238_23 + Room_Assignment_COS528_23
- + Time_Assignment_ASA238_5 + Time_Assignment_COS528_5 <= 3
+_C118: Room_Assignment_ASA203_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ASA238_2:30_3:20_PM
+ <= 3
+_C1180: Room_Assignment_ASA238_23.0 + Room_Assignment_COS528_23.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_COS528_1:30_2:20_PM
+ <= 3
+_C1181: Room_Assignment_ASA238_23.0 + Room_Assignment_COS528_23.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_COS528_2:30_3:20_PM
+ <= 3
 _C1182: Overlap_COS528_COS126 <= 1
 _C1183: Overlap_COS528_COS226 <= 1
 _C1184: Overlap_COS528_COS217 <= 1
@@ -2311,23 +2408,29 @@ _C1190: Overlap_COS528_COS522 <= 1
 _C1191: Overlap_COS528_ECO100 <= 1
 _C1192: Overlap_COS528_ECO102 <= 1
 _C1193: Overlap_COS528_ECO202 <= 1
-_C1194: Room_Assignment_COS528_23 + Room_Assignment_ECO202_23
- + Time_Assignment_COS528_4 + Time_Assignment_ECO202_4 <= 3
-_C1195: Room_Assignment_COS528_23 + Room_Assignment_ECO202_23
- + Time_Assignment_COS528_5 + Time_Assignment_ECO202_5 <= 3
+_C1194: Room_Assignment_COS528_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
+_C1195: Room_Assignment_COS528_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ECO202_2:30_3:20_PM
+ <= 3
 _C1196: Overlap_COS528_ECO300 <= 1
 _C1197: Overlap_COS528_ECO301 <= 1
-_C1198: Room_Assignment_COS528_7 + Room_Assignment_ECO301_7
- + Time_Assignment_COS528_4 + Time_Assignment_ECO301_4 <= 3
-_C1199: Room_Assignment_COS528_7 + Room_Assignment_ECO301_7
- + Time_Assignment_COS528_5 + Time_Assignment_ECO301_5 <= 3
-_C12: Room_Assignment_AAS201_5 + Room_Assignment_COS126_5
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
+_C1198: Room_Assignment_COS528_7.0 + Room_Assignment_ECO301_7.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
+_C1199: Room_Assignment_COS528_7.0 + Room_Assignment_ECO301_7.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ECO301_2:30_3:20_PM
+ <= 3
+_C12: Room_Assignment_AAS201_5.0 + Room_Assignment_COS126_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
 _C120: Overlap_ASA203_COS226 <= 1
 _C1200: Overlap_COS528_ECO302 <= 1
 _C1201: Overlap_COS528_ECO310 <= 1
-_C1202: Room_Assignment_COS528_37 + Room_Assignment_ECO310_37
- + Time_Assignment_COS528_4 + Time_Assignment_ECO310_4 <= 3
+_C1202: Room_Assignment_COS528_37.0 + Room_Assignment_ECO310_37.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ECO310_1:30_2:20_PM
+ <= 3
 _C1203: Overlap_COS528_ECO312 <= 1
 _C1204: Overlap_COS528_GER101 <= 1
 _C1205: Overlap_COS528_GER103 <= 1
@@ -2337,204 +2440,263 @@ _C1208: Overlap_COS528_LIN201 <= 1
 _C1209: Overlap_COS528_LIN300 <= 1
 _C121: Overlap_ASA203_COS217 <= 1
 _C1210: Overlap_COS528_MAT103 <= 1
-_C1211: Room_Assignment_COS528_11 + Room_Assignment_MAT103_11
- + Time_Assignment_COS528_5 + Time_Assignment_MAT103_5 <= 3
-_C1212: Room_Assignment_COS528_23 + Room_Assignment_MAT103_23
- + Time_Assignment_COS528_5 + Time_Assignment_MAT103_5 <= 3
+_C1211: Room_Assignment_COS528_11.0 + Room_Assignment_MAT103_11.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
+_C1212: Room_Assignment_COS528_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C1213: Overlap_COS528_MAT104 <= 1
 _C1214: Overlap_COS528_MAT201 <= 1
-_C1215: Room_Assignment_COS528_7 + Room_Assignment_MAT201_7
- + Time_Assignment_COS528_4 + Time_Assignment_MAT201_4 <= 3
-_C1216: Room_Assignment_COS528_7 + Room_Assignment_MAT201_7
- + Time_Assignment_COS528_5 + Time_Assignment_MAT201_5 <= 3
+_C1215: Room_Assignment_COS528_7.0 + Room_Assignment_MAT201_7.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C1216: Room_Assignment_COS528_7.0 + Room_Assignment_MAT201_7.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C1217: Overlap_COS528_MAT202 <= 1
 _C1218: Overlap_COS528_MAT203 <= 1
 _C1219: Overlap_COS528_MAT204 <= 1
 _C122: Overlap_ASA203_COS333 <= 1
 _C1220: Overlap_COS528_MAT215 <= 1
-_C1221: Room_Assignment_COS528_31 + Room_Assignment_MAT215_31
- + Time_Assignment_COS528_4 + Time_Assignment_MAT215_4 <= 3
-_C1222: Room_Assignment_COS528_37 + Room_Assignment_MAT215_37
- + Time_Assignment_COS528_4 + Time_Assignment_MAT215_4 <= 3
+_C1221: Room_Assignment_COS528_31.0 + Room_Assignment_MAT215_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
+_C1222: Room_Assignment_COS528_37.0 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
 _C1223: Overlap_COS528_MAT216 <= 1
 _C1224: Overlap_COS528_MAT217 <= 1
 _C1225: Overlap_COS528_MAT218 <= 1
 _C1226: Overlap_COS528_MAT300 <= 1
 _C1227: Overlap_COS528_MAT325 <= 1
 _C1228: Overlap_COS528_MAT335 <= 1
-_C1229: Room_Assignment_COS528_7 + Room_Assignment_MAT335_7
- + Time_Assignment_COS528_5 + Time_Assignment_MAT335_5 <= 3
-_C123: Room_Assignment_ASA203_3 + Room_Assignment_COS333_3
- + Time_Assignment_ASA203_4 + Time_Assignment_COS333_4 <= 3
+_C1229: Room_Assignment_COS528_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C123: Room_Assignment_ASA203_3.0 + Room_Assignment_COS333_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_COS333_1:30_2:20_PM
+ <= 3
 _C1230: Overlap_COS528_MAT370 <= 1
-_C1231: Room_Assignment_COS528_31 + Room_Assignment_MAT370_31
- + Time_Assignment_COS528_5 + Time_Assignment_MAT370_5 <= 3
+_C1231: Room_Assignment_COS528_31.0 + Room_Assignment_MAT370_31.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C1232: Overlap_COS528_MAT377 <= 1
 _C1233: Overlap_COS528_MAT385 <= 1
 _C1234: Overlap_COS528_MAT400 <= 1
-_C1235: Room_Assignment_COS528_13 + Room_Assignment_MAT400_13
- + Time_Assignment_COS528_4 + Time_Assignment_MAT400_4 <= 3
+_C1235: Room_Assignment_COS528_13.0 + Room_Assignment_MAT400_13.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C1236: Overlap_COS528_ORF245 <= 1
-_C1237: Room_Assignment_COS528_7 + Room_Assignment_ORF245_7
- + Time_Assignment_COS528_4 + Time_Assignment_ORF245_4 <= 3
-_C1238: Room_Assignment_COS528_31 + Room_Assignment_ORF245_31
- + Time_Assignment_COS528_4 + Time_Assignment_ORF245_4 <= 3
+_C1237: Room_Assignment_COS528_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C1238: Room_Assignment_COS528_31.0 + Room_Assignment_ORF245_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C1239: Overlap_COS528_ORF307 <= 1
-_C124: Room_Assignment_ASA203_21 + Room_Assignment_COS333_21
- + Time_Assignment_ASA203_4 + Time_Assignment_COS333_4 <= 3
+_C124: Room_Assignment_ASA203_21.0 + Room_Assignment_COS333_21.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_COS333_1:30_2:20_PM
+ <= 3
 _C1240: Overlap_COS528_ORF309 <= 1
-_C1241: Room_Assignment_COS528_13 + Room_Assignment_ORF309_13
- + Time_Assignment_COS528_4 + Time_Assignment_ORF309_4 <= 3
-_C1242: Room_Assignment_COS528_23 + Room_Assignment_ORF309_23
- + Time_Assignment_COS528_4 + Time_Assignment_ORF309_4 <= 3
-_C1243: Room_Assignment_COS528_13 + Room_Assignment_ORF309_13
- + Time_Assignment_COS528_5 + Time_Assignment_ORF309_5 <= 3
-_C1244: Room_Assignment_COS528_23 + Room_Assignment_ORF309_23
- + Time_Assignment_COS528_5 + Time_Assignment_ORF309_5 <= 3
+_C1241: Room_Assignment_COS528_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C1242: Room_Assignment_COS528_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C1243: Room_Assignment_COS528_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
+_C1244: Room_Assignment_COS528_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C1245: Overlap_COS528_ORF350 <= 1
-_C1246: Room_Assignment_COS528_19 + Room_Assignment_ORF350_19
- + Time_Assignment_COS528_4 + Time_Assignment_ORF350_4 <= 3
-_C1247: Room_Assignment_COS528_29 + Room_Assignment_ORF350_29
- + Time_Assignment_COS528_4 + Time_Assignment_ORF350_4 <= 3
-_C1248: Room_Assignment_COS528_19 + Room_Assignment_ORF350_19
- + Time_Assignment_COS528_5 + Time_Assignment_ORF350_5 <= 3
-_C1249: Room_Assignment_COS528_29 + Room_Assignment_ORF350_29
- + Time_Assignment_COS528_5 + Time_Assignment_ORF350_5 <= 3
+_C1246: Room_Assignment_COS528_19.0 + Room_Assignment_ORF350_19.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
+_C1247: Room_Assignment_COS528_29.0 + Room_Assignment_ORF350_29.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
+_C1248: Room_Assignment_COS528_19.0 + Room_Assignment_ORF350_19.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
+_C1249: Room_Assignment_COS528_29.0 + Room_Assignment_ORF350_29.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C125: Overlap_ASA203_COS342 <= 1
 _C1250: Overlap_COS528_ORF363 <= 1
-_C1251: Room_Assignment_COS528_11 + Room_Assignment_ORF363_11
- + Time_Assignment_COS528_4 + Time_Assignment_ORF363_4 <= 3
-_C1252: Room_Assignment_COS528_31 + Room_Assignment_ORF363_31
- + Time_Assignment_COS528_4 + Time_Assignment_ORF363_4 <= 3
+_C1251: Room_Assignment_COS528_11.0 + Room_Assignment_ORF363_11.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
+_C1252: Room_Assignment_COS528_31.0 + Room_Assignment_ORF363_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C1253: Overlap_COS528_ORF445 <= 1
-_C1254: Room_Assignment_COS528_31 + Room_Assignment_ORF445_31
- + Time_Assignment_COS528_4 + Time_Assignment_ORF445_4 <= 3
+_C1254: Room_Assignment_COS528_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C1255: Overlap_COS528_PHY103 <= 1
 _C1256: Overlap_COS528_PHY104 <= 1
-_C1257: Room_Assignment_COS528_37 + Room_Assignment_PHY104_37
- + Time_Assignment_COS528_5 + Time_Assignment_PHY104_5 <= 3
+_C1257: Room_Assignment_COS528_37.0 + Room_Assignment_PHY104_37.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY104_2:30_3:20_PM
+ <= 3
 _C1258: Overlap_COS528_PHY105 <= 1
-_C1259: Room_Assignment_COS528_7 + Room_Assignment_PHY105_7
- + Time_Assignment_COS528_4 + Time_Assignment_PHY105_4 <= 3
+_C1259: Room_Assignment_COS528_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C126: Overlap_ASA203_COS423 <= 1
-_C1260: Room_Assignment_COS528_7 + Room_Assignment_PHY105_7
- + Time_Assignment_COS528_5 + Time_Assignment_PHY105_5 <= 3
+_C1260: Room_Assignment_COS528_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C1261: Overlap_COS528_PHY106 <= 1
-_C1262: Room_Assignment_COS528_11 + Room_Assignment_PHY106_11
- + Time_Assignment_COS528_5 + Time_Assignment_PHY106_5 <= 3
-_C1263: Room_Assignment_COS528_19 + Room_Assignment_PHY106_19
- + Time_Assignment_COS528_5 + Time_Assignment_PHY106_5 <= 3
-_C1264: Room_Assignment_COS528_29 + Room_Assignment_PHY106_29
- + Time_Assignment_COS528_5 + Time_Assignment_PHY106_5 <= 3
-_C1265: Room_Assignment_COS528_31 + Room_Assignment_PHY106_31
- + Time_Assignment_COS528_5 + Time_Assignment_PHY106_5 <= 3
+_C1262: Room_Assignment_COS528_11.0 + Room_Assignment_PHY106_11.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C1263: Room_Assignment_COS528_19.0 + Room_Assignment_PHY106_19.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C1264: Room_Assignment_COS528_29.0 + Room_Assignment_PHY106_29.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C1265: Room_Assignment_COS528_31.0 + Room_Assignment_PHY106_31.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C1266: Overlap_COS528_PHY208 <= 1
 _C1267: Overlap_COS528_REL100 <= 1
 _C1268: Overlap_COS528_REL232 <= 1
 _C1269: Overlap_COS528_SML201 <= 1
 _C127: Overlap_ASA203_COS432 <= 1
-_C1270: Room_Assignment_COS528_31 + Room_Assignment_SML201_31
- + Time_Assignment_COS528_5 + Time_Assignment_SML201_5 <= 3
+_C1270: Room_Assignment_COS528_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C1271: Overlap_COS528_URB201 <= 1
-_C1272: Room_Assignment_COS528_31 + Room_Assignment_URB201_31
- + Time_Assignment_COS528_4 + Time_Assignment_URB201_4 <= 3
-_C1273: Room_Assignment_COS528_31 + Room_Assignment_URB201_31
- + Time_Assignment_COS528_5 + Time_Assignment_URB201_5 <= 3
+_C1272: Room_Assignment_COS528_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
+_C1273: Room_Assignment_COS528_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
 _C1274: Overlap_ECO100_AAS201 <= 1
-_C1275: Room_Assignment_AAS201_3 + Room_Assignment_ECO100_3
- + Time_Assignment_AAS201_1 + Time_Assignment_ECO100_1 <= 3
-_C1276: Room_Assignment_AAS201_3 + Room_Assignment_ECO100_3
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO100_2 <= 3
+_C1275: Room_Assignment_AAS201_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
+_C1276: Room_Assignment_AAS201_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO100_10:00_10:50_AM <= 3
 _C1277: Overlap_ECO100_ASA203 <= 1
 _C1278: Overlap_ECO100_ASA238 <= 1
-_C1279: Room_Assignment_ASA238_3 + Room_Assignment_ECO100_3
- + Time_Assignment_ASA238_1 + Time_Assignment_ECO100_1 <= 3
-_C128: Room_Assignment_ASA203_12 + Room_Assignment_COS432_12
- + Time_Assignment_ASA203_3 + Time_Assignment_COS432_3 <= 3
-_C1280: Room_Assignment_ASA238_3 + Room_Assignment_ECO100_3
- + Time_Assignment_ASA238_2 + Time_Assignment_ECO100_2 <= 3
+_C1279: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
+_C128: Room_Assignment_ASA203_12.0 + Room_Assignment_COS432_12.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_COS432_11:00_11:50_AM <= 3
+_C1280: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ECO100_10:00_10:50_AM <= 3
 _C1281: Overlap_ECO100_COS126 <= 1
-_C1282: Room_Assignment_COS126_3 + Room_Assignment_ECO100_3
- + Time_Assignment_COS126_1 + Time_Assignment_ECO100_1 <= 3
-_C1283: Room_Assignment_COS126_6 + Room_Assignment_ECO100_6
- + Time_Assignment_COS126_1 + Time_Assignment_ECO100_1 <= 3
-_C1284: Room_Assignment_COS126_9 + Room_Assignment_ECO100_9
- + Time_Assignment_COS126_1 + Time_Assignment_ECO100_1 <= 3
+_C1282: Room_Assignment_COS126_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
+_C1283: Room_Assignment_COS126_6.0 + Room_Assignment_ECO100_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
+_C1284: Room_Assignment_COS126_9.0 + Room_Assignment_ECO100_9.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
 _C1285: Overlap_ECO100_COS226 <= 1
 _C1286: Overlap_ECO100_COS217 <= 1
 _C1287: Overlap_ECO100_COS333 <= 1
 _C1288: Overlap_ECO100_COS342 <= 1
 _C1289: Overlap_ECO100_COS423 <= 1
-_C129: Room_Assignment_ASA203_12 + Room_Assignment_COS432_12
- + Time_Assignment_ASA203_4 + Time_Assignment_COS432_4 <= 3
+_C129: Room_Assignment_ASA203_12.0 + Room_Assignment_COS432_12.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_COS432_1:30_2:20_PM
+ <= 3
 _C1290: Overlap_ECO100_COS432 <= 1
 _C1291: Overlap_ECO100_COS484 <= 1
-_C1292: Room_Assignment_COS484_3 + Room_Assignment_ECO100_3
- + Time_Assignment_COS484_1 + Time_Assignment_ECO100_1 <= 3
+_C1292: Room_Assignment_COS484_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
 _C1293: Overlap_ECO100_COS522 <= 1
 _C1294: Overlap_ECO100_COS528 <= 1
 _C1295: Overlap_ECO100_ECO102 <= 1
 _C1296: Overlap_ECO100_ECO202 <= 1
 _C1297: Overlap_ECO100_ECO300 <= 1
-_C1298: Room_Assignment_ECO100_3 + Room_Assignment_ECO300_3
- + Time_Assignment_ECO100_2 + Time_Assignment_ECO300_2 <= 3
+_C1298: Room_Assignment_ECO100_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
 _C1299: Overlap_ECO100_ECO301 <= 1
 _C13: Overlap_AAS201_COS226 <= 1
 _C130: Overlap_ASA203_COS484 <= 1
-_C1300: Room_Assignment_ECO100_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ECO100_2 + Time_Assignment_ECO301_2 <= 3
+_C1300: Room_Assignment_ECO100_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
 _C1301: Overlap_ECO100_ECO302 <= 1
 _C1302: Overlap_ECO100_ECO310 <= 1
 _C1303: Overlap_ECO100_ECO312 <= 1
 _C1304: Overlap_ECO100_GER101 <= 1
 _C1305: Overlap_ECO100_GER103 <= 1
-_C1306: Room_Assignment_ECO100_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO100_2 + Time_Assignment_GER103_2 <= 3
-_C1307: Room_Assignment_ECO100_9 + Room_Assignment_GER103_9
- + Time_Assignment_ECO100_2 + Time_Assignment_GER103_2 <= 3
+_C1306: Room_Assignment_ECO100_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C1307: Room_Assignment_ECO100_9.0 + Room_Assignment_GER103_9.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
 _C1308: Overlap_ECO100_GER105 <= 1
 _C1309: Overlap_ECO100_GER107 <= 1
-_C131: Room_Assignment_ASA203_5 + Room_Assignment_COS484_5
- + Time_Assignment_ASA203_3 + Time_Assignment_COS484_3 <= 3
+_C131: Room_Assignment_ASA203_5.0 + Room_Assignment_COS484_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
 _C1310: Overlap_ECO100_LIN201 <= 1
 _C1311: Overlap_ECO100_LIN300 <= 1
 _C1312: Overlap_ECO100_MAT103 <= 1
 _C1313: Overlap_ECO100_MAT104 <= 1
 _C1314: Overlap_ECO100_MAT201 <= 1
 _C1315: Overlap_ECO100_MAT202 <= 1
-_C1316: Room_Assignment_ECO100_6 + Room_Assignment_MAT202_6
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT202_1 <= 3
+_C1316: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT202_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C1317: Overlap_ECO100_MAT203 <= 1
 _C1318: Overlap_ECO100_MAT204 <= 1
 _C1319: Overlap_ECO100_MAT215 <= 1
-_C132: Room_Assignment_ASA203_3 + Room_Assignment_COS484_3
- + Time_Assignment_ASA203_3 + Time_Assignment_COS484_3 <= 3
+_C132: Room_Assignment_ASA203_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
 _C1320: Overlap_ECO100_MAT216 <= 1
 _C1321: Overlap_ECO100_MAT217 <= 1
 _C1322: Overlap_ECO100_MAT218 <= 1
 _C1323: Overlap_ECO100_MAT300 <= 1
 _C1324: Overlap_ECO100_MAT325 <= 1
 _C1325: Overlap_ECO100_MAT335 <= 1
-_C1326: Room_Assignment_ECO100_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT335_1 <= 3
-_C1327: Room_Assignment_ECO100_6 + Room_Assignment_MAT335_6
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT335_1 <= 3
+_C1326: Room_Assignment_ECO100_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C1327: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT335_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C1328: Overlap_ECO100_MAT370 <= 1
 _C1329: Overlap_ECO100_MAT377 <= 1
 _C133: Overlap_ASA203_COS522 <= 1
-_C1330: Room_Assignment_ECO100_6 + Room_Assignment_MAT377_6
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT377_1 <= 3
-_C1331: Room_Assignment_ECO100_6 + Room_Assignment_MAT377_6
- + Time_Assignment_ECO100_2 + Time_Assignment_MAT377_2 <= 3
+_C1330: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C1331: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C1332: Overlap_ECO100_MAT385 <= 1
-_C1333: Room_Assignment_ECO100_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT385_1 <= 3
-_C1334: Room_Assignment_ECO100_6 + Room_Assignment_MAT385_6
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT385_1 <= 3
-_C1335: Room_Assignment_ECO100_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO100_2 + Time_Assignment_MAT385_2 <= 3
-_C1336: Room_Assignment_ECO100_6 + Room_Assignment_MAT385_6
- + Time_Assignment_ECO100_2 + Time_Assignment_MAT385_2 <= 3
+_C1333: Room_Assignment_ECO100_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C1334: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C1335: Room_Assignment_ECO100_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C1336: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C1337: Overlap_ECO100_MAT400 <= 1
 _C1338: Overlap_ECO100_ORF245 <= 1
 _C1339: Overlap_ECO100_ORF307 <= 1
@@ -2546,20 +2708,27 @@ _C1343: Overlap_ECO100_ORF445 <= 1
 _C1344: Overlap_ECO100_PHY103 <= 1
 _C1345: Overlap_ECO100_PHY104 <= 1
 _C1346: Overlap_ECO100_PHY105 <= 1
-_C1347: Room_Assignment_ECO100_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO100_1 + Time_Assignment_PHY105_1 <= 3
-_C1348: Room_Assignment_ECO100_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ECO100_1 + Time_Assignment_PHY105_1 <= 3
-_C1349: Room_Assignment_ECO100_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ECO100_1 + Time_Assignment_PHY105_1 <= 3
-_C135: Room_Assignment_ASA203_13 + Room_Assignment_COS528_13
- + Time_Assignment_ASA203_4 + Time_Assignment_COS528_4 <= 3
-_C1350: Room_Assignment_ECO100_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO100_2 + Time_Assignment_PHY105_2 <= 3
-_C1351: Room_Assignment_ECO100_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ECO100_2 + Time_Assignment_PHY105_2 <= 3
-_C1352: Room_Assignment_ECO100_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ECO100_2 + Time_Assignment_PHY105_2 <= 3
+_C1347: Room_Assignment_ECO100_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C1348: Room_Assignment_ECO100_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C1349: Room_Assignment_ECO100_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C135: Room_Assignment_ASA203_13.0 + Room_Assignment_COS528_13.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_COS528_1:30_2:20_PM
+ <= 3
+_C1350: Room_Assignment_ECO100_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1351: Room_Assignment_ECO100_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1352: Room_Assignment_ECO100_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C1353: Overlap_ECO100_PHY106 <= 1
 _C1354: Overlap_ECO100_PHY208 <= 1
 _C1355: Overlap_ECO100_REL100 <= 1
@@ -2567,12 +2736,14 @@ _C1356: Overlap_ECO100_REL232 <= 1
 _C1357: Overlap_ECO100_SML201 <= 1
 _C1358: Overlap_ECO100_URB201 <= 1
 _C1359: Overlap_ECO102_AAS201 <= 1
-_C136: Room_Assignment_ASA203_13 + Room_Assignment_COS528_13
- + Time_Assignment_ASA203_5 + Time_Assignment_COS528_5 <= 3
+_C136: Room_Assignment_ASA203_13.0 + Room_Assignment_COS528_13.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_COS528_2:30_3:20_PM
+ <= 3
 _C1360: Overlap_ECO102_ASA203 <= 1
 _C1361: Overlap_ECO102_ASA238 <= 1
-_C1362: Room_Assignment_ASA238_50 + Room_Assignment_ECO102_50
- + Time_Assignment_ASA238_1 + Time_Assignment_ECO102_1 <= 3
+_C1362: Room_Assignment_ASA238_50.0 + Room_Assignment_ECO102_50.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_ECO102_9:00_9:50_AM
+ <= 3
 _C1363: Overlap_ECO102_COS126 <= 1
 _C1364: Overlap_ECO102_COS226 <= 1
 _C1365: Overlap_ECO102_COS217 <= 1
@@ -2583,8 +2754,9 @@ _C1369: Overlap_ECO102_COS432 <= 1
 _C137: Overlap_ASA203_ECO100 <= 1
 _C1370: Overlap_ECO102_COS484 <= 1
 _C1371: Overlap_ECO102_COS522 <= 1
-_C1372: Room_Assignment_COS522_48 + Room_Assignment_ECO102_48
- + Time_Assignment_COS522_1 + Time_Assignment_ECO102_1 <= 3
+_C1372: Room_Assignment_COS522_48.0 + Room_Assignment_ECO102_48.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_ECO102_9:00_9:50_AM
+ <= 3
 _C1373: Overlap_ECO102_COS528 <= 1
 _C1374: Overlap_ECO102_ECO100 <= 1
 _C1375: Overlap_ECO102_ECO202 <= 1
@@ -2599,10 +2771,12 @@ _C1382: Overlap_ECO102_GER103 <= 1
 _C1383: Overlap_ECO102_GER105 <= 1
 _C1384: Overlap_ECO102_GER107 <= 1
 _C1385: Overlap_ECO102_LIN201 <= 1
-_C1386: Room_Assignment_ECO102_51 + Room_Assignment_LIN201_51
- + Time_Assignment_ECO102_1 + Time_Assignment_LIN201_1 <= 3
-_C1387: Room_Assignment_ECO102_50 + Room_Assignment_LIN201_50
- + Time_Assignment_ECO102_1 + Time_Assignment_LIN201_1 <= 3
+_C1386: Room_Assignment_ECO102_51.0 + Room_Assignment_LIN201_51.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_LIN201_9:00_9:50_AM
+ <= 3
+_C1387: Room_Assignment_ECO102_50.0 + Room_Assignment_LIN201_50.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_LIN201_9:00_9:50_AM
+ <= 3
 _C1388: Overlap_ECO102_LIN300 <= 1
 _C1389: Overlap_ECO102_MAT103 <= 1
 _C139: Overlap_ASA203_ECO202 <= 1
@@ -2615,14 +2789,18 @@ _C1395: Overlap_ECO102_MAT215 <= 1
 _C1396: Overlap_ECO102_MAT216 <= 1
 _C1397: Overlap_ECO102_MAT217 <= 1
 _C1398: Overlap_ECO102_MAT218 <= 1
-_C1399: Room_Assignment_ECO102_46 + Room_Assignment_MAT218_46
- + Time_Assignment_ECO102_1 + Time_Assignment_MAT218_1 <= 3
-_C14: Room_Assignment_AAS201_4 + Room_Assignment_COS226_4
- + Time_Assignment_AAS201_2 + Time_Assignment_COS226_2 <= 3
-_C140: Room_Assignment_ASA203_21 + Room_Assignment_ECO202_21
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO202_3 <= 3
-_C1400: Room_Assignment_ECO102_35 + Room_Assignment_MAT218_35
- + Time_Assignment_ECO102_1 + Time_Assignment_MAT218_1 <= 3
+_C1399: Room_Assignment_ECO102_46.0 + Room_Assignment_MAT218_46.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
+_C14: Room_Assignment_AAS201_4.0 + Room_Assignment_COS226_4.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_COS226_10:00_10:50_AM <= 3
+_C140: Room_Assignment_ASA203_21.0 + Room_Assignment_ECO202_21.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
+_C1400: Room_Assignment_ECO102_35.0 + Room_Assignment_MAT218_35.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
 _C1401: Overlap_ECO102_MAT300 <= 1
 _C1402: Overlap_ECO102_MAT325 <= 1
 _C1403: Overlap_ECO102_MAT335 <= 1
@@ -2632,22 +2810,26 @@ _C1406: Overlap_ECO102_MAT385 <= 1
 _C1407: Overlap_ECO102_MAT400 <= 1
 _C1408: Overlap_ECO102_ORF245 <= 1
 _C1409: Overlap_ECO102_ORF307 <= 1
-_C141: Room_Assignment_ASA203_21 + Room_Assignment_ECO202_21
- + Time_Assignment_ASA203_4 + Time_Assignment_ECO202_4 <= 3
+_C141: Room_Assignment_ASA203_21.0 + Room_Assignment_ECO202_21.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
 _C1410: Overlap_ECO102_ORF309 <= 1
 _C1411: Overlap_ECO102_ORF350 <= 1
 _C1412: Overlap_ECO102_ORF363 <= 1
 _C1413: Overlap_ECO102_ORF445 <= 1
 _C1414: Overlap_ECO102_PHY103 <= 1
 _C1415: Overlap_ECO102_PHY104 <= 1
-_C1416: Room_Assignment_ECO102_37 + Room_Assignment_PHY104_37
- + Time_Assignment_ECO102_1 + Time_Assignment_PHY104_1 <= 3
+_C1416: Room_Assignment_ECO102_37.0 + Room_Assignment_PHY104_37.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_PHY104_9:00_9:50_AM
+ <= 3
 _C1417: Overlap_ECO102_PHY105 <= 1
 _C1418: Overlap_ECO102_PHY106 <= 1
-_C1419: Room_Assignment_ECO102_49 + Room_Assignment_PHY106_49
- + Time_Assignment_ECO102_1 + Time_Assignment_PHY106_1 <= 3
-_C142: Room_Assignment_ASA203_21 + Room_Assignment_ECO202_21
- + Time_Assignment_ASA203_5 + Time_Assignment_ECO202_5 <= 3
+_C1419: Room_Assignment_ECO102_49.0 + Room_Assignment_PHY106_49.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
+_C142: Room_Assignment_ASA203_21.0 + Room_Assignment_ECO202_21.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ECO202_2:30_3:20_PM
+ <= 3
 _C1420: Overlap_ECO102_PHY208 <= 1
 _C1421: Overlap_ECO102_REL100 <= 1
 _C1422: Overlap_ECO102_REL232 <= 1
@@ -2655,94 +2837,125 @@ _C1423: Overlap_ECO102_SML201 <= 1
 _C1424: Overlap_ECO102_URB201 <= 1
 _C1425: Overlap_ECO202_AAS201 <= 1
 _C1426: Overlap_ECO202_ASA203 <= 1
-_C1427: Room_Assignment_ASA203_21 + Room_Assignment_ECO202_21
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO202_3 <= 3
-_C1428: Room_Assignment_ASA203_21 + Room_Assignment_ECO202_21
- + Time_Assignment_ASA203_4 + Time_Assignment_ECO202_4 <= 3
-_C1429: Room_Assignment_ASA203_21 + Room_Assignment_ECO202_21
- + Time_Assignment_ASA203_5 + Time_Assignment_ECO202_5 <= 3
+_C1427: Room_Assignment_ASA203_21.0 + Room_Assignment_ECO202_21.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
+_C1428: Room_Assignment_ASA203_21.0 + Room_Assignment_ECO202_21.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
+_C1429: Room_Assignment_ASA203_21.0 + Room_Assignment_ECO202_21.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ECO202_2:30_3:20_PM
+ <= 3
 _C143: Overlap_ASA203_ECO300 <= 1
 _C1430: Overlap_ECO202_ASA238 <= 1
-_C1431: Room_Assignment_ASA238_23 + Room_Assignment_ECO202_23
- + Time_Assignment_ASA238_3 + Time_Assignment_ECO202_3 <= 3
-_C1432: Room_Assignment_ASA238_23 + Room_Assignment_ECO202_23
- + Time_Assignment_ASA238_4 + Time_Assignment_ECO202_4 <= 3
-_C1433: Room_Assignment_ASA238_23 + Room_Assignment_ECO202_23
- + Time_Assignment_ASA238_5 + Time_Assignment_ECO202_5 <= 3
+_C1431: Room_Assignment_ASA238_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
+_C1432: Room_Assignment_ASA238_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
+_C1433: Room_Assignment_ASA238_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_ECO202_2:30_3:20_PM
+ <= 3
 _C1434: Overlap_ECO202_COS126 <= 1
 _C1435: Overlap_ECO202_COS226 <= 1
 _C1436: Overlap_ECO202_COS217 <= 1
 _C1437: Overlap_ECO202_COS333 <= 1
-_C1438: Room_Assignment_COS333_20 + Room_Assignment_ECO202_20
- + Time_Assignment_COS333_4 + Time_Assignment_ECO202_4 <= 3
-_C1439: Room_Assignment_COS333_21 + Room_Assignment_ECO202_21
- + Time_Assignment_COS333_4 + Time_Assignment_ECO202_4 <= 3
-_C144: Room_Assignment_ASA203_5 + Room_Assignment_ECO300_5
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO300_3 <= 3
-_C1440: Room_Assignment_COS333_22 + Room_Assignment_ECO202_22
- + Time_Assignment_COS333_4 + Time_Assignment_ECO202_4 <= 3
+_C1438: Room_Assignment_COS333_20.0 + Room_Assignment_ECO202_20.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
+_C1439: Room_Assignment_COS333_21.0 + Room_Assignment_ECO202_21.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
+_C144: Room_Assignment_ASA203_5.0 + Room_Assignment_ECO300_5
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1440: Room_Assignment_COS333_22.0 + Room_Assignment_ECO202_22.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
 _C1441: Overlap_ECO202_COS342 <= 1
 _C1442: Overlap_ECO202_COS423 <= 1
 _C1443: Overlap_ECO202_COS432 <= 1
-_C1444: Room_Assignment_COS432_20 + Room_Assignment_ECO202_20
- + Time_Assignment_COS432_3 + Time_Assignment_ECO202_3 <= 3
-_C1445: Room_Assignment_COS432_20 + Room_Assignment_ECO202_20
- + Time_Assignment_COS432_4 + Time_Assignment_ECO202_4 <= 3
+_C1444: Room_Assignment_COS432_20.0 + Room_Assignment_ECO202_20.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
+_C1445: Room_Assignment_COS432_20.0 + Room_Assignment_ECO202_20.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
 _C1446: Overlap_ECO202_COS484 <= 1
-_C1447: Room_Assignment_COS484_20 + Room_Assignment_ECO202_20
- + Time_Assignment_COS484_3 + Time_Assignment_ECO202_3 <= 3
-_C1448: Room_Assignment_COS484_25 + Room_Assignment_ECO202_25
- + Time_Assignment_COS484_3 + Time_Assignment_ECO202_3 <= 3
+_C1447: Room_Assignment_COS484_20.0 + Room_Assignment_ECO202_20.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
+_C1448: Room_Assignment_COS484_25.0 + Room_Assignment_ECO202_25.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
 _C1449: Overlap_ECO202_COS522 <= 1
-_C145: Room_Assignment_ASA203_3 + Room_Assignment_ECO300_3
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO300_3 <= 3
-_C1450: Room_Assignment_COS522_24 + Room_Assignment_ECO202_24
- + Time_Assignment_COS522_5 + Time_Assignment_ECO202_5 <= 3
+_C145: Room_Assignment_ASA203_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1450: Room_Assignment_COS522_24.0 + Room_Assignment_ECO202_24.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_ECO202_2:30_3:20_PM
+ <= 3
 _C1451: Overlap_ECO202_COS528 <= 1
-_C1452: Room_Assignment_COS528_23 + Room_Assignment_ECO202_23
- + Time_Assignment_COS528_4 + Time_Assignment_ECO202_4 <= 3
-_C1453: Room_Assignment_COS528_23 + Room_Assignment_ECO202_23
- + Time_Assignment_COS528_5 + Time_Assignment_ECO202_5 <= 3
+_C1452: Room_Assignment_COS528_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
+_C1453: Room_Assignment_COS528_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ECO202_2:30_3:20_PM
+ <= 3
 _C1454: Overlap_ECO202_ECO100 <= 1
 _C1455: Overlap_ECO202_ECO102 <= 1
 _C1456: Overlap_ECO202_ECO300 <= 1
-_C1457: Room_Assignment_ECO202_21 + Room_Assignment_ECO300_21
- + Time_Assignment_ECO202_3 + Time_Assignment_ECO300_3 <= 3
-_C1458: Room_Assignment_ECO202_24 + Room_Assignment_ECO300_24
- + Time_Assignment_ECO202_3 + Time_Assignment_ECO300_3 <= 3
-_C1459: Room_Assignment_ECO202_27 + Room_Assignment_ECO300_27
- + Time_Assignment_ECO202_3 + Time_Assignment_ECO300_3 <= 3
-_C146: Room_Assignment_ASA203_21 + Room_Assignment_ECO300_21
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO300_3 <= 3
+_C1457: Room_Assignment_ECO202_21.0 + Room_Assignment_ECO300_21
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1458: Room_Assignment_ECO202_24.0 + Room_Assignment_ECO300_24
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1459: Room_Assignment_ECO202_27.0 + Room_Assignment_ECO300_27
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C146: Room_Assignment_ASA203_21.0 + Room_Assignment_ECO300_21
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C1460: Overlap_ECO202_ECO301 <= 1
 _C1461: Overlap_ECO202_ECO302 <= 1
 _C1462: Overlap_ECO202_ECO310 <= 1
 _C1463: Overlap_ECO202_ECO312 <= 1
 _C1464: Overlap_ECO202_GER101 <= 1
-_C1465: Room_Assignment_ECO202_26 + Room_Assignment_GER101_26
- + Time_Assignment_ECO202_3 + Time_Assignment_GER101_3 <= 3
-_C1466: Room_Assignment_ECO202_27 + Room_Assignment_GER101_27
- + Time_Assignment_ECO202_3 + Time_Assignment_GER101_3 <= 3
+_C1465: Room_Assignment_ECO202_26.0 + Room_Assignment_GER101_26.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_GER101_11:00_11:50_AM <= 3
+_C1466: Room_Assignment_ECO202_27.0 + Room_Assignment_GER101_27.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_GER101_11:00_11:50_AM <= 3
 _C1467: Overlap_ECO202_GER103 <= 1
 _C1468: Overlap_ECO202_GER105 <= 1
 _C1469: Overlap_ECO202_GER107 <= 1
-_C147: Room_Assignment_ASA203_1 + Room_Assignment_ECO300_1
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO300_3 <= 3
+_C147: Room_Assignment_ASA203_1.0 + Room_Assignment_ECO300_1
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C1470: Overlap_ECO202_LIN201 <= 1
 _C1471: Overlap_ECO202_LIN300 <= 1
 _C1472: Overlap_ECO202_MAT103 <= 1
-_C1473: Room_Assignment_ECO202_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ECO202_3 + Time_Assignment_MAT103_3 <= 3
-_C1474: Room_Assignment_ECO202_22 + Room_Assignment_MAT103_22
- + Time_Assignment_ECO202_3 + Time_Assignment_MAT103_3 <= 3
-_C1475: Room_Assignment_ECO202_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ECO202_3 + Time_Assignment_MAT103_3 <= 3
-_C1476: Room_Assignment_ECO202_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ECO202_5 + Time_Assignment_MAT103_5 <= 3
-_C1477: Room_Assignment_ECO202_22 + Room_Assignment_MAT103_22
- + Time_Assignment_ECO202_5 + Time_Assignment_MAT103_5 <= 3
-_C1478: Room_Assignment_ECO202_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ECO202_5 + Time_Assignment_MAT103_5 <= 3
+_C1473: Room_Assignment_ECO202_21.0 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C1474: Room_Assignment_ECO202_22.0 + Room_Assignment_MAT103_22.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C1475: Room_Assignment_ECO202_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C1476: Room_Assignment_ECO202_21.0 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
+_C1477: Room_Assignment_ECO202_22.0 + Room_Assignment_MAT103_22.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
+_C1478: Room_Assignment_ECO202_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C1479: Overlap_ECO202_MAT104 <= 1
 _C148: Overlap_ASA203_ECO301 <= 1
 _C1480: Overlap_ECO202_MAT201 <= 1
@@ -2752,188 +2965,251 @@ _C1483: Overlap_ECO202_MAT204 <= 1
 _C1484: Overlap_ECO202_MAT215 <= 1
 _C1485: Overlap_ECO202_MAT216 <= 1
 _C1486: Overlap_ECO202_MAT217 <= 1
-_C1487: Room_Assignment_ECO202_24 + Room_Assignment_MAT217_24
- + Time_Assignment_ECO202_4 + Time_Assignment_MAT217_4 <= 3
+_C1487: Room_Assignment_ECO202_24.0 + Room_Assignment_MAT217_24.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C1488: Overlap_ECO202_MAT218 <= 1
 _C1489: Overlap_ECO202_MAT300 <= 1
-_C149: Room_Assignment_ASA203_5 + Room_Assignment_ECO301_5
- + Time_Assignment_ASA203_4 + Time_Assignment_ECO301_4 <= 3
+_C149: Room_Assignment_ASA203_5.0 + Room_Assignment_ECO301_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
 _C1490: Overlap_ECO202_MAT325 <= 1
 _C1491: Overlap_ECO202_MAT335 <= 1
 _C1492: Overlap_ECO202_MAT370 <= 1
 _C1493: Overlap_ECO202_MAT377 <= 1
 _C1494: Overlap_ECO202_MAT385 <= 1
 _C1495: Overlap_ECO202_MAT400 <= 1
-_C1496: Room_Assignment_ECO202_24 + Room_Assignment_MAT400_24
- + Time_Assignment_ECO202_3 + Time_Assignment_MAT400_3 <= 3
-_C1497: Room_Assignment_ECO202_24 + Room_Assignment_MAT400_24
- + Time_Assignment_ECO202_4 + Time_Assignment_MAT400_4 <= 3
+_C1496: Room_Assignment_ECO202_24.0 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C1497: Room_Assignment_ECO202_24.0 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C1498: Overlap_ECO202_ORF245 <= 1
-_C1499: Room_Assignment_ECO202_25 + Room_Assignment_ORF245_25
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF245_3 <= 3
+_C1499: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF245_25.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C15: Overlap_AAS201_COS217 <= 1
-_C150: Room_Assignment_ASA203_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA203_4 + Time_Assignment_ECO301_4 <= 3
-_C1500: Room_Assignment_ECO202_25 + Room_Assignment_ORF245_25
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF245_4 <= 3
+_C150: Room_Assignment_ASA203_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
+_C1500: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF245_25.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C1501: Overlap_ECO202_ORF307 <= 1
-_C1502: Room_Assignment_ECO202_20 + Room_Assignment_ORF307_20
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF307_3 <= 3
-_C1503: Room_Assignment_ECO202_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF307_3 <= 3
-_C1504: Room_Assignment_ECO202_20 + Room_Assignment_ORF307_20
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF307_4 <= 3
-_C1505: Room_Assignment_ECO202_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF307_4 <= 3
-_C1506: Room_Assignment_ECO202_20 + Room_Assignment_ORF307_20
- + Time_Assignment_ECO202_5 + Time_Assignment_ORF307_5 <= 3
-_C1507: Room_Assignment_ECO202_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ECO202_5 + Time_Assignment_ORF307_5 <= 3
+_C1502: Room_Assignment_ECO202_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C1503: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C1504: Room_Assignment_ECO202_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C1505: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C1506: Room_Assignment_ECO202_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
+_C1507: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C1508: Overlap_ECO202_ORF309 <= 1
-_C1509: Room_Assignment_ECO202_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF309_3 <= 3
-_C151: Room_Assignment_ASA203_5 + Room_Assignment_ECO301_5
- + Time_Assignment_ASA203_5 + Time_Assignment_ECO301_5 <= 3
-_C1510: Room_Assignment_ECO202_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF309_4 <= 3
-_C1511: Room_Assignment_ECO202_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ECO202_5 + Time_Assignment_ORF309_5 <= 3
+_C1509: Room_Assignment_ECO202_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C151: Room_Assignment_ASA203_5.0 + Room_Assignment_ECO301_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ECO301_2:30_3:20_PM
+ <= 3
+_C1510: Room_Assignment_ECO202_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C1511: Room_Assignment_ECO202_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C1512: Overlap_ECO202_ORF350 <= 1
 _C1513: Overlap_ECO202_ORF363 <= 1
-_C1514: Room_Assignment_ECO202_21 + Room_Assignment_ORF363_21
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF363_4 <= 3
+_C1514: Room_Assignment_ECO202_21.0 + Room_Assignment_ORF363_21.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C1515: Overlap_ECO202_ORF445 <= 1
-_C1516: Room_Assignment_ECO202_24 + Room_Assignment_ORF445_24
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF445_3 <= 3
-_C1517: Room_Assignment_ECO202_24 + Room_Assignment_ORF445_24
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF445_4 <= 3
+_C1516: Room_Assignment_ECO202_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C1517: Room_Assignment_ECO202_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C1518: Overlap_ECO202_PHY103 <= 1
 _C1519: Overlap_ECO202_PHY104 <= 1
-_C152: Room_Assignment_ASA203_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA203_5 + Time_Assignment_ECO301_5 <= 3
+_C152: Room_Assignment_ASA203_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ECO301_2:30_3:20_PM
+ <= 3
 _C1520: Overlap_ECO202_PHY105 <= 1
 _C1521: Overlap_ECO202_PHY106 <= 1
-_C1522: Room_Assignment_ECO202_21 + Room_Assignment_PHY106_21
- + Time_Assignment_ECO202_5 + Time_Assignment_PHY106_5 <= 3
+_C1522: Room_Assignment_ECO202_21.0 + Room_Assignment_PHY106_21.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C1523: Overlap_ECO202_PHY208 <= 1
 _C1524: Overlap_ECO202_REL100 <= 1
-_C1525: Room_Assignment_ECO202_24 + Room_Assignment_REL100_24
- + Time_Assignment_ECO202_3 + Time_Assignment_REL100_3 <= 3
+_C1525: Room_Assignment_ECO202_24.0 + Room_Assignment_REL100_24.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C1526: Overlap_ECO202_REL232 <= 1
 _C1527: Overlap_ECO202_SML201 <= 1
 _C1528: Overlap_ECO202_URB201 <= 1
 _C1529: Overlap_ECO300_AAS201 <= 1
 _C153: Overlap_ASA203_ECO302 <= 1
-_C1530: Room_Assignment_AAS201_1 + Room_Assignment_ECO300_1
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO300_2 <= 3
-_C1531: Room_Assignment_AAS201_3 + Room_Assignment_ECO300_3
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO300_2 <= 3
-_C1532: Room_Assignment_AAS201_5 + Room_Assignment_ECO300_5
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO300_2 <= 3
+_C1530: Room_Assignment_AAS201_1.0 + Room_Assignment_ECO300_1
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
+_C1531: Room_Assignment_AAS201_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
+_C1532: Room_Assignment_AAS201_5.0 + Room_Assignment_ECO300_5
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
 _C1533: Overlap_ECO300_ASA203 <= 1
-_C1534: Room_Assignment_ASA203_1 + Room_Assignment_ECO300_1
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO300_3 <= 3
-_C1535: Room_Assignment_ASA203_3 + Room_Assignment_ECO300_3
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO300_3 <= 3
-_C1536: Room_Assignment_ASA203_5 + Room_Assignment_ECO300_5
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO300_3 <= 3
-_C1537: Room_Assignment_ASA203_21 + Room_Assignment_ECO300_21
- + Time_Assignment_ASA203_3 + Time_Assignment_ECO300_3 <= 3
+_C1534: Room_Assignment_ASA203_1.0 + Room_Assignment_ECO300_1
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1535: Room_Assignment_ASA203_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1536: Room_Assignment_ASA203_5.0 + Room_Assignment_ECO300_5
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1537: Room_Assignment_ASA203_21.0 + Room_Assignment_ECO300_21
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C1538: Overlap_ECO300_ASA238 <= 1
-_C1539: Room_Assignment_ASA238_3 + Room_Assignment_ECO300_3
- + Time_Assignment_ASA238_2 + Time_Assignment_ECO300_2 <= 3
+_C1539: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
 _C154: Overlap_ASA203_ECO310 <= 1
-_C1540: Room_Assignment_ASA238_3 + Room_Assignment_ECO300_3
- + Time_Assignment_ASA238_3 + Time_Assignment_ECO300_3 <= 3
+_C1540: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C1541: Overlap_ECO300_COS126 <= 1
 _C1542: Overlap_ECO300_COS226 <= 1
 _C1543: Overlap_ECO300_COS217 <= 1
-_C1544: Room_Assignment_COS217_7 + Room_Assignment_ECO300_7
- + Time_Assignment_COS217_3 + Time_Assignment_ECO300_3 <= 3
+_C1544: Room_Assignment_COS217_7.0 + Room_Assignment_ECO300_7
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C1545: Overlap_ECO300_COS333 <= 1
 _C1546: Overlap_ECO300_COS342 <= 1
 _C1547: Overlap_ECO300_COS423 <= 1
-_C1548: Room_Assignment_COS423_51 + Room_Assignment_ECO300_51
- + Time_Assignment_COS423_3 + Time_Assignment_ECO300_3 <= 3
-_C1549: Room_Assignment_COS423_55 + Room_Assignment_ECO300_55
- + Time_Assignment_COS423_3 + Time_Assignment_ECO300_3 <= 3
+_C1548: Room_Assignment_COS423_51.0 + Room_Assignment_ECO300_51
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1549: Room_Assignment_COS423_55.0 + Room_Assignment_ECO300_55
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C155: Overlap_ASA203_ECO312 <= 1
 _C1550: Overlap_ECO300_COS432 <= 1
 _C1551: Overlap_ECO300_COS484 <= 1
-_C1552: Room_Assignment_COS484_3 + Room_Assignment_ECO300_3
- + Time_Assignment_COS484_3 + Time_Assignment_ECO300_3 <= 3
-_C1553: Room_Assignment_COS484_5 + Room_Assignment_ECO300_5
- + Time_Assignment_COS484_3 + Time_Assignment_ECO300_3 <= 3
+_C1552: Room_Assignment_COS484_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1553: Room_Assignment_COS484_5.0 + Room_Assignment_ECO300_5
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C1554: Overlap_ECO300_COS522 <= 1
 _C1555: Overlap_ECO300_COS528 <= 1
 _C1556: Overlap_ECO300_ECO100 <= 1
-_C1557: Room_Assignment_ECO100_3 + Room_Assignment_ECO300_3
- + Time_Assignment_ECO100_2 + Time_Assignment_ECO300_2 <= 3
+_C1557: Room_Assignment_ECO100_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
 _C1558: Overlap_ECO300_ECO102 <= 1
 _C1559: Overlap_ECO300_ECO202 <= 1
 _C156: Overlap_ASA203_GER101 <= 1
-_C1560: Room_Assignment_ECO202_21 + Room_Assignment_ECO300_21
- + Time_Assignment_ECO202_3 + Time_Assignment_ECO300_3 <= 3
-_C1561: Room_Assignment_ECO202_24 + Room_Assignment_ECO300_24
- + Time_Assignment_ECO202_3 + Time_Assignment_ECO300_3 <= 3
-_C1562: Room_Assignment_ECO202_27 + Room_Assignment_ECO300_27
- + Time_Assignment_ECO202_3 + Time_Assignment_ECO300_3 <= 3
+_C1560: Room_Assignment_ECO202_21.0 + Room_Assignment_ECO300_21
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1561: Room_Assignment_ECO202_24.0 + Room_Assignment_ECO300_24
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C1562: Room_Assignment_ECO202_27.0 + Room_Assignment_ECO300_27
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C1563: Overlap_ECO300_ECO301 <= 1
-_C1564: Room_Assignment_ECO300_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ECO300_2 + Time_Assignment_ECO301_2 <= 3
-_C1565: Room_Assignment_ECO300_5 + Room_Assignment_ECO301_5
- + Time_Assignment_ECO300_2 + Time_Assignment_ECO301_2 <= 3
-_C1566: Room_Assignment_ECO300_7 + Room_Assignment_ECO301_7
- + Time_Assignment_ECO300_2 + Time_Assignment_ECO301_2 <= 3
+_C1564: Room_Assignment_ECO300_3 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
+_C1565: Room_Assignment_ECO300_5 + Room_Assignment_ECO301_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
+_C1566: Room_Assignment_ECO300_7 + Room_Assignment_ECO301_7.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
 _C1567: Overlap_ECO300_ECO302 <= 1
 _C1568: Overlap_ECO300_ECO310 <= 1
-_C1569: Room_Assignment_ECO300_37 + Room_Assignment_ECO310_37
- + Time_Assignment_ECO300_2 + Time_Assignment_ECO310_2 <= 3
+_C1569: Room_Assignment_ECO300_37 + Room_Assignment_ECO310_37.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ECO310_10:00_10:50_AM <= 3
 _C157: Overlap_ASA203_GER103 <= 1
 _C1570: Overlap_ECO300_ECO312 <= 1
 _C1571: Overlap_ECO300_GER101 <= 1
-_C1572: Room_Assignment_ECO300_27 + Room_Assignment_GER101_27
- + Time_Assignment_ECO300_2 + Time_Assignment_GER101_2 <= 3
-_C1573: Room_Assignment_ECO300_29 + Room_Assignment_GER101_29
- + Time_Assignment_ECO300_2 + Time_Assignment_GER101_2 <= 3
-_C1574: Room_Assignment_ECO300_27 + Room_Assignment_GER101_27
- + Time_Assignment_ECO300_3 + Time_Assignment_GER101_3 <= 3
-_C1575: Room_Assignment_ECO300_29 + Room_Assignment_GER101_29
- + Time_Assignment_ECO300_3 + Time_Assignment_GER101_3 <= 3
+_C1572: Room_Assignment_ECO300_27 + Room_Assignment_GER101_27.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_GER101_10:00_10:50_AM <= 3
+_C1573: Room_Assignment_ECO300_29 + Room_Assignment_GER101_29.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_GER101_10:00_10:50_AM <= 3
+_C1574: Room_Assignment_ECO300_27 + Room_Assignment_GER101_27.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER101_11:00_11:50_AM <= 3
+_C1575: Room_Assignment_ECO300_29 + Room_Assignment_GER101_29.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER101_11:00_11:50_AM <= 3
 _C1576: Overlap_ECO300_GER103 <= 1
-_C1577: Room_Assignment_ECO300_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO300_2 + Time_Assignment_GER103_2 <= 3
-_C1578: Room_Assignment_ECO300_5 + Room_Assignment_GER103_5
- + Time_Assignment_ECO300_2 + Time_Assignment_GER103_2 <= 3
-_C1579: Room_Assignment_ECO300_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO300_3 + Time_Assignment_GER103_3 <= 3
-_C158: Room_Assignment_ASA203_5 + Room_Assignment_GER103_5
- + Time_Assignment_ASA203_3 + Time_Assignment_GER103_3 <= 3
-_C1580: Room_Assignment_ECO300_5 + Room_Assignment_GER103_5
- + Time_Assignment_ECO300_3 + Time_Assignment_GER103_3 <= 3
+_C1577: Room_Assignment_ECO300_3 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C1578: Room_Assignment_ECO300_5 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C1579: Room_Assignment_ECO300_3 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C158: Room_Assignment_ASA203_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C1580: Room_Assignment_ECO300_5 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
 _C1581: Overlap_ECO300_GER105 <= 1
-_C1582: Room_Assignment_ECO300_1 + Room_Assignment_GER105_1
- + Time_Assignment_ECO300_3 + Time_Assignment_GER105_3 <= 3
-_C1583: Room_Assignment_ECO300_3 + Room_Assignment_GER105_3
- + Time_Assignment_ECO300_3 + Time_Assignment_GER105_3 <= 3
+_C1582: Room_Assignment_ECO300_1 + Room_Assignment_GER105_1.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
+_C1583: Room_Assignment_ECO300_3 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
 _C1584: Overlap_ECO300_GER107 <= 1
 _C1585: Overlap_ECO300_LIN201 <= 1
 _C1586: Overlap_ECO300_LIN300 <= 1
-_C1587: Room_Assignment_ECO300_45 + Room_Assignment_LIN300_45
- + Time_Assignment_ECO300_2 + Time_Assignment_LIN300_2 <= 3
-_C1588: Room_Assignment_ECO300_47 + Room_Assignment_LIN300_47
- + Time_Assignment_ECO300_2 + Time_Assignment_LIN300_2 <= 3
+_C1587: Room_Assignment_ECO300_45 + Room_Assignment_LIN300_45.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_LIN300_10:00_10:50_AM <= 3
+_C1588: Room_Assignment_ECO300_47 + Room_Assignment_LIN300_47.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_LIN300_10:00_10:50_AM <= 3
 _C1589: Overlap_ECO300_MAT103 <= 1
-_C159: Room_Assignment_ASA203_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA203_3 + Time_Assignment_GER103_3 <= 3
-_C1590: Room_Assignment_ECO300_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT103_2 <= 3
-_C1591: Room_Assignment_ECO300_33 + Room_Assignment_MAT103_33
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT103_2 <= 3
-_C1592: Room_Assignment_ECO300_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT103_3 <= 3
-_C1593: Room_Assignment_ECO300_33 + Room_Assignment_MAT103_33
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT103_3 <= 3
+_C159: Room_Assignment_ASA203_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C1590: Room_Assignment_ECO300_21 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT103_10:00_10:50_AM <= 3
+_C1591: Room_Assignment_ECO300_33 + Room_Assignment_MAT103_33.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT103_10:00_10:50_AM <= 3
+_C1592: Room_Assignment_ECO300_21 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C1593: Room_Assignment_ECO300_33 + Room_Assignment_MAT103_33.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
 _C1594: Overlap_ECO300_MAT104 <= 1
 _C1595: Overlap_ECO300_MAT201 <= 1
 _C1596: Overlap_ECO300_MAT202 <= 1
@@ -2941,146 +3217,199 @@ _C1597: Overlap_ECO300_MAT203 <= 1
 _C1598: Overlap_ECO300_MAT204 <= 1
 _C1599: Overlap_ECO300_MAT215 <= 1
 _C16: Overlap_AAS201_COS333 <= 1
-_C160: Room_Assignment_ASA203_5 + Room_Assignment_GER103_5
- + Time_Assignment_ASA203_4 + Time_Assignment_GER103_4 <= 3
-_C1600: Room_Assignment_ECO300_33 + Room_Assignment_MAT215_33
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT215_2 <= 3
-_C1601: Room_Assignment_ECO300_37 + Room_Assignment_MAT215_37
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT215_2 <= 3
-_C1602: Room_Assignment_ECO300_33 + Room_Assignment_MAT215_33
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT215_3 <= 3
-_C1603: Room_Assignment_ECO300_37 + Room_Assignment_MAT215_37
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT215_3 <= 3
+_C160: Room_Assignment_ASA203_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
+_C1600: Room_Assignment_ECO300_33 + Room_Assignment_MAT215_33.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C1601: Room_Assignment_ECO300_37 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C1602: Room_Assignment_ECO300_33 + Room_Assignment_MAT215_33.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT215_11:00_11:50_AM <= 3
+_C1603: Room_Assignment_ECO300_37 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT215_11:00_11:50_AM <= 3
 _C1604: Overlap_ECO300_MAT216 <= 1
 _C1605: Overlap_ECO300_MAT217 <= 1
 _C1606: Overlap_ECO300_MAT218 <= 1
 _C1607: Overlap_ECO300_MAT300 <= 1
 _C1608: Overlap_ECO300_MAT325 <= 1
 _C1609: Overlap_ECO300_MAT335 <= 1
-_C161: Room_Assignment_ASA203_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA203_4 + Time_Assignment_GER103_4 <= 3
+_C161: Room_Assignment_ASA203_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C1610: Overlap_ECO300_MAT370 <= 1
 _C1611: Overlap_ECO300_MAT377 <= 1
-_C1612: Room_Assignment_ECO300_5 + Room_Assignment_MAT377_5
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT377_2 <= 3
+_C1612: Room_Assignment_ECO300_5 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C1613: Overlap_ECO300_MAT385 <= 1
-_C1614: Room_Assignment_ECO300_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT385_2 <= 3
-_C1615: Room_Assignment_ECO300_5 + Room_Assignment_MAT385_5
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT385_2 <= 3
-_C1616: Room_Assignment_ECO300_7 + Room_Assignment_MAT385_7
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT385_2 <= 3
-_C1617: Room_Assignment_ECO300_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT385_3 <= 3
-_C1618: Room_Assignment_ECO300_5 + Room_Assignment_MAT385_5
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT385_3 <= 3
-_C1619: Room_Assignment_ECO300_7 + Room_Assignment_MAT385_7
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT385_3 <= 3
+_C1614: Room_Assignment_ECO300_3 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C1615: Room_Assignment_ECO300_5 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C1616: Room_Assignment_ECO300_7 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C1617: Room_Assignment_ECO300_3 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C1618: Room_Assignment_ECO300_5 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C1619: Room_Assignment_ECO300_7 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C162: Overlap_ASA203_GER105 <= 1
 _C1620: Overlap_ECO300_MAT400 <= 1
-_C1621: Room_Assignment_ECO300_24 + Room_Assignment_MAT400_24
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT400_2 <= 3
-_C1622: Room_Assignment_ECO300_45 + Room_Assignment_MAT400_45
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT400_2 <= 3
-_C1623: Room_Assignment_ECO300_24 + Room_Assignment_MAT400_24
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT400_3 <= 3
-_C1624: Room_Assignment_ECO300_45 + Room_Assignment_MAT400_45
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT400_3 <= 3
+_C1621: Room_Assignment_ECO300_24 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
+_C1622: Room_Assignment_ECO300_45 + Room_Assignment_MAT400_45.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
+_C1623: Room_Assignment_ECO300_24 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C1624: Room_Assignment_ECO300_45 + Room_Assignment_MAT400_45.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
 _C1625: Overlap_ECO300_ORF245 <= 1
-_C1626: Room_Assignment_ECO300_5 + Room_Assignment_ORF245_5
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF245_3 <= 3
-_C1627: Room_Assignment_ECO300_7 + Room_Assignment_ORF245_7
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF245_3 <= 3
+_C1626: Room_Assignment_ECO300_5 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C1627: Room_Assignment_ECO300_7 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C1628: Overlap_ECO300_ORF307 <= 1
-_C1629: Room_Assignment_ECO300_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO300_2 + Time_Assignment_ORF307_2 <= 3
-_C163: Room_Assignment_ASA203_3 + Room_Assignment_GER105_3
- + Time_Assignment_ASA203_3 + Time_Assignment_GER105_3 <= 3
-_C1630: Room_Assignment_ECO300_45 + Room_Assignment_ORF307_45
- + Time_Assignment_ECO300_2 + Time_Assignment_ORF307_2 <= 3
-_C1631: Room_Assignment_ECO300_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF307_3 <= 3
-_C1632: Room_Assignment_ECO300_45 + Room_Assignment_ORF307_45
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF307_3 <= 3
+_C1629: Room_Assignment_ECO300_5 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C163: Room_Assignment_ASA203_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
+_C1630: Room_Assignment_ECO300_45 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C1631: Room_Assignment_ECO300_5 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C1632: Room_Assignment_ECO300_45 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
 _C1633: Overlap_ECO300_ORF309 <= 1
 _C1634: Overlap_ECO300_ORF350 <= 1
-_C1635: Room_Assignment_ECO300_29 + Room_Assignment_ORF350_29
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF350_3 <= 3
-_C1636: Room_Assignment_ECO300_39 + Room_Assignment_ORF350_39
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF350_3 <= 3
+_C1635: Room_Assignment_ECO300_29 + Room_Assignment_ORF350_29.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
+_C1636: Room_Assignment_ECO300_39 + Room_Assignment_ORF350_39.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
 _C1637: Overlap_ECO300_ORF363 <= 1
 _C1638: Overlap_ECO300_ORF445 <= 1
-_C1639: Room_Assignment_ECO300_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF445_3 <= 3
-_C164: Room_Assignment_ASA203_1 + Room_Assignment_GER105_1
- + Time_Assignment_ASA203_3 + Time_Assignment_GER105_3 <= 3
-_C1640: Room_Assignment_ECO300_24 + Room_Assignment_ORF445_24
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF445_3 <= 3
+_C1639: Room_Assignment_ECO300_5 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C164: Room_Assignment_ASA203_1.0 + Room_Assignment_GER105_1.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
+_C1640: Room_Assignment_ECO300_24 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C1641: Overlap_ECO300_PHY103 <= 1
-_C1642: Room_Assignment_ECO300_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY103_2 <= 3
-_C1643: Room_Assignment_ECO300_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY103_3 <= 3
+_C1642: Room_Assignment_ECO300_1 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
+_C1643: Room_Assignment_ECO300_1 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
 _C1644: Overlap_ECO300_PHY104 <= 1
 _C1645: Overlap_ECO300_PHY105 <= 1
-_C1646: Room_Assignment_ECO300_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY105_2 <= 3
-_C1647: Room_Assignment_ECO300_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY105_2 <= 3
-_C1648: Room_Assignment_ECO300_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY105_2 <= 3
-_C1649: Room_Assignment_ECO300_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY105_2 <= 3
-_C165: Room_Assignment_ASA203_3 + Room_Assignment_GER105_3
- + Time_Assignment_ASA203_4 + Time_Assignment_GER105_4 <= 3
-_C1650: Room_Assignment_ECO300_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY105_3 <= 3
-_C1651: Room_Assignment_ECO300_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY105_3 <= 3
-_C1652: Room_Assignment_ECO300_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY105_3 <= 3
-_C1653: Room_Assignment_ECO300_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY105_3 <= 3
+_C1646: Room_Assignment_ECO300_1 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1647: Room_Assignment_ECO300_3 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1648: Room_Assignment_ECO300_5 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1649: Room_Assignment_ECO300_7 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C165: Room_Assignment_ASA203_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
+_C1650: Room_Assignment_ECO300_1 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C1651: Room_Assignment_ECO300_3 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C1652: Room_Assignment_ECO300_5 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C1653: Room_Assignment_ECO300_7 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C1654: Overlap_ECO300_PHY106 <= 1
 _C1655: Overlap_ECO300_PHY208 <= 1
 _C1656: Overlap_ECO300_REL100 <= 1
-_C1657: Room_Assignment_ECO300_24 + Room_Assignment_REL100_24
- + Time_Assignment_ECO300_3 + Time_Assignment_REL100_3 <= 3
-_C1658: Room_Assignment_ECO300_51 + Room_Assignment_REL100_51
- + Time_Assignment_ECO300_3 + Time_Assignment_REL100_3 <= 3
+_C1657: Room_Assignment_ECO300_24 + Room_Assignment_REL100_24.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C1658: Room_Assignment_ECO300_51 + Room_Assignment_REL100_51.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C1659: Overlap_ECO300_REL232 <= 1
-_C166: Room_Assignment_ASA203_1 + Room_Assignment_GER105_1
- + Time_Assignment_ASA203_4 + Time_Assignment_GER105_4 <= 3
+_C166: Room_Assignment_ASA203_1.0 + Room_Assignment_GER105_1.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C1660: Overlap_ECO300_SML201 <= 1
 _C1661: Overlap_ECO300_URB201 <= 1
 _C1662: Overlap_ECO301_AAS201 <= 1
-_C1663: Room_Assignment_AAS201_3 + Room_Assignment_ECO301_3
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO301_2 <= 3
-_C1664: Room_Assignment_AAS201_5 + Room_Assignment_ECO301_5
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO301_2 <= 3
+_C1663: Room_Assignment_AAS201_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
+_C1664: Room_Assignment_AAS201_5.0 + Room_Assignment_ECO301_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
 _C1665: Overlap_ECO301_ASA203 <= 1
-_C1666: Room_Assignment_ASA203_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA203_4 + Time_Assignment_ECO301_4 <= 3
-_C1667: Room_Assignment_ASA203_5 + Room_Assignment_ECO301_5
- + Time_Assignment_ASA203_4 + Time_Assignment_ECO301_4 <= 3
-_C1668: Room_Assignment_ASA203_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA203_5 + Time_Assignment_ECO301_5 <= 3
-_C1669: Room_Assignment_ASA203_5 + Room_Assignment_ECO301_5
- + Time_Assignment_ASA203_5 + Time_Assignment_ECO301_5 <= 3
+_C1666: Room_Assignment_ASA203_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
+_C1667: Room_Assignment_ASA203_5.0 + Room_Assignment_ECO301_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
+_C1668: Room_Assignment_ASA203_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ECO301_2:30_3:20_PM
+ <= 3
+_C1669: Room_Assignment_ASA203_5.0 + Room_Assignment_ECO301_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ECO301_2:30_3:20_PM
+ <= 3
 _C167: Overlap_ASA203_GER107 <= 1
 _C1670: Overlap_ECO301_ASA238 <= 1
-_C1671: Room_Assignment_ASA238_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA238_2 + Time_Assignment_ECO301_2 <= 3
-_C1672: Room_Assignment_ASA238_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA238_4 + Time_Assignment_ECO301_4 <= 3
-_C1673: Room_Assignment_ASA238_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA238_5 + Time_Assignment_ECO301_5 <= 3
+_C1671: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
+_C1672: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
+_C1673: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_ECO301_2:30_3:20_PM
+ <= 3
 _C1674: Overlap_ECO301_COS126 <= 1
 _C1675: Overlap_ECO301_COS226 <= 1
 _C1676: Overlap_ECO301_COS217 <= 1
 _C1677: Overlap_ECO301_COS333 <= 1
-_C1678: Room_Assignment_COS333_3 + Room_Assignment_ECO301_3
- + Time_Assignment_COS333_4 + Time_Assignment_ECO301_4 <= 3
+_C1678: Room_Assignment_COS333_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
 _C1679: Overlap_ECO301_COS342 <= 1
 _C168: Overlap_ASA203_LIN201 <= 1
 _C1680: Overlap_ECO301_COS423 <= 1
@@ -3088,23 +3417,29 @@ _C1681: Overlap_ECO301_COS432 <= 1
 _C1682: Overlap_ECO301_COS484 <= 1
 _C1683: Overlap_ECO301_COS522 <= 1
 _C1684: Overlap_ECO301_COS528 <= 1
-_C1685: Room_Assignment_COS528_7 + Room_Assignment_ECO301_7
- + Time_Assignment_COS528_4 + Time_Assignment_ECO301_4 <= 3
-_C1686: Room_Assignment_COS528_7 + Room_Assignment_ECO301_7
- + Time_Assignment_COS528_5 + Time_Assignment_ECO301_5 <= 3
+_C1685: Room_Assignment_COS528_7.0 + Room_Assignment_ECO301_7.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
+_C1686: Room_Assignment_COS528_7.0 + Room_Assignment_ECO301_7.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ECO301_2:30_3:20_PM
+ <= 3
 _C1687: Overlap_ECO301_ECO100 <= 1
-_C1688: Room_Assignment_ECO100_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ECO100_2 + Time_Assignment_ECO301_2 <= 3
+_C1688: Room_Assignment_ECO100_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
 _C1689: Overlap_ECO301_ECO102 <= 1
 _C169: Overlap_ASA203_LIN300 <= 1
 _C1690: Overlap_ECO301_ECO202 <= 1
 _C1691: Overlap_ECO301_ECO300 <= 1
-_C1692: Room_Assignment_ECO300_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ECO300_2 + Time_Assignment_ECO301_2 <= 3
-_C1693: Room_Assignment_ECO300_5 + Room_Assignment_ECO301_5
- + Time_Assignment_ECO300_2 + Time_Assignment_ECO301_2 <= 3
-_C1694: Room_Assignment_ECO300_7 + Room_Assignment_ECO301_7
- + Time_Assignment_ECO300_2 + Time_Assignment_ECO301_2 <= 3
+_C1692: Room_Assignment_ECO300_3 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
+_C1693: Room_Assignment_ECO300_5 + Room_Assignment_ECO301_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
+_C1694: Room_Assignment_ECO300_7 + Room_Assignment_ECO301_7.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
 _C1695: Overlap_ECO301_ECO302 <= 1
 _C1696: Overlap_ECO301_ECO310 <= 1
 _C1697: Overlap_ECO301_ECO312 <= 1
@@ -3112,119 +3447,160 @@ _C1698: Overlap_ECO301_GER101 <= 1
 _C1699: Overlap_ECO301_GER103 <= 1
 _C17: Overlap_AAS201_COS342 <= 1
 _C170: Overlap_ASA203_MAT103 <= 1
-_C1700: Room_Assignment_ECO301_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO301_2 + Time_Assignment_GER103_2 <= 3
-_C1701: Room_Assignment_ECO301_5 + Room_Assignment_GER103_5
- + Time_Assignment_ECO301_2 + Time_Assignment_GER103_2 <= 3
-_C1702: Room_Assignment_ECO301_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO301_4 + Time_Assignment_GER103_4 <= 3
-_C1703: Room_Assignment_ECO301_5 + Room_Assignment_GER103_5
- + Time_Assignment_ECO301_4 + Time_Assignment_GER103_4 <= 3
+_C1700: Room_Assignment_ECO301_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C1701: Room_Assignment_ECO301_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C1702: Room_Assignment_ECO301_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
+_C1703: Room_Assignment_ECO301_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C1704: Overlap_ECO301_GER105 <= 1
-_C1705: Room_Assignment_ECO301_3 + Room_Assignment_GER105_3
- + Time_Assignment_ECO301_4 + Time_Assignment_GER105_4 <= 3
+_C1705: Room_Assignment_ECO301_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C1706: Overlap_ECO301_GER107 <= 1
 _C1707: Overlap_ECO301_LIN201 <= 1
 _C1708: Overlap_ECO301_LIN300 <= 1
 _C1709: Overlap_ECO301_MAT103 <= 1
-_C171: Room_Assignment_ASA203_12 + Room_Assignment_MAT103_12
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT103_3 <= 3
+_C171: Room_Assignment_ASA203_12.0 + Room_Assignment_MAT103_12.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
 _C1710: Overlap_ECO301_MAT104 <= 1
 _C1711: Overlap_ECO301_MAT201 <= 1
-_C1712: Room_Assignment_ECO301_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT201_4 <= 3
-_C1713: Room_Assignment_ECO301_5 + Room_Assignment_MAT201_5
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT201_4 <= 3
-_C1714: Room_Assignment_ECO301_7 + Room_Assignment_MAT201_7
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT201_4 <= 3
-_C1715: Room_Assignment_ECO301_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT201_5 <= 3
-_C1716: Room_Assignment_ECO301_5 + Room_Assignment_MAT201_5
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT201_5 <= 3
-_C1717: Room_Assignment_ECO301_7 + Room_Assignment_MAT201_7
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT201_5 <= 3
+_C1712: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C1713: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C1714: Room_Assignment_ECO301_7.0 + Room_Assignment_MAT201_7.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C1715: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
+_C1716: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
+_C1717: Room_Assignment_ECO301_7.0 + Room_Assignment_MAT201_7.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C1718: Overlap_ECO301_MAT202 <= 1
 _C1719: Overlap_ECO301_MAT203 <= 1
-_C172: Room_Assignment_ASA203_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT103_3 <= 3
+_C172: Room_Assignment_ASA203_21.0 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
 _C1720: Overlap_ECO301_MAT204 <= 1
 _C1721: Overlap_ECO301_MAT215 <= 1
 _C1722: Overlap_ECO301_MAT216 <= 1
 _C1723: Overlap_ECO301_MAT217 <= 1
-_C1724: Room_Assignment_ECO301_3 + Room_Assignment_MAT217_3
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT217_4 <= 3
-_C1725: Room_Assignment_ECO301_5 + Room_Assignment_MAT217_5
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT217_4 <= 3
+_C1724: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C1725: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT217_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C1726: Overlap_ECO301_MAT218 <= 1
 _C1727: Overlap_ECO301_MAT300 <= 1
-_C1728: Room_Assignment_ECO301_3 + Room_Assignment_MAT300_3
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT300_5 <= 3
+_C1728: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT300_3.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C1729: Overlap_ECO301_MAT325 <= 1
-_C173: Room_Assignment_ASA203_12 + Room_Assignment_MAT103_12
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT103_5 <= 3
+_C173: Room_Assignment_ASA203_12.0 + Room_Assignment_MAT103_12.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C1730: Overlap_ECO301_MAT335 <= 1
-_C1731: Room_Assignment_ECO301_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT335_5 <= 3
-_C1732: Room_Assignment_ECO301_5 + Room_Assignment_MAT335_5
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT335_5 <= 3
-_C1733: Room_Assignment_ECO301_7 + Room_Assignment_MAT335_7
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT335_5 <= 3
+_C1731: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C1732: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C1733: Room_Assignment_ECO301_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C1734: Overlap_ECO301_MAT370 <= 1
 _C1735: Overlap_ECO301_MAT377 <= 1
-_C1736: Room_Assignment_ECO301_5 + Room_Assignment_MAT377_5
- + Time_Assignment_ECO301_2 + Time_Assignment_MAT377_2 <= 3
+_C1736: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C1737: Overlap_ECO301_MAT385 <= 1
-_C1738: Room_Assignment_ECO301_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO301_2 + Time_Assignment_MAT385_2 <= 3
-_C1739: Room_Assignment_ECO301_5 + Room_Assignment_MAT385_5
- + Time_Assignment_ECO301_2 + Time_Assignment_MAT385_2 <= 3
-_C174: Room_Assignment_ASA203_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT103_5 <= 3
-_C1740: Room_Assignment_ECO301_7 + Room_Assignment_MAT385_7
- + Time_Assignment_ECO301_2 + Time_Assignment_MAT385_2 <= 3
+_C1738: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C1739: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C174: Room_Assignment_ASA203_21.0 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
+_C1740: Room_Assignment_ECO301_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C1741: Overlap_ECO301_MAT400 <= 1
 _C1742: Overlap_ECO301_ORF245 <= 1
-_C1743: Room_Assignment_ECO301_5 + Room_Assignment_ORF245_5
- + Time_Assignment_ECO301_4 + Time_Assignment_ORF245_4 <= 3
-_C1744: Room_Assignment_ECO301_7 + Room_Assignment_ORF245_7
- + Time_Assignment_ECO301_4 + Time_Assignment_ORF245_4 <= 3
+_C1743: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C1744: Room_Assignment_ECO301_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C1745: Overlap_ECO301_ORF307 <= 1
-_C1746: Room_Assignment_ECO301_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO301_2 + Time_Assignment_ORF307_2 <= 3
-_C1747: Room_Assignment_ECO301_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO301_4 + Time_Assignment_ORF307_4 <= 3
-_C1748: Room_Assignment_ECO301_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO301_5 + Time_Assignment_ORF307_5 <= 3
+_C1746: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C1747: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C1748: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C1749: Overlap_ECO301_ORF309 <= 1
 _C175: Overlap_ASA203_MAT104 <= 1
 _C1750: Overlap_ECO301_ORF350 <= 1
 _C1751: Overlap_ECO301_ORF363 <= 1
 _C1752: Overlap_ECO301_ORF445 <= 1
-_C1753: Room_Assignment_ECO301_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ECO301_4 + Time_Assignment_ORF445_4 <= 3
+_C1753: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C1754: Overlap_ECO301_PHY103 <= 1
 _C1755: Overlap_ECO301_PHY104 <= 1
 _C1756: Overlap_ECO301_PHY105 <= 1
-_C1757: Room_Assignment_ECO301_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO301_2 + Time_Assignment_PHY105_2 <= 3
-_C1758: Room_Assignment_ECO301_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO301_2 + Time_Assignment_PHY105_2 <= 3
-_C1759: Room_Assignment_ECO301_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO301_2 + Time_Assignment_PHY105_2 <= 3
-_C176: Room_Assignment_ASA203_12 + Room_Assignment_MAT104_12
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT104_5 <= 3
-_C1760: Room_Assignment_ECO301_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO301_4 + Time_Assignment_PHY105_4 <= 3
-_C1761: Room_Assignment_ECO301_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO301_4 + Time_Assignment_PHY105_4 <= 3
-_C1762: Room_Assignment_ECO301_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO301_4 + Time_Assignment_PHY105_4 <= 3
-_C1763: Room_Assignment_ECO301_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO301_5 + Time_Assignment_PHY105_5 <= 3
-_C1764: Room_Assignment_ECO301_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO301_5 + Time_Assignment_PHY105_5 <= 3
-_C1765: Room_Assignment_ECO301_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO301_5 + Time_Assignment_PHY105_5 <= 3
+_C1757: Room_Assignment_ECO301_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1758: Room_Assignment_ECO301_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C1759: Room_Assignment_ECO301_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C176: Room_Assignment_ASA203_12.0 + Room_Assignment_MAT104_12.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT104_2:30_3:20_PM
+ <= 3
+_C1760: Room_Assignment_ECO301_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C1761: Room_Assignment_ECO301_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C1762: Room_Assignment_ECO301_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C1763: Room_Assignment_ECO301_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C1764: Room_Assignment_ECO301_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C1765: Room_Assignment_ECO301_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C1766: Overlap_ECO301_PHY106 <= 1
 _C1767: Overlap_ECO301_PHY208 <= 1
 _C1768: Overlap_ECO301_REL100 <= 1
@@ -3235,28 +3611,33 @@ _C1771: Overlap_ECO301_URB201 <= 1
 _C1772: Overlap_ECO302_AAS201 <= 1
 _C1773: Overlap_ECO302_ASA203 <= 1
 _C1774: Overlap_ECO302_ASA238 <= 1
-_C1775: Room_Assignment_ASA238_65 + Room_Assignment_ECO302_65
- + Time_Assignment_ASA238_1 + Time_Assignment_ECO302_1 <= 3
-_C1776: Room_Assignment_ASA238_65 + Room_Assignment_ECO302_65
- + Time_Assignment_ASA238_3 + Time_Assignment_ECO302_3 <= 3
+_C1775: Room_Assignment_ASA238_65.0 + Room_Assignment_ECO302_65.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_ECO302_9:00_9:50_AM
+ <= 3
+_C1776: Room_Assignment_ASA238_65.0 + Room_Assignment_ECO302_65.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ECO302_11:00_11:50_AM <= 3
 _C1777: Overlap_ECO302_COS126 <= 1
 _C1778: Overlap_ECO302_COS226 <= 1
 _C1779: Overlap_ECO302_COS217 <= 1
-_C178: Room_Assignment_ASA203_5 + Room_Assignment_MAT201_5
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT201_4 <= 3
+_C178: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C1780: Overlap_ECO302_COS333 <= 1
 _C1781: Overlap_ECO302_COS342 <= 1
 _C1782: Overlap_ECO302_COS423 <= 1
 _C1783: Overlap_ECO302_COS432 <= 1
 _C1784: Overlap_ECO302_COS484 <= 1
 _C1785: Overlap_ECO302_COS522 <= 1
-_C1786: Room_Assignment_COS522_64 + Room_Assignment_ECO302_64
- + Time_Assignment_COS522_1 + Time_Assignment_ECO302_1 <= 3
+_C1786: Room_Assignment_COS522_64.0 + Room_Assignment_ECO302_64.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_ECO302_9:00_9:50_AM
+ <= 3
 _C1787: Overlap_ECO302_COS528 <= 1
 _C1788: Overlap_ECO302_ECO100 <= 1
 _C1789: Overlap_ECO302_ECO102 <= 1
-_C179: Room_Assignment_ASA203_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT201_4 <= 3
+_C179: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C1790: Overlap_ECO302_ECO202 <= 1
 _C1791: Overlap_ECO302_ECO300 <= 1
 _C1792: Overlap_ECO302_ECO301 <= 1
@@ -3266,11 +3647,13 @@ _C1795: Overlap_ECO302_GER101 <= 1
 _C1796: Overlap_ECO302_GER103 <= 1
 _C1797: Overlap_ECO302_GER105 <= 1
 _C1798: Overlap_ECO302_GER107 <= 1
-_C1799: Room_Assignment_ECO302_71 + Room_Assignment_GER107_71
- + Time_Assignment_ECO302_3 + Time_Assignment_GER107_3 <= 3
+_C1799: Room_Assignment_ECO302_71.0 + Room_Assignment_GER107_71.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
 _C18: Overlap_AAS201_COS423 <= 1
-_C180: Room_Assignment_ASA203_1 + Room_Assignment_MAT201_1
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT201_4 <= 3
+_C180: Room_Assignment_ASA203_1.0 + Room_Assignment_MAT201_1.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C1800: Overlap_ECO302_LIN201 <= 1
 _C1801: Overlap_ECO302_LIN300 <= 1
 _C1802: Overlap_ECO302_MAT103 <= 1
@@ -3281,54 +3664,67 @@ _C1806: Overlap_ECO302_MAT203 <= 1
 _C1807: Overlap_ECO302_MAT204 <= 1
 _C1808: Overlap_ECO302_MAT215 <= 1
 _C1809: Overlap_ECO302_MAT216 <= 1
-_C181: Room_Assignment_ASA203_5 + Room_Assignment_MAT201_5
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT201_5 <= 3
-_C1810: Room_Assignment_ECO302_61 + Room_Assignment_MAT216_61
- + Time_Assignment_ECO302_3 + Time_Assignment_MAT216_3 <= 3
-_C1811: Room_Assignment_ECO302_60 + Room_Assignment_MAT216_60
- + Time_Assignment_ECO302_3 + Time_Assignment_MAT216_3 <= 3
+_C181: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
+_C1810: Room_Assignment_ECO302_61.0 + Room_Assignment_MAT216_61.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_MAT216_11:00_11:50_AM <= 3
+_C1811: Room_Assignment_ECO302_60.0 + Room_Assignment_MAT216_60.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_MAT216_11:00_11:50_AM <= 3
 _C1812: Overlap_ECO302_MAT217 <= 1
 _C1813: Overlap_ECO302_MAT218 <= 1
 _C1814: Overlap_ECO302_MAT300 <= 1
 _C1815: Overlap_ECO302_MAT325 <= 1
-_C1816: Room_Assignment_ECO302_61 + Room_Assignment_MAT325_61
- + Time_Assignment_ECO302_1 + Time_Assignment_MAT325_1 <= 3
+_C1816: Room_Assignment_ECO302_61.0 + Room_Assignment_MAT325_61.0
+ + Time_Assignment_ECO302_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C1817: Overlap_ECO302_MAT335 <= 1
 _C1818: Overlap_ECO302_MAT370 <= 1
-_C1819: Room_Assignment_ECO302_64 + Room_Assignment_MAT370_64
- + Time_Assignment_ECO302_1 + Time_Assignment_MAT370_1 <= 3
-_C182: Room_Assignment_ASA203_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT201_5 <= 3
+_C1819: Room_Assignment_ECO302_64.0 + Room_Assignment_MAT370_64.0
+ + Time_Assignment_ECO302_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
+_C182: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C1820: Overlap_ECO302_MAT377 <= 1
 _C1821: Overlap_ECO302_MAT385 <= 1
 _C1822: Overlap_ECO302_MAT400 <= 1
-_C1823: Room_Assignment_ECO302_65 + Room_Assignment_MAT400_65
- + Time_Assignment_ECO302_3 + Time_Assignment_MAT400_3 <= 3
+_C1823: Room_Assignment_ECO302_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
 _C1824: Overlap_ECO302_ORF245 <= 1
-_C1825: Room_Assignment_ECO302_65 + Room_Assignment_ORF245_65
- + Time_Assignment_ECO302_3 + Time_Assignment_ORF245_3 <= 3
+_C1825: Room_Assignment_ECO302_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C1826: Overlap_ECO302_ORF307 <= 1
 _C1827: Overlap_ECO302_ORF309 <= 1
 _C1828: Overlap_ECO302_ORF350 <= 1
 _C1829: Overlap_ECO302_ORF363 <= 1
-_C183: Room_Assignment_ASA203_1 + Room_Assignment_MAT201_1
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT201_5 <= 3
+_C183: Room_Assignment_ASA203_1.0 + Room_Assignment_MAT201_1.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C1830: Overlap_ECO302_ORF445 <= 1
-_C1831: Room_Assignment_ECO302_64 + Room_Assignment_ORF445_64
- + Time_Assignment_ECO302_3 + Time_Assignment_ORF445_3 <= 3
+_C1831: Room_Assignment_ECO302_64.0 + Room_Assignment_ORF445_64.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C1832: Overlap_ECO302_PHY103 <= 1
 _C1833: Overlap_ECO302_PHY104 <= 1
-_C1834: Room_Assignment_ECO302_71 + Room_Assignment_PHY104_71
- + Time_Assignment_ECO302_1 + Time_Assignment_PHY104_1 <= 3
+_C1834: Room_Assignment_ECO302_71.0 + Room_Assignment_PHY104_71.0
+ + Time_Assignment_ECO302_9:00_9:50_AM + Time_Assignment_PHY104_9:00_9:50_AM
+ <= 3
 _C1835: Overlap_ECO302_PHY105 <= 1
 _C1836: Overlap_ECO302_PHY106 <= 1
 _C1837: Overlap_ECO302_PHY208 <= 1
 _C1838: Overlap_ECO302_REL100 <= 1
-_C1839: Room_Assignment_ECO302_61 + Room_Assignment_REL100_61
- + Time_Assignment_ECO302_3 + Time_Assignment_REL100_3 <= 3
+_C1839: Room_Assignment_ECO302_61.0 + Room_Assignment_REL100_61.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C184: Overlap_ASA203_MAT202 <= 1
-_C1840: Room_Assignment_ECO302_65 + Room_Assignment_REL100_65
- + Time_Assignment_ECO302_3 + Time_Assignment_REL100_3 <= 3
+_C1840: Room_Assignment_ECO302_65.0 + Room_Assignment_REL100_65.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C1841: Overlap_ECO302_REL232 <= 1
 _C1842: Overlap_ECO302_SML201 <= 1
 _C1843: Overlap_ECO302_URB201 <= 1
@@ -3337,8 +3733,9 @@ _C1845: Overlap_ECO310_ASA203 <= 1
 _C1846: Overlap_ECO310_ASA238 <= 1
 _C1847: Overlap_ECO310_COS126 <= 1
 _C1848: Overlap_ECO310_COS226 <= 1
-_C1849: Room_Assignment_COS226_35 + Room_Assignment_ECO310_35
- + Time_Assignment_COS226_2 + Time_Assignment_ECO310_2 <= 3
+_C1849: Room_Assignment_COS226_35.0 + Room_Assignment_ECO310_35.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_ECO310_10:00_10:50_AM <= 3
 _C185: Overlap_ASA203_MAT203 <= 1
 _C1850: Overlap_ECO310_COS217 <= 1
 _C1851: Overlap_ECO310_COS333 <= 1
@@ -3348,15 +3745,17 @@ _C1854: Overlap_ECO310_COS432 <= 1
 _C1855: Overlap_ECO310_COS484 <= 1
 _C1856: Overlap_ECO310_COS522 <= 1
 _C1857: Overlap_ECO310_COS528 <= 1
-_C1858: Room_Assignment_COS528_37 + Room_Assignment_ECO310_37
- + Time_Assignment_COS528_4 + Time_Assignment_ECO310_4 <= 3
+_C1858: Room_Assignment_COS528_37.0 + Room_Assignment_ECO310_37.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ECO310_1:30_2:20_PM
+ <= 3
 _C1859: Overlap_ECO310_ECO100 <= 1
 _C186: Overlap_ASA203_MAT204 <= 1
 _C1860: Overlap_ECO310_ECO102 <= 1
 _C1861: Overlap_ECO310_ECO202 <= 1
 _C1862: Overlap_ECO310_ECO300 <= 1
-_C1863: Room_Assignment_ECO300_37 + Room_Assignment_ECO310_37
- + Time_Assignment_ECO300_2 + Time_Assignment_ECO310_2 <= 3
+_C1863: Room_Assignment_ECO300_37 + Room_Assignment_ECO310_37.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ECO310_10:00_10:50_AM <= 3
 _C1864: Overlap_ECO310_ECO301 <= 1
 _C1865: Overlap_ECO310_ECO302 <= 1
 _C1866: Overlap_ECO310_ECO312 <= 1
@@ -3368,8 +3767,9 @@ _C1870: Overlap_ECO310_GER107 <= 1
 _C1871: Overlap_ECO310_LIN201 <= 1
 _C1872: Overlap_ECO310_LIN300 <= 1
 _C1873: Overlap_ECO310_MAT103 <= 1
-_C1874: Room_Assignment_ECO310_32 + Room_Assignment_MAT103_32
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT103_2 <= 3
+_C1874: Room_Assignment_ECO310_32.0 + Room_Assignment_MAT103_32.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT103_10:00_10:50_AM <= 3
 _C1875: Overlap_ECO310_MAT104 <= 1
 _C1876: Overlap_ECO310_MAT201 <= 1
 _C1877: Overlap_ECO310_MAT202 <= 1
@@ -3377,31 +3777,42 @@ _C1878: Overlap_ECO310_MAT203 <= 1
 _C1879: Overlap_ECO310_MAT204 <= 1
 _C188: Overlap_ASA203_MAT216 <= 1
 _C1880: Overlap_ECO310_MAT215 <= 1
-_C1881: Room_Assignment_ECO310_32 + Room_Assignment_MAT215_32
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT215_2 <= 3
-_C1882: Room_Assignment_ECO310_34 + Room_Assignment_MAT215_34
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT215_2 <= 3
-_C1883: Room_Assignment_ECO310_35 + Room_Assignment_MAT215_35
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT215_2 <= 3
-_C1884: Room_Assignment_ECO310_37 + Room_Assignment_MAT215_37
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT215_2 <= 3
-_C1885: Room_Assignment_ECO310_32 + Room_Assignment_MAT215_32
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT215_4 <= 3
-_C1886: Room_Assignment_ECO310_34 + Room_Assignment_MAT215_34
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT215_4 <= 3
-_C1887: Room_Assignment_ECO310_35 + Room_Assignment_MAT215_35
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT215_4 <= 3
-_C1888: Room_Assignment_ECO310_37 + Room_Assignment_MAT215_37
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT215_4 <= 3
+_C1881: Room_Assignment_ECO310_32.0 + Room_Assignment_MAT215_32.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C1882: Room_Assignment_ECO310_34.0 + Room_Assignment_MAT215_34.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C1883: Room_Assignment_ECO310_35.0 + Room_Assignment_MAT215_35.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C1884: Room_Assignment_ECO310_37.0 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C1885: Room_Assignment_ECO310_32.0 + Room_Assignment_MAT215_32.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
+_C1886: Room_Assignment_ECO310_34.0 + Room_Assignment_MAT215_34.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
+_C1887: Room_Assignment_ECO310_35.0 + Room_Assignment_MAT215_35.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
+_C1888: Room_Assignment_ECO310_37.0 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
 _C1889: Overlap_ECO310_MAT216 <= 1
 _C189: Overlap_ASA203_MAT217 <= 1
 _C1890: Overlap_ECO310_MAT217 <= 1
-_C1891: Room_Assignment_ECO310_32 + Room_Assignment_MAT217_32
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT217_4 <= 3
-_C1892: Room_Assignment_ECO310_34 + Room_Assignment_MAT217_34
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT217_4 <= 3
-_C1893: Room_Assignment_ECO310_35 + Room_Assignment_MAT217_35
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT217_4 <= 3
+_C1891: Room_Assignment_ECO310_32.0 + Room_Assignment_MAT217_32.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C1892: Room_Assignment_ECO310_34.0 + Room_Assignment_MAT217_34.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C1893: Room_Assignment_ECO310_35.0 + Room_Assignment_MAT217_35.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C1894: Overlap_ECO310_MAT218 <= 1
 _C1895: Overlap_ECO310_MAT300 <= 1
 _C1896: Overlap_ECO310_MAT325 <= 1
@@ -3409,25 +3820,32 @@ _C1897: Overlap_ECO310_MAT335 <= 1
 _C1898: Overlap_ECO310_MAT370 <= 1
 _C1899: Overlap_ECO310_MAT377 <= 1
 _C19: Overlap_AAS201_COS432 <= 1
-_C190: Room_Assignment_ASA203_5 + Room_Assignment_MAT217_5
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT217_4 <= 3
+_C190: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT217_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C1900: Overlap_ECO310_MAT385 <= 1
 _C1901: Overlap_ECO310_MAT400 <= 1
 _C1902: Overlap_ECO310_ORF245 <= 1
-_C1903: Room_Assignment_ECO310_34 + Room_Assignment_ORF245_34
- + Time_Assignment_ECO310_4 + Time_Assignment_ORF245_4 <= 3
+_C1903: Room_Assignment_ECO310_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C1904: Overlap_ECO310_ORF307 <= 1
-_C1905: Room_Assignment_ECO310_35 + Room_Assignment_ORF307_35
- + Time_Assignment_ECO310_2 + Time_Assignment_ORF307_2 <= 3
-_C1906: Room_Assignment_ECO310_30 + Room_Assignment_ORF307_30
- + Time_Assignment_ECO310_2 + Time_Assignment_ORF307_2 <= 3
-_C1907: Room_Assignment_ECO310_35 + Room_Assignment_ORF307_35
- + Time_Assignment_ECO310_4 + Time_Assignment_ORF307_4 <= 3
-_C1908: Room_Assignment_ECO310_30 + Room_Assignment_ORF307_30
- + Time_Assignment_ECO310_4 + Time_Assignment_ORF307_4 <= 3
+_C1905: Room_Assignment_ECO310_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C1906: Room_Assignment_ECO310_30.0 + Room_Assignment_ORF307_30.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C1907: Room_Assignment_ECO310_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C1908: Room_Assignment_ECO310_30.0 + Room_Assignment_ORF307_30.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C1909: Overlap_ECO310_ORF309 <= 1
-_C191: Room_Assignment_ASA203_3 + Room_Assignment_MAT217_3
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT217_4 <= 3
+_C191: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C1910: Overlap_ECO310_ORF350 <= 1
 _C1911: Overlap_ECO310_ORF363 <= 1
 _C1912: Overlap_ECO310_ORF445 <= 1
@@ -3450,20 +3868,23 @@ _C1927: Overlap_ECO312_COS217 <= 1
 _C1928: Overlap_ECO312_COS333 <= 1
 _C1929: Overlap_ECO312_COS342 <= 1
 _C193: Overlap_ASA203_MAT300 <= 1
-_C1930: Room_Assignment_COS342_42 + Room_Assignment_ECO312_42
- + Time_Assignment_COS342_5 + Time_Assignment_ECO312_5 <= 3
+_C1930: Room_Assignment_COS342_42.0 + Room_Assignment_ECO312_42.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_ECO312_2:30_3:20_PM
+ <= 3
 _C1931: Overlap_ECO312_COS423 <= 1
 _C1932: Overlap_ECO312_COS432 <= 1
 _C1933: Overlap_ECO312_COS484 <= 1
 _C1934: Overlap_ECO312_COS522 <= 1
-_C1935: Room_Assignment_COS522_48 + Room_Assignment_ECO312_48
- + Time_Assignment_COS522_5 + Time_Assignment_ECO312_5 <= 3
+_C1935: Room_Assignment_COS522_48.0 + Room_Assignment_ECO312_48.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_ECO312_2:30_3:20_PM
+ <= 3
 _C1936: Overlap_ECO312_COS528 <= 1
 _C1937: Overlap_ECO312_ECO100 <= 1
 _C1938: Overlap_ECO312_ECO102 <= 1
 _C1939: Overlap_ECO312_ECO202 <= 1
-_C194: Room_Assignment_ASA203_3 + Room_Assignment_MAT300_3
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT300_5 <= 3
+_C194: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT300_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C1940: Overlap_ECO312_ECO300 <= 1
 _C1941: Overlap_ECO312_ECO301 <= 1
 _C1942: Overlap_ECO312_ECO302 <= 1
@@ -3474,12 +3895,14 @@ _C1946: Overlap_ECO312_GER105 <= 1
 _C1947: Overlap_ECO312_GER107 <= 1
 _C1948: Overlap_ECO312_LIN201 <= 1
 _C1949: Overlap_ECO312_LIN300 <= 1
-_C195: Room_Assignment_ASA203_1 + Room_Assignment_MAT300_1
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT300_5 <= 3
+_C195: Room_Assignment_ASA203_1.0 + Room_Assignment_MAT300_1.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C1950: Overlap_ECO312_MAT103 <= 1
 _C1951: Overlap_ECO312_MAT104 <= 1
-_C1952: Room_Assignment_ECO312_49 + Room_Assignment_MAT104_49
- + Time_Assignment_ECO312_5 + Time_Assignment_MAT104_5 <= 3
+_C1952: Room_Assignment_ECO312_49.0 + Room_Assignment_MAT104_49.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_MAT104_2:30_3:20_PM
+ <= 3
 _C1953: Overlap_ECO312_MAT201 <= 1
 _C1954: Overlap_ECO312_MAT202 <= 1
 _C1955: Overlap_ECO312_MAT203 <= 1
@@ -3496,41 +3919,51 @@ _C1964: Overlap_ECO312_MAT370 <= 1
 _C1965: Overlap_ECO312_MAT377 <= 1
 _C1966: Overlap_ECO312_MAT385 <= 1
 _C1967: Overlap_ECO312_MAT400 <= 1
-_C1968: Room_Assignment_ECO312_42 + Room_Assignment_MAT400_42
- + Time_Assignment_ECO312_3 + Time_Assignment_MAT400_3 <= 3
+_C1968: Room_Assignment_ECO312_42.0 + Room_Assignment_MAT400_42.0
+ + Time_Assignment_ECO312_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
 _C1969: Overlap_ECO312_ORF245 <= 1
 _C197: Overlap_ASA203_MAT335 <= 1
 _C1970: Overlap_ECO312_ORF307 <= 1
 _C1971: Overlap_ECO312_ORF309 <= 1
 _C1972: Overlap_ECO312_ORF350 <= 1
-_C1973: Room_Assignment_ECO312_49 + Room_Assignment_ORF350_49
- + Time_Assignment_ECO312_3 + Time_Assignment_ORF350_3 <= 3
-_C1974: Room_Assignment_ECO312_49 + Room_Assignment_ORF350_49
- + Time_Assignment_ECO312_5 + Time_Assignment_ORF350_5 <= 3
+_C1973: Room_Assignment_ECO312_49.0 + Room_Assignment_ORF350_49.0
+ + Time_Assignment_ECO312_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
+_C1974: Room_Assignment_ECO312_49.0 + Room_Assignment_ORF350_49.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C1975: Overlap_ECO312_ORF363 <= 1
 _C1976: Overlap_ECO312_ORF445 <= 1
 _C1977: Overlap_ECO312_PHY103 <= 1
 _C1978: Overlap_ECO312_PHY104 <= 1
 _C1979: Overlap_ECO312_PHY105 <= 1
-_C198: Room_Assignment_ASA203_5 + Room_Assignment_MAT335_5
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT335_5 <= 3
+_C198: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C1980: Overlap_ECO312_PHY106 <= 1
-_C1981: Room_Assignment_ECO312_41 + Room_Assignment_PHY106_41
- + Time_Assignment_ECO312_5 + Time_Assignment_PHY106_5 <= 3
-_C1982: Room_Assignment_ECO312_49 + Room_Assignment_PHY106_49
- + Time_Assignment_ECO312_5 + Time_Assignment_PHY106_5 <= 3
+_C1981: Room_Assignment_ECO312_41.0 + Room_Assignment_PHY106_41.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C1982: Room_Assignment_ECO312_49.0 + Room_Assignment_PHY106_49.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C1983: Overlap_ECO312_PHY208 <= 1
-_C1984: Room_Assignment_ECO312_48 + Room_Assignment_PHY208_48
- + Time_Assignment_ECO312_5 + Time_Assignment_PHY208_5 <= 3
+_C1984: Room_Assignment_ECO312_48.0 + Room_Assignment_PHY208_48.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
 _C1985: Overlap_ECO312_REL100 <= 1
 _C1986: Overlap_ECO312_REL232 <= 1
-_C1987: Room_Assignment_ECO312_49 + Room_Assignment_REL232_49
- + Time_Assignment_ECO312_5 + Time_Assignment_REL232_5 <= 3
-_C1988: Room_Assignment_ECO312_44 + Room_Assignment_REL232_44
- + Time_Assignment_ECO312_5 + Time_Assignment_REL232_5 <= 3
+_C1987: Room_Assignment_ECO312_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
+_C1988: Room_Assignment_ECO312_44.0 + Room_Assignment_REL232_44.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C1989: Overlap_ECO312_SML201 <= 1
-_C199: Room_Assignment_ASA203_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT335_5 <= 3
+_C199: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C1990: Overlap_ECO312_URB201 <= 1
 _C1991: Overlap_GER101_AAS201 <= 1
 _C1992: Overlap_GER101_ASA203 <= 1
@@ -3551,21 +3984,28 @@ _C2003: Overlap_GER101_COS528 <= 1
 _C2004: Overlap_GER101_ECO100 <= 1
 _C2005: Overlap_GER101_ECO102 <= 1
 _C2006: Overlap_GER101_ECO202 <= 1
-_C2007: Room_Assignment_ECO202_27 + Room_Assignment_GER101_27
- + Time_Assignment_ECO202_3 + Time_Assignment_GER101_3 <= 3
-_C2008: Room_Assignment_ECO202_26 + Room_Assignment_GER101_26
- + Time_Assignment_ECO202_3 + Time_Assignment_GER101_3 <= 3
+_C2007: Room_Assignment_ECO202_27.0 + Room_Assignment_GER101_27.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_GER101_11:00_11:50_AM <= 3
+_C2008: Room_Assignment_ECO202_26.0 + Room_Assignment_GER101_26.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_GER101_11:00_11:50_AM <= 3
 _C2009: Overlap_GER101_ECO300 <= 1
-_C201: Room_Assignment_ASA203_12 + Room_Assignment_MAT370_12
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT370_5 <= 3
-_C2010: Room_Assignment_ECO300_29 + Room_Assignment_GER101_29
- + Time_Assignment_ECO300_2 + Time_Assignment_GER101_2 <= 3
-_C2011: Room_Assignment_ECO300_27 + Room_Assignment_GER101_27
- + Time_Assignment_ECO300_2 + Time_Assignment_GER101_2 <= 3
-_C2012: Room_Assignment_ECO300_29 + Room_Assignment_GER101_29
- + Time_Assignment_ECO300_3 + Time_Assignment_GER101_3 <= 3
-_C2013: Room_Assignment_ECO300_27 + Room_Assignment_GER101_27
- + Time_Assignment_ECO300_3 + Time_Assignment_GER101_3 <= 3
+_C201: Room_Assignment_ASA203_12.0 + Room_Assignment_MAT370_12.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
+_C2010: Room_Assignment_ECO300_29 + Room_Assignment_GER101_29.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_GER101_10:00_10:50_AM <= 3
+_C2011: Room_Assignment_ECO300_27 + Room_Assignment_GER101_27.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_GER101_10:00_10:50_AM <= 3
+_C2012: Room_Assignment_ECO300_29 + Room_Assignment_GER101_29.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER101_11:00_11:50_AM <= 3
+_C2013: Room_Assignment_ECO300_27 + Room_Assignment_GER101_27.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER101_11:00_11:50_AM <= 3
 _C2014: Overlap_GER101_ECO301 <= 1
 _C2015: Overlap_GER101_ECO302 <= 1
 _C2016: Overlap_GER101_ECO310 <= 1
@@ -3581,8 +4021,9 @@ _C2024: Overlap_GER101_MAT104 <= 1
 _C2025: Overlap_GER101_MAT201 <= 1
 _C2026: Overlap_GER101_MAT202 <= 1
 _C2027: Overlap_GER101_MAT203 <= 1
-_C2028: Room_Assignment_GER101_29 + Room_Assignment_MAT203_29
- + Time_Assignment_GER101_1 + Time_Assignment_MAT203_1 <= 3
+_C2028: Room_Assignment_GER101_29.0 + Room_Assignment_MAT203_29.0
+ + Time_Assignment_GER101_9:00_9:50_AM + Time_Assignment_MAT203_9:00_9:50_AM
+ <= 3
 _C2029: Overlap_GER101_MAT204 <= 1
 _C203: Overlap_ASA203_MAT385 <= 1
 _C2030: Overlap_GER101_MAT215 <= 1
@@ -3595,145 +4036,188 @@ _C2036: Overlap_GER101_MAT335 <= 1
 _C2037: Overlap_GER101_MAT370 <= 1
 _C2038: Overlap_GER101_MAT377 <= 1
 _C2039: Overlap_GER101_MAT385 <= 1
-_C204: Room_Assignment_ASA203_43 + Room_Assignment_MAT385_43
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT385_3 <= 3
+_C204: Room_Assignment_ASA203_43.0 + Room_Assignment_MAT385_43.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C2040: Overlap_GER101_MAT400 <= 1
 _C2041: Overlap_GER101_ORF245 <= 1
 _C2042: Overlap_GER101_ORF307 <= 1
 _C2043: Overlap_GER101_ORF309 <= 1
 _C2044: Overlap_GER101_ORF350 <= 1
-_C2045: Room_Assignment_GER101_29 + Room_Assignment_ORF350_29
- + Time_Assignment_GER101_3 + Time_Assignment_ORF350_3 <= 3
+_C2045: Room_Assignment_GER101_29.0 + Room_Assignment_ORF350_29.0
+ + Time_Assignment_GER101_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
 _C2046: Overlap_GER101_ORF363 <= 1
 _C2047: Overlap_GER101_ORF445 <= 1
 _C2048: Overlap_GER101_PHY103 <= 1
 _C2049: Overlap_GER101_PHY104 <= 1
-_C205: Room_Assignment_ASA203_5 + Room_Assignment_MAT385_5
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT385_3 <= 3
-_C2050: Room_Assignment_GER101_28 + Room_Assignment_PHY104_28
- + Time_Assignment_GER101_1 + Time_Assignment_PHY104_1 <= 3
+_C205: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C2050: Room_Assignment_GER101_28.0 + Room_Assignment_PHY104_28.0
+ + Time_Assignment_GER101_9:00_9:50_AM + Time_Assignment_PHY104_9:00_9:50_AM
+ <= 3
 _C2051: Overlap_GER101_PHY105 <= 1
 _C2052: Overlap_GER101_PHY106 <= 1
-_C2053: Room_Assignment_GER101_29 + Room_Assignment_PHY106_29
- + Time_Assignment_GER101_1 + Time_Assignment_PHY106_1 <= 3
+_C2053: Room_Assignment_GER101_29.0 + Room_Assignment_PHY106_29.0
+ + Time_Assignment_GER101_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
 _C2054: Overlap_GER101_PHY208 <= 1
-_C2055: Room_Assignment_GER101_28 + Room_Assignment_PHY208_28
- + Time_Assignment_GER101_2 + Time_Assignment_PHY208_2 <= 3
+_C2055: Room_Assignment_GER101_28.0 + Room_Assignment_PHY208_28.0
+ + Time_Assignment_GER101_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
 _C2056: Overlap_GER101_REL100 <= 1
 _C2057: Overlap_GER101_REL232 <= 1
 _C2058: Overlap_GER101_SML201 <= 1
 _C2059: Overlap_GER101_URB201 <= 1
-_C206: Room_Assignment_ASA203_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT385_3 <= 3
+_C206: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C2060: Overlap_GER103_AAS201 <= 1
-_C2061: Room_Assignment_AAS201_5 + Room_Assignment_GER103_5
- + Time_Assignment_AAS201_2 + Time_Assignment_GER103_2 <= 3
-_C2062: Room_Assignment_AAS201_3 + Room_Assignment_GER103_3
- + Time_Assignment_AAS201_2 + Time_Assignment_GER103_2 <= 3
+_C2061: Room_Assignment_AAS201_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C2062: Room_Assignment_AAS201_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
 _C2063: Overlap_GER103_ASA203 <= 1
-_C2064: Room_Assignment_ASA203_5 + Room_Assignment_GER103_5
- + Time_Assignment_ASA203_3 + Time_Assignment_GER103_3 <= 3
-_C2065: Room_Assignment_ASA203_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA203_3 + Time_Assignment_GER103_3 <= 3
-_C2066: Room_Assignment_ASA203_5 + Room_Assignment_GER103_5
- + Time_Assignment_ASA203_4 + Time_Assignment_GER103_4 <= 3
-_C2067: Room_Assignment_ASA203_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA203_4 + Time_Assignment_GER103_4 <= 3
+_C2064: Room_Assignment_ASA203_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C2065: Room_Assignment_ASA203_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C2066: Room_Assignment_ASA203_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
+_C2067: Room_Assignment_ASA203_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C2068: Overlap_GER103_ASA238 <= 1
-_C2069: Room_Assignment_ASA238_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA238_2 + Time_Assignment_GER103_2 <= 3
+_C2069: Room_Assignment_ASA238_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
 _C207: Overlap_ASA203_MAT400 <= 1
-_C2070: Room_Assignment_ASA238_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA238_3 + Time_Assignment_GER103_3 <= 3
-_C2071: Room_Assignment_ASA238_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA238_4 + Time_Assignment_GER103_4 <= 3
+_C2070: Room_Assignment_ASA238_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C2071: Room_Assignment_ASA238_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C2072: Overlap_GER103_COS126 <= 1
 _C2073: Overlap_GER103_COS226 <= 1
 _C2074: Overlap_GER103_COS217 <= 1
 _C2075: Overlap_GER103_COS333 <= 1
-_C2076: Room_Assignment_COS333_3 + Room_Assignment_GER103_3
- + Time_Assignment_COS333_4 + Time_Assignment_GER103_4 <= 3
+_C2076: Room_Assignment_COS333_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C2077: Overlap_GER103_COS342 <= 1
 _C2078: Overlap_GER103_COS423 <= 1
 _C2079: Overlap_GER103_COS432 <= 1
-_C208: Room_Assignment_ASA203_13 + Room_Assignment_MAT400_13
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT400_3 <= 3
-_C2080: Room_Assignment_COS432_8 + Room_Assignment_GER103_8
- + Time_Assignment_COS432_3 + Time_Assignment_GER103_3 <= 3
-_C2081: Room_Assignment_COS432_8 + Room_Assignment_GER103_8
- + Time_Assignment_COS432_4 + Time_Assignment_GER103_4 <= 3
+_C208: Room_Assignment_ASA203_13.0 + Room_Assignment_MAT400_13.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C2080: Room_Assignment_COS432_8.0 + Room_Assignment_GER103_8.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C2081: Room_Assignment_COS432_8.0 + Room_Assignment_GER103_8.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C2082: Overlap_GER103_COS484 <= 1
-_C2083: Room_Assignment_COS484_5 + Room_Assignment_GER103_5
- + Time_Assignment_COS484_3 + Time_Assignment_GER103_3 <= 3
-_C2084: Room_Assignment_COS484_3 + Room_Assignment_GER103_3
- + Time_Assignment_COS484_3 + Time_Assignment_GER103_3 <= 3
+_C2083: Room_Assignment_COS484_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C2084: Room_Assignment_COS484_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
 _C2085: Overlap_GER103_COS522 <= 1
 _C2086: Overlap_GER103_COS528 <= 1
 _C2087: Overlap_GER103_ECO100 <= 1
-_C2088: Room_Assignment_ECO100_9 + Room_Assignment_GER103_9
- + Time_Assignment_ECO100_2 + Time_Assignment_GER103_2 <= 3
-_C2089: Room_Assignment_ECO100_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO100_2 + Time_Assignment_GER103_2 <= 3
-_C209: Room_Assignment_ASA203_13 + Room_Assignment_MAT400_13
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT400_4 <= 3
+_C2088: Room_Assignment_ECO100_9.0 + Room_Assignment_GER103_9.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C2089: Room_Assignment_ECO100_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C209: Room_Assignment_ASA203_13.0 + Room_Assignment_MAT400_13.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C2090: Overlap_GER103_ECO102 <= 1
 _C2091: Overlap_GER103_ECO202 <= 1
 _C2092: Overlap_GER103_ECO300 <= 1
-_C2093: Room_Assignment_ECO300_5 + Room_Assignment_GER103_5
- + Time_Assignment_ECO300_2 + Time_Assignment_GER103_2 <= 3
-_C2094: Room_Assignment_ECO300_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO300_2 + Time_Assignment_GER103_2 <= 3
-_C2095: Room_Assignment_ECO300_5 + Room_Assignment_GER103_5
- + Time_Assignment_ECO300_3 + Time_Assignment_GER103_3 <= 3
-_C2096: Room_Assignment_ECO300_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO300_3 + Time_Assignment_GER103_3 <= 3
+_C2093: Room_Assignment_ECO300_5 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C2094: Room_Assignment_ECO300_3 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C2095: Room_Assignment_ECO300_5 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C2096: Room_Assignment_ECO300_3 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
 _C2097: Overlap_GER103_ECO301 <= 1
-_C2098: Room_Assignment_ECO301_5 + Room_Assignment_GER103_5
- + Time_Assignment_ECO301_2 + Time_Assignment_GER103_2 <= 3
-_C2099: Room_Assignment_ECO301_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO301_2 + Time_Assignment_GER103_2 <= 3
-_C21: Room_Assignment_AAS201_3 + Room_Assignment_COS484_3
- + Time_Assignment_AAS201_1 + Time_Assignment_COS484_1 <= 3
+_C2098: Room_Assignment_ECO301_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C2099: Room_Assignment_ECO301_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C21: Room_Assignment_AAS201_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
 _C210: Overlap_ASA203_ORF245 <= 1
-_C2100: Room_Assignment_ECO301_5 + Room_Assignment_GER103_5
- + Time_Assignment_ECO301_4 + Time_Assignment_GER103_4 <= 3
-_C2101: Room_Assignment_ECO301_3 + Room_Assignment_GER103_3
- + Time_Assignment_ECO301_4 + Time_Assignment_GER103_4 <= 3
+_C2100: Room_Assignment_ECO301_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
+_C2101: Room_Assignment_ECO301_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C2102: Overlap_GER103_ECO302 <= 1
 _C2103: Overlap_GER103_ECO310 <= 1
 _C2104: Overlap_GER103_ECO312 <= 1
 _C2105: Overlap_GER103_GER101 <= 1
 _C2106: Overlap_GER103_GER105 <= 1
-_C2107: Room_Assignment_GER103_3 + Room_Assignment_GER105_3
- + Time_Assignment_GER103_3 + Time_Assignment_GER105_3 <= 3
-_C2108: Room_Assignment_GER103_3 + Room_Assignment_GER105_3
- + Time_Assignment_GER103_4 + Time_Assignment_GER105_4 <= 3
+_C2107: Room_Assignment_GER103_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
+_C2108: Room_Assignment_GER103_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C2109: Overlap_GER103_GER107 <= 1
-_C211: Room_Assignment_ASA203_5 + Room_Assignment_ORF245_5
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF245_3 <= 3
+_C211: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C2110: Overlap_GER103_LIN201 <= 1
 _C2111: Overlap_GER103_LIN300 <= 1
 _C2112: Overlap_GER103_MAT103 <= 1
 _C2113: Overlap_GER103_MAT104 <= 1
 _C2114: Overlap_GER103_MAT201 <= 1
-_C2115: Room_Assignment_GER103_8 + Room_Assignment_MAT201_8
- + Time_Assignment_GER103_4 + Time_Assignment_MAT201_4 <= 3
-_C2116: Room_Assignment_GER103_5 + Room_Assignment_MAT201_5
- + Time_Assignment_GER103_4 + Time_Assignment_MAT201_4 <= 3
-_C2117: Room_Assignment_GER103_3 + Room_Assignment_MAT201_3
- + Time_Assignment_GER103_4 + Time_Assignment_MAT201_4 <= 3
+_C2115: Room_Assignment_GER103_8.0 + Room_Assignment_MAT201_8.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2116: Room_Assignment_GER103_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2117: Room_Assignment_GER103_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C2118: Overlap_GER103_MAT202 <= 1
 _C2119: Overlap_GER103_MAT203 <= 1
-_C212: Room_Assignment_ASA203_5 + Room_Assignment_ORF245_5
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF245_4 <= 3
+_C212: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C2120: Overlap_GER103_MAT204 <= 1
 _C2121: Overlap_GER103_MAT215 <= 1
 _C2122: Overlap_GER103_MAT216 <= 1
 _C2123: Overlap_GER103_MAT217 <= 1
-_C2124: Room_Assignment_GER103_5 + Room_Assignment_MAT217_5
- + Time_Assignment_GER103_4 + Time_Assignment_MAT217_4 <= 3
-_C2125: Room_Assignment_GER103_3 + Room_Assignment_MAT217_3
- + Time_Assignment_GER103_4 + Time_Assignment_MAT217_4 <= 3
+_C2124: Room_Assignment_GER103_5.0 + Room_Assignment_MAT217_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C2125: Room_Assignment_GER103_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C2126: Overlap_GER103_MAT218 <= 1
 _C2127: Overlap_GER103_MAT300 <= 1
 _C2128: Overlap_GER103_MAT325 <= 1
@@ -3741,178 +4225,234 @@ _C2129: Overlap_GER103_MAT335 <= 1
 _C213: Overlap_ASA203_ORF307 <= 1
 _C2130: Overlap_GER103_MAT370 <= 1
 _C2131: Overlap_GER103_MAT377 <= 1
-_C2132: Room_Assignment_GER103_5 + Room_Assignment_MAT377_5
- + Time_Assignment_GER103_2 + Time_Assignment_MAT377_2 <= 3
+_C2132: Room_Assignment_GER103_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C2133: Overlap_GER103_MAT385 <= 1
-_C2134: Room_Assignment_GER103_5 + Room_Assignment_MAT385_5
- + Time_Assignment_GER103_2 + Time_Assignment_MAT385_2 <= 3
-_C2135: Room_Assignment_GER103_3 + Room_Assignment_MAT385_3
- + Time_Assignment_GER103_2 + Time_Assignment_MAT385_2 <= 3
-_C2136: Room_Assignment_GER103_5 + Room_Assignment_MAT385_5
- + Time_Assignment_GER103_3 + Time_Assignment_MAT385_3 <= 3
-_C2137: Room_Assignment_GER103_3 + Room_Assignment_MAT385_3
- + Time_Assignment_GER103_3 + Time_Assignment_MAT385_3 <= 3
+_C2134: Room_Assignment_GER103_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C2135: Room_Assignment_GER103_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C2136: Room_Assignment_GER103_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C2137: Room_Assignment_GER103_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C2138: Overlap_GER103_MAT400 <= 1
 _C2139: Overlap_GER103_ORF245 <= 1
-_C214: Room_Assignment_ASA203_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF307_3 <= 3
-_C2140: Room_Assignment_GER103_8 + Room_Assignment_ORF245_8
- + Time_Assignment_GER103_3 + Time_Assignment_ORF245_3 <= 3
-_C2141: Room_Assignment_GER103_5 + Room_Assignment_ORF245_5
- + Time_Assignment_GER103_3 + Time_Assignment_ORF245_3 <= 3
-_C2142: Room_Assignment_GER103_8 + Room_Assignment_ORF245_8
- + Time_Assignment_GER103_4 + Time_Assignment_ORF245_4 <= 3
-_C2143: Room_Assignment_GER103_5 + Room_Assignment_ORF245_5
- + Time_Assignment_GER103_4 + Time_Assignment_ORF245_4 <= 3
+_C214: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C2140: Room_Assignment_GER103_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C2141: Room_Assignment_GER103_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C2142: Room_Assignment_GER103_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C2143: Room_Assignment_GER103_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C2144: Overlap_GER103_ORF307 <= 1
-_C2145: Room_Assignment_GER103_5 + Room_Assignment_ORF307_5
- + Time_Assignment_GER103_2 + Time_Assignment_ORF307_2 <= 3
-_C2146: Room_Assignment_GER103_5 + Room_Assignment_ORF307_5
- + Time_Assignment_GER103_3 + Time_Assignment_ORF307_3 <= 3
-_C2147: Room_Assignment_GER103_5 + Room_Assignment_ORF307_5
- + Time_Assignment_GER103_4 + Time_Assignment_ORF307_4 <= 3
+_C2145: Room_Assignment_GER103_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C2146: Room_Assignment_GER103_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C2147: Room_Assignment_GER103_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C2148: Overlap_GER103_ORF309 <= 1
 _C2149: Overlap_GER103_ORF350 <= 1
-_C215: Room_Assignment_ASA203_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF307_4 <= 3
-_C2150: Room_Assignment_GER103_9 + Room_Assignment_ORF350_9
- + Time_Assignment_GER103_3 + Time_Assignment_ORF350_3 <= 3
-_C2151: Room_Assignment_GER103_9 + Room_Assignment_ORF350_9
- + Time_Assignment_GER103_4 + Time_Assignment_ORF350_4 <= 3
+_C215: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C2150: Room_Assignment_GER103_9.0 + Room_Assignment_ORF350_9.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
+_C2151: Room_Assignment_GER103_9.0 + Room_Assignment_ORF350_9.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
 _C2152: Overlap_GER103_ORF363 <= 1
 _C2153: Overlap_GER103_ORF445 <= 1
-_C2154: Room_Assignment_GER103_5 + Room_Assignment_ORF445_5
- + Time_Assignment_GER103_3 + Time_Assignment_ORF445_3 <= 3
-_C2155: Room_Assignment_GER103_5 + Room_Assignment_ORF445_5
- + Time_Assignment_GER103_4 + Time_Assignment_ORF445_4 <= 3
+_C2154: Room_Assignment_GER103_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C2155: Room_Assignment_GER103_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C2156: Overlap_GER103_PHY103 <= 1
 _C2157: Overlap_GER103_PHY104 <= 1
 _C2158: Overlap_GER103_PHY105 <= 1
-_C2159: Room_Assignment_GER103_9 + Room_Assignment_PHY105_9
- + Time_Assignment_GER103_2 + Time_Assignment_PHY105_2 <= 3
-_C216: Room_Assignment_ASA203_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ASA203_5 + Time_Assignment_ORF307_5 <= 3
-_C2160: Room_Assignment_GER103_8 + Room_Assignment_PHY105_8
- + Time_Assignment_GER103_2 + Time_Assignment_PHY105_2 <= 3
-_C2161: Room_Assignment_GER103_5 + Room_Assignment_PHY105_5
- + Time_Assignment_GER103_2 + Time_Assignment_PHY105_2 <= 3
-_C2162: Room_Assignment_GER103_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER103_2 + Time_Assignment_PHY105_2 <= 3
-_C2163: Room_Assignment_GER103_9 + Room_Assignment_PHY105_9
- + Time_Assignment_GER103_3 + Time_Assignment_PHY105_3 <= 3
-_C2164: Room_Assignment_GER103_8 + Room_Assignment_PHY105_8
- + Time_Assignment_GER103_3 + Time_Assignment_PHY105_3 <= 3
-_C2165: Room_Assignment_GER103_5 + Room_Assignment_PHY105_5
- + Time_Assignment_GER103_3 + Time_Assignment_PHY105_3 <= 3
-_C2166: Room_Assignment_GER103_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER103_3 + Time_Assignment_PHY105_3 <= 3
-_C2167: Room_Assignment_GER103_9 + Room_Assignment_PHY105_9
- + Time_Assignment_GER103_4 + Time_Assignment_PHY105_4 <= 3
-_C2168: Room_Assignment_GER103_8 + Room_Assignment_PHY105_8
- + Time_Assignment_GER103_4 + Time_Assignment_PHY105_4 <= 3
-_C2169: Room_Assignment_GER103_5 + Room_Assignment_PHY105_5
- + Time_Assignment_GER103_4 + Time_Assignment_PHY105_4 <= 3
+_C2159: Room_Assignment_GER103_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C216: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
+_C2160: Room_Assignment_GER103_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C2161: Room_Assignment_GER103_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C2162: Room_Assignment_GER103_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C2163: Room_Assignment_GER103_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C2164: Room_Assignment_GER103_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C2165: Room_Assignment_GER103_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C2166: Room_Assignment_GER103_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C2167: Room_Assignment_GER103_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2168: Room_Assignment_GER103_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2169: Room_Assignment_GER103_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C217: Overlap_ASA203_ORF309 <= 1
-_C2170: Room_Assignment_GER103_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER103_4 + Time_Assignment_PHY105_4 <= 3
+_C2170: Room_Assignment_GER103_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C2171: Overlap_GER103_PHY106 <= 1
 _C2172: Overlap_GER103_PHY208 <= 1
 _C2173: Overlap_GER103_REL100 <= 1
-_C2174: Room_Assignment_GER103_9 + Room_Assignment_REL100_9
- + Time_Assignment_GER103_3 + Time_Assignment_REL100_3 <= 3
+_C2174: Room_Assignment_GER103_9.0 + Room_Assignment_REL100_9.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C2175: Overlap_GER103_REL232 <= 1
 _C2176: Overlap_GER103_SML201 <= 1
 _C2177: Overlap_GER103_URB201 <= 1
 _C2178: Overlap_GER105_AAS201 <= 1
 _C2179: Overlap_GER105_ASA203 <= 1
-_C218: Room_Assignment_ASA203_43 + Room_Assignment_ORF309_43
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF309_3 <= 3
-_C2180: Room_Assignment_ASA203_1 + Room_Assignment_GER105_1
- + Time_Assignment_ASA203_3 + Time_Assignment_GER105_3 <= 3
-_C2181: Room_Assignment_ASA203_3 + Room_Assignment_GER105_3
- + Time_Assignment_ASA203_3 + Time_Assignment_GER105_3 <= 3
-_C2182: Room_Assignment_ASA203_1 + Room_Assignment_GER105_1
- + Time_Assignment_ASA203_4 + Time_Assignment_GER105_4 <= 3
-_C2183: Room_Assignment_ASA203_3 + Room_Assignment_GER105_3
- + Time_Assignment_ASA203_4 + Time_Assignment_GER105_4 <= 3
+_C218: Room_Assignment_ASA203_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C2180: Room_Assignment_ASA203_1.0 + Room_Assignment_GER105_1.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
+_C2181: Room_Assignment_ASA203_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
+_C2182: Room_Assignment_ASA203_1.0 + Room_Assignment_GER105_1.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
+_C2183: Room_Assignment_ASA203_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C2184: Overlap_GER105_ASA238 <= 1
-_C2185: Room_Assignment_ASA238_3 + Room_Assignment_GER105_3
- + Time_Assignment_ASA238_3 + Time_Assignment_GER105_3 <= 3
-_C2186: Room_Assignment_ASA238_3 + Room_Assignment_GER105_3
- + Time_Assignment_ASA238_4 + Time_Assignment_GER105_4 <= 3
+_C2185: Room_Assignment_ASA238_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
+_C2186: Room_Assignment_ASA238_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C2187: Overlap_GER105_COS126 <= 1
 _C2188: Overlap_GER105_COS226 <= 1
 _C2189: Overlap_GER105_COS217 <= 1
-_C219: Room_Assignment_ASA203_13 + Room_Assignment_ORF309_13
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF309_3 <= 3
+_C219: Room_Assignment_ASA203_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
 _C2190: Overlap_GER105_COS333 <= 1
-_C2191: Room_Assignment_COS333_3 + Room_Assignment_GER105_3
- + Time_Assignment_COS333_4 + Time_Assignment_GER105_4 <= 3
+_C2191: Room_Assignment_COS333_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C2192: Overlap_GER105_COS342 <= 1
 _C2193: Overlap_GER105_COS423 <= 1
 _C2194: Overlap_GER105_COS432 <= 1
 _C2195: Overlap_GER105_COS484 <= 1
-_C2196: Room_Assignment_COS484_3 + Room_Assignment_GER105_3
- + Time_Assignment_COS484_3 + Time_Assignment_GER105_3 <= 3
+_C2196: Room_Assignment_COS484_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
 _C2197: Overlap_GER105_COS522 <= 1
 _C2198: Overlap_GER105_COS528 <= 1
 _C2199: Overlap_GER105_ECO100 <= 1
-_C22: Room_Assignment_AAS201_5 + Room_Assignment_COS484_5
- + Time_Assignment_AAS201_1 + Time_Assignment_COS484_1 <= 3
-_C220: Room_Assignment_ASA203_43 + Room_Assignment_ORF309_43
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF309_4 <= 3
+_C22: Room_Assignment_AAS201_5.0 + Room_Assignment_COS484_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
+_C220: Room_Assignment_ASA203_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
 _C2200: Overlap_GER105_ECO102 <= 1
 _C2201: Overlap_GER105_ECO202 <= 1
 _C2202: Overlap_GER105_ECO300 <= 1
-_C2203: Room_Assignment_ECO300_1 + Room_Assignment_GER105_1
- + Time_Assignment_ECO300_3 + Time_Assignment_GER105_3 <= 3
-_C2204: Room_Assignment_ECO300_3 + Room_Assignment_GER105_3
- + Time_Assignment_ECO300_3 + Time_Assignment_GER105_3 <= 3
+_C2203: Room_Assignment_ECO300_1 + Room_Assignment_GER105_1.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
+_C2204: Room_Assignment_ECO300_3 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
 _C2205: Overlap_GER105_ECO301 <= 1
-_C2206: Room_Assignment_ECO301_3 + Room_Assignment_GER105_3
- + Time_Assignment_ECO301_4 + Time_Assignment_GER105_4 <= 3
+_C2206: Room_Assignment_ECO301_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C2207: Overlap_GER105_ECO302 <= 1
 _C2208: Overlap_GER105_ECO310 <= 1
 _C2209: Overlap_GER105_ECO312 <= 1
-_C221: Room_Assignment_ASA203_13 + Room_Assignment_ORF309_13
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF309_4 <= 3
+_C221: Room_Assignment_ASA203_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
 _C2210: Overlap_GER105_GER101 <= 1
 _C2211: Overlap_GER105_GER103 <= 1
-_C2212: Room_Assignment_GER103_3 + Room_Assignment_GER105_3
- + Time_Assignment_GER103_3 + Time_Assignment_GER105_3 <= 3
-_C2213: Room_Assignment_GER103_3 + Room_Assignment_GER105_3
- + Time_Assignment_GER103_4 + Time_Assignment_GER105_4 <= 3
+_C2212: Room_Assignment_GER103_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
+_C2213: Room_Assignment_GER103_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C2214: Overlap_GER105_GER107 <= 1
 _C2215: Overlap_GER105_LIN201 <= 1
 _C2216: Overlap_GER105_LIN300 <= 1
 _C2217: Overlap_GER105_MAT103 <= 1
 _C2218: Overlap_GER105_MAT104 <= 1
 _C2219: Overlap_GER105_MAT201 <= 1
-_C222: Room_Assignment_ASA203_43 + Room_Assignment_ORF309_43
- + Time_Assignment_ASA203_5 + Time_Assignment_ORF309_5 <= 3
-_C2220: Room_Assignment_GER105_1 + Room_Assignment_MAT201_1
- + Time_Assignment_GER105_4 + Time_Assignment_MAT201_4 <= 3
-_C2221: Room_Assignment_GER105_3 + Room_Assignment_MAT201_3
- + Time_Assignment_GER105_4 + Time_Assignment_MAT201_4 <= 3
+_C222: Room_Assignment_ASA203_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
+_C2220: Room_Assignment_GER105_1.0 + Room_Assignment_MAT201_1.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2221: Room_Assignment_GER105_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C2222: Overlap_GER105_MAT202 <= 1
 _C2223: Overlap_GER105_MAT203 <= 1
 _C2224: Overlap_GER105_MAT204 <= 1
 _C2225: Overlap_GER105_MAT215 <= 1
 _C2226: Overlap_GER105_MAT216 <= 1
 _C2227: Overlap_GER105_MAT217 <= 1
-_C2228: Room_Assignment_GER105_3 + Room_Assignment_MAT217_3
- + Time_Assignment_GER105_4 + Time_Assignment_MAT217_4 <= 3
+_C2228: Room_Assignment_GER105_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C2229: Overlap_GER105_MAT218 <= 1
-_C223: Room_Assignment_ASA203_13 + Room_Assignment_ORF309_13
- + Time_Assignment_ASA203_5 + Time_Assignment_ORF309_5 <= 3
+_C223: Room_Assignment_ASA203_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C2230: Overlap_GER105_MAT300 <= 1
 _C2231: Overlap_GER105_MAT325 <= 1
 _C2232: Overlap_GER105_MAT335 <= 1
 _C2233: Overlap_GER105_MAT370 <= 1
 _C2234: Overlap_GER105_MAT377 <= 1
 _C2235: Overlap_GER105_MAT385 <= 1
-_C2236: Room_Assignment_GER105_3 + Room_Assignment_MAT385_3
- + Time_Assignment_GER105_3 + Time_Assignment_MAT385_3 <= 3
+_C2236: Room_Assignment_GER105_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_GER105_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C2237: Overlap_GER105_MAT400 <= 1
 _C2238: Overlap_GER105_ORF245 <= 1
 _C2239: Overlap_GER105_ORF307 <= 1
@@ -3922,21 +4462,27 @@ _C2241: Overlap_GER105_ORF350 <= 1
 _C2242: Overlap_GER105_ORF363 <= 1
 _C2243: Overlap_GER105_ORF445 <= 1
 _C2244: Overlap_GER105_PHY103 <= 1
-_C2245: Room_Assignment_GER105_1 + Room_Assignment_PHY103_1
- + Time_Assignment_GER105_3 + Time_Assignment_PHY103_3 <= 3
-_C2246: Room_Assignment_GER105_1 + Room_Assignment_PHY103_1
- + Time_Assignment_GER105_4 + Time_Assignment_PHY103_4 <= 3
+_C2245: Room_Assignment_GER105_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_GER105_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C2246: Room_Assignment_GER105_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
 _C2247: Overlap_GER105_PHY104 <= 1
 _C2248: Overlap_GER105_PHY105 <= 1
-_C2249: Room_Assignment_GER105_1 + Room_Assignment_PHY105_1
- + Time_Assignment_GER105_3 + Time_Assignment_PHY105_3 <= 3
+_C2249: Room_Assignment_GER105_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_GER105_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C225: Overlap_ASA203_ORF363 <= 1
-_C2250: Room_Assignment_GER105_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER105_3 + Time_Assignment_PHY105_3 <= 3
-_C2251: Room_Assignment_GER105_1 + Room_Assignment_PHY105_1
- + Time_Assignment_GER105_4 + Time_Assignment_PHY105_4 <= 3
-_C2252: Room_Assignment_GER105_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER105_4 + Time_Assignment_PHY105_4 <= 3
+_C2250: Room_Assignment_GER105_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER105_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C2251: Room_Assignment_GER105_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2252: Room_Assignment_GER105_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C2253: Overlap_GER105_PHY106 <= 1
 _C2254: Overlap_GER105_PHY208 <= 1
 _C2255: Overlap_GER105_REL100 <= 1
@@ -3944,21 +4490,26 @@ _C2256: Overlap_GER105_REL232 <= 1
 _C2257: Overlap_GER105_SML201 <= 1
 _C2258: Overlap_GER105_URB201 <= 1
 _C2259: Overlap_GER107_AAS201 <= 1
-_C226: Room_Assignment_ASA203_21 + Room_Assignment_ORF363_21
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF363_4 <= 3
+_C226: Room_Assignment_ASA203_21.0 + Room_Assignment_ORF363_21.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C2260: Overlap_GER107_ASA203 <= 1
 _C2261: Overlap_GER107_ASA238 <= 1
-_C2262: Room_Assignment_ASA238_75 + Room_Assignment_GER107_75
- + Time_Assignment_ASA238_3 + Time_Assignment_GER107_3 <= 3
+_C2262: Room_Assignment_ASA238_75.0 + Room_Assignment_GER107_75.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
 _C2263: Overlap_GER107_COS126 <= 1
 _C2264: Overlap_GER107_COS226 <= 1
 _C2265: Overlap_GER107_COS217 <= 1
-_C2266: Room_Assignment_COS217_74 + Room_Assignment_GER107_74
- + Time_Assignment_COS217_3 + Time_Assignment_GER107_3 <= 3
-_C2267: Room_Assignment_COS217_73 + Room_Assignment_GER107_73
- + Time_Assignment_COS217_3 + Time_Assignment_GER107_3 <= 3
-_C2268: Room_Assignment_COS217_70 + Room_Assignment_GER107_70
- + Time_Assignment_COS217_3 + Time_Assignment_GER107_3 <= 3
+_C2266: Room_Assignment_COS217_74.0 + Room_Assignment_GER107_74.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
+_C2267: Room_Assignment_COS217_73.0 + Room_Assignment_GER107_73.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
+_C2268: Room_Assignment_COS217_70.0 + Room_Assignment_GER107_70.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
 _C2269: Overlap_GER107_COS333 <= 1
 _C227: Overlap_ASA203_ORF445 <= 1
 _C2270: Overlap_GER107_COS342 <= 1
@@ -3971,12 +4522,14 @@ _C2276: Overlap_GER107_ECO100 <= 1
 _C2277: Overlap_GER107_ECO102 <= 1
 _C2278: Overlap_GER107_ECO202 <= 1
 _C2279: Overlap_GER107_ECO300 <= 1
-_C228: Room_Assignment_ASA203_12 + Room_Assignment_ORF445_12
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF445_3 <= 3
+_C228: Room_Assignment_ASA203_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C2280: Overlap_GER107_ECO301 <= 1
 _C2281: Overlap_GER107_ECO302 <= 1
-_C2282: Room_Assignment_ECO302_71 + Room_Assignment_GER107_71
- + Time_Assignment_ECO302_3 + Time_Assignment_GER107_3 <= 3
+_C2282: Room_Assignment_ECO302_71.0 + Room_Assignment_GER107_71.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
 _C2283: Overlap_GER107_ECO310 <= 1
 _C2284: Overlap_GER107_ECO312 <= 1
 _C2285: Overlap_GER107_GER101 <= 1
@@ -3984,8 +4537,9 @@ _C2286: Overlap_GER107_GER103 <= 1
 _C2287: Overlap_GER107_GER105 <= 1
 _C2288: Overlap_GER107_LIN201 <= 1
 _C2289: Overlap_GER107_LIN300 <= 1
-_C229: Room_Assignment_ASA203_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF445_3 <= 3
+_C229: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C2290: Overlap_GER107_MAT103 <= 1
 _C2291: Overlap_GER107_MAT104 <= 1
 _C2292: Overlap_GER107_MAT201 <= 1
@@ -3997,8 +4551,9 @@ _C2297: Overlap_GER107_MAT216 <= 1
 _C2298: Overlap_GER107_MAT217 <= 1
 _C2299: Overlap_GER107_MAT218 <= 1
 _C23: Overlap_AAS201_COS522 <= 1
-_C230: Room_Assignment_ASA203_12 + Room_Assignment_ORF445_12
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF445_4 <= 3
+_C230: Room_Assignment_ASA203_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C2300: Overlap_GER107_MAT300 <= 1
 _C2301: Overlap_GER107_MAT325 <= 1
 _C2302: Overlap_GER107_MAT335 <= 1
@@ -4009,18 +4564,22 @@ _C2306: Overlap_GER107_MAT400 <= 1
 _C2307: Overlap_GER107_ORF245 <= 1
 _C2308: Overlap_GER107_ORF307 <= 1
 _C2309: Overlap_GER107_ORF309 <= 1
-_C231: Room_Assignment_ASA203_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF445_4 <= 3
-_C2310: Room_Assignment_GER107_73 + Room_Assignment_ORF309_73
- + Time_Assignment_GER107_3 + Time_Assignment_ORF309_3 <= 3
+_C231: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C2310: Room_Assignment_GER107_73.0 + Room_Assignment_ORF309_73.0
+ + Time_Assignment_GER107_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
 _C2311: Overlap_GER107_ORF350 <= 1
 _C2312: Overlap_GER107_ORF363 <= 1
 _C2313: Overlap_GER107_ORF445 <= 1
 _C2314: Overlap_GER107_PHY103 <= 1
-_C2315: Room_Assignment_GER107_75 + Room_Assignment_PHY103_75
- + Time_Assignment_GER107_3 + Time_Assignment_PHY103_3 <= 3
-_C2316: Room_Assignment_GER107_74 + Room_Assignment_PHY103_74
- + Time_Assignment_GER107_3 + Time_Assignment_PHY103_3 <= 3
+_C2315: Room_Assignment_GER107_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_GER107_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C2316: Room_Assignment_GER107_74.0 + Room_Assignment_PHY103_74.0
+ + Time_Assignment_GER107_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
 _C2317: Overlap_GER107_PHY104 <= 1
 _C2318: Overlap_GER107_PHY105 <= 1
 _C2319: Overlap_GER107_PHY106 <= 1
@@ -4033,44 +4592,57 @@ _C2324: Overlap_GER107_URB201 <= 1
 _C2325: Overlap_LIN201_AAS201 <= 1
 _C2326: Overlap_LIN201_ASA203 <= 1
 _C2327: Overlap_LIN201_ASA238 <= 1
-_C2328: Room_Assignment_ASA238_50 + Room_Assignment_LIN201_50
- + Time_Assignment_ASA238_1 + Time_Assignment_LIN201_1 <= 3
-_C2329: Room_Assignment_ASA238_50 + Room_Assignment_LIN201_50
- + Time_Assignment_ASA238_4 + Time_Assignment_LIN201_4 <= 3
-_C233: Room_Assignment_ASA203_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY103_3 <= 3
+_C2328: Room_Assignment_ASA238_50.0 + Room_Assignment_LIN201_50.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_LIN201_9:00_9:50_AM
+ <= 3
+_C2329: Room_Assignment_ASA238_50.0 + Room_Assignment_LIN201_50.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C233: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
 _C2330: Overlap_LIN201_COS126 <= 1
 _C2331: Overlap_LIN201_COS226 <= 1
 _C2332: Overlap_LIN201_COS217 <= 1
 _C2333: Overlap_LIN201_COS333 <= 1
 _C2334: Overlap_LIN201_COS342 <= 1
 _C2335: Overlap_LIN201_COS423 <= 1
-_C2336: Room_Assignment_COS423_51 + Room_Assignment_LIN201_51
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
-_C2337: Room_Assignment_COS423_52 + Room_Assignment_LIN201_52
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
-_C2338: Room_Assignment_COS423_53 + Room_Assignment_LIN201_53
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
-_C2339: Room_Assignment_COS423_54 + Room_Assignment_LIN201_54
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
-_C234: Room_Assignment_ASA203_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY103_4 <= 3
-_C2340: Room_Assignment_COS423_55 + Room_Assignment_LIN201_55
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
+_C2336: Room_Assignment_COS423_51.0 + Room_Assignment_LIN201_51.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C2337: Room_Assignment_COS423_52.0 + Room_Assignment_LIN201_52.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C2338: Room_Assignment_COS423_53.0 + Room_Assignment_LIN201_53.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C2339: Room_Assignment_COS423_54.0 + Room_Assignment_LIN201_54.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C234: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
+_C2340: Room_Assignment_COS423_55.0 + Room_Assignment_LIN201_55.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
 _C2341: Overlap_LIN201_COS432 <= 1
 _C2342: Overlap_LIN201_COS484 <= 1
 _C2343: Overlap_LIN201_COS522 <= 1
-_C2344: Room_Assignment_COS522_56 + Room_Assignment_LIN201_56
- + Time_Assignment_COS522_1 + Time_Assignment_LIN201_1 <= 3
+_C2344: Room_Assignment_COS522_56.0 + Room_Assignment_LIN201_56.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_LIN201_9:00_9:50_AM
+ <= 3
 _C2345: Overlap_LIN201_COS528 <= 1
 _C2346: Overlap_LIN201_ECO100 <= 1
 _C2347: Overlap_LIN201_ECO102 <= 1
-_C2348: Room_Assignment_ECO102_50 + Room_Assignment_LIN201_50
- + Time_Assignment_ECO102_1 + Time_Assignment_LIN201_1 <= 3
-_C2349: Room_Assignment_ECO102_51 + Room_Assignment_LIN201_51
- + Time_Assignment_ECO102_1 + Time_Assignment_LIN201_1 <= 3
-_C235: Room_Assignment_ASA203_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY103_5 <= 3
+_C2348: Room_Assignment_ECO102_50.0 + Room_Assignment_LIN201_50.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_LIN201_9:00_9:50_AM
+ <= 3
+_C2349: Room_Assignment_ECO102_51.0 + Room_Assignment_LIN201_51.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_LIN201_9:00_9:50_AM
+ <= 3
+_C235: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C2350: Overlap_LIN201_ECO202 <= 1
 _C2351: Overlap_LIN201_ECO300 <= 1
 _C2352: Overlap_LIN201_ECO301 <= 1
@@ -4096,37 +4668,47 @@ _C237: Overlap_ASA203_PHY105 <= 1
 _C2370: Overlap_LIN201_MAT218 <= 1
 _C2371: Overlap_LIN201_MAT300 <= 1
 _C2372: Overlap_LIN201_MAT325 <= 1
-_C2373: Room_Assignment_LIN201_57 + Room_Assignment_MAT325_57
- + Time_Assignment_LIN201_1 + Time_Assignment_MAT325_1 <= 3
+_C2373: Room_Assignment_LIN201_57.0 + Room_Assignment_MAT325_57.0
+ + Time_Assignment_LIN201_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C2374: Overlap_LIN201_MAT335 <= 1
 _C2375: Overlap_LIN201_MAT370 <= 1
-_C2376: Room_Assignment_LIN201_53 + Room_Assignment_MAT370_53
- + Time_Assignment_LIN201_1 + Time_Assignment_MAT370_1 <= 3
+_C2376: Room_Assignment_LIN201_53.0 + Room_Assignment_MAT370_53.0
+ + Time_Assignment_LIN201_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
 _C2377: Overlap_LIN201_MAT377 <= 1
 _C2378: Overlap_LIN201_MAT385 <= 1
 _C2379: Overlap_LIN201_MAT400 <= 1
-_C238: Room_Assignment_ASA203_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY105_3 <= 3
-_C2380: Room_Assignment_LIN201_54 + Room_Assignment_MAT400_54
- + Time_Assignment_LIN201_4 + Time_Assignment_MAT400_4 <= 3
+_C238: Room_Assignment_ASA203_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C2380: Room_Assignment_LIN201_54.0 + Room_Assignment_MAT400_54.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C2381: Overlap_LIN201_ORF245 <= 1
 _C2382: Overlap_LIN201_ORF307 <= 1
-_C2383: Room_Assignment_LIN201_50 + Room_Assignment_ORF307_50
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF307_4 <= 3
+_C2383: Room_Assignment_LIN201_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C2384: Overlap_LIN201_ORF309 <= 1
-_C2385: Room_Assignment_LIN201_53 + Room_Assignment_ORF309_53
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF309_4 <= 3
+_C2385: Room_Assignment_LIN201_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
 _C2386: Overlap_LIN201_ORF350 <= 1
 _C2387: Overlap_LIN201_ORF363 <= 1
-_C2388: Room_Assignment_LIN201_51 + Room_Assignment_ORF363_51
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF363_4 <= 3
+_C2388: Room_Assignment_LIN201_51.0 + Room_Assignment_ORF363_51.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C2389: Overlap_LIN201_ORF445 <= 1
-_C239: Room_Assignment_ASA203_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY105_3 <= 3
-_C2390: Room_Assignment_LIN201_53 + Room_Assignment_ORF445_53
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF445_4 <= 3
-_C2391: Room_Assignment_LIN201_54 + Room_Assignment_ORF445_54
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF445_4 <= 3
+_C239: Room_Assignment_ASA203_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C2390: Room_Assignment_LIN201_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C2391: Room_Assignment_LIN201_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C2392: Overlap_LIN201_PHY103 <= 1
 _C2393: Overlap_LIN201_PHY104 <= 1
 _C2394: Overlap_LIN201_PHY105 <= 1
@@ -4136,13 +4718,16 @@ _C2397: Overlap_LIN201_REL100 <= 1
 _C2398: Overlap_LIN201_REL232 <= 1
 _C2399: Overlap_LIN201_SML201 <= 1
 _C24: Overlap_AAS201_COS528 <= 1
-_C240: Room_Assignment_ASA203_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY105_3 <= 3
-_C2400: Room_Assignment_LIN201_52 + Room_Assignment_SML201_52
- + Time_Assignment_LIN201_1 + Time_Assignment_SML201_1 <= 3
+_C240: Room_Assignment_ASA203_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C2400: Room_Assignment_LIN201_52.0 + Room_Assignment_SML201_52.0
+ + Time_Assignment_LIN201_9:00_9:50_AM + Time_Assignment_SML201_9:00_9:50_AM
+ <= 3
 _C2401: Overlap_LIN201_URB201 <= 1
-_C2402: Room_Assignment_LIN201_56 + Room_Assignment_URB201_56
- + Time_Assignment_LIN201_4 + Time_Assignment_URB201_4 <= 3
+_C2402: Room_Assignment_LIN201_56.0 + Room_Assignment_URB201_56.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
 _C2403: Overlap_LIN300_AAS201 <= 1
 _C2404: Overlap_LIN300_ASA203 <= 1
 _C2405: Overlap_LIN300_ASA238 <= 1
@@ -4150,8 +4735,9 @@ _C2406: Overlap_LIN300_COS126 <= 1
 _C2407: Overlap_LIN300_COS226 <= 1
 _C2408: Overlap_LIN300_COS217 <= 1
 _C2409: Overlap_LIN300_COS333 <= 1
-_C241: Room_Assignment_ASA203_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY105_3 <= 3
+_C241: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C2410: Overlap_LIN300_COS342 <= 1
 _C2411: Overlap_LIN300_COS423 <= 1
 _C2412: Overlap_LIN300_COS432 <= 1
@@ -4162,12 +4748,15 @@ _C2416: Overlap_LIN300_ECO100 <= 1
 _C2417: Overlap_LIN300_ECO102 <= 1
 _C2418: Overlap_LIN300_ECO202 <= 1
 _C2419: Overlap_LIN300_ECO300 <= 1
-_C242: Room_Assignment_ASA203_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY105_4 <= 3
-_C2420: Room_Assignment_ECO300_45 + Room_Assignment_LIN300_45
- + Time_Assignment_ECO300_2 + Time_Assignment_LIN300_2 <= 3
-_C2421: Room_Assignment_ECO300_47 + Room_Assignment_LIN300_47
- + Time_Assignment_ECO300_2 + Time_Assignment_LIN300_2 <= 3
+_C242: Room_Assignment_ASA203_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2420: Room_Assignment_ECO300_45 + Room_Assignment_LIN300_45.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_LIN300_10:00_10:50_AM <= 3
+_C2421: Room_Assignment_ECO300_47 + Room_Assignment_LIN300_47.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_LIN300_10:00_10:50_AM <= 3
 _C2422: Overlap_LIN300_ECO301 <= 1
 _C2423: Overlap_LIN300_ECO302 <= 1
 _C2424: Overlap_LIN300_ECO310 <= 1
@@ -4176,8 +4765,9 @@ _C2426: Overlap_LIN300_GER101 <= 1
 _C2427: Overlap_LIN300_GER103 <= 1
 _C2428: Overlap_LIN300_GER105 <= 1
 _C2429: Overlap_LIN300_GER107 <= 1
-_C243: Room_Assignment_ASA203_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY105_4 <= 3
+_C243: Room_Assignment_ASA203_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C2430: Overlap_LIN300_LIN201 <= 1
 _C2431: Overlap_LIN300_MAT103 <= 1
 _C2432: Overlap_LIN300_MAT104 <= 1
@@ -4188,8 +4778,9 @@ _C2436: Overlap_LIN300_MAT204 <= 1
 _C2437: Overlap_LIN300_MAT215 <= 1
 _C2438: Overlap_LIN300_MAT216 <= 1
 _C2439: Overlap_LIN300_MAT217 <= 1
-_C244: Room_Assignment_ASA203_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY105_4 <= 3
+_C244: Room_Assignment_ASA203_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C2440: Overlap_LIN300_MAT218 <= 1
 _C2441: Overlap_LIN300_MAT300 <= 1
 _C2442: Overlap_LIN300_MAT325 <= 1
@@ -4197,110 +4788,143 @@ _C2443: Overlap_LIN300_MAT335 <= 1
 _C2444: Overlap_LIN300_MAT370 <= 1
 _C2445: Overlap_LIN300_MAT377 <= 1
 _C2446: Overlap_LIN300_MAT385 <= 1
-_C2447: Room_Assignment_LIN300_43 + Room_Assignment_MAT385_43
- + Time_Assignment_LIN300_2 + Time_Assignment_MAT385_2 <= 3
+_C2447: Room_Assignment_LIN300_43.0 + Room_Assignment_MAT385_43.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C2448: Overlap_LIN300_MAT400 <= 1
-_C2449: Room_Assignment_LIN300_45 + Room_Assignment_MAT400_45
- + Time_Assignment_LIN300_2 + Time_Assignment_MAT400_2 <= 3
-_C245: Room_Assignment_ASA203_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY105_4 <= 3
+_C2449: Room_Assignment_LIN300_45.0 + Room_Assignment_MAT400_45.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
+_C245: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C2450: Overlap_LIN300_ORF245 <= 1
 _C2451: Overlap_LIN300_ORF307 <= 1
-_C2452: Room_Assignment_LIN300_45 + Room_Assignment_ORF307_45
- + Time_Assignment_LIN300_2 + Time_Assignment_ORF307_2 <= 3
+_C2452: Room_Assignment_LIN300_45.0 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
 _C2453: Overlap_LIN300_ORF309 <= 1
-_C2454: Room_Assignment_LIN300_43 + Room_Assignment_ORF309_43
- + Time_Assignment_LIN300_2 + Time_Assignment_ORF309_2 <= 3
+_C2454: Room_Assignment_LIN300_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
 _C2455: Overlap_LIN300_ORF350 <= 1
 _C2456: Overlap_LIN300_ORF363 <= 1
 _C2457: Overlap_LIN300_ORF445 <= 1
 _C2458: Overlap_LIN300_PHY103 <= 1
 _C2459: Overlap_LIN300_PHY104 <= 1
-_C246: Room_Assignment_ASA203_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY105_5 <= 3
+_C246: Room_Assignment_ASA203_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C2460: Overlap_LIN300_PHY105 <= 1
 _C2461: Overlap_LIN300_PHY106 <= 1
 _C2462: Overlap_LIN300_PHY208 <= 1
-_C2463: Room_Assignment_LIN300_48 + Room_Assignment_PHY208_48
- + Time_Assignment_LIN300_2 + Time_Assignment_PHY208_2 <= 3
+_C2463: Room_Assignment_LIN300_48.0 + Room_Assignment_PHY208_48.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
 _C2464: Overlap_LIN300_REL100 <= 1
 _C2465: Overlap_LIN300_REL232 <= 1
 _C2466: Overlap_LIN300_SML201 <= 1
 _C2467: Overlap_LIN300_URB201 <= 1
 _C2468: Overlap_MAT103_AAS201 <= 1
 _C2469: Overlap_MAT103_ASA203 <= 1
-_C247: Room_Assignment_ASA203_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY105_5 <= 3
-_C2470: Room_Assignment_ASA203_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT103_3 <= 3
-_C2471: Room_Assignment_ASA203_12 + Room_Assignment_MAT103_12
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT103_3 <= 3
-_C2472: Room_Assignment_ASA203_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT103_5 <= 3
-_C2473: Room_Assignment_ASA203_12 + Room_Assignment_MAT103_12
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT103_5 <= 3
+_C247: Room_Assignment_ASA203_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C2470: Room_Assignment_ASA203_21.0 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C2471: Room_Assignment_ASA203_12.0 + Room_Assignment_MAT103_12.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C2472: Room_Assignment_ASA203_21.0 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
+_C2473: Room_Assignment_ASA203_12.0 + Room_Assignment_MAT103_12.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C2474: Overlap_MAT103_ASA238 <= 1
-_C2475: Room_Assignment_ASA238_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT103_2 <= 3
-_C2476: Room_Assignment_ASA238_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ASA238_3 + Time_Assignment_MAT103_3 <= 3
-_C2477: Room_Assignment_ASA238_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT103_5 <= 3
+_C2475: Room_Assignment_ASA238_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT103_10:00_10:50_AM <= 3
+_C2476: Room_Assignment_ASA238_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C2477: Room_Assignment_ASA238_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C2478: Overlap_MAT103_COS126 <= 1
 _C2479: Overlap_MAT103_COS226 <= 1
-_C248: Room_Assignment_ASA203_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY105_5 <= 3
+_C248: Room_Assignment_ASA203_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C2480: Overlap_MAT103_COS217 <= 1
 _C2481: Overlap_MAT103_COS333 <= 1
 _C2482: Overlap_MAT103_COS342 <= 1
 _C2483: Overlap_MAT103_COS423 <= 1
 _C2484: Overlap_MAT103_COS432 <= 1
-_C2485: Room_Assignment_COS432_12 + Room_Assignment_MAT103_12
- + Time_Assignment_COS432_3 + Time_Assignment_MAT103_3 <= 3
+_C2485: Room_Assignment_COS432_12.0 + Room_Assignment_MAT103_12.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
 _C2486: Overlap_MAT103_COS484 <= 1
 _C2487: Overlap_MAT103_COS522 <= 1
-_C2488: Room_Assignment_COS522_32 + Room_Assignment_MAT103_32
- + Time_Assignment_COS522_5 + Time_Assignment_MAT103_5 <= 3
+_C2488: Room_Assignment_COS522_32.0 + Room_Assignment_MAT103_32.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C2489: Overlap_MAT103_COS528 <= 1
-_C249: Room_Assignment_ASA203_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY105_5 <= 3
-_C2490: Room_Assignment_COS528_11 + Room_Assignment_MAT103_11
- + Time_Assignment_COS528_5 + Time_Assignment_MAT103_5 <= 3
-_C2491: Room_Assignment_COS528_23 + Room_Assignment_MAT103_23
- + Time_Assignment_COS528_5 + Time_Assignment_MAT103_5 <= 3
+_C249: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C2490: Room_Assignment_COS528_11.0 + Room_Assignment_MAT103_11.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
+_C2491: Room_Assignment_COS528_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C2492: Overlap_MAT103_ECO100 <= 1
 _C2493: Overlap_MAT103_ECO102 <= 1
 _C2494: Overlap_MAT103_ECO202 <= 1
-_C2495: Room_Assignment_ECO202_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ECO202_3 + Time_Assignment_MAT103_3 <= 3
-_C2496: Room_Assignment_ECO202_22 + Room_Assignment_MAT103_22
- + Time_Assignment_ECO202_3 + Time_Assignment_MAT103_3 <= 3
-_C2497: Room_Assignment_ECO202_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ECO202_3 + Time_Assignment_MAT103_3 <= 3
-_C2498: Room_Assignment_ECO202_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ECO202_5 + Time_Assignment_MAT103_5 <= 3
-_C2499: Room_Assignment_ECO202_22 + Room_Assignment_MAT103_22
- + Time_Assignment_ECO202_5 + Time_Assignment_MAT103_5 <= 3
+_C2495: Room_Assignment_ECO202_21.0 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C2496: Room_Assignment_ECO202_22.0 + Room_Assignment_MAT103_22.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C2497: Room_Assignment_ECO202_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C2498: Room_Assignment_ECO202_21.0 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
+_C2499: Room_Assignment_ECO202_22.0 + Room_Assignment_MAT103_22.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C25: Overlap_AAS201_ECO100 <= 1
 _C250: Overlap_ASA203_PHY106 <= 1
-_C2500: Room_Assignment_ECO202_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ECO202_5 + Time_Assignment_MAT103_5 <= 3
+_C2500: Room_Assignment_ECO202_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C2501: Overlap_MAT103_ECO300 <= 1
-_C2502: Room_Assignment_ECO300_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT103_2 <= 3
-_C2503: Room_Assignment_ECO300_33 + Room_Assignment_MAT103_33
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT103_2 <= 3
-_C2504: Room_Assignment_ECO300_21 + Room_Assignment_MAT103_21
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT103_3 <= 3
-_C2505: Room_Assignment_ECO300_33 + Room_Assignment_MAT103_33
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT103_3 <= 3
+_C2502: Room_Assignment_ECO300_21 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT103_10:00_10:50_AM <= 3
+_C2503: Room_Assignment_ECO300_33 + Room_Assignment_MAT103_33.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT103_10:00_10:50_AM <= 3
+_C2504: Room_Assignment_ECO300_21 + Room_Assignment_MAT103_21.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
+_C2505: Room_Assignment_ECO300_33 + Room_Assignment_MAT103_33.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
 _C2506: Overlap_MAT103_ECO301 <= 1
 _C2507: Overlap_MAT103_ECO302 <= 1
 _C2508: Overlap_MAT103_ECO310 <= 1
-_C2509: Room_Assignment_ECO310_32 + Room_Assignment_MAT103_32
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT103_2 <= 3
-_C251: Room_Assignment_ASA203_21 + Room_Assignment_PHY106_21
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY106_5 <= 3
+_C2509: Room_Assignment_ECO310_32.0 + Room_Assignment_MAT103_32.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT103_10:00_10:50_AM <= 3
+_C251: Room_Assignment_ASA203_21.0 + Room_Assignment_PHY106_21.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C2510: Overlap_MAT103_ECO312 <= 1
 _C2511: Overlap_MAT103_GER101 <= 1
 _C2512: Overlap_MAT103_GER103 <= 1
@@ -4309,22 +4933,27 @@ _C2514: Overlap_MAT103_GER107 <= 1
 _C2515: Overlap_MAT103_LIN201 <= 1
 _C2516: Overlap_MAT103_LIN300 <= 1
 _C2517: Overlap_MAT103_MAT104 <= 1
-_C2518: Room_Assignment_MAT103_12 + Room_Assignment_MAT104_12
- + Time_Assignment_MAT103_5 + Time_Assignment_MAT104_5 <= 3
+_C2518: Room_Assignment_MAT103_12.0 + Room_Assignment_MAT104_12.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_MAT104_2:30_3:20_PM
+ <= 3
 _C2519: Overlap_MAT103_MAT201 <= 1
 _C252: Overlap_ASA203_PHY208 <= 1
 _C2520: Overlap_MAT103_MAT202 <= 1
 _C2521: Overlap_MAT103_MAT203 <= 1
 _C2522: Overlap_MAT103_MAT204 <= 1
 _C2523: Overlap_MAT103_MAT215 <= 1
-_C2524: Room_Assignment_MAT103_32 + Room_Assignment_MAT215_32
- + Time_Assignment_MAT103_2 + Time_Assignment_MAT215_2 <= 3
-_C2525: Room_Assignment_MAT103_33 + Room_Assignment_MAT215_33
- + Time_Assignment_MAT103_2 + Time_Assignment_MAT215_2 <= 3
-_C2526: Room_Assignment_MAT103_32 + Room_Assignment_MAT215_32
- + Time_Assignment_MAT103_3 + Time_Assignment_MAT215_3 <= 3
-_C2527: Room_Assignment_MAT103_33 + Room_Assignment_MAT215_33
- + Time_Assignment_MAT103_3 + Time_Assignment_MAT215_3 <= 3
+_C2524: Room_Assignment_MAT103_32.0 + Room_Assignment_MAT215_32.0
+ + Time_Assignment_MAT103_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C2525: Room_Assignment_MAT103_33.0 + Room_Assignment_MAT215_33.0
+ + Time_Assignment_MAT103_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C2526: Room_Assignment_MAT103_32.0 + Room_Assignment_MAT215_32.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_MAT215_11:00_11:50_AM <= 3
+_C2527: Room_Assignment_MAT103_33.0 + Room_Assignment_MAT215_33.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_MAT215_11:00_11:50_AM <= 3
 _C2528: Overlap_MAT103_MAT216 <= 1
 _C2529: Overlap_MAT103_MAT217 <= 1
 _C253: Overlap_ASA203_REL100 <= 1
@@ -4333,66 +4962,82 @@ _C2531: Overlap_MAT103_MAT300 <= 1
 _C2532: Overlap_MAT103_MAT325 <= 1
 _C2533: Overlap_MAT103_MAT335 <= 1
 _C2534: Overlap_MAT103_MAT370 <= 1
-_C2535: Room_Assignment_MAT103_12 + Room_Assignment_MAT370_12
- + Time_Assignment_MAT103_5 + Time_Assignment_MAT370_5 <= 3
+_C2535: Room_Assignment_MAT103_12.0 + Room_Assignment_MAT370_12.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C2536: Overlap_MAT103_MAT377 <= 1
 _C2537: Overlap_MAT103_MAT385 <= 1
 _C2538: Overlap_MAT103_MAT400 <= 1
 _C2539: Overlap_MAT103_ORF245 <= 1
-_C254: Room_Assignment_ASA203_43 + Room_Assignment_REL100_43
- + Time_Assignment_ASA203_3 + Time_Assignment_REL100_3 <= 3
+_C254: Room_Assignment_ASA203_43.0 + Room_Assignment_REL100_43.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C2540: Overlap_MAT103_ORF307 <= 1
 _C2541: Overlap_MAT103_ORF309 <= 1
-_C2542: Room_Assignment_MAT103_23 + Room_Assignment_ORF309_23
- + Time_Assignment_MAT103_2 + Time_Assignment_ORF309_2 <= 3
-_C2543: Room_Assignment_MAT103_23 + Room_Assignment_ORF309_23
- + Time_Assignment_MAT103_3 + Time_Assignment_ORF309_3 <= 3
-_C2544: Room_Assignment_MAT103_23 + Room_Assignment_ORF309_23
- + Time_Assignment_MAT103_5 + Time_Assignment_ORF309_5 <= 3
+_C2542: Room_Assignment_MAT103_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_MAT103_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
+_C2543: Room_Assignment_MAT103_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C2544: Room_Assignment_MAT103_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C2545: Overlap_MAT103_ORF350 <= 1
 _C2546: Overlap_MAT103_ORF363 <= 1
 _C2547: Overlap_MAT103_ORF445 <= 1
-_C2548: Room_Assignment_MAT103_12 + Room_Assignment_ORF445_12
- + Time_Assignment_MAT103_3 + Time_Assignment_ORF445_3 <= 3
+_C2548: Room_Assignment_MAT103_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C2549: Overlap_MAT103_PHY103 <= 1
 _C255: Overlap_ASA203_REL232 <= 1
 _C2550: Overlap_MAT103_PHY104 <= 1
 _C2551: Overlap_MAT103_PHY105 <= 1
-_C2552: Room_Assignment_MAT103_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT103_2 + Time_Assignment_PHY105_2 <= 3
-_C2553: Room_Assignment_MAT103_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT103_3 + Time_Assignment_PHY105_3 <= 3
-_C2554: Room_Assignment_MAT103_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT103_5 + Time_Assignment_PHY105_5 <= 3
+_C2552: Room_Assignment_MAT103_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C2553: Room_Assignment_MAT103_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C2554: Room_Assignment_MAT103_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C2555: Overlap_MAT103_PHY106 <= 1
-_C2556: Room_Assignment_MAT103_11 + Room_Assignment_PHY106_11
- + Time_Assignment_MAT103_5 + Time_Assignment_PHY106_5 <= 3
-_C2557: Room_Assignment_MAT103_21 + Room_Assignment_PHY106_21
- + Time_Assignment_MAT103_5 + Time_Assignment_PHY106_5 <= 3
+_C2556: Room_Assignment_MAT103_11.0 + Room_Assignment_PHY106_11.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C2557: Room_Assignment_MAT103_21.0 + Room_Assignment_PHY106_21.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C2558: Overlap_MAT103_PHY208 <= 1
 _C2559: Overlap_MAT103_REL100 <= 1
-_C256: Room_Assignment_ASA203_43 + Room_Assignment_REL232_43
- + Time_Assignment_ASA203_4 + Time_Assignment_REL232_4 <= 3
+_C256: Room_Assignment_ASA203_43.0 + Room_Assignment_REL232_43.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
 _C2560: Overlap_MAT103_REL232 <= 1
 _C2561: Overlap_MAT103_SML201 <= 1
-_C2562: Room_Assignment_MAT103_33 + Room_Assignment_SML201_33
- + Time_Assignment_MAT103_5 + Time_Assignment_SML201_5 <= 3
+_C2562: Room_Assignment_MAT103_33.0 + Room_Assignment_SML201_33.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C2563: Overlap_MAT103_URB201 <= 1
 _C2564: Overlap_MAT104_AAS201 <= 1
 _C2565: Overlap_MAT104_ASA203 <= 1
-_C2566: Room_Assignment_ASA203_12 + Room_Assignment_MAT104_12
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT104_5 <= 3
+_C2566: Room_Assignment_ASA203_12.0 + Room_Assignment_MAT104_12.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT104_2:30_3:20_PM
+ <= 3
 _C2567: Overlap_MAT104_ASA238 <= 1
 _C2568: Overlap_MAT104_COS126 <= 1
 _C2569: Overlap_MAT104_COS226 <= 1
-_C257: Room_Assignment_ASA203_43 + Room_Assignment_REL232_43
- + Time_Assignment_ASA203_5 + Time_Assignment_REL232_5 <= 3
+_C257: Room_Assignment_ASA203_43.0 + Room_Assignment_REL232_43.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C2570: Overlap_MAT104_COS217 <= 1
 _C2571: Overlap_MAT104_COS333 <= 1
 _C2572: Overlap_MAT104_COS342 <= 1
 _C2573: Overlap_MAT104_COS423 <= 1
-_C2574: Room_Assignment_COS423_54 + Room_Assignment_MAT104_54
- + Time_Assignment_COS423_5 + Time_Assignment_MAT104_5 <= 3
+_C2574: Room_Assignment_COS423_54.0 + Room_Assignment_MAT104_54.0
+ + Time_Assignment_COS423_2:30_3:20_PM + Time_Assignment_MAT104_2:30_3:20_PM
+ <= 3
 _C2575: Overlap_MAT104_COS432 <= 1
 _C2576: Overlap_MAT104_COS484 <= 1
 _C2577: Overlap_MAT104_COS522 <= 1
@@ -4406,26 +5051,31 @@ _C2583: Overlap_MAT104_ECO301 <= 1
 _C2584: Overlap_MAT104_ECO302 <= 1
 _C2585: Overlap_MAT104_ECO310 <= 1
 _C2586: Overlap_MAT104_ECO312 <= 1
-_C2587: Room_Assignment_ECO312_49 + Room_Assignment_MAT104_49
- + Time_Assignment_ECO312_5 + Time_Assignment_MAT104_5 <= 3
+_C2587: Room_Assignment_ECO312_49.0 + Room_Assignment_MAT104_49.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_MAT104_2:30_3:20_PM
+ <= 3
 _C2588: Overlap_MAT104_GER101 <= 1
 _C2589: Overlap_MAT104_GER103 <= 1
-_C259: Room_Assignment_ASA203_43 + Room_Assignment_SML201_43
- + Time_Assignment_ASA203_5 + Time_Assignment_SML201_5 <= 3
+_C259: Room_Assignment_ASA203_43.0 + Room_Assignment_SML201_43.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C2590: Overlap_MAT104_GER105 <= 1
 _C2591: Overlap_MAT104_GER107 <= 1
 _C2592: Overlap_MAT104_LIN201 <= 1
 _C2593: Overlap_MAT104_LIN300 <= 1
 _C2594: Overlap_MAT104_MAT103 <= 1
-_C2595: Room_Assignment_MAT103_12 + Room_Assignment_MAT104_12
- + Time_Assignment_MAT103_5 + Time_Assignment_MAT104_5 <= 3
+_C2595: Room_Assignment_MAT103_12.0 + Room_Assignment_MAT104_12.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_MAT104_2:30_3:20_PM
+ <= 3
 _C2596: Overlap_MAT104_MAT201 <= 1
-_C2597: Room_Assignment_MAT104_4 + Room_Assignment_MAT201_4
- + Time_Assignment_MAT104_5 + Time_Assignment_MAT201_5 <= 3
+_C2597: Room_Assignment_MAT104_4.0 + Room_Assignment_MAT201_4.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C2598: Overlap_MAT104_MAT202 <= 1
 _C2599: Overlap_MAT104_MAT203 <= 1
-_C26: Room_Assignment_AAS201_3 + Room_Assignment_ECO100_3
- + Time_Assignment_AAS201_1 + Time_Assignment_ECO100_1 <= 3
+_C26: Room_Assignment_AAS201_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
 _C260: Overlap_ASA203_URB201 <= 1
 _C2600: Overlap_MAT104_MAT204 <= 1
 _C2601: Overlap_MAT104_MAT215 <= 1
@@ -4433,275 +5083,370 @@ _C2602: Overlap_MAT104_MAT216 <= 1
 _C2603: Overlap_MAT104_MAT217 <= 1
 _C2604: Overlap_MAT104_MAT218 <= 1
 _C2605: Overlap_MAT104_MAT300 <= 1
-_C2606: Room_Assignment_MAT104_4 + Room_Assignment_MAT300_4
- + Time_Assignment_MAT104_5 + Time_Assignment_MAT300_5 <= 3
+_C2606: Room_Assignment_MAT104_4.0 + Room_Assignment_MAT300_4.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C2607: Overlap_MAT104_MAT325 <= 1
 _C2608: Overlap_MAT104_MAT335 <= 1
-_C2609: Room_Assignment_MAT104_4 + Room_Assignment_MAT335_4
- + Time_Assignment_MAT104_5 + Time_Assignment_MAT335_5 <= 3
+_C2609: Room_Assignment_MAT104_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C261: Overlap_ASA238_AAS201 <= 1
 _C2610: Overlap_MAT104_MAT370 <= 1
-_C2611: Room_Assignment_MAT104_12 + Room_Assignment_MAT370_12
- + Time_Assignment_MAT104_5 + Time_Assignment_MAT370_5 <= 3
+_C2611: Room_Assignment_MAT104_12.0 + Room_Assignment_MAT370_12.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C2612: Overlap_MAT104_MAT377 <= 1
 _C2613: Overlap_MAT104_MAT385 <= 1
 _C2614: Overlap_MAT104_MAT400 <= 1
 _C2615: Overlap_MAT104_ORF245 <= 1
 _C2616: Overlap_MAT104_ORF307 <= 1
 _C2617: Overlap_MAT104_ORF309 <= 1
-_C2618: Room_Assignment_MAT104_63 + Room_Assignment_ORF309_63
- + Time_Assignment_MAT104_5 + Time_Assignment_ORF309_5 <= 3
+_C2618: Room_Assignment_MAT104_63.0 + Room_Assignment_ORF309_63.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C2619: Overlap_MAT104_ORF350 <= 1
-_C262: Room_Assignment_AAS201_3 + Room_Assignment_ASA238_3
- + Time_Assignment_AAS201_1 + Time_Assignment_ASA238_1 <= 3
-_C2620: Room_Assignment_MAT104_49 + Room_Assignment_ORF350_49
- + Time_Assignment_MAT104_5 + Time_Assignment_ORF350_5 <= 3
+_C262: Room_Assignment_AAS201_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_ASA238_9:00_9:50_AM
+ <= 3
+_C2620: Room_Assignment_MAT104_49.0 + Room_Assignment_ORF350_49.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C2621: Overlap_MAT104_ORF363 <= 1
 _C2622: Overlap_MAT104_ORF445 <= 1
 _C2623: Overlap_MAT104_PHY103 <= 1
 _C2624: Overlap_MAT104_PHY104 <= 1
 _C2625: Overlap_MAT104_PHY105 <= 1
-_C2626: Room_Assignment_MAT104_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT104_5 + Time_Assignment_PHY105_5 <= 3
-_C2627: Room_Assignment_MAT104_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT104_5 + Time_Assignment_PHY105_5 <= 3
+_C2626: Room_Assignment_MAT104_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C2627: Room_Assignment_MAT104_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C2628: Overlap_MAT104_PHY106 <= 1
-_C2629: Room_Assignment_MAT104_49 + Room_Assignment_PHY106_49
- + Time_Assignment_MAT104_5 + Time_Assignment_PHY106_5 <= 3
-_C263: Room_Assignment_AAS201_2 + Room_Assignment_ASA238_2
- + Time_Assignment_AAS201_1 + Time_Assignment_ASA238_1 <= 3
+_C2629: Room_Assignment_MAT104_49.0 + Room_Assignment_PHY106_49.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C263: Room_Assignment_AAS201_2.0 + Room_Assignment_ASA238_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_ASA238_9:00_9:50_AM
+ <= 3
 _C2630: Overlap_MAT104_PHY208 <= 1
 _C2631: Overlap_MAT104_REL100 <= 1
 _C2632: Overlap_MAT104_REL232 <= 1
-_C2633: Room_Assignment_MAT104_49 + Room_Assignment_REL232_49
- + Time_Assignment_MAT104_5 + Time_Assignment_REL232_5 <= 3
+_C2633: Room_Assignment_MAT104_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C2634: Overlap_MAT104_SML201 <= 1
 _C2635: Overlap_MAT104_URB201 <= 1
 _C2636: Overlap_MAT201_AAS201 <= 1
 _C2637: Overlap_MAT201_ASA203 <= 1
-_C2638: Room_Assignment_ASA203_1 + Room_Assignment_MAT201_1
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT201_4 <= 3
-_C2639: Room_Assignment_ASA203_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT201_4 <= 3
-_C264: Room_Assignment_AAS201_3 + Room_Assignment_ASA238_3
- + Time_Assignment_AAS201_2 + Time_Assignment_ASA238_2 <= 3
-_C2640: Room_Assignment_ASA203_5 + Room_Assignment_MAT201_5
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT201_4 <= 3
-_C2641: Room_Assignment_ASA203_1 + Room_Assignment_MAT201_1
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT201_5 <= 3
-_C2642: Room_Assignment_ASA203_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT201_5 <= 3
-_C2643: Room_Assignment_ASA203_5 + Room_Assignment_MAT201_5
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT201_5 <= 3
+_C2638: Room_Assignment_ASA203_1.0 + Room_Assignment_MAT201_1.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2639: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C264: Room_Assignment_AAS201_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ASA238_10:00_10:50_AM <= 3
+_C2640: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2641: Room_Assignment_ASA203_1.0 + Room_Assignment_MAT201_1.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
+_C2642: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
+_C2643: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C2644: Overlap_MAT201_ASA238 <= 1
-_C2645: Room_Assignment_ASA238_2 + Room_Assignment_MAT201_2
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT201_4 <= 3
-_C2646: Room_Assignment_ASA238_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT201_4 <= 3
-_C2647: Room_Assignment_ASA238_2 + Room_Assignment_MAT201_2
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT201_5 <= 3
-_C2648: Room_Assignment_ASA238_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT201_5 <= 3
+_C2645: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT201_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2646: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2647: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT201_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
+_C2648: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C2649: Overlap_MAT201_COS126 <= 1
-_C265: Room_Assignment_AAS201_2 + Room_Assignment_ASA238_2
- + Time_Assignment_AAS201_2 + Time_Assignment_ASA238_2 <= 3
+_C265: Room_Assignment_AAS201_2.0 + Room_Assignment_ASA238_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ASA238_10:00_10:50_AM <= 3
 _C2650: Overlap_MAT201_COS226 <= 1
 _C2651: Overlap_MAT201_COS217 <= 1
 _C2652: Overlap_MAT201_COS333 <= 1
-_C2653: Room_Assignment_COS333_3 + Room_Assignment_MAT201_3
- + Time_Assignment_COS333_4 + Time_Assignment_MAT201_4 <= 3
+_C2653: Room_Assignment_COS333_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C2654: Overlap_MAT201_COS342 <= 1
 _C2655: Overlap_MAT201_COS423 <= 1
 _C2656: Overlap_MAT201_COS432 <= 1
-_C2657: Room_Assignment_COS432_2 + Room_Assignment_MAT201_2
- + Time_Assignment_COS432_4 + Time_Assignment_MAT201_4 <= 3
-_C2658: Room_Assignment_COS432_4 + Room_Assignment_MAT201_4
- + Time_Assignment_COS432_4 + Time_Assignment_MAT201_4 <= 3
-_C2659: Room_Assignment_COS432_6 + Room_Assignment_MAT201_6
- + Time_Assignment_COS432_4 + Time_Assignment_MAT201_4 <= 3
+_C2657: Room_Assignment_COS432_2.0 + Room_Assignment_MAT201_2.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2658: Room_Assignment_COS432_4.0 + Room_Assignment_MAT201_4.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2659: Room_Assignment_COS432_6.0 + Room_Assignment_MAT201_6.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C266: Overlap_ASA238_ASA203 <= 1
-_C2660: Room_Assignment_COS432_8 + Room_Assignment_MAT201_8
- + Time_Assignment_COS432_4 + Time_Assignment_MAT201_4 <= 3
+_C2660: Room_Assignment_COS432_8.0 + Room_Assignment_MAT201_8.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C2661: Overlap_MAT201_COS484 <= 1
 _C2662: Overlap_MAT201_COS522 <= 1
-_C2663: Room_Assignment_COS522_8 + Room_Assignment_MAT201_8
- + Time_Assignment_COS522_5 + Time_Assignment_MAT201_5 <= 3
+_C2663: Room_Assignment_COS522_8.0 + Room_Assignment_MAT201_8.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C2664: Overlap_MAT201_COS528 <= 1
-_C2665: Room_Assignment_COS528_7 + Room_Assignment_MAT201_7
- + Time_Assignment_COS528_4 + Time_Assignment_MAT201_4 <= 3
-_C2666: Room_Assignment_COS528_7 + Room_Assignment_MAT201_7
- + Time_Assignment_COS528_5 + Time_Assignment_MAT201_5 <= 3
+_C2665: Room_Assignment_COS528_7.0 + Room_Assignment_MAT201_7.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2666: Room_Assignment_COS528_7.0 + Room_Assignment_MAT201_7.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C2667: Overlap_MAT201_ECO100 <= 1
 _C2668: Overlap_MAT201_ECO102 <= 1
 _C2669: Overlap_MAT201_ECO202 <= 1
-_C267: Room_Assignment_ASA203_3 + Room_Assignment_ASA238_3
- + Time_Assignment_ASA203_3 + Time_Assignment_ASA238_3 <= 3
+_C267: Room_Assignment_ASA203_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ASA238_11:00_11:50_AM <= 3
 _C2670: Overlap_MAT201_ECO300 <= 1
 _C2671: Overlap_MAT201_ECO301 <= 1
-_C2672: Room_Assignment_ECO301_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT201_4 <= 3
-_C2673: Room_Assignment_ECO301_5 + Room_Assignment_MAT201_5
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT201_4 <= 3
-_C2674: Room_Assignment_ECO301_7 + Room_Assignment_MAT201_7
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT201_4 <= 3
-_C2675: Room_Assignment_ECO301_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT201_5 <= 3
-_C2676: Room_Assignment_ECO301_5 + Room_Assignment_MAT201_5
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT201_5 <= 3
-_C2677: Room_Assignment_ECO301_7 + Room_Assignment_MAT201_7
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT201_5 <= 3
+_C2672: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2673: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2674: Room_Assignment_ECO301_7.0 + Room_Assignment_MAT201_7.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2675: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
+_C2676: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
+_C2677: Room_Assignment_ECO301_7.0 + Room_Assignment_MAT201_7.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C2678: Overlap_MAT201_ECO302 <= 1
 _C2679: Overlap_MAT201_ECO310 <= 1
-_C268: Room_Assignment_ASA203_3 + Room_Assignment_ASA238_3
- + Time_Assignment_ASA203_4 + Time_Assignment_ASA238_4 <= 3
+_C268: Room_Assignment_ASA203_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ASA238_1:30_2:20_PM
+ <= 3
 _C2680: Overlap_MAT201_ECO312 <= 1
 _C2681: Overlap_MAT201_GER101 <= 1
 _C2682: Overlap_MAT201_GER103 <= 1
-_C2683: Room_Assignment_GER103_3 + Room_Assignment_MAT201_3
- + Time_Assignment_GER103_4 + Time_Assignment_MAT201_4 <= 3
-_C2684: Room_Assignment_GER103_5 + Room_Assignment_MAT201_5
- + Time_Assignment_GER103_4 + Time_Assignment_MAT201_4 <= 3
-_C2685: Room_Assignment_GER103_8 + Room_Assignment_MAT201_8
- + Time_Assignment_GER103_4 + Time_Assignment_MAT201_4 <= 3
+_C2683: Room_Assignment_GER103_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2684: Room_Assignment_GER103_5.0 + Room_Assignment_MAT201_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2685: Room_Assignment_GER103_8.0 + Room_Assignment_MAT201_8.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C2686: Overlap_MAT201_GER105 <= 1
-_C2687: Room_Assignment_GER105_1 + Room_Assignment_MAT201_1
- + Time_Assignment_GER105_4 + Time_Assignment_MAT201_4 <= 3
-_C2688: Room_Assignment_GER105_3 + Room_Assignment_MAT201_3
- + Time_Assignment_GER105_4 + Time_Assignment_MAT201_4 <= 3
+_C2687: Room_Assignment_GER105_1.0 + Room_Assignment_MAT201_1.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C2688: Room_Assignment_GER105_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C2689: Overlap_MAT201_GER107 <= 1
-_C269: Room_Assignment_ASA203_3 + Room_Assignment_ASA238_3
- + Time_Assignment_ASA203_5 + Time_Assignment_ASA238_5 <= 3
+_C269: Room_Assignment_ASA203_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ASA238_2:30_3:20_PM
+ <= 3
 _C2690: Overlap_MAT201_LIN201 <= 1
 _C2691: Overlap_MAT201_LIN300 <= 1
 _C2692: Overlap_MAT201_MAT103 <= 1
 _C2693: Overlap_MAT201_MAT104 <= 1
-_C2694: Room_Assignment_MAT104_4 + Room_Assignment_MAT201_4
- + Time_Assignment_MAT104_5 + Time_Assignment_MAT201_5 <= 3
+_C2694: Room_Assignment_MAT104_4.0 + Room_Assignment_MAT201_4.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C2695: Overlap_MAT201_MAT202 <= 1
 _C2696: Overlap_MAT201_MAT203 <= 1
 _C2697: Overlap_MAT201_MAT204 <= 1
 _C2698: Overlap_MAT201_MAT215 <= 1
 _C2699: Overlap_MAT201_MAT216 <= 1
-_C27: Room_Assignment_AAS201_3 + Room_Assignment_ECO100_3
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO100_2 <= 3
+_C27: Room_Assignment_AAS201_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO100_10:00_10:50_AM <= 3
 _C270: Overlap_ASA238_COS126 <= 1
 _C2700: Overlap_MAT201_MAT217 <= 1
-_C2701: Room_Assignment_MAT201_2 + Room_Assignment_MAT217_2
- + Time_Assignment_MAT201_4 + Time_Assignment_MAT217_4 <= 3
-_C2702: Room_Assignment_MAT201_3 + Room_Assignment_MAT217_3
- + Time_Assignment_MAT201_4 + Time_Assignment_MAT217_4 <= 3
-_C2703: Room_Assignment_MAT201_4 + Room_Assignment_MAT217_4
- + Time_Assignment_MAT201_4 + Time_Assignment_MAT217_4 <= 3
-_C2704: Room_Assignment_MAT201_5 + Room_Assignment_MAT217_5
- + Time_Assignment_MAT201_4 + Time_Assignment_MAT217_4 <= 3
+_C2701: Room_Assignment_MAT201_2.0 + Room_Assignment_MAT217_2.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C2702: Room_Assignment_MAT201_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C2703: Room_Assignment_MAT201_4.0 + Room_Assignment_MAT217_4.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C2704: Room_Assignment_MAT201_5.0 + Room_Assignment_MAT217_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C2705: Overlap_MAT201_MAT218 <= 1
 _C2706: Overlap_MAT201_MAT300 <= 1
-_C2707: Room_Assignment_MAT201_1 + Room_Assignment_MAT300_1
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT300_5 <= 3
-_C2708: Room_Assignment_MAT201_2 + Room_Assignment_MAT300_2
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT300_5 <= 3
-_C2709: Room_Assignment_MAT201_3 + Room_Assignment_MAT300_3
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT300_5 <= 3
-_C271: Room_Assignment_ASA238_3 + Room_Assignment_COS126_3
- + Time_Assignment_ASA238_1 + Time_Assignment_COS126_1 <= 3
-_C2710: Room_Assignment_MAT201_4 + Room_Assignment_MAT300_4
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT300_5 <= 3
+_C2707: Room_Assignment_MAT201_1.0 + Room_Assignment_MAT300_1.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C2708: Room_Assignment_MAT201_2.0 + Room_Assignment_MAT300_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C2709: Room_Assignment_MAT201_3.0 + Room_Assignment_MAT300_3.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C271: Room_Assignment_ASA238_3.0 + Room_Assignment_COS126_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
+_C2710: Room_Assignment_MAT201_4.0 + Room_Assignment_MAT300_4.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C2711: Overlap_MAT201_MAT325 <= 1
-_C2712: Room_Assignment_MAT201_8 + Room_Assignment_MAT325_8
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT325_5 <= 3
+_C2712: Room_Assignment_MAT201_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT325_2:30_3:20_PM
+ <= 3
 _C2713: Overlap_MAT201_MAT335 <= 1
-_C2714: Room_Assignment_MAT201_2 + Room_Assignment_MAT335_2
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C2715: Room_Assignment_MAT201_3 + Room_Assignment_MAT335_3
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C2716: Room_Assignment_MAT201_4 + Room_Assignment_MAT335_4
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C2717: Room_Assignment_MAT201_5 + Room_Assignment_MAT335_5
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C2718: Room_Assignment_MAT201_6 + Room_Assignment_MAT335_6
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C2719: Room_Assignment_MAT201_7 + Room_Assignment_MAT335_7
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C272: Room_Assignment_ASA238_2 + Room_Assignment_COS126_2
- + Time_Assignment_ASA238_1 + Time_Assignment_COS126_1 <= 3
-_C2720: Room_Assignment_MAT201_8 + Room_Assignment_MAT335_8
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
+_C2714: Room_Assignment_MAT201_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C2715: Room_Assignment_MAT201_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C2716: Room_Assignment_MAT201_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C2717: Room_Assignment_MAT201_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C2718: Room_Assignment_MAT201_6.0 + Room_Assignment_MAT335_6.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C2719: Room_Assignment_MAT201_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C272: Room_Assignment_ASA238_2.0 + Room_Assignment_COS126_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
+_C2720: Room_Assignment_MAT201_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C2721: Overlap_MAT201_MAT370 <= 1
-_C2722: Room_Assignment_MAT201_2 + Room_Assignment_MAT370_2
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT370_5 <= 3
+_C2722: Room_Assignment_MAT201_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C2723: Overlap_MAT201_MAT377 <= 1
 _C2724: Overlap_MAT201_MAT385 <= 1
 _C2725: Overlap_MAT201_MAT400 <= 1
 _C2726: Overlap_MAT201_ORF245 <= 1
-_C2727: Room_Assignment_MAT201_5 + Room_Assignment_ORF245_5
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF245_4 <= 3
-_C2728: Room_Assignment_MAT201_7 + Room_Assignment_ORF245_7
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF245_4 <= 3
-_C2729: Room_Assignment_MAT201_8 + Room_Assignment_ORF245_8
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF245_4 <= 3
+_C2727: Room_Assignment_MAT201_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C2728: Room_Assignment_MAT201_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C2729: Room_Assignment_MAT201_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C273: Overlap_ASA238_COS226 <= 1
 _C2730: Overlap_MAT201_ORF307 <= 1
-_C2731: Room_Assignment_MAT201_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF307_4 <= 3
-_C2732: Room_Assignment_MAT201_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT201_5 + Time_Assignment_ORF307_5 <= 3
+_C2731: Room_Assignment_MAT201_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C2732: Room_Assignment_MAT201_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C2733: Overlap_MAT201_ORF309 <= 1
 _C2734: Overlap_MAT201_ORF350 <= 1
-_C2735: Room_Assignment_MAT201_6 + Room_Assignment_ORF350_6
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF350_4 <= 3
-_C2736: Room_Assignment_MAT201_6 + Room_Assignment_ORF350_6
- + Time_Assignment_MAT201_5 + Time_Assignment_ORF350_5 <= 3
+_C2735: Room_Assignment_MAT201_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
+_C2736: Room_Assignment_MAT201_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C2737: Overlap_MAT201_ORF363 <= 1
 _C2738: Overlap_MAT201_ORF445 <= 1
-_C2739: Room_Assignment_MAT201_5 + Room_Assignment_ORF445_5
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF445_4 <= 3
+_C2739: Room_Assignment_MAT201_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C274: Overlap_ASA238_COS217 <= 1
 _C2740: Overlap_MAT201_PHY103 <= 1
-_C2741: Room_Assignment_MAT201_1 + Room_Assignment_PHY103_1
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY103_4 <= 3
-_C2742: Room_Assignment_MAT201_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY103_4 <= 3
-_C2743: Room_Assignment_MAT201_1 + Room_Assignment_PHY103_1
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY103_5 <= 3
-_C2744: Room_Assignment_MAT201_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY103_5 <= 3
+_C2741: Room_Assignment_MAT201_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
+_C2742: Room_Assignment_MAT201_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
+_C2743: Room_Assignment_MAT201_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
+_C2744: Room_Assignment_MAT201_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C2745: Overlap_MAT201_PHY104 <= 1
 _C2746: Overlap_MAT201_PHY105 <= 1
-_C2747: Room_Assignment_MAT201_1 + Room_Assignment_PHY105_1
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C2748: Room_Assignment_MAT201_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C2749: Room_Assignment_MAT201_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
+_C2747: Room_Assignment_MAT201_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2748: Room_Assignment_MAT201_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2749: Room_Assignment_MAT201_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C275: Overlap_ASA238_COS333 <= 1
-_C2750: Room_Assignment_MAT201_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C2751: Room_Assignment_MAT201_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C2752: Room_Assignment_MAT201_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C2753: Room_Assignment_MAT201_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C2754: Room_Assignment_MAT201_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C2755: Room_Assignment_MAT201_1 + Room_Assignment_PHY105_1
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C2756: Room_Assignment_MAT201_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C2757: Room_Assignment_MAT201_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C2758: Room_Assignment_MAT201_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C2759: Room_Assignment_MAT201_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C276: Room_Assignment_ASA238_3 + Room_Assignment_COS333_3
- + Time_Assignment_ASA238_4 + Time_Assignment_COS333_4 <= 3
-_C2760: Room_Assignment_MAT201_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C2761: Room_Assignment_MAT201_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C2762: Room_Assignment_MAT201_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
+_C2750: Room_Assignment_MAT201_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2751: Room_Assignment_MAT201_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2752: Room_Assignment_MAT201_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2753: Room_Assignment_MAT201_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2754: Room_Assignment_MAT201_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C2755: Room_Assignment_MAT201_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C2756: Room_Assignment_MAT201_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C2757: Room_Assignment_MAT201_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C2758: Room_Assignment_MAT201_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C2759: Room_Assignment_MAT201_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C276: Room_Assignment_ASA238_3.0 + Room_Assignment_COS333_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_COS333_1:30_2:20_PM
+ <= 3
+_C2760: Room_Assignment_MAT201_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C2761: Room_Assignment_MAT201_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C2762: Room_Assignment_MAT201_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C2763: Overlap_MAT201_PHY106 <= 1
 _C2764: Overlap_MAT201_PHY208 <= 1
 _C2765: Overlap_MAT201_REL100 <= 1
@@ -4709,23 +5454,30 @@ _C2766: Overlap_MAT201_REL232 <= 1
 _C2767: Overlap_MAT201_SML201 <= 1
 _C2768: Overlap_MAT201_URB201 <= 1
 _C2769: Overlap_MAT202_AAS201 <= 1
-_C277: Room_Assignment_ASA238_65 + Room_Assignment_COS333_65
- + Time_Assignment_ASA238_4 + Time_Assignment_COS333_4 <= 3
-_C2770: Room_Assignment_AAS201_1 + Room_Assignment_MAT202_1
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT202_1 <= 3
-_C2771: Room_Assignment_AAS201_5 + Room_Assignment_MAT202_5
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT202_1 <= 3
+_C277: Room_Assignment_ASA238_65.0 + Room_Assignment_COS333_65.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_COS333_1:30_2:20_PM
+ <= 3
+_C2770: Room_Assignment_AAS201_1.0 + Room_Assignment_MAT202_1.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
+_C2771: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT202_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C2772: Overlap_MAT202_ASA203 <= 1
 _C2773: Overlap_MAT202_ASA238 <= 1
 _C2774: Overlap_MAT202_COS126 <= 1
-_C2775: Room_Assignment_COS126_1 + Room_Assignment_MAT202_1
- + Time_Assignment_COS126_1 + Time_Assignment_MAT202_1 <= 3
-_C2776: Room_Assignment_COS126_5 + Room_Assignment_MAT202_5
- + Time_Assignment_COS126_1 + Time_Assignment_MAT202_1 <= 3
-_C2777: Room_Assignment_COS126_6 + Room_Assignment_MAT202_6
- + Time_Assignment_COS126_1 + Time_Assignment_MAT202_1 <= 3
-_C2778: Room_Assignment_COS126_7 + Room_Assignment_MAT202_7
- + Time_Assignment_COS126_1 + Time_Assignment_MAT202_1 <= 3
+_C2775: Room_Assignment_COS126_1.0 + Room_Assignment_MAT202_1.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
+_C2776: Room_Assignment_COS126_5.0 + Room_Assignment_MAT202_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
+_C2777: Room_Assignment_COS126_6.0 + Room_Assignment_MAT202_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
+_C2778: Room_Assignment_COS126_7.0 + Room_Assignment_MAT202_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C2779: Overlap_MAT202_COS226 <= 1
 _C278: Overlap_ASA238_COS342 <= 1
 _C2780: Overlap_MAT202_COS217 <= 1
@@ -4734,14 +5486,16 @@ _C2782: Overlap_MAT202_COS342 <= 1
 _C2783: Overlap_MAT202_COS423 <= 1
 _C2784: Overlap_MAT202_COS432 <= 1
 _C2785: Overlap_MAT202_COS484 <= 1
-_C2786: Room_Assignment_COS484_5 + Room_Assignment_MAT202_5
- + Time_Assignment_COS484_1 + Time_Assignment_MAT202_1 <= 3
+_C2786: Room_Assignment_COS484_5.0 + Room_Assignment_MAT202_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C2787: Overlap_MAT202_COS522 <= 1
 _C2788: Overlap_MAT202_COS528 <= 1
 _C2789: Overlap_MAT202_ECO100 <= 1
 _C279: Overlap_ASA238_COS423 <= 1
-_C2790: Room_Assignment_ECO100_6 + Room_Assignment_MAT202_6
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT202_1 <= 3
+_C2790: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT202_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C2791: Overlap_MAT202_ECO102 <= 1
 _C2792: Overlap_MAT202_ECO202 <= 1
 _C2793: Overlap_MAT202_ECO300 <= 1
@@ -4763,37 +5517,48 @@ _C2806: Overlap_MAT202_MAT201 <= 1
 _C2807: Overlap_MAT202_MAT203 <= 1
 _C2808: Overlap_MAT202_MAT204 <= 1
 _C2809: Overlap_MAT202_MAT215 <= 1
-_C281: Room_Assignment_ASA238_2 + Room_Assignment_COS432_2
- + Time_Assignment_ASA238_3 + Time_Assignment_COS432_3 <= 3
+_C281: Room_Assignment_ASA238_2.0 + Room_Assignment_COS432_2.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_COS432_11:00_11:50_AM <= 3
 _C2810: Overlap_MAT202_MAT216 <= 1
 _C2811: Overlap_MAT202_MAT217 <= 1
 _C2812: Overlap_MAT202_MAT218 <= 1
-_C2813: Room_Assignment_MAT202_7 + Room_Assignment_MAT218_7
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT218_1 <= 3
+_C2813: Room_Assignment_MAT202_7.0 + Room_Assignment_MAT218_7.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
 _C2814: Overlap_MAT202_MAT300 <= 1
 _C2815: Overlap_MAT202_MAT325 <= 1
 _C2816: Overlap_MAT202_MAT335 <= 1
-_C2817: Room_Assignment_MAT202_5 + Room_Assignment_MAT335_5
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT335_1 <= 3
-_C2818: Room_Assignment_MAT202_6 + Room_Assignment_MAT335_6
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT335_1 <= 3
-_C2819: Room_Assignment_MAT202_7 + Room_Assignment_MAT335_7
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT335_1 <= 3
-_C282: Room_Assignment_ASA238_2 + Room_Assignment_COS432_2
- + Time_Assignment_ASA238_4 + Time_Assignment_COS432_4 <= 3
+_C2817: Room_Assignment_MAT202_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C2818: Room_Assignment_MAT202_6.0 + Room_Assignment_MAT335_6.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C2819: Room_Assignment_MAT202_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C282: Room_Assignment_ASA238_2.0 + Room_Assignment_COS432_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_COS432_1:30_2:20_PM
+ <= 3
 _C2820: Overlap_MAT202_MAT370 <= 1
 _C2821: Overlap_MAT202_MAT377 <= 1
-_C2822: Room_Assignment_MAT202_5 + Room_Assignment_MAT377_5
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT377_1 <= 3
-_C2823: Room_Assignment_MAT202_6 + Room_Assignment_MAT377_6
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT377_1 <= 3
+_C2822: Room_Assignment_MAT202_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C2823: Room_Assignment_MAT202_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C2824: Overlap_MAT202_MAT385 <= 1
-_C2825: Room_Assignment_MAT202_5 + Room_Assignment_MAT385_5
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT385_1 <= 3
-_C2826: Room_Assignment_MAT202_6 + Room_Assignment_MAT385_6
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT385_1 <= 3
-_C2827: Room_Assignment_MAT202_7 + Room_Assignment_MAT385_7
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT385_1 <= 3
+_C2825: Room_Assignment_MAT202_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C2826: Room_Assignment_MAT202_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C2827: Room_Assignment_MAT202_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C2828: Overlap_MAT202_MAT400 <= 1
 _C2829: Overlap_MAT202_ORF245 <= 1
 _C283: Overlap_ASA238_COS484 <= 1
@@ -4803,20 +5568,26 @@ _C2832: Overlap_MAT202_ORF350 <= 1
 _C2833: Overlap_MAT202_ORF363 <= 1
 _C2834: Overlap_MAT202_ORF445 <= 1
 _C2835: Overlap_MAT202_PHY103 <= 1
-_C2836: Room_Assignment_MAT202_1 + Room_Assignment_PHY103_1
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY103_1 <= 3
+_C2836: Room_Assignment_MAT202_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
 _C2837: Overlap_MAT202_PHY104 <= 1
 _C2838: Overlap_MAT202_PHY105 <= 1
-_C2839: Room_Assignment_MAT202_1 + Room_Assignment_PHY105_1
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY105_1 <= 3
-_C284: Room_Assignment_ASA238_3 + Room_Assignment_COS484_3
- + Time_Assignment_ASA238_1 + Time_Assignment_COS484_1 <= 3
-_C2840: Room_Assignment_MAT202_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY105_1 <= 3
-_C2841: Room_Assignment_MAT202_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY105_1 <= 3
-_C2842: Room_Assignment_MAT202_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY105_1 <= 3
+_C2839: Room_Assignment_MAT202_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C284: Room_Assignment_ASA238_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
+_C2840: Room_Assignment_MAT202_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C2841: Room_Assignment_MAT202_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C2842: Room_Assignment_MAT202_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C2843: Overlap_MAT202_PHY106 <= 1
 _C2844: Overlap_MAT202_PHY208 <= 1
 _C2845: Overlap_MAT202_REL100 <= 1
@@ -4824,12 +5595,14 @@ _C2846: Overlap_MAT202_REL232 <= 1
 _C2847: Overlap_MAT202_SML201 <= 1
 _C2848: Overlap_MAT202_URB201 <= 1
 _C2849: Overlap_MAT203_AAS201 <= 1
-_C285: Room_Assignment_ASA238_3 + Room_Assignment_COS484_3
- + Time_Assignment_ASA238_3 + Time_Assignment_COS484_3 <= 3
+_C285: Room_Assignment_ASA238_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
 _C2850: Overlap_MAT203_ASA203 <= 1
 _C2851: Overlap_MAT203_ASA238 <= 1
-_C2852: Room_Assignment_ASA238_23 + Room_Assignment_MAT203_23
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT203_1 <= 3
+_C2852: Room_Assignment_ASA238_23.0 + Room_Assignment_MAT203_23.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT203_9:00_9:50_AM
+ <= 3
 _C2853: Overlap_MAT203_COS126 <= 1
 _C2854: Overlap_MAT203_COS226 <= 1
 _C2855: Overlap_MAT203_COS217 <= 1
@@ -4839,11 +5612,13 @@ _C2858: Overlap_MAT203_COS423 <= 1
 _C2859: Overlap_MAT203_COS432 <= 1
 _C286: Overlap_ASA238_COS522 <= 1
 _C2860: Overlap_MAT203_COS484 <= 1
-_C2861: Room_Assignment_COS484_30 + Room_Assignment_MAT203_30
- + Time_Assignment_COS484_1 + Time_Assignment_MAT203_1 <= 3
+_C2861: Room_Assignment_COS484_30.0 + Room_Assignment_MAT203_30.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT203_9:00_9:50_AM
+ <= 3
 _C2862: Overlap_MAT203_COS522 <= 1
-_C2863: Room_Assignment_COS522_24 + Room_Assignment_MAT203_24
- + Time_Assignment_COS522_1 + Time_Assignment_MAT203_1 <= 3
+_C2863: Room_Assignment_COS522_24.0 + Room_Assignment_MAT203_24.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT203_9:00_9:50_AM
+ <= 3
 _C2864: Overlap_MAT203_COS528 <= 1
 _C2865: Overlap_MAT203_ECO100 <= 1
 _C2866: Overlap_MAT203_ECO102 <= 1
@@ -4855,15 +5630,17 @@ _C2870: Overlap_MAT203_ECO302 <= 1
 _C2871: Overlap_MAT203_ECO310 <= 1
 _C2872: Overlap_MAT203_ECO312 <= 1
 _C2873: Overlap_MAT203_GER101 <= 1
-_C2874: Room_Assignment_GER101_29 + Room_Assignment_MAT203_29
- + Time_Assignment_GER101_1 + Time_Assignment_MAT203_1 <= 3
+_C2874: Room_Assignment_GER101_29.0 + Room_Assignment_MAT203_29.0
+ + Time_Assignment_GER101_9:00_9:50_AM + Time_Assignment_MAT203_9:00_9:50_AM
+ <= 3
 _C2875: Overlap_MAT203_GER103 <= 1
 _C2876: Overlap_MAT203_GER105 <= 1
 _C2877: Overlap_MAT203_GER107 <= 1
 _C2878: Overlap_MAT203_LIN201 <= 1
 _C2879: Overlap_MAT203_LIN300 <= 1
-_C288: Room_Assignment_ASA238_23 + Room_Assignment_COS528_23
- + Time_Assignment_ASA238_4 + Time_Assignment_COS528_4 <= 3
+_C288: Room_Assignment_ASA238_23.0 + Room_Assignment_COS528_23.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_COS528_1:30_2:20_PM
+ <= 3
 _C2880: Overlap_MAT203_MAT103 <= 1
 _C2881: Overlap_MAT203_MAT104 <= 1
 _C2882: Overlap_MAT203_MAT201 <= 1
@@ -4873,10 +5650,12 @@ _C2885: Overlap_MAT203_MAT215 <= 1
 _C2886: Overlap_MAT203_MAT216 <= 1
 _C2887: Overlap_MAT203_MAT217 <= 1
 _C2888: Overlap_MAT203_MAT218 <= 1
-_C2889: Room_Assignment_MAT203_24 + Room_Assignment_MAT218_24
- + Time_Assignment_MAT203_1 + Time_Assignment_MAT218_1 <= 3
-_C289: Room_Assignment_ASA238_23 + Room_Assignment_COS528_23
- + Time_Assignment_ASA238_5 + Time_Assignment_COS528_5 <= 3
+_C2889: Room_Assignment_MAT203_24.0 + Room_Assignment_MAT218_24.0
+ + Time_Assignment_MAT203_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
+_C289: Room_Assignment_ASA238_23.0 + Room_Assignment_COS528_23.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_COS528_2:30_3:20_PM
+ <= 3
 _C2890: Overlap_MAT203_MAT300 <= 1
 _C2891: Overlap_MAT203_MAT325 <= 1
 _C2892: Overlap_MAT203_MAT335 <= 1
@@ -4896,12 +5675,14 @@ _C2903: Overlap_MAT203_PHY103 <= 1
 _C2904: Overlap_MAT203_PHY104 <= 1
 _C2905: Overlap_MAT203_PHY105 <= 1
 _C2906: Overlap_MAT203_PHY106 <= 1
-_C2907: Room_Assignment_MAT203_29 + Room_Assignment_PHY106_29
- + Time_Assignment_MAT203_1 + Time_Assignment_PHY106_1 <= 3
+_C2907: Room_Assignment_MAT203_29.0 + Room_Assignment_PHY106_29.0
+ + Time_Assignment_MAT203_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
 _C2908: Overlap_MAT203_PHY208 <= 1
 _C2909: Overlap_MAT203_REL100 <= 1
-_C291: Room_Assignment_ASA238_3 + Room_Assignment_ECO100_3
- + Time_Assignment_ASA238_1 + Time_Assignment_ECO100_1 <= 3
+_C291: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
 _C2910: Overlap_MAT203_REL232 <= 1
 _C2911: Overlap_MAT203_SML201 <= 1
 _C2912: Overlap_MAT203_URB201 <= 1
@@ -4909,26 +5690,32 @@ _C2913: Overlap_MAT204_AAS201 <= 1
 _C2914: Overlap_MAT204_ASA203 <= 1
 _C2915: Overlap_MAT204_ASA238 <= 1
 _C2916: Overlap_MAT204_COS126 <= 1
-_C2917: Room_Assignment_COS126_8 + Room_Assignment_MAT204_8
- + Time_Assignment_COS126_1 + Time_Assignment_MAT204_1 <= 3
+_C2917: Room_Assignment_COS126_8.0 + Room_Assignment_MAT204_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
 _C2918: Overlap_MAT204_COS226 <= 1
 _C2919: Overlap_MAT204_COS217 <= 1
-_C292: Room_Assignment_ASA238_3 + Room_Assignment_ECO100_3
- + Time_Assignment_ASA238_2 + Time_Assignment_ECO100_2 <= 3
+_C292: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ECO100_10:00_10:50_AM <= 3
 _C2920: Overlap_MAT204_COS333 <= 1
 _C2921: Overlap_MAT204_COS342 <= 1
 _C2922: Overlap_MAT204_COS423 <= 1
 _C2923: Overlap_MAT204_COS432 <= 1
 _C2924: Overlap_MAT204_COS484 <= 1
-_C2925: Room_Assignment_COS484_10 + Room_Assignment_MAT204_10
- + Time_Assignment_COS484_1 + Time_Assignment_MAT204_1 <= 3
-_C2926: Room_Assignment_COS484_20 + Room_Assignment_MAT204_20
- + Time_Assignment_COS484_1 + Time_Assignment_MAT204_1 <= 3
+_C2925: Room_Assignment_COS484_10.0 + Room_Assignment_MAT204_10.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
+_C2926: Room_Assignment_COS484_20.0 + Room_Assignment_MAT204_20.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
 _C2927: Overlap_MAT204_COS522 <= 1
-_C2928: Room_Assignment_COS522_8 + Room_Assignment_MAT204_8
- + Time_Assignment_COS522_1 + Time_Assignment_MAT204_1 <= 3
-_C2929: Room_Assignment_COS522_16 + Room_Assignment_MAT204_16
- + Time_Assignment_COS522_1 + Time_Assignment_MAT204_1 <= 3
+_C2928: Room_Assignment_COS522_8.0 + Room_Assignment_MAT204_8.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
+_C2929: Room_Assignment_COS522_16.0 + Room_Assignment_MAT204_16.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
 _C293: Overlap_ASA238_ECO102 <= 1
 _C2930: Overlap_MAT204_COS528 <= 1
 _C2931: Overlap_MAT204_ECO100 <= 1
@@ -4940,8 +5727,9 @@ _C2936: Overlap_MAT204_ECO302 <= 1
 _C2937: Overlap_MAT204_ECO310 <= 1
 _C2938: Overlap_MAT204_ECO312 <= 1
 _C2939: Overlap_MAT204_GER101 <= 1
-_C294: Room_Assignment_ASA238_50 + Room_Assignment_ECO102_50
- + Time_Assignment_ASA238_1 + Time_Assignment_ECO102_1 <= 3
+_C294: Room_Assignment_ASA238_50.0 + Room_Assignment_ECO102_50.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_ECO102_9:00_9:50_AM
+ <= 3
 _C2940: Overlap_MAT204_GER103 <= 1
 _C2941: Overlap_MAT204_GER105 <= 1
 _C2942: Overlap_MAT204_GER107 <= 1
@@ -4959,31 +5747,40 @@ _C2952: Overlap_MAT204_MAT217 <= 1
 _C2953: Overlap_MAT204_MAT218 <= 1
 _C2954: Overlap_MAT204_MAT300 <= 1
 _C2955: Overlap_MAT204_MAT325 <= 1
-_C2956: Room_Assignment_MAT204_8 + Room_Assignment_MAT325_8
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT325_1 <= 3
-_C2957: Room_Assignment_MAT204_10 + Room_Assignment_MAT325_10
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT325_1 <= 3
+_C2956: Room_Assignment_MAT204_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
+_C2957: Room_Assignment_MAT204_10.0 + Room_Assignment_MAT325_10.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C2958: Overlap_MAT204_MAT335 <= 1
-_C2959: Room_Assignment_MAT204_8 + Room_Assignment_MAT335_8
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT335_1 <= 3
-_C296: Room_Assignment_ASA238_23 + Room_Assignment_ECO202_23
- + Time_Assignment_ASA238_3 + Time_Assignment_ECO202_3 <= 3
-_C2960: Room_Assignment_MAT204_10 + Room_Assignment_MAT335_10
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT335_1 <= 3
+_C2959: Room_Assignment_MAT204_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C296: Room_Assignment_ASA238_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
+_C2960: Room_Assignment_MAT204_10.0 + Room_Assignment_MAT335_10.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C2961: Overlap_MAT204_MAT370 <= 1
-_C2962: Room_Assignment_MAT204_12 + Room_Assignment_MAT370_12
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT370_1 <= 3
+_C2962: Room_Assignment_MAT204_12.0 + Room_Assignment_MAT370_12.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
 _C2963: Overlap_MAT204_MAT377 <= 1
-_C2964: Room_Assignment_MAT204_16 + Room_Assignment_MAT377_16
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT377_1 <= 3
-_C2965: Room_Assignment_MAT204_18 + Room_Assignment_MAT377_18
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT377_1 <= 3
+_C2964: Room_Assignment_MAT204_16.0 + Room_Assignment_MAT377_16.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C2965: Room_Assignment_MAT204_18.0 + Room_Assignment_MAT377_18.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C2966: Overlap_MAT204_MAT385 <= 1
 _C2967: Overlap_MAT204_MAT400 <= 1
 _C2968: Overlap_MAT204_ORF245 <= 1
 _C2969: Overlap_MAT204_ORF307 <= 1
-_C297: Room_Assignment_ASA238_23 + Room_Assignment_ECO202_23
- + Time_Assignment_ASA238_4 + Time_Assignment_ECO202_4 <= 3
+_C297: Room_Assignment_ASA238_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
 _C2970: Overlap_MAT204_ORF309 <= 1
 _C2971: Overlap_MAT204_ORF350 <= 1
 _C2972: Overlap_MAT204_ORF363 <= 1
@@ -4991,14 +5788,18 @@ _C2973: Overlap_MAT204_ORF445 <= 1
 _C2974: Overlap_MAT204_PHY103 <= 1
 _C2975: Overlap_MAT204_PHY104 <= 1
 _C2976: Overlap_MAT204_PHY105 <= 1
-_C2977: Room_Assignment_MAT204_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT204_1 + Time_Assignment_PHY105_1 <= 3
-_C2978: Room_Assignment_MAT204_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT204_1 + Time_Assignment_PHY105_1 <= 3
-_C2979: Room_Assignment_MAT204_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT204_1 + Time_Assignment_PHY105_1 <= 3
-_C298: Room_Assignment_ASA238_23 + Room_Assignment_ECO202_23
- + Time_Assignment_ASA238_5 + Time_Assignment_ECO202_5 <= 3
+_C2977: Room_Assignment_MAT204_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C2978: Room_Assignment_MAT204_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C2979: Room_Assignment_MAT204_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C298: Room_Assignment_ASA238_23.0 + Room_Assignment_ECO202_23.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_ECO202_2:30_3:20_PM
+ <= 3
 _C2980: Overlap_MAT204_PHY106 <= 1
 _C2981: Overlap_MAT204_PHY208 <= 1
 _C2982: Overlap_MAT204_REL100 <= 1
@@ -5011,8 +5812,9 @@ _C2988: Overlap_MAT215_ASA238 <= 1
 _C2989: Overlap_MAT215_COS126 <= 1
 _C299: Overlap_ASA238_ECO300 <= 1
 _C2990: Overlap_MAT215_COS226 <= 1
-_C2991: Room_Assignment_COS226_35 + Room_Assignment_MAT215_35
- + Time_Assignment_COS226_2 + Time_Assignment_MAT215_2 <= 3
+_C2991: Room_Assignment_COS226_35.0 + Room_Assignment_MAT215_35.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
 _C2992: Overlap_MAT215_COS217 <= 1
 _C2993: Overlap_MAT215_COS333 <= 1
 _C2994: Overlap_MAT215_COS342 <= 1
@@ -5021,49 +5823,66 @@ _C2996: Overlap_MAT215_COS432 <= 1
 _C2997: Overlap_MAT215_COS484 <= 1
 _C2998: Overlap_MAT215_COS522 <= 1
 _C2999: Overlap_MAT215_COS528 <= 1
-_C3: Room_Assignment_AAS201_2 + Room_Assignment_ASA238_2
- + Time_Assignment_AAS201_1 + Time_Assignment_ASA238_1 <= 3
+_C3: Room_Assignment_AAS201_2.0 + Room_Assignment_ASA238_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_ASA238_9:00_9:50_AM
+ <= 3
 _C30: Overlap_AAS201_ECO300 <= 1
-_C300: Room_Assignment_ASA238_3 + Room_Assignment_ECO300_3
- + Time_Assignment_ASA238_2 + Time_Assignment_ECO300_2 <= 3
-_C3000: Room_Assignment_COS528_31 + Room_Assignment_MAT215_31
- + Time_Assignment_COS528_4 + Time_Assignment_MAT215_4 <= 3
-_C3001: Room_Assignment_COS528_37 + Room_Assignment_MAT215_37
- + Time_Assignment_COS528_4 + Time_Assignment_MAT215_4 <= 3
+_C300: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
+_C3000: Room_Assignment_COS528_31.0 + Room_Assignment_MAT215_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
+_C3001: Room_Assignment_COS528_37.0 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
 _C3002: Overlap_MAT215_ECO100 <= 1
 _C3003: Overlap_MAT215_ECO102 <= 1
 _C3004: Overlap_MAT215_ECO202 <= 1
 _C3005: Overlap_MAT215_ECO300 <= 1
-_C3006: Room_Assignment_ECO300_33 + Room_Assignment_MAT215_33
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT215_2 <= 3
-_C3007: Room_Assignment_ECO300_37 + Room_Assignment_MAT215_37
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT215_2 <= 3
-_C3008: Room_Assignment_ECO300_33 + Room_Assignment_MAT215_33
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT215_3 <= 3
-_C3009: Room_Assignment_ECO300_37 + Room_Assignment_MAT215_37
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT215_3 <= 3
-_C301: Room_Assignment_ASA238_3 + Room_Assignment_ECO300_3
- + Time_Assignment_ASA238_3 + Time_Assignment_ECO300_3 <= 3
+_C3006: Room_Assignment_ECO300_33 + Room_Assignment_MAT215_33.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C3007: Room_Assignment_ECO300_37 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C3008: Room_Assignment_ECO300_33 + Room_Assignment_MAT215_33.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT215_11:00_11:50_AM <= 3
+_C3009: Room_Assignment_ECO300_37 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT215_11:00_11:50_AM <= 3
+_C301: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C3010: Overlap_MAT215_ECO301 <= 1
 _C3011: Overlap_MAT215_ECO302 <= 1
 _C3012: Overlap_MAT215_ECO310 <= 1
-_C3013: Room_Assignment_ECO310_32 + Room_Assignment_MAT215_32
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT215_2 <= 3
-_C3014: Room_Assignment_ECO310_34 + Room_Assignment_MAT215_34
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT215_2 <= 3
-_C3015: Room_Assignment_ECO310_35 + Room_Assignment_MAT215_35
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT215_2 <= 3
-_C3016: Room_Assignment_ECO310_37 + Room_Assignment_MAT215_37
- + Time_Assignment_ECO310_2 + Time_Assignment_MAT215_2 <= 3
-_C3017: Room_Assignment_ECO310_32 + Room_Assignment_MAT215_32
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT215_4 <= 3
-_C3018: Room_Assignment_ECO310_34 + Room_Assignment_MAT215_34
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT215_4 <= 3
-_C3019: Room_Assignment_ECO310_35 + Room_Assignment_MAT215_35
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT215_4 <= 3
+_C3013: Room_Assignment_ECO310_32.0 + Room_Assignment_MAT215_32.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C3014: Room_Assignment_ECO310_34.0 + Room_Assignment_MAT215_34.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C3015: Room_Assignment_ECO310_35.0 + Room_Assignment_MAT215_35.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C3016: Room_Assignment_ECO310_37.0 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C3017: Room_Assignment_ECO310_32.0 + Room_Assignment_MAT215_32.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
+_C3018: Room_Assignment_ECO310_34.0 + Room_Assignment_MAT215_34.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
+_C3019: Room_Assignment_ECO310_35.0 + Room_Assignment_MAT215_35.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
 _C302: Overlap_ASA238_ECO301 <= 1
-_C3020: Room_Assignment_ECO310_37 + Room_Assignment_MAT215_37
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT215_4 <= 3
+_C3020: Room_Assignment_ECO310_37.0 + Room_Assignment_MAT215_37.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT215_1:30_2:20_PM
+ <= 3
 _C3021: Overlap_MAT215_ECO312 <= 1
 _C3022: Overlap_MAT215_GER101 <= 1
 _C3023: Overlap_MAT215_GER103 <= 1
@@ -5072,16 +5891,21 @@ _C3025: Overlap_MAT215_GER107 <= 1
 _C3026: Overlap_MAT215_LIN201 <= 1
 _C3027: Overlap_MAT215_LIN300 <= 1
 _C3028: Overlap_MAT215_MAT103 <= 1
-_C3029: Room_Assignment_MAT103_32 + Room_Assignment_MAT215_32
- + Time_Assignment_MAT103_2 + Time_Assignment_MAT215_2 <= 3
-_C303: Room_Assignment_ASA238_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA238_2 + Time_Assignment_ECO301_2 <= 3
-_C3030: Room_Assignment_MAT103_33 + Room_Assignment_MAT215_33
- + Time_Assignment_MAT103_2 + Time_Assignment_MAT215_2 <= 3
-_C3031: Room_Assignment_MAT103_32 + Room_Assignment_MAT215_32
- + Time_Assignment_MAT103_3 + Time_Assignment_MAT215_3 <= 3
-_C3032: Room_Assignment_MAT103_33 + Room_Assignment_MAT215_33
- + Time_Assignment_MAT103_3 + Time_Assignment_MAT215_3 <= 3
+_C3029: Room_Assignment_MAT103_32.0 + Room_Assignment_MAT215_32.0
+ + Time_Assignment_MAT103_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C303: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
+_C3030: Room_Assignment_MAT103_33.0 + Room_Assignment_MAT215_33.0
+ + Time_Assignment_MAT103_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C3031: Room_Assignment_MAT103_32.0 + Room_Assignment_MAT215_32.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_MAT215_11:00_11:50_AM <= 3
+_C3032: Room_Assignment_MAT103_33.0 + Room_Assignment_MAT215_33.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_MAT215_11:00_11:50_AM <= 3
 _C3033: Overlap_MAT215_MAT104 <= 1
 _C3034: Overlap_MAT215_MAT201 <= 1
 _C3035: Overlap_MAT215_MAT202 <= 1
@@ -5089,14 +5913,18 @@ _C3036: Overlap_MAT215_MAT203 <= 1
 _C3037: Overlap_MAT215_MAT204 <= 1
 _C3038: Overlap_MAT215_MAT216 <= 1
 _C3039: Overlap_MAT215_MAT217 <= 1
-_C304: Room_Assignment_ASA238_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA238_4 + Time_Assignment_ECO301_4 <= 3
-_C3040: Room_Assignment_MAT215_32 + Room_Assignment_MAT217_32
- + Time_Assignment_MAT215_4 + Time_Assignment_MAT217_4 <= 3
-_C3041: Room_Assignment_MAT215_34 + Room_Assignment_MAT217_34
- + Time_Assignment_MAT215_4 + Time_Assignment_MAT217_4 <= 3
-_C3042: Room_Assignment_MAT215_35 + Room_Assignment_MAT217_35
- + Time_Assignment_MAT215_4 + Time_Assignment_MAT217_4 <= 3
+_C304: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
+_C3040: Room_Assignment_MAT215_32.0 + Room_Assignment_MAT217_32.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3041: Room_Assignment_MAT215_34.0 + Room_Assignment_MAT217_34.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3042: Room_Assignment_MAT215_35.0 + Room_Assignment_MAT217_35.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3043: Overlap_MAT215_MAT218 <= 1
 _C3044: Overlap_MAT215_MAT300 <= 1
 _C3045: Overlap_MAT215_MAT325 <= 1
@@ -5104,66 +5932,85 @@ _C3046: Overlap_MAT215_MAT335 <= 1
 _C3047: Overlap_MAT215_MAT370 <= 1
 _C3048: Overlap_MAT215_MAT377 <= 1
 _C3049: Overlap_MAT215_MAT385 <= 1
-_C305: Room_Assignment_ASA238_3 + Room_Assignment_ECO301_3
- + Time_Assignment_ASA238_5 + Time_Assignment_ECO301_5 <= 3
+_C305: Room_Assignment_ASA238_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_ECO301_2:30_3:20_PM
+ <= 3
 _C3050: Overlap_MAT215_MAT400 <= 1
 _C3051: Overlap_MAT215_ORF245 <= 1
-_C3052: Room_Assignment_MAT215_31 + Room_Assignment_ORF245_31
- + Time_Assignment_MAT215_3 + Time_Assignment_ORF245_3 <= 3
-_C3053: Room_Assignment_MAT215_34 + Room_Assignment_ORF245_34
- + Time_Assignment_MAT215_3 + Time_Assignment_ORF245_3 <= 3
-_C3054: Room_Assignment_MAT215_31 + Room_Assignment_ORF245_31
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF245_4 <= 3
-_C3055: Room_Assignment_MAT215_34 + Room_Assignment_ORF245_34
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF245_4 <= 3
+_C3052: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF245_31.0
+ + Time_Assignment_MAT215_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C3053: Room_Assignment_MAT215_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_MAT215_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C3054: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF245_31.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C3055: Room_Assignment_MAT215_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C3056: Overlap_MAT215_ORF307 <= 1
-_C3057: Room_Assignment_MAT215_35 + Room_Assignment_ORF307_35
- + Time_Assignment_MAT215_2 + Time_Assignment_ORF307_2 <= 3
-_C3058: Room_Assignment_MAT215_35 + Room_Assignment_ORF307_35
- + Time_Assignment_MAT215_3 + Time_Assignment_ORF307_3 <= 3
-_C3059: Room_Assignment_MAT215_35 + Room_Assignment_ORF307_35
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF307_4 <= 3
+_C3057: Room_Assignment_MAT215_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_MAT215_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C3058: Room_Assignment_MAT215_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_MAT215_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C3059: Room_Assignment_MAT215_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C306: Overlap_ASA238_ECO302 <= 1
 _C3060: Overlap_MAT215_ORF309 <= 1
 _C3061: Overlap_MAT215_ORF350 <= 1
 _C3062: Overlap_MAT215_ORF363 <= 1
-_C3063: Room_Assignment_MAT215_31 + Room_Assignment_ORF363_31
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF363_4 <= 3
+_C3063: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF363_31.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C3064: Overlap_MAT215_ORF445 <= 1
-_C3065: Room_Assignment_MAT215_31 + Room_Assignment_ORF445_31
- + Time_Assignment_MAT215_3 + Time_Assignment_ORF445_3 <= 3
-_C3066: Room_Assignment_MAT215_31 + Room_Assignment_ORF445_31
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF445_4 <= 3
+_C3065: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_MAT215_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C3066: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C3067: Overlap_MAT215_PHY103 <= 1
 _C3068: Overlap_MAT215_PHY104 <= 1
 _C3069: Overlap_MAT215_PHY105 <= 1
-_C307: Room_Assignment_ASA238_65 + Room_Assignment_ECO302_65
- + Time_Assignment_ASA238_1 + Time_Assignment_ECO302_1 <= 3
+_C307: Room_Assignment_ASA238_65.0 + Room_Assignment_ECO302_65.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_ECO302_9:00_9:50_AM
+ <= 3
 _C3070: Overlap_MAT215_PHY106 <= 1
 _C3071: Overlap_MAT215_PHY208 <= 1
 _C3072: Overlap_MAT215_REL100 <= 1
 _C3073: Overlap_MAT215_REL232 <= 1
 _C3074: Overlap_MAT215_SML201 <= 1
 _C3075: Overlap_MAT215_URB201 <= 1
-_C3076: Room_Assignment_MAT215_31 + Room_Assignment_URB201_31
- + Time_Assignment_MAT215_2 + Time_Assignment_URB201_2 <= 3
-_C3077: Room_Assignment_MAT215_36 + Room_Assignment_URB201_36
- + Time_Assignment_MAT215_2 + Time_Assignment_URB201_2 <= 3
-_C3078: Room_Assignment_MAT215_31 + Room_Assignment_URB201_31
- + Time_Assignment_MAT215_4 + Time_Assignment_URB201_4 <= 3
-_C3079: Room_Assignment_MAT215_36 + Room_Assignment_URB201_36
- + Time_Assignment_MAT215_4 + Time_Assignment_URB201_4 <= 3
-_C308: Room_Assignment_ASA238_65 + Room_Assignment_ECO302_65
- + Time_Assignment_ASA238_3 + Time_Assignment_ECO302_3 <= 3
+_C3076: Room_Assignment_MAT215_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_MAT215_10:00_10:50_AM
+ + Time_Assignment_URB201_10:00_10:50_AM <= 3
+_C3077: Room_Assignment_MAT215_36.0 + Room_Assignment_URB201_36.0
+ + Time_Assignment_MAT215_10:00_10:50_AM
+ + Time_Assignment_URB201_10:00_10:50_AM <= 3
+_C3078: Room_Assignment_MAT215_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
+_C3079: Room_Assignment_MAT215_36.0 + Room_Assignment_URB201_36.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
+_C308: Room_Assignment_ASA238_65.0 + Room_Assignment_ECO302_65.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ECO302_11:00_11:50_AM <= 3
 _C3080: Overlap_MAT216_AAS201 <= 1
 _C3081: Overlap_MAT216_ASA203 <= 1
 _C3082: Overlap_MAT216_ASA238 <= 1
 _C3083: Overlap_MAT216_COS126 <= 1
 _C3084: Overlap_MAT216_COS226 <= 1
-_C3085: Room_Assignment_COS226_61 + Room_Assignment_MAT216_61
- + Time_Assignment_COS226_2 + Time_Assignment_MAT216_2 <= 3
-_C3086: Room_Assignment_COS226_59 + Room_Assignment_MAT216_59
- + Time_Assignment_COS226_2 + Time_Assignment_MAT216_2 <= 3
+_C3085: Room_Assignment_COS226_61.0 + Room_Assignment_MAT216_61.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT216_10:00_10:50_AM <= 3
+_C3086: Room_Assignment_COS226_59.0 + Room_Assignment_MAT216_59.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT216_10:00_10:50_AM <= 3
 _C3087: Overlap_MAT216_COS217 <= 1
 _C3088: Overlap_MAT216_COS333 <= 1
 _C3089: Overlap_MAT216_COS342 <= 1
@@ -5178,14 +6025,17 @@ _C3096: Overlap_MAT216_ECO102 <= 1
 _C3097: Overlap_MAT216_ECO202 <= 1
 _C3098: Overlap_MAT216_ECO300 <= 1
 _C3099: Overlap_MAT216_ECO301 <= 1
-_C31: Room_Assignment_AAS201_1 + Room_Assignment_ECO300_1
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO300_2 <= 3
+_C31: Room_Assignment_AAS201_1.0 + Room_Assignment_ECO300_1
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
 _C310: Overlap_ASA238_ECO312 <= 1
 _C3100: Overlap_MAT216_ECO302 <= 1
-_C3101: Room_Assignment_ECO302_61 + Room_Assignment_MAT216_61
- + Time_Assignment_ECO302_3 + Time_Assignment_MAT216_3 <= 3
-_C3102: Room_Assignment_ECO302_60 + Room_Assignment_MAT216_60
- + Time_Assignment_ECO302_3 + Time_Assignment_MAT216_3 <= 3
+_C3101: Room_Assignment_ECO302_61.0 + Room_Assignment_MAT216_61.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_MAT216_11:00_11:50_AM <= 3
+_C3102: Room_Assignment_ECO302_60.0 + Room_Assignment_MAT216_60.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_MAT216_11:00_11:50_AM <= 3
 _C3103: Overlap_MAT216_ECO310 <= 1
 _C3104: Overlap_MAT216_ECO312 <= 1
 _C3105: Overlap_MAT216_GER101 <= 1
@@ -5215,11 +6065,13 @@ _C3126: Overlap_MAT216_MAT400 <= 1
 _C3127: Overlap_MAT216_ORF245 <= 1
 _C3128: Overlap_MAT216_ORF307 <= 1
 _C3129: Overlap_MAT216_ORF309 <= 1
-_C313: Room_Assignment_ASA238_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA238_2 + Time_Assignment_GER103_2 <= 3
+_C313: Room_Assignment_ASA238_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
 _C3130: Overlap_MAT216_ORF350 <= 1
-_C3131: Room_Assignment_MAT216_59 + Room_Assignment_ORF350_59
- + Time_Assignment_MAT216_3 + Time_Assignment_ORF350_3 <= 3
+_C3131: Room_Assignment_MAT216_59.0 + Room_Assignment_ORF350_59.0
+ + Time_Assignment_MAT216_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
 _C3132: Overlap_MAT216_ORF363 <= 1
 _C3133: Overlap_MAT216_ORF445 <= 1
 _C3134: Overlap_MAT216_PHY103 <= 1
@@ -5227,81 +6079,104 @@ _C3135: Overlap_MAT216_PHY104 <= 1
 _C3136: Overlap_MAT216_PHY105 <= 1
 _C3137: Overlap_MAT216_PHY106 <= 1
 _C3138: Overlap_MAT216_PHY208 <= 1
-_C3139: Room_Assignment_MAT216_58 + Room_Assignment_PHY208_58
- + Time_Assignment_MAT216_2 + Time_Assignment_PHY208_2 <= 3
-_C314: Room_Assignment_ASA238_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA238_3 + Time_Assignment_GER103_3 <= 3
+_C3139: Room_Assignment_MAT216_58.0 + Room_Assignment_PHY208_58.0
+ + Time_Assignment_MAT216_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
+_C314: Room_Assignment_ASA238_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
 _C3140: Overlap_MAT216_REL100 <= 1
-_C3141: Room_Assignment_MAT216_61 + Room_Assignment_REL100_61
- + Time_Assignment_MAT216_3 + Time_Assignment_REL100_3 <= 3
+_C3141: Room_Assignment_MAT216_61.0 + Room_Assignment_REL100_61.0
+ + Time_Assignment_MAT216_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C3142: Overlap_MAT216_REL232 <= 1
 _C3143: Overlap_MAT216_SML201 <= 1
 _C3144: Overlap_MAT216_URB201 <= 1
-_C3145: Room_Assignment_MAT216_56 + Room_Assignment_URB201_56
- + Time_Assignment_MAT216_2 + Time_Assignment_URB201_2 <= 3
+_C3145: Room_Assignment_MAT216_56.0 + Room_Assignment_URB201_56.0
+ + Time_Assignment_MAT216_10:00_10:50_AM
+ + Time_Assignment_URB201_10:00_10:50_AM <= 3
 _C3146: Overlap_MAT217_AAS201 <= 1
 _C3147: Overlap_MAT217_ASA203 <= 1
-_C3148: Room_Assignment_ASA203_3 + Room_Assignment_MAT217_3
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT217_4 <= 3
-_C3149: Room_Assignment_ASA203_5 + Room_Assignment_MAT217_5
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT217_4 <= 3
-_C315: Room_Assignment_ASA238_3 + Room_Assignment_GER103_3
- + Time_Assignment_ASA238_4 + Time_Assignment_GER103_4 <= 3
+_C3148: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3149: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT217_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C315: Room_Assignment_ASA238_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C3150: Overlap_MAT217_ASA238 <= 1
-_C3151: Room_Assignment_ASA238_3 + Room_Assignment_MAT217_3
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT217_4 <= 3
-_C3152: Room_Assignment_ASA238_2 + Room_Assignment_MAT217_2
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT217_4 <= 3
+_C3151: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3152: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT217_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3153: Overlap_MAT217_COS126 <= 1
 _C3154: Overlap_MAT217_COS226 <= 1
 _C3155: Overlap_MAT217_COS217 <= 1
 _C3156: Overlap_MAT217_COS333 <= 1
-_C3157: Room_Assignment_COS333_3 + Room_Assignment_MAT217_3
- + Time_Assignment_COS333_4 + Time_Assignment_MAT217_4 <= 3
+_C3157: Room_Assignment_COS333_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3158: Overlap_MAT217_COS342 <= 1
 _C3159: Overlap_MAT217_COS423 <= 1
 _C316: Overlap_ASA238_GER105 <= 1
 _C3160: Overlap_MAT217_COS432 <= 1
-_C3161: Room_Assignment_COS432_2 + Room_Assignment_MAT217_2
- + Time_Assignment_COS432_4 + Time_Assignment_MAT217_4 <= 3
-_C3162: Room_Assignment_COS432_4 + Room_Assignment_MAT217_4
- + Time_Assignment_COS432_4 + Time_Assignment_MAT217_4 <= 3
+_C3161: Room_Assignment_COS432_2.0 + Room_Assignment_MAT217_2.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3162: Room_Assignment_COS432_4.0 + Room_Assignment_MAT217_4.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3163: Overlap_MAT217_COS484 <= 1
 _C3164: Overlap_MAT217_COS522 <= 1
 _C3165: Overlap_MAT217_COS528 <= 1
 _C3166: Overlap_MAT217_ECO100 <= 1
 _C3167: Overlap_MAT217_ECO102 <= 1
 _C3168: Overlap_MAT217_ECO202 <= 1
-_C3169: Room_Assignment_ECO202_24 + Room_Assignment_MAT217_24
- + Time_Assignment_ECO202_4 + Time_Assignment_MAT217_4 <= 3
-_C317: Room_Assignment_ASA238_3 + Room_Assignment_GER105_3
- + Time_Assignment_ASA238_3 + Time_Assignment_GER105_3 <= 3
+_C3169: Room_Assignment_ECO202_24.0 + Room_Assignment_MAT217_24.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C317: Room_Assignment_ASA238_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_GER105_11:00_11:50_AM <= 3
 _C3170: Overlap_MAT217_ECO300 <= 1
 _C3171: Overlap_MAT217_ECO301 <= 1
-_C3172: Room_Assignment_ECO301_3 + Room_Assignment_MAT217_3
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT217_4 <= 3
-_C3173: Room_Assignment_ECO301_5 + Room_Assignment_MAT217_5
- + Time_Assignment_ECO301_4 + Time_Assignment_MAT217_4 <= 3
+_C3172: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3173: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT217_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3174: Overlap_MAT217_ECO302 <= 1
 _C3175: Overlap_MAT217_ECO310 <= 1
-_C3176: Room_Assignment_ECO310_32 + Room_Assignment_MAT217_32
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT217_4 <= 3
-_C3177: Room_Assignment_ECO310_35 + Room_Assignment_MAT217_35
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT217_4 <= 3
-_C3178: Room_Assignment_ECO310_34 + Room_Assignment_MAT217_34
- + Time_Assignment_ECO310_4 + Time_Assignment_MAT217_4 <= 3
+_C3176: Room_Assignment_ECO310_32.0 + Room_Assignment_MAT217_32.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3177: Room_Assignment_ECO310_35.0 + Room_Assignment_MAT217_35.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3178: Room_Assignment_ECO310_34.0 + Room_Assignment_MAT217_34.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3179: Overlap_MAT217_ECO312 <= 1
-_C318: Room_Assignment_ASA238_3 + Room_Assignment_GER105_3
- + Time_Assignment_ASA238_4 + Time_Assignment_GER105_4 <= 3
+_C318: Room_Assignment_ASA238_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C3180: Overlap_MAT217_GER101 <= 1
 _C3181: Overlap_MAT217_GER103 <= 1
-_C3182: Room_Assignment_GER103_3 + Room_Assignment_MAT217_3
- + Time_Assignment_GER103_4 + Time_Assignment_MAT217_4 <= 3
-_C3183: Room_Assignment_GER103_5 + Room_Assignment_MAT217_5
- + Time_Assignment_GER103_4 + Time_Assignment_MAT217_4 <= 3
+_C3182: Room_Assignment_GER103_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3183: Room_Assignment_GER103_5.0 + Room_Assignment_MAT217_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3184: Overlap_MAT217_GER105 <= 1
-_C3185: Room_Assignment_GER105_3 + Room_Assignment_MAT217_3
- + Time_Assignment_GER105_4 + Time_Assignment_MAT217_4 <= 3
+_C3185: Room_Assignment_GER105_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3186: Overlap_MAT217_GER107 <= 1
 _C3187: Overlap_MAT217_LIN201 <= 1
 _C3188: Overlap_MAT217_LIN300 <= 1
@@ -5309,28 +6184,37 @@ _C3189: Overlap_MAT217_MAT103 <= 1
 _C319: Overlap_ASA238_GER107 <= 1
 _C3190: Overlap_MAT217_MAT104 <= 1
 _C3191: Overlap_MAT217_MAT201 <= 1
-_C3192: Room_Assignment_MAT201_3 + Room_Assignment_MAT217_3
- + Time_Assignment_MAT201_4 + Time_Assignment_MAT217_4 <= 3
-_C3193: Room_Assignment_MAT201_5 + Room_Assignment_MAT217_5
- + Time_Assignment_MAT201_4 + Time_Assignment_MAT217_4 <= 3
-_C3194: Room_Assignment_MAT201_2 + Room_Assignment_MAT217_2
- + Time_Assignment_MAT201_4 + Time_Assignment_MAT217_4 <= 3
-_C3195: Room_Assignment_MAT201_4 + Room_Assignment_MAT217_4
- + Time_Assignment_MAT201_4 + Time_Assignment_MAT217_4 <= 3
+_C3192: Room_Assignment_MAT201_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3193: Room_Assignment_MAT201_5.0 + Room_Assignment_MAT217_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3194: Room_Assignment_MAT201_2.0 + Room_Assignment_MAT217_2.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3195: Room_Assignment_MAT201_4.0 + Room_Assignment_MAT217_4.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3196: Overlap_MAT217_MAT202 <= 1
 _C3197: Overlap_MAT217_MAT203 <= 1
 _C3198: Overlap_MAT217_MAT204 <= 1
 _C3199: Overlap_MAT217_MAT215 <= 1
-_C32: Room_Assignment_AAS201_3 + Room_Assignment_ECO300_3
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO300_2 <= 3
-_C320: Room_Assignment_ASA238_75 + Room_Assignment_GER107_75
- + Time_Assignment_ASA238_3 + Time_Assignment_GER107_3 <= 3
-_C3200: Room_Assignment_MAT215_32 + Room_Assignment_MAT217_32
- + Time_Assignment_MAT215_4 + Time_Assignment_MAT217_4 <= 3
-_C3201: Room_Assignment_MAT215_35 + Room_Assignment_MAT217_35
- + Time_Assignment_MAT215_4 + Time_Assignment_MAT217_4 <= 3
-_C3202: Room_Assignment_MAT215_34 + Room_Assignment_MAT217_34
- + Time_Assignment_MAT215_4 + Time_Assignment_MAT217_4 <= 3
+_C32: Room_Assignment_AAS201_3.0 + Room_Assignment_ECO300_3
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
+_C320: Room_Assignment_ASA238_75.0 + Room_Assignment_GER107_75.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
+_C3200: Room_Assignment_MAT215_32.0 + Room_Assignment_MAT217_32.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3201: Room_Assignment_MAT215_35.0 + Room_Assignment_MAT217_35.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C3202: Room_Assignment_MAT215_34.0 + Room_Assignment_MAT217_34.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3203: Overlap_MAT217_MAT216 <= 1
 _C3204: Overlap_MAT217_MAT218 <= 1
 _C3205: Overlap_MAT217_MAT300 <= 1
@@ -5341,43 +6225,57 @@ _C3209: Overlap_MAT217_MAT377 <= 1
 _C321: Overlap_ASA238_LIN201 <= 1
 _C3210: Overlap_MAT217_MAT385 <= 1
 _C3211: Overlap_MAT217_MAT400 <= 1
-_C3212: Room_Assignment_MAT217_24 + Room_Assignment_MAT400_24
- + Time_Assignment_MAT217_4 + Time_Assignment_MAT400_4 <= 3
+_C3212: Room_Assignment_MAT217_24.0 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C3213: Overlap_MAT217_ORF245 <= 1
-_C3214: Room_Assignment_MAT217_5 + Room_Assignment_ORF245_5
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF245_4 <= 3
-_C3215: Room_Assignment_MAT217_34 + Room_Assignment_ORF245_34
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF245_4 <= 3
+_C3214: Room_Assignment_MAT217_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C3215: Room_Assignment_MAT217_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C3216: Overlap_MAT217_ORF307 <= 1
-_C3217: Room_Assignment_MAT217_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF307_4 <= 3
-_C3218: Room_Assignment_MAT217_35 + Room_Assignment_ORF307_35
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF307_4 <= 3
+_C3217: Room_Assignment_MAT217_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C3218: Room_Assignment_MAT217_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C3219: Overlap_MAT217_ORF309 <= 1
-_C322: Room_Assignment_ASA238_50 + Room_Assignment_LIN201_50
- + Time_Assignment_ASA238_1 + Time_Assignment_LIN201_1 <= 3
+_C322: Room_Assignment_ASA238_50.0 + Room_Assignment_LIN201_50.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_LIN201_9:00_9:50_AM
+ <= 3
 _C3220: Overlap_MAT217_ORF350 <= 1
 _C3221: Overlap_MAT217_ORF363 <= 1
 _C3222: Overlap_MAT217_ORF445 <= 1
-_C3223: Room_Assignment_MAT217_5 + Room_Assignment_ORF445_5
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF445_4 <= 3
-_C3224: Room_Assignment_MAT217_24 + Room_Assignment_ORF445_24
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF445_4 <= 3
+_C3223: Room_Assignment_MAT217_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C3224: Room_Assignment_MAT217_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C3225: Overlap_MAT217_PHY103 <= 1
-_C3226: Room_Assignment_MAT217_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY103_4 <= 3
+_C3226: Room_Assignment_MAT217_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
 _C3227: Overlap_MAT217_PHY104 <= 1
 _C3228: Overlap_MAT217_PHY105 <= 1
-_C3229: Room_Assignment_MAT217_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY105_4 <= 3
-_C323: Room_Assignment_ASA238_50 + Room_Assignment_LIN201_50
- + Time_Assignment_ASA238_4 + Time_Assignment_LIN201_4 <= 3
-_C3230: Room_Assignment_MAT217_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY105_4 <= 3
-_C3231: Room_Assignment_MAT217_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY105_4 <= 3
-_C3232: Room_Assignment_MAT217_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY105_4 <= 3
+_C3229: Room_Assignment_MAT217_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C323: Room_Assignment_ASA238_50.0 + Room_Assignment_LIN201_50.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C3230: Room_Assignment_MAT217_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C3231: Room_Assignment_MAT217_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C3232: Room_Assignment_MAT217_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C3233: Overlap_MAT217_PHY106 <= 1
 _C3234: Overlap_MAT217_PHY208 <= 1
 _C3235: Overlap_MAT217_REL100 <= 1
@@ -5389,8 +6287,9 @@ _C324: Overlap_ASA238_LIN300 <= 1
 _C3240: Overlap_MAT218_ASA203 <= 1
 _C3241: Overlap_MAT218_ASA238 <= 1
 _C3242: Overlap_MAT218_COS126 <= 1
-_C3243: Room_Assignment_COS126_7 + Room_Assignment_MAT218_7
- + Time_Assignment_COS126_1 + Time_Assignment_MAT218_1 <= 3
+_C3243: Room_Assignment_COS126_7.0 + Room_Assignment_MAT218_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
 _C3244: Overlap_MAT218_COS226 <= 1
 _C3245: Overlap_MAT218_COS217 <= 1
 _C3246: Overlap_MAT218_COS333 <= 1
@@ -5400,19 +6299,23 @@ _C3249: Overlap_MAT218_COS432 <= 1
 _C325: Overlap_ASA238_MAT103 <= 1
 _C3250: Overlap_MAT218_COS484 <= 1
 _C3251: Overlap_MAT218_COS522 <= 1
-_C3252: Room_Assignment_COS522_24 + Room_Assignment_MAT218_24
- + Time_Assignment_COS522_1 + Time_Assignment_MAT218_1 <= 3
+_C3252: Room_Assignment_COS522_24.0 + Room_Assignment_MAT218_24.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
 _C3253: Overlap_MAT218_COS528 <= 1
 _C3254: Overlap_MAT218_ECO100 <= 1
 _C3255: Overlap_MAT218_ECO102 <= 1
-_C3256: Room_Assignment_ECO102_46 + Room_Assignment_MAT218_46
- + Time_Assignment_ECO102_1 + Time_Assignment_MAT218_1 <= 3
-_C3257: Room_Assignment_ECO102_35 + Room_Assignment_MAT218_35
- + Time_Assignment_ECO102_1 + Time_Assignment_MAT218_1 <= 3
+_C3256: Room_Assignment_ECO102_46.0 + Room_Assignment_MAT218_46.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
+_C3257: Room_Assignment_ECO102_35.0 + Room_Assignment_MAT218_35.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
 _C3258: Overlap_MAT218_ECO202 <= 1
 _C3259: Overlap_MAT218_ECO300 <= 1
-_C326: Room_Assignment_ASA238_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT103_2 <= 3
+_C326: Room_Assignment_ASA238_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT103_10:00_10:50_AM <= 3
 _C3260: Overlap_MAT218_ECO301 <= 1
 _C3261: Overlap_MAT218_ECO302 <= 1
 _C3262: Overlap_MAT218_ECO310 <= 1
@@ -5423,33 +6326,39 @@ _C3266: Overlap_MAT218_GER105 <= 1
 _C3267: Overlap_MAT218_GER107 <= 1
 _C3268: Overlap_MAT218_LIN201 <= 1
 _C3269: Overlap_MAT218_LIN300 <= 1
-_C327: Room_Assignment_ASA238_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ASA238_3 + Time_Assignment_MAT103_3 <= 3
+_C327: Room_Assignment_ASA238_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
 _C3270: Overlap_MAT218_MAT103 <= 1
 _C3271: Overlap_MAT218_MAT104 <= 1
 _C3272: Overlap_MAT218_MAT201 <= 1
 _C3273: Overlap_MAT218_MAT202 <= 1
-_C3274: Room_Assignment_MAT202_7 + Room_Assignment_MAT218_7
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT218_1 <= 3
+_C3274: Room_Assignment_MAT202_7.0 + Room_Assignment_MAT218_7.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
 _C3275: Overlap_MAT218_MAT203 <= 1
-_C3276: Room_Assignment_MAT203_24 + Room_Assignment_MAT218_24
- + Time_Assignment_MAT203_1 + Time_Assignment_MAT218_1 <= 3
+_C3276: Room_Assignment_MAT203_24.0 + Room_Assignment_MAT218_24.0
+ + Time_Assignment_MAT203_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
 _C3277: Overlap_MAT218_MAT204 <= 1
 _C3278: Overlap_MAT218_MAT215 <= 1
 _C3279: Overlap_MAT218_MAT216 <= 1
-_C328: Room_Assignment_ASA238_23 + Room_Assignment_MAT103_23
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT103_5 <= 3
+_C328: Room_Assignment_ASA238_23.0 + Room_Assignment_MAT103_23.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT103_2:30_3:20_PM
+ <= 3
 _C3280: Overlap_MAT218_MAT217 <= 1
 _C3281: Overlap_MAT218_MAT300 <= 1
 _C3282: Overlap_MAT218_MAT325 <= 1
 _C3283: Overlap_MAT218_MAT335 <= 1
-_C3284: Room_Assignment_MAT218_7 + Room_Assignment_MAT335_7
- + Time_Assignment_MAT218_1 + Time_Assignment_MAT335_1 <= 3
+_C3284: Room_Assignment_MAT218_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_MAT218_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C3285: Overlap_MAT218_MAT370 <= 1
 _C3286: Overlap_MAT218_MAT377 <= 1
 _C3287: Overlap_MAT218_MAT385 <= 1
-_C3288: Room_Assignment_MAT218_7 + Room_Assignment_MAT385_7
- + Time_Assignment_MAT218_1 + Time_Assignment_MAT385_1 <= 3
+_C3288: Room_Assignment_MAT218_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_MAT218_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C3289: Overlap_MAT218_MAT400 <= 1
 _C329: Overlap_ASA238_MAT104 <= 1
 _C3290: Overlap_MAT218_ORF245 <= 1
@@ -5459,15 +6368,18 @@ _C3293: Overlap_MAT218_ORF350 <= 1
 _C3294: Overlap_MAT218_ORF363 <= 1
 _C3295: Overlap_MAT218_ORF445 <= 1
 _C3296: Overlap_MAT218_PHY103 <= 1
-_C3297: Room_Assignment_MAT218_74 + Room_Assignment_PHY103_74
- + Time_Assignment_MAT218_1 + Time_Assignment_PHY103_1 <= 3
+_C3297: Room_Assignment_MAT218_74.0 + Room_Assignment_PHY103_74.0
+ + Time_Assignment_MAT218_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
 _C3298: Overlap_MAT218_PHY104 <= 1
 _C3299: Overlap_MAT218_PHY105 <= 1
-_C33: Room_Assignment_AAS201_5 + Room_Assignment_ECO300_5
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO300_2 <= 3
+_C33: Room_Assignment_AAS201_5.0 + Room_Assignment_ECO300_5
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO300_10:00_10:50_AM <= 3
 _C330: Overlap_ASA238_MAT201 <= 1
-_C3300: Room_Assignment_MAT218_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT218_1 + Time_Assignment_PHY105_1 <= 3
+_C3300: Room_Assignment_MAT218_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT218_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C3301: Overlap_MAT218_PHY106 <= 1
 _C3302: Overlap_MAT218_PHY208 <= 1
 _C3303: Overlap_MAT218_REL100 <= 1
@@ -5476,25 +6388,31 @@ _C3305: Overlap_MAT218_SML201 <= 1
 _C3306: Overlap_MAT218_URB201 <= 1
 _C3307: Overlap_MAT300_AAS201 <= 1
 _C3308: Overlap_MAT300_ASA203 <= 1
-_C3309: Room_Assignment_ASA203_1 + Room_Assignment_MAT300_1
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT300_5 <= 3
-_C331: Room_Assignment_ASA238_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT201_4 <= 3
-_C3310: Room_Assignment_ASA203_3 + Room_Assignment_MAT300_3
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT300_5 <= 3
+_C3309: Room_Assignment_ASA203_1.0 + Room_Assignment_MAT300_1.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C331: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C3310: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT300_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C3311: Overlap_MAT300_ASA238 <= 1
-_C3312: Room_Assignment_ASA238_2 + Room_Assignment_MAT300_2
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT300_5 <= 3
-_C3313: Room_Assignment_ASA238_3 + Room_Assignment_MAT300_3
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT300_5 <= 3
+_C3312: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT300_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C3313: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT300_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C3314: Overlap_MAT300_COS126 <= 1
 _C3315: Overlap_MAT300_COS226 <= 1
 _C3316: Overlap_MAT300_COS217 <= 1
 _C3317: Overlap_MAT300_COS333 <= 1
 _C3318: Overlap_MAT300_COS342 <= 1
 _C3319: Overlap_MAT300_COS423 <= 1
-_C332: Room_Assignment_ASA238_2 + Room_Assignment_MAT201_2
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT201_4 <= 3
+_C332: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT201_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C3320: Overlap_MAT300_COS432 <= 1
 _C3321: Overlap_MAT300_COS484 <= 1
 _C3322: Overlap_MAT300_COS522 <= 1
@@ -5504,10 +6422,12 @@ _C3325: Overlap_MAT300_ECO102 <= 1
 _C3326: Overlap_MAT300_ECO202 <= 1
 _C3327: Overlap_MAT300_ECO300 <= 1
 _C3328: Overlap_MAT300_ECO301 <= 1
-_C3329: Room_Assignment_ECO301_3 + Room_Assignment_MAT300_3
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT300_5 <= 3
-_C333: Room_Assignment_ASA238_3 + Room_Assignment_MAT201_3
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT201_5 <= 3
+_C3329: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT300_3.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C333: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C3330: Overlap_MAT300_ECO302 <= 1
 _C3331: Overlap_MAT300_ECO310 <= 1
 _C3332: Overlap_MAT300_ECO312 <= 1
@@ -5518,20 +6438,26 @@ _C3336: Overlap_MAT300_GER107 <= 1
 _C3337: Overlap_MAT300_LIN201 <= 1
 _C3338: Overlap_MAT300_LIN300 <= 1
 _C3339: Overlap_MAT300_MAT103 <= 1
-_C334: Room_Assignment_ASA238_2 + Room_Assignment_MAT201_2
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT201_5 <= 3
+_C334: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT201_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT201_2:30_3:20_PM
+ <= 3
 _C3340: Overlap_MAT300_MAT104 <= 1
-_C3341: Room_Assignment_MAT104_4 + Room_Assignment_MAT300_4
- + Time_Assignment_MAT104_5 + Time_Assignment_MAT300_5 <= 3
+_C3341: Room_Assignment_MAT104_4.0 + Room_Assignment_MAT300_4.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C3342: Overlap_MAT300_MAT201 <= 1
-_C3343: Room_Assignment_MAT201_1 + Room_Assignment_MAT300_1
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT300_5 <= 3
-_C3344: Room_Assignment_MAT201_2 + Room_Assignment_MAT300_2
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT300_5 <= 3
-_C3345: Room_Assignment_MAT201_3 + Room_Assignment_MAT300_3
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT300_5 <= 3
-_C3346: Room_Assignment_MAT201_4 + Room_Assignment_MAT300_4
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT300_5 <= 3
+_C3343: Room_Assignment_MAT201_1.0 + Room_Assignment_MAT300_1.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C3344: Room_Assignment_MAT201_2.0 + Room_Assignment_MAT300_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C3345: Room_Assignment_MAT201_3.0 + Room_Assignment_MAT300_3.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C3346: Room_Assignment_MAT201_4.0 + Room_Assignment_MAT300_4.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C3347: Overlap_MAT300_MAT202 <= 1
 _C3348: Overlap_MAT300_MAT203 <= 1
 _C3349: Overlap_MAT300_MAT204 <= 1
@@ -5542,16 +6468,20 @@ _C3352: Overlap_MAT300_MAT217 <= 1
 _C3353: Overlap_MAT300_MAT218 <= 1
 _C3354: Overlap_MAT300_MAT325 <= 1
 _C3355: Overlap_MAT300_MAT335 <= 1
-_C3356: Room_Assignment_MAT300_2 + Room_Assignment_MAT335_2
- + Time_Assignment_MAT300_5 + Time_Assignment_MAT335_5 <= 3
-_C3357: Room_Assignment_MAT300_3 + Room_Assignment_MAT335_3
- + Time_Assignment_MAT300_5 + Time_Assignment_MAT335_5 <= 3
-_C3358: Room_Assignment_MAT300_4 + Room_Assignment_MAT335_4
- + Time_Assignment_MAT300_5 + Time_Assignment_MAT335_5 <= 3
+_C3356: Room_Assignment_MAT300_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3357: Room_Assignment_MAT300_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3358: Room_Assignment_MAT300_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3359: Overlap_MAT300_MAT370 <= 1
 _C336: Overlap_ASA238_MAT203 <= 1
-_C3360: Room_Assignment_MAT300_2 + Room_Assignment_MAT370_2
- + Time_Assignment_MAT300_5 + Time_Assignment_MAT370_5 <= 3
+_C3360: Room_Assignment_MAT300_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3361: Overlap_MAT300_MAT377 <= 1
 _C3362: Overlap_MAT300_MAT385 <= 1
 _C3363: Overlap_MAT300_MAT400 <= 1
@@ -5561,23 +6491,30 @@ _C3366: Overlap_MAT300_ORF309 <= 1
 _C3367: Overlap_MAT300_ORF350 <= 1
 _C3368: Overlap_MAT300_ORF363 <= 1
 _C3369: Overlap_MAT300_ORF445 <= 1
-_C337: Room_Assignment_ASA238_23 + Room_Assignment_MAT203_23
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT203_1 <= 3
+_C337: Room_Assignment_ASA238_23.0 + Room_Assignment_MAT203_23.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT203_9:00_9:50_AM
+ <= 3
 _C3370: Overlap_MAT300_PHY103 <= 1
-_C3371: Room_Assignment_MAT300_1 + Room_Assignment_PHY103_1
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY103_5 <= 3
-_C3372: Room_Assignment_MAT300_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY103_5 <= 3
+_C3371: Room_Assignment_MAT300_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
+_C3372: Room_Assignment_MAT300_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C3373: Overlap_MAT300_PHY104 <= 1
 _C3374: Overlap_MAT300_PHY105 <= 1
-_C3375: Room_Assignment_MAT300_1 + Room_Assignment_PHY105_1
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY105_5 <= 3
-_C3376: Room_Assignment_MAT300_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY105_5 <= 3
-_C3377: Room_Assignment_MAT300_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY105_5 <= 3
-_C3378: Room_Assignment_MAT300_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY105_5 <= 3
+_C3375: Room_Assignment_MAT300_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3376: Room_Assignment_MAT300_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3377: Room_Assignment_MAT300_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3378: Room_Assignment_MAT300_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C3379: Overlap_MAT300_PHY106 <= 1
 _C338: Overlap_ASA238_MAT204 <= 1
 _C3380: Overlap_MAT300_PHY208 <= 1
@@ -5589,8 +6526,9 @@ _C3385: Overlap_MAT325_AAS201 <= 1
 _C3386: Overlap_MAT325_ASA203 <= 1
 _C3387: Overlap_MAT325_ASA238 <= 1
 _C3388: Overlap_MAT325_COS126 <= 1
-_C3389: Room_Assignment_COS126_8 + Room_Assignment_MAT325_8
- + Time_Assignment_COS126_1 + Time_Assignment_MAT325_1 <= 3
+_C3389: Room_Assignment_COS126_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C339: Overlap_ASA238_MAT215 <= 1
 _C3390: Overlap_MAT325_COS226 <= 1
 _C3391: Overlap_MAT325_COS217 <= 1
@@ -5599,15 +6537,18 @@ _C3393: Overlap_MAT325_COS342 <= 1
 _C3394: Overlap_MAT325_COS423 <= 1
 _C3395: Overlap_MAT325_COS432 <= 1
 _C3396: Overlap_MAT325_COS484 <= 1
-_C3397: Room_Assignment_COS484_10 + Room_Assignment_MAT325_10
- + Time_Assignment_COS484_1 + Time_Assignment_MAT325_1 <= 3
+_C3397: Room_Assignment_COS484_10.0 + Room_Assignment_MAT325_10.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C3398: Overlap_MAT325_COS522 <= 1
-_C3399: Room_Assignment_COS522_8 + Room_Assignment_MAT325_8
- + Time_Assignment_COS522_1 + Time_Assignment_MAT325_1 <= 3
+_C3399: Room_Assignment_COS522_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C34: Overlap_AAS201_ECO301 <= 1
 _C340: Overlap_ASA238_MAT216 <= 1
-_C3400: Room_Assignment_COS522_8 + Room_Assignment_MAT325_8
- + Time_Assignment_COS522_5 + Time_Assignment_MAT325_5 <= 3
+_C3400: Room_Assignment_COS522_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT325_2:30_3:20_PM
+ <= 3
 _C3401: Overlap_MAT325_COS528 <= 1
 _C3402: Overlap_MAT325_ECO100 <= 1
 _C3403: Overlap_MAT325_ECO102 <= 1
@@ -5615,8 +6556,9 @@ _C3404: Overlap_MAT325_ECO202 <= 1
 _C3405: Overlap_MAT325_ECO300 <= 1
 _C3406: Overlap_MAT325_ECO301 <= 1
 _C3407: Overlap_MAT325_ECO302 <= 1
-_C3408: Room_Assignment_ECO302_61 + Room_Assignment_MAT325_61
- + Time_Assignment_ECO302_1 + Time_Assignment_MAT325_1 <= 3
+_C3408: Room_Assignment_ECO302_61.0 + Room_Assignment_MAT325_61.0
+ + Time_Assignment_ECO302_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C3409: Overlap_MAT325_ECO310 <= 1
 _C341: Overlap_ASA238_MAT217 <= 1
 _C3410: Overlap_MAT325_ECO312 <= 1
@@ -5625,39 +6567,49 @@ _C3412: Overlap_MAT325_GER103 <= 1
 _C3413: Overlap_MAT325_GER105 <= 1
 _C3414: Overlap_MAT325_GER107 <= 1
 _C3415: Overlap_MAT325_LIN201 <= 1
-_C3416: Room_Assignment_LIN201_57 + Room_Assignment_MAT325_57
- + Time_Assignment_LIN201_1 + Time_Assignment_MAT325_1 <= 3
+_C3416: Room_Assignment_LIN201_57.0 + Room_Assignment_MAT325_57.0
+ + Time_Assignment_LIN201_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C3417: Overlap_MAT325_LIN300 <= 1
 _C3418: Overlap_MAT325_MAT103 <= 1
 _C3419: Overlap_MAT325_MAT104 <= 1
-_C342: Room_Assignment_ASA238_3 + Room_Assignment_MAT217_3
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT217_4 <= 3
+_C342: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3420: Overlap_MAT325_MAT201 <= 1
-_C3421: Room_Assignment_MAT201_8 + Room_Assignment_MAT325_8
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT325_5 <= 3
+_C3421: Room_Assignment_MAT201_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT325_2:30_3:20_PM
+ <= 3
 _C3422: Overlap_MAT325_MAT202 <= 1
 _C3423: Overlap_MAT325_MAT203 <= 1
 _C3424: Overlap_MAT325_MAT204 <= 1
-_C3425: Room_Assignment_MAT204_8 + Room_Assignment_MAT325_8
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT325_1 <= 3
-_C3426: Room_Assignment_MAT204_10 + Room_Assignment_MAT325_10
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT325_1 <= 3
+_C3425: Room_Assignment_MAT204_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
+_C3426: Room_Assignment_MAT204_10.0 + Room_Assignment_MAT325_10.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C3427: Overlap_MAT325_MAT215 <= 1
 _C3428: Overlap_MAT325_MAT216 <= 1
 _C3429: Overlap_MAT325_MAT217 <= 1
-_C343: Room_Assignment_ASA238_2 + Room_Assignment_MAT217_2
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT217_4 <= 3
+_C343: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT217_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C3430: Overlap_MAT325_MAT218 <= 1
 _C3431: Overlap_MAT325_MAT300 <= 1
 _C3432: Overlap_MAT325_MAT335 <= 1
-_C3433: Room_Assignment_MAT325_8 + Room_Assignment_MAT335_8
- + Time_Assignment_MAT325_1 + Time_Assignment_MAT335_1 <= 3
-_C3434: Room_Assignment_MAT325_10 + Room_Assignment_MAT335_10
- + Time_Assignment_MAT325_1 + Time_Assignment_MAT335_1 <= 3
-_C3435: Room_Assignment_MAT325_8 + Room_Assignment_MAT335_8
- + Time_Assignment_MAT325_5 + Time_Assignment_MAT335_5 <= 3
-_C3436: Room_Assignment_MAT325_10 + Room_Assignment_MAT335_10
- + Time_Assignment_MAT325_5 + Time_Assignment_MAT335_5 <= 3
+_C3433: Room_Assignment_MAT325_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3434: Room_Assignment_MAT325_10.0 + Room_Assignment_MAT335_10.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3435: Room_Assignment_MAT325_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3436: Room_Assignment_MAT325_10.0 + Room_Assignment_MAT335_10.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3437: Overlap_MAT325_MAT370 <= 1
 _C3438: Overlap_MAT325_MAT377 <= 1
 _C3439: Overlap_MAT325_MAT385 <= 1
@@ -5665,81 +6617,109 @@ _C344: Overlap_ASA238_MAT218 <= 1
 _C3440: Overlap_MAT325_MAT400 <= 1
 _C3441: Overlap_MAT325_ORF245 <= 1
 _C3442: Overlap_MAT325_ORF307 <= 1
-_C3443: Room_Assignment_MAT325_10 + Room_Assignment_ORF307_10
- + Time_Assignment_MAT325_5 + Time_Assignment_ORF307_5 <= 3
+_C3443: Room_Assignment_MAT325_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C3444: Overlap_MAT325_ORF309 <= 1
 _C3445: Overlap_MAT325_ORF350 <= 1
-_C3446: Room_Assignment_MAT325_59 + Room_Assignment_ORF350_59
- + Time_Assignment_MAT325_5 + Time_Assignment_ORF350_5 <= 3
+_C3446: Room_Assignment_MAT325_59.0 + Room_Assignment_ORF350_59.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C3447: Overlap_MAT325_ORF363 <= 1
 _C3448: Overlap_MAT325_ORF445 <= 1
 _C3449: Overlap_MAT325_PHY103 <= 1
 _C345: Overlap_ASA238_MAT300 <= 1
 _C3450: Overlap_MAT325_PHY104 <= 1
-_C3451: Room_Assignment_MAT325_58 + Room_Assignment_PHY104_58
- + Time_Assignment_MAT325_1 + Time_Assignment_PHY104_1 <= 3
-_C3452: Room_Assignment_MAT325_58 + Room_Assignment_PHY104_58
- + Time_Assignment_MAT325_5 + Time_Assignment_PHY104_5 <= 3
+_C3451: Room_Assignment_MAT325_58.0 + Room_Assignment_PHY104_58.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_PHY104_9:00_9:50_AM
+ <= 3
+_C3452: Room_Assignment_MAT325_58.0 + Room_Assignment_PHY104_58.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_PHY104_2:30_3:20_PM
+ <= 3
 _C3453: Overlap_MAT325_PHY105 <= 1
-_C3454: Room_Assignment_MAT325_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT325_1 + Time_Assignment_PHY105_1 <= 3
-_C3455: Room_Assignment_MAT325_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT325_1 + Time_Assignment_PHY105_1 <= 3
-_C3456: Room_Assignment_MAT325_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT325_5 + Time_Assignment_PHY105_5 <= 3
-_C3457: Room_Assignment_MAT325_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT325_5 + Time_Assignment_PHY105_5 <= 3
+_C3454: Room_Assignment_MAT325_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3455: Room_Assignment_MAT325_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3456: Room_Assignment_MAT325_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3457: Room_Assignment_MAT325_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C3458: Overlap_MAT325_PHY106 <= 1
 _C3459: Overlap_MAT325_PHY208 <= 1
-_C346: Room_Assignment_ASA238_3 + Room_Assignment_MAT300_3
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT300_5 <= 3
-_C3460: Room_Assignment_MAT325_58 + Room_Assignment_PHY208_58
- + Time_Assignment_MAT325_5 + Time_Assignment_PHY208_5 <= 3
+_C346: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT300_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
+_C3460: Room_Assignment_MAT325_58.0 + Room_Assignment_PHY208_58.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
 _C3461: Overlap_MAT325_REL100 <= 1
 _C3462: Overlap_MAT325_REL232 <= 1
 _C3463: Overlap_MAT325_SML201 <= 1
 _C3464: Overlap_MAT325_URB201 <= 1
 _C3465: Overlap_MAT335_AAS201 <= 1
-_C3466: Room_Assignment_AAS201_2 + Room_Assignment_MAT335_2
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT335_1 <= 3
-_C3467: Room_Assignment_AAS201_3 + Room_Assignment_MAT335_3
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT335_1 <= 3
-_C3468: Room_Assignment_AAS201_4 + Room_Assignment_MAT335_4
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT335_1 <= 3
-_C3469: Room_Assignment_AAS201_5 + Room_Assignment_MAT335_5
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT335_1 <= 3
-_C347: Room_Assignment_ASA238_2 + Room_Assignment_MAT300_2
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT300_5 <= 3
+_C3466: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3467: Room_Assignment_AAS201_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3468: Room_Assignment_AAS201_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3469: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C347: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT300_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT300_2:30_3:20_PM
+ <= 3
 _C3470: Overlap_MAT335_ASA203 <= 1
-_C3471: Room_Assignment_ASA203_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT335_5 <= 3
-_C3472: Room_Assignment_ASA203_5 + Room_Assignment_MAT335_5
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT335_5 <= 3
+_C3471: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3472: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3473: Overlap_MAT335_ASA238 <= 1
-_C3474: Room_Assignment_ASA238_2 + Room_Assignment_MAT335_2
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT335_1 <= 3
-_C3475: Room_Assignment_ASA238_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT335_1 <= 3
-_C3476: Room_Assignment_ASA238_2 + Room_Assignment_MAT335_2
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT335_5 <= 3
-_C3477: Room_Assignment_ASA238_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT335_5 <= 3
+_C3474: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3475: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3476: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3477: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3478: Overlap_MAT335_COS126 <= 1
-_C3479: Room_Assignment_COS126_2 + Room_Assignment_MAT335_2
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
+_C3479: Room_Assignment_COS126_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C348: Overlap_ASA238_MAT325 <= 1
-_C3480: Room_Assignment_COS126_3 + Room_Assignment_MAT335_3
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
-_C3481: Room_Assignment_COS126_4 + Room_Assignment_MAT335_4
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
-_C3482: Room_Assignment_COS126_5 + Room_Assignment_MAT335_5
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
-_C3483: Room_Assignment_COS126_6 + Room_Assignment_MAT335_6
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
-_C3484: Room_Assignment_COS126_7 + Room_Assignment_MAT335_7
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
-_C3485: Room_Assignment_COS126_8 + Room_Assignment_MAT335_8
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
+_C3480: Room_Assignment_COS126_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3481: Room_Assignment_COS126_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3482: Room_Assignment_COS126_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3483: Room_Assignment_COS126_6.0 + Room_Assignment_MAT335_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3484: Room_Assignment_COS126_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3485: Room_Assignment_COS126_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C3486: Overlap_MAT335_COS226 <= 1
 _C3487: Overlap_MAT335_COS217 <= 1
 _C3488: Overlap_MAT335_COS333 <= 1
@@ -5748,41 +6728,55 @@ _C349: Overlap_ASA238_MAT335 <= 1
 _C3490: Overlap_MAT335_COS423 <= 1
 _C3491: Overlap_MAT335_COS432 <= 1
 _C3492: Overlap_MAT335_COS484 <= 1
-_C3493: Room_Assignment_COS484_3 + Room_Assignment_MAT335_3
- + Time_Assignment_COS484_1 + Time_Assignment_MAT335_1 <= 3
-_C3494: Room_Assignment_COS484_5 + Room_Assignment_MAT335_5
- + Time_Assignment_COS484_1 + Time_Assignment_MAT335_1 <= 3
-_C3495: Room_Assignment_COS484_10 + Room_Assignment_MAT335_10
- + Time_Assignment_COS484_1 + Time_Assignment_MAT335_1 <= 3
+_C3493: Room_Assignment_COS484_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3494: Room_Assignment_COS484_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3495: Room_Assignment_COS484_10.0 + Room_Assignment_MAT335_10.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C3496: Overlap_MAT335_COS522 <= 1
-_C3497: Room_Assignment_COS522_8 + Room_Assignment_MAT335_8
- + Time_Assignment_COS522_1 + Time_Assignment_MAT335_1 <= 3
-_C3498: Room_Assignment_COS522_8 + Room_Assignment_MAT335_8
- + Time_Assignment_COS522_5 + Time_Assignment_MAT335_5 <= 3
+_C3497: Room_Assignment_COS522_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3498: Room_Assignment_COS522_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3499: Overlap_MAT335_COS528 <= 1
-_C35: Room_Assignment_AAS201_3 + Room_Assignment_ECO301_3
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO301_2 <= 3
-_C350: Room_Assignment_ASA238_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT335_1 <= 3
-_C3500: Room_Assignment_COS528_7 + Room_Assignment_MAT335_7
- + Time_Assignment_COS528_5 + Time_Assignment_MAT335_5 <= 3
+_C35: Room_Assignment_AAS201_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
+_C350: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3500: Room_Assignment_COS528_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3501: Overlap_MAT335_ECO100 <= 1
-_C3502: Room_Assignment_ECO100_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT335_1 <= 3
-_C3503: Room_Assignment_ECO100_6 + Room_Assignment_MAT335_6
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT335_1 <= 3
+_C3502: Room_Assignment_ECO100_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3503: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT335_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C3504: Overlap_MAT335_ECO102 <= 1
 _C3505: Overlap_MAT335_ECO202 <= 1
 _C3506: Overlap_MAT335_ECO300 <= 1
 _C3507: Overlap_MAT335_ECO301 <= 1
-_C3508: Room_Assignment_ECO301_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT335_5 <= 3
-_C3509: Room_Assignment_ECO301_5 + Room_Assignment_MAT335_5
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT335_5 <= 3
-_C351: Room_Assignment_ASA238_2 + Room_Assignment_MAT335_2
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT335_1 <= 3
-_C3510: Room_Assignment_ECO301_7 + Room_Assignment_MAT335_7
- + Time_Assignment_ECO301_5 + Time_Assignment_MAT335_5 <= 3
+_C3508: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3509: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C351: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3510: Room_Assignment_ECO301_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3511: Overlap_MAT335_ECO302 <= 1
 _C3512: Overlap_MAT335_ECO310 <= 1
 _C3513: Overlap_MAT335_ECO312 <= 1
@@ -5792,382 +6786,511 @@ _C3516: Overlap_MAT335_GER105 <= 1
 _C3517: Overlap_MAT335_GER107 <= 1
 _C3518: Overlap_MAT335_LIN201 <= 1
 _C3519: Overlap_MAT335_LIN300 <= 1
-_C352: Room_Assignment_ASA238_3 + Room_Assignment_MAT335_3
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT335_5 <= 3
+_C352: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3520: Overlap_MAT335_MAT103 <= 1
 _C3521: Overlap_MAT335_MAT104 <= 1
-_C3522: Room_Assignment_MAT104_4 + Room_Assignment_MAT335_4
- + Time_Assignment_MAT104_5 + Time_Assignment_MAT335_5 <= 3
+_C3522: Room_Assignment_MAT104_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3523: Overlap_MAT335_MAT201 <= 1
-_C3524: Room_Assignment_MAT201_2 + Room_Assignment_MAT335_2
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C3525: Room_Assignment_MAT201_3 + Room_Assignment_MAT335_3
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C3526: Room_Assignment_MAT201_4 + Room_Assignment_MAT335_4
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C3527: Room_Assignment_MAT201_5 + Room_Assignment_MAT335_5
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C3528: Room_Assignment_MAT201_6 + Room_Assignment_MAT335_6
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C3529: Room_Assignment_MAT201_7 + Room_Assignment_MAT335_7
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
-_C353: Room_Assignment_ASA238_2 + Room_Assignment_MAT335_2
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT335_5 <= 3
-_C3530: Room_Assignment_MAT201_8 + Room_Assignment_MAT335_8
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT335_5 <= 3
+_C3524: Room_Assignment_MAT201_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3525: Room_Assignment_MAT201_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3526: Room_Assignment_MAT201_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3527: Room_Assignment_MAT201_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3528: Room_Assignment_MAT201_6.0 + Room_Assignment_MAT335_6.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3529: Room_Assignment_MAT201_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C353: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3530: Room_Assignment_MAT201_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3531: Overlap_MAT335_MAT202 <= 1
-_C3532: Room_Assignment_MAT202_5 + Room_Assignment_MAT335_5
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT335_1 <= 3
-_C3533: Room_Assignment_MAT202_6 + Room_Assignment_MAT335_6
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT335_1 <= 3
-_C3534: Room_Assignment_MAT202_7 + Room_Assignment_MAT335_7
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT335_1 <= 3
+_C3532: Room_Assignment_MAT202_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3533: Room_Assignment_MAT202_6.0 + Room_Assignment_MAT335_6.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3534: Room_Assignment_MAT202_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C3535: Overlap_MAT335_MAT203 <= 1
 _C3536: Overlap_MAT335_MAT204 <= 1
-_C3537: Room_Assignment_MAT204_8 + Room_Assignment_MAT335_8
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT335_1 <= 3
-_C3538: Room_Assignment_MAT204_10 + Room_Assignment_MAT335_10
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT335_1 <= 3
+_C3537: Room_Assignment_MAT204_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3538: Room_Assignment_MAT204_10.0 + Room_Assignment_MAT335_10.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C3539: Overlap_MAT335_MAT215 <= 1
 _C354: Overlap_ASA238_MAT370 <= 1
 _C3540: Overlap_MAT335_MAT216 <= 1
 _C3541: Overlap_MAT335_MAT217 <= 1
 _C3542: Overlap_MAT335_MAT218 <= 1
-_C3543: Room_Assignment_MAT218_7 + Room_Assignment_MAT335_7
- + Time_Assignment_MAT218_1 + Time_Assignment_MAT335_1 <= 3
+_C3543: Room_Assignment_MAT218_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_MAT218_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C3544: Overlap_MAT335_MAT300 <= 1
-_C3545: Room_Assignment_MAT300_2 + Room_Assignment_MAT335_2
- + Time_Assignment_MAT300_5 + Time_Assignment_MAT335_5 <= 3
-_C3546: Room_Assignment_MAT300_3 + Room_Assignment_MAT335_3
- + Time_Assignment_MAT300_5 + Time_Assignment_MAT335_5 <= 3
-_C3547: Room_Assignment_MAT300_4 + Room_Assignment_MAT335_4
- + Time_Assignment_MAT300_5 + Time_Assignment_MAT335_5 <= 3
+_C3545: Room_Assignment_MAT300_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3546: Room_Assignment_MAT300_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3547: Room_Assignment_MAT300_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3548: Overlap_MAT335_MAT325 <= 1
-_C3549: Room_Assignment_MAT325_8 + Room_Assignment_MAT335_8
- + Time_Assignment_MAT325_1 + Time_Assignment_MAT335_1 <= 3
-_C355: Room_Assignment_ASA238_75 + Room_Assignment_MAT370_75
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT370_1 <= 3
-_C3550: Room_Assignment_MAT325_10 + Room_Assignment_MAT335_10
- + Time_Assignment_MAT325_1 + Time_Assignment_MAT335_1 <= 3
-_C3551: Room_Assignment_MAT325_8 + Room_Assignment_MAT335_8
- + Time_Assignment_MAT325_5 + Time_Assignment_MAT335_5 <= 3
-_C3552: Room_Assignment_MAT325_10 + Room_Assignment_MAT335_10
- + Time_Assignment_MAT325_5 + Time_Assignment_MAT335_5 <= 3
+_C3549: Room_Assignment_MAT325_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C355: Room_Assignment_ASA238_75.0 + Room_Assignment_MAT370_75.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
+_C3550: Room_Assignment_MAT325_10.0 + Room_Assignment_MAT335_10.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C3551: Room_Assignment_MAT325_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
+_C3552: Room_Assignment_MAT325_10.0 + Room_Assignment_MAT335_10.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_MAT335_2:30_3:20_PM
+ <= 3
 _C3553: Overlap_MAT335_MAT370 <= 1
-_C3554: Room_Assignment_MAT335_2 + Room_Assignment_MAT370_2
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT370_1 <= 3
-_C3555: Room_Assignment_MAT335_2 + Room_Assignment_MAT370_2
- + Time_Assignment_MAT335_5 + Time_Assignment_MAT370_5 <= 3
+_C3554: Room_Assignment_MAT335_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
+_C3555: Room_Assignment_MAT335_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3556: Overlap_MAT335_MAT377 <= 1
-_C3557: Room_Assignment_MAT335_2 + Room_Assignment_MAT377_2
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT377_1 <= 3
-_C3558: Room_Assignment_MAT335_4 + Room_Assignment_MAT377_4
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT377_1 <= 3
-_C3559: Room_Assignment_MAT335_5 + Room_Assignment_MAT377_5
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT377_1 <= 3
-_C356: Room_Assignment_ASA238_2 + Room_Assignment_MAT370_2
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT370_1 <= 3
-_C3560: Room_Assignment_MAT335_6 + Room_Assignment_MAT377_6
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT377_1 <= 3
+_C3557: Room_Assignment_MAT335_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3558: Room_Assignment_MAT335_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3559: Room_Assignment_MAT335_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C356: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
+_C3560: Room_Assignment_MAT335_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3561: Overlap_MAT335_MAT385 <= 1
-_C3562: Room_Assignment_MAT335_2 + Room_Assignment_MAT385_2
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
-_C3563: Room_Assignment_MAT335_3 + Room_Assignment_MAT385_3
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
-_C3564: Room_Assignment_MAT335_5 + Room_Assignment_MAT385_5
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
-_C3565: Room_Assignment_MAT335_6 + Room_Assignment_MAT385_6
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
-_C3566: Room_Assignment_MAT335_7 + Room_Assignment_MAT385_7
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
+_C3562: Room_Assignment_MAT335_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3563: Room_Assignment_MAT335_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3564: Room_Assignment_MAT335_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3565: Room_Assignment_MAT335_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3566: Room_Assignment_MAT335_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C3567: Overlap_MAT335_MAT400 <= 1
 _C3568: Overlap_MAT335_ORF245 <= 1
 _C3569: Overlap_MAT335_ORF307 <= 1
-_C357: Room_Assignment_ASA238_75 + Room_Assignment_MAT370_75
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT370_5 <= 3
-_C3570: Room_Assignment_MAT335_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT335_5 + Time_Assignment_ORF307_5 <= 3
-_C3571: Room_Assignment_MAT335_10 + Room_Assignment_ORF307_10
- + Time_Assignment_MAT335_5 + Time_Assignment_ORF307_5 <= 3
+_C357: Room_Assignment_ASA238_75.0 + Room_Assignment_MAT370_75.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
+_C3570: Room_Assignment_MAT335_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
+_C3571: Room_Assignment_MAT335_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C3572: Overlap_MAT335_ORF309 <= 1
 _C3573: Overlap_MAT335_ORF350 <= 1
-_C3574: Room_Assignment_MAT335_6 + Room_Assignment_ORF350_6
- + Time_Assignment_MAT335_5 + Time_Assignment_ORF350_5 <= 3
+_C3574: Room_Assignment_MAT335_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C3575: Overlap_MAT335_ORF363 <= 1
 _C3576: Overlap_MAT335_ORF445 <= 1
 _C3577: Overlap_MAT335_PHY103 <= 1
-_C3578: Room_Assignment_MAT335_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY103_1 <= 3
-_C3579: Room_Assignment_MAT335_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY103_5 <= 3
-_C358: Room_Assignment_ASA238_2 + Room_Assignment_MAT370_2
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT370_5 <= 3
+_C3578: Room_Assignment_MAT335_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C3579: Room_Assignment_MAT335_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
+_C358: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3580: Overlap_MAT335_PHY104 <= 1
 _C3581: Overlap_MAT335_PHY105 <= 1
-_C3582: Room_Assignment_MAT335_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C3583: Room_Assignment_MAT335_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C3584: Room_Assignment_MAT335_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C3585: Room_Assignment_MAT335_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C3586: Room_Assignment_MAT335_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C3587: Room_Assignment_MAT335_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C3588: Room_Assignment_MAT335_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C3589: Room_Assignment_MAT335_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
+_C3582: Room_Assignment_MAT335_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3583: Room_Assignment_MAT335_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3584: Room_Assignment_MAT335_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3585: Room_Assignment_MAT335_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3586: Room_Assignment_MAT335_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3587: Room_Assignment_MAT335_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3588: Room_Assignment_MAT335_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3589: Room_Assignment_MAT335_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C359: Overlap_ASA238_MAT377 <= 1
-_C3590: Room_Assignment_MAT335_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C3591: Room_Assignment_MAT335_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C3592: Room_Assignment_MAT335_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C3593: Room_Assignment_MAT335_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C3594: Room_Assignment_MAT335_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C3595: Room_Assignment_MAT335_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C3596: Room_Assignment_MAT335_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C3597: Room_Assignment_MAT335_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
+_C3590: Room_Assignment_MAT335_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3591: Room_Assignment_MAT335_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3592: Room_Assignment_MAT335_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3593: Room_Assignment_MAT335_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3594: Room_Assignment_MAT335_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3595: Room_Assignment_MAT335_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3596: Room_Assignment_MAT335_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3597: Room_Assignment_MAT335_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C3598: Overlap_MAT335_PHY106 <= 1
 _C3599: Overlap_MAT335_PHY208 <= 1
-_C36: Room_Assignment_AAS201_5 + Room_Assignment_ECO301_5
- + Time_Assignment_AAS201_2 + Time_Assignment_ECO301_2 <= 3
-_C360: Room_Assignment_ASA238_2 + Room_Assignment_MAT377_2
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT377_1 <= 3
+_C36: Room_Assignment_AAS201_5.0 + Room_Assignment_ECO301_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ECO301_10:00_10:50_AM <= 3
+_C360: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3600: Overlap_MAT335_REL100 <= 1
 _C3601: Overlap_MAT335_REL232 <= 1
 _C3602: Overlap_MAT335_SML201 <= 1
 _C3603: Overlap_MAT335_URB201 <= 1
 _C3604: Overlap_MAT370_AAS201 <= 1
-_C3605: Room_Assignment_AAS201_2 + Room_Assignment_MAT370_2
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT370_1 <= 3
+_C3605: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
 _C3606: Overlap_MAT370_ASA203 <= 1
-_C3607: Room_Assignment_ASA203_12 + Room_Assignment_MAT370_12
- + Time_Assignment_ASA203_5 + Time_Assignment_MAT370_5 <= 3
+_C3607: Room_Assignment_ASA203_12.0 + Room_Assignment_MAT370_12.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3608: Overlap_MAT370_ASA238 <= 1
-_C3609: Room_Assignment_ASA238_2 + Room_Assignment_MAT370_2
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT370_1 <= 3
-_C361: Room_Assignment_ASA238_2 + Room_Assignment_MAT377_2
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT377_2 <= 3
-_C3610: Room_Assignment_ASA238_75 + Room_Assignment_MAT370_75
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT370_1 <= 3
-_C3611: Room_Assignment_ASA238_2 + Room_Assignment_MAT370_2
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT370_5 <= 3
-_C3612: Room_Assignment_ASA238_75 + Room_Assignment_MAT370_75
- + Time_Assignment_ASA238_5 + Time_Assignment_MAT370_5 <= 3
+_C3609: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
+_C361: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
+_C3610: Room_Assignment_ASA238_75.0 + Room_Assignment_MAT370_75.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
+_C3611: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
+_C3612: Room_Assignment_ASA238_75.0 + Room_Assignment_MAT370_75.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3613: Overlap_MAT370_COS126 <= 1
-_C3614: Room_Assignment_COS126_2 + Room_Assignment_MAT370_2
- + Time_Assignment_COS126_1 + Time_Assignment_MAT370_1 <= 3
+_C3614: Room_Assignment_COS126_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
 _C3615: Overlap_MAT370_COS226 <= 1
 _C3616: Overlap_MAT370_COS217 <= 1
 _C3617: Overlap_MAT370_COS333 <= 1
 _C3618: Overlap_MAT370_COS342 <= 1
 _C3619: Overlap_MAT370_COS423 <= 1
 _C362: Overlap_ASA238_MAT385 <= 1
-_C3620: Room_Assignment_COS423_53 + Room_Assignment_MAT370_53
- + Time_Assignment_COS423_5 + Time_Assignment_MAT370_5 <= 3
+_C3620: Room_Assignment_COS423_53.0 + Room_Assignment_MAT370_53.0
+ + Time_Assignment_COS423_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3621: Overlap_MAT370_COS432 <= 1
 _C3622: Overlap_MAT370_COS484 <= 1
 _C3623: Overlap_MAT370_COS522 <= 1
-_C3624: Room_Assignment_COS522_64 + Room_Assignment_MAT370_64
- + Time_Assignment_COS522_1 + Time_Assignment_MAT370_1 <= 3
-_C3625: Room_Assignment_COS522_64 + Room_Assignment_MAT370_64
- + Time_Assignment_COS522_5 + Time_Assignment_MAT370_5 <= 3
+_C3624: Room_Assignment_COS522_64.0 + Room_Assignment_MAT370_64.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
+_C3625: Room_Assignment_COS522_64.0 + Room_Assignment_MAT370_64.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3626: Overlap_MAT370_COS528 <= 1
-_C3627: Room_Assignment_COS528_31 + Room_Assignment_MAT370_31
- + Time_Assignment_COS528_5 + Time_Assignment_MAT370_5 <= 3
+_C3627: Room_Assignment_COS528_31.0 + Room_Assignment_MAT370_31.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3628: Overlap_MAT370_ECO100 <= 1
 _C3629: Overlap_MAT370_ECO102 <= 1
-_C363: Room_Assignment_ASA238_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT385_1 <= 3
+_C363: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C3630: Overlap_MAT370_ECO202 <= 1
 _C3631: Overlap_MAT370_ECO300 <= 1
 _C3632: Overlap_MAT370_ECO301 <= 1
 _C3633: Overlap_MAT370_ECO302 <= 1
-_C3634: Room_Assignment_ECO302_64 + Room_Assignment_MAT370_64
- + Time_Assignment_ECO302_1 + Time_Assignment_MAT370_1 <= 3
+_C3634: Room_Assignment_ECO302_64.0 + Room_Assignment_MAT370_64.0
+ + Time_Assignment_ECO302_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
 _C3635: Overlap_MAT370_ECO310 <= 1
 _C3636: Overlap_MAT370_ECO312 <= 1
 _C3637: Overlap_MAT370_GER101 <= 1
 _C3638: Overlap_MAT370_GER103 <= 1
 _C3639: Overlap_MAT370_GER105 <= 1
-_C364: Room_Assignment_ASA238_2 + Room_Assignment_MAT385_2
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT385_1 <= 3
+_C364: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C3640: Overlap_MAT370_GER107 <= 1
 _C3641: Overlap_MAT370_LIN201 <= 1
-_C3642: Room_Assignment_LIN201_53 + Room_Assignment_MAT370_53
- + Time_Assignment_LIN201_1 + Time_Assignment_MAT370_1 <= 3
+_C3642: Room_Assignment_LIN201_53.0 + Room_Assignment_MAT370_53.0
+ + Time_Assignment_LIN201_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
 _C3643: Overlap_MAT370_LIN300 <= 1
 _C3644: Overlap_MAT370_MAT103 <= 1
-_C3645: Room_Assignment_MAT103_12 + Room_Assignment_MAT370_12
- + Time_Assignment_MAT103_5 + Time_Assignment_MAT370_5 <= 3
+_C3645: Room_Assignment_MAT103_12.0 + Room_Assignment_MAT370_12.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3646: Overlap_MAT370_MAT104 <= 1
-_C3647: Room_Assignment_MAT104_12 + Room_Assignment_MAT370_12
- + Time_Assignment_MAT104_5 + Time_Assignment_MAT370_5 <= 3
+_C3647: Room_Assignment_MAT104_12.0 + Room_Assignment_MAT370_12.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3648: Overlap_MAT370_MAT201 <= 1
-_C3649: Room_Assignment_MAT201_2 + Room_Assignment_MAT370_2
- + Time_Assignment_MAT201_5 + Time_Assignment_MAT370_5 <= 3
-_C365: Room_Assignment_ASA238_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT385_2 <= 3
+_C3649: Room_Assignment_MAT201_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
+_C365: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C3650: Overlap_MAT370_MAT202 <= 1
 _C3651: Overlap_MAT370_MAT203 <= 1
 _C3652: Overlap_MAT370_MAT204 <= 1
-_C3653: Room_Assignment_MAT204_12 + Room_Assignment_MAT370_12
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT370_1 <= 3
+_C3653: Room_Assignment_MAT204_12.0 + Room_Assignment_MAT370_12.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
 _C3654: Overlap_MAT370_MAT215 <= 1
 _C3655: Overlap_MAT370_MAT216 <= 1
 _C3656: Overlap_MAT370_MAT217 <= 1
 _C3657: Overlap_MAT370_MAT218 <= 1
 _C3658: Overlap_MAT370_MAT300 <= 1
-_C3659: Room_Assignment_MAT300_2 + Room_Assignment_MAT370_2
- + Time_Assignment_MAT300_5 + Time_Assignment_MAT370_5 <= 3
-_C366: Room_Assignment_ASA238_2 + Room_Assignment_MAT385_2
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT385_2 <= 3
+_C3659: Room_Assignment_MAT300_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
+_C366: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C3660: Overlap_MAT370_MAT325 <= 1
 _C3661: Overlap_MAT370_MAT335 <= 1
-_C3662: Room_Assignment_MAT335_2 + Room_Assignment_MAT370_2
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT370_1 <= 3
-_C3663: Room_Assignment_MAT335_2 + Room_Assignment_MAT370_2
- + Time_Assignment_MAT335_5 + Time_Assignment_MAT370_5 <= 3
+_C3662: Room_Assignment_MAT335_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
+_C3663: Room_Assignment_MAT335_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C3664: Overlap_MAT370_MAT377 <= 1
-_C3665: Room_Assignment_MAT370_2 + Room_Assignment_MAT377_2
- + Time_Assignment_MAT370_1 + Time_Assignment_MAT377_1 <= 3
+_C3665: Room_Assignment_MAT370_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3666: Overlap_MAT370_MAT385 <= 1
-_C3667: Room_Assignment_MAT370_2 + Room_Assignment_MAT385_2
- + Time_Assignment_MAT370_1 + Time_Assignment_MAT385_1 <= 3
+_C3667: Room_Assignment_MAT370_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C3668: Overlap_MAT370_MAT400 <= 1
 _C3669: Overlap_MAT370_ORF245 <= 1
-_C367: Room_Assignment_ASA238_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ASA238_3 + Time_Assignment_MAT385_3 <= 3
+_C367: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C3670: Overlap_MAT370_ORF307 <= 1
 _C3671: Overlap_MAT370_ORF309 <= 1
-_C3672: Room_Assignment_MAT370_53 + Room_Assignment_ORF309_53
- + Time_Assignment_MAT370_5 + Time_Assignment_ORF309_5 <= 3
+_C3672: Room_Assignment_MAT370_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C3673: Overlap_MAT370_ORF350 <= 1
 _C3674: Overlap_MAT370_ORF363 <= 1
 _C3675: Overlap_MAT370_ORF445 <= 1
 _C3676: Overlap_MAT370_PHY103 <= 1
-_C3677: Room_Assignment_MAT370_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY103_1 <= 3
-_C3678: Room_Assignment_MAT370_75 + Room_Assignment_PHY103_75
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY103_1 <= 3
-_C3679: Room_Assignment_MAT370_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY103_5 <= 3
-_C368: Room_Assignment_ASA238_2 + Room_Assignment_MAT385_2
- + Time_Assignment_ASA238_3 + Time_Assignment_MAT385_3 <= 3
-_C3680: Room_Assignment_MAT370_75 + Room_Assignment_PHY103_75
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY103_5 <= 3
+_C3677: Room_Assignment_MAT370_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C3678: Room_Assignment_MAT370_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C3679: Room_Assignment_MAT370_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
+_C368: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C3680: Room_Assignment_MAT370_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C3681: Overlap_MAT370_PHY104 <= 1
 _C3682: Overlap_MAT370_PHY105 <= 1
-_C3683: Room_Assignment_MAT370_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY105_1 <= 3
-_C3684: Room_Assignment_MAT370_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY105_1 <= 3
-_C3685: Room_Assignment_MAT370_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY105_5 <= 3
-_C3686: Room_Assignment_MAT370_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY105_5 <= 3
+_C3683: Room_Assignment_MAT370_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3684: Room_Assignment_MAT370_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3685: Room_Assignment_MAT370_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C3686: Room_Assignment_MAT370_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C3687: Overlap_MAT370_PHY106 <= 1
-_C3688: Room_Assignment_MAT370_31 + Room_Assignment_PHY106_31
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY106_1 <= 3
-_C3689: Room_Assignment_MAT370_31 + Room_Assignment_PHY106_31
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY106_5 <= 3
+_C3688: Room_Assignment_MAT370_31.0 + Room_Assignment_PHY106_31.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
+_C3689: Room_Assignment_MAT370_31.0 + Room_Assignment_PHY106_31.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C369: Overlap_ASA238_MAT400 <= 1
 _C3690: Overlap_MAT370_PHY208 <= 1
 _C3691: Overlap_MAT370_REL100 <= 1
 _C3692: Overlap_MAT370_REL232 <= 1
 _C3693: Overlap_MAT370_SML201 <= 1
-_C3694: Room_Assignment_MAT370_31 + Room_Assignment_SML201_31
- + Time_Assignment_MAT370_1 + Time_Assignment_SML201_1 <= 3
-_C3695: Room_Assignment_MAT370_31 + Room_Assignment_SML201_31
- + Time_Assignment_MAT370_5 + Time_Assignment_SML201_5 <= 3
+_C3694: Room_Assignment_MAT370_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_SML201_9:00_9:50_AM
+ <= 3
+_C3695: Room_Assignment_MAT370_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C3696: Overlap_MAT370_URB201 <= 1
-_C3697: Room_Assignment_MAT370_31 + Room_Assignment_URB201_31
- + Time_Assignment_MAT370_5 + Time_Assignment_URB201_5 <= 3
+_C3697: Room_Assignment_MAT370_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
 _C3698: Overlap_MAT377_AAS201 <= 1
-_C3699: Room_Assignment_AAS201_2 + Room_Assignment_MAT377_2
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT377_1 <= 3
+_C3699: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C37: Overlap_AAS201_ECO302 <= 1
-_C370: Room_Assignment_ASA238_65 + Room_Assignment_MAT400_65
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT400_2 <= 3
-_C3700: Room_Assignment_AAS201_4 + Room_Assignment_MAT377_4
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT377_1 <= 3
-_C3701: Room_Assignment_AAS201_5 + Room_Assignment_MAT377_5
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT377_1 <= 3
-_C3702: Room_Assignment_AAS201_2 + Room_Assignment_MAT377_2
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT377_2 <= 3
-_C3703: Room_Assignment_AAS201_4 + Room_Assignment_MAT377_4
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT377_2 <= 3
-_C3704: Room_Assignment_AAS201_5 + Room_Assignment_MAT377_5
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT377_2 <= 3
+_C370: Room_Assignment_ASA238_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
+_C3700: Room_Assignment_AAS201_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3701: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3702: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
+_C3703: Room_Assignment_AAS201_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
+_C3704: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C3705: Overlap_MAT377_ASA203 <= 1
 _C3706: Overlap_MAT377_ASA238 <= 1
-_C3707: Room_Assignment_ASA238_2 + Room_Assignment_MAT377_2
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT377_1 <= 3
-_C3708: Room_Assignment_ASA238_2 + Room_Assignment_MAT377_2
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT377_2 <= 3
+_C3707: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3708: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C3709: Overlap_MAT377_COS126 <= 1
-_C371: Room_Assignment_ASA238_65 + Room_Assignment_MAT400_65
- + Time_Assignment_ASA238_3 + Time_Assignment_MAT400_3 <= 3
-_C3710: Room_Assignment_COS126_2 + Room_Assignment_MAT377_2
- + Time_Assignment_COS126_1 + Time_Assignment_MAT377_1 <= 3
-_C3711: Room_Assignment_COS126_4 + Room_Assignment_MAT377_4
- + Time_Assignment_COS126_1 + Time_Assignment_MAT377_1 <= 3
-_C3712: Room_Assignment_COS126_5 + Room_Assignment_MAT377_5
- + Time_Assignment_COS126_1 + Time_Assignment_MAT377_1 <= 3
-_C3713: Room_Assignment_COS126_6 + Room_Assignment_MAT377_6
- + Time_Assignment_COS126_1 + Time_Assignment_MAT377_1 <= 3
+_C371: Room_Assignment_ASA238_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C3710: Room_Assignment_COS126_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3711: Room_Assignment_COS126_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3712: Room_Assignment_COS126_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3713: Room_Assignment_COS126_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3714: Overlap_MAT377_COS226 <= 1
-_C3715: Room_Assignment_COS226_4 + Room_Assignment_MAT377_4
- + Time_Assignment_COS226_2 + Time_Assignment_MAT377_2 <= 3
+_C3715: Room_Assignment_COS226_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C3716: Overlap_MAT377_COS217 <= 1
 _C3717: Overlap_MAT377_COS333 <= 1
 _C3718: Overlap_MAT377_COS342 <= 1
 _C3719: Overlap_MAT377_COS423 <= 1
-_C372: Room_Assignment_ASA238_65 + Room_Assignment_MAT400_65
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT400_4 <= 3
+_C372: Room_Assignment_ASA238_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C3720: Overlap_MAT377_COS432 <= 1
 _C3721: Overlap_MAT377_COS484 <= 1
-_C3722: Room_Assignment_COS484_5 + Room_Assignment_MAT377_5
- + Time_Assignment_COS484_1 + Time_Assignment_MAT377_1 <= 3
-_C3723: Room_Assignment_COS484_15 + Room_Assignment_MAT377_15
- + Time_Assignment_COS484_1 + Time_Assignment_MAT377_1 <= 3
+_C3722: Room_Assignment_COS484_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3723: Room_Assignment_COS484_15.0 + Room_Assignment_MAT377_15.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3724: Overlap_MAT377_COS522 <= 1
-_C3725: Room_Assignment_COS522_16 + Room_Assignment_MAT377_16
- + Time_Assignment_COS522_1 + Time_Assignment_MAT377_1 <= 3
+_C3725: Room_Assignment_COS522_16.0 + Room_Assignment_MAT377_16.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3726: Overlap_MAT377_COS528 <= 1
 _C3727: Overlap_MAT377_ECO100 <= 1
-_C3728: Room_Assignment_ECO100_6 + Room_Assignment_MAT377_6
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT377_1 <= 3
-_C3729: Room_Assignment_ECO100_6 + Room_Assignment_MAT377_6
- + Time_Assignment_ECO100_2 + Time_Assignment_MAT377_2 <= 3
+_C3728: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3729: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C373: Overlap_ASA238_ORF245 <= 1
 _C3730: Overlap_MAT377_ECO102 <= 1
 _C3731: Overlap_MAT377_ECO202 <= 1
 _C3732: Overlap_MAT377_ECO300 <= 1
-_C3733: Room_Assignment_ECO300_5 + Room_Assignment_MAT377_5
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT377_2 <= 3
+_C3733: Room_Assignment_ECO300_5 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C3734: Overlap_MAT377_ECO301 <= 1
-_C3735: Room_Assignment_ECO301_5 + Room_Assignment_MAT377_5
- + Time_Assignment_ECO301_2 + Time_Assignment_MAT377_2 <= 3
+_C3735: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C3736: Overlap_MAT377_ECO302 <= 1
 _C3737: Overlap_MAT377_ECO310 <= 1
 _C3738: Overlap_MAT377_ECO312 <= 1
 _C3739: Overlap_MAT377_GER101 <= 1
-_C374: Room_Assignment_ASA238_65 + Room_Assignment_ORF245_65
- + Time_Assignment_ASA238_3 + Time_Assignment_ORF245_3 <= 3
+_C374: Room_Assignment_ASA238_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C3740: Overlap_MAT377_GER103 <= 1
-_C3741: Room_Assignment_GER103_5 + Room_Assignment_MAT377_5
- + Time_Assignment_GER103_2 + Time_Assignment_MAT377_2 <= 3
+_C3741: Room_Assignment_GER103_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C3742: Overlap_MAT377_GER105 <= 1
 _C3743: Overlap_MAT377_GER107 <= 1
 _C3744: Overlap_MAT377_LIN201 <= 1
@@ -6176,18 +7299,23 @@ _C3746: Overlap_MAT377_MAT103 <= 1
 _C3747: Overlap_MAT377_MAT104 <= 1
 _C3748: Overlap_MAT377_MAT201 <= 1
 _C3749: Overlap_MAT377_MAT202 <= 1
-_C375: Room_Assignment_ASA238_65 + Room_Assignment_ORF245_65
- + Time_Assignment_ASA238_4 + Time_Assignment_ORF245_4 <= 3
-_C3750: Room_Assignment_MAT202_5 + Room_Assignment_MAT377_5
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT377_1 <= 3
-_C3751: Room_Assignment_MAT202_6 + Room_Assignment_MAT377_6
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT377_1 <= 3
+_C375: Room_Assignment_ASA238_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C3750: Room_Assignment_MAT202_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3751: Room_Assignment_MAT202_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3752: Overlap_MAT377_MAT203 <= 1
 _C3753: Overlap_MAT377_MAT204 <= 1
-_C3754: Room_Assignment_MAT204_18 + Room_Assignment_MAT377_18
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT377_1 <= 3
-_C3755: Room_Assignment_MAT204_16 + Room_Assignment_MAT377_16
- + Time_Assignment_MAT204_1 + Time_Assignment_MAT377_1 <= 3
+_C3754: Room_Assignment_MAT204_18.0 + Room_Assignment_MAT377_18.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3755: Room_Assignment_MAT204_16.0 + Room_Assignment_MAT377_16.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3756: Overlap_MAT377_MAT215 <= 1
 _C3757: Overlap_MAT377_MAT216 <= 1
 _C3758: Overlap_MAT377_MAT217 <= 1
@@ -6196,226 +7324,309 @@ _C376: Overlap_ASA238_ORF307 <= 1
 _C3760: Overlap_MAT377_MAT300 <= 1
 _C3761: Overlap_MAT377_MAT325 <= 1
 _C3762: Overlap_MAT377_MAT335 <= 1
-_C3763: Room_Assignment_MAT335_2 + Room_Assignment_MAT377_2
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT377_1 <= 3
-_C3764: Room_Assignment_MAT335_4 + Room_Assignment_MAT377_4
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT377_1 <= 3
-_C3765: Room_Assignment_MAT335_5 + Room_Assignment_MAT377_5
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT377_1 <= 3
-_C3766: Room_Assignment_MAT335_6 + Room_Assignment_MAT377_6
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT377_1 <= 3
+_C3763: Room_Assignment_MAT335_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3764: Room_Assignment_MAT335_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3765: Room_Assignment_MAT335_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C3766: Room_Assignment_MAT335_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3767: Overlap_MAT377_MAT370 <= 1
-_C3768: Room_Assignment_MAT370_2 + Room_Assignment_MAT377_2
- + Time_Assignment_MAT370_1 + Time_Assignment_MAT377_1 <= 3
+_C3768: Room_Assignment_MAT370_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C3769: Overlap_MAT377_MAT385 <= 1
-_C377: Room_Assignment_ASA238_50 + Room_Assignment_ORF307_50
- + Time_Assignment_ASA238_2 + Time_Assignment_ORF307_2 <= 3
-_C3770: Room_Assignment_MAT377_2 + Room_Assignment_MAT385_2
- + Time_Assignment_MAT377_1 + Time_Assignment_MAT385_1 <= 3
-_C3771: Room_Assignment_MAT377_5 + Room_Assignment_MAT385_5
- + Time_Assignment_MAT377_1 + Time_Assignment_MAT385_1 <= 3
-_C3772: Room_Assignment_MAT377_6 + Room_Assignment_MAT385_6
- + Time_Assignment_MAT377_1 + Time_Assignment_MAT385_1 <= 3
-_C3773: Room_Assignment_MAT377_2 + Room_Assignment_MAT385_2
- + Time_Assignment_MAT377_2 + Time_Assignment_MAT385_2 <= 3
-_C3774: Room_Assignment_MAT377_5 + Room_Assignment_MAT385_5
- + Time_Assignment_MAT377_2 + Time_Assignment_MAT385_2 <= 3
-_C3775: Room_Assignment_MAT377_6 + Room_Assignment_MAT385_6
- + Time_Assignment_MAT377_2 + Time_Assignment_MAT385_2 <= 3
+_C377: Room_Assignment_ASA238_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C3770: Room_Assignment_MAT377_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3771: Room_Assignment_MAT377_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3772: Room_Assignment_MAT377_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3773: Room_Assignment_MAT377_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3774: Room_Assignment_MAT377_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3775: Room_Assignment_MAT377_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C3776: Overlap_MAT377_MAT400 <= 1
 _C3777: Overlap_MAT377_ORF245 <= 1
 _C3778: Overlap_MAT377_ORF307 <= 1
-_C3779: Room_Assignment_MAT377_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT377_2 + Time_Assignment_ORF307_2 <= 3
-_C378: Room_Assignment_ASA238_50 + Room_Assignment_ORF307_50
- + Time_Assignment_ASA238_3 + Time_Assignment_ORF307_3 <= 3
-_C3780: Room_Assignment_MAT377_15 + Room_Assignment_ORF307_15
- + Time_Assignment_MAT377_2 + Time_Assignment_ORF307_2 <= 3
+_C3779: Room_Assignment_MAT377_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C378: Room_Assignment_ASA238_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C3780: Room_Assignment_MAT377_15.0 + Room_Assignment_ORF307_15.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
 _C3781: Overlap_MAT377_ORF309 <= 1
 _C3782: Overlap_MAT377_ORF350 <= 1
 _C3783: Overlap_MAT377_ORF363 <= 1
 _C3784: Overlap_MAT377_ORF445 <= 1
 _C3785: Overlap_MAT377_PHY103 <= 1
-_C3786: Room_Assignment_MAT377_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY103_1 <= 3
-_C3787: Room_Assignment_MAT377_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY103_2 <= 3
+_C3786: Room_Assignment_MAT377_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C3787: Room_Assignment_MAT377_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
 _C3788: Overlap_MAT377_PHY104 <= 1
 _C3789: Overlap_MAT377_PHY105 <= 1
-_C379: Room_Assignment_ASA238_50 + Room_Assignment_ORF307_50
- + Time_Assignment_ASA238_4 + Time_Assignment_ORF307_4 <= 3
-_C3790: Room_Assignment_MAT377_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY105_1 <= 3
-_C3791: Room_Assignment_MAT377_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY105_1 <= 3
-_C3792: Room_Assignment_MAT377_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY105_1 <= 3
-_C3793: Room_Assignment_MAT377_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY105_1 <= 3
-_C3794: Room_Assignment_MAT377_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY105_2 <= 3
-_C3795: Room_Assignment_MAT377_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY105_2 <= 3
-_C3796: Room_Assignment_MAT377_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY105_2 <= 3
-_C3797: Room_Assignment_MAT377_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY105_2 <= 3
+_C379: Room_Assignment_ASA238_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C3790: Room_Assignment_MAT377_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3791: Room_Assignment_MAT377_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3792: Room_Assignment_MAT377_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3793: Room_Assignment_MAT377_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3794: Room_Assignment_MAT377_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C3795: Room_Assignment_MAT377_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C3796: Room_Assignment_MAT377_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C3797: Room_Assignment_MAT377_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C3798: Overlap_MAT377_PHY106 <= 1
-_C3799: Room_Assignment_MAT377_19 + Room_Assignment_PHY106_19
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY106_1 <= 3
+_C3799: Room_Assignment_MAT377_19.0 + Room_Assignment_PHY106_19.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
 _C38: Overlap_AAS201_ECO310 <= 1
-_C380: Room_Assignment_ASA238_50 + Room_Assignment_ORF307_50
- + Time_Assignment_ASA238_5 + Time_Assignment_ORF307_5 <= 3
+_C380: Room_Assignment_ASA238_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C3800: Overlap_MAT377_PHY208 <= 1
-_C3801: Room_Assignment_MAT377_18 + Room_Assignment_PHY208_18
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY208_2 <= 3
+_C3801: Room_Assignment_MAT377_18.0 + Room_Assignment_PHY208_18.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
 _C3802: Overlap_MAT377_REL100 <= 1
 _C3803: Overlap_MAT377_REL232 <= 1
 _C3804: Overlap_MAT377_SML201 <= 1
 _C3805: Overlap_MAT377_URB201 <= 1
 _C3806: Overlap_MAT385_AAS201 <= 1
-_C3807: Room_Assignment_AAS201_5 + Room_Assignment_MAT385_5
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT385_1 <= 3
-_C3808: Room_Assignment_AAS201_2 + Room_Assignment_MAT385_2
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT385_1 <= 3
-_C3809: Room_Assignment_AAS201_3 + Room_Assignment_MAT385_3
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT385_1 <= 3
+_C3807: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3808: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3809: Room_Assignment_AAS201_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C381: Overlap_ASA238_ORF309 <= 1
-_C3810: Room_Assignment_AAS201_5 + Room_Assignment_MAT385_5
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT385_2 <= 3
-_C3811: Room_Assignment_AAS201_2 + Room_Assignment_MAT385_2
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT385_2 <= 3
-_C3812: Room_Assignment_AAS201_3 + Room_Assignment_MAT385_3
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT385_2 <= 3
+_C3810: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3811: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3812: Room_Assignment_AAS201_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C3813: Overlap_MAT385_ASA203 <= 1
-_C3814: Room_Assignment_ASA203_5 + Room_Assignment_MAT385_5
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT385_3 <= 3
-_C3815: Room_Assignment_ASA203_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT385_3 <= 3
-_C3816: Room_Assignment_ASA203_43 + Room_Assignment_MAT385_43
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT385_3 <= 3
+_C3814: Room_Assignment_ASA203_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C3815: Room_Assignment_ASA203_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C3816: Room_Assignment_ASA203_43.0 + Room_Assignment_MAT385_43.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C3817: Overlap_MAT385_ASA238 <= 1
-_C3818: Room_Assignment_ASA238_2 + Room_Assignment_MAT385_2
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT385_1 <= 3
-_C3819: Room_Assignment_ASA238_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ASA238_1 + Time_Assignment_MAT385_1 <= 3
-_C382: Room_Assignment_ASA238_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ASA238_2 + Time_Assignment_ORF309_2 <= 3
-_C3820: Room_Assignment_ASA238_2 + Room_Assignment_MAT385_2
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT385_2 <= 3
-_C3821: Room_Assignment_ASA238_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT385_2 <= 3
-_C3822: Room_Assignment_ASA238_2 + Room_Assignment_MAT385_2
- + Time_Assignment_ASA238_3 + Time_Assignment_MAT385_3 <= 3
-_C3823: Room_Assignment_ASA238_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ASA238_3 + Time_Assignment_MAT385_3 <= 3
+_C3818: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3819: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C382: Room_Assignment_ASA238_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
+_C3820: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3821: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3822: Room_Assignment_ASA238_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C3823: Room_Assignment_ASA238_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C3824: Overlap_MAT385_COS126 <= 1
-_C3825: Room_Assignment_COS126_5 + Room_Assignment_MAT385_5
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
-_C3826: Room_Assignment_COS126_6 + Room_Assignment_MAT385_6
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
-_C3827: Room_Assignment_COS126_2 + Room_Assignment_MAT385_2
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
-_C3828: Room_Assignment_COS126_3 + Room_Assignment_MAT385_3
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
-_C3829: Room_Assignment_COS126_7 + Room_Assignment_MAT385_7
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
-_C383: Room_Assignment_ASA238_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ASA238_3 + Time_Assignment_ORF309_3 <= 3
+_C3825: Room_Assignment_COS126_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3826: Room_Assignment_COS126_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3827: Room_Assignment_COS126_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3828: Room_Assignment_COS126_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3829: Room_Assignment_COS126_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C383: Room_Assignment_ASA238_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
 _C3830: Overlap_MAT385_COS226 <= 1
 _C3831: Overlap_MAT385_COS217 <= 1
-_C3832: Room_Assignment_COS217_6 + Room_Assignment_MAT385_6
- + Time_Assignment_COS217_3 + Time_Assignment_MAT385_3 <= 3
-_C3833: Room_Assignment_COS217_7 + Room_Assignment_MAT385_7
- + Time_Assignment_COS217_3 + Time_Assignment_MAT385_3 <= 3
+_C3832: Room_Assignment_COS217_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C3833: Room_Assignment_COS217_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C3834: Overlap_MAT385_COS333 <= 1
 _C3835: Overlap_MAT385_COS342 <= 1
 _C3836: Overlap_MAT385_COS423 <= 1
 _C3837: Overlap_MAT385_COS432 <= 1
-_C3838: Room_Assignment_COS432_6 + Room_Assignment_MAT385_6
- + Time_Assignment_COS432_3 + Time_Assignment_MAT385_3 <= 3
-_C3839: Room_Assignment_COS432_2 + Room_Assignment_MAT385_2
- + Time_Assignment_COS432_3 + Time_Assignment_MAT385_3 <= 3
-_C384: Room_Assignment_ASA238_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ASA238_4 + Time_Assignment_ORF309_4 <= 3
+_C3838: Room_Assignment_COS432_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C3839: Room_Assignment_COS432_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C384: Room_Assignment_ASA238_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
 _C3840: Overlap_MAT385_COS484 <= 1
-_C3841: Room_Assignment_COS484_5 + Room_Assignment_MAT385_5
- + Time_Assignment_COS484_1 + Time_Assignment_MAT385_1 <= 3
-_C3842: Room_Assignment_COS484_3 + Room_Assignment_MAT385_3
- + Time_Assignment_COS484_1 + Time_Assignment_MAT385_1 <= 3
-_C3843: Room_Assignment_COS484_5 + Room_Assignment_MAT385_5
- + Time_Assignment_COS484_3 + Time_Assignment_MAT385_3 <= 3
-_C3844: Room_Assignment_COS484_3 + Room_Assignment_MAT385_3
- + Time_Assignment_COS484_3 + Time_Assignment_MAT385_3 <= 3
+_C3841: Room_Assignment_COS484_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3842: Room_Assignment_COS484_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3843: Room_Assignment_COS484_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C3844: Room_Assignment_COS484_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C3845: Overlap_MAT385_COS522 <= 1
 _C3846: Overlap_MAT385_COS528 <= 1
 _C3847: Overlap_MAT385_ECO100 <= 1
-_C3848: Room_Assignment_ECO100_6 + Room_Assignment_MAT385_6
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT385_1 <= 3
-_C3849: Room_Assignment_ECO100_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO100_1 + Time_Assignment_MAT385_1 <= 3
-_C385: Room_Assignment_ASA238_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ASA238_5 + Time_Assignment_ORF309_5 <= 3
-_C3850: Room_Assignment_ECO100_6 + Room_Assignment_MAT385_6
- + Time_Assignment_ECO100_2 + Time_Assignment_MAT385_2 <= 3
-_C3851: Room_Assignment_ECO100_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO100_2 + Time_Assignment_MAT385_2 <= 3
+_C3848: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3849: Room_Assignment_ECO100_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C385: Room_Assignment_ASA238_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
+_C3850: Room_Assignment_ECO100_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3851: Room_Assignment_ECO100_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C3852: Overlap_MAT385_ECO102 <= 1
 _C3853: Overlap_MAT385_ECO202 <= 1
 _C3854: Overlap_MAT385_ECO300 <= 1
-_C3855: Room_Assignment_ECO300_5 + Room_Assignment_MAT385_5
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT385_2 <= 3
-_C3856: Room_Assignment_ECO300_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT385_2 <= 3
-_C3857: Room_Assignment_ECO300_7 + Room_Assignment_MAT385_7
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT385_2 <= 3
-_C3858: Room_Assignment_ECO300_5 + Room_Assignment_MAT385_5
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT385_3 <= 3
-_C3859: Room_Assignment_ECO300_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT385_3 <= 3
+_C3855: Room_Assignment_ECO300_5 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3856: Room_Assignment_ECO300_3 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3857: Room_Assignment_ECO300_7 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3858: Room_Assignment_ECO300_5 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C3859: Room_Assignment_ECO300_3 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C386: Overlap_ASA238_ORF350 <= 1
-_C3860: Room_Assignment_ECO300_7 + Room_Assignment_MAT385_7
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT385_3 <= 3
+_C3860: Room_Assignment_ECO300_7 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C3861: Overlap_MAT385_ECO301 <= 1
-_C3862: Room_Assignment_ECO301_5 + Room_Assignment_MAT385_5
- + Time_Assignment_ECO301_2 + Time_Assignment_MAT385_2 <= 3
-_C3863: Room_Assignment_ECO301_3 + Room_Assignment_MAT385_3
- + Time_Assignment_ECO301_2 + Time_Assignment_MAT385_2 <= 3
-_C3864: Room_Assignment_ECO301_7 + Room_Assignment_MAT385_7
- + Time_Assignment_ECO301_2 + Time_Assignment_MAT385_2 <= 3
+_C3862: Room_Assignment_ECO301_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3863: Room_Assignment_ECO301_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3864: Room_Assignment_ECO301_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C3865: Overlap_MAT385_ECO302 <= 1
 _C3866: Overlap_MAT385_ECO310 <= 1
 _C3867: Overlap_MAT385_ECO312 <= 1
 _C3868: Overlap_MAT385_GER101 <= 1
 _C3869: Overlap_MAT385_GER103 <= 1
 _C387: Overlap_ASA238_ORF363 <= 1
-_C3870: Room_Assignment_GER103_5 + Room_Assignment_MAT385_5
- + Time_Assignment_GER103_2 + Time_Assignment_MAT385_2 <= 3
-_C3871: Room_Assignment_GER103_3 + Room_Assignment_MAT385_3
- + Time_Assignment_GER103_2 + Time_Assignment_MAT385_2 <= 3
-_C3872: Room_Assignment_GER103_5 + Room_Assignment_MAT385_5
- + Time_Assignment_GER103_3 + Time_Assignment_MAT385_3 <= 3
-_C3873: Room_Assignment_GER103_3 + Room_Assignment_MAT385_3
- + Time_Assignment_GER103_3 + Time_Assignment_MAT385_3 <= 3
+_C3870: Room_Assignment_GER103_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3871: Room_Assignment_GER103_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3872: Room_Assignment_GER103_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C3873: Room_Assignment_GER103_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C3874: Overlap_MAT385_GER105 <= 1
-_C3875: Room_Assignment_GER105_3 + Room_Assignment_MAT385_3
- + Time_Assignment_GER105_3 + Time_Assignment_MAT385_3 <= 3
+_C3875: Room_Assignment_GER105_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_GER105_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C3876: Overlap_MAT385_GER107 <= 1
 _C3877: Overlap_MAT385_LIN201 <= 1
 _C3878: Overlap_MAT385_LIN300 <= 1
-_C3879: Room_Assignment_LIN300_43 + Room_Assignment_MAT385_43
- + Time_Assignment_LIN300_2 + Time_Assignment_MAT385_2 <= 3
+_C3879: Room_Assignment_LIN300_43.0 + Room_Assignment_MAT385_43.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C388: Overlap_ASA238_ORF445 <= 1
 _C3880: Overlap_MAT385_MAT103 <= 1
 _C3881: Overlap_MAT385_MAT104 <= 1
 _C3882: Overlap_MAT385_MAT201 <= 1
 _C3883: Overlap_MAT385_MAT202 <= 1
-_C3884: Room_Assignment_MAT202_5 + Room_Assignment_MAT385_5
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT385_1 <= 3
-_C3885: Room_Assignment_MAT202_6 + Room_Assignment_MAT385_6
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT385_1 <= 3
-_C3886: Room_Assignment_MAT202_7 + Room_Assignment_MAT385_7
- + Time_Assignment_MAT202_1 + Time_Assignment_MAT385_1 <= 3
+_C3884: Room_Assignment_MAT202_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3885: Room_Assignment_MAT202_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3886: Room_Assignment_MAT202_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C3887: Overlap_MAT385_MAT203 <= 1
 _C3888: Overlap_MAT385_MAT204 <= 1
 _C3889: Overlap_MAT385_MAT215 <= 1
@@ -6423,201 +7634,273 @@ _C389: Overlap_ASA238_PHY103 <= 1
 _C3890: Overlap_MAT385_MAT216 <= 1
 _C3891: Overlap_MAT385_MAT217 <= 1
 _C3892: Overlap_MAT385_MAT218 <= 1
-_C3893: Room_Assignment_MAT218_7 + Room_Assignment_MAT385_7
- + Time_Assignment_MAT218_1 + Time_Assignment_MAT385_1 <= 3
+_C3893: Room_Assignment_MAT218_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_MAT218_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C3894: Overlap_MAT385_MAT300 <= 1
 _C3895: Overlap_MAT385_MAT325 <= 1
 _C3896: Overlap_MAT385_MAT335 <= 1
-_C3897: Room_Assignment_MAT335_5 + Room_Assignment_MAT385_5
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
-_C3898: Room_Assignment_MAT335_6 + Room_Assignment_MAT385_6
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
-_C3899: Room_Assignment_MAT335_2 + Room_Assignment_MAT385_2
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
+_C3897: Room_Assignment_MAT335_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3898: Room_Assignment_MAT335_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3899: Room_Assignment_MAT335_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C39: Overlap_AAS201_ECO312 <= 1
-_C390: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_1 + Time_Assignment_PHY103_1 <= 3
-_C3900: Room_Assignment_MAT335_3 + Room_Assignment_MAT385_3
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
-_C3901: Room_Assignment_MAT335_7 + Room_Assignment_MAT385_7
- + Time_Assignment_MAT335_1 + Time_Assignment_MAT385_1 <= 3
+_C390: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C3900: Room_Assignment_MAT335_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3901: Room_Assignment_MAT335_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C3902: Overlap_MAT385_MAT370 <= 1
-_C3903: Room_Assignment_MAT370_2 + Room_Assignment_MAT385_2
- + Time_Assignment_MAT370_1 + Time_Assignment_MAT385_1 <= 3
+_C3903: Room_Assignment_MAT370_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C3904: Overlap_MAT385_MAT377 <= 1
-_C3905: Room_Assignment_MAT377_5 + Room_Assignment_MAT385_5
- + Time_Assignment_MAT377_1 + Time_Assignment_MAT385_1 <= 3
-_C3906: Room_Assignment_MAT377_6 + Room_Assignment_MAT385_6
- + Time_Assignment_MAT377_1 + Time_Assignment_MAT385_1 <= 3
-_C3907: Room_Assignment_MAT377_2 + Room_Assignment_MAT385_2
- + Time_Assignment_MAT377_1 + Time_Assignment_MAT385_1 <= 3
-_C3908: Room_Assignment_MAT377_5 + Room_Assignment_MAT385_5
- + Time_Assignment_MAT377_2 + Time_Assignment_MAT385_2 <= 3
-_C3909: Room_Assignment_MAT377_6 + Room_Assignment_MAT385_6
- + Time_Assignment_MAT377_2 + Time_Assignment_MAT385_2 <= 3
-_C391: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_1 + Time_Assignment_PHY103_1 <= 3
-_C3910: Room_Assignment_MAT377_2 + Room_Assignment_MAT385_2
- + Time_Assignment_MAT377_2 + Time_Assignment_MAT385_2 <= 3
+_C3905: Room_Assignment_MAT377_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3906: Room_Assignment_MAT377_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3907: Room_Assignment_MAT377_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C3908: Room_Assignment_MAT377_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C3909: Room_Assignment_MAT377_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C391: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C3910: Room_Assignment_MAT377_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C3911: Overlap_MAT385_MAT400 <= 1
 _C3912: Overlap_MAT385_ORF245 <= 1
-_C3913: Room_Assignment_MAT385_5 + Room_Assignment_ORF245_5
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF245_3 <= 3
-_C3914: Room_Assignment_MAT385_7 + Room_Assignment_ORF245_7
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF245_3 <= 3
+_C3913: Room_Assignment_MAT385_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C3914: Room_Assignment_MAT385_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C3915: Overlap_MAT385_ORF307 <= 1
-_C3916: Room_Assignment_MAT385_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT385_2 + Time_Assignment_ORF307_2 <= 3
-_C3917: Room_Assignment_MAT385_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF307_3 <= 3
+_C3916: Room_Assignment_MAT385_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C3917: Room_Assignment_MAT385_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
 _C3918: Overlap_MAT385_ORF309 <= 1
-_C3919: Room_Assignment_MAT385_43 + Room_Assignment_ORF309_43
- + Time_Assignment_MAT385_2 + Time_Assignment_ORF309_2 <= 3
-_C392: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_2 + Time_Assignment_PHY103_2 <= 3
-_C3920: Room_Assignment_MAT385_43 + Room_Assignment_ORF309_43
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF309_3 <= 3
+_C3919: Room_Assignment_MAT385_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
+_C392: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
+_C3920: Room_Assignment_MAT385_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
 _C3921: Overlap_MAT385_ORF350 <= 1
-_C3922: Room_Assignment_MAT385_6 + Room_Assignment_ORF350_6
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF350_3 <= 3
+_C3922: Room_Assignment_MAT385_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
 _C3923: Overlap_MAT385_ORF363 <= 1
 _C3924: Overlap_MAT385_ORF445 <= 1
-_C3925: Room_Assignment_MAT385_5 + Room_Assignment_ORF445_5
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF445_3 <= 3
+_C3925: Room_Assignment_MAT385_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C3926: Overlap_MAT385_PHY103 <= 1
-_C3927: Room_Assignment_MAT385_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY103_1 <= 3
-_C3928: Room_Assignment_MAT385_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY103_2 <= 3
-_C3929: Room_Assignment_MAT385_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY103_3 <= 3
-_C393: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_2 + Time_Assignment_PHY103_2 <= 3
+_C3927: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C3928: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
+_C3929: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C393: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
 _C3930: Overlap_MAT385_PHY104 <= 1
 _C3931: Overlap_MAT385_PHY105 <= 1
-_C3932: Room_Assignment_MAT385_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C3933: Room_Assignment_MAT385_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C3934: Room_Assignment_MAT385_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C3935: Room_Assignment_MAT385_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C3936: Room_Assignment_MAT385_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C3937: Room_Assignment_MAT385_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
-_C3938: Room_Assignment_MAT385_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
-_C3939: Room_Assignment_MAT385_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
-_C394: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_3 + Time_Assignment_PHY103_3 <= 3
-_C3940: Room_Assignment_MAT385_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
-_C3941: Room_Assignment_MAT385_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
-_C3942: Room_Assignment_MAT385_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
-_C3943: Room_Assignment_MAT385_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
-_C3944: Room_Assignment_MAT385_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
-_C3945: Room_Assignment_MAT385_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
-_C3946: Room_Assignment_MAT385_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
+_C3932: Room_Assignment_MAT385_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3933: Room_Assignment_MAT385_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3934: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3935: Room_Assignment_MAT385_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3936: Room_Assignment_MAT385_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C3937: Room_Assignment_MAT385_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C3938: Room_Assignment_MAT385_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C3939: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C394: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C3940: Room_Assignment_MAT385_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C3941: Room_Assignment_MAT385_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C3942: Room_Assignment_MAT385_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C3943: Room_Assignment_MAT385_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C3944: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C3945: Room_Assignment_MAT385_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C3946: Room_Assignment_MAT385_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C3947: Overlap_MAT385_PHY106 <= 1
 _C3948: Overlap_MAT385_PHY208 <= 1
 _C3949: Overlap_MAT385_REL100 <= 1
-_C395: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_3 + Time_Assignment_PHY103_3 <= 3
-_C3950: Room_Assignment_MAT385_43 + Room_Assignment_REL100_43
- + Time_Assignment_MAT385_3 + Time_Assignment_REL100_3 <= 3
+_C395: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C3950: Room_Assignment_MAT385_43.0 + Room_Assignment_REL100_43.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C3951: Overlap_MAT385_REL232 <= 1
 _C3952: Overlap_MAT385_SML201 <= 1
-_C3953: Room_Assignment_MAT385_43 + Room_Assignment_SML201_43
- + Time_Assignment_MAT385_1 + Time_Assignment_SML201_1 <= 3
+_C3953: Room_Assignment_MAT385_43.0 + Room_Assignment_SML201_43.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_SML201_9:00_9:50_AM
+ <= 3
 _C3954: Overlap_MAT385_URB201 <= 1
 _C3955: Overlap_MAT400_AAS201 <= 1
 _C3956: Overlap_MAT400_ASA203 <= 1
-_C3957: Room_Assignment_ASA203_13 + Room_Assignment_MAT400_13
- + Time_Assignment_ASA203_3 + Time_Assignment_MAT400_3 <= 3
-_C3958: Room_Assignment_ASA203_13 + Room_Assignment_MAT400_13
- + Time_Assignment_ASA203_4 + Time_Assignment_MAT400_4 <= 3
+_C3957: Room_Assignment_ASA203_13.0 + Room_Assignment_MAT400_13.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C3958: Room_Assignment_ASA203_13.0 + Room_Assignment_MAT400_13.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C3959: Overlap_MAT400_ASA238 <= 1
-_C396: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_4 + Time_Assignment_PHY103_4 <= 3
-_C3960: Room_Assignment_ASA238_65 + Room_Assignment_MAT400_65
- + Time_Assignment_ASA238_2 + Time_Assignment_MAT400_2 <= 3
-_C3961: Room_Assignment_ASA238_65 + Room_Assignment_MAT400_65
- + Time_Assignment_ASA238_3 + Time_Assignment_MAT400_3 <= 3
-_C3962: Room_Assignment_ASA238_65 + Room_Assignment_MAT400_65
- + Time_Assignment_ASA238_4 + Time_Assignment_MAT400_4 <= 3
+_C396: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
+_C3960: Room_Assignment_ASA238_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
+_C3961: Room_Assignment_ASA238_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C3962: Room_Assignment_ASA238_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C3963: Overlap_MAT400_COS126 <= 1
 _C3964: Overlap_MAT400_COS226 <= 1
-_C3965: Room_Assignment_COS226_42 + Room_Assignment_MAT400_42
- + Time_Assignment_COS226_2 + Time_Assignment_MAT400_2 <= 3
+_C3965: Room_Assignment_COS226_42.0 + Room_Assignment_MAT400_42.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
 _C3966: Overlap_MAT400_COS217 <= 1
 _C3967: Overlap_MAT400_COS333 <= 1
-_C3968: Room_Assignment_COS333_65 + Room_Assignment_MAT400_65
- + Time_Assignment_COS333_4 + Time_Assignment_MAT400_4 <= 3
+_C3968: Room_Assignment_COS333_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C3969: Overlap_MAT400_COS342 <= 1
-_C397: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_4 + Time_Assignment_PHY103_4 <= 3
+_C397: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
 _C3970: Overlap_MAT400_COS423 <= 1
-_C3971: Room_Assignment_COS423_54 + Room_Assignment_MAT400_54
- + Time_Assignment_COS423_3 + Time_Assignment_MAT400_3 <= 3
-_C3972: Room_Assignment_COS423_54 + Room_Assignment_MAT400_54
- + Time_Assignment_COS423_4 + Time_Assignment_MAT400_4 <= 3
+_C3971: Room_Assignment_COS423_54.0 + Room_Assignment_MAT400_54.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C3972: Room_Assignment_COS423_54.0 + Room_Assignment_MAT400_54.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C3973: Overlap_MAT400_COS432 <= 1
 _C3974: Overlap_MAT400_COS484 <= 1
 _C3975: Overlap_MAT400_COS522 <= 1
 _C3976: Overlap_MAT400_COS528 <= 1
-_C3977: Room_Assignment_COS528_13 + Room_Assignment_MAT400_13
- + Time_Assignment_COS528_4 + Time_Assignment_MAT400_4 <= 3
+_C3977: Room_Assignment_COS528_13.0 + Room_Assignment_MAT400_13.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C3978: Overlap_MAT400_ECO100 <= 1
 _C3979: Overlap_MAT400_ECO102 <= 1
-_C398: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_5 + Time_Assignment_PHY103_5 <= 3
+_C398: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C3980: Overlap_MAT400_ECO202 <= 1
-_C3981: Room_Assignment_ECO202_24 + Room_Assignment_MAT400_24
- + Time_Assignment_ECO202_3 + Time_Assignment_MAT400_3 <= 3
-_C3982: Room_Assignment_ECO202_24 + Room_Assignment_MAT400_24
- + Time_Assignment_ECO202_4 + Time_Assignment_MAT400_4 <= 3
+_C3981: Room_Assignment_ECO202_24.0 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C3982: Room_Assignment_ECO202_24.0 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C3983: Overlap_MAT400_ECO300 <= 1
-_C3984: Room_Assignment_ECO300_24 + Room_Assignment_MAT400_24
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT400_2 <= 3
-_C3985: Room_Assignment_ECO300_45 + Room_Assignment_MAT400_45
- + Time_Assignment_ECO300_2 + Time_Assignment_MAT400_2 <= 3
-_C3986: Room_Assignment_ECO300_24 + Room_Assignment_MAT400_24
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT400_3 <= 3
-_C3987: Room_Assignment_ECO300_45 + Room_Assignment_MAT400_45
- + Time_Assignment_ECO300_3 + Time_Assignment_MAT400_3 <= 3
+_C3984: Room_Assignment_ECO300_24 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
+_C3985: Room_Assignment_ECO300_45 + Room_Assignment_MAT400_45.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
+_C3986: Room_Assignment_ECO300_24 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C3987: Room_Assignment_ECO300_45 + Room_Assignment_MAT400_45.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
 _C3988: Overlap_MAT400_ECO301 <= 1
 _C3989: Overlap_MAT400_ECO302 <= 1
-_C399: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_5 + Time_Assignment_PHY103_5 <= 3
-_C3990: Room_Assignment_ECO302_65 + Room_Assignment_MAT400_65
- + Time_Assignment_ECO302_3 + Time_Assignment_MAT400_3 <= 3
+_C399: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
+_C3990: Room_Assignment_ECO302_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
 _C3991: Overlap_MAT400_ECO310 <= 1
 _C3992: Overlap_MAT400_ECO312 <= 1
-_C3993: Room_Assignment_ECO312_42 + Room_Assignment_MAT400_42
- + Time_Assignment_ECO312_3 + Time_Assignment_MAT400_3 <= 3
+_C3993: Room_Assignment_ECO312_42.0 + Room_Assignment_MAT400_42.0
+ + Time_Assignment_ECO312_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
 _C3994: Overlap_MAT400_GER101 <= 1
 _C3995: Overlap_MAT400_GER103 <= 1
 _C3996: Overlap_MAT400_GER105 <= 1
 _C3997: Overlap_MAT400_GER107 <= 1
 _C3998: Overlap_MAT400_LIN201 <= 1
-_C3999: Room_Assignment_LIN201_54 + Room_Assignment_MAT400_54
- + Time_Assignment_LIN201_4 + Time_Assignment_MAT400_4 <= 3
-_C4: Room_Assignment_AAS201_3 + Room_Assignment_ASA238_3
- + Time_Assignment_AAS201_1 + Time_Assignment_ASA238_1 <= 3
+_C3999: Room_Assignment_LIN201_54.0 + Room_Assignment_MAT400_54.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
+_C4: Room_Assignment_AAS201_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_ASA238_9:00_9:50_AM
+ <= 3
 _C40: Overlap_AAS201_GER101 <= 1
 _C400: Overlap_ASA238_PHY104 <= 1
 _C4000: Overlap_MAT400_LIN300 <= 1
-_C4001: Room_Assignment_LIN300_45 + Room_Assignment_MAT400_45
- + Time_Assignment_LIN300_2 + Time_Assignment_MAT400_2 <= 3
+_C4001: Room_Assignment_LIN300_45.0 + Room_Assignment_MAT400_45.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
 _C4002: Overlap_MAT400_MAT103 <= 1
 _C4003: Overlap_MAT400_MAT104 <= 1
 _C4004: Overlap_MAT400_MAT201 <= 1
@@ -6628,8 +7911,9 @@ _C4008: Overlap_MAT400_MAT215 <= 1
 _C4009: Overlap_MAT400_MAT216 <= 1
 _C401: Overlap_ASA238_PHY105 <= 1
 _C4010: Overlap_MAT400_MAT217 <= 1
-_C4011: Room_Assignment_MAT217_24 + Room_Assignment_MAT400_24
- + Time_Assignment_MAT217_4 + Time_Assignment_MAT400_4 <= 3
+_C4011: Room_Assignment_MAT217_24.0 + Room_Assignment_MAT400_24.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C4012: Overlap_MAT400_MAT218 <= 1
 _C4013: Overlap_MAT400_MAT300 <= 1
 _C4014: Overlap_MAT400_MAT325 <= 1
@@ -6638,184 +7922,247 @@ _C4016: Overlap_MAT400_MAT370 <= 1
 _C4017: Overlap_MAT400_MAT377 <= 1
 _C4018: Overlap_MAT400_MAT385 <= 1
 _C4019: Overlap_MAT400_ORF245 <= 1
-_C402: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_1 + Time_Assignment_PHY105_1 <= 3
-_C4020: Room_Assignment_MAT400_65 + Room_Assignment_ORF245_65
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF245_3 <= 3
-_C4021: Room_Assignment_MAT400_65 + Room_Assignment_ORF245_65
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF245_4 <= 3
+_C402: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4020: Room_Assignment_MAT400_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4021: Room_Assignment_MAT400_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4022: Overlap_MAT400_ORF307 <= 1
-_C4023: Room_Assignment_MAT400_45 + Room_Assignment_ORF307_45
- + Time_Assignment_MAT400_2 + Time_Assignment_ORF307_2 <= 3
-_C4024: Room_Assignment_MAT400_45 + Room_Assignment_ORF307_45
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF307_3 <= 3
-_C4025: Room_Assignment_MAT400_45 + Room_Assignment_ORF307_45
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF307_4 <= 3
+_C4023: Room_Assignment_MAT400_45.0 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_MAT400_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4024: Room_Assignment_MAT400_45.0 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4025: Room_Assignment_MAT400_45.0 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4026: Overlap_MAT400_ORF309 <= 1
-_C4027: Room_Assignment_MAT400_13 + Room_Assignment_ORF309_13
- + Time_Assignment_MAT400_2 + Time_Assignment_ORF309_2 <= 3
-_C4028: Room_Assignment_MAT400_13 + Room_Assignment_ORF309_13
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF309_3 <= 3
-_C4029: Room_Assignment_MAT400_13 + Room_Assignment_ORF309_13
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF309_4 <= 3
-_C403: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_1 + Time_Assignment_PHY105_1 <= 3
+_C4027: Room_Assignment_MAT400_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_MAT400_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
+_C4028: Room_Assignment_MAT400_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C4029: Room_Assignment_MAT400_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C403: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C4030: Overlap_MAT400_ORF350 <= 1
 _C4031: Overlap_MAT400_ORF363 <= 1
 _C4032: Overlap_MAT400_ORF445 <= 1
-_C4033: Room_Assignment_MAT400_54 + Room_Assignment_ORF445_54
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF445_3 <= 3
-_C4034: Room_Assignment_MAT400_24 + Room_Assignment_ORF445_24
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF445_3 <= 3
-_C4035: Room_Assignment_MAT400_54 + Room_Assignment_ORF445_54
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF445_4 <= 3
-_C4036: Room_Assignment_MAT400_24 + Room_Assignment_ORF445_24
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF445_4 <= 3
+_C4033: Room_Assignment_MAT400_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4034: Room_Assignment_MAT400_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4035: Room_Assignment_MAT400_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C4036: Room_Assignment_MAT400_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4037: Overlap_MAT400_PHY103 <= 1
 _C4038: Overlap_MAT400_PHY104 <= 1
 _C4039: Overlap_MAT400_PHY105 <= 1
-_C404: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_2 + Time_Assignment_PHY105_2 <= 3
+_C404: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C4040: Overlap_MAT400_PHY106 <= 1
 _C4041: Overlap_MAT400_PHY208 <= 1
 _C4042: Overlap_MAT400_REL100 <= 1
-_C4043: Room_Assignment_MAT400_54 + Room_Assignment_REL100_54
- + Time_Assignment_MAT400_3 + Time_Assignment_REL100_3 <= 3
-_C4044: Room_Assignment_MAT400_65 + Room_Assignment_REL100_65
- + Time_Assignment_MAT400_3 + Time_Assignment_REL100_3 <= 3
-_C4045: Room_Assignment_MAT400_24 + Room_Assignment_REL100_24
- + Time_Assignment_MAT400_3 + Time_Assignment_REL100_3 <= 3
+_C4043: Room_Assignment_MAT400_54.0 + Room_Assignment_REL100_54.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C4044: Room_Assignment_MAT400_65.0 + Room_Assignment_REL100_65.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C4045: Room_Assignment_MAT400_24.0 + Room_Assignment_REL100_24.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C4046: Overlap_MAT400_REL232 <= 1
-_C4047: Room_Assignment_MAT400_45 + Room_Assignment_REL232_45
- + Time_Assignment_MAT400_4 + Time_Assignment_REL232_4 <= 3
+_C4047: Room_Assignment_MAT400_45.0 + Room_Assignment_REL232_45.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
 _C4048: Overlap_MAT400_SML201 <= 1
 _C4049: Overlap_MAT400_URB201 <= 1
-_C405: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_2 + Time_Assignment_PHY105_2 <= 3
+_C405: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C4050: Overlap_ORF245_AAS201 <= 1
 _C4051: Overlap_ORF245_ASA203 <= 1
-_C4052: Room_Assignment_ASA203_5 + Room_Assignment_ORF245_5
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF245_3 <= 3
-_C4053: Room_Assignment_ASA203_5 + Room_Assignment_ORF245_5
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF245_4 <= 3
+_C4052: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4053: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4054: Overlap_ORF245_ASA238 <= 1
-_C4055: Room_Assignment_ASA238_65 + Room_Assignment_ORF245_65
- + Time_Assignment_ASA238_3 + Time_Assignment_ORF245_3 <= 3
-_C4056: Room_Assignment_ASA238_65 + Room_Assignment_ORF245_65
- + Time_Assignment_ASA238_4 + Time_Assignment_ORF245_4 <= 3
+_C4055: Room_Assignment_ASA238_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4056: Room_Assignment_ASA238_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4057: Overlap_ORF245_COS126 <= 1
 _C4058: Overlap_ORF245_COS226 <= 1
 _C4059: Overlap_ORF245_COS217 <= 1
-_C406: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_3 + Time_Assignment_PHY105_3 <= 3
-_C4060: Room_Assignment_COS217_7 + Room_Assignment_ORF245_7
- + Time_Assignment_COS217_3 + Time_Assignment_ORF245_3 <= 3
+_C406: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4060: Room_Assignment_COS217_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C4061: Overlap_ORF245_COS333 <= 1
-_C4062: Room_Assignment_COS333_65 + Room_Assignment_ORF245_65
- + Time_Assignment_COS333_4 + Time_Assignment_ORF245_4 <= 3
+_C4062: Room_Assignment_COS333_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4063: Overlap_ORF245_COS342 <= 1
 _C4064: Overlap_ORF245_COS423 <= 1
 _C4065: Overlap_ORF245_COS432 <= 1
-_C4066: Room_Assignment_COS432_8 + Room_Assignment_ORF245_8
- + Time_Assignment_COS432_3 + Time_Assignment_ORF245_3 <= 3
-_C4067: Room_Assignment_COS432_8 + Room_Assignment_ORF245_8
- + Time_Assignment_COS432_4 + Time_Assignment_ORF245_4 <= 3
+_C4066: Room_Assignment_COS432_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4067: Room_Assignment_COS432_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4068: Overlap_ORF245_COS484 <= 1
-_C4069: Room_Assignment_COS484_5 + Room_Assignment_ORF245_5
- + Time_Assignment_COS484_3 + Time_Assignment_ORF245_3 <= 3
-_C407: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_3 + Time_Assignment_PHY105_3 <= 3
-_C4070: Room_Assignment_COS484_25 + Room_Assignment_ORF245_25
- + Time_Assignment_COS484_3 + Time_Assignment_ORF245_3 <= 3
+_C4069: Room_Assignment_COS484_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C407: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4070: Room_Assignment_COS484_25.0 + Room_Assignment_ORF245_25.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C4071: Overlap_ORF245_COS522 <= 1
 _C4072: Overlap_ORF245_COS528 <= 1
-_C4073: Room_Assignment_COS528_7 + Room_Assignment_ORF245_7
- + Time_Assignment_COS528_4 + Time_Assignment_ORF245_4 <= 3
-_C4074: Room_Assignment_COS528_31 + Room_Assignment_ORF245_31
- + Time_Assignment_COS528_4 + Time_Assignment_ORF245_4 <= 3
+_C4073: Room_Assignment_COS528_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C4074: Room_Assignment_COS528_31.0 + Room_Assignment_ORF245_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4075: Overlap_ORF245_ECO100 <= 1
 _C4076: Overlap_ORF245_ECO102 <= 1
 _C4077: Overlap_ORF245_ECO202 <= 1
-_C4078: Room_Assignment_ECO202_25 + Room_Assignment_ORF245_25
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF245_3 <= 3
-_C4079: Room_Assignment_ECO202_25 + Room_Assignment_ORF245_25
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF245_4 <= 3
-_C408: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_4 + Time_Assignment_PHY105_4 <= 3
+_C4078: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF245_25.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4079: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF245_25.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C408: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C4080: Overlap_ORF245_ECO300 <= 1
-_C4081: Room_Assignment_ECO300_7 + Room_Assignment_ORF245_7
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF245_3 <= 3
-_C4082: Room_Assignment_ECO300_5 + Room_Assignment_ORF245_5
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF245_3 <= 3
+_C4081: Room_Assignment_ECO300_7 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4082: Room_Assignment_ECO300_5 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C4083: Overlap_ORF245_ECO301 <= 1
-_C4084: Room_Assignment_ECO301_7 + Room_Assignment_ORF245_7
- + Time_Assignment_ECO301_4 + Time_Assignment_ORF245_4 <= 3
-_C4085: Room_Assignment_ECO301_5 + Room_Assignment_ORF245_5
- + Time_Assignment_ECO301_4 + Time_Assignment_ORF245_4 <= 3
+_C4084: Room_Assignment_ECO301_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C4085: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4086: Overlap_ORF245_ECO302 <= 1
-_C4087: Room_Assignment_ECO302_65 + Room_Assignment_ORF245_65
- + Time_Assignment_ECO302_3 + Time_Assignment_ORF245_3 <= 3
+_C4087: Room_Assignment_ECO302_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C4088: Overlap_ORF245_ECO310 <= 1
-_C4089: Room_Assignment_ECO310_34 + Room_Assignment_ORF245_34
- + Time_Assignment_ECO310_4 + Time_Assignment_ORF245_4 <= 3
-_C409: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_4 + Time_Assignment_PHY105_4 <= 3
-_C4090: Room_Assignment_ECO310_34 + Room_Assignment_ORF245_34
- + Time_Assignment_ECO310_4 + Time_Assignment_ORF245_4 <= 3
+_C4089: Room_Assignment_ECO310_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C409: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4090: Room_Assignment_ECO310_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4091: Overlap_ORF245_ECO312 <= 1
 _C4092: Overlap_ORF245_GER101 <= 1
 _C4093: Overlap_ORF245_GER103 <= 1
-_C4094: Room_Assignment_GER103_8 + Room_Assignment_ORF245_8
- + Time_Assignment_GER103_3 + Time_Assignment_ORF245_3 <= 3
-_C4095: Room_Assignment_GER103_5 + Room_Assignment_ORF245_5
- + Time_Assignment_GER103_3 + Time_Assignment_ORF245_3 <= 3
-_C4096: Room_Assignment_GER103_8 + Room_Assignment_ORF245_8
- + Time_Assignment_GER103_4 + Time_Assignment_ORF245_4 <= 3
-_C4097: Room_Assignment_GER103_5 + Room_Assignment_ORF245_5
- + Time_Assignment_GER103_4 + Time_Assignment_ORF245_4 <= 3
+_C4094: Room_Assignment_GER103_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4095: Room_Assignment_GER103_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4096: Room_Assignment_GER103_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C4097: Room_Assignment_GER103_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4098: Overlap_ORF245_GER105 <= 1
 _C4099: Overlap_ORF245_GER107 <= 1
 _C41: Overlap_AAS201_GER103 <= 1
-_C410: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_5 + Time_Assignment_PHY105_5 <= 3
+_C410: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4100: Overlap_ORF245_LIN201 <= 1
 _C4101: Overlap_ORF245_LIN300 <= 1
 _C4102: Overlap_ORF245_MAT103 <= 1
 _C4103: Overlap_ORF245_MAT104 <= 1
 _C4104: Overlap_ORF245_MAT201 <= 1
-_C4105: Room_Assignment_MAT201_8 + Room_Assignment_ORF245_8
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF245_4 <= 3
-_C4106: Room_Assignment_MAT201_7 + Room_Assignment_ORF245_7
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF245_4 <= 3
-_C4107: Room_Assignment_MAT201_5 + Room_Assignment_ORF245_5
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF245_4 <= 3
+_C4105: Room_Assignment_MAT201_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C4106: Room_Assignment_MAT201_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C4107: Room_Assignment_MAT201_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4108: Overlap_ORF245_MAT202 <= 1
 _C4109: Overlap_ORF245_MAT203 <= 1
-_C411: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_5 + Time_Assignment_PHY105_5 <= 3
+_C411: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4110: Overlap_ORF245_MAT204 <= 1
 _C4111: Overlap_ORF245_MAT215 <= 1
-_C4112: Room_Assignment_MAT215_31 + Room_Assignment_ORF245_31
- + Time_Assignment_MAT215_3 + Time_Assignment_ORF245_3 <= 3
-_C4113: Room_Assignment_MAT215_34 + Room_Assignment_ORF245_34
- + Time_Assignment_MAT215_3 + Time_Assignment_ORF245_3 <= 3
-_C4114: Room_Assignment_MAT215_34 + Room_Assignment_ORF245_34
- + Time_Assignment_MAT215_3 + Time_Assignment_ORF245_3 <= 3
-_C4115: Room_Assignment_MAT215_31 + Room_Assignment_ORF245_31
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF245_4 <= 3
-_C4116: Room_Assignment_MAT215_34 + Room_Assignment_ORF245_34
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF245_4 <= 3
-_C4117: Room_Assignment_MAT215_34 + Room_Assignment_ORF245_34
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF245_4 <= 3
+_C4112: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF245_31.0
+ + Time_Assignment_MAT215_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4113: Room_Assignment_MAT215_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_MAT215_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4114: Room_Assignment_MAT215_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_MAT215_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4115: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF245_31.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C4116: Room_Assignment_MAT215_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C4117: Room_Assignment_MAT215_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4118: Overlap_ORF245_MAT216 <= 1
 _C4119: Overlap_ORF245_MAT217 <= 1
 _C412: Overlap_ASA238_PHY106 <= 1
-_C4120: Room_Assignment_MAT217_5 + Room_Assignment_ORF245_5
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF245_4 <= 3
-_C4121: Room_Assignment_MAT217_34 + Room_Assignment_ORF245_34
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF245_4 <= 3
-_C4122: Room_Assignment_MAT217_34 + Room_Assignment_ORF245_34
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF245_4 <= 3
+_C4120: Room_Assignment_MAT217_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C4121: Room_Assignment_MAT217_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C4122: Room_Assignment_MAT217_34.0 + Room_Assignment_ORF245_34.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4123: Overlap_ORF245_MAT218 <= 1
 _C4124: Overlap_ORF245_MAT300 <= 1
 _C4125: Overlap_ORF245_MAT325 <= 1
@@ -6824,365 +8171,494 @@ _C4127: Overlap_ORF245_MAT370 <= 1
 _C4128: Overlap_ORF245_MAT377 <= 1
 _C4129: Overlap_ORF245_MAT385 <= 1
 _C413: Overlap_ASA238_PHY208 <= 1
-_C4130: Room_Assignment_MAT385_7 + Room_Assignment_ORF245_7
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF245_3 <= 3
-_C4131: Room_Assignment_MAT385_5 + Room_Assignment_ORF245_5
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF245_3 <= 3
+_C4130: Room_Assignment_MAT385_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4131: Room_Assignment_MAT385_5.0 + Room_Assignment_ORF245_5.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C4132: Overlap_ORF245_MAT400 <= 1
-_C4133: Room_Assignment_MAT400_65 + Room_Assignment_ORF245_65
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF245_3 <= 3
-_C4134: Room_Assignment_MAT400_65 + Room_Assignment_ORF245_65
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF245_4 <= 3
+_C4133: Room_Assignment_MAT400_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C4134: Room_Assignment_MAT400_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C4135: Overlap_ORF245_ORF307 <= 1
-_C4136: Room_Assignment_ORF245_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ORF245_3 + Time_Assignment_ORF307_3 <= 3
-_C4137: Room_Assignment_ORF245_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ORF245_3 + Time_Assignment_ORF307_3 <= 3
-_C4138: Room_Assignment_ORF245_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF307_4 <= 3
-_C4139: Room_Assignment_ORF245_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF307_4 <= 3
+_C4136: Room_Assignment_ORF245_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4137: Room_Assignment_ORF245_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4138: Room_Assignment_ORF245_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4139: Room_Assignment_ORF245_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C414: Overlap_ASA238_REL100 <= 1
 _C4140: Overlap_ORF245_ORF309 <= 1
 _C4141: Overlap_ORF245_ORF350 <= 1
 _C4142: Overlap_ORF245_ORF363 <= 1
-_C4143: Room_Assignment_ORF245_31 + Room_Assignment_ORF363_31
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF363_4 <= 3
+_C4143: Room_Assignment_ORF245_31.0 + Room_Assignment_ORF363_31.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C4144: Overlap_ORF245_ORF445 <= 1
-_C4145: Room_Assignment_ORF245_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ORF245_3 + Time_Assignment_ORF445_3 <= 3
-_C4146: Room_Assignment_ORF245_31 + Room_Assignment_ORF445_31
- + Time_Assignment_ORF245_3 + Time_Assignment_ORF445_3 <= 3
-_C4147: Room_Assignment_ORF245_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF445_4 <= 3
-_C4148: Room_Assignment_ORF245_31 + Room_Assignment_ORF445_31
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF445_4 <= 3
+_C4145: Room_Assignment_ORF245_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4146: Room_Assignment_ORF245_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4147: Room_Assignment_ORF245_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C4148: Room_Assignment_ORF245_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4149: Overlap_ORF245_PHY103 <= 1
-_C415: Room_Assignment_ASA238_65 + Room_Assignment_REL100_65
- + Time_Assignment_ASA238_3 + Time_Assignment_REL100_3 <= 3
+_C415: Room_Assignment_ASA238_65.0 + Room_Assignment_REL100_65.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C4150: Overlap_ORF245_PHY104 <= 1
 _C4151: Overlap_ORF245_PHY105 <= 1
-_C4152: Room_Assignment_ORF245_8 + Room_Assignment_PHY105_8
- + Time_Assignment_ORF245_3 + Time_Assignment_PHY105_3 <= 3
-_C4153: Room_Assignment_ORF245_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ORF245_3 + Time_Assignment_PHY105_3 <= 3
-_C4154: Room_Assignment_ORF245_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF245_3 + Time_Assignment_PHY105_3 <= 3
-_C4155: Room_Assignment_ORF245_8 + Room_Assignment_PHY105_8
- + Time_Assignment_ORF245_4 + Time_Assignment_PHY105_4 <= 3
-_C4156: Room_Assignment_ORF245_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ORF245_4 + Time_Assignment_PHY105_4 <= 3
-_C4157: Room_Assignment_ORF245_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF245_4 + Time_Assignment_PHY105_4 <= 3
+_C4152: Room_Assignment_ORF245_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4153: Room_Assignment_ORF245_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4154: Room_Assignment_ORF245_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4155: Room_Assignment_ORF245_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4156: Room_Assignment_ORF245_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4157: Room_Assignment_ORF245_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C4158: Overlap_ORF245_PHY106 <= 1
 _C4159: Overlap_ORF245_PHY208 <= 1
 _C416: Overlap_ASA238_REL232 <= 1
 _C4160: Overlap_ORF245_REL100 <= 1
-_C4161: Room_Assignment_ORF245_65 + Room_Assignment_REL100_65
- + Time_Assignment_ORF245_3 + Time_Assignment_REL100_3 <= 3
+_C4161: Room_Assignment_ORF245_65.0 + Room_Assignment_REL100_65.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C4162: Overlap_ORF245_REL232 <= 1
 _C4163: Overlap_ORF245_SML201 <= 1
 _C4164: Overlap_ORF245_URB201 <= 1
-_C4165: Room_Assignment_ORF245_31 + Room_Assignment_URB201_31
- + Time_Assignment_ORF245_4 + Time_Assignment_URB201_4 <= 3
+_C4165: Room_Assignment_ORF245_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
 _C4166: Overlap_ORF307_AAS201 <= 1
-_C4167: Room_Assignment_AAS201_5 + Room_Assignment_ORF307_5
- + Time_Assignment_AAS201_2 + Time_Assignment_ORF307_2 <= 3
+_C4167: Room_Assignment_AAS201_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
 _C4168: Overlap_ORF307_ASA203 <= 1
-_C4169: Room_Assignment_ASA203_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF307_3 <= 3
+_C4169: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
 _C417: Overlap_ASA238_SML201 <= 1
-_C4170: Room_Assignment_ASA203_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF307_4 <= 3
-_C4171: Room_Assignment_ASA203_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ASA203_5 + Time_Assignment_ORF307_5 <= 3
+_C4170: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4171: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C4172: Overlap_ORF307_ASA238 <= 1
-_C4173: Room_Assignment_ASA238_50 + Room_Assignment_ORF307_50
- + Time_Assignment_ASA238_2 + Time_Assignment_ORF307_2 <= 3
-_C4174: Room_Assignment_ASA238_50 + Room_Assignment_ORF307_50
- + Time_Assignment_ASA238_3 + Time_Assignment_ORF307_3 <= 3
-_C4175: Room_Assignment_ASA238_50 + Room_Assignment_ORF307_50
- + Time_Assignment_ASA238_4 + Time_Assignment_ORF307_4 <= 3
-_C4176: Room_Assignment_ASA238_50 + Room_Assignment_ORF307_50
- + Time_Assignment_ASA238_5 + Time_Assignment_ORF307_5 <= 3
+_C4173: Room_Assignment_ASA238_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4174: Room_Assignment_ASA238_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4175: Room_Assignment_ASA238_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4176: Room_Assignment_ASA238_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C4177: Overlap_ORF307_COS126 <= 1
 _C4178: Overlap_ORF307_COS226 <= 1
-_C4179: Room_Assignment_COS226_35 + Room_Assignment_ORF307_35
- + Time_Assignment_COS226_2 + Time_Assignment_ORF307_2 <= 3
+_C4179: Room_Assignment_COS226_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
 _C418: Overlap_ASA238_URB201 <= 1
 _C4180: Overlap_ORF307_COS217 <= 1
 _C4181: Overlap_ORF307_COS333 <= 1
-_C4182: Room_Assignment_COS333_20 + Room_Assignment_ORF307_20
- + Time_Assignment_COS333_4 + Time_Assignment_ORF307_4 <= 3
+_C4182: Room_Assignment_COS333_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4183: Overlap_ORF307_COS342 <= 1
-_C4184: Room_Assignment_COS342_40 + Room_Assignment_ORF307_40
- + Time_Assignment_COS342_5 + Time_Assignment_ORF307_5 <= 3
+_C4184: Room_Assignment_COS342_40.0 + Room_Assignment_ORF307_40.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C4185: Overlap_ORF307_COS423 <= 1
 _C4186: Overlap_ORF307_COS432 <= 1
-_C4187: Room_Assignment_COS432_20 + Room_Assignment_ORF307_20
- + Time_Assignment_COS432_3 + Time_Assignment_ORF307_3 <= 3
-_C4188: Room_Assignment_COS432_10 + Room_Assignment_ORF307_10
- + Time_Assignment_COS432_3 + Time_Assignment_ORF307_3 <= 3
-_C4189: Room_Assignment_COS432_20 + Room_Assignment_ORF307_20
- + Time_Assignment_COS432_4 + Time_Assignment_ORF307_4 <= 3
+_C4187: Room_Assignment_COS432_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4188: Room_Assignment_COS432_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4189: Room_Assignment_COS432_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C419: Overlap_COS126_AAS201 <= 1
-_C4190: Room_Assignment_COS432_10 + Room_Assignment_ORF307_10
- + Time_Assignment_COS432_4 + Time_Assignment_ORF307_4 <= 3
+_C4190: Room_Assignment_COS432_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4191: Overlap_ORF307_COS484 <= 1
-_C4192: Room_Assignment_COS484_30 + Room_Assignment_ORF307_30
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C4193: Room_Assignment_COS484_25 + Room_Assignment_ORF307_25
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C4194: Room_Assignment_COS484_20 + Room_Assignment_ORF307_20
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C4195: Room_Assignment_COS484_15 + Room_Assignment_ORF307_15
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C4196: Room_Assignment_COS484_10 + Room_Assignment_ORF307_10
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
-_C4197: Room_Assignment_COS484_5 + Room_Assignment_ORF307_5
- + Time_Assignment_COS484_3 + Time_Assignment_ORF307_3 <= 3
+_C4192: Room_Assignment_COS484_30.0 + Room_Assignment_ORF307_30.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4193: Room_Assignment_COS484_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4194: Room_Assignment_COS484_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4195: Room_Assignment_COS484_15.0 + Room_Assignment_ORF307_15.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4196: Room_Assignment_COS484_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4197: Room_Assignment_COS484_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
 _C4198: Overlap_ORF307_COS522 <= 1
-_C4199: Room_Assignment_COS522_40 + Room_Assignment_ORF307_40
- + Time_Assignment_COS522_5 + Time_Assignment_ORF307_5 <= 3
-_C42: Room_Assignment_AAS201_3 + Room_Assignment_GER103_3
- + Time_Assignment_AAS201_2 + Time_Assignment_GER103_2 <= 3
-_C420: Room_Assignment_AAS201_1 + Room_Assignment_COS126_1
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
+_C4199: Room_Assignment_COS522_40.0 + Room_Assignment_ORF307_40.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
+_C42: Room_Assignment_AAS201_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
+_C420: Room_Assignment_AAS201_1.0 + Room_Assignment_COS126_1.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
 _C4200: Overlap_ORF307_COS528 <= 1
 _C4201: Overlap_ORF307_ECO100 <= 1
 _C4202: Overlap_ORF307_ECO102 <= 1
 _C4203: Overlap_ORF307_ECO202 <= 1
-_C4204: Room_Assignment_ECO202_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF307_3 <= 3
-_C4205: Room_Assignment_ECO202_20 + Room_Assignment_ORF307_20
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF307_3 <= 3
-_C4206: Room_Assignment_ECO202_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF307_4 <= 3
-_C4207: Room_Assignment_ECO202_20 + Room_Assignment_ORF307_20
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF307_4 <= 3
-_C4208: Room_Assignment_ECO202_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ECO202_5 + Time_Assignment_ORF307_5 <= 3
-_C4209: Room_Assignment_ECO202_20 + Room_Assignment_ORF307_20
- + Time_Assignment_ECO202_5 + Time_Assignment_ORF307_5 <= 3
-_C421: Room_Assignment_AAS201_2 + Room_Assignment_COS126_2
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
+_C4204: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4205: Room_Assignment_ECO202_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4206: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4207: Room_Assignment_ECO202_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4208: Room_Assignment_ECO202_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
+_C4209: Room_Assignment_ECO202_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
+_C421: Room_Assignment_AAS201_2.0 + Room_Assignment_COS126_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
 _C4210: Overlap_ORF307_ECO300 <= 1
-_C4211: Room_Assignment_ECO300_45 + Room_Assignment_ORF307_45
- + Time_Assignment_ECO300_2 + Time_Assignment_ORF307_2 <= 3
-_C4212: Room_Assignment_ECO300_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO300_2 + Time_Assignment_ORF307_2 <= 3
-_C4213: Room_Assignment_ECO300_45 + Room_Assignment_ORF307_45
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF307_3 <= 3
-_C4214: Room_Assignment_ECO300_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF307_3 <= 3
+_C4211: Room_Assignment_ECO300_45 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4212: Room_Assignment_ECO300_5 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4213: Room_Assignment_ECO300_45 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4214: Room_Assignment_ECO300_5 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
 _C4215: Overlap_ORF307_ECO301 <= 1
-_C4216: Room_Assignment_ECO301_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO301_2 + Time_Assignment_ORF307_2 <= 3
-_C4217: Room_Assignment_ECO301_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO301_4 + Time_Assignment_ORF307_4 <= 3
-_C4218: Room_Assignment_ECO301_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ECO301_5 + Time_Assignment_ORF307_5 <= 3
+_C4216: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4217: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4218: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C4219: Overlap_ORF307_ECO302 <= 1
-_C422: Room_Assignment_AAS201_3 + Room_Assignment_COS126_3
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
+_C422: Room_Assignment_AAS201_3.0 + Room_Assignment_COS126_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
 _C4220: Overlap_ORF307_ECO310 <= 1
-_C4221: Room_Assignment_ECO310_35 + Room_Assignment_ORF307_35
- + Time_Assignment_ECO310_2 + Time_Assignment_ORF307_2 <= 3
-_C4222: Room_Assignment_ECO310_30 + Room_Assignment_ORF307_30
- + Time_Assignment_ECO310_2 + Time_Assignment_ORF307_2 <= 3
-_C4223: Room_Assignment_ECO310_35 + Room_Assignment_ORF307_35
- + Time_Assignment_ECO310_4 + Time_Assignment_ORF307_4 <= 3
-_C4224: Room_Assignment_ECO310_30 + Room_Assignment_ORF307_30
- + Time_Assignment_ECO310_4 + Time_Assignment_ORF307_4 <= 3
+_C4221: Room_Assignment_ECO310_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4222: Room_Assignment_ECO310_30.0 + Room_Assignment_ORF307_30.0
+ + Time_Assignment_ECO310_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4223: Room_Assignment_ECO310_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4224: Room_Assignment_ECO310_30.0 + Room_Assignment_ORF307_30.0
+ + Time_Assignment_ECO310_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4225: Overlap_ORF307_ECO312 <= 1
 _C4226: Overlap_ORF307_GER101 <= 1
 _C4227: Overlap_ORF307_GER103 <= 1
-_C4228: Room_Assignment_GER103_5 + Room_Assignment_ORF307_5
- + Time_Assignment_GER103_2 + Time_Assignment_ORF307_2 <= 3
-_C4229: Room_Assignment_GER103_5 + Room_Assignment_ORF307_5
- + Time_Assignment_GER103_3 + Time_Assignment_ORF307_3 <= 3
-_C423: Room_Assignment_AAS201_4 + Room_Assignment_COS126_4
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
-_C4230: Room_Assignment_GER103_5 + Room_Assignment_ORF307_5
- + Time_Assignment_GER103_4 + Time_Assignment_ORF307_4 <= 3
+_C4228: Room_Assignment_GER103_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4229: Room_Assignment_GER103_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C423: Room_Assignment_AAS201_4.0 + Room_Assignment_COS126_4.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
+_C4230: Room_Assignment_GER103_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4231: Overlap_ORF307_GER105 <= 1
 _C4232: Overlap_ORF307_GER107 <= 1
 _C4233: Overlap_ORF307_LIN201 <= 1
-_C4234: Room_Assignment_LIN201_50 + Room_Assignment_ORF307_50
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF307_4 <= 3
+_C4234: Room_Assignment_LIN201_50.0 + Room_Assignment_ORF307_50.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4235: Overlap_ORF307_LIN300 <= 1
-_C4236: Room_Assignment_LIN300_45 + Room_Assignment_ORF307_45
- + Time_Assignment_LIN300_2 + Time_Assignment_ORF307_2 <= 3
+_C4236: Room_Assignment_LIN300_45.0 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
 _C4237: Overlap_ORF307_MAT103 <= 1
 _C4238: Overlap_ORF307_MAT104 <= 1
 _C4239: Overlap_ORF307_MAT201 <= 1
-_C424: Room_Assignment_AAS201_5 + Room_Assignment_COS126_5
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
-_C4240: Room_Assignment_MAT201_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF307_4 <= 3
-_C4241: Room_Assignment_MAT201_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT201_5 + Time_Assignment_ORF307_5 <= 3
+_C424: Room_Assignment_AAS201_5.0 + Room_Assignment_COS126_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
+_C4240: Room_Assignment_MAT201_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4241: Room_Assignment_MAT201_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C4242: Overlap_ORF307_MAT202 <= 1
 _C4243: Overlap_ORF307_MAT203 <= 1
 _C4244: Overlap_ORF307_MAT204 <= 1
 _C4245: Overlap_ORF307_MAT215 <= 1
-_C4246: Room_Assignment_MAT215_35 + Room_Assignment_ORF307_35
- + Time_Assignment_MAT215_2 + Time_Assignment_ORF307_2 <= 3
-_C4247: Room_Assignment_MAT215_35 + Room_Assignment_ORF307_35
- + Time_Assignment_MAT215_3 + Time_Assignment_ORF307_3 <= 3
-_C4248: Room_Assignment_MAT215_35 + Room_Assignment_ORF307_35
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF307_4 <= 3
+_C4246: Room_Assignment_MAT215_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_MAT215_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4247: Room_Assignment_MAT215_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_MAT215_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4248: Room_Assignment_MAT215_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4249: Overlap_ORF307_MAT216 <= 1
 _C425: Overlap_COS126_ASA203 <= 1
 _C4250: Overlap_ORF307_MAT217 <= 1
-_C4251: Room_Assignment_MAT217_35 + Room_Assignment_ORF307_35
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF307_4 <= 3
-_C4252: Room_Assignment_MAT217_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF307_4 <= 3
+_C4251: Room_Assignment_MAT217_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4252: Room_Assignment_MAT217_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4253: Overlap_ORF307_MAT218 <= 1
 _C4254: Overlap_ORF307_MAT300 <= 1
 _C4255: Overlap_ORF307_MAT325 <= 1
-_C4256: Room_Assignment_MAT325_10 + Room_Assignment_ORF307_10
- + Time_Assignment_MAT325_5 + Time_Assignment_ORF307_5 <= 3
+_C4256: Room_Assignment_MAT325_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C4257: Overlap_ORF307_MAT335 <= 1
-_C4258: Room_Assignment_MAT335_10 + Room_Assignment_ORF307_10
- + Time_Assignment_MAT335_5 + Time_Assignment_ORF307_5 <= 3
-_C4259: Room_Assignment_MAT335_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT335_5 + Time_Assignment_ORF307_5 <= 3
+_C4258: Room_Assignment_MAT335_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
+_C4259: Room_Assignment_MAT335_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C426: Overlap_COS126_ASA238 <= 1
 _C4260: Overlap_ORF307_MAT370 <= 1
 _C4261: Overlap_ORF307_MAT377 <= 1
-_C4262: Room_Assignment_MAT377_15 + Room_Assignment_ORF307_15
- + Time_Assignment_MAT377_2 + Time_Assignment_ORF307_2 <= 3
-_C4263: Room_Assignment_MAT377_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT377_2 + Time_Assignment_ORF307_2 <= 3
+_C4262: Room_Assignment_MAT377_15.0 + Room_Assignment_ORF307_15.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4263: Room_Assignment_MAT377_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
 _C4264: Overlap_ORF307_MAT385 <= 1
-_C4265: Room_Assignment_MAT385_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT385_2 + Time_Assignment_ORF307_2 <= 3
-_C4266: Room_Assignment_MAT385_5 + Room_Assignment_ORF307_5
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF307_3 <= 3
+_C4265: Room_Assignment_MAT385_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4266: Room_Assignment_MAT385_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
 _C4267: Overlap_ORF307_MAT400 <= 1
-_C4268: Room_Assignment_MAT400_45 + Room_Assignment_ORF307_45
- + Time_Assignment_MAT400_2 + Time_Assignment_ORF307_2 <= 3
-_C4269: Room_Assignment_MAT400_45 + Room_Assignment_ORF307_45
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF307_3 <= 3
-_C427: Room_Assignment_ASA238_2 + Room_Assignment_COS126_2
- + Time_Assignment_ASA238_1 + Time_Assignment_COS126_1 <= 3
-_C4270: Room_Assignment_MAT400_45 + Room_Assignment_ORF307_45
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF307_4 <= 3
+_C4268: Room_Assignment_MAT400_45.0 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_MAT400_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C4269: Room_Assignment_MAT400_45.0 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C427: Room_Assignment_ASA238_2.0 + Room_Assignment_COS126_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
+_C4270: Room_Assignment_MAT400_45.0 + Room_Assignment_ORF307_45.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4271: Overlap_ORF307_ORF245 <= 1
-_C4272: Room_Assignment_ORF245_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ORF245_3 + Time_Assignment_ORF307_3 <= 3
-_C4273: Room_Assignment_ORF245_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ORF245_3 + Time_Assignment_ORF307_3 <= 3
-_C4274: Room_Assignment_ORF245_25 + Room_Assignment_ORF307_25
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF307_4 <= 3
-_C4275: Room_Assignment_ORF245_5 + Room_Assignment_ORF307_5
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF307_4 <= 3
+_C4272: Room_Assignment_ORF245_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4273: Room_Assignment_ORF245_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C4274: Room_Assignment_ORF245_25.0 + Room_Assignment_ORF307_25.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C4275: Room_Assignment_ORF245_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C4276: Overlap_ORF307_ORF309 <= 1
 _C4277: Overlap_ORF307_ORF350 <= 1
 _C4278: Overlap_ORF307_ORF363 <= 1
 _C4279: Overlap_ORF307_ORF445 <= 1
-_C428: Room_Assignment_ASA238_3 + Room_Assignment_COS126_3
- + Time_Assignment_ASA238_1 + Time_Assignment_COS126_1 <= 3
-_C4280: Room_Assignment_ORF307_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ORF307_3 + Time_Assignment_ORF445_3 <= 3
-_C4281: Room_Assignment_ORF307_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ORF307_4 + Time_Assignment_ORF445_4 <= 3
+_C428: Room_Assignment_ASA238_3.0 + Room_Assignment_COS126_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
+_C4280: Room_Assignment_ORF307_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ORF307_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4281: Room_Assignment_ORF307_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ORF307_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4282: Overlap_ORF307_PHY103 <= 1
 _C4283: Overlap_ORF307_PHY104 <= 1
 _C4284: Overlap_ORF307_PHY105 <= 1
-_C4285: Room_Assignment_ORF307_10 + Room_Assignment_PHY105_10
- + Time_Assignment_ORF307_2 + Time_Assignment_PHY105_2 <= 3
-_C4286: Room_Assignment_ORF307_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF307_2 + Time_Assignment_PHY105_2 <= 3
-_C4287: Room_Assignment_ORF307_10 + Room_Assignment_PHY105_10
- + Time_Assignment_ORF307_3 + Time_Assignment_PHY105_3 <= 3
-_C4288: Room_Assignment_ORF307_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF307_3 + Time_Assignment_PHY105_3 <= 3
-_C4289: Room_Assignment_ORF307_10 + Room_Assignment_PHY105_10
- + Time_Assignment_ORF307_4 + Time_Assignment_PHY105_4 <= 3
+_C4285: Room_Assignment_ORF307_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_ORF307_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4286: Room_Assignment_ORF307_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF307_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4287: Room_Assignment_ORF307_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_ORF307_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4288: Room_Assignment_ORF307_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF307_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4289: Room_Assignment_ORF307_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_ORF307_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C429: Overlap_COS126_COS226 <= 1
-_C4290: Room_Assignment_ORF307_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF307_4 + Time_Assignment_PHY105_4 <= 3
-_C4291: Room_Assignment_ORF307_10 + Room_Assignment_PHY105_10
- + Time_Assignment_ORF307_5 + Time_Assignment_PHY105_5 <= 3
-_C4292: Room_Assignment_ORF307_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF307_5 + Time_Assignment_PHY105_5 <= 3
+_C4290: Room_Assignment_ORF307_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF307_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4291: Room_Assignment_ORF307_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_ORF307_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4292: Room_Assignment_ORF307_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF307_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4293: Overlap_ORF307_PHY106 <= 1
 _C4294: Overlap_ORF307_PHY208 <= 1
 _C4295: Overlap_ORF307_REL100 <= 1
 _C4296: Overlap_ORF307_REL232 <= 1
-_C4297: Room_Assignment_ORF307_45 + Room_Assignment_REL232_45
- + Time_Assignment_ORF307_4 + Time_Assignment_REL232_4 <= 3
-_C4298: Room_Assignment_ORF307_45 + Room_Assignment_REL232_45
- + Time_Assignment_ORF307_5 + Time_Assignment_REL232_5 <= 3
+_C4297: Room_Assignment_ORF307_45.0 + Room_Assignment_REL232_45.0
+ + Time_Assignment_ORF307_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
+_C4298: Room_Assignment_ORF307_45.0 + Room_Assignment_REL232_45.0
+ + Time_Assignment_ORF307_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C4299: Overlap_ORF307_SML201 <= 1
-_C43: Room_Assignment_AAS201_5 + Room_Assignment_GER103_5
- + Time_Assignment_AAS201_2 + Time_Assignment_GER103_2 <= 3
+_C43: Room_Assignment_AAS201_5.0 + Room_Assignment_GER103_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_GER103_10:00_10:50_AM <= 3
 _C430: Overlap_COS126_COS217 <= 1
 _C4300: Overlap_ORF307_URB201 <= 1
 _C4301: Overlap_ORF309_AAS201 <= 1
 _C4302: Overlap_ORF309_ASA203 <= 1
-_C4303: Room_Assignment_ASA203_43 + Room_Assignment_ORF309_43
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF309_3 <= 3
-_C4304: Room_Assignment_ASA203_13 + Room_Assignment_ORF309_13
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF309_3 <= 3
-_C4305: Room_Assignment_ASA203_43 + Room_Assignment_ORF309_43
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF309_4 <= 3
-_C4306: Room_Assignment_ASA203_13 + Room_Assignment_ORF309_13
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF309_4 <= 3
-_C4307: Room_Assignment_ASA203_43 + Room_Assignment_ORF309_43
- + Time_Assignment_ASA203_5 + Time_Assignment_ORF309_5 <= 3
-_C4308: Room_Assignment_ASA203_13 + Room_Assignment_ORF309_13
- + Time_Assignment_ASA203_5 + Time_Assignment_ORF309_5 <= 3
+_C4303: Room_Assignment_ASA203_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C4304: Room_Assignment_ASA203_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C4305: Room_Assignment_ASA203_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C4306: Room_Assignment_ASA203_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C4307: Room_Assignment_ASA203_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
+_C4308: Room_Assignment_ASA203_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C4309: Overlap_ORF309_ASA238 <= 1
 _C431: Overlap_COS126_COS333 <= 1
-_C4310: Room_Assignment_ASA238_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ASA238_2 + Time_Assignment_ORF309_2 <= 3
-_C4311: Room_Assignment_ASA238_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ASA238_3 + Time_Assignment_ORF309_3 <= 3
-_C4312: Room_Assignment_ASA238_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ASA238_4 + Time_Assignment_ORF309_4 <= 3
-_C4313: Room_Assignment_ASA238_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ASA238_5 + Time_Assignment_ORF309_5 <= 3
+_C4310: Room_Assignment_ASA238_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
+_C4311: Room_Assignment_ASA238_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C4312: Room_Assignment_ASA238_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C4313: Room_Assignment_ASA238_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C4314: Overlap_ORF309_COS126 <= 1
 _C4315: Overlap_ORF309_COS226 <= 1
 _C4316: Overlap_ORF309_COS217 <= 1
-_C4317: Room_Assignment_COS217_73 + Room_Assignment_ORF309_73
- + Time_Assignment_COS217_3 + Time_Assignment_ORF309_3 <= 3
+_C4317: Room_Assignment_COS217_73.0 + Room_Assignment_ORF309_73.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
 _C4318: Overlap_ORF309_COS333 <= 1
 _C4319: Overlap_ORF309_COS342 <= 1
 _C432: Overlap_COS126_COS342 <= 1
 _C4320: Overlap_ORF309_COS423 <= 1
-_C4321: Room_Assignment_COS423_53 + Room_Assignment_ORF309_53
- + Time_Assignment_COS423_3 + Time_Assignment_ORF309_3 <= 3
-_C4322: Room_Assignment_COS423_53 + Room_Assignment_ORF309_53
- + Time_Assignment_COS423_4 + Time_Assignment_ORF309_4 <= 3
-_C4323: Room_Assignment_COS423_53 + Room_Assignment_ORF309_53
- + Time_Assignment_COS423_5 + Time_Assignment_ORF309_5 <= 3
+_C4321: Room_Assignment_COS423_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C4322: Room_Assignment_COS423_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C4323: Room_Assignment_COS423_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_COS423_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C4324: Overlap_ORF309_COS432 <= 1
 _C4325: Overlap_ORF309_COS484 <= 1
 _C4326: Overlap_ORF309_COS522 <= 1
 _C4327: Overlap_ORF309_COS528 <= 1
-_C4328: Room_Assignment_COS528_23 + Room_Assignment_ORF309_23
- + Time_Assignment_COS528_4 + Time_Assignment_ORF309_4 <= 3
-_C4329: Room_Assignment_COS528_13 + Room_Assignment_ORF309_13
- + Time_Assignment_COS528_4 + Time_Assignment_ORF309_4 <= 3
+_C4328: Room_Assignment_COS528_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C4329: Room_Assignment_COS528_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
 _C433: Overlap_COS126_COS423 <= 1
-_C4330: Room_Assignment_COS528_23 + Room_Assignment_ORF309_23
- + Time_Assignment_COS528_5 + Time_Assignment_ORF309_5 <= 3
-_C4331: Room_Assignment_COS528_13 + Room_Assignment_ORF309_13
- + Time_Assignment_COS528_5 + Time_Assignment_ORF309_5 <= 3
+_C4330: Room_Assignment_COS528_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
+_C4331: Room_Assignment_COS528_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C4332: Overlap_ORF309_ECO100 <= 1
 _C4333: Overlap_ORF309_ECO102 <= 1
 _C4334: Overlap_ORF309_ECO202 <= 1
-_C4335: Room_Assignment_ECO202_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF309_3 <= 3
-_C4336: Room_Assignment_ECO202_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF309_4 <= 3
-_C4337: Room_Assignment_ECO202_23 + Room_Assignment_ORF309_23
- + Time_Assignment_ECO202_5 + Time_Assignment_ORF309_5 <= 3
+_C4335: Room_Assignment_ECO202_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C4336: Room_Assignment_ECO202_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C4337: Room_Assignment_ECO202_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C4338: Overlap_ORF309_ECO300 <= 1
 _C4339: Overlap_ORF309_ECO301 <= 1
 _C434: Overlap_COS126_COS432 <= 1
@@ -7193,29 +8669,37 @@ _C4343: Overlap_ORF309_GER101 <= 1
 _C4344: Overlap_ORF309_GER103 <= 1
 _C4345: Overlap_ORF309_GER105 <= 1
 _C4346: Overlap_ORF309_GER107 <= 1
-_C4347: Room_Assignment_GER107_73 + Room_Assignment_ORF309_73
- + Time_Assignment_GER107_3 + Time_Assignment_ORF309_3 <= 3
+_C4347: Room_Assignment_GER107_73.0 + Room_Assignment_ORF309_73.0
+ + Time_Assignment_GER107_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
 _C4348: Overlap_ORF309_LIN201 <= 1
-_C4349: Room_Assignment_LIN201_53 + Room_Assignment_ORF309_53
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF309_4 <= 3
+_C4349: Room_Assignment_LIN201_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
 _C435: Overlap_COS126_COS484 <= 1
 _C4350: Overlap_ORF309_LIN300 <= 1
-_C4351: Room_Assignment_LIN300_43 + Room_Assignment_ORF309_43
- + Time_Assignment_LIN300_2 + Time_Assignment_ORF309_2 <= 3
+_C4351: Room_Assignment_LIN300_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
 _C4352: Overlap_ORF309_MAT103 <= 1
-_C4353: Room_Assignment_MAT103_23 + Room_Assignment_ORF309_23
- + Time_Assignment_MAT103_2 + Time_Assignment_ORF309_2 <= 3
-_C4354: Room_Assignment_MAT103_23 + Room_Assignment_ORF309_23
- + Time_Assignment_MAT103_3 + Time_Assignment_ORF309_3 <= 3
-_C4355: Room_Assignment_MAT103_23 + Room_Assignment_ORF309_23
- + Time_Assignment_MAT103_5 + Time_Assignment_ORF309_5 <= 3
+_C4353: Room_Assignment_MAT103_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_MAT103_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
+_C4354: Room_Assignment_MAT103_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C4355: Room_Assignment_MAT103_23.0 + Room_Assignment_ORF309_23.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C4356: Overlap_ORF309_MAT104 <= 1
-_C4357: Room_Assignment_MAT104_63 + Room_Assignment_ORF309_63
- + Time_Assignment_MAT104_5 + Time_Assignment_ORF309_5 <= 3
+_C4357: Room_Assignment_MAT104_63.0 + Room_Assignment_ORF309_63.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C4358: Overlap_ORF309_MAT201 <= 1
 _C4359: Overlap_ORF309_MAT202 <= 1
-_C436: Room_Assignment_COS126_3 + Room_Assignment_COS484_3
- + Time_Assignment_COS126_1 + Time_Assignment_COS484_1 <= 3
+_C436: Room_Assignment_COS126_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
 _C4360: Overlap_ORF309_MAT203 <= 1
 _C4361: Overlap_ORF309_MAT204 <= 1
 _C4362: Overlap_ORF309_MAT215 <= 1
@@ -7226,51 +8710,65 @@ _C4366: Overlap_ORF309_MAT300 <= 1
 _C4367: Overlap_ORF309_MAT325 <= 1
 _C4368: Overlap_ORF309_MAT335 <= 1
 _C4369: Overlap_ORF309_MAT370 <= 1
-_C437: Room_Assignment_COS126_5 + Room_Assignment_COS484_5
- + Time_Assignment_COS126_1 + Time_Assignment_COS484_1 <= 3
-_C4370: Room_Assignment_MAT370_53 + Room_Assignment_ORF309_53
- + Time_Assignment_MAT370_5 + Time_Assignment_ORF309_5 <= 3
+_C437: Room_Assignment_COS126_5.0 + Room_Assignment_COS484_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
+_C4370: Room_Assignment_MAT370_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C4371: Overlap_ORF309_MAT377 <= 1
 _C4372: Overlap_ORF309_MAT385 <= 1
-_C4373: Room_Assignment_MAT385_43 + Room_Assignment_ORF309_43
- + Time_Assignment_MAT385_2 + Time_Assignment_ORF309_2 <= 3
-_C4374: Room_Assignment_MAT385_43 + Room_Assignment_ORF309_43
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF309_3 <= 3
+_C4373: Room_Assignment_MAT385_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
+_C4374: Room_Assignment_MAT385_43.0 + Room_Assignment_ORF309_43.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
 _C4375: Overlap_ORF309_MAT400 <= 1
-_C4376: Room_Assignment_MAT400_13 + Room_Assignment_ORF309_13
- + Time_Assignment_MAT400_2 + Time_Assignment_ORF309_2 <= 3
-_C4377: Room_Assignment_MAT400_13 + Room_Assignment_ORF309_13
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF309_3 <= 3
-_C4378: Room_Assignment_MAT400_13 + Room_Assignment_ORF309_13
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF309_4 <= 3
+_C4376: Room_Assignment_MAT400_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_MAT400_10:00_10:50_AM
+ + Time_Assignment_ORF309_10:00_10:50_AM <= 3
+_C4377: Room_Assignment_MAT400_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C4378: Room_Assignment_MAT400_13.0 + Room_Assignment_ORF309_13.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
 _C4379: Overlap_ORF309_ORF245 <= 1
 _C438: Overlap_COS126_COS522 <= 1
 _C4380: Overlap_ORF309_ORF307 <= 1
 _C4381: Overlap_ORF309_ORF350 <= 1
 _C4382: Overlap_ORF309_ORF363 <= 1
 _C4383: Overlap_ORF309_ORF445 <= 1
-_C4384: Room_Assignment_ORF309_53 + Room_Assignment_ORF445_53
- + Time_Assignment_ORF309_3 + Time_Assignment_ORF445_3 <= 3
-_C4385: Room_Assignment_ORF309_53 + Room_Assignment_ORF445_53
- + Time_Assignment_ORF309_4 + Time_Assignment_ORF445_4 <= 3
+_C4384: Room_Assignment_ORF309_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_ORF309_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4385: Room_Assignment_ORF309_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_ORF309_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4386: Overlap_ORF309_PHY103 <= 1
 _C4387: Overlap_ORF309_PHY104 <= 1
 _C4388: Overlap_ORF309_PHY105 <= 1
 _C4389: Overlap_ORF309_PHY106 <= 1
-_C439: Room_Assignment_COS126_8 + Room_Assignment_COS522_8
- + Time_Assignment_COS126_1 + Time_Assignment_COS522_1 <= 3
+_C439: Room_Assignment_COS126_8.0 + Room_Assignment_COS522_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_COS522_9:00_9:50_AM
+ <= 3
 _C4390: Overlap_ORF309_PHY208 <= 1
 _C4391: Overlap_ORF309_REL100 <= 1
-_C4392: Room_Assignment_ORF309_43 + Room_Assignment_REL100_43
- + Time_Assignment_ORF309_3 + Time_Assignment_REL100_3 <= 3
+_C4392: Room_Assignment_ORF309_43.0 + Room_Assignment_REL100_43.0
+ + Time_Assignment_ORF309_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C4393: Overlap_ORF309_REL232 <= 1
-_C4394: Room_Assignment_ORF309_43 + Room_Assignment_REL232_43
- + Time_Assignment_ORF309_4 + Time_Assignment_REL232_4 <= 3
-_C4395: Room_Assignment_ORF309_43 + Room_Assignment_REL232_43
- + Time_Assignment_ORF309_5 + Time_Assignment_REL232_5 <= 3
+_C4394: Room_Assignment_ORF309_43.0 + Room_Assignment_REL232_43.0
+ + Time_Assignment_ORF309_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
+_C4395: Room_Assignment_ORF309_43.0 + Room_Assignment_REL232_43.0
+ + Time_Assignment_ORF309_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C4396: Overlap_ORF309_SML201 <= 1
-_C4397: Room_Assignment_ORF309_43 + Room_Assignment_SML201_43
- + Time_Assignment_ORF309_5 + Time_Assignment_SML201_5 <= 3
+_C4397: Room_Assignment_ORF309_43.0 + Room_Assignment_SML201_43.0
+ + Time_Assignment_ORF309_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C4398: Overlap_ORF309_URB201 <= 1
 _C4399: Overlap_ORF350_AAS201 <= 1
 _C44: Overlap_AAS201_GER105 <= 1
@@ -7280,96 +8778,121 @@ _C4401: Overlap_ORF350_ASA238 <= 1
 _C4402: Overlap_ORF350_COS126 <= 1
 _C4403: Overlap_ORF350_COS226 <= 1
 _C4404: Overlap_ORF350_COS217 <= 1
-_C4405: Room_Assignment_COS217_6 + Room_Assignment_ORF350_6
- + Time_Assignment_COS217_3 + Time_Assignment_ORF350_3 <= 3
+_C4405: Room_Assignment_COS217_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
 _C4406: Overlap_ORF350_COS333 <= 1
 _C4407: Overlap_ORF350_COS342 <= 1
-_C4408: Room_Assignment_COS342_9 + Room_Assignment_ORF350_9
- + Time_Assignment_COS342_5 + Time_Assignment_ORF350_5 <= 3
+_C4408: Room_Assignment_COS342_9.0 + Room_Assignment_ORF350_9.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C4409: Overlap_ORF350_COS423 <= 1
 _C441: Overlap_COS126_ECO100 <= 1
 _C4410: Overlap_ORF350_COS432 <= 1
-_C4411: Room_Assignment_COS432_6 + Room_Assignment_ORF350_6
- + Time_Assignment_COS432_3 + Time_Assignment_ORF350_3 <= 3
-_C4412: Room_Assignment_COS432_6 + Room_Assignment_ORF350_6
- + Time_Assignment_COS432_4 + Time_Assignment_ORF350_4 <= 3
+_C4411: Room_Assignment_COS432_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
+_C4412: Room_Assignment_COS432_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
 _C4413: Overlap_ORF350_COS484 <= 1
 _C4414: Overlap_ORF350_COS522 <= 1
 _C4415: Overlap_ORF350_COS528 <= 1
-_C4416: Room_Assignment_COS528_29 + Room_Assignment_ORF350_29
- + Time_Assignment_COS528_4 + Time_Assignment_ORF350_4 <= 3
-_C4417: Room_Assignment_COS528_19 + Room_Assignment_ORF350_19
- + Time_Assignment_COS528_4 + Time_Assignment_ORF350_4 <= 3
-_C4418: Room_Assignment_COS528_29 + Room_Assignment_ORF350_29
- + Time_Assignment_COS528_5 + Time_Assignment_ORF350_5 <= 3
-_C4419: Room_Assignment_COS528_19 + Room_Assignment_ORF350_19
- + Time_Assignment_COS528_5 + Time_Assignment_ORF350_5 <= 3
-_C442: Room_Assignment_COS126_3 + Room_Assignment_ECO100_3
- + Time_Assignment_COS126_1 + Time_Assignment_ECO100_1 <= 3
+_C4416: Room_Assignment_COS528_29.0 + Room_Assignment_ORF350_29.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
+_C4417: Room_Assignment_COS528_19.0 + Room_Assignment_ORF350_19.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
+_C4418: Room_Assignment_COS528_29.0 + Room_Assignment_ORF350_29.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
+_C4419: Room_Assignment_COS528_19.0 + Room_Assignment_ORF350_19.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
+_C442: Room_Assignment_COS126_3.0 + Room_Assignment_ECO100_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
 _C4420: Overlap_ORF350_ECO100 <= 1
 _C4421: Overlap_ORF350_ECO102 <= 1
 _C4422: Overlap_ORF350_ECO202 <= 1
 _C4423: Overlap_ORF350_ECO300 <= 1
-_C4424: Room_Assignment_ECO300_39 + Room_Assignment_ORF350_39
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF350_3 <= 3
-_C4425: Room_Assignment_ECO300_29 + Room_Assignment_ORF350_29
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF350_3 <= 3
+_C4424: Room_Assignment_ECO300_39 + Room_Assignment_ORF350_39.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
+_C4425: Room_Assignment_ECO300_29 + Room_Assignment_ORF350_29.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
 _C4426: Overlap_ORF350_ECO301 <= 1
 _C4427: Overlap_ORF350_ECO302 <= 1
 _C4428: Overlap_ORF350_ECO310 <= 1
 _C4429: Overlap_ORF350_ECO312 <= 1
-_C443: Room_Assignment_COS126_6 + Room_Assignment_ECO100_6
- + Time_Assignment_COS126_1 + Time_Assignment_ECO100_1 <= 3
-_C4430: Room_Assignment_ECO312_49 + Room_Assignment_ORF350_49
- + Time_Assignment_ECO312_3 + Time_Assignment_ORF350_3 <= 3
-_C4431: Room_Assignment_ECO312_49 + Room_Assignment_ORF350_49
- + Time_Assignment_ECO312_5 + Time_Assignment_ORF350_5 <= 3
+_C443: Room_Assignment_COS126_6.0 + Room_Assignment_ECO100_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
+_C4430: Room_Assignment_ECO312_49.0 + Room_Assignment_ORF350_49.0
+ + Time_Assignment_ECO312_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
+_C4431: Room_Assignment_ECO312_49.0 + Room_Assignment_ORF350_49.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C4432: Overlap_ORF350_GER101 <= 1
-_C4433: Room_Assignment_GER101_29 + Room_Assignment_ORF350_29
- + Time_Assignment_GER101_3 + Time_Assignment_ORF350_3 <= 3
+_C4433: Room_Assignment_GER101_29.0 + Room_Assignment_ORF350_29.0
+ + Time_Assignment_GER101_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
 _C4434: Overlap_ORF350_GER103 <= 1
-_C4435: Room_Assignment_GER103_9 + Room_Assignment_ORF350_9
- + Time_Assignment_GER103_3 + Time_Assignment_ORF350_3 <= 3
-_C4436: Room_Assignment_GER103_9 + Room_Assignment_ORF350_9
- + Time_Assignment_GER103_4 + Time_Assignment_ORF350_4 <= 3
+_C4435: Room_Assignment_GER103_9.0 + Room_Assignment_ORF350_9.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
+_C4436: Room_Assignment_GER103_9.0 + Room_Assignment_ORF350_9.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
 _C4437: Overlap_ORF350_GER105 <= 1
 _C4438: Overlap_ORF350_GER107 <= 1
 _C4439: Overlap_ORF350_LIN201 <= 1
-_C444: Room_Assignment_COS126_9 + Room_Assignment_ECO100_9
- + Time_Assignment_COS126_1 + Time_Assignment_ECO100_1 <= 3
+_C444: Room_Assignment_COS126_9.0 + Room_Assignment_ECO100_9.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_ECO100_9:00_9:50_AM
+ <= 3
 _C4440: Overlap_ORF350_LIN300 <= 1
 _C4441: Overlap_ORF350_MAT103 <= 1
 _C4442: Overlap_ORF350_MAT104 <= 1
-_C4443: Room_Assignment_MAT104_49 + Room_Assignment_ORF350_49
- + Time_Assignment_MAT104_5 + Time_Assignment_ORF350_5 <= 3
+_C4443: Room_Assignment_MAT104_49.0 + Room_Assignment_ORF350_49.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C4444: Overlap_ORF350_MAT201 <= 1
-_C4445: Room_Assignment_MAT201_6 + Room_Assignment_ORF350_6
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF350_4 <= 3
-_C4446: Room_Assignment_MAT201_6 + Room_Assignment_ORF350_6
- + Time_Assignment_MAT201_5 + Time_Assignment_ORF350_5 <= 3
+_C4445: Room_Assignment_MAT201_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
+_C4446: Room_Assignment_MAT201_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C4447: Overlap_ORF350_MAT202 <= 1
 _C4448: Overlap_ORF350_MAT203 <= 1
 _C4449: Overlap_ORF350_MAT204 <= 1
 _C445: Overlap_COS126_ECO102 <= 1
 _C4450: Overlap_ORF350_MAT215 <= 1
 _C4451: Overlap_ORF350_MAT216 <= 1
-_C4452: Room_Assignment_MAT216_59 + Room_Assignment_ORF350_59
- + Time_Assignment_MAT216_3 + Time_Assignment_ORF350_3 <= 3
+_C4452: Room_Assignment_MAT216_59.0 + Room_Assignment_ORF350_59.0
+ + Time_Assignment_MAT216_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
 _C4453: Overlap_ORF350_MAT217 <= 1
 _C4454: Overlap_ORF350_MAT218 <= 1
 _C4455: Overlap_ORF350_MAT300 <= 1
 _C4456: Overlap_ORF350_MAT325 <= 1
-_C4457: Room_Assignment_MAT325_59 + Room_Assignment_ORF350_59
- + Time_Assignment_MAT325_5 + Time_Assignment_ORF350_5 <= 3
+_C4457: Room_Assignment_MAT325_59.0 + Room_Assignment_ORF350_59.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C4458: Overlap_ORF350_MAT335 <= 1
-_C4459: Room_Assignment_MAT335_6 + Room_Assignment_ORF350_6
- + Time_Assignment_MAT335_5 + Time_Assignment_ORF350_5 <= 3
+_C4459: Room_Assignment_MAT335_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C446: Overlap_COS126_ECO202 <= 1
 _C4460: Overlap_ORF350_MAT370 <= 1
 _C4461: Overlap_ORF350_MAT377 <= 1
 _C4462: Overlap_ORF350_MAT385 <= 1
-_C4463: Room_Assignment_MAT385_6 + Room_Assignment_ORF350_6
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF350_3 <= 3
+_C4463: Room_Assignment_MAT385_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
 _C4464: Overlap_ORF350_MAT400 <= 1
 _C4465: Overlap_ORF350_ORF245 <= 1
 _C4466: Overlap_ORF350_ORF307 <= 1
@@ -7380,44 +8903,58 @@ _C447: Overlap_COS126_ECO300 <= 1
 _C4470: Overlap_ORF350_PHY103 <= 1
 _C4471: Overlap_ORF350_PHY104 <= 1
 _C4472: Overlap_ORF350_PHY105 <= 1
-_C4473: Room_Assignment_ORF350_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ORF350_3 + Time_Assignment_PHY105_3 <= 3
-_C4474: Room_Assignment_ORF350_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ORF350_3 + Time_Assignment_PHY105_3 <= 3
-_C4475: Room_Assignment_ORF350_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ORF350_4 + Time_Assignment_PHY105_4 <= 3
-_C4476: Room_Assignment_ORF350_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ORF350_4 + Time_Assignment_PHY105_4 <= 3
-_C4477: Room_Assignment_ORF350_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY105_5 <= 3
-_C4478: Room_Assignment_ORF350_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY105_5 <= 3
+_C4473: Room_Assignment_ORF350_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ORF350_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4474: Room_Assignment_ORF350_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ORF350_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4475: Room_Assignment_ORF350_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ORF350_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4476: Room_Assignment_ORF350_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ORF350_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4477: Room_Assignment_ORF350_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4478: Room_Assignment_ORF350_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4479: Overlap_ORF350_PHY106 <= 1
 _C448: Overlap_COS126_ECO301 <= 1
-_C4480: Room_Assignment_ORF350_49 + Room_Assignment_PHY106_49
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY106_5 <= 3
-_C4481: Room_Assignment_ORF350_39 + Room_Assignment_PHY106_39
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY106_5 <= 3
-_C4482: Room_Assignment_ORF350_29 + Room_Assignment_PHY106_29
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY106_5 <= 3
-_C4483: Room_Assignment_ORF350_19 + Room_Assignment_PHY106_19
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY106_5 <= 3
+_C4480: Room_Assignment_ORF350_49.0 + Room_Assignment_PHY106_49.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C4481: Room_Assignment_ORF350_39.0 + Room_Assignment_PHY106_39.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C4482: Room_Assignment_ORF350_29.0 + Room_Assignment_PHY106_29.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C4483: Room_Assignment_ORF350_19.0 + Room_Assignment_PHY106_19.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C4484: Overlap_ORF350_PHY208 <= 1
 _C4485: Overlap_ORF350_REL100 <= 1
-_C4486: Room_Assignment_ORF350_9 + Room_Assignment_REL100_9
- + Time_Assignment_ORF350_3 + Time_Assignment_REL100_3 <= 3
+_C4486: Room_Assignment_ORF350_9.0 + Room_Assignment_REL100_9.0
+ + Time_Assignment_ORF350_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C4487: Overlap_ORF350_REL232 <= 1
-_C4488: Room_Assignment_ORF350_49 + Room_Assignment_REL232_49
- + Time_Assignment_ORF350_4 + Time_Assignment_REL232_4 <= 3
-_C4489: Room_Assignment_ORF350_49 + Room_Assignment_REL232_49
- + Time_Assignment_ORF350_5 + Time_Assignment_REL232_5 <= 3
+_C4488: Room_Assignment_ORF350_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_ORF350_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
+_C4489: Room_Assignment_ORF350_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C449: Overlap_COS126_ECO302 <= 1
 _C4490: Overlap_ORF350_SML201 <= 1
 _C4491: Overlap_ORF350_URB201 <= 1
 _C4492: Overlap_ORF363_AAS201 <= 1
 _C4493: Overlap_ORF363_ASA203 <= 1
-_C4494: Room_Assignment_ASA203_21 + Room_Assignment_ORF363_21
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF363_4 <= 3
+_C4494: Room_Assignment_ASA203_21.0 + Room_Assignment_ORF363_21.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C4495: Overlap_ORF363_ASA238 <= 1
 _C4496: Overlap_ORF363_COS126 <= 1
 _C4497: Overlap_ORF363_COS226 <= 1
@@ -7425,26 +8962,31 @@ _C4498: Overlap_ORF363_COS217 <= 1
 _C4499: Overlap_ORF363_COS333 <= 1
 _C45: Overlap_AAS201_GER107 <= 1
 _C450: Overlap_COS126_ECO310 <= 1
-_C4500: Room_Assignment_COS333_21 + Room_Assignment_ORF363_21
- + Time_Assignment_COS333_4 + Time_Assignment_ORF363_4 <= 3
+_C4500: Room_Assignment_COS333_21.0 + Room_Assignment_ORF363_21.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C4501: Overlap_ORF363_COS342 <= 1
 _C4502: Overlap_ORF363_COS423 <= 1
-_C4503: Room_Assignment_COS423_51 + Room_Assignment_ORF363_51
- + Time_Assignment_COS423_4 + Time_Assignment_ORF363_4 <= 3
+_C4503: Room_Assignment_COS423_51.0 + Room_Assignment_ORF363_51.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C4504: Overlap_ORF363_COS432 <= 1
 _C4505: Overlap_ORF363_COS484 <= 1
 _C4506: Overlap_ORF363_COS522 <= 1
 _C4507: Overlap_ORF363_COS528 <= 1
-_C4508: Room_Assignment_COS528_11 + Room_Assignment_ORF363_11
- + Time_Assignment_COS528_4 + Time_Assignment_ORF363_4 <= 3
-_C4509: Room_Assignment_COS528_31 + Room_Assignment_ORF363_31
- + Time_Assignment_COS528_4 + Time_Assignment_ORF363_4 <= 3
+_C4508: Room_Assignment_COS528_11.0 + Room_Assignment_ORF363_11.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
+_C4509: Room_Assignment_COS528_31.0 + Room_Assignment_ORF363_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C451: Overlap_COS126_ECO312 <= 1
 _C4510: Overlap_ORF363_ECO100 <= 1
 _C4511: Overlap_ORF363_ECO102 <= 1
 _C4512: Overlap_ORF363_ECO202 <= 1
-_C4513: Room_Assignment_ECO202_21 + Room_Assignment_ORF363_21
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF363_4 <= 3
+_C4513: Room_Assignment_ECO202_21.0 + Room_Assignment_ORF363_21.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C4514: Overlap_ORF363_ECO300 <= 1
 _C4515: Overlap_ORF363_ECO301 <= 1
 _C4516: Overlap_ORF363_ECO302 <= 1
@@ -7456,8 +8998,9 @@ _C4520: Overlap_ORF363_GER103 <= 1
 _C4521: Overlap_ORF363_GER105 <= 1
 _C4522: Overlap_ORF363_GER107 <= 1
 _C4523: Overlap_ORF363_LIN201 <= 1
-_C4524: Room_Assignment_LIN201_51 + Room_Assignment_ORF363_51
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF363_4 <= 3
+_C4524: Room_Assignment_LIN201_51.0 + Room_Assignment_ORF363_51.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C4525: Overlap_ORF363_LIN300 <= 1
 _C4526: Overlap_ORF363_MAT103 <= 1
 _C4527: Overlap_ORF363_MAT104 <= 1
@@ -7467,8 +9010,9 @@ _C453: Overlap_COS126_GER103 <= 1
 _C4530: Overlap_ORF363_MAT203 <= 1
 _C4531: Overlap_ORF363_MAT204 <= 1
 _C4532: Overlap_ORF363_MAT215 <= 1
-_C4533: Room_Assignment_MAT215_31 + Room_Assignment_ORF363_31
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF363_4 <= 3
+_C4533: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF363_31.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C4534: Overlap_ORF363_MAT216 <= 1
 _C4535: Overlap_ORF363_MAT217 <= 1
 _C4536: Overlap_ORF363_MAT218 <= 1
@@ -7481,15 +9025,17 @@ _C4541: Overlap_ORF363_MAT377 <= 1
 _C4542: Overlap_ORF363_MAT385 <= 1
 _C4543: Overlap_ORF363_MAT400 <= 1
 _C4544: Overlap_ORF363_ORF245 <= 1
-_C4545: Room_Assignment_ORF245_31 + Room_Assignment_ORF363_31
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF363_4 <= 3
+_C4545: Room_Assignment_ORF245_31.0 + Room_Assignment_ORF363_31.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C4546: Overlap_ORF363_ORF307 <= 1
 _C4547: Overlap_ORF363_ORF309 <= 1
 _C4548: Overlap_ORF363_ORF350 <= 1
 _C4549: Overlap_ORF363_ORF445 <= 1
 _C455: Overlap_COS126_GER107 <= 1
-_C4550: Room_Assignment_ORF363_31 + Room_Assignment_ORF445_31
- + Time_Assignment_ORF363_4 + Time_Assignment_ORF445_4 <= 3
+_C4550: Room_Assignment_ORF363_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_ORF363_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4551: Overlap_ORF363_PHY103 <= 1
 _C4552: Overlap_ORF363_PHY104 <= 1
 _C4553: Overlap_ORF363_PHY105 <= 1
@@ -7500,18 +9046,23 @@ _C4557: Overlap_ORF363_REL232 <= 1
 _C4558: Overlap_ORF363_SML201 <= 1
 _C4559: Overlap_ORF363_URB201 <= 1
 _C456: Overlap_COS126_LIN201 <= 1
-_C4560: Room_Assignment_ORF363_31 + Room_Assignment_URB201_31
- + Time_Assignment_ORF363_4 + Time_Assignment_URB201_4 <= 3
+_C4560: Room_Assignment_ORF363_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_ORF363_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
 _C4561: Overlap_ORF445_AAS201 <= 1
 _C4562: Overlap_ORF445_ASA203 <= 1
-_C4563: Room_Assignment_ASA203_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF445_3 <= 3
-_C4564: Room_Assignment_ASA203_12 + Room_Assignment_ORF445_12
- + Time_Assignment_ASA203_3 + Time_Assignment_ORF445_3 <= 3
-_C4565: Room_Assignment_ASA203_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF445_4 <= 3
-_C4566: Room_Assignment_ASA203_12 + Room_Assignment_ORF445_12
- + Time_Assignment_ASA203_4 + Time_Assignment_ORF445_4 <= 3
+_C4563: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4564: Room_Assignment_ASA203_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4565: Room_Assignment_ASA203_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C4566: Room_Assignment_ASA203_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4567: Overlap_ORF445_ASA238 <= 1
 _C4568: Overlap_ORF445_COS126 <= 1
 _C4569: Overlap_ORF445_COS226 <= 1
@@ -7520,221 +9071,294 @@ _C4570: Overlap_ORF445_COS217 <= 1
 _C4571: Overlap_ORF445_COS333 <= 1
 _C4572: Overlap_ORF445_COS342 <= 1
 _C4573: Overlap_ORF445_COS423 <= 1
-_C4574: Room_Assignment_COS423_54 + Room_Assignment_ORF445_54
- + Time_Assignment_COS423_3 + Time_Assignment_ORF445_3 <= 3
-_C4575: Room_Assignment_COS423_53 + Room_Assignment_ORF445_53
- + Time_Assignment_COS423_3 + Time_Assignment_ORF445_3 <= 3
-_C4576: Room_Assignment_COS423_54 + Room_Assignment_ORF445_54
- + Time_Assignment_COS423_4 + Time_Assignment_ORF445_4 <= 3
-_C4577: Room_Assignment_COS423_53 + Room_Assignment_ORF445_53
- + Time_Assignment_COS423_4 + Time_Assignment_ORF445_4 <= 3
+_C4574: Room_Assignment_COS423_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4575: Room_Assignment_COS423_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4576: Room_Assignment_COS423_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C4577: Room_Assignment_COS423_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4578: Overlap_ORF445_COS432 <= 1
-_C4579: Room_Assignment_COS432_12 + Room_Assignment_ORF445_12
- + Time_Assignment_COS432_3 + Time_Assignment_ORF445_3 <= 3
+_C4579: Room_Assignment_COS432_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C458: Overlap_COS126_MAT103 <= 1
-_C4580: Room_Assignment_COS432_12 + Room_Assignment_ORF445_12
- + Time_Assignment_COS432_4 + Time_Assignment_ORF445_4 <= 3
+_C4580: Room_Assignment_COS432_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4581: Overlap_ORF445_COS484 <= 1
-_C4582: Room_Assignment_COS484_5 + Room_Assignment_ORF445_5
- + Time_Assignment_COS484_3 + Time_Assignment_ORF445_3 <= 3
+_C4582: Room_Assignment_COS484_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C4583: Overlap_ORF445_COS522 <= 1
 _C4584: Overlap_ORF445_COS528 <= 1
-_C4585: Room_Assignment_COS528_31 + Room_Assignment_ORF445_31
- + Time_Assignment_COS528_4 + Time_Assignment_ORF445_4 <= 3
+_C4585: Room_Assignment_COS528_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4586: Overlap_ORF445_ECO100 <= 1
 _C4587: Overlap_ORF445_ECO102 <= 1
 _C4588: Overlap_ORF445_ECO202 <= 1
-_C4589: Room_Assignment_ECO202_24 + Room_Assignment_ORF445_24
- + Time_Assignment_ECO202_3 + Time_Assignment_ORF445_3 <= 3
+_C4589: Room_Assignment_ECO202_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C459: Overlap_COS126_MAT104 <= 1
-_C4590: Room_Assignment_ECO202_24 + Room_Assignment_ORF445_24
- + Time_Assignment_ECO202_4 + Time_Assignment_ORF445_4 <= 3
+_C4590: Room_Assignment_ECO202_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_ECO202_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4591: Overlap_ORF445_ECO300 <= 1
-_C4592: Room_Assignment_ECO300_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF445_3 <= 3
-_C4593: Room_Assignment_ECO300_24 + Room_Assignment_ORF445_24
- + Time_Assignment_ECO300_3 + Time_Assignment_ORF445_3 <= 3
+_C4592: Room_Assignment_ECO300_5 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4593: Room_Assignment_ECO300_24 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C4594: Overlap_ORF445_ECO301 <= 1
-_C4595: Room_Assignment_ECO301_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ECO301_4 + Time_Assignment_ORF445_4 <= 3
+_C4595: Room_Assignment_ECO301_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4596: Overlap_ORF445_ECO302 <= 1
-_C4597: Room_Assignment_ECO302_64 + Room_Assignment_ORF445_64
- + Time_Assignment_ECO302_3 + Time_Assignment_ORF445_3 <= 3
+_C4597: Room_Assignment_ECO302_64.0 + Room_Assignment_ORF445_64.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C4598: Overlap_ORF445_ECO310 <= 1
 _C4599: Overlap_ORF445_ECO312 <= 1
 _C46: Overlap_AAS201_LIN201 <= 1
 _C460: Overlap_COS126_MAT201 <= 1
 _C4600: Overlap_ORF445_GER101 <= 1
 _C4601: Overlap_ORF445_GER103 <= 1
-_C4602: Room_Assignment_GER103_5 + Room_Assignment_ORF445_5
- + Time_Assignment_GER103_3 + Time_Assignment_ORF445_3 <= 3
-_C4603: Room_Assignment_GER103_5 + Room_Assignment_ORF445_5
- + Time_Assignment_GER103_4 + Time_Assignment_ORF445_4 <= 3
+_C4602: Room_Assignment_GER103_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4603: Room_Assignment_GER103_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4604: Overlap_ORF445_GER105 <= 1
 _C4605: Overlap_ORF445_GER107 <= 1
 _C4606: Overlap_ORF445_LIN201 <= 1
-_C4607: Room_Assignment_LIN201_54 + Room_Assignment_ORF445_54
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF445_4 <= 3
-_C4608: Room_Assignment_LIN201_53 + Room_Assignment_ORF445_53
- + Time_Assignment_LIN201_4 + Time_Assignment_ORF445_4 <= 3
+_C4607: Room_Assignment_LIN201_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C4608: Room_Assignment_LIN201_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4609: Overlap_ORF445_LIN300 <= 1
 _C461: Overlap_COS126_MAT202 <= 1
 _C4610: Overlap_ORF445_MAT103 <= 1
-_C4611: Room_Assignment_MAT103_12 + Room_Assignment_ORF445_12
- + Time_Assignment_MAT103_3 + Time_Assignment_ORF445_3 <= 3
+_C4611: Room_Assignment_MAT103_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C4612: Overlap_ORF445_MAT104 <= 1
 _C4613: Overlap_ORF445_MAT201 <= 1
-_C4614: Room_Assignment_MAT201_5 + Room_Assignment_ORF445_5
- + Time_Assignment_MAT201_4 + Time_Assignment_ORF445_4 <= 3
+_C4614: Room_Assignment_MAT201_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4615: Overlap_ORF445_MAT202 <= 1
 _C4616: Overlap_ORF445_MAT203 <= 1
 _C4617: Overlap_ORF445_MAT204 <= 1
 _C4618: Overlap_ORF445_MAT215 <= 1
-_C4619: Room_Assignment_MAT215_31 + Room_Assignment_ORF445_31
- + Time_Assignment_MAT215_3 + Time_Assignment_ORF445_3 <= 3
-_C462: Room_Assignment_COS126_1 + Room_Assignment_MAT202_1
- + Time_Assignment_COS126_1 + Time_Assignment_MAT202_1 <= 3
-_C4620: Room_Assignment_MAT215_31 + Room_Assignment_ORF445_31
- + Time_Assignment_MAT215_4 + Time_Assignment_ORF445_4 <= 3
+_C4619: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_MAT215_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C462: Room_Assignment_COS126_1.0 + Room_Assignment_MAT202_1.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
+_C4620: Room_Assignment_MAT215_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4621: Overlap_ORF445_MAT216 <= 1
 _C4622: Overlap_ORF445_MAT217 <= 1
-_C4623: Room_Assignment_MAT217_5 + Room_Assignment_ORF445_5
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF445_4 <= 3
-_C4624: Room_Assignment_MAT217_24 + Room_Assignment_ORF445_24
- + Time_Assignment_MAT217_4 + Time_Assignment_ORF445_4 <= 3
+_C4623: Room_Assignment_MAT217_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C4624: Room_Assignment_MAT217_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4625: Overlap_ORF445_MAT218 <= 1
 _C4626: Overlap_ORF445_MAT300 <= 1
 _C4627: Overlap_ORF445_MAT325 <= 1
 _C4628: Overlap_ORF445_MAT335 <= 1
 _C4629: Overlap_ORF445_MAT370 <= 1
-_C463: Room_Assignment_COS126_5 + Room_Assignment_MAT202_5
- + Time_Assignment_COS126_1 + Time_Assignment_MAT202_1 <= 3
+_C463: Room_Assignment_COS126_5.0 + Room_Assignment_MAT202_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C4630: Overlap_ORF445_MAT377 <= 1
 _C4631: Overlap_ORF445_MAT385 <= 1
-_C4632: Room_Assignment_MAT385_5 + Room_Assignment_ORF445_5
- + Time_Assignment_MAT385_3 + Time_Assignment_ORF445_3 <= 3
+_C4632: Room_Assignment_MAT385_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
 _C4633: Overlap_ORF445_MAT400 <= 1
-_C4634: Room_Assignment_MAT400_24 + Room_Assignment_ORF445_24
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF445_3 <= 3
-_C4635: Room_Assignment_MAT400_54 + Room_Assignment_ORF445_54
- + Time_Assignment_MAT400_3 + Time_Assignment_ORF445_3 <= 3
-_C4636: Room_Assignment_MAT400_24 + Room_Assignment_ORF445_24
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF445_4 <= 3
-_C4637: Room_Assignment_MAT400_54 + Room_Assignment_ORF445_54
- + Time_Assignment_MAT400_4 + Time_Assignment_ORF445_4 <= 3
+_C4634: Room_Assignment_MAT400_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4635: Room_Assignment_MAT400_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4636: Room_Assignment_MAT400_24.0 + Room_Assignment_ORF445_24.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C4637: Room_Assignment_MAT400_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4638: Overlap_ORF445_ORF245 <= 1
-_C4639: Room_Assignment_ORF245_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ORF245_3 + Time_Assignment_ORF445_3 <= 3
-_C464: Room_Assignment_COS126_6 + Room_Assignment_MAT202_6
- + Time_Assignment_COS126_1 + Time_Assignment_MAT202_1 <= 3
-_C4640: Room_Assignment_ORF245_31 + Room_Assignment_ORF445_31
- + Time_Assignment_ORF245_3 + Time_Assignment_ORF445_3 <= 3
-_C4641: Room_Assignment_ORF245_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF445_4 <= 3
-_C4642: Room_Assignment_ORF245_31 + Room_Assignment_ORF445_31
- + Time_Assignment_ORF245_4 + Time_Assignment_ORF445_4 <= 3
+_C4639: Room_Assignment_ORF245_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C464: Room_Assignment_COS126_6.0 + Room_Assignment_MAT202_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
+_C4640: Room_Assignment_ORF245_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4641: Room_Assignment_ORF245_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
+_C4642: Room_Assignment_ORF245_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4643: Overlap_ORF445_ORF307 <= 1
-_C4644: Room_Assignment_ORF307_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ORF307_3 + Time_Assignment_ORF445_3 <= 3
-_C4645: Room_Assignment_ORF307_5 + Room_Assignment_ORF445_5
- + Time_Assignment_ORF307_4 + Time_Assignment_ORF445_4 <= 3
+_C4644: Room_Assignment_ORF307_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ORF307_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4645: Room_Assignment_ORF307_5.0 + Room_Assignment_ORF445_5.0
+ + Time_Assignment_ORF307_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4646: Overlap_ORF445_ORF309 <= 1
-_C4647: Room_Assignment_ORF309_53 + Room_Assignment_ORF445_53
- + Time_Assignment_ORF309_3 + Time_Assignment_ORF445_3 <= 3
-_C4648: Room_Assignment_ORF309_53 + Room_Assignment_ORF445_53
- + Time_Assignment_ORF309_4 + Time_Assignment_ORF445_4 <= 3
+_C4647: Room_Assignment_ORF309_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_ORF309_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C4648: Room_Assignment_ORF309_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_ORF309_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4649: Overlap_ORF445_ORF350 <= 1
-_C465: Room_Assignment_COS126_7 + Room_Assignment_MAT202_7
- + Time_Assignment_COS126_1 + Time_Assignment_MAT202_1 <= 3
+_C465: Room_Assignment_COS126_7.0 + Room_Assignment_MAT202_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C4650: Overlap_ORF445_ORF363 <= 1
-_C4651: Room_Assignment_ORF363_31 + Room_Assignment_ORF445_31
- + Time_Assignment_ORF363_4 + Time_Assignment_ORF445_4 <= 3
+_C4651: Room_Assignment_ORF363_31.0 + Room_Assignment_ORF445_31.0
+ + Time_Assignment_ORF363_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C4652: Overlap_ORF445_PHY103 <= 1
 _C4653: Overlap_ORF445_PHY104 <= 1
 _C4654: Overlap_ORF445_PHY105 <= 1
-_C4655: Room_Assignment_ORF445_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF445_3 + Time_Assignment_PHY105_3 <= 3
-_C4656: Room_Assignment_ORF445_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ORF445_3 + Time_Assignment_PHY105_3 <= 3
-_C4657: Room_Assignment_ORF445_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF445_4 + Time_Assignment_PHY105_4 <= 3
-_C4658: Room_Assignment_ORF445_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ORF445_4 + Time_Assignment_PHY105_4 <= 3
+_C4655: Room_Assignment_ORF445_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF445_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4656: Room_Assignment_ORF445_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ORF445_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4657: Room_Assignment_ORF445_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF445_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4658: Room_Assignment_ORF445_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ORF445_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C4659: Overlap_ORF445_PHY106 <= 1
 _C466: Overlap_COS126_MAT203 <= 1
 _C4660: Overlap_ORF445_PHY208 <= 1
 _C4661: Overlap_ORF445_REL100 <= 1
-_C4662: Room_Assignment_ORF445_24 + Room_Assignment_REL100_24
- + Time_Assignment_ORF445_3 + Time_Assignment_REL100_3 <= 3
-_C4663: Room_Assignment_ORF445_54 + Room_Assignment_REL100_54
- + Time_Assignment_ORF445_3 + Time_Assignment_REL100_3 <= 3
+_C4662: Room_Assignment_ORF445_24.0 + Room_Assignment_REL100_24.0
+ + Time_Assignment_ORF445_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C4663: Room_Assignment_ORF445_54.0 + Room_Assignment_REL100_54.0
+ + Time_Assignment_ORF445_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C4664: Overlap_ORF445_REL232 <= 1
-_C4665: Room_Assignment_ORF445_46 + Room_Assignment_REL232_46
- + Time_Assignment_ORF445_4 + Time_Assignment_REL232_4 <= 3
+_C4665: Room_Assignment_ORF445_46.0 + Room_Assignment_REL232_46.0
+ + Time_Assignment_ORF445_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
 _C4666: Overlap_ORF445_SML201 <= 1
 _C4667: Overlap_ORF445_URB201 <= 1
-_C4668: Room_Assignment_ORF445_31 + Room_Assignment_URB201_31
- + Time_Assignment_ORF445_4 + Time_Assignment_URB201_4 <= 3
+_C4668: Room_Assignment_ORF445_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_ORF445_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
 _C4669: Overlap_PHY103_AAS201 <= 1
 _C467: Overlap_COS126_MAT204 <= 1
-_C4670: Room_Assignment_AAS201_1 + Room_Assignment_PHY103_1
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY103_1 <= 3
-_C4671: Room_Assignment_AAS201_2 + Room_Assignment_PHY103_2
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY103_1 <= 3
-_C4672: Room_Assignment_AAS201_1 + Room_Assignment_PHY103_1
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY103_2 <= 3
-_C4673: Room_Assignment_AAS201_2 + Room_Assignment_PHY103_2
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY103_2 <= 3
+_C4670: Room_Assignment_AAS201_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C4671: Room_Assignment_AAS201_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C4672: Room_Assignment_AAS201_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
+_C4673: Room_Assignment_AAS201_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
 _C4674: Overlap_PHY103_ASA203 <= 1
-_C4675: Room_Assignment_ASA203_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY103_3 <= 3
-_C4676: Room_Assignment_ASA203_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY103_4 <= 3
-_C4677: Room_Assignment_ASA203_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY103_5 <= 3
+_C4675: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C4676: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
+_C4677: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C4678: Overlap_PHY103_ASA238 <= 1
-_C4679: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_1 + Time_Assignment_PHY103_1 <= 3
-_C468: Room_Assignment_COS126_8 + Room_Assignment_MAT204_8
- + Time_Assignment_COS126_1 + Time_Assignment_MAT204_1 <= 3
-_C4680: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_1 + Time_Assignment_PHY103_1 <= 3
-_C4681: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_2 + Time_Assignment_PHY103_2 <= 3
-_C4682: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_2 + Time_Assignment_PHY103_2 <= 3
-_C4683: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_3 + Time_Assignment_PHY103_3 <= 3
-_C4684: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_3 + Time_Assignment_PHY103_3 <= 3
-_C4685: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_4 + Time_Assignment_PHY103_4 <= 3
-_C4686: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_4 + Time_Assignment_PHY103_4 <= 3
-_C4687: Room_Assignment_ASA238_2 + Room_Assignment_PHY103_2
- + Time_Assignment_ASA238_5 + Time_Assignment_PHY103_5 <= 3
-_C4688: Room_Assignment_ASA238_75 + Room_Assignment_PHY103_75
- + Time_Assignment_ASA238_5 + Time_Assignment_PHY103_5 <= 3
+_C4679: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C468: Room_Assignment_COS126_8.0 + Room_Assignment_MAT204_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT204_9:00_9:50_AM
+ <= 3
+_C4680: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C4681: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
+_C4682: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
+_C4683: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C4684: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C4685: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
+_C4686: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
+_C4687: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
+_C4688: Room_Assignment_ASA238_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C4689: Overlap_PHY103_COS126 <= 1
 _C469: Overlap_COS126_MAT215 <= 1
-_C4690: Room_Assignment_COS126_1 + Room_Assignment_PHY103_1
- + Time_Assignment_COS126_1 + Time_Assignment_PHY103_1 <= 3
-_C4691: Room_Assignment_COS126_2 + Room_Assignment_PHY103_2
- + Time_Assignment_COS126_1 + Time_Assignment_PHY103_1 <= 3
+_C4690: Room_Assignment_COS126_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C4691: Room_Assignment_COS126_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
 _C4692: Overlap_PHY103_COS226 <= 1
 _C4693: Overlap_PHY103_COS217 <= 1
-_C4694: Room_Assignment_COS217_74 + Room_Assignment_PHY103_74
- + Time_Assignment_COS217_3 + Time_Assignment_PHY103_3 <= 3
+_C4694: Room_Assignment_COS217_74.0 + Room_Assignment_PHY103_74.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
 _C4695: Overlap_PHY103_COS333 <= 1
 _C4696: Overlap_PHY103_COS342 <= 1
 _C4697: Overlap_PHY103_COS423 <= 1
 _C4698: Overlap_PHY103_COS432 <= 1
-_C4699: Room_Assignment_COS432_2 + Room_Assignment_PHY103_2
- + Time_Assignment_COS432_3 + Time_Assignment_PHY103_3 <= 3
+_C4699: Room_Assignment_COS432_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
 _C47: Overlap_AAS201_LIN300 <= 1
 _C470: Overlap_COS126_MAT216 <= 1
-_C4700: Room_Assignment_COS432_2 + Room_Assignment_PHY103_2
- + Time_Assignment_COS432_4 + Time_Assignment_PHY103_4 <= 3
+_C4700: Room_Assignment_COS432_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
 _C4701: Overlap_PHY103_COS484 <= 1
 _C4702: Overlap_PHY103_COS522 <= 1
 _C4703: Overlap_PHY103_COS528 <= 1
@@ -7742,10 +9366,12 @@ _C4704: Overlap_PHY103_ECO100 <= 1
 _C4705: Overlap_PHY103_ECO102 <= 1
 _C4706: Overlap_PHY103_ECO202 <= 1
 _C4707: Overlap_PHY103_ECO300 <= 1
-_C4708: Room_Assignment_ECO300_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY103_2 <= 3
-_C4709: Room_Assignment_ECO300_1 + Room_Assignment_PHY103_1
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY103_3 <= 3
+_C4708: Room_Assignment_ECO300_1 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
+_C4709: Room_Assignment_ECO300_1 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
 _C471: Overlap_COS126_MAT217 <= 1
 _C4710: Overlap_PHY103_ECO301 <= 1
 _C4711: Overlap_PHY103_ECO302 <= 1
@@ -7754,80 +9380,106 @@ _C4713: Overlap_PHY103_ECO312 <= 1
 _C4714: Overlap_PHY103_GER101 <= 1
 _C4715: Overlap_PHY103_GER103 <= 1
 _C4716: Overlap_PHY103_GER105 <= 1
-_C4717: Room_Assignment_GER105_1 + Room_Assignment_PHY103_1
- + Time_Assignment_GER105_3 + Time_Assignment_PHY103_3 <= 3
-_C4718: Room_Assignment_GER105_1 + Room_Assignment_PHY103_1
- + Time_Assignment_GER105_4 + Time_Assignment_PHY103_4 <= 3
+_C4717: Room_Assignment_GER105_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_GER105_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C4718: Room_Assignment_GER105_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
 _C4719: Overlap_PHY103_GER107 <= 1
 _C472: Overlap_COS126_MAT218 <= 1
-_C4720: Room_Assignment_GER107_75 + Room_Assignment_PHY103_75
- + Time_Assignment_GER107_3 + Time_Assignment_PHY103_3 <= 3
-_C4721: Room_Assignment_GER107_74 + Room_Assignment_PHY103_74
- + Time_Assignment_GER107_3 + Time_Assignment_PHY103_3 <= 3
+_C4720: Room_Assignment_GER107_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_GER107_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C4721: Room_Assignment_GER107_74.0 + Room_Assignment_PHY103_74.0
+ + Time_Assignment_GER107_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
 _C4722: Overlap_PHY103_LIN201 <= 1
 _C4723: Overlap_PHY103_LIN300 <= 1
 _C4724: Overlap_PHY103_MAT103 <= 1
 _C4725: Overlap_PHY103_MAT104 <= 1
 _C4726: Overlap_PHY103_MAT201 <= 1
-_C4727: Room_Assignment_MAT201_1 + Room_Assignment_PHY103_1
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY103_4 <= 3
-_C4728: Room_Assignment_MAT201_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY103_4 <= 3
-_C4729: Room_Assignment_MAT201_1 + Room_Assignment_PHY103_1
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY103_5 <= 3
-_C473: Room_Assignment_COS126_7 + Room_Assignment_MAT218_7
- + Time_Assignment_COS126_1 + Time_Assignment_MAT218_1 <= 3
-_C4730: Room_Assignment_MAT201_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY103_5 <= 3
+_C4727: Room_Assignment_MAT201_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
+_C4728: Room_Assignment_MAT201_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
+_C4729: Room_Assignment_MAT201_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
+_C473: Room_Assignment_COS126_7.0 + Room_Assignment_MAT218_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT218_9:00_9:50_AM
+ <= 3
+_C4730: Room_Assignment_MAT201_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C4731: Overlap_PHY103_MAT202 <= 1
-_C4732: Room_Assignment_MAT202_1 + Room_Assignment_PHY103_1
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY103_1 <= 3
+_C4732: Room_Assignment_MAT202_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
 _C4733: Overlap_PHY103_MAT203 <= 1
 _C4734: Overlap_PHY103_MAT204 <= 1
 _C4735: Overlap_PHY103_MAT215 <= 1
 _C4736: Overlap_PHY103_MAT216 <= 1
 _C4737: Overlap_PHY103_MAT217 <= 1
-_C4738: Room_Assignment_MAT217_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY103_4 <= 3
+_C4738: Room_Assignment_MAT217_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
 _C4739: Overlap_PHY103_MAT218 <= 1
 _C474: Overlap_COS126_MAT300 <= 1
-_C4740: Room_Assignment_MAT218_74 + Room_Assignment_PHY103_74
- + Time_Assignment_MAT218_1 + Time_Assignment_PHY103_1 <= 3
+_C4740: Room_Assignment_MAT218_74.0 + Room_Assignment_PHY103_74.0
+ + Time_Assignment_MAT218_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
 _C4741: Overlap_PHY103_MAT300 <= 1
-_C4742: Room_Assignment_MAT300_1 + Room_Assignment_PHY103_1
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY103_5 <= 3
-_C4743: Room_Assignment_MAT300_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY103_5 <= 3
+_C4742: Room_Assignment_MAT300_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
+_C4743: Room_Assignment_MAT300_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C4744: Overlap_PHY103_MAT325 <= 1
 _C4745: Overlap_PHY103_MAT335 <= 1
-_C4746: Room_Assignment_MAT335_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY103_1 <= 3
-_C4747: Room_Assignment_MAT335_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY103_5 <= 3
+_C4746: Room_Assignment_MAT335_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C4747: Room_Assignment_MAT335_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C4748: Overlap_PHY103_MAT370 <= 1
-_C4749: Room_Assignment_MAT370_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY103_1 <= 3
+_C4749: Room_Assignment_MAT370_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
 _C475: Overlap_COS126_MAT325 <= 1
-_C4750: Room_Assignment_MAT370_75 + Room_Assignment_PHY103_75
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY103_1 <= 3
-_C4751: Room_Assignment_MAT370_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY103_5 <= 3
-_C4752: Room_Assignment_MAT370_75 + Room_Assignment_PHY103_75
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY103_5 <= 3
+_C4750: Room_Assignment_MAT370_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C4751: Room_Assignment_MAT370_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
+_C4752: Room_Assignment_MAT370_75.0 + Room_Assignment_PHY103_75.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY103_2:30_3:20_PM
+ <= 3
 _C4753: Overlap_PHY103_MAT377 <= 1
-_C4754: Room_Assignment_MAT377_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY103_1 <= 3
-_C4755: Room_Assignment_MAT377_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY103_2 <= 3
+_C4754: Room_Assignment_MAT377_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C4755: Room_Assignment_MAT377_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
 _C4756: Overlap_PHY103_MAT385 <= 1
-_C4757: Room_Assignment_MAT385_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY103_1 <= 3
-_C4758: Room_Assignment_MAT385_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY103_2 <= 3
-_C4759: Room_Assignment_MAT385_2 + Room_Assignment_PHY103_2
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY103_3 <= 3
-_C476: Room_Assignment_COS126_8 + Room_Assignment_MAT325_8
- + Time_Assignment_COS126_1 + Time_Assignment_MAT325_1 <= 3
+_C4757: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C4758: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
+_C4759: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C476: Room_Assignment_COS126_8.0 + Room_Assignment_MAT325_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT325_9:00_9:50_AM
+ <= 3
 _C4760: Overlap_PHY103_MAT400 <= 1
 _C4761: Overlap_PHY103_ORF245 <= 1
 _C4762: Overlap_PHY103_ORF307 <= 1
@@ -7837,30 +9489,41 @@ _C4765: Overlap_PHY103_ORF363 <= 1
 _C4766: Overlap_PHY103_ORF445 <= 1
 _C4767: Overlap_PHY103_PHY104 <= 1
 _C4768: Overlap_PHY103_PHY105 <= 1
-_C4769: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_1 + Time_Assignment_PHY105_1 <= 3
+_C4769: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C477: Overlap_COS126_MAT335 <= 1
-_C4770: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_1 + Time_Assignment_PHY105_1 <= 3
-_C4771: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_2 + Time_Assignment_PHY105_2 <= 3
-_C4772: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_2 + Time_Assignment_PHY105_2 <= 3
-_C4773: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_3 + Time_Assignment_PHY105_3 <= 3
-_C4774: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_3 + Time_Assignment_PHY105_3 <= 3
-_C4775: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_4 + Time_Assignment_PHY105_4 <= 3
-_C4776: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_4 + Time_Assignment_PHY105_4 <= 3
-_C4777: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_5 + Time_Assignment_PHY105_5 <= 3
-_C4778: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_5 + Time_Assignment_PHY105_5 <= 3
+_C4770: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4771: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4772: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4773: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4774: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4775: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4776: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4777: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4778: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4779: Overlap_PHY103_PHY106 <= 1
-_C478: Room_Assignment_COS126_2 + Room_Assignment_MAT335_2
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
+_C478: Room_Assignment_COS126_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C4780: Overlap_PHY103_PHY208 <= 1
 _C4781: Overlap_PHY103_REL100 <= 1
 _C4782: Overlap_PHY103_REL232 <= 1
@@ -7871,8 +9534,9 @@ _C4786: Overlap_PHY104_ASA203 <= 1
 _C4787: Overlap_PHY104_ASA238 <= 1
 _C4788: Overlap_PHY104_COS126 <= 1
 _C4789: Overlap_PHY104_COS226 <= 1
-_C479: Room_Assignment_COS126_3 + Room_Assignment_MAT335_3
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
+_C479: Room_Assignment_COS126_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C4790: Overlap_PHY104_COS217 <= 1
 _C4791: Overlap_PHY104_COS333 <= 1
 _C4792: Overlap_PHY104_COS342 <= 1
@@ -7881,28 +9545,34 @@ _C4794: Overlap_PHY104_COS432 <= 1
 _C4795: Overlap_PHY104_COS484 <= 1
 _C4796: Overlap_PHY104_COS522 <= 1
 _C4797: Overlap_PHY104_COS528 <= 1
-_C4798: Room_Assignment_COS528_37 + Room_Assignment_PHY104_37
- + Time_Assignment_COS528_5 + Time_Assignment_PHY104_5 <= 3
+_C4798: Room_Assignment_COS528_37.0 + Room_Assignment_PHY104_37.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY104_2:30_3:20_PM
+ <= 3
 _C4799: Overlap_PHY104_ECO100 <= 1
 _C48: Overlap_AAS201_MAT103 <= 1
-_C480: Room_Assignment_COS126_4 + Room_Assignment_MAT335_4
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
+_C480: Room_Assignment_COS126_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C4800: Overlap_PHY104_ECO102 <= 1
-_C4801: Room_Assignment_ECO102_37 + Room_Assignment_PHY104_37
- + Time_Assignment_ECO102_1 + Time_Assignment_PHY104_1 <= 3
+_C4801: Room_Assignment_ECO102_37.0 + Room_Assignment_PHY104_37.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_PHY104_9:00_9:50_AM
+ <= 3
 _C4802: Overlap_PHY104_ECO202 <= 1
 _C4803: Overlap_PHY104_ECO300 <= 1
 _C4804: Overlap_PHY104_ECO301 <= 1
 _C4805: Overlap_PHY104_ECO302 <= 1
-_C4806: Room_Assignment_ECO302_71 + Room_Assignment_PHY104_71
- + Time_Assignment_ECO302_1 + Time_Assignment_PHY104_1 <= 3
+_C4806: Room_Assignment_ECO302_71.0 + Room_Assignment_PHY104_71.0
+ + Time_Assignment_ECO302_9:00_9:50_AM + Time_Assignment_PHY104_9:00_9:50_AM
+ <= 3
 _C4807: Overlap_PHY104_ECO310 <= 1
 _C4808: Overlap_PHY104_ECO312 <= 1
 _C4809: Overlap_PHY104_GER101 <= 1
-_C481: Room_Assignment_COS126_5 + Room_Assignment_MAT335_5
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
-_C4810: Room_Assignment_GER101_28 + Room_Assignment_PHY104_28
- + Time_Assignment_GER101_1 + Time_Assignment_PHY104_1 <= 3
+_C481: Room_Assignment_COS126_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C4810: Room_Assignment_GER101_28.0 + Room_Assignment_PHY104_28.0
+ + Time_Assignment_GER101_9:00_9:50_AM + Time_Assignment_PHY104_9:00_9:50_AM
+ <= 3
 _C4811: Overlap_PHY104_GER103 <= 1
 _C4812: Overlap_PHY104_GER105 <= 1
 _C4813: Overlap_PHY104_GER107 <= 1
@@ -7912,8 +9582,9 @@ _C4816: Overlap_PHY104_MAT103 <= 1
 _C4817: Overlap_PHY104_MAT104 <= 1
 _C4818: Overlap_PHY104_MAT201 <= 1
 _C4819: Overlap_PHY104_MAT202 <= 1
-_C482: Room_Assignment_COS126_6 + Room_Assignment_MAT335_6
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
+_C482: Room_Assignment_COS126_6.0 + Room_Assignment_MAT335_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C4820: Overlap_PHY104_MAT203 <= 1
 _C4821: Overlap_PHY104_MAT204 <= 1
 _C4822: Overlap_PHY104_MAT215 <= 1
@@ -7922,12 +9593,15 @@ _C4824: Overlap_PHY104_MAT217 <= 1
 _C4825: Overlap_PHY104_MAT218 <= 1
 _C4826: Overlap_PHY104_MAT300 <= 1
 _C4827: Overlap_PHY104_MAT325 <= 1
-_C4828: Room_Assignment_MAT325_58 + Room_Assignment_PHY104_58
- + Time_Assignment_MAT325_1 + Time_Assignment_PHY104_1 <= 3
-_C4829: Room_Assignment_MAT325_58 + Room_Assignment_PHY104_58
- + Time_Assignment_MAT325_5 + Time_Assignment_PHY104_5 <= 3
-_C483: Room_Assignment_COS126_7 + Room_Assignment_MAT335_7
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
+_C4828: Room_Assignment_MAT325_58.0 + Room_Assignment_PHY104_58.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_PHY104_9:00_9:50_AM
+ <= 3
+_C4829: Room_Assignment_MAT325_58.0 + Room_Assignment_PHY104_58.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_PHY104_2:30_3:20_PM
+ <= 3
+_C483: Room_Assignment_COS126_7.0 + Room_Assignment_MAT335_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C4830: Overlap_PHY104_MAT335 <= 1
 _C4831: Overlap_PHY104_MAT370 <= 1
 _C4832: Overlap_PHY104_MAT377 <= 1
@@ -7938,589 +9612,837 @@ _C4836: Overlap_PHY104_ORF307 <= 1
 _C4837: Overlap_PHY104_ORF309 <= 1
 _C4838: Overlap_PHY104_ORF350 <= 1
 _C4839: Overlap_PHY104_ORF363 <= 1
-_C484: Room_Assignment_COS126_8 + Room_Assignment_MAT335_8
- + Time_Assignment_COS126_1 + Time_Assignment_MAT335_1 <= 3
+_C484: Room_Assignment_COS126_8.0 + Room_Assignment_MAT335_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C4840: Overlap_PHY104_ORF445 <= 1
 _C4841: Overlap_PHY104_PHY103 <= 1
 _C4842: Overlap_PHY104_PHY105 <= 1
 _C4843: Overlap_PHY104_PHY106 <= 1
 _C4844: Overlap_PHY104_PHY208 <= 1
-_C4845: Room_Assignment_PHY104_58 + Room_Assignment_PHY208_58
- + Time_Assignment_PHY104_5 + Time_Assignment_PHY208_5 <= 3
-_C4846: Room_Assignment_PHY104_28 + Room_Assignment_PHY208_28
- + Time_Assignment_PHY104_5 + Time_Assignment_PHY208_5 <= 3
+_C4845: Room_Assignment_PHY104_58.0 + Room_Assignment_PHY208_58.0
+ + Time_Assignment_PHY104_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
+_C4846: Room_Assignment_PHY104_28.0 + Room_Assignment_PHY208_28.0
+ + Time_Assignment_PHY104_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
 _C4847: Overlap_PHY104_REL100 <= 1
 _C4848: Overlap_PHY104_REL232 <= 1
 _C4849: Overlap_PHY104_SML201 <= 1
 _C485: Overlap_COS126_MAT370 <= 1
 _C4850: Overlap_PHY104_URB201 <= 1
 _C4851: Overlap_PHY105_AAS201 <= 1
-_C4852: Room_Assignment_AAS201_1 + Room_Assignment_PHY105_1
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
-_C4853: Room_Assignment_AAS201_2 + Room_Assignment_PHY105_2
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
-_C4854: Room_Assignment_AAS201_3 + Room_Assignment_PHY105_3
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
-_C4855: Room_Assignment_AAS201_4 + Room_Assignment_PHY105_4
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
-_C4856: Room_Assignment_AAS201_5 + Room_Assignment_PHY105_5
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
-_C4857: Room_Assignment_AAS201_1 + Room_Assignment_PHY105_1
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
-_C4858: Room_Assignment_AAS201_2 + Room_Assignment_PHY105_2
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
-_C4859: Room_Assignment_AAS201_3 + Room_Assignment_PHY105_3
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
-_C486: Room_Assignment_COS126_2 + Room_Assignment_MAT370_2
- + Time_Assignment_COS126_1 + Time_Assignment_MAT370_1 <= 3
-_C4860: Room_Assignment_AAS201_4 + Room_Assignment_PHY105_4
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
-_C4861: Room_Assignment_AAS201_5 + Room_Assignment_PHY105_5
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY105_2 <= 3
+_C4852: Room_Assignment_AAS201_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4853: Room_Assignment_AAS201_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4854: Room_Assignment_AAS201_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4855: Room_Assignment_AAS201_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4856: Room_Assignment_AAS201_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4857: Room_Assignment_AAS201_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4858: Room_Assignment_AAS201_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4859: Room_Assignment_AAS201_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C486: Room_Assignment_COS126_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
+_C4860: Room_Assignment_AAS201_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4861: Room_Assignment_AAS201_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C4862: Overlap_PHY105_ASA203 <= 1
-_C4863: Room_Assignment_ASA203_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY105_3 <= 3
-_C4864: Room_Assignment_ASA203_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY105_3 <= 3
-_C4865: Room_Assignment_ASA203_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY105_3 <= 3
-_C4866: Room_Assignment_ASA203_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ASA203_3 + Time_Assignment_PHY105_3 <= 3
-_C4867: Room_Assignment_ASA203_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY105_4 <= 3
-_C4868: Room_Assignment_ASA203_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY105_4 <= 3
-_C4869: Room_Assignment_ASA203_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY105_4 <= 3
+_C4863: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4864: Room_Assignment_ASA203_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4865: Room_Assignment_ASA203_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4866: Room_Assignment_ASA203_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4867: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4868: Room_Assignment_ASA203_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4869: Room_Assignment_ASA203_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C487: Overlap_COS126_MAT377 <= 1
-_C4870: Room_Assignment_ASA203_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ASA203_4 + Time_Assignment_PHY105_4 <= 3
-_C4871: Room_Assignment_ASA203_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY105_5 <= 3
-_C4872: Room_Assignment_ASA203_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY105_5 <= 3
-_C4873: Room_Assignment_ASA203_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY105_5 <= 3
-_C4874: Room_Assignment_ASA203_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY105_5 <= 3
+_C4870: Room_Assignment_ASA203_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4871: Room_Assignment_ASA203_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4872: Room_Assignment_ASA203_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4873: Room_Assignment_ASA203_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4874: Room_Assignment_ASA203_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4875: Overlap_PHY105_ASA238 <= 1
-_C4876: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_1 + Time_Assignment_PHY105_1 <= 3
-_C4877: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_1 + Time_Assignment_PHY105_1 <= 3
-_C4878: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_2 + Time_Assignment_PHY105_2 <= 3
-_C4879: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_2 + Time_Assignment_PHY105_2 <= 3
-_C488: Room_Assignment_COS126_2 + Room_Assignment_MAT377_2
- + Time_Assignment_COS126_1 + Time_Assignment_MAT377_1 <= 3
-_C4880: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_3 + Time_Assignment_PHY105_3 <= 3
-_C4881: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_3 + Time_Assignment_PHY105_3 <= 3
-_C4882: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_4 + Time_Assignment_PHY105_4 <= 3
-_C4883: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_4 + Time_Assignment_PHY105_4 <= 3
-_C4884: Room_Assignment_ASA238_2 + Room_Assignment_PHY105_2
- + Time_Assignment_ASA238_5 + Time_Assignment_PHY105_5 <= 3
-_C4885: Room_Assignment_ASA238_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ASA238_5 + Time_Assignment_PHY105_5 <= 3
+_C4876: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4877: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4878: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4879: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C488: Room_Assignment_COS126_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C4880: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4881: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4882: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4883: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4884: Room_Assignment_ASA238_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4885: Room_Assignment_ASA238_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ASA238_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4886: Overlap_PHY105_COS126 <= 1
-_C4887: Room_Assignment_COS126_1 + Room_Assignment_PHY105_1
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C4888: Room_Assignment_COS126_2 + Room_Assignment_PHY105_2
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C4889: Room_Assignment_COS126_3 + Room_Assignment_PHY105_3
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C489: Room_Assignment_COS126_4 + Room_Assignment_MAT377_4
- + Time_Assignment_COS126_1 + Time_Assignment_MAT377_1 <= 3
-_C4890: Room_Assignment_COS126_4 + Room_Assignment_PHY105_4
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C4891: Room_Assignment_COS126_5 + Room_Assignment_PHY105_5
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C4892: Room_Assignment_COS126_6 + Room_Assignment_PHY105_6
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C4893: Room_Assignment_COS126_7 + Room_Assignment_PHY105_7
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C4894: Room_Assignment_COS126_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C4895: Room_Assignment_COS126_9 + Room_Assignment_PHY105_9
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
+_C4887: Room_Assignment_COS126_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4888: Room_Assignment_COS126_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4889: Room_Assignment_COS126_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C489: Room_Assignment_COS126_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C4890: Room_Assignment_COS126_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4891: Room_Assignment_COS126_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4892: Room_Assignment_COS126_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4893: Room_Assignment_COS126_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4894: Room_Assignment_COS126_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4895: Room_Assignment_COS126_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C4896: Overlap_PHY105_COS226 <= 1
-_C4897: Room_Assignment_COS226_4 + Room_Assignment_PHY105_4
- + Time_Assignment_COS226_2 + Time_Assignment_PHY105_2 <= 3
+_C4897: Room_Assignment_COS226_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C4898: Overlap_PHY105_COS217 <= 1
-_C4899: Room_Assignment_COS217_6 + Room_Assignment_PHY105_6
- + Time_Assignment_COS217_3 + Time_Assignment_PHY105_3 <= 3
+_C4899: Room_Assignment_COS217_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C49: Overlap_AAS201_MAT104 <= 1
-_C490: Room_Assignment_COS126_5 + Room_Assignment_MAT377_5
- + Time_Assignment_COS126_1 + Time_Assignment_MAT377_1 <= 3
-_C4900: Room_Assignment_COS217_7 + Room_Assignment_PHY105_7
- + Time_Assignment_COS217_3 + Time_Assignment_PHY105_3 <= 3
+_C490: Room_Assignment_COS126_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C4900: Room_Assignment_COS217_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C4901: Overlap_PHY105_COS333 <= 1
-_C4902: Room_Assignment_COS333_3 + Room_Assignment_PHY105_3
- + Time_Assignment_COS333_4 + Time_Assignment_PHY105_4 <= 3
+_C4902: Room_Assignment_COS333_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C4903: Overlap_PHY105_COS342 <= 1
-_C4904: Room_Assignment_COS342_9 + Room_Assignment_PHY105_9
- + Time_Assignment_COS342_5 + Time_Assignment_PHY105_5 <= 3
+_C4904: Room_Assignment_COS342_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4905: Overlap_PHY105_COS423 <= 1
 _C4906: Overlap_PHY105_COS432 <= 1
-_C4907: Room_Assignment_COS432_2 + Room_Assignment_PHY105_2
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C4908: Room_Assignment_COS432_4 + Room_Assignment_PHY105_4
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C4909: Room_Assignment_COS432_6 + Room_Assignment_PHY105_6
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C491: Room_Assignment_COS126_6 + Room_Assignment_MAT377_6
- + Time_Assignment_COS126_1 + Time_Assignment_MAT377_1 <= 3
-_C4910: Room_Assignment_COS432_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C4911: Room_Assignment_COS432_10 + Room_Assignment_PHY105_10
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C4912: Room_Assignment_COS432_12 + Room_Assignment_PHY105_12
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C4913: Room_Assignment_COS432_2 + Room_Assignment_PHY105_2
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C4914: Room_Assignment_COS432_4 + Room_Assignment_PHY105_4
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C4915: Room_Assignment_COS432_6 + Room_Assignment_PHY105_6
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C4916: Room_Assignment_COS432_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C4917: Room_Assignment_COS432_10 + Room_Assignment_PHY105_10
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C4918: Room_Assignment_COS432_12 + Room_Assignment_PHY105_12
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
+_C4907: Room_Assignment_COS432_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4908: Room_Assignment_COS432_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4909: Room_Assignment_COS432_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C491: Room_Assignment_COS126_6.0 + Room_Assignment_MAT377_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C4910: Room_Assignment_COS432_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4911: Room_Assignment_COS432_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4912: Room_Assignment_COS432_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4913: Room_Assignment_COS432_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4914: Room_Assignment_COS432_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4915: Room_Assignment_COS432_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4916: Room_Assignment_COS432_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4917: Room_Assignment_COS432_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4918: Room_Assignment_COS432_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C4919: Overlap_PHY105_COS484 <= 1
 _C492: Overlap_COS126_MAT385 <= 1
-_C4920: Room_Assignment_COS484_3 + Room_Assignment_PHY105_3
- + Time_Assignment_COS484_1 + Time_Assignment_PHY105_1 <= 3
-_C4921: Room_Assignment_COS484_5 + Room_Assignment_PHY105_5
- + Time_Assignment_COS484_1 + Time_Assignment_PHY105_1 <= 3
-_C4922: Room_Assignment_COS484_10 + Room_Assignment_PHY105_10
- + Time_Assignment_COS484_1 + Time_Assignment_PHY105_1 <= 3
-_C4923: Room_Assignment_COS484_3 + Room_Assignment_PHY105_3
- + Time_Assignment_COS484_3 + Time_Assignment_PHY105_3 <= 3
-_C4924: Room_Assignment_COS484_5 + Room_Assignment_PHY105_5
- + Time_Assignment_COS484_3 + Time_Assignment_PHY105_3 <= 3
-_C4925: Room_Assignment_COS484_10 + Room_Assignment_PHY105_10
- + Time_Assignment_COS484_3 + Time_Assignment_PHY105_3 <= 3
+_C4920: Room_Assignment_COS484_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4921: Room_Assignment_COS484_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4922: Room_Assignment_COS484_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_COS484_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4923: Room_Assignment_COS484_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4924: Room_Assignment_COS484_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4925: Room_Assignment_COS484_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_COS484_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C4926: Overlap_PHY105_COS522 <= 1
-_C4927: Room_Assignment_COS522_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS522_1 + Time_Assignment_PHY105_1 <= 3
-_C4928: Room_Assignment_COS522_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS522_5 + Time_Assignment_PHY105_5 <= 3
+_C4927: Room_Assignment_COS522_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS522_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4928: Room_Assignment_COS522_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4929: Overlap_PHY105_COS528 <= 1
-_C493: Room_Assignment_COS126_2 + Room_Assignment_MAT385_2
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
-_C4930: Room_Assignment_COS528_7 + Room_Assignment_PHY105_7
- + Time_Assignment_COS528_4 + Time_Assignment_PHY105_4 <= 3
-_C4931: Room_Assignment_COS528_7 + Room_Assignment_PHY105_7
- + Time_Assignment_COS528_5 + Time_Assignment_PHY105_5 <= 3
+_C493: Room_Assignment_COS126_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C4930: Room_Assignment_COS528_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4931: Room_Assignment_COS528_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4932: Overlap_PHY105_ECO100 <= 1
-_C4933: Room_Assignment_ECO100_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO100_1 + Time_Assignment_PHY105_1 <= 3
-_C4934: Room_Assignment_ECO100_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ECO100_1 + Time_Assignment_PHY105_1 <= 3
-_C4935: Room_Assignment_ECO100_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ECO100_1 + Time_Assignment_PHY105_1 <= 3
-_C4936: Room_Assignment_ECO100_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO100_2 + Time_Assignment_PHY105_2 <= 3
-_C4937: Room_Assignment_ECO100_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ECO100_2 + Time_Assignment_PHY105_2 <= 3
-_C4938: Room_Assignment_ECO100_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ECO100_2 + Time_Assignment_PHY105_2 <= 3
+_C4933: Room_Assignment_ECO100_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4934: Room_Assignment_ECO100_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4935: Room_Assignment_ECO100_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ECO100_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C4936: Room_Assignment_ECO100_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4937: Room_Assignment_ECO100_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4938: Room_Assignment_ECO100_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ECO100_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C4939: Overlap_PHY105_ECO102 <= 1
-_C494: Room_Assignment_COS126_3 + Room_Assignment_MAT385_3
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
+_C494: Room_Assignment_COS126_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C4940: Overlap_PHY105_ECO202 <= 1
 _C4941: Overlap_PHY105_ECO300 <= 1
-_C4942: Room_Assignment_ECO300_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY105_2 <= 3
-_C4943: Room_Assignment_ECO300_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY105_2 <= 3
-_C4944: Room_Assignment_ECO300_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY105_2 <= 3
-_C4945: Room_Assignment_ECO300_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO300_2 + Time_Assignment_PHY105_2 <= 3
-_C4946: Room_Assignment_ECO300_1 + Room_Assignment_PHY105_1
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY105_3 <= 3
-_C4947: Room_Assignment_ECO300_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY105_3 <= 3
-_C4948: Room_Assignment_ECO300_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY105_3 <= 3
-_C4949: Room_Assignment_ECO300_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO300_3 + Time_Assignment_PHY105_3 <= 3
-_C495: Room_Assignment_COS126_5 + Room_Assignment_MAT385_5
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
+_C4942: Room_Assignment_ECO300_1 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4943: Room_Assignment_ECO300_3 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4944: Room_Assignment_ECO300_5 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4945: Room_Assignment_ECO300_7 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO300_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4946: Room_Assignment_ECO300_1 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4947: Room_Assignment_ECO300_3 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4948: Room_Assignment_ECO300_5 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4949: Room_Assignment_ECO300_7 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C495: Room_Assignment_COS126_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C4950: Overlap_PHY105_ECO301 <= 1
-_C4951: Room_Assignment_ECO301_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO301_2 + Time_Assignment_PHY105_2 <= 3
-_C4952: Room_Assignment_ECO301_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO301_2 + Time_Assignment_PHY105_2 <= 3
-_C4953: Room_Assignment_ECO301_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO301_2 + Time_Assignment_PHY105_2 <= 3
-_C4954: Room_Assignment_ECO301_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO301_4 + Time_Assignment_PHY105_4 <= 3
-_C4955: Room_Assignment_ECO301_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO301_4 + Time_Assignment_PHY105_4 <= 3
-_C4956: Room_Assignment_ECO301_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO301_4 + Time_Assignment_PHY105_4 <= 3
-_C4957: Room_Assignment_ECO301_3 + Room_Assignment_PHY105_3
- + Time_Assignment_ECO301_5 + Time_Assignment_PHY105_5 <= 3
-_C4958: Room_Assignment_ECO301_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ECO301_5 + Time_Assignment_PHY105_5 <= 3
-_C4959: Room_Assignment_ECO301_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ECO301_5 + Time_Assignment_PHY105_5 <= 3
-_C496: Room_Assignment_COS126_6 + Room_Assignment_MAT385_6
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
+_C4951: Room_Assignment_ECO301_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4952: Room_Assignment_ECO301_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4953: Room_Assignment_ECO301_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO301_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4954: Room_Assignment_ECO301_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4955: Room_Assignment_ECO301_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4956: Room_Assignment_ECO301_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO301_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4957: Room_Assignment_ECO301_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4958: Room_Assignment_ECO301_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4959: Room_Assignment_ECO301_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ECO301_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C496: Room_Assignment_COS126_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C4960: Overlap_PHY105_ECO302 <= 1
 _C4961: Overlap_PHY105_ECO310 <= 1
 _C4962: Overlap_PHY105_ECO312 <= 1
 _C4963: Overlap_PHY105_GER101 <= 1
 _C4964: Overlap_PHY105_GER103 <= 1
-_C4965: Room_Assignment_GER103_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER103_2 + Time_Assignment_PHY105_2 <= 3
-_C4966: Room_Assignment_GER103_5 + Room_Assignment_PHY105_5
- + Time_Assignment_GER103_2 + Time_Assignment_PHY105_2 <= 3
-_C4967: Room_Assignment_GER103_8 + Room_Assignment_PHY105_8
- + Time_Assignment_GER103_2 + Time_Assignment_PHY105_2 <= 3
-_C4968: Room_Assignment_GER103_9 + Room_Assignment_PHY105_9
- + Time_Assignment_GER103_2 + Time_Assignment_PHY105_2 <= 3
-_C4969: Room_Assignment_GER103_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER103_3 + Time_Assignment_PHY105_3 <= 3
-_C497: Room_Assignment_COS126_7 + Room_Assignment_MAT385_7
- + Time_Assignment_COS126_1 + Time_Assignment_MAT385_1 <= 3
-_C4970: Room_Assignment_GER103_5 + Room_Assignment_PHY105_5
- + Time_Assignment_GER103_3 + Time_Assignment_PHY105_3 <= 3
-_C4971: Room_Assignment_GER103_8 + Room_Assignment_PHY105_8
- + Time_Assignment_GER103_3 + Time_Assignment_PHY105_3 <= 3
-_C4972: Room_Assignment_GER103_9 + Room_Assignment_PHY105_9
- + Time_Assignment_GER103_3 + Time_Assignment_PHY105_3 <= 3
-_C4973: Room_Assignment_GER103_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER103_4 + Time_Assignment_PHY105_4 <= 3
-_C4974: Room_Assignment_GER103_5 + Room_Assignment_PHY105_5
- + Time_Assignment_GER103_4 + Time_Assignment_PHY105_4 <= 3
-_C4975: Room_Assignment_GER103_8 + Room_Assignment_PHY105_8
- + Time_Assignment_GER103_4 + Time_Assignment_PHY105_4 <= 3
-_C4976: Room_Assignment_GER103_9 + Room_Assignment_PHY105_9
- + Time_Assignment_GER103_4 + Time_Assignment_PHY105_4 <= 3
+_C4965: Room_Assignment_GER103_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4966: Room_Assignment_GER103_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4967: Room_Assignment_GER103_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4968: Room_Assignment_GER103_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_GER103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4969: Room_Assignment_GER103_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C497: Room_Assignment_COS126_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C4970: Room_Assignment_GER103_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4971: Room_Assignment_GER103_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4972: Room_Assignment_GER103_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4973: Room_Assignment_GER103_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4974: Room_Assignment_GER103_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4975: Room_Assignment_GER103_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4976: Room_Assignment_GER103_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_GER103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C4977: Overlap_PHY105_GER105 <= 1
-_C4978: Room_Assignment_GER105_1 + Room_Assignment_PHY105_1
- + Time_Assignment_GER105_3 + Time_Assignment_PHY105_3 <= 3
-_C4979: Room_Assignment_GER105_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER105_3 + Time_Assignment_PHY105_3 <= 3
+_C4978: Room_Assignment_GER105_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_GER105_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4979: Room_Assignment_GER105_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER105_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C498: Overlap_COS126_MAT400 <= 1
-_C4980: Room_Assignment_GER105_1 + Room_Assignment_PHY105_1
- + Time_Assignment_GER105_4 + Time_Assignment_PHY105_4 <= 3
-_C4981: Room_Assignment_GER105_3 + Room_Assignment_PHY105_3
- + Time_Assignment_GER105_4 + Time_Assignment_PHY105_4 <= 3
+_C4980: Room_Assignment_GER105_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4981: Room_Assignment_GER105_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_GER105_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C4982: Overlap_PHY105_GER107 <= 1
 _C4983: Overlap_PHY105_LIN201 <= 1
 _C4984: Overlap_PHY105_LIN300 <= 1
 _C4985: Overlap_PHY105_MAT103 <= 1
-_C4986: Room_Assignment_MAT103_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT103_2 + Time_Assignment_PHY105_2 <= 3
-_C4987: Room_Assignment_MAT103_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT103_3 + Time_Assignment_PHY105_3 <= 3
-_C4988: Room_Assignment_MAT103_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT103_5 + Time_Assignment_PHY105_5 <= 3
+_C4986: Room_Assignment_MAT103_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C4987: Room_Assignment_MAT103_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C4988: Room_Assignment_MAT103_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4989: Overlap_PHY105_MAT104 <= 1
 _C499: Overlap_COS126_ORF245 <= 1
-_C4990: Room_Assignment_MAT104_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT104_5 + Time_Assignment_PHY105_5 <= 3
-_C4991: Room_Assignment_MAT104_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT104_5 + Time_Assignment_PHY105_5 <= 3
+_C4990: Room_Assignment_MAT104_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C4991: Room_Assignment_MAT104_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C4992: Overlap_PHY105_MAT201 <= 1
-_C4993: Room_Assignment_MAT201_1 + Room_Assignment_PHY105_1
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C4994: Room_Assignment_MAT201_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C4995: Room_Assignment_MAT201_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C4996: Room_Assignment_MAT201_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C4997: Room_Assignment_MAT201_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C4998: Room_Assignment_MAT201_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C4999: Room_Assignment_MAT201_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C5: Room_Assignment_AAS201_2 + Room_Assignment_ASA238_2
- + Time_Assignment_AAS201_2 + Time_Assignment_ASA238_2 <= 3
+_C4993: Room_Assignment_MAT201_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4994: Room_Assignment_MAT201_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4995: Room_Assignment_MAT201_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4996: Room_Assignment_MAT201_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4997: Room_Assignment_MAT201_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4998: Room_Assignment_MAT201_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C4999: Room_Assignment_MAT201_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5: Room_Assignment_AAS201_2.0 + Room_Assignment_ASA238_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ASA238_10:00_10:50_AM <= 3
 _C50: Overlap_AAS201_MAT201 <= 1
 _C500: Overlap_COS126_ORF307 <= 1
-_C5000: Room_Assignment_MAT201_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT201_4 + Time_Assignment_PHY105_4 <= 3
-_C5001: Room_Assignment_MAT201_1 + Room_Assignment_PHY105_1
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C5002: Room_Assignment_MAT201_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C5003: Room_Assignment_MAT201_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C5004: Room_Assignment_MAT201_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C5005: Room_Assignment_MAT201_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C5006: Room_Assignment_MAT201_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C5007: Room_Assignment_MAT201_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
-_C5008: Room_Assignment_MAT201_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT201_5 + Time_Assignment_PHY105_5 <= 3
+_C5000: Room_Assignment_MAT201_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT201_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5001: Room_Assignment_MAT201_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5002: Room_Assignment_MAT201_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5003: Room_Assignment_MAT201_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5004: Room_Assignment_MAT201_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5005: Room_Assignment_MAT201_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5006: Room_Assignment_MAT201_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5007: Room_Assignment_MAT201_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5008: Room_Assignment_MAT201_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT201_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C5009: Overlap_PHY105_MAT202 <= 1
 _C501: Overlap_COS126_ORF309 <= 1
-_C5010: Room_Assignment_MAT202_1 + Room_Assignment_PHY105_1
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY105_1 <= 3
-_C5011: Room_Assignment_MAT202_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY105_1 <= 3
-_C5012: Room_Assignment_MAT202_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY105_1 <= 3
-_C5013: Room_Assignment_MAT202_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT202_1 + Time_Assignment_PHY105_1 <= 3
+_C5010: Room_Assignment_MAT202_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5011: Room_Assignment_MAT202_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5012: Room_Assignment_MAT202_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5013: Room_Assignment_MAT202_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT202_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C5014: Overlap_PHY105_MAT203 <= 1
 _C5015: Overlap_PHY105_MAT204 <= 1
-_C5016: Room_Assignment_MAT204_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT204_1 + Time_Assignment_PHY105_1 <= 3
-_C5017: Room_Assignment_MAT204_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT204_1 + Time_Assignment_PHY105_1 <= 3
-_C5018: Room_Assignment_MAT204_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT204_1 + Time_Assignment_PHY105_1 <= 3
+_C5016: Room_Assignment_MAT204_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5017: Room_Assignment_MAT204_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5018: Room_Assignment_MAT204_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT204_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C5019: Overlap_PHY105_MAT215 <= 1
 _C502: Overlap_COS126_ORF350 <= 1
 _C5020: Overlap_PHY105_MAT216 <= 1
 _C5021: Overlap_PHY105_MAT217 <= 1
-_C5022: Room_Assignment_MAT217_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY105_4 <= 3
-_C5023: Room_Assignment_MAT217_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY105_4 <= 3
-_C5024: Room_Assignment_MAT217_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY105_4 <= 3
-_C5025: Room_Assignment_MAT217_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT217_4 + Time_Assignment_PHY105_4 <= 3
+_C5022: Room_Assignment_MAT217_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5023: Room_Assignment_MAT217_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5024: Room_Assignment_MAT217_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5025: Room_Assignment_MAT217_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT217_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C5026: Overlap_PHY105_MAT218 <= 1
-_C5027: Room_Assignment_MAT218_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT218_1 + Time_Assignment_PHY105_1 <= 3
+_C5027: Room_Assignment_MAT218_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT218_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C5028: Overlap_PHY105_MAT300 <= 1
-_C5029: Room_Assignment_MAT300_1 + Room_Assignment_PHY105_1
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY105_5 <= 3
+_C5029: Room_Assignment_MAT300_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C503: Overlap_COS126_ORF363 <= 1
-_C5030: Room_Assignment_MAT300_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY105_5 <= 3
-_C5031: Room_Assignment_MAT300_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY105_5 <= 3
-_C5032: Room_Assignment_MAT300_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT300_5 + Time_Assignment_PHY105_5 <= 3
+_C5030: Room_Assignment_MAT300_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5031: Room_Assignment_MAT300_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5032: Room_Assignment_MAT300_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT300_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C5033: Overlap_PHY105_MAT325 <= 1
-_C5034: Room_Assignment_MAT325_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT325_1 + Time_Assignment_PHY105_1 <= 3
-_C5035: Room_Assignment_MAT325_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT325_1 + Time_Assignment_PHY105_1 <= 3
-_C5036: Room_Assignment_MAT325_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT325_5 + Time_Assignment_PHY105_5 <= 3
-_C5037: Room_Assignment_MAT325_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT325_5 + Time_Assignment_PHY105_5 <= 3
+_C5034: Room_Assignment_MAT325_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5035: Room_Assignment_MAT325_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT325_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5036: Room_Assignment_MAT325_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5037: Room_Assignment_MAT325_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C5038: Overlap_PHY105_MAT335 <= 1
-_C5039: Room_Assignment_MAT335_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
+_C5039: Room_Assignment_MAT335_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C504: Overlap_COS126_ORF445 <= 1
-_C5040: Room_Assignment_MAT335_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C5041: Room_Assignment_MAT335_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C5042: Room_Assignment_MAT335_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C5043: Room_Assignment_MAT335_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C5044: Room_Assignment_MAT335_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C5045: Room_Assignment_MAT335_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C5046: Room_Assignment_MAT335_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT335_1 + Time_Assignment_PHY105_1 <= 3
-_C5047: Room_Assignment_MAT335_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C5048: Room_Assignment_MAT335_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C5049: Room_Assignment_MAT335_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
+_C5040: Room_Assignment_MAT335_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5041: Room_Assignment_MAT335_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5042: Room_Assignment_MAT335_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5043: Room_Assignment_MAT335_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5044: Room_Assignment_MAT335_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5045: Room_Assignment_MAT335_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5046: Room_Assignment_MAT335_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT335_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5047: Room_Assignment_MAT335_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5048: Room_Assignment_MAT335_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5049: Room_Assignment_MAT335_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C505: Overlap_COS126_PHY103 <= 1
-_C5050: Room_Assignment_MAT335_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C5051: Room_Assignment_MAT335_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C5052: Room_Assignment_MAT335_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C5053: Room_Assignment_MAT335_8 + Room_Assignment_PHY105_8
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
-_C5054: Room_Assignment_MAT335_10 + Room_Assignment_PHY105_10
- + Time_Assignment_MAT335_5 + Time_Assignment_PHY105_5 <= 3
+_C5050: Room_Assignment_MAT335_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5051: Room_Assignment_MAT335_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5052: Room_Assignment_MAT335_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5053: Room_Assignment_MAT335_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5054: Room_Assignment_MAT335_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_MAT335_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C5055: Overlap_PHY105_MAT370 <= 1
-_C5056: Room_Assignment_MAT370_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY105_1 <= 3
-_C5057: Room_Assignment_MAT370_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY105_1 <= 3
-_C5058: Room_Assignment_MAT370_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY105_5 <= 3
-_C5059: Room_Assignment_MAT370_12 + Room_Assignment_PHY105_12
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY105_5 <= 3
-_C506: Room_Assignment_COS126_1 + Room_Assignment_PHY103_1
- + Time_Assignment_COS126_1 + Time_Assignment_PHY103_1 <= 3
+_C5056: Room_Assignment_MAT370_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5057: Room_Assignment_MAT370_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5058: Room_Assignment_MAT370_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5059: Room_Assignment_MAT370_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C506: Room_Assignment_COS126_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
 _C5060: Overlap_PHY105_MAT377 <= 1
-_C5061: Room_Assignment_MAT377_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY105_1 <= 3
-_C5062: Room_Assignment_MAT377_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY105_1 <= 3
-_C5063: Room_Assignment_MAT377_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY105_1 <= 3
-_C5064: Room_Assignment_MAT377_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY105_1 <= 3
-_C5065: Room_Assignment_MAT377_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY105_2 <= 3
-_C5066: Room_Assignment_MAT377_4 + Room_Assignment_PHY105_4
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY105_2 <= 3
-_C5067: Room_Assignment_MAT377_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY105_2 <= 3
-_C5068: Room_Assignment_MAT377_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY105_2 <= 3
+_C5061: Room_Assignment_MAT377_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5062: Room_Assignment_MAT377_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5063: Room_Assignment_MAT377_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5064: Room_Assignment_MAT377_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5065: Room_Assignment_MAT377_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5066: Room_Assignment_MAT377_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5067: Room_Assignment_MAT377_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5068: Room_Assignment_MAT377_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C5069: Overlap_PHY105_MAT385 <= 1
-_C507: Room_Assignment_COS126_2 + Room_Assignment_PHY103_2
- + Time_Assignment_COS126_1 + Time_Assignment_PHY103_1 <= 3
-_C5070: Room_Assignment_MAT385_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C5071: Room_Assignment_MAT385_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C5072: Room_Assignment_MAT385_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C5073: Room_Assignment_MAT385_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C5074: Room_Assignment_MAT385_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT385_1 + Time_Assignment_PHY105_1 <= 3
-_C5075: Room_Assignment_MAT385_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
-_C5076: Room_Assignment_MAT385_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
-_C5077: Room_Assignment_MAT385_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
-_C5078: Room_Assignment_MAT385_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
-_C5079: Room_Assignment_MAT385_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT385_2 + Time_Assignment_PHY105_2 <= 3
+_C507: Room_Assignment_COS126_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
+_C5070: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5071: Room_Assignment_MAT385_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5072: Room_Assignment_MAT385_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5073: Room_Assignment_MAT385_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5074: Room_Assignment_MAT385_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5075: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5076: Room_Assignment_MAT385_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5077: Room_Assignment_MAT385_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5078: Room_Assignment_MAT385_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5079: Room_Assignment_MAT385_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT385_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
 _C508: Overlap_COS126_PHY104 <= 1
-_C5080: Room_Assignment_MAT385_2 + Room_Assignment_PHY105_2
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
-_C5081: Room_Assignment_MAT385_3 + Room_Assignment_PHY105_3
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
-_C5082: Room_Assignment_MAT385_5 + Room_Assignment_PHY105_5
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
-_C5083: Room_Assignment_MAT385_6 + Room_Assignment_PHY105_6
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
-_C5084: Room_Assignment_MAT385_7 + Room_Assignment_PHY105_7
- + Time_Assignment_MAT385_3 + Time_Assignment_PHY105_3 <= 3
+_C5080: Room_Assignment_MAT385_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5081: Room_Assignment_MAT385_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5082: Room_Assignment_MAT385_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5083: Room_Assignment_MAT385_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5084: Room_Assignment_MAT385_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C5085: Overlap_PHY105_MAT400 <= 1
 _C5086: Overlap_PHY105_ORF245 <= 1
-_C5087: Room_Assignment_ORF245_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF245_3 + Time_Assignment_PHY105_3 <= 3
-_C5088: Room_Assignment_ORF245_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ORF245_3 + Time_Assignment_PHY105_3 <= 3
-_C5089: Room_Assignment_ORF245_8 + Room_Assignment_PHY105_8
- + Time_Assignment_ORF245_3 + Time_Assignment_PHY105_3 <= 3
+_C5087: Room_Assignment_ORF245_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5088: Room_Assignment_ORF245_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5089: Room_Assignment_ORF245_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C509: Overlap_COS126_PHY105 <= 1
-_C5090: Room_Assignment_ORF245_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF245_4 + Time_Assignment_PHY105_4 <= 3
-_C5091: Room_Assignment_ORF245_7 + Room_Assignment_PHY105_7
- + Time_Assignment_ORF245_4 + Time_Assignment_PHY105_4 <= 3
-_C5092: Room_Assignment_ORF245_8 + Room_Assignment_PHY105_8
- + Time_Assignment_ORF245_4 + Time_Assignment_PHY105_4 <= 3
+_C5090: Room_Assignment_ORF245_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5091: Room_Assignment_ORF245_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5092: Room_Assignment_ORF245_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C5093: Overlap_PHY105_ORF307 <= 1
-_C5094: Room_Assignment_ORF307_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF307_2 + Time_Assignment_PHY105_2 <= 3
-_C5095: Room_Assignment_ORF307_10 + Room_Assignment_PHY105_10
- + Time_Assignment_ORF307_2 + Time_Assignment_PHY105_2 <= 3
-_C5096: Room_Assignment_ORF307_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF307_3 + Time_Assignment_PHY105_3 <= 3
-_C5097: Room_Assignment_ORF307_10 + Room_Assignment_PHY105_10
- + Time_Assignment_ORF307_3 + Time_Assignment_PHY105_3 <= 3
-_C5098: Room_Assignment_ORF307_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF307_4 + Time_Assignment_PHY105_4 <= 3
-_C5099: Room_Assignment_ORF307_10 + Room_Assignment_PHY105_10
- + Time_Assignment_ORF307_4 + Time_Assignment_PHY105_4 <= 3
+_C5094: Room_Assignment_ORF307_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF307_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5095: Room_Assignment_ORF307_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_ORF307_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5096: Room_Assignment_ORF307_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF307_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5097: Room_Assignment_ORF307_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_ORF307_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5098: Room_Assignment_ORF307_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF307_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5099: Room_Assignment_ORF307_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_ORF307_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C51: Overlap_AAS201_MAT202 <= 1
-_C510: Room_Assignment_COS126_1 + Room_Assignment_PHY105_1
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C5100: Room_Assignment_ORF307_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF307_5 + Time_Assignment_PHY105_5 <= 3
-_C5101: Room_Assignment_ORF307_10 + Room_Assignment_PHY105_10
- + Time_Assignment_ORF307_5 + Time_Assignment_PHY105_5 <= 3
+_C510: Room_Assignment_COS126_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5100: Room_Assignment_ORF307_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF307_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5101: Room_Assignment_ORF307_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_ORF307_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C5102: Overlap_PHY105_ORF309 <= 1
 _C5103: Overlap_PHY105_ORF350 <= 1
-_C5104: Room_Assignment_ORF350_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ORF350_3 + Time_Assignment_PHY105_3 <= 3
-_C5105: Room_Assignment_ORF350_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ORF350_3 + Time_Assignment_PHY105_3 <= 3
-_C5106: Room_Assignment_ORF350_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ORF350_4 + Time_Assignment_PHY105_4 <= 3
-_C5107: Room_Assignment_ORF350_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ORF350_4 + Time_Assignment_PHY105_4 <= 3
-_C5108: Room_Assignment_ORF350_6 + Room_Assignment_PHY105_6
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY105_5 <= 3
-_C5109: Room_Assignment_ORF350_9 + Room_Assignment_PHY105_9
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY105_5 <= 3
-_C511: Room_Assignment_COS126_2 + Room_Assignment_PHY105_2
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
+_C5104: Room_Assignment_ORF350_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ORF350_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5105: Room_Assignment_ORF350_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ORF350_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5106: Room_Assignment_ORF350_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ORF350_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5107: Room_Assignment_ORF350_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ORF350_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5108: Room_Assignment_ORF350_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5109: Room_Assignment_ORF350_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C511: Room_Assignment_COS126_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C5110: Overlap_PHY105_ORF363 <= 1
 _C5111: Overlap_PHY105_ORF445 <= 1
-_C5112: Room_Assignment_ORF445_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF445_3 + Time_Assignment_PHY105_3 <= 3
-_C5113: Room_Assignment_ORF445_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ORF445_3 + Time_Assignment_PHY105_3 <= 3
-_C5114: Room_Assignment_ORF445_5 + Room_Assignment_PHY105_5
- + Time_Assignment_ORF445_4 + Time_Assignment_PHY105_4 <= 3
-_C5115: Room_Assignment_ORF445_12 + Room_Assignment_PHY105_12
- + Time_Assignment_ORF445_4 + Time_Assignment_PHY105_4 <= 3
+_C5112: Room_Assignment_ORF445_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF445_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5113: Room_Assignment_ORF445_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ORF445_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5114: Room_Assignment_ORF445_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_ORF445_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5115: Room_Assignment_ORF445_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_ORF445_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C5116: Overlap_PHY105_PHY103 <= 1
-_C5117: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_1 + Time_Assignment_PHY105_1 <= 3
-_C5118: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_1 + Time_Assignment_PHY105_1 <= 3
-_C5119: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_2 + Time_Assignment_PHY105_2 <= 3
-_C512: Room_Assignment_COS126_3 + Room_Assignment_PHY105_3
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C5120: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_2 + Time_Assignment_PHY105_2 <= 3
-_C5121: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_3 + Time_Assignment_PHY105_3 <= 3
-_C5122: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_3 + Time_Assignment_PHY105_3 <= 3
-_C5123: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_4 + Time_Assignment_PHY105_4 <= 3
-_C5124: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_4 + Time_Assignment_PHY105_4 <= 3
-_C5125: Room_Assignment_PHY103_1 + Room_Assignment_PHY105_1
- + Time_Assignment_PHY103_5 + Time_Assignment_PHY105_5 <= 3
-_C5126: Room_Assignment_PHY103_2 + Room_Assignment_PHY105_2
- + Time_Assignment_PHY103_5 + Time_Assignment_PHY105_5 <= 3
+_C5117: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5118: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5119: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C512: Room_Assignment_COS126_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5120: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5121: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5122: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C5123: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5124: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C5125: Room_Assignment_PHY103_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_PHY103_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
+_C5126: Room_Assignment_PHY103_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_PHY103_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C5127: Overlap_PHY105_PHY104 <= 1
 _C5128: Overlap_PHY105_PHY106 <= 1
 _C5129: Overlap_PHY105_PHY208 <= 1
-_C513: Room_Assignment_COS126_4 + Room_Assignment_PHY105_4
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
+_C513: Room_Assignment_COS126_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C5130: Overlap_PHY105_REL100 <= 1
-_C5131: Room_Assignment_PHY105_9 + Room_Assignment_REL100_9
- + Time_Assignment_PHY105_3 + Time_Assignment_REL100_3 <= 3
+_C5131: Room_Assignment_PHY105_9.0 + Room_Assignment_REL100_9.0
+ + Time_Assignment_PHY105_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5132: Overlap_PHY105_REL232 <= 1
 _C5133: Overlap_PHY105_SML201 <= 1
 _C5134: Overlap_PHY105_URB201 <= 1
 _C5135: Overlap_PHY106_AAS201 <= 1
 _C5136: Overlap_PHY106_ASA203 <= 1
-_C5137: Room_Assignment_ASA203_21 + Room_Assignment_PHY106_21
- + Time_Assignment_ASA203_5 + Time_Assignment_PHY106_5 <= 3
+_C5137: Room_Assignment_ASA203_21.0 + Room_Assignment_PHY106_21.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C5138: Overlap_PHY106_ASA238 <= 1
 _C5139: Overlap_PHY106_COS126 <= 1
-_C514: Room_Assignment_COS126_5 + Room_Assignment_PHY105_5
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
+_C514: Room_Assignment_COS126_5.0 + Room_Assignment_PHY105_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C5140: Overlap_PHY106_COS226 <= 1
 _C5141: Overlap_PHY106_COS217 <= 1
 _C5142: Overlap_PHY106_COS333 <= 1
@@ -8530,59 +10452,76 @@ _C5145: Overlap_PHY106_COS432 <= 1
 _C5146: Overlap_PHY106_COS484 <= 1
 _C5147: Overlap_PHY106_COS522 <= 1
 _C5148: Overlap_PHY106_COS528 <= 1
-_C5149: Room_Assignment_COS528_11 + Room_Assignment_PHY106_11
- + Time_Assignment_COS528_5 + Time_Assignment_PHY106_5 <= 3
-_C515: Room_Assignment_COS126_6 + Room_Assignment_PHY105_6
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C5150: Room_Assignment_COS528_19 + Room_Assignment_PHY106_19
- + Time_Assignment_COS528_5 + Time_Assignment_PHY106_5 <= 3
-_C5151: Room_Assignment_COS528_29 + Room_Assignment_PHY106_29
- + Time_Assignment_COS528_5 + Time_Assignment_PHY106_5 <= 3
-_C5152: Room_Assignment_COS528_31 + Room_Assignment_PHY106_31
- + Time_Assignment_COS528_5 + Time_Assignment_PHY106_5 <= 3
+_C5149: Room_Assignment_COS528_11.0 + Room_Assignment_PHY106_11.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C515: Room_Assignment_COS126_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5150: Room_Assignment_COS528_19.0 + Room_Assignment_PHY106_19.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C5151: Room_Assignment_COS528_29.0 + Room_Assignment_PHY106_29.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C5152: Room_Assignment_COS528_31.0 + Room_Assignment_PHY106_31.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C5153: Overlap_PHY106_ECO100 <= 1
 _C5154: Overlap_PHY106_ECO102 <= 1
-_C5155: Room_Assignment_ECO102_49 + Room_Assignment_PHY106_49
- + Time_Assignment_ECO102_1 + Time_Assignment_PHY106_1 <= 3
+_C5155: Room_Assignment_ECO102_49.0 + Room_Assignment_PHY106_49.0
+ + Time_Assignment_ECO102_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
 _C5156: Overlap_PHY106_ECO202 <= 1
-_C5157: Room_Assignment_ECO202_21 + Room_Assignment_PHY106_21
- + Time_Assignment_ECO202_5 + Time_Assignment_PHY106_5 <= 3
+_C5157: Room_Assignment_ECO202_21.0 + Room_Assignment_PHY106_21.0
+ + Time_Assignment_ECO202_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C5158: Overlap_PHY106_ECO300 <= 1
 _C5159: Overlap_PHY106_ECO301 <= 1
-_C516: Room_Assignment_COS126_7 + Room_Assignment_PHY105_7
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
+_C516: Room_Assignment_COS126_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C5160: Overlap_PHY106_ECO302 <= 1
 _C5161: Overlap_PHY106_ECO310 <= 1
 _C5162: Overlap_PHY106_ECO312 <= 1
-_C5163: Room_Assignment_ECO312_41 + Room_Assignment_PHY106_41
- + Time_Assignment_ECO312_5 + Time_Assignment_PHY106_5 <= 3
-_C5164: Room_Assignment_ECO312_49 + Room_Assignment_PHY106_49
- + Time_Assignment_ECO312_5 + Time_Assignment_PHY106_5 <= 3
+_C5163: Room_Assignment_ECO312_41.0 + Room_Assignment_PHY106_41.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C5164: Room_Assignment_ECO312_49.0 + Room_Assignment_PHY106_49.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C5165: Overlap_PHY106_GER101 <= 1
-_C5166: Room_Assignment_GER101_29 + Room_Assignment_PHY106_29
- + Time_Assignment_GER101_1 + Time_Assignment_PHY106_1 <= 3
+_C5166: Room_Assignment_GER101_29.0 + Room_Assignment_PHY106_29.0
+ + Time_Assignment_GER101_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
 _C5167: Overlap_PHY106_GER103 <= 1
 _C5168: Overlap_PHY106_GER105 <= 1
 _C5169: Overlap_PHY106_GER107 <= 1
-_C517: Room_Assignment_COS126_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
+_C517: Room_Assignment_COS126_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C5170: Overlap_PHY106_LIN201 <= 1
 _C5171: Overlap_PHY106_LIN300 <= 1
 _C5172: Overlap_PHY106_MAT103 <= 1
-_C5173: Room_Assignment_MAT103_11 + Room_Assignment_PHY106_11
- + Time_Assignment_MAT103_5 + Time_Assignment_PHY106_5 <= 3
-_C5174: Room_Assignment_MAT103_21 + Room_Assignment_PHY106_21
- + Time_Assignment_MAT103_5 + Time_Assignment_PHY106_5 <= 3
+_C5173: Room_Assignment_MAT103_11.0 + Room_Assignment_PHY106_11.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C5174: Room_Assignment_MAT103_21.0 + Room_Assignment_PHY106_21.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C5175: Overlap_PHY106_MAT104 <= 1
-_C5176: Room_Assignment_MAT104_49 + Room_Assignment_PHY106_49
- + Time_Assignment_MAT104_5 + Time_Assignment_PHY106_5 <= 3
+_C5176: Room_Assignment_MAT104_49.0 + Room_Assignment_PHY106_49.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C5177: Overlap_PHY106_MAT201 <= 1
 _C5178: Overlap_PHY106_MAT202 <= 1
 _C5179: Overlap_PHY106_MAT203 <= 1
-_C518: Room_Assignment_COS126_9 + Room_Assignment_PHY105_9
- + Time_Assignment_COS126_1 + Time_Assignment_PHY105_1 <= 3
-_C5180: Room_Assignment_MAT203_29 + Room_Assignment_PHY106_29
- + Time_Assignment_MAT203_1 + Time_Assignment_PHY106_1 <= 3
+_C518: Room_Assignment_COS126_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
+_C5180: Room_Assignment_MAT203_29.0 + Room_Assignment_PHY106_29.0
+ + Time_Assignment_MAT203_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
 _C5181: Overlap_PHY106_MAT204 <= 1
 _C5182: Overlap_PHY106_MAT215 <= 1
 _C5183: Overlap_PHY106_MAT216 <= 1
@@ -8593,30 +10532,38 @@ _C5187: Overlap_PHY106_MAT325 <= 1
 _C5188: Overlap_PHY106_MAT335 <= 1
 _C5189: Overlap_PHY106_MAT370 <= 1
 _C519: Overlap_COS126_PHY106 <= 1
-_C5190: Room_Assignment_MAT370_31 + Room_Assignment_PHY106_31
- + Time_Assignment_MAT370_1 + Time_Assignment_PHY106_1 <= 3
-_C5191: Room_Assignment_MAT370_31 + Room_Assignment_PHY106_31
- + Time_Assignment_MAT370_5 + Time_Assignment_PHY106_5 <= 3
+_C5190: Room_Assignment_MAT370_31.0 + Room_Assignment_PHY106_31.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
+_C5191: Room_Assignment_MAT370_31.0 + Room_Assignment_PHY106_31.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C5192: Overlap_PHY106_MAT377 <= 1
-_C5193: Room_Assignment_MAT377_19 + Room_Assignment_PHY106_19
- + Time_Assignment_MAT377_1 + Time_Assignment_PHY106_1 <= 3
+_C5193: Room_Assignment_MAT377_19.0 + Room_Assignment_PHY106_19.0
+ + Time_Assignment_MAT377_9:00_9:50_AM + Time_Assignment_PHY106_9:00_9:50_AM
+ <= 3
 _C5194: Overlap_PHY106_MAT385 <= 1
 _C5195: Overlap_PHY106_MAT400 <= 1
 _C5196: Overlap_PHY106_ORF245 <= 1
 _C5197: Overlap_PHY106_ORF307 <= 1
 _C5198: Overlap_PHY106_ORF309 <= 1
 _C5199: Overlap_PHY106_ORF350 <= 1
-_C52: Room_Assignment_AAS201_1 + Room_Assignment_MAT202_1
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT202_1 <= 3
+_C52: Room_Assignment_AAS201_1.0 + Room_Assignment_MAT202_1.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C520: Overlap_COS126_PHY208 <= 1
-_C5200: Room_Assignment_ORF350_19 + Room_Assignment_PHY106_19
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY106_5 <= 3
-_C5201: Room_Assignment_ORF350_29 + Room_Assignment_PHY106_29
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY106_5 <= 3
-_C5202: Room_Assignment_ORF350_39 + Room_Assignment_PHY106_39
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY106_5 <= 3
-_C5203: Room_Assignment_ORF350_49 + Room_Assignment_PHY106_49
- + Time_Assignment_ORF350_5 + Time_Assignment_PHY106_5 <= 3
+_C5200: Room_Assignment_ORF350_19.0 + Room_Assignment_PHY106_19.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C5201: Room_Assignment_ORF350_29.0 + Room_Assignment_PHY106_29.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C5202: Room_Assignment_ORF350_39.0 + Room_Assignment_PHY106_39.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
+_C5203: Room_Assignment_ORF350_49.0 + Room_Assignment_PHY106_49.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_PHY106_2:30_3:20_PM
+ <= 3
 _C5204: Overlap_PHY106_ORF363 <= 1
 _C5205: Overlap_PHY106_ORF445 <= 1
 _C5206: Overlap_PHY106_PHY103 <= 1
@@ -8626,36 +10573,43 @@ _C5209: Overlap_PHY106_PHY208 <= 1
 _C521: Overlap_COS126_REL100 <= 1
 _C5210: Overlap_PHY106_REL100 <= 1
 _C5211: Overlap_PHY106_REL232 <= 1
-_C5212: Room_Assignment_PHY106_49 + Room_Assignment_REL232_49
- + Time_Assignment_PHY106_5 + Time_Assignment_REL232_5 <= 3
+_C5212: Room_Assignment_PHY106_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_PHY106_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C5213: Overlap_PHY106_SML201 <= 1
-_C5214: Room_Assignment_PHY106_31 + Room_Assignment_SML201_31
- + Time_Assignment_PHY106_1 + Time_Assignment_SML201_1 <= 3
-_C5215: Room_Assignment_PHY106_31 + Room_Assignment_SML201_31
- + Time_Assignment_PHY106_5 + Time_Assignment_SML201_5 <= 3
+_C5214: Room_Assignment_PHY106_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_PHY106_9:00_9:50_AM + Time_Assignment_SML201_9:00_9:50_AM
+ <= 3
+_C5215: Room_Assignment_PHY106_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_PHY106_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C5216: Overlap_PHY106_URB201 <= 1
-_C5217: Room_Assignment_PHY106_31 + Room_Assignment_URB201_31
- + Time_Assignment_PHY106_5 + Time_Assignment_URB201_5 <= 3
+_C5217: Room_Assignment_PHY106_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_PHY106_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
 _C5218: Overlap_PHY208_AAS201 <= 1
 _C5219: Overlap_PHY208_ASA203 <= 1
 _C522: Overlap_COS126_REL232 <= 1
 _C5220: Overlap_PHY208_ASA238 <= 1
 _C5221: Overlap_PHY208_COS126 <= 1
 _C5222: Overlap_PHY208_COS226 <= 1
-_C5223: Room_Assignment_COS226_38 + Room_Assignment_PHY208_38
- + Time_Assignment_COS226_2 + Time_Assignment_PHY208_2 <= 3
+_C5223: Room_Assignment_COS226_38.0 + Room_Assignment_PHY208_38.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
 _C5224: Overlap_PHY208_COS217 <= 1
 _C5225: Overlap_PHY208_COS333 <= 1
 _C5226: Overlap_PHY208_COS342 <= 1
 _C5227: Overlap_PHY208_COS423 <= 1
 _C5228: Overlap_PHY208_COS432 <= 1
-_C5229: Room_Assignment_COS432_18 + Room_Assignment_PHY208_18
- + Time_Assignment_COS432_4 + Time_Assignment_PHY208_4 <= 3
+_C5229: Room_Assignment_COS432_18.0 + Room_Assignment_PHY208_18.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY208_1:30_2:20_PM
+ <= 3
 _C523: Overlap_COS126_SML201 <= 1
 _C5230: Overlap_PHY208_COS484 <= 1
 _C5231: Overlap_PHY208_COS522 <= 1
-_C5232: Room_Assignment_COS522_48 + Room_Assignment_PHY208_48
- + Time_Assignment_COS522_5 + Time_Assignment_PHY208_5 <= 3
+_C5232: Room_Assignment_COS522_48.0 + Room_Assignment_PHY208_48.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
 _C5233: Overlap_PHY208_COS528 <= 1
 _C5234: Overlap_PHY208_ECO100 <= 1
 _C5235: Overlap_PHY208_ECO102 <= 1
@@ -8666,19 +10620,22 @@ _C5239: Overlap_PHY208_ECO302 <= 1
 _C524: Overlap_COS126_URB201 <= 1
 _C5240: Overlap_PHY208_ECO310 <= 1
 _C5241: Overlap_PHY208_ECO312 <= 1
-_C5242: Room_Assignment_ECO312_48 + Room_Assignment_PHY208_48
- + Time_Assignment_ECO312_5 + Time_Assignment_PHY208_5 <= 3
+_C5242: Room_Assignment_ECO312_48.0 + Room_Assignment_PHY208_48.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
 _C5243: Overlap_PHY208_GER101 <= 1
-_C5244: Room_Assignment_GER101_28 + Room_Assignment_PHY208_28
- + Time_Assignment_GER101_2 + Time_Assignment_PHY208_2 <= 3
+_C5244: Room_Assignment_GER101_28.0 + Room_Assignment_PHY208_28.0
+ + Time_Assignment_GER101_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
 _C5245: Overlap_PHY208_GER103 <= 1
 _C5246: Overlap_PHY208_GER105 <= 1
 _C5247: Overlap_PHY208_GER107 <= 1
 _C5248: Overlap_PHY208_LIN201 <= 1
 _C5249: Overlap_PHY208_LIN300 <= 1
 _C525: Overlap_COS226_AAS201 <= 1
-_C5250: Room_Assignment_LIN300_48 + Room_Assignment_PHY208_48
- + Time_Assignment_LIN300_2 + Time_Assignment_PHY208_2 <= 3
+_C5250: Room_Assignment_LIN300_48.0 + Room_Assignment_PHY208_48.0
+ + Time_Assignment_LIN300_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
 _C5251: Overlap_PHY208_MAT103 <= 1
 _C5252: Overlap_PHY208_MAT104 <= 1
 _C5253: Overlap_PHY208_MAT201 <= 1
@@ -8687,21 +10644,25 @@ _C5255: Overlap_PHY208_MAT203 <= 1
 _C5256: Overlap_PHY208_MAT204 <= 1
 _C5257: Overlap_PHY208_MAT215 <= 1
 _C5258: Overlap_PHY208_MAT216 <= 1
-_C5259: Room_Assignment_MAT216_58 + Room_Assignment_PHY208_58
- + Time_Assignment_MAT216_2 + Time_Assignment_PHY208_2 <= 3
-_C526: Room_Assignment_AAS201_4 + Room_Assignment_COS226_4
- + Time_Assignment_AAS201_2 + Time_Assignment_COS226_2 <= 3
+_C5259: Room_Assignment_MAT216_58.0 + Room_Assignment_PHY208_58.0
+ + Time_Assignment_MAT216_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
+_C526: Room_Assignment_AAS201_4.0 + Room_Assignment_COS226_4.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_COS226_10:00_10:50_AM <= 3
 _C5260: Overlap_PHY208_MAT217 <= 1
 _C5261: Overlap_PHY208_MAT218 <= 1
 _C5262: Overlap_PHY208_MAT300 <= 1
 _C5263: Overlap_PHY208_MAT325 <= 1
-_C5264: Room_Assignment_MAT325_58 + Room_Assignment_PHY208_58
- + Time_Assignment_MAT325_5 + Time_Assignment_PHY208_5 <= 3
+_C5264: Room_Assignment_MAT325_58.0 + Room_Assignment_PHY208_58.0
+ + Time_Assignment_MAT325_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
 _C5265: Overlap_PHY208_MAT335 <= 1
 _C5266: Overlap_PHY208_MAT370 <= 1
 _C5267: Overlap_PHY208_MAT377 <= 1
-_C5268: Room_Assignment_MAT377_18 + Room_Assignment_PHY208_18
- + Time_Assignment_MAT377_2 + Time_Assignment_PHY208_2 <= 3
+_C5268: Room_Assignment_MAT377_18.0 + Room_Assignment_PHY208_18.0
+ + Time_Assignment_MAT377_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
 _C5269: Overlap_PHY208_MAT385 <= 1
 _C527: Overlap_COS226_ASA203 <= 1
 _C5270: Overlap_PHY208_MAT400 <= 1
@@ -8713,11 +10674,13 @@ _C5275: Overlap_PHY208_ORF363 <= 1
 _C5276: Overlap_PHY208_ORF445 <= 1
 _C5277: Overlap_PHY208_PHY103 <= 1
 _C5278: Overlap_PHY208_PHY104 <= 1
-_C5279: Room_Assignment_PHY104_28 + Room_Assignment_PHY208_28
- + Time_Assignment_PHY104_5 + Time_Assignment_PHY208_5 <= 3
+_C5279: Room_Assignment_PHY104_28.0 + Room_Assignment_PHY208_28.0
+ + Time_Assignment_PHY104_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
 _C528: Overlap_COS226_ASA238 <= 1
-_C5280: Room_Assignment_PHY104_58 + Room_Assignment_PHY208_58
- + Time_Assignment_PHY104_5 + Time_Assignment_PHY208_5 <= 3
+_C5280: Room_Assignment_PHY104_58.0 + Room_Assignment_PHY208_58.0
+ + Time_Assignment_PHY104_2:30_3:20_PM + Time_Assignment_PHY208_2:30_3:20_PM
+ <= 3
 _C5281: Overlap_PHY208_PHY105 <= 1
 _C5282: Overlap_PHY208_PHY106 <= 1
 _C5283: Overlap_PHY208_REL100 <= 1
@@ -8726,24 +10689,29 @@ _C5285: Overlap_PHY208_SML201 <= 1
 _C5286: Overlap_PHY208_URB201 <= 1
 _C5287: Overlap_REL100_AAS201 <= 1
 _C5288: Overlap_REL100_ASA203 <= 1
-_C5289: Room_Assignment_ASA203_43 + Room_Assignment_REL100_43
- + Time_Assignment_ASA203_3 + Time_Assignment_REL100_3 <= 3
+_C5289: Room_Assignment_ASA203_43.0 + Room_Assignment_REL100_43.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C529: Overlap_COS226_COS126 <= 1
 _C5290: Overlap_REL100_ASA238 <= 1
-_C5291: Room_Assignment_ASA238_65 + Room_Assignment_REL100_65
- + Time_Assignment_ASA238_3 + Time_Assignment_REL100_3 <= 3
+_C5291: Room_Assignment_ASA238_65.0 + Room_Assignment_REL100_65.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5292: Overlap_REL100_COS126 <= 1
 _C5293: Overlap_REL100_COS226 <= 1
 _C5294: Overlap_REL100_COS217 <= 1
 _C5295: Overlap_REL100_COS333 <= 1
 _C5296: Overlap_REL100_COS342 <= 1
 _C5297: Overlap_REL100_COS423 <= 1
-_C5298: Room_Assignment_COS423_51 + Room_Assignment_REL100_51
- + Time_Assignment_COS423_3 + Time_Assignment_REL100_3 <= 3
-_C5299: Room_Assignment_COS423_54 + Room_Assignment_REL100_54
- + Time_Assignment_COS423_3 + Time_Assignment_REL100_3 <= 3
-_C53: Room_Assignment_AAS201_5 + Room_Assignment_MAT202_5
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT202_1 <= 3
+_C5298: Room_Assignment_COS423_51.0 + Room_Assignment_REL100_51.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C5299: Room_Assignment_COS423_54.0 + Room_Assignment_REL100_54.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C53: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT202_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT202_9:00_9:50_AM
+ <= 3
 _C530: Overlap_COS226_COS217 <= 1
 _C5300: Overlap_REL100_COS432 <= 1
 _C5301: Overlap_REL100_COS484 <= 1
@@ -8752,26 +10720,32 @@ _C5303: Overlap_REL100_COS528 <= 1
 _C5304: Overlap_REL100_ECO100 <= 1
 _C5305: Overlap_REL100_ECO102 <= 1
 _C5306: Overlap_REL100_ECO202 <= 1
-_C5307: Room_Assignment_ECO202_24 + Room_Assignment_REL100_24
- + Time_Assignment_ECO202_3 + Time_Assignment_REL100_3 <= 3
+_C5307: Room_Assignment_ECO202_24.0 + Room_Assignment_REL100_24.0
+ + Time_Assignment_ECO202_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5308: Overlap_REL100_ECO300 <= 1
-_C5309: Room_Assignment_ECO300_51 + Room_Assignment_REL100_51
- + Time_Assignment_ECO300_3 + Time_Assignment_REL100_3 <= 3
+_C5309: Room_Assignment_ECO300_51 + Room_Assignment_REL100_51.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C531: Overlap_COS226_COS333 <= 1
-_C5310: Room_Assignment_ECO300_24 + Room_Assignment_REL100_24
- + Time_Assignment_ECO300_3 + Time_Assignment_REL100_3 <= 3
+_C5310: Room_Assignment_ECO300_24 + Room_Assignment_REL100_24.0
+ + Time_Assignment_ECO300_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5311: Overlap_REL100_ECO301 <= 1
 _C5312: Overlap_REL100_ECO302 <= 1
-_C5313: Room_Assignment_ECO302_65 + Room_Assignment_REL100_65
- + Time_Assignment_ECO302_3 + Time_Assignment_REL100_3 <= 3
-_C5314: Room_Assignment_ECO302_61 + Room_Assignment_REL100_61
- + Time_Assignment_ECO302_3 + Time_Assignment_REL100_3 <= 3
+_C5313: Room_Assignment_ECO302_65.0 + Room_Assignment_REL100_65.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C5314: Room_Assignment_ECO302_61.0 + Room_Assignment_REL100_61.0
+ + Time_Assignment_ECO302_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5315: Overlap_REL100_ECO310 <= 1
 _C5316: Overlap_REL100_ECO312 <= 1
 _C5317: Overlap_REL100_GER101 <= 1
 _C5318: Overlap_REL100_GER103 <= 1
-_C5319: Room_Assignment_GER103_9 + Room_Assignment_REL100_9
- + Time_Assignment_GER103_3 + Time_Assignment_REL100_3 <= 3
+_C5319: Room_Assignment_GER103_9.0 + Room_Assignment_REL100_9.0
+ + Time_Assignment_GER103_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C532: Overlap_COS226_COS342 <= 1
 _C5320: Overlap_REL100_GER105 <= 1
 _C5321: Overlap_REL100_GER107 <= 1
@@ -8786,8 +10760,9 @@ _C5329: Overlap_REL100_MAT204 <= 1
 _C533: Overlap_COS226_COS423 <= 1
 _C5330: Overlap_REL100_MAT215 <= 1
 _C5331: Overlap_REL100_MAT216 <= 1
-_C5332: Room_Assignment_MAT216_61 + Room_Assignment_REL100_61
- + Time_Assignment_MAT216_3 + Time_Assignment_REL100_3 <= 3
+_C5332: Room_Assignment_MAT216_61.0 + Room_Assignment_REL100_61.0
+ + Time_Assignment_MAT216_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5333: Overlap_REL100_MAT217 <= 1
 _C5334: Overlap_REL100_MAT218 <= 1
 _C5335: Overlap_REL100_MAT300 <= 1
@@ -8797,38 +10772,48 @@ _C5338: Overlap_REL100_MAT370 <= 1
 _C5339: Overlap_REL100_MAT377 <= 1
 _C534: Overlap_COS226_COS432 <= 1
 _C5340: Overlap_REL100_MAT385 <= 1
-_C5341: Room_Assignment_MAT385_43 + Room_Assignment_REL100_43
- + Time_Assignment_MAT385_3 + Time_Assignment_REL100_3 <= 3
+_C5341: Room_Assignment_MAT385_43.0 + Room_Assignment_REL100_43.0
+ + Time_Assignment_MAT385_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5342: Overlap_REL100_MAT400 <= 1
-_C5343: Room_Assignment_MAT400_54 + Room_Assignment_REL100_54
- + Time_Assignment_MAT400_3 + Time_Assignment_REL100_3 <= 3
-_C5344: Room_Assignment_MAT400_65 + Room_Assignment_REL100_65
- + Time_Assignment_MAT400_3 + Time_Assignment_REL100_3 <= 3
-_C5345: Room_Assignment_MAT400_24 + Room_Assignment_REL100_24
- + Time_Assignment_MAT400_3 + Time_Assignment_REL100_3 <= 3
+_C5343: Room_Assignment_MAT400_54.0 + Room_Assignment_REL100_54.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C5344: Room_Assignment_MAT400_65.0 + Room_Assignment_REL100_65.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C5345: Room_Assignment_MAT400_24.0 + Room_Assignment_REL100_24.0
+ + Time_Assignment_MAT400_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5346: Overlap_REL100_ORF245 <= 1
-_C5347: Room_Assignment_ORF245_65 + Room_Assignment_REL100_65
- + Time_Assignment_ORF245_3 + Time_Assignment_REL100_3 <= 3
+_C5347: Room_Assignment_ORF245_65.0 + Room_Assignment_REL100_65.0
+ + Time_Assignment_ORF245_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5348: Overlap_REL100_ORF307 <= 1
 _C5349: Overlap_REL100_ORF309 <= 1
 _C535: Overlap_COS226_COS484 <= 1
-_C5350: Room_Assignment_ORF309_43 + Room_Assignment_REL100_43
- + Time_Assignment_ORF309_3 + Time_Assignment_REL100_3 <= 3
+_C5350: Room_Assignment_ORF309_43.0 + Room_Assignment_REL100_43.0
+ + Time_Assignment_ORF309_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5351: Overlap_REL100_ORF350 <= 1
-_C5352: Room_Assignment_ORF350_9 + Room_Assignment_REL100_9
- + Time_Assignment_ORF350_3 + Time_Assignment_REL100_3 <= 3
+_C5352: Room_Assignment_ORF350_9.0 + Room_Assignment_REL100_9.0
+ + Time_Assignment_ORF350_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5353: Overlap_REL100_ORF363 <= 1
 _C5354: Overlap_REL100_ORF445 <= 1
-_C5355: Room_Assignment_ORF445_54 + Room_Assignment_REL100_54
- + Time_Assignment_ORF445_3 + Time_Assignment_REL100_3 <= 3
-_C5356: Room_Assignment_ORF445_24 + Room_Assignment_REL100_24
- + Time_Assignment_ORF445_3 + Time_Assignment_REL100_3 <= 3
+_C5355: Room_Assignment_ORF445_54.0 + Room_Assignment_REL100_54.0
+ + Time_Assignment_ORF445_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C5356: Room_Assignment_ORF445_24.0 + Room_Assignment_REL100_24.0
+ + Time_Assignment_ORF445_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5357: Overlap_REL100_PHY103 <= 1
 _C5358: Overlap_REL100_PHY104 <= 1
 _C5359: Overlap_REL100_PHY105 <= 1
 _C536: Overlap_COS226_COS522 <= 1
-_C5360: Room_Assignment_PHY105_9 + Room_Assignment_REL100_9
- + Time_Assignment_PHY105_3 + Time_Assignment_REL100_3 <= 3
+_C5360: Room_Assignment_PHY105_9.0 + Room_Assignment_REL100_9.0
+ + Time_Assignment_PHY105_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C5361: Overlap_REL100_PHY106 <= 1
 _C5362: Overlap_REL100_PHY208 <= 1
 _C5363: Overlap_REL100_REL232 <= 1
@@ -8836,10 +10821,12 @@ _C5364: Overlap_REL100_SML201 <= 1
 _C5365: Overlap_REL100_URB201 <= 1
 _C5366: Overlap_REL232_AAS201 <= 1
 _C5367: Overlap_REL232_ASA203 <= 1
-_C5368: Room_Assignment_ASA203_43 + Room_Assignment_REL232_43
- + Time_Assignment_ASA203_4 + Time_Assignment_REL232_4 <= 3
-_C5369: Room_Assignment_ASA203_43 + Room_Assignment_REL232_43
- + Time_Assignment_ASA203_5 + Time_Assignment_REL232_5 <= 3
+_C5368: Room_Assignment_ASA203_43.0 + Room_Assignment_REL232_43.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
+_C5369: Room_Assignment_ASA203_43.0 + Room_Assignment_REL232_43.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C537: Overlap_COS226_COS528 <= 1
 _C5370: Overlap_REL232_ASA238 <= 1
 _C5371: Overlap_REL232_COS126 <= 1
@@ -8861,11 +10848,13 @@ _C5385: Overlap_REL232_ECO301 <= 1
 _C5386: Overlap_REL232_ECO302 <= 1
 _C5387: Overlap_REL232_ECO310 <= 1
 _C5388: Overlap_REL232_ECO312 <= 1
-_C5389: Room_Assignment_ECO312_44 + Room_Assignment_REL232_44
- + Time_Assignment_ECO312_5 + Time_Assignment_REL232_5 <= 3
+_C5389: Room_Assignment_ECO312_44.0 + Room_Assignment_REL232_44.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C539: Overlap_COS226_ECO102 <= 1
-_C5390: Room_Assignment_ECO312_49 + Room_Assignment_REL232_49
- + Time_Assignment_ECO312_5 + Time_Assignment_REL232_5 <= 3
+_C5390: Room_Assignment_ECO312_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_ECO312_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C5391: Overlap_REL232_GER101 <= 1
 _C5392: Overlap_REL232_GER103 <= 1
 _C5393: Overlap_REL232_GER105 <= 1
@@ -8874,8 +10863,9 @@ _C5395: Overlap_REL232_LIN201 <= 1
 _C5396: Overlap_REL232_LIN300 <= 1
 _C5397: Overlap_REL232_MAT103 <= 1
 _C5398: Overlap_REL232_MAT104 <= 1
-_C5399: Room_Assignment_MAT104_49 + Room_Assignment_REL232_49
- + Time_Assignment_MAT104_5 + Time_Assignment_REL232_5 <= 3
+_C5399: Room_Assignment_MAT104_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_MAT104_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C54: Overlap_AAS201_MAT203 <= 1
 _C540: Overlap_COS226_ECO202 <= 1
 _C5400: Overlap_REL232_MAT201 <= 1
@@ -8894,47 +10884,58 @@ _C5411: Overlap_REL232_MAT370 <= 1
 _C5412: Overlap_REL232_MAT377 <= 1
 _C5413: Overlap_REL232_MAT385 <= 1
 _C5414: Overlap_REL232_MAT400 <= 1
-_C5415: Room_Assignment_MAT400_45 + Room_Assignment_REL232_45
- + Time_Assignment_MAT400_4 + Time_Assignment_REL232_4 <= 3
+_C5415: Room_Assignment_MAT400_45.0 + Room_Assignment_REL232_45.0
+ + Time_Assignment_MAT400_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
 _C5416: Overlap_REL232_ORF245 <= 1
 _C5417: Overlap_REL232_ORF307 <= 1
-_C5418: Room_Assignment_ORF307_45 + Room_Assignment_REL232_45
- + Time_Assignment_ORF307_4 + Time_Assignment_REL232_4 <= 3
-_C5419: Room_Assignment_ORF307_45 + Room_Assignment_REL232_45
- + Time_Assignment_ORF307_5 + Time_Assignment_REL232_5 <= 3
+_C5418: Room_Assignment_ORF307_45.0 + Room_Assignment_REL232_45.0
+ + Time_Assignment_ORF307_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
+_C5419: Room_Assignment_ORF307_45.0 + Room_Assignment_REL232_45.0
+ + Time_Assignment_ORF307_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C542: Overlap_COS226_ECO301 <= 1
 _C5420: Overlap_REL232_ORF309 <= 1
-_C5421: Room_Assignment_ORF309_43 + Room_Assignment_REL232_43
- + Time_Assignment_ORF309_4 + Time_Assignment_REL232_4 <= 3
-_C5422: Room_Assignment_ORF309_43 + Room_Assignment_REL232_43
- + Time_Assignment_ORF309_5 + Time_Assignment_REL232_5 <= 3
+_C5421: Room_Assignment_ORF309_43.0 + Room_Assignment_REL232_43.0
+ + Time_Assignment_ORF309_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
+_C5422: Room_Assignment_ORF309_43.0 + Room_Assignment_REL232_43.0
+ + Time_Assignment_ORF309_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C5423: Overlap_REL232_ORF350 <= 1
-_C5424: Room_Assignment_ORF350_49 + Room_Assignment_REL232_49
- + Time_Assignment_ORF350_4 + Time_Assignment_REL232_4 <= 3
-_C5425: Room_Assignment_ORF350_49 + Room_Assignment_REL232_49
- + Time_Assignment_ORF350_5 + Time_Assignment_REL232_5 <= 3
+_C5424: Room_Assignment_ORF350_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_ORF350_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
+_C5425: Room_Assignment_ORF350_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_ORF350_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C5426: Overlap_REL232_ORF363 <= 1
 _C5427: Overlap_REL232_ORF445 <= 1
-_C5428: Room_Assignment_ORF445_46 + Room_Assignment_REL232_46
- + Time_Assignment_ORF445_4 + Time_Assignment_REL232_4 <= 3
+_C5428: Room_Assignment_ORF445_46.0 + Room_Assignment_REL232_46.0
+ + Time_Assignment_ORF445_1:30_2:20_PM + Time_Assignment_REL232_1:30_2:20_PM
+ <= 3
 _C5429: Overlap_REL232_PHY103 <= 1
 _C543: Overlap_COS226_ECO302 <= 1
 _C5430: Overlap_REL232_PHY104 <= 1
 _C5431: Overlap_REL232_PHY105 <= 1
 _C5432: Overlap_REL232_PHY106 <= 1
-_C5433: Room_Assignment_PHY106_49 + Room_Assignment_REL232_49
- + Time_Assignment_PHY106_5 + Time_Assignment_REL232_5 <= 3
+_C5433: Room_Assignment_PHY106_49.0 + Room_Assignment_REL232_49.0
+ + Time_Assignment_PHY106_2:30_3:20_PM + Time_Assignment_REL232_2:30_3:20_PM
+ <= 3
 _C5434: Overlap_REL232_PHY208 <= 1
 _C5435: Overlap_REL232_REL100 <= 1
 _C5436: Overlap_REL232_SML201 <= 1
-_C5437: Room_Assignment_REL232_43 + Room_Assignment_SML201_43
- + Time_Assignment_REL232_5 + Time_Assignment_SML201_5 <= 3
+_C5437: Room_Assignment_REL232_43.0 + Room_Assignment_SML201_43.0
+ + Time_Assignment_REL232_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C5438: Overlap_REL232_URB201 <= 1
 _C5439: Overlap_SML201_AAS201 <= 1
 _C544: Overlap_COS226_ECO310 <= 1
 _C5440: Overlap_SML201_ASA203 <= 1
-_C5441: Room_Assignment_ASA203_43 + Room_Assignment_SML201_43
- + Time_Assignment_ASA203_5 + Time_Assignment_SML201_5 <= 3
+_C5441: Room_Assignment_ASA203_43.0 + Room_Assignment_SML201_43.0
+ + Time_Assignment_ASA203_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C5442: Overlap_SML201_ASA238 <= 1
 _C5443: Overlap_SML201_COS126 <= 1
 _C5444: Overlap_SML201_COS226 <= 1
@@ -8942,16 +10943,19 @@ _C5445: Overlap_SML201_COS217 <= 1
 _C5446: Overlap_SML201_COS333 <= 1
 _C5447: Overlap_SML201_COS342 <= 1
 _C5448: Overlap_SML201_COS423 <= 1
-_C5449: Room_Assignment_COS423_52 + Room_Assignment_SML201_52
- + Time_Assignment_COS423_5 + Time_Assignment_SML201_5 <= 3
-_C545: Room_Assignment_COS226_35 + Room_Assignment_ECO310_35
- + Time_Assignment_COS226_2 + Time_Assignment_ECO310_2 <= 3
+_C5449: Room_Assignment_COS423_52.0 + Room_Assignment_SML201_52.0
+ + Time_Assignment_COS423_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
+_C545: Room_Assignment_COS226_35.0 + Room_Assignment_ECO310_35.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_ECO310_10:00_10:50_AM <= 3
 _C5450: Overlap_SML201_COS432 <= 1
 _C5451: Overlap_SML201_COS484 <= 1
 _C5452: Overlap_SML201_COS522 <= 1
 _C5453: Overlap_SML201_COS528 <= 1
-_C5454: Room_Assignment_COS528_31 + Room_Assignment_SML201_31
- + Time_Assignment_COS528_5 + Time_Assignment_SML201_5 <= 3
+_C5454: Room_Assignment_COS528_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C5455: Overlap_SML201_ECO100 <= 1
 _C5456: Overlap_SML201_ECO102 <= 1
 _C5457: Overlap_SML201_ECO202 <= 1
@@ -8966,13 +10970,15 @@ _C5464: Overlap_SML201_GER103 <= 1
 _C5465: Overlap_SML201_GER105 <= 1
 _C5466: Overlap_SML201_GER107 <= 1
 _C5467: Overlap_SML201_LIN201 <= 1
-_C5468: Room_Assignment_LIN201_52 + Room_Assignment_SML201_52
- + Time_Assignment_LIN201_1 + Time_Assignment_SML201_1 <= 3
+_C5468: Room_Assignment_LIN201_52.0 + Room_Assignment_SML201_52.0
+ + Time_Assignment_LIN201_9:00_9:50_AM + Time_Assignment_SML201_9:00_9:50_AM
+ <= 3
 _C5469: Overlap_SML201_LIN300 <= 1
 _C547: Overlap_COS226_GER101 <= 1
 _C5470: Overlap_SML201_MAT103 <= 1
-_C5471: Room_Assignment_MAT103_33 + Room_Assignment_SML201_33
- + Time_Assignment_MAT103_5 + Time_Assignment_SML201_5 <= 3
+_C5471: Room_Assignment_MAT103_33.0 + Room_Assignment_SML201_33.0
+ + Time_Assignment_MAT103_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C5472: Overlap_SML201_MAT104 <= 1
 _C5473: Overlap_SML201_MAT201 <= 1
 _C5474: Overlap_SML201_MAT202 <= 1
@@ -8987,21 +10993,25 @@ _C5481: Overlap_SML201_MAT300 <= 1
 _C5482: Overlap_SML201_MAT325 <= 1
 _C5483: Overlap_SML201_MAT335 <= 1
 _C5484: Overlap_SML201_MAT370 <= 1
-_C5485: Room_Assignment_MAT370_31 + Room_Assignment_SML201_31
- + Time_Assignment_MAT370_1 + Time_Assignment_SML201_1 <= 3
-_C5486: Room_Assignment_MAT370_31 + Room_Assignment_SML201_31
- + Time_Assignment_MAT370_5 + Time_Assignment_SML201_5 <= 3
+_C5485: Room_Assignment_MAT370_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_MAT370_9:00_9:50_AM + Time_Assignment_SML201_9:00_9:50_AM
+ <= 3
+_C5486: Room_Assignment_MAT370_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C5487: Overlap_SML201_MAT377 <= 1
 _C5488: Overlap_SML201_MAT385 <= 1
-_C5489: Room_Assignment_MAT385_43 + Room_Assignment_SML201_43
- + Time_Assignment_MAT385_1 + Time_Assignment_SML201_1 <= 3
+_C5489: Room_Assignment_MAT385_43.0 + Room_Assignment_SML201_43.0
+ + Time_Assignment_MAT385_9:00_9:50_AM + Time_Assignment_SML201_9:00_9:50_AM
+ <= 3
 _C549: Overlap_COS226_GER105 <= 1
 _C5490: Overlap_SML201_MAT400 <= 1
 _C5491: Overlap_SML201_ORF245 <= 1
 _C5492: Overlap_SML201_ORF307 <= 1
 _C5493: Overlap_SML201_ORF309 <= 1
-_C5494: Room_Assignment_ORF309_43 + Room_Assignment_SML201_43
- + Time_Assignment_ORF309_5 + Time_Assignment_SML201_5 <= 3
+_C5494: Room_Assignment_ORF309_43.0 + Room_Assignment_SML201_43.0
+ + Time_Assignment_ORF309_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C5495: Overlap_SML201_ORF350 <= 1
 _C5496: Overlap_SML201_ORF363 <= 1
 _C5497: Overlap_SML201_ORF445 <= 1
@@ -9011,18 +11021,22 @@ _C55: Overlap_AAS201_MAT204 <= 1
 _C550: Overlap_COS226_GER107 <= 1
 _C5500: Overlap_SML201_PHY105 <= 1
 _C5501: Overlap_SML201_PHY106 <= 1
-_C5502: Room_Assignment_PHY106_31 + Room_Assignment_SML201_31
- + Time_Assignment_PHY106_1 + Time_Assignment_SML201_1 <= 3
-_C5503: Room_Assignment_PHY106_31 + Room_Assignment_SML201_31
- + Time_Assignment_PHY106_5 + Time_Assignment_SML201_5 <= 3
+_C5502: Room_Assignment_PHY106_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_PHY106_9:00_9:50_AM + Time_Assignment_SML201_9:00_9:50_AM
+ <= 3
+_C5503: Room_Assignment_PHY106_31.0 + Room_Assignment_SML201_31.0
+ + Time_Assignment_PHY106_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C5504: Overlap_SML201_PHY208 <= 1
 _C5505: Overlap_SML201_REL100 <= 1
 _C5506: Overlap_SML201_REL232 <= 1
-_C5507: Room_Assignment_REL232_43 + Room_Assignment_SML201_43
- + Time_Assignment_REL232_5 + Time_Assignment_SML201_5 <= 3
+_C5507: Room_Assignment_REL232_43.0 + Room_Assignment_SML201_43.0
+ + Time_Assignment_REL232_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C5508: Overlap_SML201_URB201 <= 1
-_C5509: Room_Assignment_SML201_31 + Room_Assignment_URB201_31
- + Time_Assignment_SML201_5 + Time_Assignment_URB201_5 <= 3
+_C5509: Room_Assignment_SML201_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_SML201_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
 _C551: Overlap_COS226_LIN201 <= 1
 _C5510: Overlap_URB201_AAS201 <= 1
 _C5511: Overlap_URB201_ASA203 <= 1
@@ -9037,13 +11051,16 @@ _C5519: Overlap_URB201_COS432 <= 1
 _C552: Overlap_COS226_LIN300 <= 1
 _C5520: Overlap_URB201_COS484 <= 1
 _C5521: Overlap_URB201_COS522 <= 1
-_C5522: Room_Assignment_COS522_56 + Room_Assignment_URB201_56
- + Time_Assignment_COS522_5 + Time_Assignment_URB201_5 <= 3
+_C5522: Room_Assignment_COS522_56.0 + Room_Assignment_URB201_56.0
+ + Time_Assignment_COS522_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
 _C5523: Overlap_URB201_COS528 <= 1
-_C5524: Room_Assignment_COS528_31 + Room_Assignment_URB201_31
- + Time_Assignment_COS528_4 + Time_Assignment_URB201_4 <= 3
-_C5525: Room_Assignment_COS528_31 + Room_Assignment_URB201_31
- + Time_Assignment_COS528_5 + Time_Assignment_URB201_5 <= 3
+_C5524: Room_Assignment_COS528_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_COS528_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
+_C5525: Room_Assignment_COS528_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_COS528_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
 _C5526: Overlap_URB201_ECO100 <= 1
 _C5527: Overlap_URB201_ECO102 <= 1
 _C5528: Overlap_URB201_ECO202 <= 1
@@ -9058,8 +11075,9 @@ _C5535: Overlap_URB201_GER103 <= 1
 _C5536: Overlap_URB201_GER105 <= 1
 _C5537: Overlap_URB201_GER107 <= 1
 _C5538: Overlap_URB201_LIN201 <= 1
-_C5539: Room_Assignment_LIN201_56 + Room_Assignment_URB201_56
- + Time_Assignment_LIN201_4 + Time_Assignment_URB201_4 <= 3
+_C5539: Room_Assignment_LIN201_56.0 + Room_Assignment_URB201_56.0
+ + Time_Assignment_LIN201_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
 _C554: Overlap_COS226_MAT104 <= 1
 _C5540: Overlap_URB201_LIN300 <= 1
 _C5541: Overlap_URB201_MAT103 <= 1
@@ -9069,18 +11087,23 @@ _C5544: Overlap_URB201_MAT202 <= 1
 _C5545: Overlap_URB201_MAT203 <= 1
 _C5546: Overlap_URB201_MAT204 <= 1
 _C5547: Overlap_URB201_MAT215 <= 1
-_C5548: Room_Assignment_MAT215_36 + Room_Assignment_URB201_36
- + Time_Assignment_MAT215_2 + Time_Assignment_URB201_2 <= 3
-_C5549: Room_Assignment_MAT215_31 + Room_Assignment_URB201_31
- + Time_Assignment_MAT215_2 + Time_Assignment_URB201_2 <= 3
+_C5548: Room_Assignment_MAT215_36.0 + Room_Assignment_URB201_36.0
+ + Time_Assignment_MAT215_10:00_10:50_AM
+ + Time_Assignment_URB201_10:00_10:50_AM <= 3
+_C5549: Room_Assignment_MAT215_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_MAT215_10:00_10:50_AM
+ + Time_Assignment_URB201_10:00_10:50_AM <= 3
 _C555: Overlap_COS226_MAT201 <= 1
-_C5550: Room_Assignment_MAT215_36 + Room_Assignment_URB201_36
- + Time_Assignment_MAT215_4 + Time_Assignment_URB201_4 <= 3
-_C5551: Room_Assignment_MAT215_31 + Room_Assignment_URB201_31
- + Time_Assignment_MAT215_4 + Time_Assignment_URB201_4 <= 3
+_C5550: Room_Assignment_MAT215_36.0 + Room_Assignment_URB201_36.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
+_C5551: Room_Assignment_MAT215_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_MAT215_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
 _C5552: Overlap_URB201_MAT216 <= 1
-_C5553: Room_Assignment_MAT216_56 + Room_Assignment_URB201_56
- + Time_Assignment_MAT216_2 + Time_Assignment_URB201_2 <= 3
+_C5553: Room_Assignment_MAT216_56.0 + Room_Assignment_URB201_56.0
+ + Time_Assignment_MAT216_10:00_10:50_AM
+ + Time_Assignment_URB201_10:00_10:50_AM <= 3
 _C5554: Overlap_URB201_MAT217 <= 1
 _C5555: Overlap_URB201_MAT218 <= 1
 _C5556: Overlap_URB201_MAT300 <= 1
@@ -9088,1076 +11111,1417 @@ _C5557: Overlap_URB201_MAT325 <= 1
 _C5558: Overlap_URB201_MAT335 <= 1
 _C5559: Overlap_URB201_MAT370 <= 1
 _C556: Overlap_COS226_MAT202 <= 1
-_C5560: Room_Assignment_MAT370_31 + Room_Assignment_URB201_31
- + Time_Assignment_MAT370_5 + Time_Assignment_URB201_5 <= 3
+_C5560: Room_Assignment_MAT370_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_MAT370_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
 _C5561: Overlap_URB201_MAT377 <= 1
 _C5562: Overlap_URB201_MAT385 <= 1
 _C5563: Overlap_URB201_MAT400 <= 1
 _C5564: Overlap_URB201_ORF245 <= 1
-_C5565: Room_Assignment_ORF245_31 + Room_Assignment_URB201_31
- + Time_Assignment_ORF245_4 + Time_Assignment_URB201_4 <= 3
+_C5565: Room_Assignment_ORF245_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_ORF245_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
 _C5566: Overlap_URB201_ORF307 <= 1
 _C5567: Overlap_URB201_ORF309 <= 1
 _C5568: Overlap_URB201_ORF350 <= 1
 _C5569: Overlap_URB201_ORF363 <= 1
 _C557: Overlap_COS226_MAT203 <= 1
-_C5570: Room_Assignment_ORF363_31 + Room_Assignment_URB201_31
- + Time_Assignment_ORF363_4 + Time_Assignment_URB201_4 <= 3
+_C5570: Room_Assignment_ORF363_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_ORF363_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
 _C5571: Overlap_URB201_ORF445 <= 1
-_C5572: Room_Assignment_ORF445_31 + Room_Assignment_URB201_31
- + Time_Assignment_ORF445_4 + Time_Assignment_URB201_4 <= 3
+_C5572: Room_Assignment_ORF445_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_ORF445_1:30_2:20_PM + Time_Assignment_URB201_1:30_2:20_PM
+ <= 3
 _C5573: Overlap_URB201_PHY103 <= 1
 _C5574: Overlap_URB201_PHY104 <= 1
 _C5575: Overlap_URB201_PHY105 <= 1
 _C5576: Overlap_URB201_PHY106 <= 1
-_C5577: Room_Assignment_PHY106_31 + Room_Assignment_URB201_31
- + Time_Assignment_PHY106_5 + Time_Assignment_URB201_5 <= 3
+_C5577: Room_Assignment_PHY106_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_PHY106_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
 _C5578: Overlap_URB201_PHY208 <= 1
 _C5579: Overlap_URB201_REL100 <= 1
 _C558: Overlap_COS226_MAT204 <= 1
 _C5580: Overlap_URB201_REL232 <= 1
 _C5581: Overlap_URB201_SML201 <= 1
-_C5582: Room_Assignment_SML201_31 + Room_Assignment_URB201_31
- + Time_Assignment_SML201_5 + Time_Assignment_URB201_5 <= 3
-_C5583: Room_Assignment_AAS201_1 + Time_Assignment_AAS201_1 <= 2
-_C5584: Room_Assignment_AAS201_2 + Time_Assignment_AAS201_1 <= 2
-_C5585: Room_Assignment_AAS201_3 + Time_Assignment_AAS201_1 <= 2
-_C5586: Room_Assignment_AAS201_4 + Time_Assignment_AAS201_1 <= 2
-_C5587: Room_Assignment_AAS201_5 + Time_Assignment_AAS201_1 <= 1
-_C5588: Room_Assignment_AAS201_1 + Time_Assignment_AAS201_2 <= 2
-_C5589: Room_Assignment_AAS201_2 + Time_Assignment_AAS201_2 <= 2
+_C5582: Room_Assignment_SML201_31.0 + Room_Assignment_URB201_31.0
+ + Time_Assignment_SML201_2:30_3:20_PM + Time_Assignment_URB201_2:30_3:20_PM
+ <= 3
+_C5583: Room_Assignment_AAS201_1.0 + Time_Assignment_AAS201_9:00_9:50_AM <= 2
+_C5584: Room_Assignment_AAS201_2.0 + Time_Assignment_AAS201_9:00_9:50_AM <= 2
+_C5585: Room_Assignment_AAS201_3.0 + Time_Assignment_AAS201_9:00_9:50_AM <= 2
+_C5586: Room_Assignment_AAS201_4.0 + Time_Assignment_AAS201_9:00_9:50_AM <= 2
+_C5587: Room_Assignment_AAS201_5.0 + Time_Assignment_AAS201_9:00_9:50_AM <= 1
+_C5588: Room_Assignment_AAS201_1.0 + Time_Assignment_AAS201_10:00_10:50_AM
+ <= 2
+_C5589: Room_Assignment_AAS201_2.0 + Time_Assignment_AAS201_10:00_10:50_AM
+ <= 2
 _C559: Overlap_COS226_MAT215 <= 1
-_C5590: Room_Assignment_AAS201_3 + Time_Assignment_AAS201_2 <= 1
-_C5591: Room_Assignment_AAS201_4 + Time_Assignment_AAS201_2 <= 1
-_C5592: Room_Assignment_AAS201_5 + Time_Assignment_AAS201_2 <= 2
-_C5593: Room_Assignment_ASA203_43 + Time_Assignment_ASA203_3 <= 2
-_C5594: Room_Assignment_ASA203_12 + Time_Assignment_ASA203_3 <= 1
-_C5595: Room_Assignment_ASA203_13 + Time_Assignment_ASA203_3 <= 2
-_C5596: Room_Assignment_ASA203_5 + Time_Assignment_ASA203_3 <= 2
-_C5597: Room_Assignment_ASA203_3 + Time_Assignment_ASA203_3 <= 2
-_C5598: Room_Assignment_ASA203_21 + Time_Assignment_ASA203_3 <= 2
-_C5599: Room_Assignment_ASA203_1 + Time_Assignment_ASA203_3 <= 2
+_C5590: Room_Assignment_AAS201_3.0 + Time_Assignment_AAS201_10:00_10:50_AM
+ <= 1
+_C5591: Room_Assignment_AAS201_4.0 + Time_Assignment_AAS201_10:00_10:50_AM
+ <= 1
+_C5592: Room_Assignment_AAS201_5.0 + Time_Assignment_AAS201_10:00_10:50_AM
+ <= 2
+_C5593: Room_Assignment_ASA203_43.0 + Time_Assignment_ASA203_11:00_11:50_AM
+ <= 2
+_C5594: Room_Assignment_ASA203_12.0 + Time_Assignment_ASA203_11:00_11:50_AM
+ <= 1
+_C5595: Room_Assignment_ASA203_13.0 + Time_Assignment_ASA203_11:00_11:50_AM
+ <= 2
+_C5596: Room_Assignment_ASA203_5.0 + Time_Assignment_ASA203_11:00_11:50_AM
+ <= 2
+_C5597: Room_Assignment_ASA203_3.0 + Time_Assignment_ASA203_11:00_11:50_AM
+ <= 2
+_C5598: Room_Assignment_ASA203_21.0 + Time_Assignment_ASA203_11:00_11:50_AM
+ <= 2
+_C5599: Room_Assignment_ASA203_1.0 + Time_Assignment_ASA203_11:00_11:50_AM
+ <= 2
 _C56: Overlap_AAS201_MAT215 <= 1
-_C560: Room_Assignment_COS226_35 + Room_Assignment_MAT215_35
- + Time_Assignment_COS226_2 + Time_Assignment_MAT215_2 <= 3
-_C5600: Room_Assignment_ASA203_43 + Time_Assignment_ASA203_4 <= 2
-_C5601: Room_Assignment_ASA203_12 + Time_Assignment_ASA203_4 <= 2
-_C5602: Room_Assignment_ASA203_13 + Time_Assignment_ASA203_4 <= 2
-_C5603: Room_Assignment_ASA203_5 + Time_Assignment_ASA203_4 <= 2
-_C5604: Room_Assignment_ASA203_3 + Time_Assignment_ASA203_4 <= 2
-_C5605: Room_Assignment_ASA203_21 + Time_Assignment_ASA203_4 <= 2
-_C5606: Room_Assignment_ASA203_1 + Time_Assignment_ASA203_4 <= 2
-_C5607: Room_Assignment_ASA203_43 + Time_Assignment_ASA203_5 <= 1
-_C5608: Room_Assignment_ASA203_12 + Time_Assignment_ASA203_5 <= 2
-_C5609: Room_Assignment_ASA203_13 + Time_Assignment_ASA203_5 <= 2
+_C560: Room_Assignment_COS226_35.0 + Room_Assignment_MAT215_35.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT215_10:00_10:50_AM <= 3
+_C5600: Room_Assignment_ASA203_43.0 + Time_Assignment_ASA203_1:30_2:20_PM <= 2
+_C5601: Room_Assignment_ASA203_12.0 + Time_Assignment_ASA203_1:30_2:20_PM <= 2
+_C5602: Room_Assignment_ASA203_13.0 + Time_Assignment_ASA203_1:30_2:20_PM <= 2
+_C5603: Room_Assignment_ASA203_5.0 + Time_Assignment_ASA203_1:30_2:20_PM <= 2
+_C5604: Room_Assignment_ASA203_3.0 + Time_Assignment_ASA203_1:30_2:20_PM <= 2
+_C5605: Room_Assignment_ASA203_21.0 + Time_Assignment_ASA203_1:30_2:20_PM <= 2
+_C5606: Room_Assignment_ASA203_1.0 + Time_Assignment_ASA203_1:30_2:20_PM <= 2
+_C5607: Room_Assignment_ASA203_43.0 + Time_Assignment_ASA203_2:30_3:20_PM <= 1
+_C5608: Room_Assignment_ASA203_12.0 + Time_Assignment_ASA203_2:30_3:20_PM <= 2
+_C5609: Room_Assignment_ASA203_13.0 + Time_Assignment_ASA203_2:30_3:20_PM <= 2
 _C561: Overlap_COS226_MAT216 <= 1
-_C5610: Room_Assignment_ASA203_5 + Time_Assignment_ASA203_5 <= 2
-_C5611: Room_Assignment_ASA203_3 + Time_Assignment_ASA203_5 <= 1
-_C5612: Room_Assignment_ASA203_21 + Time_Assignment_ASA203_5 <= 2
-_C5613: Room_Assignment_ASA203_1 + Time_Assignment_ASA203_5 <= 2
-_C5614: Room_Assignment_ASA238_75 + Time_Assignment_ASA238_1 <= 2
-_C5615: Room_Assignment_ASA238_3 + Time_Assignment_ASA238_1 <= 2
-_C5616: Room_Assignment_ASA238_50 + Time_Assignment_ASA238_1 <= 2
-_C5617: Room_Assignment_ASA238_65 + Time_Assignment_ASA238_1 <= 1
-_C5618: Room_Assignment_ASA238_23 + Time_Assignment_ASA238_1 <= 2
-_C5619: Room_Assignment_ASA238_2 + Time_Assignment_ASA238_1 <= 2
-_C562: Room_Assignment_COS226_59 + Room_Assignment_MAT216_59
- + Time_Assignment_COS226_2 + Time_Assignment_MAT216_2 <= 3
-_C5620: Room_Assignment_ASA238_75 + Time_Assignment_ASA238_2 <= 1
-_C5621: Room_Assignment_ASA238_3 + Time_Assignment_ASA238_2 <= 1
-_C5622: Room_Assignment_ASA238_50 + Time_Assignment_ASA238_2 <= 2
-_C5623: Room_Assignment_ASA238_65 + Time_Assignment_ASA238_2 <= 1
-_C5624: Room_Assignment_ASA238_23 + Time_Assignment_ASA238_2 <= 1
-_C5625: Room_Assignment_ASA238_2 + Time_Assignment_ASA238_2 <= 2
-_C5626: Room_Assignment_ASA238_75 + Time_Assignment_ASA238_3 <= 2
-_C5627: Room_Assignment_ASA238_3 + Time_Assignment_ASA238_3 <= 2
-_C5628: Room_Assignment_ASA238_50 + Time_Assignment_ASA238_3 <= 2
-_C5629: Room_Assignment_ASA238_65 + Time_Assignment_ASA238_3 <= 2
-_C563: Room_Assignment_COS226_61 + Room_Assignment_MAT216_61
- + Time_Assignment_COS226_2 + Time_Assignment_MAT216_2 <= 3
-_C5630: Room_Assignment_ASA238_23 + Time_Assignment_ASA238_3 <= 2
-_C5631: Room_Assignment_ASA238_2 + Time_Assignment_ASA238_3 <= 2
-_C5632: Room_Assignment_ASA238_75 + Time_Assignment_ASA238_4 <= 2
-_C5633: Room_Assignment_ASA238_3 + Time_Assignment_ASA238_4 <= 2
-_C5634: Room_Assignment_ASA238_50 + Time_Assignment_ASA238_4 <= 2
-_C5635: Room_Assignment_ASA238_65 + Time_Assignment_ASA238_4 <= 1
-_C5636: Room_Assignment_ASA238_23 + Time_Assignment_ASA238_4 <= 1
-_C5637: Room_Assignment_ASA238_2 + Time_Assignment_ASA238_4 <= 2
-_C5638: Room_Assignment_ASA238_75 + Time_Assignment_ASA238_5 <= 2
-_C5639: Room_Assignment_ASA238_3 + Time_Assignment_ASA238_5 <= 1
+_C5610: Room_Assignment_ASA203_5.0 + Time_Assignment_ASA203_2:30_3:20_PM <= 2
+_C5611: Room_Assignment_ASA203_3.0 + Time_Assignment_ASA203_2:30_3:20_PM <= 1
+_C5612: Room_Assignment_ASA203_21.0 + Time_Assignment_ASA203_2:30_3:20_PM <= 2
+_C5613: Room_Assignment_ASA203_1.0 + Time_Assignment_ASA203_2:30_3:20_PM <= 2
+_C5614: Room_Assignment_ASA238_75.0 + Time_Assignment_ASA238_9:00_9:50_AM <= 2
+_C5615: Room_Assignment_ASA238_3.0 + Time_Assignment_ASA238_9:00_9:50_AM <= 2
+_C5616: Room_Assignment_ASA238_50.0 + Time_Assignment_ASA238_9:00_9:50_AM <= 2
+_C5617: Room_Assignment_ASA238_65.0 + Time_Assignment_ASA238_9:00_9:50_AM <= 1
+_C5618: Room_Assignment_ASA238_23.0 + Time_Assignment_ASA238_9:00_9:50_AM <= 2
+_C5619: Room_Assignment_ASA238_2.0 + Time_Assignment_ASA238_9:00_9:50_AM <= 2
+_C562: Room_Assignment_COS226_59.0 + Room_Assignment_MAT216_59.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT216_10:00_10:50_AM <= 3
+_C5620: Room_Assignment_ASA238_75.0 + Time_Assignment_ASA238_10:00_10:50_AM
+ <= 1
+_C5621: Room_Assignment_ASA238_3.0 + Time_Assignment_ASA238_10:00_10:50_AM
+ <= 1
+_C5622: Room_Assignment_ASA238_50.0 + Time_Assignment_ASA238_10:00_10:50_AM
+ <= 2
+_C5623: Room_Assignment_ASA238_65.0 + Time_Assignment_ASA238_10:00_10:50_AM
+ <= 1
+_C5624: Room_Assignment_ASA238_23.0 + Time_Assignment_ASA238_10:00_10:50_AM
+ <= 1
+_C5625: Room_Assignment_ASA238_2.0 + Time_Assignment_ASA238_10:00_10:50_AM
+ <= 2
+_C5626: Room_Assignment_ASA238_75.0 + Time_Assignment_ASA238_11:00_11:50_AM
+ <= 2
+_C5627: Room_Assignment_ASA238_3.0 + Time_Assignment_ASA238_11:00_11:50_AM
+ <= 2
+_C5628: Room_Assignment_ASA238_50.0 + Time_Assignment_ASA238_11:00_11:50_AM
+ <= 2
+_C5629: Room_Assignment_ASA238_65.0 + Time_Assignment_ASA238_11:00_11:50_AM
+ <= 2
+_C563: Room_Assignment_COS226_61.0 + Room_Assignment_MAT216_61.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT216_10:00_10:50_AM <= 3
+_C5630: Room_Assignment_ASA238_23.0 + Time_Assignment_ASA238_11:00_11:50_AM
+ <= 2
+_C5631: Room_Assignment_ASA238_2.0 + Time_Assignment_ASA238_11:00_11:50_AM
+ <= 2
+_C5632: Room_Assignment_ASA238_75.0 + Time_Assignment_ASA238_1:30_2:20_PM <= 2
+_C5633: Room_Assignment_ASA238_3.0 + Time_Assignment_ASA238_1:30_2:20_PM <= 2
+_C5634: Room_Assignment_ASA238_50.0 + Time_Assignment_ASA238_1:30_2:20_PM <= 2
+_C5635: Room_Assignment_ASA238_65.0 + Time_Assignment_ASA238_1:30_2:20_PM <= 1
+_C5636: Room_Assignment_ASA238_23.0 + Time_Assignment_ASA238_1:30_2:20_PM <= 1
+_C5637: Room_Assignment_ASA238_2.0 + Time_Assignment_ASA238_1:30_2:20_PM <= 2
+_C5638: Room_Assignment_ASA238_75.0 + Time_Assignment_ASA238_2:30_3:20_PM <= 2
+_C5639: Room_Assignment_ASA238_3.0 + Time_Assignment_ASA238_2:30_3:20_PM <= 1
 _C564: Overlap_COS226_MAT217 <= 1
-_C5640: Room_Assignment_ASA238_50 + Time_Assignment_ASA238_5 <= 2
-_C5641: Room_Assignment_ASA238_65 + Time_Assignment_ASA238_5 <= 1
-_C5642: Room_Assignment_ASA238_23 + Time_Assignment_ASA238_5 <= 1
-_C5643: Room_Assignment_ASA238_2 + Time_Assignment_ASA238_5 <= 2
-_C5644: Room_Assignment_COS126_1 + Time_Assignment_COS126_1 <= 2
-_C5645: Room_Assignment_COS126_2 + Time_Assignment_COS126_1 <= 2
-_C5646: Room_Assignment_COS126_3 + Time_Assignment_COS126_1 <= 2
-_C5647: Room_Assignment_COS126_4 + Time_Assignment_COS126_1 <= 2
-_C5648: Room_Assignment_COS126_5 + Time_Assignment_COS126_1 <= 1
-_C5649: Room_Assignment_COS126_6 + Time_Assignment_COS126_1 <= 2
+_C5640: Room_Assignment_ASA238_50.0 + Time_Assignment_ASA238_2:30_3:20_PM <= 2
+_C5641: Room_Assignment_ASA238_65.0 + Time_Assignment_ASA238_2:30_3:20_PM <= 1
+_C5642: Room_Assignment_ASA238_23.0 + Time_Assignment_ASA238_2:30_3:20_PM <= 1
+_C5643: Room_Assignment_ASA238_2.0 + Time_Assignment_ASA238_2:30_3:20_PM <= 2
+_C5644: Room_Assignment_COS126_1.0 + Time_Assignment_COS126_9:00_9:50_AM <= 2
+_C5645: Room_Assignment_COS126_2.0 + Time_Assignment_COS126_9:00_9:50_AM <= 2
+_C5646: Room_Assignment_COS126_3.0 + Time_Assignment_COS126_9:00_9:50_AM <= 2
+_C5647: Room_Assignment_COS126_4.0 + Time_Assignment_COS126_9:00_9:50_AM <= 2
+_C5648: Room_Assignment_COS126_5.0 + Time_Assignment_COS126_9:00_9:50_AM <= 1
+_C5649: Room_Assignment_COS126_6.0 + Time_Assignment_COS126_9:00_9:50_AM <= 2
 _C565: Overlap_COS226_MAT218 <= 1
-_C5650: Room_Assignment_COS126_7 + Time_Assignment_COS126_1 <= 2
-_C5651: Room_Assignment_COS126_8 + Time_Assignment_COS126_1 <= 1
-_C5652: Room_Assignment_COS126_9 + Time_Assignment_COS126_1 <= 1
-_C5653: Room_Assignment_COS226_70 + Time_Assignment_COS226_2 <= 1
-_C5654: Room_Assignment_COS226_59 + Time_Assignment_COS226_2 <= 1
-_C5655: Room_Assignment_COS226_38 + Time_Assignment_COS226_2 <= 2
-_C5656: Room_Assignment_COS226_4 + Time_Assignment_COS226_2 <= 1
-_C5657: Room_Assignment_COS226_35 + Time_Assignment_COS226_2 <= 1
-_C5658: Room_Assignment_COS226_42 + Time_Assignment_COS226_2 <= 1
-_C5659: Room_Assignment_COS226_61 + Time_Assignment_COS226_2 <= 1
+_C5650: Room_Assignment_COS126_7.0 + Time_Assignment_COS126_9:00_9:50_AM <= 2
+_C5651: Room_Assignment_COS126_8.0 + Time_Assignment_COS126_9:00_9:50_AM <= 1
+_C5652: Room_Assignment_COS126_9.0 + Time_Assignment_COS126_9:00_9:50_AM <= 1
+_C5653: Room_Assignment_COS226_70.0 + Time_Assignment_COS226_10:00_10:50_AM
+ <= 1
+_C5654: Room_Assignment_COS226_59.0 + Time_Assignment_COS226_10:00_10:50_AM
+ <= 1
+_C5655: Room_Assignment_COS226_38.0 + Time_Assignment_COS226_10:00_10:50_AM
+ <= 2
+_C5656: Room_Assignment_COS226_4.0 + Time_Assignment_COS226_10:00_10:50_AM
+ <= 1
+_C5657: Room_Assignment_COS226_35.0 + Time_Assignment_COS226_10:00_10:50_AM
+ <= 1
+_C5658: Room_Assignment_COS226_42.0 + Time_Assignment_COS226_10:00_10:50_AM
+ <= 1
+_C5659: Room_Assignment_COS226_61.0 + Time_Assignment_COS226_10:00_10:50_AM
+ <= 1
 _C566: Overlap_COS226_MAT300 <= 1
-_C5660: Room_Assignment_COS217_6 + Time_Assignment_COS217_3 <= 1
-_C5661: Room_Assignment_COS217_7 + Time_Assignment_COS217_3 <= 2
-_C5662: Room_Assignment_COS217_70 + Time_Assignment_COS217_3 <= 2
-_C5663: Room_Assignment_COS217_73 + Time_Assignment_COS217_3 <= 1
-_C5664: Room_Assignment_COS217_74 + Time_Assignment_COS217_3 <= 2
-_C5665: Room_Assignment_COS333_3 + Time_Assignment_COS333_4 <= 2
-_C5666: Room_Assignment_COS333_20 + Time_Assignment_COS333_4 <= 2
-_C5667: Room_Assignment_COS333_21 + Time_Assignment_COS333_4 <= 2
-_C5668: Room_Assignment_COS333_22 + Time_Assignment_COS333_4 <= 1
-_C5669: Room_Assignment_COS333_65 + Time_Assignment_COS333_4 <= 1
+_C5660: Room_Assignment_COS217_6.0 + Time_Assignment_COS217_11:00_11:50_AM
+ <= 1
+_C5661: Room_Assignment_COS217_7.0 + Time_Assignment_COS217_11:00_11:50_AM
+ <= 2
+_C5662: Room_Assignment_COS217_70.0 + Time_Assignment_COS217_11:00_11:50_AM
+ <= 2
+_C5663: Room_Assignment_COS217_73.0 + Time_Assignment_COS217_11:00_11:50_AM
+ <= 1
+_C5664: Room_Assignment_COS217_74.0 + Time_Assignment_COS217_11:00_11:50_AM
+ <= 2
+_C5665: Room_Assignment_COS333_3.0 + Time_Assignment_COS333_1:30_2:20_PM <= 2
+_C5666: Room_Assignment_COS333_20.0 + Time_Assignment_COS333_1:30_2:20_PM <= 2
+_C5667: Room_Assignment_COS333_21.0 + Time_Assignment_COS333_1:30_2:20_PM <= 2
+_C5668: Room_Assignment_COS333_22.0 + Time_Assignment_COS333_1:30_2:20_PM <= 1
+_C5669: Room_Assignment_COS333_65.0 + Time_Assignment_COS333_1:30_2:20_PM <= 1
 _C567: Overlap_COS226_MAT325 <= 1
-_C5670: Room_Assignment_COS333_66 + Time_Assignment_COS333_4 <= 2
-_C5671: Room_Assignment_COS333_67 + Time_Assignment_COS333_4 <= 2
-_C5672: Room_Assignment_COS342_9 + Time_Assignment_COS342_5 <= 2
-_C5673: Room_Assignment_COS342_40 + Time_Assignment_COS342_5 <= 2
-_C5674: Room_Assignment_COS342_42 + Time_Assignment_COS342_5 <= 2
-_C5675: Room_Assignment_COS423_51 + Time_Assignment_COS423_3 <= 1
-_C5676: Room_Assignment_COS423_52 + Time_Assignment_COS423_3 <= 2
-_C5677: Room_Assignment_COS423_53 + Time_Assignment_COS423_3 <= 2
-_C5678: Room_Assignment_COS423_54 + Time_Assignment_COS423_3 <= 2
-_C5679: Room_Assignment_COS423_55 + Time_Assignment_COS423_3 <= 2
+_C5670: Room_Assignment_COS333_66.0 + Time_Assignment_COS333_1:30_2:20_PM <= 2
+_C5671: Room_Assignment_COS333_67.0 + Time_Assignment_COS333_1:30_2:20_PM <= 2
+_C5672: Room_Assignment_COS342_9.0 + Time_Assignment_COS342_2:30_3:20_PM <= 2
+_C5673: Room_Assignment_COS342_40.0 + Time_Assignment_COS342_2:30_3:20_PM <= 2
+_C5674: Room_Assignment_COS342_42.0 + Time_Assignment_COS342_2:30_3:20_PM <= 2
+_C5675: Room_Assignment_COS423_51.0 + Time_Assignment_COS423_11:00_11:50_AM
+ <= 1
+_C5676: Room_Assignment_COS423_52.0 + Time_Assignment_COS423_11:00_11:50_AM
+ <= 2
+_C5677: Room_Assignment_COS423_53.0 + Time_Assignment_COS423_11:00_11:50_AM
+ <= 2
+_C5678: Room_Assignment_COS423_54.0 + Time_Assignment_COS423_11:00_11:50_AM
+ <= 2
+_C5679: Room_Assignment_COS423_55.0 + Time_Assignment_COS423_11:00_11:50_AM
+ <= 2
 _C568: Overlap_COS226_MAT335 <= 1
-_C5680: Room_Assignment_COS423_51 + Time_Assignment_COS423_4 <= 2
-_C5681: Room_Assignment_COS423_52 + Time_Assignment_COS423_4 <= 1
-_C5682: Room_Assignment_COS423_53 + Time_Assignment_COS423_4 <= 1
-_C5683: Room_Assignment_COS423_54 + Time_Assignment_COS423_4 <= 1
-_C5684: Room_Assignment_COS423_55 + Time_Assignment_COS423_4 <= 2
-_C5685: Room_Assignment_COS423_51 + Time_Assignment_COS423_5 <= 2
-_C5686: Room_Assignment_COS423_52 + Time_Assignment_COS423_5 <= 1
-_C5687: Room_Assignment_COS423_53 + Time_Assignment_COS423_5 <= 1
-_C5688: Room_Assignment_COS423_54 + Time_Assignment_COS423_5 <= 1
-_C5689: Room_Assignment_COS423_55 + Time_Assignment_COS423_5 <= 1
+_C5680: Room_Assignment_COS423_51.0 + Time_Assignment_COS423_1:30_2:20_PM <= 2
+_C5681: Room_Assignment_COS423_52.0 + Time_Assignment_COS423_1:30_2:20_PM <= 1
+_C5682: Room_Assignment_COS423_53.0 + Time_Assignment_COS423_1:30_2:20_PM <= 1
+_C5683: Room_Assignment_COS423_54.0 + Time_Assignment_COS423_1:30_2:20_PM <= 1
+_C5684: Room_Assignment_COS423_55.0 + Time_Assignment_COS423_1:30_2:20_PM <= 2
+_C5685: Room_Assignment_COS423_51.0 + Time_Assignment_COS423_2:30_3:20_PM <= 2
+_C5686: Room_Assignment_COS423_52.0 + Time_Assignment_COS423_2:30_3:20_PM <= 1
+_C5687: Room_Assignment_COS423_53.0 + Time_Assignment_COS423_2:30_3:20_PM <= 1
+_C5688: Room_Assignment_COS423_54.0 + Time_Assignment_COS423_2:30_3:20_PM <= 1
+_C5689: Room_Assignment_COS423_55.0 + Time_Assignment_COS423_2:30_3:20_PM <= 1
 _C569: Overlap_COS226_MAT370 <= 1
-_C5690: Room_Assignment_COS432_2 + Time_Assignment_COS432_3 <= 2
-_C5691: Room_Assignment_COS432_4 + Time_Assignment_COS432_3 <= 1
-_C5692: Room_Assignment_COS432_6 + Time_Assignment_COS432_3 <= 1
-_C5693: Room_Assignment_COS432_8 + Time_Assignment_COS432_3 <= 1
-_C5694: Room_Assignment_COS432_10 + Time_Assignment_COS432_3 <= 1
-_C5695: Room_Assignment_COS432_12 + Time_Assignment_COS432_3 <= 1
-_C5696: Room_Assignment_COS432_14 + Time_Assignment_COS432_3 <= 2
-_C5697: Room_Assignment_COS432_16 + Time_Assignment_COS432_3 <= 2
-_C5698: Room_Assignment_COS432_18 + Time_Assignment_COS432_3 <= 2
-_C5699: Room_Assignment_COS432_20 + Time_Assignment_COS432_3 <= 2
+_C5690: Room_Assignment_COS432_2.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 2
+_C5691: Room_Assignment_COS432_4.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 1
+_C5692: Room_Assignment_COS432_6.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 1
+_C5693: Room_Assignment_COS432_8.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 1
+_C5694: Room_Assignment_COS432_10.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 1
+_C5695: Room_Assignment_COS432_12.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 1
+_C5696: Room_Assignment_COS432_14.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 2
+_C5697: Room_Assignment_COS432_16.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 2
+_C5698: Room_Assignment_COS432_18.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 2
+_C5699: Room_Assignment_COS432_20.0 + Time_Assignment_COS432_11:00_11:50_AM
+ <= 2
 _C57: Overlap_AAS201_MAT216 <= 1
 _C570: Overlap_COS226_MAT377 <= 1
-_C5700: Room_Assignment_COS432_2 + Time_Assignment_COS432_4 <= 2
-_C5701: Room_Assignment_COS432_4 + Time_Assignment_COS432_4 <= 1
-_C5702: Room_Assignment_COS432_6 + Time_Assignment_COS432_4 <= 1
-_C5703: Room_Assignment_COS432_8 + Time_Assignment_COS432_4 <= 2
-_C5704: Room_Assignment_COS432_10 + Time_Assignment_COS432_4 <= 2
-_C5705: Room_Assignment_COS432_12 + Time_Assignment_COS432_4 <= 2
-_C5706: Room_Assignment_COS432_14 + Time_Assignment_COS432_4 <= 1
-_C5707: Room_Assignment_COS432_16 + Time_Assignment_COS432_4 <= 1
-_C5708: Room_Assignment_COS432_18 + Time_Assignment_COS432_4 <= 2
-_C5709: Room_Assignment_COS432_20 + Time_Assignment_COS432_4 <= 2
-_C571: Room_Assignment_COS226_4 + Room_Assignment_MAT377_4
- + Time_Assignment_COS226_2 + Time_Assignment_MAT377_2 <= 3
-_C5710: Room_Assignment_COS484_5 + Time_Assignment_COS484_1 <= 1
-_C5711: Room_Assignment_COS484_10 + Time_Assignment_COS484_1 <= 1
-_C5712: Room_Assignment_COS484_15 + Time_Assignment_COS484_1 <= 1
-_C5713: Room_Assignment_COS484_20 + Time_Assignment_COS484_1 <= 2
-_C5714: Room_Assignment_COS484_25 + Time_Assignment_COS484_1 <= 1
-_C5715: Room_Assignment_COS484_3 + Time_Assignment_COS484_1 <= 2
-_C5716: Room_Assignment_COS484_30 + Time_Assignment_COS484_1 <= 2
-_C5717: Room_Assignment_COS484_5 + Time_Assignment_COS484_3 <= 2
-_C5718: Room_Assignment_COS484_10 + Time_Assignment_COS484_3 <= 1
-_C5719: Room_Assignment_COS484_15 + Time_Assignment_COS484_3 <= 1
+_C5700: Room_Assignment_COS432_2.0 + Time_Assignment_COS432_1:30_2:20_PM <= 2
+_C5701: Room_Assignment_COS432_4.0 + Time_Assignment_COS432_1:30_2:20_PM <= 1
+_C5702: Room_Assignment_COS432_6.0 + Time_Assignment_COS432_1:30_2:20_PM <= 1
+_C5703: Room_Assignment_COS432_8.0 + Time_Assignment_COS432_1:30_2:20_PM <= 2
+_C5704: Room_Assignment_COS432_10.0 + Time_Assignment_COS432_1:30_2:20_PM <= 2
+_C5705: Room_Assignment_COS432_12.0 + Time_Assignment_COS432_1:30_2:20_PM <= 2
+_C5706: Room_Assignment_COS432_14.0 + Time_Assignment_COS432_1:30_2:20_PM <= 1
+_C5707: Room_Assignment_COS432_16.0 + Time_Assignment_COS432_1:30_2:20_PM <= 1
+_C5708: Room_Assignment_COS432_18.0 + Time_Assignment_COS432_1:30_2:20_PM <= 2
+_C5709: Room_Assignment_COS432_20.0 + Time_Assignment_COS432_1:30_2:20_PM <= 2
+_C571: Room_Assignment_COS226_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
+_C5710: Room_Assignment_COS484_5.0 + Time_Assignment_COS484_9:00_9:50_AM <= 1
+_C5711: Room_Assignment_COS484_10.0 + Time_Assignment_COS484_9:00_9:50_AM <= 1
+_C5712: Room_Assignment_COS484_15.0 + Time_Assignment_COS484_9:00_9:50_AM <= 1
+_C5713: Room_Assignment_COS484_20.0 + Time_Assignment_COS484_9:00_9:50_AM <= 2
+_C5714: Room_Assignment_COS484_25.0 + Time_Assignment_COS484_9:00_9:50_AM <= 1
+_C5715: Room_Assignment_COS484_3.0 + Time_Assignment_COS484_9:00_9:50_AM <= 2
+_C5716: Room_Assignment_COS484_30.0 + Time_Assignment_COS484_9:00_9:50_AM <= 2
+_C5717: Room_Assignment_COS484_5.0 + Time_Assignment_COS484_11:00_11:50_AM
+ <= 2
+_C5718: Room_Assignment_COS484_10.0 + Time_Assignment_COS484_11:00_11:50_AM
+ <= 1
+_C5719: Room_Assignment_COS484_15.0 + Time_Assignment_COS484_11:00_11:50_AM
+ <= 1
 _C572: Overlap_COS226_MAT385 <= 1
-_C5720: Room_Assignment_COS484_20 + Time_Assignment_COS484_3 <= 2
-_C5721: Room_Assignment_COS484_25 + Time_Assignment_COS484_3 <= 1
-_C5722: Room_Assignment_COS484_3 + Time_Assignment_COS484_3 <= 2
-_C5723: Room_Assignment_COS484_30 + Time_Assignment_COS484_3 <= 2
-_C5724: Room_Assignment_COS522_8 + Time_Assignment_COS522_1 <= 1
-_C5725: Room_Assignment_COS522_16 + Time_Assignment_COS522_1 <= 1
-_C5726: Room_Assignment_COS522_24 + Time_Assignment_COS522_1 <= 2
-_C5727: Room_Assignment_COS522_32 + Time_Assignment_COS522_1 <= 1
-_C5728: Room_Assignment_COS522_40 + Time_Assignment_COS522_1 <= 2
-_C5729: Room_Assignment_COS522_48 + Time_Assignment_COS522_1 <= 2
+_C5720: Room_Assignment_COS484_20.0 + Time_Assignment_COS484_11:00_11:50_AM
+ <= 2
+_C5721: Room_Assignment_COS484_25.0 + Time_Assignment_COS484_11:00_11:50_AM
+ <= 1
+_C5722: Room_Assignment_COS484_3.0 + Time_Assignment_COS484_11:00_11:50_AM
+ <= 2
+_C5723: Room_Assignment_COS484_30.0 + Time_Assignment_COS484_11:00_11:50_AM
+ <= 2
+_C5724: Room_Assignment_COS522_8.0 + Time_Assignment_COS522_9:00_9:50_AM <= 1
+_C5725: Room_Assignment_COS522_16.0 + Time_Assignment_COS522_9:00_9:50_AM <= 1
+_C5726: Room_Assignment_COS522_24.0 + Time_Assignment_COS522_9:00_9:50_AM <= 2
+_C5727: Room_Assignment_COS522_32.0 + Time_Assignment_COS522_9:00_9:50_AM <= 1
+_C5728: Room_Assignment_COS522_40.0 + Time_Assignment_COS522_9:00_9:50_AM <= 2
+_C5729: Room_Assignment_COS522_48.0 + Time_Assignment_COS522_9:00_9:50_AM <= 2
 _C573: Overlap_COS226_MAT400 <= 1
-_C5730: Room_Assignment_COS522_56 + Time_Assignment_COS522_1 <= 1
-_C5731: Room_Assignment_COS522_64 + Time_Assignment_COS522_1 <= 1
-_C5732: Room_Assignment_COS522_72 + Time_Assignment_COS522_1 <= 2
-_C5733: Room_Assignment_COS522_8 + Time_Assignment_COS522_5 <= 1
-_C5734: Room_Assignment_COS522_16 + Time_Assignment_COS522_5 <= 1
-_C5735: Room_Assignment_COS522_24 + Time_Assignment_COS522_5 <= 2
-_C5736: Room_Assignment_COS522_32 + Time_Assignment_COS522_5 <= 1
-_C5737: Room_Assignment_COS522_40 + Time_Assignment_COS522_5 <= 2
-_C5738: Room_Assignment_COS522_48 + Time_Assignment_COS522_5 <= 2
-_C5739: Room_Assignment_COS522_56 + Time_Assignment_COS522_5 <= 1
-_C574: Room_Assignment_COS226_42 + Room_Assignment_MAT400_42
- + Time_Assignment_COS226_2 + Time_Assignment_MAT400_2 <= 3
-_C5740: Room_Assignment_COS522_64 + Time_Assignment_COS522_5 <= 1
-_C5741: Room_Assignment_COS522_72 + Time_Assignment_COS522_5 <= 1
-_C5742: Room_Assignment_COS528_7 + Time_Assignment_COS528_4 <= 1
-_C5743: Room_Assignment_COS528_11 + Time_Assignment_COS528_4 <= 2
-_C5744: Room_Assignment_COS528_13 + Time_Assignment_COS528_4 <= 2
-_C5745: Room_Assignment_COS528_17 + Time_Assignment_COS528_4 <= 1
-_C5746: Room_Assignment_COS528_19 + Time_Assignment_COS528_4 <= 1
-_C5747: Room_Assignment_COS528_23 + Time_Assignment_COS528_4 <= 1
-_C5748: Room_Assignment_COS528_29 + Time_Assignment_COS528_4 <= 2
-_C5749: Room_Assignment_COS528_31 + Time_Assignment_COS528_4 <= 1
+_C5730: Room_Assignment_COS522_56.0 + Time_Assignment_COS522_9:00_9:50_AM <= 1
+_C5731: Room_Assignment_COS522_64.0 + Time_Assignment_COS522_9:00_9:50_AM <= 1
+_C5732: Room_Assignment_COS522_72.0 + Time_Assignment_COS522_9:00_9:50_AM <= 2
+_C5733: Room_Assignment_COS522_8.0 + Time_Assignment_COS522_2:30_3:20_PM <= 1
+_C5734: Room_Assignment_COS522_16.0 + Time_Assignment_COS522_2:30_3:20_PM <= 1
+_C5735: Room_Assignment_COS522_24.0 + Time_Assignment_COS522_2:30_3:20_PM <= 2
+_C5736: Room_Assignment_COS522_32.0 + Time_Assignment_COS522_2:30_3:20_PM <= 1
+_C5737: Room_Assignment_COS522_40.0 + Time_Assignment_COS522_2:30_3:20_PM <= 2
+_C5738: Room_Assignment_COS522_48.0 + Time_Assignment_COS522_2:30_3:20_PM <= 2
+_C5739: Room_Assignment_COS522_56.0 + Time_Assignment_COS522_2:30_3:20_PM <= 1
+_C574: Room_Assignment_COS226_42.0 + Room_Assignment_MAT400_42.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_MAT400_10:00_10:50_AM <= 3
+_C5740: Room_Assignment_COS522_64.0 + Time_Assignment_COS522_2:30_3:20_PM <= 1
+_C5741: Room_Assignment_COS522_72.0 + Time_Assignment_COS522_2:30_3:20_PM <= 1
+_C5742: Room_Assignment_COS528_7.0 + Time_Assignment_COS528_1:30_2:20_PM <= 1
+_C5743: Room_Assignment_COS528_11.0 + Time_Assignment_COS528_1:30_2:20_PM <= 2
+_C5744: Room_Assignment_COS528_13.0 + Time_Assignment_COS528_1:30_2:20_PM <= 2
+_C5745: Room_Assignment_COS528_17.0 + Time_Assignment_COS528_1:30_2:20_PM <= 1
+_C5746: Room_Assignment_COS528_19.0 + Time_Assignment_COS528_1:30_2:20_PM <= 1
+_C5747: Room_Assignment_COS528_23.0 + Time_Assignment_COS528_1:30_2:20_PM <= 1
+_C5748: Room_Assignment_COS528_29.0 + Time_Assignment_COS528_1:30_2:20_PM <= 2
+_C5749: Room_Assignment_COS528_31.0 + Time_Assignment_COS528_1:30_2:20_PM <= 1
 _C575: Overlap_COS226_ORF245 <= 1
-_C5750: Room_Assignment_COS528_37 + Time_Assignment_COS528_4 <= 2
-_C5751: Room_Assignment_COS528_7 + Time_Assignment_COS528_5 <= 1
-_C5752: Room_Assignment_COS528_11 + Time_Assignment_COS528_5 <= 1
-_C5753: Room_Assignment_COS528_13 + Time_Assignment_COS528_5 <= 2
-_C5754: Room_Assignment_COS528_17 + Time_Assignment_COS528_5 <= 1
-_C5755: Room_Assignment_COS528_19 + Time_Assignment_COS528_5 <= 2
-_C5756: Room_Assignment_COS528_23 + Time_Assignment_COS528_5 <= 1
-_C5757: Room_Assignment_COS528_29 + Time_Assignment_COS528_5 <= 1
-_C5758: Room_Assignment_COS528_31 + Time_Assignment_COS528_5 <= 1
-_C5759: Room_Assignment_COS528_37 + Time_Assignment_COS528_5 <= 2
+_C5750: Room_Assignment_COS528_37.0 + Time_Assignment_COS528_1:30_2:20_PM <= 2
+_C5751: Room_Assignment_COS528_7.0 + Time_Assignment_COS528_2:30_3:20_PM <= 1
+_C5752: Room_Assignment_COS528_11.0 + Time_Assignment_COS528_2:30_3:20_PM <= 1
+_C5753: Room_Assignment_COS528_13.0 + Time_Assignment_COS528_2:30_3:20_PM <= 2
+_C5754: Room_Assignment_COS528_17.0 + Time_Assignment_COS528_2:30_3:20_PM <= 1
+_C5755: Room_Assignment_COS528_19.0 + Time_Assignment_COS528_2:30_3:20_PM <= 2
+_C5756: Room_Assignment_COS528_23.0 + Time_Assignment_COS528_2:30_3:20_PM <= 1
+_C5757: Room_Assignment_COS528_29.0 + Time_Assignment_COS528_2:30_3:20_PM <= 1
+_C5758: Room_Assignment_COS528_31.0 + Time_Assignment_COS528_2:30_3:20_PM <= 1
+_C5759: Room_Assignment_COS528_37.0 + Time_Assignment_COS528_2:30_3:20_PM <= 2
 _C576: Overlap_COS226_ORF307 <= 1
-_C5760: Room_Assignment_ECO100_3 + Time_Assignment_ECO100_1 <= 2
-_C5761: Room_Assignment_ECO100_6 + Time_Assignment_ECO100_1 <= 2
-_C5762: Room_Assignment_ECO100_9 + Time_Assignment_ECO100_1 <= 1
-_C5763: Room_Assignment_ECO100_3 + Time_Assignment_ECO100_2 <= 1
-_C5764: Room_Assignment_ECO100_6 + Time_Assignment_ECO100_2 <= 1
-_C5765: Room_Assignment_ECO100_9 + Time_Assignment_ECO100_2 <= 1
-_C5766: Room_Assignment_ECO102_51 + Time_Assignment_ECO102_1 <= 2
-_C5767: Room_Assignment_ECO102_50 + Time_Assignment_ECO102_1 <= 2
-_C5768: Room_Assignment_ECO102_49 + Time_Assignment_ECO102_1 <= 2
-_C5769: Room_Assignment_ECO102_48 + Time_Assignment_ECO102_1 <= 2
-_C577: Room_Assignment_COS226_35 + Room_Assignment_ORF307_35
- + Time_Assignment_COS226_2 + Time_Assignment_ORF307_2 <= 3
-_C5770: Room_Assignment_ECO102_37 + Time_Assignment_ECO102_1 <= 2
-_C5771: Room_Assignment_ECO102_46 + Time_Assignment_ECO102_1 <= 2
-_C5772: Room_Assignment_ECO102_35 + Time_Assignment_ECO102_1 <= 2
-_C5773: Room_Assignment_ECO202_20 + Time_Assignment_ECO202_3 <= 2
-_C5774: Room_Assignment_ECO202_21 + Time_Assignment_ECO202_3 <= 2
-_C5775: Room_Assignment_ECO202_22 + Time_Assignment_ECO202_3 <= 2
-_C5776: Room_Assignment_ECO202_23 + Time_Assignment_ECO202_3 <= 2
-_C5777: Room_Assignment_ECO202_24 + Time_Assignment_ECO202_3 <= 2
-_C5778: Room_Assignment_ECO202_25 + Time_Assignment_ECO202_3 <= 1
-_C5779: Room_Assignment_ECO202_26 + Time_Assignment_ECO202_3 <= 1
+_C5760: Room_Assignment_ECO100_3.0 + Time_Assignment_ECO100_9:00_9:50_AM <= 2
+_C5761: Room_Assignment_ECO100_6.0 + Time_Assignment_ECO100_9:00_9:50_AM <= 2
+_C5762: Room_Assignment_ECO100_9.0 + Time_Assignment_ECO100_9:00_9:50_AM <= 1
+_C5763: Room_Assignment_ECO100_3.0 + Time_Assignment_ECO100_10:00_10:50_AM
+ <= 1
+_C5764: Room_Assignment_ECO100_6.0 + Time_Assignment_ECO100_10:00_10:50_AM
+ <= 1
+_C5765: Room_Assignment_ECO100_9.0 + Time_Assignment_ECO100_10:00_10:50_AM
+ <= 1
+_C5766: Room_Assignment_ECO102_51.0 + Time_Assignment_ECO102_9:00_9:50_AM <= 2
+_C5767: Room_Assignment_ECO102_50.0 + Time_Assignment_ECO102_9:00_9:50_AM <= 2
+_C5768: Room_Assignment_ECO102_49.0 + Time_Assignment_ECO102_9:00_9:50_AM <= 2
+_C5769: Room_Assignment_ECO102_48.0 + Time_Assignment_ECO102_9:00_9:50_AM <= 2
+_C577: Room_Assignment_COS226_35.0 + Room_Assignment_ORF307_35.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C5770: Room_Assignment_ECO102_37.0 + Time_Assignment_ECO102_9:00_9:50_AM <= 2
+_C5771: Room_Assignment_ECO102_46.0 + Time_Assignment_ECO102_9:00_9:50_AM <= 2
+_C5772: Room_Assignment_ECO102_35.0 + Time_Assignment_ECO102_9:00_9:50_AM <= 2
+_C5773: Room_Assignment_ECO202_20.0 + Time_Assignment_ECO202_11:00_11:50_AM
+ <= 2
+_C5774: Room_Assignment_ECO202_21.0 + Time_Assignment_ECO202_11:00_11:50_AM
+ <= 2
+_C5775: Room_Assignment_ECO202_22.0 + Time_Assignment_ECO202_11:00_11:50_AM
+ <= 2
+_C5776: Room_Assignment_ECO202_23.0 + Time_Assignment_ECO202_11:00_11:50_AM
+ <= 2
+_C5777: Room_Assignment_ECO202_24.0 + Time_Assignment_ECO202_11:00_11:50_AM
+ <= 2
+_C5778: Room_Assignment_ECO202_25.0 + Time_Assignment_ECO202_11:00_11:50_AM
+ <= 1
+_C5779: Room_Assignment_ECO202_26.0 + Time_Assignment_ECO202_11:00_11:50_AM
+ <= 1
 _C578: Overlap_COS226_ORF309 <= 1
-_C5780: Room_Assignment_ECO202_27 + Time_Assignment_ECO202_3 <= 1
-_C5781: Room_Assignment_ECO202_20 + Time_Assignment_ECO202_4 <= 2
-_C5782: Room_Assignment_ECO202_21 + Time_Assignment_ECO202_4 <= 2
-_C5783: Room_Assignment_ECO202_22 + Time_Assignment_ECO202_4 <= 1
-_C5784: Room_Assignment_ECO202_23 + Time_Assignment_ECO202_4 <= 1
-_C5785: Room_Assignment_ECO202_24 + Time_Assignment_ECO202_4 <= 2
-_C5786: Room_Assignment_ECO202_25 + Time_Assignment_ECO202_4 <= 1
-_C5787: Room_Assignment_ECO202_26 + Time_Assignment_ECO202_4 <= 1
-_C5788: Room_Assignment_ECO202_27 + Time_Assignment_ECO202_4 <= 1
-_C5789: Room_Assignment_ECO202_20 + Time_Assignment_ECO202_5 <= 2
+_C5780: Room_Assignment_ECO202_27.0 + Time_Assignment_ECO202_11:00_11:50_AM
+ <= 1
+_C5781: Room_Assignment_ECO202_20.0 + Time_Assignment_ECO202_1:30_2:20_PM <= 2
+_C5782: Room_Assignment_ECO202_21.0 + Time_Assignment_ECO202_1:30_2:20_PM <= 2
+_C5783: Room_Assignment_ECO202_22.0 + Time_Assignment_ECO202_1:30_2:20_PM <= 1
+_C5784: Room_Assignment_ECO202_23.0 + Time_Assignment_ECO202_1:30_2:20_PM <= 1
+_C5785: Room_Assignment_ECO202_24.0 + Time_Assignment_ECO202_1:30_2:20_PM <= 2
+_C5786: Room_Assignment_ECO202_25.0 + Time_Assignment_ECO202_1:30_2:20_PM <= 1
+_C5787: Room_Assignment_ECO202_26.0 + Time_Assignment_ECO202_1:30_2:20_PM <= 1
+_C5788: Room_Assignment_ECO202_27.0 + Time_Assignment_ECO202_1:30_2:20_PM <= 1
+_C5789: Room_Assignment_ECO202_20.0 + Time_Assignment_ECO202_2:30_3:20_PM <= 2
 _C579: Overlap_COS226_ORF350 <= 1
-_C5790: Room_Assignment_ECO202_21 + Time_Assignment_ECO202_5 <= 2
-_C5791: Room_Assignment_ECO202_22 + Time_Assignment_ECO202_5 <= 1
-_C5792: Room_Assignment_ECO202_23 + Time_Assignment_ECO202_5 <= 1
-_C5793: Room_Assignment_ECO202_24 + Time_Assignment_ECO202_5 <= 2
-_C5794: Room_Assignment_ECO202_25 + Time_Assignment_ECO202_5 <= 1
-_C5795: Room_Assignment_ECO202_26 + Time_Assignment_ECO202_5 <= 1
-_C5796: Room_Assignment_ECO202_27 + Time_Assignment_ECO202_5 <= 1
-_C5797: Room_Assignment_ECO300_1 + Time_Assignment_ECO300_2 <= 2
-_C5798: Room_Assignment_ECO300_3 + Time_Assignment_ECO300_2 <= 1
-_C5799: Room_Assignment_ECO300_5 + Time_Assignment_ECO300_2 <= 2
+_C5790: Room_Assignment_ECO202_21.0 + Time_Assignment_ECO202_2:30_3:20_PM <= 2
+_C5791: Room_Assignment_ECO202_22.0 + Time_Assignment_ECO202_2:30_3:20_PM <= 1
+_C5792: Room_Assignment_ECO202_23.0 + Time_Assignment_ECO202_2:30_3:20_PM <= 1
+_C5793: Room_Assignment_ECO202_24.0 + Time_Assignment_ECO202_2:30_3:20_PM <= 2
+_C5794: Room_Assignment_ECO202_25.0 + Time_Assignment_ECO202_2:30_3:20_PM <= 1
+_C5795: Room_Assignment_ECO202_26.0 + Time_Assignment_ECO202_2:30_3:20_PM <= 1
+_C5796: Room_Assignment_ECO202_27.0 + Time_Assignment_ECO202_2:30_3:20_PM <= 1
+_C5797: Room_Assignment_ECO300_1 + Time_Assignment_ECO300_10:00_10:50_AM <= 2
+_C5798: Room_Assignment_ECO300_3 + Time_Assignment_ECO300_10:00_10:50_AM <= 1
+_C5799: Room_Assignment_ECO300_5 + Time_Assignment_ECO300_10:00_10:50_AM <= 2
 _C58: Overlap_AAS201_MAT217 <= 1
 _C580: Overlap_COS226_ORF363 <= 1
-_C5800: Room_Assignment_ECO300_7 + Time_Assignment_ECO300_2 <= 2
-_C5801: Room_Assignment_ECO300_21 + Time_Assignment_ECO300_2 <= 2
-_C5802: Room_Assignment_ECO300_24 + Time_Assignment_ECO300_2 <= 1
-_C5803: Room_Assignment_ECO300_27 + Time_Assignment_ECO300_2 <= 1
-_C5804: Room_Assignment_ECO300_29 + Time_Assignment_ECO300_2 <= 2
-_C5805: Room_Assignment_ECO300_33 + Time_Assignment_ECO300_2 <= 1
-_C5806: Room_Assignment_ECO300_37 + Time_Assignment_ECO300_2 <= 1
-_C5807: Room_Assignment_ECO300_39 + Time_Assignment_ECO300_2 <= 2
-_C5808: Room_Assignment_ECO300_45 + Time_Assignment_ECO300_2 <= 2
-_C5809: Room_Assignment_ECO300_47 + Time_Assignment_ECO300_2 <= 2
+_C5800: Room_Assignment_ECO300_7 + Time_Assignment_ECO300_10:00_10:50_AM <= 2
+_C5801: Room_Assignment_ECO300_21 + Time_Assignment_ECO300_10:00_10:50_AM <= 2
+_C5802: Room_Assignment_ECO300_24 + Time_Assignment_ECO300_10:00_10:50_AM <= 1
+_C5803: Room_Assignment_ECO300_27 + Time_Assignment_ECO300_10:00_10:50_AM <= 1
+_C5804: Room_Assignment_ECO300_29 + Time_Assignment_ECO300_10:00_10:50_AM <= 2
+_C5805: Room_Assignment_ECO300_33 + Time_Assignment_ECO300_10:00_10:50_AM <= 1
+_C5806: Room_Assignment_ECO300_37 + Time_Assignment_ECO300_10:00_10:50_AM <= 1
+_C5807: Room_Assignment_ECO300_39 + Time_Assignment_ECO300_10:00_10:50_AM <= 2
+_C5808: Room_Assignment_ECO300_45 + Time_Assignment_ECO300_10:00_10:50_AM <= 2
+_C5809: Room_Assignment_ECO300_47 + Time_Assignment_ECO300_10:00_10:50_AM <= 2
 _C581: Overlap_COS226_ORF445 <= 1
-_C5810: Room_Assignment_ECO300_51 + Time_Assignment_ECO300_2 <= 1
-_C5811: Room_Assignment_ECO300_55 + Time_Assignment_ECO300_2 <= 1
-_C5812: Room_Assignment_ECO300_1 + Time_Assignment_ECO300_3 <= 2
-_C5813: Room_Assignment_ECO300_3 + Time_Assignment_ECO300_3 <= 2
-_C5814: Room_Assignment_ECO300_5 + Time_Assignment_ECO300_3 <= 2
-_C5815: Room_Assignment_ECO300_7 + Time_Assignment_ECO300_3 <= 2
-_C5816: Room_Assignment_ECO300_21 + Time_Assignment_ECO300_3 <= 2
-_C5817: Room_Assignment_ECO300_24 + Time_Assignment_ECO300_3 <= 2
-_C5818: Room_Assignment_ECO300_27 + Time_Assignment_ECO300_3 <= 1
-_C5819: Room_Assignment_ECO300_29 + Time_Assignment_ECO300_3 <= 2
+_C5810: Room_Assignment_ECO300_51 + Time_Assignment_ECO300_10:00_10:50_AM <= 1
+_C5811: Room_Assignment_ECO300_55 + Time_Assignment_ECO300_10:00_10:50_AM <= 1
+_C5812: Room_Assignment_ECO300_1 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5813: Room_Assignment_ECO300_3 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5814: Room_Assignment_ECO300_5 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5815: Room_Assignment_ECO300_7 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5816: Room_Assignment_ECO300_21 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5817: Room_Assignment_ECO300_24 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5818: Room_Assignment_ECO300_27 + Time_Assignment_ECO300_11:00_11:50_AM <= 1
+_C5819: Room_Assignment_ECO300_29 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
 _C582: Overlap_COS226_PHY103 <= 1
-_C5820: Room_Assignment_ECO300_33 + Time_Assignment_ECO300_3 <= 2
-_C5821: Room_Assignment_ECO300_37 + Time_Assignment_ECO300_3 <= 1
-_C5822: Room_Assignment_ECO300_39 + Time_Assignment_ECO300_3 <= 1
-_C5823: Room_Assignment_ECO300_45 + Time_Assignment_ECO300_3 <= 2
-_C5824: Room_Assignment_ECO300_47 + Time_Assignment_ECO300_3 <= 2
-_C5825: Room_Assignment_ECO300_51 + Time_Assignment_ECO300_3 <= 1
-_C5826: Room_Assignment_ECO300_55 + Time_Assignment_ECO300_3 <= 2
-_C5827: Room_Assignment_ECO301_3 + Time_Assignment_ECO301_2 <= 1
-_C5828: Room_Assignment_ECO301_5 + Time_Assignment_ECO301_2 <= 2
-_C5829: Room_Assignment_ECO301_7 + Time_Assignment_ECO301_2 <= 2
+_C5820: Room_Assignment_ECO300_33 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5821: Room_Assignment_ECO300_37 + Time_Assignment_ECO300_11:00_11:50_AM <= 1
+_C5822: Room_Assignment_ECO300_39 + Time_Assignment_ECO300_11:00_11:50_AM <= 1
+_C5823: Room_Assignment_ECO300_45 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5824: Room_Assignment_ECO300_47 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5825: Room_Assignment_ECO300_51 + Time_Assignment_ECO300_11:00_11:50_AM <= 1
+_C5826: Room_Assignment_ECO300_55 + Time_Assignment_ECO300_11:00_11:50_AM <= 2
+_C5827: Room_Assignment_ECO301_3.0 + Time_Assignment_ECO301_10:00_10:50_AM
+ <= 1
+_C5828: Room_Assignment_ECO301_5.0 + Time_Assignment_ECO301_10:00_10:50_AM
+ <= 2
+_C5829: Room_Assignment_ECO301_7.0 + Time_Assignment_ECO301_10:00_10:50_AM
+ <= 2
 _C583: Overlap_COS226_PHY104 <= 1
-_C5830: Room_Assignment_ECO301_3 + Time_Assignment_ECO301_4 <= 2
-_C5831: Room_Assignment_ECO301_5 + Time_Assignment_ECO301_4 <= 2
-_C5832: Room_Assignment_ECO301_7 + Time_Assignment_ECO301_4 <= 1
-_C5833: Room_Assignment_ECO301_3 + Time_Assignment_ECO301_5 <= 1
-_C5834: Room_Assignment_ECO301_5 + Time_Assignment_ECO301_5 <= 2
-_C5835: Room_Assignment_ECO301_7 + Time_Assignment_ECO301_5 <= 1
-_C5836: Room_Assignment_ECO302_61 + Time_Assignment_ECO302_1 <= 1
-_C5837: Room_Assignment_ECO302_64 + Time_Assignment_ECO302_1 <= 1
-_C5838: Room_Assignment_ECO302_65 + Time_Assignment_ECO302_1 <= 1
-_C5839: Room_Assignment_ECO302_68 + Time_Assignment_ECO302_1 <= 1
+_C5830: Room_Assignment_ECO301_3.0 + Time_Assignment_ECO301_1:30_2:20_PM <= 2
+_C5831: Room_Assignment_ECO301_5.0 + Time_Assignment_ECO301_1:30_2:20_PM <= 2
+_C5832: Room_Assignment_ECO301_7.0 + Time_Assignment_ECO301_1:30_2:20_PM <= 1
+_C5833: Room_Assignment_ECO301_3.0 + Time_Assignment_ECO301_2:30_3:20_PM <= 1
+_C5834: Room_Assignment_ECO301_5.0 + Time_Assignment_ECO301_2:30_3:20_PM <= 2
+_C5835: Room_Assignment_ECO301_7.0 + Time_Assignment_ECO301_2:30_3:20_PM <= 1
+_C5836: Room_Assignment_ECO302_61.0 + Time_Assignment_ECO302_9:00_9:50_AM <= 1
+_C5837: Room_Assignment_ECO302_64.0 + Time_Assignment_ECO302_9:00_9:50_AM <= 1
+_C5838: Room_Assignment_ECO302_65.0 + Time_Assignment_ECO302_9:00_9:50_AM <= 1
+_C5839: Room_Assignment_ECO302_68.0 + Time_Assignment_ECO302_9:00_9:50_AM <= 1
 _C584: Overlap_COS226_PHY105 <= 1
-_C5840: Room_Assignment_ECO302_60 + Time_Assignment_ECO302_1 <= 1
-_C5841: Room_Assignment_ECO302_71 + Time_Assignment_ECO302_1 <= 2
-_C5842: Room_Assignment_ECO302_61 + Time_Assignment_ECO302_3 <= 2
-_C5843: Room_Assignment_ECO302_64 + Time_Assignment_ECO302_3 <= 2
-_C5844: Room_Assignment_ECO302_65 + Time_Assignment_ECO302_3 <= 2
-_C5845: Room_Assignment_ECO302_68 + Time_Assignment_ECO302_3 <= 1
-_C5846: Room_Assignment_ECO302_60 + Time_Assignment_ECO302_3 <= 1
-_C5847: Room_Assignment_ECO302_71 + Time_Assignment_ECO302_3 <= 2
-_C5848: Room_Assignment_ECO310_32 + Time_Assignment_ECO310_2 <= 2
-_C5849: Room_Assignment_ECO310_34 + Time_Assignment_ECO310_2 <= 1
-_C585: Room_Assignment_COS226_4 + Room_Assignment_PHY105_4
- + Time_Assignment_COS226_2 + Time_Assignment_PHY105_2 <= 3
-_C5850: Room_Assignment_ECO310_35 + Time_Assignment_ECO310_2 <= 1
-_C5851: Room_Assignment_ECO310_37 + Time_Assignment_ECO310_2 <= 1
-_C5852: Room_Assignment_ECO310_30 + Time_Assignment_ECO310_2 <= 1
-_C5853: Room_Assignment_ECO310_32 + Time_Assignment_ECO310_4 <= 1
-_C5854: Room_Assignment_ECO310_34 + Time_Assignment_ECO310_4 <= 2
-_C5855: Room_Assignment_ECO310_35 + Time_Assignment_ECO310_4 <= 1
-_C5856: Room_Assignment_ECO310_37 + Time_Assignment_ECO310_4 <= 2
-_C5857: Room_Assignment_ECO310_30 + Time_Assignment_ECO310_4 <= 2
-_C5858: Room_Assignment_ECO312_41 + Time_Assignment_ECO312_3 <= 2
-_C5859: Room_Assignment_ECO312_49 + Time_Assignment_ECO312_3 <= 2
+_C5840: Room_Assignment_ECO302_60.0 + Time_Assignment_ECO302_9:00_9:50_AM <= 1
+_C5841: Room_Assignment_ECO302_71.0 + Time_Assignment_ECO302_9:00_9:50_AM <= 2
+_C5842: Room_Assignment_ECO302_61.0 + Time_Assignment_ECO302_11:00_11:50_AM
+ <= 2
+_C5843: Room_Assignment_ECO302_64.0 + Time_Assignment_ECO302_11:00_11:50_AM
+ <= 2
+_C5844: Room_Assignment_ECO302_65.0 + Time_Assignment_ECO302_11:00_11:50_AM
+ <= 2
+_C5845: Room_Assignment_ECO302_68.0 + Time_Assignment_ECO302_11:00_11:50_AM
+ <= 1
+_C5846: Room_Assignment_ECO302_60.0 + Time_Assignment_ECO302_11:00_11:50_AM
+ <= 1
+_C5847: Room_Assignment_ECO302_71.0 + Time_Assignment_ECO302_11:00_11:50_AM
+ <= 2
+_C5848: Room_Assignment_ECO310_32.0 + Time_Assignment_ECO310_10:00_10:50_AM
+ <= 2
+_C5849: Room_Assignment_ECO310_34.0 + Time_Assignment_ECO310_10:00_10:50_AM
+ <= 1
+_C585: Room_Assignment_COS226_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_PHY105_10:00_10:50_AM <= 3
+_C5850: Room_Assignment_ECO310_35.0 + Time_Assignment_ECO310_10:00_10:50_AM
+ <= 1
+_C5851: Room_Assignment_ECO310_37.0 + Time_Assignment_ECO310_10:00_10:50_AM
+ <= 1
+_C5852: Room_Assignment_ECO310_30.0 + Time_Assignment_ECO310_10:00_10:50_AM
+ <= 1
+_C5853: Room_Assignment_ECO310_32.0 + Time_Assignment_ECO310_1:30_2:20_PM <= 1
+_C5854: Room_Assignment_ECO310_34.0 + Time_Assignment_ECO310_1:30_2:20_PM <= 2
+_C5855: Room_Assignment_ECO310_35.0 + Time_Assignment_ECO310_1:30_2:20_PM <= 1
+_C5856: Room_Assignment_ECO310_37.0 + Time_Assignment_ECO310_1:30_2:20_PM <= 2
+_C5857: Room_Assignment_ECO310_30.0 + Time_Assignment_ECO310_1:30_2:20_PM <= 2
+_C5858: Room_Assignment_ECO312_41.0 + Time_Assignment_ECO312_11:00_11:50_AM
+ <= 2
+_C5859: Room_Assignment_ECO312_49.0 + Time_Assignment_ECO312_11:00_11:50_AM
+ <= 2
 _C586: Overlap_COS226_PHY106 <= 1
-_C5860: Room_Assignment_ECO312_48 + Time_Assignment_ECO312_3 <= 1
-_C5861: Room_Assignment_ECO312_44 + Time_Assignment_ECO312_3 <= 1
-_C5862: Room_Assignment_ECO312_42 + Time_Assignment_ECO312_3 <= 1
-_C5863: Room_Assignment_ECO312_41 + Time_Assignment_ECO312_5 <= 1
-_C5864: Room_Assignment_ECO312_49 + Time_Assignment_ECO312_5 <= 1
-_C5865: Room_Assignment_ECO312_48 + Time_Assignment_ECO312_5 <= 2
-_C5866: Room_Assignment_ECO312_44 + Time_Assignment_ECO312_5 <= 2
-_C5867: Room_Assignment_ECO312_42 + Time_Assignment_ECO312_5 <= 2
-_C5868: Room_Assignment_GER101_29 + Time_Assignment_GER101_1 <= 1
-_C5869: Room_Assignment_GER101_28 + Time_Assignment_GER101_1 <= 2
+_C5860: Room_Assignment_ECO312_48.0 + Time_Assignment_ECO312_11:00_11:50_AM
+ <= 1
+_C5861: Room_Assignment_ECO312_44.0 + Time_Assignment_ECO312_11:00_11:50_AM
+ <= 1
+_C5862: Room_Assignment_ECO312_42.0 + Time_Assignment_ECO312_11:00_11:50_AM
+ <= 1
+_C5863: Room_Assignment_ECO312_41.0 + Time_Assignment_ECO312_2:30_3:20_PM <= 1
+_C5864: Room_Assignment_ECO312_49.0 + Time_Assignment_ECO312_2:30_3:20_PM <= 1
+_C5865: Room_Assignment_ECO312_48.0 + Time_Assignment_ECO312_2:30_3:20_PM <= 2
+_C5866: Room_Assignment_ECO312_44.0 + Time_Assignment_ECO312_2:30_3:20_PM <= 2
+_C5867: Room_Assignment_ECO312_42.0 + Time_Assignment_ECO312_2:30_3:20_PM <= 2
+_C5868: Room_Assignment_GER101_29.0 + Time_Assignment_GER101_9:00_9:50_AM <= 1
+_C5869: Room_Assignment_GER101_28.0 + Time_Assignment_GER101_9:00_9:50_AM <= 2
 _C587: Overlap_COS226_PHY208 <= 1
-_C5870: Room_Assignment_GER101_27 + Time_Assignment_GER101_1 <= 2
-_C5871: Room_Assignment_GER101_26 + Time_Assignment_GER101_1 <= 2
-_C5872: Room_Assignment_GER101_29 + Time_Assignment_GER101_2 <= 2
-_C5873: Room_Assignment_GER101_28 + Time_Assignment_GER101_2 <= 2
-_C5874: Room_Assignment_GER101_27 + Time_Assignment_GER101_2 <= 1
-_C5875: Room_Assignment_GER101_26 + Time_Assignment_GER101_2 <= 1
-_C5876: Room_Assignment_GER101_29 + Time_Assignment_GER101_3 <= 2
-_C5877: Room_Assignment_GER101_28 + Time_Assignment_GER101_3 <= 2
-_C5878: Room_Assignment_GER101_27 + Time_Assignment_GER101_3 <= 1
-_C5879: Room_Assignment_GER101_26 + Time_Assignment_GER101_3 <= 1
-_C588: Room_Assignment_COS226_38 + Room_Assignment_PHY208_38
- + Time_Assignment_COS226_2 + Time_Assignment_PHY208_2 <= 3
-_C5880: Room_Assignment_GER103_9 + Time_Assignment_GER103_2 <= 1
-_C5881: Room_Assignment_GER103_8 + Time_Assignment_GER103_2 <= 1
-_C5882: Room_Assignment_GER103_5 + Time_Assignment_GER103_2 <= 2
-_C5883: Room_Assignment_GER103_3 + Time_Assignment_GER103_2 <= 1
-_C5884: Room_Assignment_GER103_9 + Time_Assignment_GER103_3 <= 1
-_C5885: Room_Assignment_GER103_8 + Time_Assignment_GER103_3 <= 1
-_C5886: Room_Assignment_GER103_5 + Time_Assignment_GER103_3 <= 2
-_C5887: Room_Assignment_GER103_3 + Time_Assignment_GER103_3 <= 2
-_C5888: Room_Assignment_GER103_9 + Time_Assignment_GER103_4 <= 1
-_C5889: Room_Assignment_GER103_8 + Time_Assignment_GER103_4 <= 2
+_C5870: Room_Assignment_GER101_27.0 + Time_Assignment_GER101_9:00_9:50_AM <= 2
+_C5871: Room_Assignment_GER101_26.0 + Time_Assignment_GER101_9:00_9:50_AM <= 2
+_C5872: Room_Assignment_GER101_29.0 + Time_Assignment_GER101_10:00_10:50_AM
+ <= 2
+_C5873: Room_Assignment_GER101_28.0 + Time_Assignment_GER101_10:00_10:50_AM
+ <= 2
+_C5874: Room_Assignment_GER101_27.0 + Time_Assignment_GER101_10:00_10:50_AM
+ <= 1
+_C5875: Room_Assignment_GER101_26.0 + Time_Assignment_GER101_10:00_10:50_AM
+ <= 1
+_C5876: Room_Assignment_GER101_29.0 + Time_Assignment_GER101_11:00_11:50_AM
+ <= 2
+_C5877: Room_Assignment_GER101_28.0 + Time_Assignment_GER101_11:00_11:50_AM
+ <= 2
+_C5878: Room_Assignment_GER101_27.0 + Time_Assignment_GER101_11:00_11:50_AM
+ <= 1
+_C5879: Room_Assignment_GER101_26.0 + Time_Assignment_GER101_11:00_11:50_AM
+ <= 1
+_C588: Room_Assignment_COS226_38.0 + Room_Assignment_PHY208_38.0
+ + Time_Assignment_COS226_10:00_10:50_AM
+ + Time_Assignment_PHY208_10:00_10:50_AM <= 3
+_C5880: Room_Assignment_GER103_9.0 + Time_Assignment_GER103_10:00_10:50_AM
+ <= 1
+_C5881: Room_Assignment_GER103_8.0 + Time_Assignment_GER103_10:00_10:50_AM
+ <= 1
+_C5882: Room_Assignment_GER103_5.0 + Time_Assignment_GER103_10:00_10:50_AM
+ <= 2
+_C5883: Room_Assignment_GER103_3.0 + Time_Assignment_GER103_10:00_10:50_AM
+ <= 1
+_C5884: Room_Assignment_GER103_9.0 + Time_Assignment_GER103_11:00_11:50_AM
+ <= 1
+_C5885: Room_Assignment_GER103_8.0 + Time_Assignment_GER103_11:00_11:50_AM
+ <= 1
+_C5886: Room_Assignment_GER103_5.0 + Time_Assignment_GER103_11:00_11:50_AM
+ <= 2
+_C5887: Room_Assignment_GER103_3.0 + Time_Assignment_GER103_11:00_11:50_AM
+ <= 2
+_C5888: Room_Assignment_GER103_9.0 + Time_Assignment_GER103_1:30_2:20_PM <= 1
+_C5889: Room_Assignment_GER103_8.0 + Time_Assignment_GER103_1:30_2:20_PM <= 2
 _C589: Overlap_COS226_REL100 <= 1
-_C5890: Room_Assignment_GER103_5 + Time_Assignment_GER103_4 <= 2
-_C5891: Room_Assignment_GER103_3 + Time_Assignment_GER103_4 <= 2
-_C5892: Room_Assignment_GER105_1 + Time_Assignment_GER105_3 <= 2
-_C5893: Room_Assignment_GER105_3 + Time_Assignment_GER105_3 <= 2
-_C5894: Room_Assignment_GER105_1 + Time_Assignment_GER105_4 <= 2
-_C5895: Room_Assignment_GER105_3 + Time_Assignment_GER105_4 <= 2
-_C5896: Room_Assignment_GER107_75 + Time_Assignment_GER107_3 <= 2
-_C5897: Room_Assignment_GER107_74 + Time_Assignment_GER107_3 <= 2
-_C5898: Room_Assignment_GER107_73 + Time_Assignment_GER107_3 <= 1
-_C5899: Room_Assignment_GER107_72 + Time_Assignment_GER107_3 <= 2
+_C5890: Room_Assignment_GER103_5.0 + Time_Assignment_GER103_1:30_2:20_PM <= 2
+_C5891: Room_Assignment_GER103_3.0 + Time_Assignment_GER103_1:30_2:20_PM <= 2
+_C5892: Room_Assignment_GER105_1.0 + Time_Assignment_GER105_11:00_11:50_AM
+ <= 2
+_C5893: Room_Assignment_GER105_3.0 + Time_Assignment_GER105_11:00_11:50_AM
+ <= 2
+_C5894: Room_Assignment_GER105_1.0 + Time_Assignment_GER105_1:30_2:20_PM <= 2
+_C5895: Room_Assignment_GER105_3.0 + Time_Assignment_GER105_1:30_2:20_PM <= 2
+_C5896: Room_Assignment_GER107_75.0 + Time_Assignment_GER107_11:00_11:50_AM
+ <= 2
+_C5897: Room_Assignment_GER107_74.0 + Time_Assignment_GER107_11:00_11:50_AM
+ <= 2
+_C5898: Room_Assignment_GER107_73.0 + Time_Assignment_GER107_11:00_11:50_AM
+ <= 1
+_C5899: Room_Assignment_GER107_72.0 + Time_Assignment_GER107_11:00_11:50_AM
+ <= 2
 _C59: Overlap_AAS201_MAT218 <= 1
 _C590: Overlap_COS226_REL232 <= 1
-_C5900: Room_Assignment_GER107_71 + Time_Assignment_GER107_3 <= 2
-_C5901: Room_Assignment_GER107_70 + Time_Assignment_GER107_3 <= 2
-_C5902: Room_Assignment_LIN201_50 + Time_Assignment_LIN201_1 <= 2
-_C5903: Room_Assignment_LIN201_51 + Time_Assignment_LIN201_1 <= 2
-_C5904: Room_Assignment_LIN201_52 + Time_Assignment_LIN201_1 <= 1
-_C5905: Room_Assignment_LIN201_53 + Time_Assignment_LIN201_1 <= 1
-_C5906: Room_Assignment_LIN201_54 + Time_Assignment_LIN201_1 <= 1
-_C5907: Room_Assignment_LIN201_55 + Time_Assignment_LIN201_1 <= 1
-_C5908: Room_Assignment_LIN201_56 + Time_Assignment_LIN201_1 <= 1
-_C5909: Room_Assignment_LIN201_57 + Time_Assignment_LIN201_1 <= 2
+_C5900: Room_Assignment_GER107_71.0 + Time_Assignment_GER107_11:00_11:50_AM
+ <= 2
+_C5901: Room_Assignment_GER107_70.0 + Time_Assignment_GER107_11:00_11:50_AM
+ <= 2
+_C5902: Room_Assignment_LIN201_50.0 + Time_Assignment_LIN201_9:00_9:50_AM <= 2
+_C5903: Room_Assignment_LIN201_51.0 + Time_Assignment_LIN201_9:00_9:50_AM <= 2
+_C5904: Room_Assignment_LIN201_52.0 + Time_Assignment_LIN201_9:00_9:50_AM <= 1
+_C5905: Room_Assignment_LIN201_53.0 + Time_Assignment_LIN201_9:00_9:50_AM <= 1
+_C5906: Room_Assignment_LIN201_54.0 + Time_Assignment_LIN201_9:00_9:50_AM <= 1
+_C5907: Room_Assignment_LIN201_55.0 + Time_Assignment_LIN201_9:00_9:50_AM <= 1
+_C5908: Room_Assignment_LIN201_56.0 + Time_Assignment_LIN201_9:00_9:50_AM <= 1
+_C5909: Room_Assignment_LIN201_57.0 + Time_Assignment_LIN201_9:00_9:50_AM <= 2
 _C591: Overlap_COS226_SML201 <= 1
-_C5910: Room_Assignment_LIN201_50 + Time_Assignment_LIN201_4 <= 2
-_C5911: Room_Assignment_LIN201_51 + Time_Assignment_LIN201_4 <= 2
-_C5912: Room_Assignment_LIN201_52 + Time_Assignment_LIN201_4 <= 1
-_C5913: Room_Assignment_LIN201_53 + Time_Assignment_LIN201_4 <= 1
-_C5914: Room_Assignment_LIN201_54 + Time_Assignment_LIN201_4 <= 1
-_C5915: Room_Assignment_LIN201_55 + Time_Assignment_LIN201_4 <= 2
-_C5916: Room_Assignment_LIN201_56 + Time_Assignment_LIN201_4 <= 2
-_C5917: Room_Assignment_LIN201_57 + Time_Assignment_LIN201_4 <= 1
-_C5918: Room_Assignment_LIN300_45 + Time_Assignment_LIN300_2 <= 2
-_C5919: Room_Assignment_LIN300_43 + Time_Assignment_LIN300_2 <= 2
+_C5910: Room_Assignment_LIN201_50.0 + Time_Assignment_LIN201_1:30_2:20_PM <= 2
+_C5911: Room_Assignment_LIN201_51.0 + Time_Assignment_LIN201_1:30_2:20_PM <= 2
+_C5912: Room_Assignment_LIN201_52.0 + Time_Assignment_LIN201_1:30_2:20_PM <= 1
+_C5913: Room_Assignment_LIN201_53.0 + Time_Assignment_LIN201_1:30_2:20_PM <= 1
+_C5914: Room_Assignment_LIN201_54.0 + Time_Assignment_LIN201_1:30_2:20_PM <= 1
+_C5915: Room_Assignment_LIN201_55.0 + Time_Assignment_LIN201_1:30_2:20_PM <= 2
+_C5916: Room_Assignment_LIN201_56.0 + Time_Assignment_LIN201_1:30_2:20_PM <= 2
+_C5917: Room_Assignment_LIN201_57.0 + Time_Assignment_LIN201_1:30_2:20_PM <= 1
+_C5918: Room_Assignment_LIN300_45.0 + Time_Assignment_LIN300_10:00_10:50_AM
+ <= 2
+_C5919: Room_Assignment_LIN300_43.0 + Time_Assignment_LIN300_10:00_10:50_AM
+ <= 2
 _C592: Overlap_COS226_URB201 <= 1
-_C5920: Room_Assignment_LIN300_47 + Time_Assignment_LIN300_2 <= 2
-_C5921: Room_Assignment_LIN300_48 + Time_Assignment_LIN300_2 <= 1
-_C5922: Room_Assignment_LIN300_49 + Time_Assignment_LIN300_2 <= 1
-_C5923: Room_Assignment_MAT103_11 + Time_Assignment_MAT103_2 <= 2
-_C5924: Room_Assignment_MAT103_21 + Time_Assignment_MAT103_2 <= 2
-_C5925: Room_Assignment_MAT103_12 + Time_Assignment_MAT103_2 <= 1
-_C5926: Room_Assignment_MAT103_22 + Time_Assignment_MAT103_2 <= 2
-_C5927: Room_Assignment_MAT103_23 + Time_Assignment_MAT103_2 <= 1
-_C5928: Room_Assignment_MAT103_32 + Time_Assignment_MAT103_2 <= 2
-_C5929: Room_Assignment_MAT103_33 + Time_Assignment_MAT103_2 <= 1
+_C5920: Room_Assignment_LIN300_47.0 + Time_Assignment_LIN300_10:00_10:50_AM
+ <= 2
+_C5921: Room_Assignment_LIN300_48.0 + Time_Assignment_LIN300_10:00_10:50_AM
+ <= 1
+_C5922: Room_Assignment_LIN300_49.0 + Time_Assignment_LIN300_10:00_10:50_AM
+ <= 1
+_C5923: Room_Assignment_MAT103_11.0 + Time_Assignment_MAT103_10:00_10:50_AM
+ <= 2
+_C5924: Room_Assignment_MAT103_21.0 + Time_Assignment_MAT103_10:00_10:50_AM
+ <= 2
+_C5925: Room_Assignment_MAT103_12.0 + Time_Assignment_MAT103_10:00_10:50_AM
+ <= 1
+_C5926: Room_Assignment_MAT103_22.0 + Time_Assignment_MAT103_10:00_10:50_AM
+ <= 2
+_C5927: Room_Assignment_MAT103_23.0 + Time_Assignment_MAT103_10:00_10:50_AM
+ <= 1
+_C5928: Room_Assignment_MAT103_32.0 + Time_Assignment_MAT103_10:00_10:50_AM
+ <= 2
+_C5929: Room_Assignment_MAT103_33.0 + Time_Assignment_MAT103_10:00_10:50_AM
+ <= 1
 _C593: Overlap_COS217_AAS201 <= 1
-_C5930: Room_Assignment_MAT103_11 + Time_Assignment_MAT103_3 <= 2
-_C5931: Room_Assignment_MAT103_21 + Time_Assignment_MAT103_3 <= 2
-_C5932: Room_Assignment_MAT103_12 + Time_Assignment_MAT103_3 <= 1
-_C5933: Room_Assignment_MAT103_22 + Time_Assignment_MAT103_3 <= 2
-_C5934: Room_Assignment_MAT103_23 + Time_Assignment_MAT103_3 <= 2
-_C5935: Room_Assignment_MAT103_32 + Time_Assignment_MAT103_3 <= 2
-_C5936: Room_Assignment_MAT103_33 + Time_Assignment_MAT103_3 <= 2
-_C5937: Room_Assignment_MAT103_11 + Time_Assignment_MAT103_5 <= 1
-_C5938: Room_Assignment_MAT103_21 + Time_Assignment_MAT103_5 <= 2
-_C5939: Room_Assignment_MAT103_12 + Time_Assignment_MAT103_5 <= 2
+_C5930: Room_Assignment_MAT103_11.0 + Time_Assignment_MAT103_11:00_11:50_AM
+ <= 2
+_C5931: Room_Assignment_MAT103_21.0 + Time_Assignment_MAT103_11:00_11:50_AM
+ <= 2
+_C5932: Room_Assignment_MAT103_12.0 + Time_Assignment_MAT103_11:00_11:50_AM
+ <= 1
+_C5933: Room_Assignment_MAT103_22.0 + Time_Assignment_MAT103_11:00_11:50_AM
+ <= 2
+_C5934: Room_Assignment_MAT103_23.0 + Time_Assignment_MAT103_11:00_11:50_AM
+ <= 2
+_C5935: Room_Assignment_MAT103_32.0 + Time_Assignment_MAT103_11:00_11:50_AM
+ <= 2
+_C5936: Room_Assignment_MAT103_33.0 + Time_Assignment_MAT103_11:00_11:50_AM
+ <= 2
+_C5937: Room_Assignment_MAT103_11.0 + Time_Assignment_MAT103_2:30_3:20_PM <= 1
+_C5938: Room_Assignment_MAT103_21.0 + Time_Assignment_MAT103_2:30_3:20_PM <= 2
+_C5939: Room_Assignment_MAT103_12.0 + Time_Assignment_MAT103_2:30_3:20_PM <= 2
 _C594: Overlap_COS217_ASA203 <= 1
-_C5940: Room_Assignment_MAT103_22 + Time_Assignment_MAT103_5 <= 1
-_C5941: Room_Assignment_MAT103_23 + Time_Assignment_MAT103_5 <= 1
-_C5942: Room_Assignment_MAT103_32 + Time_Assignment_MAT103_5 <= 1
-_C5943: Room_Assignment_MAT103_33 + Time_Assignment_MAT103_5 <= 1
-_C5944: Room_Assignment_MAT104_4 + Time_Assignment_MAT104_5 <= 2
-_C5945: Room_Assignment_MAT104_49 + Time_Assignment_MAT104_5 <= 1
-_C5946: Room_Assignment_MAT104_54 + Time_Assignment_MAT104_5 <= 1
-_C5947: Room_Assignment_MAT104_63 + Time_Assignment_MAT104_5 <= 1
-_C5948: Room_Assignment_MAT104_34 + Time_Assignment_MAT104_5 <= 2
-_C5949: Room_Assignment_MAT104_12 + Time_Assignment_MAT104_5 <= 2
+_C5940: Room_Assignment_MAT103_22.0 + Time_Assignment_MAT103_2:30_3:20_PM <= 1
+_C5941: Room_Assignment_MAT103_23.0 + Time_Assignment_MAT103_2:30_3:20_PM <= 1
+_C5942: Room_Assignment_MAT103_32.0 + Time_Assignment_MAT103_2:30_3:20_PM <= 1
+_C5943: Room_Assignment_MAT103_33.0 + Time_Assignment_MAT103_2:30_3:20_PM <= 1
+_C5944: Room_Assignment_MAT104_4.0 + Time_Assignment_MAT104_2:30_3:20_PM <= 2
+_C5945: Room_Assignment_MAT104_49.0 + Time_Assignment_MAT104_2:30_3:20_PM <= 1
+_C5946: Room_Assignment_MAT104_54.0 + Time_Assignment_MAT104_2:30_3:20_PM <= 1
+_C5947: Room_Assignment_MAT104_63.0 + Time_Assignment_MAT104_2:30_3:20_PM <= 1
+_C5948: Room_Assignment_MAT104_34.0 + Time_Assignment_MAT104_2:30_3:20_PM <= 2
+_C5949: Room_Assignment_MAT104_12.0 + Time_Assignment_MAT104_2:30_3:20_PM <= 2
 _C595: Overlap_COS217_ASA238 <= 1
-_C5950: Room_Assignment_MAT201_1 + Time_Assignment_MAT201_4 <= 2
-_C5951: Room_Assignment_MAT201_2 + Time_Assignment_MAT201_4 <= 2
-_C5952: Room_Assignment_MAT201_3 + Time_Assignment_MAT201_4 <= 2
-_C5953: Room_Assignment_MAT201_4 + Time_Assignment_MAT201_4 <= 1
-_C5954: Room_Assignment_MAT201_5 + Time_Assignment_MAT201_4 <= 2
-_C5955: Room_Assignment_MAT201_6 + Time_Assignment_MAT201_4 <= 1
-_C5956: Room_Assignment_MAT201_7 + Time_Assignment_MAT201_4 <= 1
-_C5957: Room_Assignment_MAT201_8 + Time_Assignment_MAT201_4 <= 2
-_C5958: Room_Assignment_MAT201_1 + Time_Assignment_MAT201_5 <= 2
-_C5959: Room_Assignment_MAT201_2 + Time_Assignment_MAT201_5 <= 2
+_C5950: Room_Assignment_MAT201_1.0 + Time_Assignment_MAT201_1:30_2:20_PM <= 2
+_C5951: Room_Assignment_MAT201_2.0 + Time_Assignment_MAT201_1:30_2:20_PM <= 2
+_C5952: Room_Assignment_MAT201_3.0 + Time_Assignment_MAT201_1:30_2:20_PM <= 2
+_C5953: Room_Assignment_MAT201_4.0 + Time_Assignment_MAT201_1:30_2:20_PM <= 1
+_C5954: Room_Assignment_MAT201_5.0 + Time_Assignment_MAT201_1:30_2:20_PM <= 2
+_C5955: Room_Assignment_MAT201_6.0 + Time_Assignment_MAT201_1:30_2:20_PM <= 1
+_C5956: Room_Assignment_MAT201_7.0 + Time_Assignment_MAT201_1:30_2:20_PM <= 1
+_C5957: Room_Assignment_MAT201_8.0 + Time_Assignment_MAT201_1:30_2:20_PM <= 2
+_C5958: Room_Assignment_MAT201_1.0 + Time_Assignment_MAT201_2:30_3:20_PM <= 2
+_C5959: Room_Assignment_MAT201_2.0 + Time_Assignment_MAT201_2:30_3:20_PM <= 2
 _C596: Overlap_COS217_COS126 <= 1
-_C5960: Room_Assignment_MAT201_3 + Time_Assignment_MAT201_5 <= 1
-_C5961: Room_Assignment_MAT201_4 + Time_Assignment_MAT201_5 <= 2
-_C5962: Room_Assignment_MAT201_5 + Time_Assignment_MAT201_5 <= 2
-_C5963: Room_Assignment_MAT201_6 + Time_Assignment_MAT201_5 <= 2
-_C5964: Room_Assignment_MAT201_7 + Time_Assignment_MAT201_5 <= 1
-_C5965: Room_Assignment_MAT201_8 + Time_Assignment_MAT201_5 <= 1
-_C5966: Room_Assignment_MAT202_1 + Time_Assignment_MAT202_1 <= 2
-_C5967: Room_Assignment_MAT202_5 + Time_Assignment_MAT202_1 <= 1
-_C5968: Room_Assignment_MAT202_6 + Time_Assignment_MAT202_1 <= 2
-_C5969: Room_Assignment_MAT202_7 + Time_Assignment_MAT202_1 <= 2
+_C5960: Room_Assignment_MAT201_3.0 + Time_Assignment_MAT201_2:30_3:20_PM <= 1
+_C5961: Room_Assignment_MAT201_4.0 + Time_Assignment_MAT201_2:30_3:20_PM <= 2
+_C5962: Room_Assignment_MAT201_5.0 + Time_Assignment_MAT201_2:30_3:20_PM <= 2
+_C5963: Room_Assignment_MAT201_6.0 + Time_Assignment_MAT201_2:30_3:20_PM <= 2
+_C5964: Room_Assignment_MAT201_7.0 + Time_Assignment_MAT201_2:30_3:20_PM <= 1
+_C5965: Room_Assignment_MAT201_8.0 + Time_Assignment_MAT201_2:30_3:20_PM <= 1
+_C5966: Room_Assignment_MAT202_1.0 + Time_Assignment_MAT202_9:00_9:50_AM <= 2
+_C5967: Room_Assignment_MAT202_5.0 + Time_Assignment_MAT202_9:00_9:50_AM <= 1
+_C5968: Room_Assignment_MAT202_6.0 + Time_Assignment_MAT202_9:00_9:50_AM <= 2
+_C5969: Room_Assignment_MAT202_7.0 + Time_Assignment_MAT202_9:00_9:50_AM <= 2
 _C597: Overlap_COS217_COS226 <= 1
-_C5970: Room_Assignment_MAT203_22 + Time_Assignment_MAT203_1 <= 2
-_C5971: Room_Assignment_MAT203_23 + Time_Assignment_MAT203_1 <= 2
-_C5972: Room_Assignment_MAT203_24 + Time_Assignment_MAT203_1 <= 2
-_C5973: Room_Assignment_MAT203_29 + Time_Assignment_MAT203_1 <= 1
-_C5974: Room_Assignment_MAT203_30 + Time_Assignment_MAT203_1 <= 2
-_C5975: Room_Assignment_MAT204_8 + Time_Assignment_MAT204_1 <= 1
-_C5976: Room_Assignment_MAT204_10 + Time_Assignment_MAT204_1 <= 1
-_C5977: Room_Assignment_MAT204_12 + Time_Assignment_MAT204_1 <= 2
-_C5978: Room_Assignment_MAT204_16 + Time_Assignment_MAT204_1 <= 1
-_C5979: Room_Assignment_MAT204_18 + Time_Assignment_MAT204_1 <= 1
+_C5970: Room_Assignment_MAT203_22.0 + Time_Assignment_MAT203_9:00_9:50_AM <= 2
+_C5971: Room_Assignment_MAT203_23.0 + Time_Assignment_MAT203_9:00_9:50_AM <= 2
+_C5972: Room_Assignment_MAT203_24.0 + Time_Assignment_MAT203_9:00_9:50_AM <= 2
+_C5973: Room_Assignment_MAT203_29.0 + Time_Assignment_MAT203_9:00_9:50_AM <= 1
+_C5974: Room_Assignment_MAT203_30.0 + Time_Assignment_MAT203_9:00_9:50_AM <= 2
+_C5975: Room_Assignment_MAT204_8.0 + Time_Assignment_MAT204_9:00_9:50_AM <= 1
+_C5976: Room_Assignment_MAT204_10.0 + Time_Assignment_MAT204_9:00_9:50_AM <= 1
+_C5977: Room_Assignment_MAT204_12.0 + Time_Assignment_MAT204_9:00_9:50_AM <= 2
+_C5978: Room_Assignment_MAT204_16.0 + Time_Assignment_MAT204_9:00_9:50_AM <= 1
+_C5979: Room_Assignment_MAT204_18.0 + Time_Assignment_MAT204_9:00_9:50_AM <= 1
 _C598: Overlap_COS217_COS333 <= 1
-_C5980: Room_Assignment_MAT204_20 + Time_Assignment_MAT204_1 <= 2
-_C5981: Room_Assignment_MAT215_31 + Time_Assignment_MAT215_2 <= 2
-_C5982: Room_Assignment_MAT215_32 + Time_Assignment_MAT215_2 <= 2
-_C5983: Room_Assignment_MAT215_33 + Time_Assignment_MAT215_2 <= 1
-_C5984: Room_Assignment_MAT215_34 + Time_Assignment_MAT215_2 <= 1
-_C5985: Room_Assignment_MAT215_35 + Time_Assignment_MAT215_2 <= 1
-_C5986: Room_Assignment_MAT215_36 + Time_Assignment_MAT215_2 <= 2
-_C5987: Room_Assignment_MAT215_37 + Time_Assignment_MAT215_2 <= 1
-_C5988: Room_Assignment_MAT215_31 + Time_Assignment_MAT215_3 <= 1
-_C5989: Room_Assignment_MAT215_32 + Time_Assignment_MAT215_3 <= 2
+_C5980: Room_Assignment_MAT204_20.0 + Time_Assignment_MAT204_9:00_9:50_AM <= 2
+_C5981: Room_Assignment_MAT215_31.0 + Time_Assignment_MAT215_10:00_10:50_AM
+ <= 2
+_C5982: Room_Assignment_MAT215_32.0 + Time_Assignment_MAT215_10:00_10:50_AM
+ <= 2
+_C5983: Room_Assignment_MAT215_33.0 + Time_Assignment_MAT215_10:00_10:50_AM
+ <= 1
+_C5984: Room_Assignment_MAT215_34.0 + Time_Assignment_MAT215_10:00_10:50_AM
+ <= 1
+_C5985: Room_Assignment_MAT215_35.0 + Time_Assignment_MAT215_10:00_10:50_AM
+ <= 1
+_C5986: Room_Assignment_MAT215_36.0 + Time_Assignment_MAT215_10:00_10:50_AM
+ <= 2
+_C5987: Room_Assignment_MAT215_37.0 + Time_Assignment_MAT215_10:00_10:50_AM
+ <= 1
+_C5988: Room_Assignment_MAT215_31.0 + Time_Assignment_MAT215_11:00_11:50_AM
+ <= 1
+_C5989: Room_Assignment_MAT215_32.0 + Time_Assignment_MAT215_11:00_11:50_AM
+ <= 2
 _C599: Overlap_COS217_COS342 <= 1
-_C5990: Room_Assignment_MAT215_33 + Time_Assignment_MAT215_3 <= 2
-_C5991: Room_Assignment_MAT215_34 + Time_Assignment_MAT215_3 <= 1
-_C5992: Room_Assignment_MAT215_35 + Time_Assignment_MAT215_3 <= 1
-_C5993: Room_Assignment_MAT215_36 + Time_Assignment_MAT215_3 <= 2
-_C5994: Room_Assignment_MAT215_37 + Time_Assignment_MAT215_3 <= 1
-_C5995: Room_Assignment_MAT215_31 + Time_Assignment_MAT215_4 <= 1
-_C5996: Room_Assignment_MAT215_32 + Time_Assignment_MAT215_4 <= 1
-_C5997: Room_Assignment_MAT215_33 + Time_Assignment_MAT215_4 <= 2
-_C5998: Room_Assignment_MAT215_34 + Time_Assignment_MAT215_4 <= 2
-_C5999: Room_Assignment_MAT215_35 + Time_Assignment_MAT215_4 <= 1
-_C6: Room_Assignment_AAS201_3 + Room_Assignment_ASA238_3
- + Time_Assignment_AAS201_2 + Time_Assignment_ASA238_2 <= 3
+_C5990: Room_Assignment_MAT215_33.0 + Time_Assignment_MAT215_11:00_11:50_AM
+ <= 2
+_C5991: Room_Assignment_MAT215_34.0 + Time_Assignment_MAT215_11:00_11:50_AM
+ <= 1
+_C5992: Room_Assignment_MAT215_35.0 + Time_Assignment_MAT215_11:00_11:50_AM
+ <= 1
+_C5993: Room_Assignment_MAT215_36.0 + Time_Assignment_MAT215_11:00_11:50_AM
+ <= 2
+_C5994: Room_Assignment_MAT215_37.0 + Time_Assignment_MAT215_11:00_11:50_AM
+ <= 1
+_C5995: Room_Assignment_MAT215_31.0 + Time_Assignment_MAT215_1:30_2:20_PM <= 1
+_C5996: Room_Assignment_MAT215_32.0 + Time_Assignment_MAT215_1:30_2:20_PM <= 1
+_C5997: Room_Assignment_MAT215_33.0 + Time_Assignment_MAT215_1:30_2:20_PM <= 2
+_C5998: Room_Assignment_MAT215_34.0 + Time_Assignment_MAT215_1:30_2:20_PM <= 2
+_C5999: Room_Assignment_MAT215_35.0 + Time_Assignment_MAT215_1:30_2:20_PM <= 1
+_C6: Room_Assignment_AAS201_3.0 + Room_Assignment_ASA238_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ASA238_10:00_10:50_AM <= 3
 _C60: Overlap_AAS201_MAT300 <= 1
 _C600: Overlap_COS217_COS423 <= 1
-_C6000: Room_Assignment_MAT215_36 + Time_Assignment_MAT215_4 <= 1
-_C6001: Room_Assignment_MAT215_37 + Time_Assignment_MAT215_4 <= 2
-_C6002: Room_Assignment_MAT216_61 + Time_Assignment_MAT216_2 <= 1
-_C6003: Room_Assignment_MAT216_60 + Time_Assignment_MAT216_2 <= 2
-_C6004: Room_Assignment_MAT216_59 + Time_Assignment_MAT216_2 <= 1
-_C6005: Room_Assignment_MAT216_58 + Time_Assignment_MAT216_2 <= 1
-_C6006: Room_Assignment_MAT216_57 + Time_Assignment_MAT216_2 <= 2
-_C6007: Room_Assignment_MAT216_56 + Time_Assignment_MAT216_2 <= 2
-_C6008: Room_Assignment_MAT216_61 + Time_Assignment_MAT216_3 <= 2
-_C6009: Room_Assignment_MAT216_60 + Time_Assignment_MAT216_3 <= 1
+_C6000: Room_Assignment_MAT215_36.0 + Time_Assignment_MAT215_1:30_2:20_PM <= 1
+_C6001: Room_Assignment_MAT215_37.0 + Time_Assignment_MAT215_1:30_2:20_PM <= 2
+_C6002: Room_Assignment_MAT216_61.0 + Time_Assignment_MAT216_10:00_10:50_AM
+ <= 1
+_C6003: Room_Assignment_MAT216_60.0 + Time_Assignment_MAT216_10:00_10:50_AM
+ <= 2
+_C6004: Room_Assignment_MAT216_59.0 + Time_Assignment_MAT216_10:00_10:50_AM
+ <= 1
+_C6005: Room_Assignment_MAT216_58.0 + Time_Assignment_MAT216_10:00_10:50_AM
+ <= 1
+_C6006: Room_Assignment_MAT216_57.0 + Time_Assignment_MAT216_10:00_10:50_AM
+ <= 2
+_C6007: Room_Assignment_MAT216_56.0 + Time_Assignment_MAT216_10:00_10:50_AM
+ <= 2
+_C6008: Room_Assignment_MAT216_61.0 + Time_Assignment_MAT216_11:00_11:50_AM
+ <= 2
+_C6009: Room_Assignment_MAT216_60.0 + Time_Assignment_MAT216_11:00_11:50_AM
+ <= 1
 _C601: Overlap_COS217_COS432 <= 1
-_C6010: Room_Assignment_MAT216_59 + Time_Assignment_MAT216_3 <= 1
-_C6011: Room_Assignment_MAT216_58 + Time_Assignment_MAT216_3 <= 1
-_C6012: Room_Assignment_MAT216_57 + Time_Assignment_MAT216_3 <= 1
-_C6013: Room_Assignment_MAT216_56 + Time_Assignment_MAT216_3 <= 2
-_C6014: Room_Assignment_MAT217_3 + Time_Assignment_MAT217_4 <= 2
-_C6015: Room_Assignment_MAT217_5 + Time_Assignment_MAT217_4 <= 2
-_C6016: Room_Assignment_MAT217_2 + Time_Assignment_MAT217_4 <= 2
-_C6017: Room_Assignment_MAT217_4 + Time_Assignment_MAT217_4 <= 1
-_C6018: Room_Assignment_MAT217_32 + Time_Assignment_MAT217_4 <= 1
-_C6019: Room_Assignment_MAT217_35 + Time_Assignment_MAT217_4 <= 1
-_C602: Room_Assignment_COS217_6 + Room_Assignment_COS432_6
- + Time_Assignment_COS217_3 + Time_Assignment_COS432_3 <= 3
-_C6020: Room_Assignment_MAT217_34 + Time_Assignment_MAT217_4 <= 2
-_C6021: Room_Assignment_MAT217_24 + Time_Assignment_MAT217_4 <= 2
-_C6022: Room_Assignment_MAT218_7 + Time_Assignment_MAT218_1 <= 2
-_C6023: Room_Assignment_MAT218_74 + Time_Assignment_MAT218_1 <= 1
-_C6024: Room_Assignment_MAT218_46 + Time_Assignment_MAT218_1 <= 2
-_C6025: Room_Assignment_MAT218_35 + Time_Assignment_MAT218_1 <= 2
-_C6026: Room_Assignment_MAT218_24 + Time_Assignment_MAT218_1 <= 2
-_C6027: Room_Assignment_MAT218_13 + Time_Assignment_MAT218_1 <= 2
-_C6028: Room_Assignment_MAT300_1 + Time_Assignment_MAT300_5 <= 2
-_C6029: Room_Assignment_MAT300_2 + Time_Assignment_MAT300_5 <= 2
+_C6010: Room_Assignment_MAT216_59.0 + Time_Assignment_MAT216_11:00_11:50_AM
+ <= 1
+_C6011: Room_Assignment_MAT216_58.0 + Time_Assignment_MAT216_11:00_11:50_AM
+ <= 1
+_C6012: Room_Assignment_MAT216_57.0 + Time_Assignment_MAT216_11:00_11:50_AM
+ <= 1
+_C6013: Room_Assignment_MAT216_56.0 + Time_Assignment_MAT216_11:00_11:50_AM
+ <= 2
+_C6014: Room_Assignment_MAT217_3.0 + Time_Assignment_MAT217_1:30_2:20_PM <= 2
+_C6015: Room_Assignment_MAT217_5.0 + Time_Assignment_MAT217_1:30_2:20_PM <= 2
+_C6016: Room_Assignment_MAT217_2.0 + Time_Assignment_MAT217_1:30_2:20_PM <= 2
+_C6017: Room_Assignment_MAT217_4.0 + Time_Assignment_MAT217_1:30_2:20_PM <= 1
+_C6018: Room_Assignment_MAT217_32.0 + Time_Assignment_MAT217_1:30_2:20_PM <= 1
+_C6019: Room_Assignment_MAT217_35.0 + Time_Assignment_MAT217_1:30_2:20_PM <= 1
+_C602: Room_Assignment_COS217_6.0 + Room_Assignment_COS432_6.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_COS432_11:00_11:50_AM <= 3
+_C6020: Room_Assignment_MAT217_34.0 + Time_Assignment_MAT217_1:30_2:20_PM <= 2
+_C6021: Room_Assignment_MAT217_24.0 + Time_Assignment_MAT217_1:30_2:20_PM <= 2
+_C6022: Room_Assignment_MAT218_7.0 + Time_Assignment_MAT218_9:00_9:50_AM <= 2
+_C6023: Room_Assignment_MAT218_74.0 + Time_Assignment_MAT218_9:00_9:50_AM <= 1
+_C6024: Room_Assignment_MAT218_46.0 + Time_Assignment_MAT218_9:00_9:50_AM <= 2
+_C6025: Room_Assignment_MAT218_35.0 + Time_Assignment_MAT218_9:00_9:50_AM <= 2
+_C6026: Room_Assignment_MAT218_24.0 + Time_Assignment_MAT218_9:00_9:50_AM <= 2
+_C6027: Room_Assignment_MAT218_13.0 + Time_Assignment_MAT218_9:00_9:50_AM <= 2
+_C6028: Room_Assignment_MAT300_1.0 + Time_Assignment_MAT300_2:30_3:20_PM <= 2
+_C6029: Room_Assignment_MAT300_2.0 + Time_Assignment_MAT300_2:30_3:20_PM <= 2
 _C603: Overlap_COS217_COS484 <= 1
-_C6030: Room_Assignment_MAT300_3 + Time_Assignment_MAT300_5 <= 1
-_C6031: Room_Assignment_MAT300_4 + Time_Assignment_MAT300_5 <= 2
-_C6032: Room_Assignment_MAT325_8 + Time_Assignment_MAT325_1 <= 1
-_C6033: Room_Assignment_MAT325_10 + Time_Assignment_MAT325_1 <= 1
-_C6034: Room_Assignment_MAT325_61 + Time_Assignment_MAT325_1 <= 1
-_C6035: Room_Assignment_MAT325_59 + Time_Assignment_MAT325_1 <= 2
-_C6036: Room_Assignment_MAT325_58 + Time_Assignment_MAT325_1 <= 2
-_C6037: Room_Assignment_MAT325_57 + Time_Assignment_MAT325_1 <= 2
-_C6038: Room_Assignment_MAT325_8 + Time_Assignment_MAT325_5 <= 1
-_C6039: Room_Assignment_MAT325_10 + Time_Assignment_MAT325_5 <= 2
+_C6030: Room_Assignment_MAT300_3.0 + Time_Assignment_MAT300_2:30_3:20_PM <= 1
+_C6031: Room_Assignment_MAT300_4.0 + Time_Assignment_MAT300_2:30_3:20_PM <= 2
+_C6032: Room_Assignment_MAT325_8.0 + Time_Assignment_MAT325_9:00_9:50_AM <= 1
+_C6033: Room_Assignment_MAT325_10.0 + Time_Assignment_MAT325_9:00_9:50_AM <= 1
+_C6034: Room_Assignment_MAT325_61.0 + Time_Assignment_MAT325_9:00_9:50_AM <= 1
+_C6035: Room_Assignment_MAT325_59.0 + Time_Assignment_MAT325_9:00_9:50_AM <= 2
+_C6036: Room_Assignment_MAT325_58.0 + Time_Assignment_MAT325_9:00_9:50_AM <= 2
+_C6037: Room_Assignment_MAT325_57.0 + Time_Assignment_MAT325_9:00_9:50_AM <= 2
+_C6038: Room_Assignment_MAT325_8.0 + Time_Assignment_MAT325_2:30_3:20_PM <= 1
+_C6039: Room_Assignment_MAT325_10.0 + Time_Assignment_MAT325_2:30_3:20_PM <= 2
 _C604: Overlap_COS217_COS522 <= 1
-_C6040: Room_Assignment_MAT325_61 + Time_Assignment_MAT325_5 <= 1
-_C6041: Room_Assignment_MAT325_59 + Time_Assignment_MAT325_5 <= 1
-_C6042: Room_Assignment_MAT325_58 + Time_Assignment_MAT325_5 <= 1
-_C6043: Room_Assignment_MAT325_57 + Time_Assignment_MAT325_5 <= 1
-_C6044: Room_Assignment_MAT335_2 + Time_Assignment_MAT335_1 <= 2
-_C6045: Room_Assignment_MAT335_3 + Time_Assignment_MAT335_1 <= 2
-_C6046: Room_Assignment_MAT335_4 + Time_Assignment_MAT335_1 <= 2
-_C6047: Room_Assignment_MAT335_5 + Time_Assignment_MAT335_1 <= 1
-_C6048: Room_Assignment_MAT335_6 + Time_Assignment_MAT335_1 <= 2
-_C6049: Room_Assignment_MAT335_7 + Time_Assignment_MAT335_1 <= 2
+_C6040: Room_Assignment_MAT325_61.0 + Time_Assignment_MAT325_2:30_3:20_PM <= 1
+_C6041: Room_Assignment_MAT325_59.0 + Time_Assignment_MAT325_2:30_3:20_PM <= 1
+_C6042: Room_Assignment_MAT325_58.0 + Time_Assignment_MAT325_2:30_3:20_PM <= 1
+_C6043: Room_Assignment_MAT325_57.0 + Time_Assignment_MAT325_2:30_3:20_PM <= 1
+_C6044: Room_Assignment_MAT335_2.0 + Time_Assignment_MAT335_9:00_9:50_AM <= 2
+_C6045: Room_Assignment_MAT335_3.0 + Time_Assignment_MAT335_9:00_9:50_AM <= 2
+_C6046: Room_Assignment_MAT335_4.0 + Time_Assignment_MAT335_9:00_9:50_AM <= 2
+_C6047: Room_Assignment_MAT335_5.0 + Time_Assignment_MAT335_9:00_9:50_AM <= 1
+_C6048: Room_Assignment_MAT335_6.0 + Time_Assignment_MAT335_9:00_9:50_AM <= 2
+_C6049: Room_Assignment_MAT335_7.0 + Time_Assignment_MAT335_9:00_9:50_AM <= 2
 _C605: Overlap_COS217_COS528 <= 1
-_C6050: Room_Assignment_MAT335_8 + Time_Assignment_MAT335_1 <= 1
-_C6051: Room_Assignment_MAT335_10 + Time_Assignment_MAT335_1 <= 1
-_C6052: Room_Assignment_MAT335_2 + Time_Assignment_MAT335_5 <= 2
-_C6053: Room_Assignment_MAT335_3 + Time_Assignment_MAT335_5 <= 1
-_C6054: Room_Assignment_MAT335_4 + Time_Assignment_MAT335_5 <= 2
-_C6055: Room_Assignment_MAT335_5 + Time_Assignment_MAT335_5 <= 2
-_C6056: Room_Assignment_MAT335_6 + Time_Assignment_MAT335_5 <= 2
-_C6057: Room_Assignment_MAT335_7 + Time_Assignment_MAT335_5 <= 1
-_C6058: Room_Assignment_MAT335_8 + Time_Assignment_MAT335_5 <= 1
-_C6059: Room_Assignment_MAT335_10 + Time_Assignment_MAT335_5 <= 2
+_C6050: Room_Assignment_MAT335_8.0 + Time_Assignment_MAT335_9:00_9:50_AM <= 1
+_C6051: Room_Assignment_MAT335_10.0 + Time_Assignment_MAT335_9:00_9:50_AM <= 1
+_C6052: Room_Assignment_MAT335_2.0 + Time_Assignment_MAT335_2:30_3:20_PM <= 2
+_C6053: Room_Assignment_MAT335_3.0 + Time_Assignment_MAT335_2:30_3:20_PM <= 1
+_C6054: Room_Assignment_MAT335_4.0 + Time_Assignment_MAT335_2:30_3:20_PM <= 2
+_C6055: Room_Assignment_MAT335_5.0 + Time_Assignment_MAT335_2:30_3:20_PM <= 2
+_C6056: Room_Assignment_MAT335_6.0 + Time_Assignment_MAT335_2:30_3:20_PM <= 2
+_C6057: Room_Assignment_MAT335_7.0 + Time_Assignment_MAT335_2:30_3:20_PM <= 1
+_C6058: Room_Assignment_MAT335_8.0 + Time_Assignment_MAT335_2:30_3:20_PM <= 1
+_C6059: Room_Assignment_MAT335_10.0 + Time_Assignment_MAT335_2:30_3:20_PM <= 2
 _C606: Overlap_COS217_ECO100 <= 1
-_C6060: Room_Assignment_MAT370_12 + Time_Assignment_MAT370_1 <= 2
-_C6061: Room_Assignment_MAT370_31 + Time_Assignment_MAT370_1 <= 2
-_C6062: Room_Assignment_MAT370_2 + Time_Assignment_MAT370_1 <= 2
-_C6063: Room_Assignment_MAT370_53 + Time_Assignment_MAT370_1 <= 1
-_C6064: Room_Assignment_MAT370_64 + Time_Assignment_MAT370_1 <= 1
-_C6065: Room_Assignment_MAT370_75 + Time_Assignment_MAT370_1 <= 2
-_C6066: Room_Assignment_MAT370_12 + Time_Assignment_MAT370_5 <= 2
-_C6067: Room_Assignment_MAT370_31 + Time_Assignment_MAT370_5 <= 1
-_C6068: Room_Assignment_MAT370_2 + Time_Assignment_MAT370_5 <= 2
-_C6069: Room_Assignment_MAT370_53 + Time_Assignment_MAT370_5 <= 1
+_C6060: Room_Assignment_MAT370_12.0 + Time_Assignment_MAT370_9:00_9:50_AM <= 2
+_C6061: Room_Assignment_MAT370_31.0 + Time_Assignment_MAT370_9:00_9:50_AM <= 2
+_C6062: Room_Assignment_MAT370_2.0 + Time_Assignment_MAT370_9:00_9:50_AM <= 2
+_C6063: Room_Assignment_MAT370_53.0 + Time_Assignment_MAT370_9:00_9:50_AM <= 1
+_C6064: Room_Assignment_MAT370_64.0 + Time_Assignment_MAT370_9:00_9:50_AM <= 1
+_C6065: Room_Assignment_MAT370_75.0 + Time_Assignment_MAT370_9:00_9:50_AM <= 2
+_C6066: Room_Assignment_MAT370_12.0 + Time_Assignment_MAT370_2:30_3:20_PM <= 2
+_C6067: Room_Assignment_MAT370_31.0 + Time_Assignment_MAT370_2:30_3:20_PM <= 1
+_C6068: Room_Assignment_MAT370_2.0 + Time_Assignment_MAT370_2:30_3:20_PM <= 2
+_C6069: Room_Assignment_MAT370_53.0 + Time_Assignment_MAT370_2:30_3:20_PM <= 1
 _C607: Overlap_COS217_ECO102 <= 1
-_C6070: Room_Assignment_MAT370_64 + Time_Assignment_MAT370_5 <= 1
-_C6071: Room_Assignment_MAT370_75 + Time_Assignment_MAT370_5 <= 2
-_C6072: Room_Assignment_MAT377_2 + Time_Assignment_MAT377_1 <= 2
-_C6073: Room_Assignment_MAT377_4 + Time_Assignment_MAT377_1 <= 2
-_C6074: Room_Assignment_MAT377_5 + Time_Assignment_MAT377_1 <= 1
-_C6075: Room_Assignment_MAT377_6 + Time_Assignment_MAT377_1 <= 2
-_C6076: Room_Assignment_MAT377_19 + Time_Assignment_MAT377_1 <= 2
-_C6077: Room_Assignment_MAT377_18 + Time_Assignment_MAT377_1 <= 1
-_C6078: Room_Assignment_MAT377_17 + Time_Assignment_MAT377_1 <= 2
-_C6079: Room_Assignment_MAT377_16 + Time_Assignment_MAT377_1 <= 1
+_C6070: Room_Assignment_MAT370_64.0 + Time_Assignment_MAT370_2:30_3:20_PM <= 1
+_C6071: Room_Assignment_MAT370_75.0 + Time_Assignment_MAT370_2:30_3:20_PM <= 2
+_C6072: Room_Assignment_MAT377_2.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 2
+_C6073: Room_Assignment_MAT377_4.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 2
+_C6074: Room_Assignment_MAT377_5.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 1
+_C6075: Room_Assignment_MAT377_6.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 2
+_C6076: Room_Assignment_MAT377_19.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 2
+_C6077: Room_Assignment_MAT377_18.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 1
+_C6078: Room_Assignment_MAT377_17.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 2
+_C6079: Room_Assignment_MAT377_16.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 1
 _C608: Overlap_COS217_ECO202 <= 1
-_C6080: Room_Assignment_MAT377_15 + Time_Assignment_MAT377_1 <= 1
-_C6081: Room_Assignment_MAT377_14 + Time_Assignment_MAT377_1 <= 2
-_C6082: Room_Assignment_MAT377_2 + Time_Assignment_MAT377_2 <= 2
-_C6083: Room_Assignment_MAT377_4 + Time_Assignment_MAT377_2 <= 1
-_C6084: Room_Assignment_MAT377_5 + Time_Assignment_MAT377_2 <= 2
-_C6085: Room_Assignment_MAT377_6 + Time_Assignment_MAT377_2 <= 1
-_C6086: Room_Assignment_MAT377_19 + Time_Assignment_MAT377_2 <= 1
-_C6087: Room_Assignment_MAT377_18 + Time_Assignment_MAT377_2 <= 1
-_C6088: Room_Assignment_MAT377_17 + Time_Assignment_MAT377_2 <= 2
-_C6089: Room_Assignment_MAT377_16 + Time_Assignment_MAT377_2 <= 2
+_C6080: Room_Assignment_MAT377_15.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 1
+_C6081: Room_Assignment_MAT377_14.0 + Time_Assignment_MAT377_9:00_9:50_AM <= 2
+_C6082: Room_Assignment_MAT377_2.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 2
+_C6083: Room_Assignment_MAT377_4.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 1
+_C6084: Room_Assignment_MAT377_5.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 2
+_C6085: Room_Assignment_MAT377_6.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 1
+_C6086: Room_Assignment_MAT377_19.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 1
+_C6087: Room_Assignment_MAT377_18.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 1
+_C6088: Room_Assignment_MAT377_17.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 2
+_C6089: Room_Assignment_MAT377_16.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 2
 _C609: Overlap_COS217_ECO300 <= 1
-_C6090: Room_Assignment_MAT377_15 + Time_Assignment_MAT377_2 <= 2
-_C6091: Room_Assignment_MAT377_14 + Time_Assignment_MAT377_2 <= 2
-_C6092: Room_Assignment_MAT385_5 + Time_Assignment_MAT385_1 <= 1
-_C6093: Room_Assignment_MAT385_6 + Time_Assignment_MAT385_1 <= 2
-_C6094: Room_Assignment_MAT385_2 + Time_Assignment_MAT385_1 <= 2
-_C6095: Room_Assignment_MAT385_3 + Time_Assignment_MAT385_1 <= 2
-_C6096: Room_Assignment_MAT385_43 + Time_Assignment_MAT385_1 <= 1
-_C6097: Room_Assignment_MAT385_7 + Time_Assignment_MAT385_1 <= 2
-_C6098: Room_Assignment_MAT385_5 + Time_Assignment_MAT385_2 <= 2
-_C6099: Room_Assignment_MAT385_6 + Time_Assignment_MAT385_2 <= 1
+_C6090: Room_Assignment_MAT377_15.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 2
+_C6091: Room_Assignment_MAT377_14.0 + Time_Assignment_MAT377_10:00_10:50_AM
+ <= 2
+_C6092: Room_Assignment_MAT385_5.0 + Time_Assignment_MAT385_9:00_9:50_AM <= 1
+_C6093: Room_Assignment_MAT385_6.0 + Time_Assignment_MAT385_9:00_9:50_AM <= 2
+_C6094: Room_Assignment_MAT385_2.0 + Time_Assignment_MAT385_9:00_9:50_AM <= 2
+_C6095: Room_Assignment_MAT385_3.0 + Time_Assignment_MAT385_9:00_9:50_AM <= 2
+_C6096: Room_Assignment_MAT385_43.0 + Time_Assignment_MAT385_9:00_9:50_AM <= 1
+_C6097: Room_Assignment_MAT385_7.0 + Time_Assignment_MAT385_9:00_9:50_AM <= 2
+_C6098: Room_Assignment_MAT385_5.0 + Time_Assignment_MAT385_10:00_10:50_AM
+ <= 2
+_C6099: Room_Assignment_MAT385_6.0 + Time_Assignment_MAT385_10:00_10:50_AM
+ <= 1
 _C61: Overlap_AAS201_MAT325 <= 1
-_C610: Room_Assignment_COS217_7 + Room_Assignment_ECO300_7
- + Time_Assignment_COS217_3 + Time_Assignment_ECO300_3 <= 3
-_C6100: Room_Assignment_MAT385_2 + Time_Assignment_MAT385_2 <= 2
-_C6101: Room_Assignment_MAT385_3 + Time_Assignment_MAT385_2 <= 1
-_C6102: Room_Assignment_MAT385_43 + Time_Assignment_MAT385_2 <= 2
-_C6103: Room_Assignment_MAT385_7 + Time_Assignment_MAT385_2 <= 2
-_C6104: Room_Assignment_MAT385_5 + Time_Assignment_MAT385_3 <= 2
-_C6105: Room_Assignment_MAT385_6 + Time_Assignment_MAT385_3 <= 1
-_C6106: Room_Assignment_MAT385_2 + Time_Assignment_MAT385_3 <= 2
-_C6107: Room_Assignment_MAT385_3 + Time_Assignment_MAT385_3 <= 2
-_C6108: Room_Assignment_MAT385_43 + Time_Assignment_MAT385_3 <= 2
-_C6109: Room_Assignment_MAT385_7 + Time_Assignment_MAT385_3 <= 2
+_C610: Room_Assignment_COS217_7.0 + Room_Assignment_ECO300_7
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C6100: Room_Assignment_MAT385_2.0 + Time_Assignment_MAT385_10:00_10:50_AM
+ <= 2
+_C6101: Room_Assignment_MAT385_3.0 + Time_Assignment_MAT385_10:00_10:50_AM
+ <= 1
+_C6102: Room_Assignment_MAT385_43.0 + Time_Assignment_MAT385_10:00_10:50_AM
+ <= 2
+_C6103: Room_Assignment_MAT385_7.0 + Time_Assignment_MAT385_10:00_10:50_AM
+ <= 2
+_C6104: Room_Assignment_MAT385_5.0 + Time_Assignment_MAT385_11:00_11:50_AM
+ <= 2
+_C6105: Room_Assignment_MAT385_6.0 + Time_Assignment_MAT385_11:00_11:50_AM
+ <= 1
+_C6106: Room_Assignment_MAT385_2.0 + Time_Assignment_MAT385_11:00_11:50_AM
+ <= 2
+_C6107: Room_Assignment_MAT385_3.0 + Time_Assignment_MAT385_11:00_11:50_AM
+ <= 2
+_C6108: Room_Assignment_MAT385_43.0 + Time_Assignment_MAT385_11:00_11:50_AM
+ <= 2
+_C6109: Room_Assignment_MAT385_7.0 + Time_Assignment_MAT385_11:00_11:50_AM
+ <= 2
 _C611: Overlap_COS217_ECO301 <= 1
-_C6110: Room_Assignment_MAT400_42 + Time_Assignment_MAT400_2 <= 1
-_C6111: Room_Assignment_MAT400_54 + Time_Assignment_MAT400_2 <= 1
-_C6112: Room_Assignment_MAT400_65 + Time_Assignment_MAT400_2 <= 1
-_C6113: Room_Assignment_MAT400_13 + Time_Assignment_MAT400_2 <= 2
-_C6114: Room_Assignment_MAT400_24 + Time_Assignment_MAT400_2 <= 1
-_C6115: Room_Assignment_MAT400_45 + Time_Assignment_MAT400_2 <= 2
-_C6116: Room_Assignment_MAT400_42 + Time_Assignment_MAT400_3 <= 1
-_C6117: Room_Assignment_MAT400_54 + Time_Assignment_MAT400_3 <= 2
-_C6118: Room_Assignment_MAT400_65 + Time_Assignment_MAT400_3 <= 2
-_C6119: Room_Assignment_MAT400_13 + Time_Assignment_MAT400_3 <= 2
+_C6110: Room_Assignment_MAT400_42.0 + Time_Assignment_MAT400_10:00_10:50_AM
+ <= 1
+_C6111: Room_Assignment_MAT400_54.0 + Time_Assignment_MAT400_10:00_10:50_AM
+ <= 1
+_C6112: Room_Assignment_MAT400_65.0 + Time_Assignment_MAT400_10:00_10:50_AM
+ <= 1
+_C6113: Room_Assignment_MAT400_13.0 + Time_Assignment_MAT400_10:00_10:50_AM
+ <= 2
+_C6114: Room_Assignment_MAT400_24.0 + Time_Assignment_MAT400_10:00_10:50_AM
+ <= 1
+_C6115: Room_Assignment_MAT400_45.0 + Time_Assignment_MAT400_10:00_10:50_AM
+ <= 2
+_C6116: Room_Assignment_MAT400_42.0 + Time_Assignment_MAT400_11:00_11:50_AM
+ <= 1
+_C6117: Room_Assignment_MAT400_54.0 + Time_Assignment_MAT400_11:00_11:50_AM
+ <= 2
+_C6118: Room_Assignment_MAT400_65.0 + Time_Assignment_MAT400_11:00_11:50_AM
+ <= 2
+_C6119: Room_Assignment_MAT400_13.0 + Time_Assignment_MAT400_11:00_11:50_AM
+ <= 2
 _C612: Overlap_COS217_ECO302 <= 1
-_C6120: Room_Assignment_MAT400_24 + Time_Assignment_MAT400_3 <= 2
-_C6121: Room_Assignment_MAT400_45 + Time_Assignment_MAT400_3 <= 2
-_C6122: Room_Assignment_MAT400_42 + Time_Assignment_MAT400_4 <= 1
-_C6123: Room_Assignment_MAT400_54 + Time_Assignment_MAT400_4 <= 1
-_C6124: Room_Assignment_MAT400_65 + Time_Assignment_MAT400_4 <= 1
-_C6125: Room_Assignment_MAT400_13 + Time_Assignment_MAT400_4 <= 2
-_C6126: Room_Assignment_MAT400_24 + Time_Assignment_MAT400_4 <= 2
-_C6127: Room_Assignment_MAT400_45 + Time_Assignment_MAT400_4 <= 2
-_C6128: Room_Assignment_ORF245_8 + Time_Assignment_ORF245_3 <= 1
-_C6129: Room_Assignment_ORF245_7 + Time_Assignment_ORF245_3 <= 2
+_C6120: Room_Assignment_MAT400_24.0 + Time_Assignment_MAT400_11:00_11:50_AM
+ <= 2
+_C6121: Room_Assignment_MAT400_45.0 + Time_Assignment_MAT400_11:00_11:50_AM
+ <= 2
+_C6122: Room_Assignment_MAT400_42.0 + Time_Assignment_MAT400_1:30_2:20_PM <= 1
+_C6123: Room_Assignment_MAT400_54.0 + Time_Assignment_MAT400_1:30_2:20_PM <= 1
+_C6124: Room_Assignment_MAT400_65.0 + Time_Assignment_MAT400_1:30_2:20_PM <= 1
+_C6125: Room_Assignment_MAT400_13.0 + Time_Assignment_MAT400_1:30_2:20_PM <= 2
+_C6126: Room_Assignment_MAT400_24.0 + Time_Assignment_MAT400_1:30_2:20_PM <= 2
+_C6127: Room_Assignment_MAT400_45.0 + Time_Assignment_MAT400_1:30_2:20_PM <= 2
+_C6128: Room_Assignment_ORF245_8.0 + Time_Assignment_ORF245_11:00_11:50_AM
+ <= 1
+_C6129: Room_Assignment_ORF245_7.0 + Time_Assignment_ORF245_11:00_11:50_AM
+ <= 2
 _C613: Overlap_COS217_ECO310 <= 1
-_C6130: Room_Assignment_ORF245_5 + Time_Assignment_ORF245_3 <= 2
-_C6131: Room_Assignment_ORF245_31 + Time_Assignment_ORF245_3 <= 1
-_C6132: Room_Assignment_ORF245_34 + Time_Assignment_ORF245_3 <= 1
-_C6133: Room_Assignment_ORF245_65 + Time_Assignment_ORF245_3 <= 2
-_C6134: Room_Assignment_ORF245_25 + Time_Assignment_ORF245_3 <= 1
-_C6135: Room_Assignment_ORF245_34 + Time_Assignment_ORF245_3 <= 1
-_C6136: Room_Assignment_ORF245_8 + Time_Assignment_ORF245_4 <= 2
-_C6137: Room_Assignment_ORF245_7 + Time_Assignment_ORF245_4 <= 1
-_C6138: Room_Assignment_ORF245_5 + Time_Assignment_ORF245_4 <= 2
-_C6139: Room_Assignment_ORF245_31 + Time_Assignment_ORF245_4 <= 1
+_C6130: Room_Assignment_ORF245_5.0 + Time_Assignment_ORF245_11:00_11:50_AM
+ <= 2
+_C6131: Room_Assignment_ORF245_31.0 + Time_Assignment_ORF245_11:00_11:50_AM
+ <= 1
+_C6132: Room_Assignment_ORF245_34.0 + Time_Assignment_ORF245_11:00_11:50_AM
+ <= 1
+_C6133: Room_Assignment_ORF245_65.0 + Time_Assignment_ORF245_11:00_11:50_AM
+ <= 2
+_C6134: Room_Assignment_ORF245_25.0 + Time_Assignment_ORF245_11:00_11:50_AM
+ <= 1
+_C6135: Room_Assignment_ORF245_34.0 + Time_Assignment_ORF245_11:00_11:50_AM
+ <= 1
+_C6136: Room_Assignment_ORF245_8.0 + Time_Assignment_ORF245_1:30_2:20_PM <= 2
+_C6137: Room_Assignment_ORF245_7.0 + Time_Assignment_ORF245_1:30_2:20_PM <= 1
+_C6138: Room_Assignment_ORF245_5.0 + Time_Assignment_ORF245_1:30_2:20_PM <= 2
+_C6139: Room_Assignment_ORF245_31.0 + Time_Assignment_ORF245_1:30_2:20_PM <= 1
 _C614: Overlap_COS217_ECO312 <= 1
-_C6140: Room_Assignment_ORF245_34 + Time_Assignment_ORF245_4 <= 2
-_C6141: Room_Assignment_ORF245_65 + Time_Assignment_ORF245_4 <= 1
-_C6142: Room_Assignment_ORF245_25 + Time_Assignment_ORF245_4 <= 1
-_C6143: Room_Assignment_ORF245_34 + Time_Assignment_ORF245_4 <= 2
-_C6144: Room_Assignment_ORF307_50 + Time_Assignment_ORF307_2 <= 2
-_C6145: Room_Assignment_ORF307_45 + Time_Assignment_ORF307_2 <= 2
-_C6146: Room_Assignment_ORF307_40 + Time_Assignment_ORF307_2 <= 1
-_C6147: Room_Assignment_ORF307_35 + Time_Assignment_ORF307_2 <= 1
-_C6148: Room_Assignment_ORF307_30 + Time_Assignment_ORF307_2 <= 1
-_C6149: Room_Assignment_ORF307_25 + Time_Assignment_ORF307_2 <= 2
+_C6140: Room_Assignment_ORF245_34.0 + Time_Assignment_ORF245_1:30_2:20_PM <= 2
+_C6141: Room_Assignment_ORF245_65.0 + Time_Assignment_ORF245_1:30_2:20_PM <= 1
+_C6142: Room_Assignment_ORF245_25.0 + Time_Assignment_ORF245_1:30_2:20_PM <= 1
+_C6143: Room_Assignment_ORF245_34.0 + Time_Assignment_ORF245_1:30_2:20_PM <= 2
+_C6144: Room_Assignment_ORF307_50.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 2
+_C6145: Room_Assignment_ORF307_45.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 2
+_C6146: Room_Assignment_ORF307_40.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 1
+_C6147: Room_Assignment_ORF307_35.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 1
+_C6148: Room_Assignment_ORF307_30.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 1
+_C6149: Room_Assignment_ORF307_25.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 2
 _C615: Overlap_COS217_GER101 <= 1
-_C6150: Room_Assignment_ORF307_20 + Time_Assignment_ORF307_2 <= 2
-_C6151: Room_Assignment_ORF307_15 + Time_Assignment_ORF307_2 <= 2
-_C6152: Room_Assignment_ORF307_10 + Time_Assignment_ORF307_2 <= 1
-_C6153: Room_Assignment_ORF307_5 + Time_Assignment_ORF307_2 <= 2
-_C6154: Room_Assignment_ORF307_50 + Time_Assignment_ORF307_3 <= 2
-_C6155: Room_Assignment_ORF307_45 + Time_Assignment_ORF307_3 <= 2
-_C6156: Room_Assignment_ORF307_40 + Time_Assignment_ORF307_3 <= 1
-_C6157: Room_Assignment_ORF307_35 + Time_Assignment_ORF307_3 <= 1
-_C6158: Room_Assignment_ORF307_30 + Time_Assignment_ORF307_3 <= 2
-_C6159: Room_Assignment_ORF307_25 + Time_Assignment_ORF307_3 <= 1
+_C6150: Room_Assignment_ORF307_20.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 2
+_C6151: Room_Assignment_ORF307_15.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 2
+_C6152: Room_Assignment_ORF307_10.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 1
+_C6153: Room_Assignment_ORF307_5.0 + Time_Assignment_ORF307_10:00_10:50_AM
+ <= 2
+_C6154: Room_Assignment_ORF307_50.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 2
+_C6155: Room_Assignment_ORF307_45.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 2
+_C6156: Room_Assignment_ORF307_40.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 1
+_C6157: Room_Assignment_ORF307_35.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 1
+_C6158: Room_Assignment_ORF307_30.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 2
+_C6159: Room_Assignment_ORF307_25.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 1
 _C616: Overlap_COS217_GER103 <= 1
-_C6160: Room_Assignment_ORF307_20 + Time_Assignment_ORF307_3 <= 2
-_C6161: Room_Assignment_ORF307_15 + Time_Assignment_ORF307_3 <= 1
-_C6162: Room_Assignment_ORF307_10 + Time_Assignment_ORF307_3 <= 1
-_C6163: Room_Assignment_ORF307_5 + Time_Assignment_ORF307_3 <= 2
-_C6164: Room_Assignment_ORF307_50 + Time_Assignment_ORF307_4 <= 2
-_C6165: Room_Assignment_ORF307_45 + Time_Assignment_ORF307_4 <= 2
-_C6166: Room_Assignment_ORF307_40 + Time_Assignment_ORF307_4 <= 2
-_C6167: Room_Assignment_ORF307_35 + Time_Assignment_ORF307_4 <= 1
-_C6168: Room_Assignment_ORF307_30 + Time_Assignment_ORF307_4 <= 2
-_C6169: Room_Assignment_ORF307_25 + Time_Assignment_ORF307_4 <= 1
+_C6160: Room_Assignment_ORF307_20.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 2
+_C6161: Room_Assignment_ORF307_15.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 1
+_C6162: Room_Assignment_ORF307_10.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 1
+_C6163: Room_Assignment_ORF307_5.0 + Time_Assignment_ORF307_11:00_11:50_AM
+ <= 2
+_C6164: Room_Assignment_ORF307_50.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 2
+_C6165: Room_Assignment_ORF307_45.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 2
+_C6166: Room_Assignment_ORF307_40.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 2
+_C6167: Room_Assignment_ORF307_35.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 1
+_C6168: Room_Assignment_ORF307_30.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 2
+_C6169: Room_Assignment_ORF307_25.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 1
 _C617: Overlap_COS217_GER105 <= 1
-_C6170: Room_Assignment_ORF307_20 + Time_Assignment_ORF307_4 <= 2
-_C6171: Room_Assignment_ORF307_15 + Time_Assignment_ORF307_4 <= 1
-_C6172: Room_Assignment_ORF307_10 + Time_Assignment_ORF307_4 <= 2
-_C6173: Room_Assignment_ORF307_5 + Time_Assignment_ORF307_4 <= 2
-_C6174: Room_Assignment_ORF307_50 + Time_Assignment_ORF307_5 <= 2
-_C6175: Room_Assignment_ORF307_45 + Time_Assignment_ORF307_5 <= 2
-_C6176: Room_Assignment_ORF307_40 + Time_Assignment_ORF307_5 <= 2
-_C6177: Room_Assignment_ORF307_35 + Time_Assignment_ORF307_5 <= 2
-_C6178: Room_Assignment_ORF307_30 + Time_Assignment_ORF307_5 <= 1
-_C6179: Room_Assignment_ORF307_25 + Time_Assignment_ORF307_5 <= 1
+_C6170: Room_Assignment_ORF307_20.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 2
+_C6171: Room_Assignment_ORF307_15.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 1
+_C6172: Room_Assignment_ORF307_10.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 2
+_C6173: Room_Assignment_ORF307_5.0 + Time_Assignment_ORF307_1:30_2:20_PM <= 2
+_C6174: Room_Assignment_ORF307_50.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 2
+_C6175: Room_Assignment_ORF307_45.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 2
+_C6176: Room_Assignment_ORF307_40.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 2
+_C6177: Room_Assignment_ORF307_35.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 2
+_C6178: Room_Assignment_ORF307_30.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 1
+_C6179: Room_Assignment_ORF307_25.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 1
 _C618: Overlap_COS217_GER107 <= 1
-_C6180: Room_Assignment_ORF307_20 + Time_Assignment_ORF307_5 <= 2
-_C6181: Room_Assignment_ORF307_15 + Time_Assignment_ORF307_5 <= 1
-_C6182: Room_Assignment_ORF307_10 + Time_Assignment_ORF307_5 <= 2
-_C6183: Room_Assignment_ORF307_5 + Time_Assignment_ORF307_5 <= 2
-_C6184: Room_Assignment_ORF309_43 + Time_Assignment_ORF309_2 <= 2
-_C6185: Room_Assignment_ORF309_53 + Time_Assignment_ORF309_2 <= 2
-_C6186: Room_Assignment_ORF309_63 + Time_Assignment_ORF309_2 <= 2
-_C6187: Room_Assignment_ORF309_73 + Time_Assignment_ORF309_2 <= 2
-_C6188: Room_Assignment_ORF309_23 + Time_Assignment_ORF309_2 <= 1
-_C6189: Room_Assignment_ORF309_13 + Time_Assignment_ORF309_2 <= 2
-_C619: Room_Assignment_COS217_70 + Room_Assignment_GER107_70
- + Time_Assignment_COS217_3 + Time_Assignment_GER107_3 <= 3
-_C6190: Room_Assignment_ORF309_43 + Time_Assignment_ORF309_3 <= 2
-_C6191: Room_Assignment_ORF309_53 + Time_Assignment_ORF309_3 <= 2
-_C6192: Room_Assignment_ORF309_63 + Time_Assignment_ORF309_3 <= 1
-_C6193: Room_Assignment_ORF309_73 + Time_Assignment_ORF309_3 <= 1
-_C6194: Room_Assignment_ORF309_23 + Time_Assignment_ORF309_3 <= 2
-_C6195: Room_Assignment_ORF309_13 + Time_Assignment_ORF309_3 <= 2
-_C6196: Room_Assignment_ORF309_43 + Time_Assignment_ORF309_4 <= 2
-_C6197: Room_Assignment_ORF309_53 + Time_Assignment_ORF309_4 <= 1
-_C6198: Room_Assignment_ORF309_63 + Time_Assignment_ORF309_4 <= 1
-_C6199: Room_Assignment_ORF309_73 + Time_Assignment_ORF309_4 <= 2
+_C6180: Room_Assignment_ORF307_20.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 2
+_C6181: Room_Assignment_ORF307_15.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 1
+_C6182: Room_Assignment_ORF307_10.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 2
+_C6183: Room_Assignment_ORF307_5.0 + Time_Assignment_ORF307_2:30_3:20_PM <= 2
+_C6184: Room_Assignment_ORF309_43.0 + Time_Assignment_ORF309_10:00_10:50_AM
+ <= 2
+_C6185: Room_Assignment_ORF309_53.0 + Time_Assignment_ORF309_10:00_10:50_AM
+ <= 2
+_C6186: Room_Assignment_ORF309_63.0 + Time_Assignment_ORF309_10:00_10:50_AM
+ <= 2
+_C6187: Room_Assignment_ORF309_73.0 + Time_Assignment_ORF309_10:00_10:50_AM
+ <= 2
+_C6188: Room_Assignment_ORF309_23.0 + Time_Assignment_ORF309_10:00_10:50_AM
+ <= 1
+_C6189: Room_Assignment_ORF309_13.0 + Time_Assignment_ORF309_10:00_10:50_AM
+ <= 2
+_C619: Room_Assignment_COS217_70.0 + Room_Assignment_GER107_70.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
+_C6190: Room_Assignment_ORF309_43.0 + Time_Assignment_ORF309_11:00_11:50_AM
+ <= 2
+_C6191: Room_Assignment_ORF309_53.0 + Time_Assignment_ORF309_11:00_11:50_AM
+ <= 2
+_C6192: Room_Assignment_ORF309_63.0 + Time_Assignment_ORF309_11:00_11:50_AM
+ <= 1
+_C6193: Room_Assignment_ORF309_73.0 + Time_Assignment_ORF309_11:00_11:50_AM
+ <= 1
+_C6194: Room_Assignment_ORF309_23.0 + Time_Assignment_ORF309_11:00_11:50_AM
+ <= 2
+_C6195: Room_Assignment_ORF309_13.0 + Time_Assignment_ORF309_11:00_11:50_AM
+ <= 2
+_C6196: Room_Assignment_ORF309_43.0 + Time_Assignment_ORF309_1:30_2:20_PM <= 2
+_C6197: Room_Assignment_ORF309_53.0 + Time_Assignment_ORF309_1:30_2:20_PM <= 1
+_C6198: Room_Assignment_ORF309_63.0 + Time_Assignment_ORF309_1:30_2:20_PM <= 1
+_C6199: Room_Assignment_ORF309_73.0 + Time_Assignment_ORF309_1:30_2:20_PM <= 2
 _C62: Overlap_AAS201_MAT335 <= 1
-_C620: Room_Assignment_COS217_73 + Room_Assignment_GER107_73
- + Time_Assignment_COS217_3 + Time_Assignment_GER107_3 <= 3
-_C6200: Room_Assignment_ORF309_23 + Time_Assignment_ORF309_4 <= 1
-_C6201: Room_Assignment_ORF309_13 + Time_Assignment_ORF309_4 <= 2
-_C6202: Room_Assignment_ORF309_43 + Time_Assignment_ORF309_5 <= 1
-_C6203: Room_Assignment_ORF309_53 + Time_Assignment_ORF309_5 <= 1
-_C6204: Room_Assignment_ORF309_63 + Time_Assignment_ORF309_5 <= 1
-_C6205: Room_Assignment_ORF309_73 + Time_Assignment_ORF309_5 <= 1
-_C6206: Room_Assignment_ORF309_23 + Time_Assignment_ORF309_5 <= 1
-_C6207: Room_Assignment_ORF309_13 + Time_Assignment_ORF309_5 <= 2
-_C6208: Room_Assignment_ORF350_9 + Time_Assignment_ORF350_3 <= 1
-_C6209: Room_Assignment_ORF350_6 + Time_Assignment_ORF350_3 <= 1
-_C621: Room_Assignment_COS217_74 + Room_Assignment_GER107_74
- + Time_Assignment_COS217_3 + Time_Assignment_GER107_3 <= 3
-_C6210: Room_Assignment_ORF350_69 + Time_Assignment_ORF350_3 <= 2
-_C6211: Room_Assignment_ORF350_59 + Time_Assignment_ORF350_3 <= 1
-_C6212: Room_Assignment_ORF350_49 + Time_Assignment_ORF350_3 <= 2
-_C6213: Room_Assignment_ORF350_39 + Time_Assignment_ORF350_3 <= 1
-_C6214: Room_Assignment_ORF350_29 + Time_Assignment_ORF350_3 <= 2
-_C6215: Room_Assignment_ORF350_19 + Time_Assignment_ORF350_3 <= 1
-_C6216: Room_Assignment_ORF350_9 + Time_Assignment_ORF350_4 <= 1
-_C6217: Room_Assignment_ORF350_6 + Time_Assignment_ORF350_4 <= 1
-_C6218: Room_Assignment_ORF350_69 + Time_Assignment_ORF350_4 <= 1
-_C6219: Room_Assignment_ORF350_59 + Time_Assignment_ORF350_4 <= 1
+_C620: Room_Assignment_COS217_73.0 + Room_Assignment_GER107_73.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
+_C6200: Room_Assignment_ORF309_23.0 + Time_Assignment_ORF309_1:30_2:20_PM <= 1
+_C6201: Room_Assignment_ORF309_13.0 + Time_Assignment_ORF309_1:30_2:20_PM <= 2
+_C6202: Room_Assignment_ORF309_43.0 + Time_Assignment_ORF309_2:30_3:20_PM <= 1
+_C6203: Room_Assignment_ORF309_53.0 + Time_Assignment_ORF309_2:30_3:20_PM <= 1
+_C6204: Room_Assignment_ORF309_63.0 + Time_Assignment_ORF309_2:30_3:20_PM <= 1
+_C6205: Room_Assignment_ORF309_73.0 + Time_Assignment_ORF309_2:30_3:20_PM <= 1
+_C6206: Room_Assignment_ORF309_23.0 + Time_Assignment_ORF309_2:30_3:20_PM <= 1
+_C6207: Room_Assignment_ORF309_13.0 + Time_Assignment_ORF309_2:30_3:20_PM <= 2
+_C6208: Room_Assignment_ORF350_9.0 + Time_Assignment_ORF350_11:00_11:50_AM
+ <= 1
+_C6209: Room_Assignment_ORF350_6.0 + Time_Assignment_ORF350_11:00_11:50_AM
+ <= 1
+_C621: Room_Assignment_COS217_74.0 + Room_Assignment_GER107_74.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_GER107_11:00_11:50_AM <= 3
+_C6210: Room_Assignment_ORF350_69.0 + Time_Assignment_ORF350_11:00_11:50_AM
+ <= 2
+_C6211: Room_Assignment_ORF350_59.0 + Time_Assignment_ORF350_11:00_11:50_AM
+ <= 1
+_C6212: Room_Assignment_ORF350_49.0 + Time_Assignment_ORF350_11:00_11:50_AM
+ <= 2
+_C6213: Room_Assignment_ORF350_39.0 + Time_Assignment_ORF350_11:00_11:50_AM
+ <= 1
+_C6214: Room_Assignment_ORF350_29.0 + Time_Assignment_ORF350_11:00_11:50_AM
+ <= 2
+_C6215: Room_Assignment_ORF350_19.0 + Time_Assignment_ORF350_11:00_11:50_AM
+ <= 1
+_C6216: Room_Assignment_ORF350_9.0 + Time_Assignment_ORF350_1:30_2:20_PM <= 1
+_C6217: Room_Assignment_ORF350_6.0 + Time_Assignment_ORF350_1:30_2:20_PM <= 1
+_C6218: Room_Assignment_ORF350_69.0 + Time_Assignment_ORF350_1:30_2:20_PM <= 1
+_C6219: Room_Assignment_ORF350_59.0 + Time_Assignment_ORF350_1:30_2:20_PM <= 1
 _C622: Overlap_COS217_LIN201 <= 1
-_C6220: Room_Assignment_ORF350_49 + Time_Assignment_ORF350_4 <= 2
-_C6221: Room_Assignment_ORF350_39 + Time_Assignment_ORF350_4 <= 1
-_C6222: Room_Assignment_ORF350_29 + Time_Assignment_ORF350_4 <= 2
-_C6223: Room_Assignment_ORF350_19 + Time_Assignment_ORF350_4 <= 1
-_C6224: Room_Assignment_ORF350_9 + Time_Assignment_ORF350_5 <= 2
-_C6225: Room_Assignment_ORF350_6 + Time_Assignment_ORF350_5 <= 2
-_C6226: Room_Assignment_ORF350_69 + Time_Assignment_ORF350_5 <= 1
-_C6227: Room_Assignment_ORF350_59 + Time_Assignment_ORF350_5 <= 1
-_C6228: Room_Assignment_ORF350_49 + Time_Assignment_ORF350_5 <= 1
-_C6229: Room_Assignment_ORF350_39 + Time_Assignment_ORF350_5 <= 2
+_C6220: Room_Assignment_ORF350_49.0 + Time_Assignment_ORF350_1:30_2:20_PM <= 2
+_C6221: Room_Assignment_ORF350_39.0 + Time_Assignment_ORF350_1:30_2:20_PM <= 1
+_C6222: Room_Assignment_ORF350_29.0 + Time_Assignment_ORF350_1:30_2:20_PM <= 2
+_C6223: Room_Assignment_ORF350_19.0 + Time_Assignment_ORF350_1:30_2:20_PM <= 1
+_C6224: Room_Assignment_ORF350_9.0 + Time_Assignment_ORF350_2:30_3:20_PM <= 2
+_C6225: Room_Assignment_ORF350_6.0 + Time_Assignment_ORF350_2:30_3:20_PM <= 2
+_C6226: Room_Assignment_ORF350_69.0 + Time_Assignment_ORF350_2:30_3:20_PM <= 1
+_C6227: Room_Assignment_ORF350_59.0 + Time_Assignment_ORF350_2:30_3:20_PM <= 1
+_C6228: Room_Assignment_ORF350_49.0 + Time_Assignment_ORF350_2:30_3:20_PM <= 1
+_C6229: Room_Assignment_ORF350_39.0 + Time_Assignment_ORF350_2:30_3:20_PM <= 2
 _C623: Overlap_COS217_LIN300 <= 1
-_C6230: Room_Assignment_ORF350_29 + Time_Assignment_ORF350_5 <= 1
-_C6231: Room_Assignment_ORF350_19 + Time_Assignment_ORF350_5 <= 2
-_C6232: Room_Assignment_ORF363_11 + Time_Assignment_ORF363_4 <= 2
-_C6233: Room_Assignment_ORF363_21 + Time_Assignment_ORF363_4 <= 2
-_C6234: Room_Assignment_ORF363_31 + Time_Assignment_ORF363_4 <= 1
-_C6235: Room_Assignment_ORF363_41 + Time_Assignment_ORF363_4 <= 2
-_C6236: Room_Assignment_ORF363_51 + Time_Assignment_ORF363_4 <= 2
-_C6237: Room_Assignment_ORF363_61 + Time_Assignment_ORF363_4 <= 1
-_C6238: Room_Assignment_ORF445_5 + Time_Assignment_ORF445_3 <= 2
-_C6239: Room_Assignment_ORF445_46 + Time_Assignment_ORF445_3 <= 1
+_C6230: Room_Assignment_ORF350_29.0 + Time_Assignment_ORF350_2:30_3:20_PM <= 1
+_C6231: Room_Assignment_ORF350_19.0 + Time_Assignment_ORF350_2:30_3:20_PM <= 2
+_C6232: Room_Assignment_ORF363_11.0 + Time_Assignment_ORF363_1:30_2:20_PM <= 2
+_C6233: Room_Assignment_ORF363_21.0 + Time_Assignment_ORF363_1:30_2:20_PM <= 2
+_C6234: Room_Assignment_ORF363_31.0 + Time_Assignment_ORF363_1:30_2:20_PM <= 1
+_C6235: Room_Assignment_ORF363_41.0 + Time_Assignment_ORF363_1:30_2:20_PM <= 2
+_C6236: Room_Assignment_ORF363_51.0 + Time_Assignment_ORF363_1:30_2:20_PM <= 2
+_C6237: Room_Assignment_ORF363_61.0 + Time_Assignment_ORF363_1:30_2:20_PM <= 1
+_C6238: Room_Assignment_ORF445_5.0 + Time_Assignment_ORF445_11:00_11:50_AM
+ <= 2
+_C6239: Room_Assignment_ORF445_46.0 + Time_Assignment_ORF445_11:00_11:50_AM
+ <= 1
 _C624: Overlap_COS217_MAT103 <= 1
-_C6240: Room_Assignment_ORF445_24 + Time_Assignment_ORF445_3 <= 2
-_C6241: Room_Assignment_ORF445_64 + Time_Assignment_ORF445_3 <= 2
-_C6242: Room_Assignment_ORF445_54 + Time_Assignment_ORF445_3 <= 2
-_C6243: Room_Assignment_ORF445_31 + Time_Assignment_ORF445_3 <= 1
-_C6244: Room_Assignment_ORF445_12 + Time_Assignment_ORF445_3 <= 1
-_C6245: Room_Assignment_ORF445_53 + Time_Assignment_ORF445_3 <= 2
-_C6246: Room_Assignment_ORF445_5 + Time_Assignment_ORF445_4 <= 2
-_C6247: Room_Assignment_ORF445_46 + Time_Assignment_ORF445_4 <= 2
-_C6248: Room_Assignment_ORF445_24 + Time_Assignment_ORF445_4 <= 2
-_C6249: Room_Assignment_ORF445_64 + Time_Assignment_ORF445_4 <= 1
+_C6240: Room_Assignment_ORF445_24.0 + Time_Assignment_ORF445_11:00_11:50_AM
+ <= 2
+_C6241: Room_Assignment_ORF445_64.0 + Time_Assignment_ORF445_11:00_11:50_AM
+ <= 2
+_C6242: Room_Assignment_ORF445_54.0 + Time_Assignment_ORF445_11:00_11:50_AM
+ <= 2
+_C6243: Room_Assignment_ORF445_31.0 + Time_Assignment_ORF445_11:00_11:50_AM
+ <= 1
+_C6244: Room_Assignment_ORF445_12.0 + Time_Assignment_ORF445_11:00_11:50_AM
+ <= 1
+_C6245: Room_Assignment_ORF445_53.0 + Time_Assignment_ORF445_11:00_11:50_AM
+ <= 2
+_C6246: Room_Assignment_ORF445_5.0 + Time_Assignment_ORF445_1:30_2:20_PM <= 2
+_C6247: Room_Assignment_ORF445_46.0 + Time_Assignment_ORF445_1:30_2:20_PM <= 2
+_C6248: Room_Assignment_ORF445_24.0 + Time_Assignment_ORF445_1:30_2:20_PM <= 2
+_C6249: Room_Assignment_ORF445_64.0 + Time_Assignment_ORF445_1:30_2:20_PM <= 1
 _C625: Overlap_COS217_MAT104 <= 1
-_C6250: Room_Assignment_ORF445_54 + Time_Assignment_ORF445_4 <= 1
-_C6251: Room_Assignment_ORF445_31 + Time_Assignment_ORF445_4 <= 1
-_C6252: Room_Assignment_ORF445_12 + Time_Assignment_ORF445_4 <= 2
-_C6253: Room_Assignment_ORF445_53 + Time_Assignment_ORF445_4 <= 1
-_C6254: Room_Assignment_PHY103_1 + Time_Assignment_PHY103_1 <= 2
-_C6255: Room_Assignment_PHY103_2 + Time_Assignment_PHY103_1 <= 2
-_C6256: Room_Assignment_PHY103_75 + Time_Assignment_PHY103_1 <= 2
-_C6257: Room_Assignment_PHY103_74 + Time_Assignment_PHY103_1 <= 1
-_C6258: Room_Assignment_PHY103_1 + Time_Assignment_PHY103_2 <= 2
-_C6259: Room_Assignment_PHY103_2 + Time_Assignment_PHY103_2 <= 2
+_C6250: Room_Assignment_ORF445_54.0 + Time_Assignment_ORF445_1:30_2:20_PM <= 1
+_C6251: Room_Assignment_ORF445_31.0 + Time_Assignment_ORF445_1:30_2:20_PM <= 1
+_C6252: Room_Assignment_ORF445_12.0 + Time_Assignment_ORF445_1:30_2:20_PM <= 2
+_C6253: Room_Assignment_ORF445_53.0 + Time_Assignment_ORF445_1:30_2:20_PM <= 1
+_C6254: Room_Assignment_PHY103_1.0 + Time_Assignment_PHY103_9:00_9:50_AM <= 2
+_C6255: Room_Assignment_PHY103_2.0 + Time_Assignment_PHY103_9:00_9:50_AM <= 2
+_C6256: Room_Assignment_PHY103_75.0 + Time_Assignment_PHY103_9:00_9:50_AM <= 2
+_C6257: Room_Assignment_PHY103_74.0 + Time_Assignment_PHY103_9:00_9:50_AM <= 1
+_C6258: Room_Assignment_PHY103_1.0 + Time_Assignment_PHY103_10:00_10:50_AM
+ <= 2
+_C6259: Room_Assignment_PHY103_2.0 + Time_Assignment_PHY103_10:00_10:50_AM
+ <= 2
 _C626: Overlap_COS217_MAT201 <= 1
-_C6260: Room_Assignment_PHY103_75 + Time_Assignment_PHY103_2 <= 1
-_C6261: Room_Assignment_PHY103_74 + Time_Assignment_PHY103_2 <= 1
-_C6262: Room_Assignment_PHY103_1 + Time_Assignment_PHY103_3 <= 2
-_C6263: Room_Assignment_PHY103_2 + Time_Assignment_PHY103_3 <= 2
-_C6264: Room_Assignment_PHY103_75 + Time_Assignment_PHY103_3 <= 2
-_C6265: Room_Assignment_PHY103_74 + Time_Assignment_PHY103_3 <= 2
-_C6266: Room_Assignment_PHY103_1 + Time_Assignment_PHY103_4 <= 2
-_C6267: Room_Assignment_PHY103_2 + Time_Assignment_PHY103_4 <= 2
-_C6268: Room_Assignment_PHY103_75 + Time_Assignment_PHY103_4 <= 2
-_C6269: Room_Assignment_PHY103_74 + Time_Assignment_PHY103_4 <= 1
+_C6260: Room_Assignment_PHY103_75.0 + Time_Assignment_PHY103_10:00_10:50_AM
+ <= 1
+_C6261: Room_Assignment_PHY103_74.0 + Time_Assignment_PHY103_10:00_10:50_AM
+ <= 1
+_C6262: Room_Assignment_PHY103_1.0 + Time_Assignment_PHY103_11:00_11:50_AM
+ <= 2
+_C6263: Room_Assignment_PHY103_2.0 + Time_Assignment_PHY103_11:00_11:50_AM
+ <= 2
+_C6264: Room_Assignment_PHY103_75.0 + Time_Assignment_PHY103_11:00_11:50_AM
+ <= 2
+_C6265: Room_Assignment_PHY103_74.0 + Time_Assignment_PHY103_11:00_11:50_AM
+ <= 2
+_C6266: Room_Assignment_PHY103_1.0 + Time_Assignment_PHY103_1:30_2:20_PM <= 2
+_C6267: Room_Assignment_PHY103_2.0 + Time_Assignment_PHY103_1:30_2:20_PM <= 2
+_C6268: Room_Assignment_PHY103_75.0 + Time_Assignment_PHY103_1:30_2:20_PM <= 2
+_C6269: Room_Assignment_PHY103_74.0 + Time_Assignment_PHY103_1:30_2:20_PM <= 1
 _C627: Overlap_COS217_MAT202 <= 1
-_C6270: Room_Assignment_PHY103_1 + Time_Assignment_PHY103_5 <= 2
-_C6271: Room_Assignment_PHY103_2 + Time_Assignment_PHY103_5 <= 2
-_C6272: Room_Assignment_PHY103_75 + Time_Assignment_PHY103_5 <= 2
-_C6273: Room_Assignment_PHY103_74 + Time_Assignment_PHY103_5 <= 1
-_C6274: Room_Assignment_PHY104_71 + Time_Assignment_PHY104_1 <= 2
-_C6275: Room_Assignment_PHY104_58 + Time_Assignment_PHY104_1 <= 2
-_C6276: Room_Assignment_PHY104_37 + Time_Assignment_PHY104_1 <= 2
-_C6277: Room_Assignment_PHY104_28 + Time_Assignment_PHY104_1 <= 2
-_C6278: Room_Assignment_PHY104_71 + Time_Assignment_PHY104_5 <= 1
-_C6279: Room_Assignment_PHY104_58 + Time_Assignment_PHY104_5 <= 1
+_C6270: Room_Assignment_PHY103_1.0 + Time_Assignment_PHY103_2:30_3:20_PM <= 2
+_C6271: Room_Assignment_PHY103_2.0 + Time_Assignment_PHY103_2:30_3:20_PM <= 2
+_C6272: Room_Assignment_PHY103_75.0 + Time_Assignment_PHY103_2:30_3:20_PM <= 2
+_C6273: Room_Assignment_PHY103_74.0 + Time_Assignment_PHY103_2:30_3:20_PM <= 1
+_C6274: Room_Assignment_PHY104_71.0 + Time_Assignment_PHY104_9:00_9:50_AM <= 2
+_C6275: Room_Assignment_PHY104_58.0 + Time_Assignment_PHY104_9:00_9:50_AM <= 2
+_C6276: Room_Assignment_PHY104_37.0 + Time_Assignment_PHY104_9:00_9:50_AM <= 2
+_C6277: Room_Assignment_PHY104_28.0 + Time_Assignment_PHY104_9:00_9:50_AM <= 2
+_C6278: Room_Assignment_PHY104_71.0 + Time_Assignment_PHY104_2:30_3:20_PM <= 1
+_C6279: Room_Assignment_PHY104_58.0 + Time_Assignment_PHY104_2:30_3:20_PM <= 1
 _C628: Overlap_COS217_MAT203 <= 1
-_C6280: Room_Assignment_PHY104_37 + Time_Assignment_PHY104_5 <= 2
-_C6281: Room_Assignment_PHY104_28 + Time_Assignment_PHY104_5 <= 2
-_C6282: Room_Assignment_PHY105_1 + Time_Assignment_PHY105_1 <= 2
-_C6283: Room_Assignment_PHY105_2 + Time_Assignment_PHY105_1 <= 2
-_C6284: Room_Assignment_PHY105_3 + Time_Assignment_PHY105_1 <= 2
-_C6285: Room_Assignment_PHY105_4 + Time_Assignment_PHY105_1 <= 2
-_C6286: Room_Assignment_PHY105_5 + Time_Assignment_PHY105_1 <= 1
-_C6287: Room_Assignment_PHY105_6 + Time_Assignment_PHY105_1 <= 2
-_C6288: Room_Assignment_PHY105_7 + Time_Assignment_PHY105_1 <= 2
-_C6289: Room_Assignment_PHY105_8 + Time_Assignment_PHY105_1 <= 1
+_C6280: Room_Assignment_PHY104_37.0 + Time_Assignment_PHY104_2:30_3:20_PM <= 2
+_C6281: Room_Assignment_PHY104_28.0 + Time_Assignment_PHY104_2:30_3:20_PM <= 2
+_C6282: Room_Assignment_PHY105_1.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 2
+_C6283: Room_Assignment_PHY105_2.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 2
+_C6284: Room_Assignment_PHY105_3.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 2
+_C6285: Room_Assignment_PHY105_4.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 2
+_C6286: Room_Assignment_PHY105_5.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 1
+_C6287: Room_Assignment_PHY105_6.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 2
+_C6288: Room_Assignment_PHY105_7.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 2
+_C6289: Room_Assignment_PHY105_8.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 1
 _C629: Overlap_COS217_MAT204 <= 1
-_C6290: Room_Assignment_PHY105_9 + Time_Assignment_PHY105_1 <= 1
-_C6291: Room_Assignment_PHY105_10 + Time_Assignment_PHY105_1 <= 1
-_C6292: Room_Assignment_PHY105_12 + Time_Assignment_PHY105_1 <= 2
-_C6293: Room_Assignment_PHY105_1 + Time_Assignment_PHY105_2 <= 2
-_C6294: Room_Assignment_PHY105_2 + Time_Assignment_PHY105_2 <= 2
-_C6295: Room_Assignment_PHY105_3 + Time_Assignment_PHY105_2 <= 1
-_C6296: Room_Assignment_PHY105_4 + Time_Assignment_PHY105_2 <= 1
-_C6297: Room_Assignment_PHY105_5 + Time_Assignment_PHY105_2 <= 2
-_C6298: Room_Assignment_PHY105_6 + Time_Assignment_PHY105_2 <= 1
-_C6299: Room_Assignment_PHY105_7 + Time_Assignment_PHY105_2 <= 2
-_C63: Room_Assignment_AAS201_2 + Room_Assignment_MAT335_2
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT335_1 <= 3
+_C6290: Room_Assignment_PHY105_9.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 1
+_C6291: Room_Assignment_PHY105_10.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 1
+_C6292: Room_Assignment_PHY105_12.0 + Time_Assignment_PHY105_9:00_9:50_AM <= 2
+_C6293: Room_Assignment_PHY105_1.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 2
+_C6294: Room_Assignment_PHY105_2.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 2
+_C6295: Room_Assignment_PHY105_3.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 1
+_C6296: Room_Assignment_PHY105_4.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 1
+_C6297: Room_Assignment_PHY105_5.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 2
+_C6298: Room_Assignment_PHY105_6.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 1
+_C6299: Room_Assignment_PHY105_7.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 2
+_C63: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT335_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C630: Overlap_COS217_MAT215 <= 1
-_C6300: Room_Assignment_PHY105_8 + Time_Assignment_PHY105_2 <= 1
-_C6301: Room_Assignment_PHY105_9 + Time_Assignment_PHY105_2 <= 1
-_C6302: Room_Assignment_PHY105_10 + Time_Assignment_PHY105_2 <= 1
-_C6303: Room_Assignment_PHY105_12 + Time_Assignment_PHY105_2 <= 1
-_C6304: Room_Assignment_PHY105_1 + Time_Assignment_PHY105_3 <= 2
-_C6305: Room_Assignment_PHY105_2 + Time_Assignment_PHY105_3 <= 2
-_C6306: Room_Assignment_PHY105_3 + Time_Assignment_PHY105_3 <= 2
-_C6307: Room_Assignment_PHY105_4 + Time_Assignment_PHY105_3 <= 1
-_C6308: Room_Assignment_PHY105_5 + Time_Assignment_PHY105_3 <= 2
-_C6309: Room_Assignment_PHY105_6 + Time_Assignment_PHY105_3 <= 1
+_C6300: Room_Assignment_PHY105_8.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 1
+_C6301: Room_Assignment_PHY105_9.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 1
+_C6302: Room_Assignment_PHY105_10.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 1
+_C6303: Room_Assignment_PHY105_12.0 + Time_Assignment_PHY105_10:00_10:50_AM
+ <= 1
+_C6304: Room_Assignment_PHY105_1.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 2
+_C6305: Room_Assignment_PHY105_2.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 2
+_C6306: Room_Assignment_PHY105_3.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 2
+_C6307: Room_Assignment_PHY105_4.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 1
+_C6308: Room_Assignment_PHY105_5.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 2
+_C6309: Room_Assignment_PHY105_6.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 1
 _C631: Overlap_COS217_MAT216 <= 1
-_C6310: Room_Assignment_PHY105_7 + Time_Assignment_PHY105_3 <= 2
-_C6311: Room_Assignment_PHY105_8 + Time_Assignment_PHY105_3 <= 1
-_C6312: Room_Assignment_PHY105_9 + Time_Assignment_PHY105_3 <= 1
-_C6313: Room_Assignment_PHY105_10 + Time_Assignment_PHY105_3 <= 1
-_C6314: Room_Assignment_PHY105_12 + Time_Assignment_PHY105_3 <= 1
-_C6315: Room_Assignment_PHY105_1 + Time_Assignment_PHY105_4 <= 2
-_C6316: Room_Assignment_PHY105_2 + Time_Assignment_PHY105_4 <= 2
-_C6317: Room_Assignment_PHY105_3 + Time_Assignment_PHY105_4 <= 2
-_C6318: Room_Assignment_PHY105_4 + Time_Assignment_PHY105_4 <= 1
-_C6319: Room_Assignment_PHY105_5 + Time_Assignment_PHY105_4 <= 2
+_C6310: Room_Assignment_PHY105_7.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 2
+_C6311: Room_Assignment_PHY105_8.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 1
+_C6312: Room_Assignment_PHY105_9.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 1
+_C6313: Room_Assignment_PHY105_10.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 1
+_C6314: Room_Assignment_PHY105_12.0 + Time_Assignment_PHY105_11:00_11:50_AM
+ <= 1
+_C6315: Room_Assignment_PHY105_1.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 2
+_C6316: Room_Assignment_PHY105_2.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 2
+_C6317: Room_Assignment_PHY105_3.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 2
+_C6318: Room_Assignment_PHY105_4.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 1
+_C6319: Room_Assignment_PHY105_5.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 2
 _C632: Overlap_COS217_MAT217 <= 1
-_C6320: Room_Assignment_PHY105_6 + Time_Assignment_PHY105_4 <= 1
-_C6321: Room_Assignment_PHY105_7 + Time_Assignment_PHY105_4 <= 1
-_C6322: Room_Assignment_PHY105_8 + Time_Assignment_PHY105_4 <= 2
-_C6323: Room_Assignment_PHY105_9 + Time_Assignment_PHY105_4 <= 1
-_C6324: Room_Assignment_PHY105_10 + Time_Assignment_PHY105_4 <= 2
-_C6325: Room_Assignment_PHY105_12 + Time_Assignment_PHY105_4 <= 2
-_C6326: Room_Assignment_PHY105_1 + Time_Assignment_PHY105_5 <= 2
-_C6327: Room_Assignment_PHY105_2 + Time_Assignment_PHY105_5 <= 2
-_C6328: Room_Assignment_PHY105_3 + Time_Assignment_PHY105_5 <= 1
-_C6329: Room_Assignment_PHY105_4 + Time_Assignment_PHY105_5 <= 2
+_C6320: Room_Assignment_PHY105_6.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 1
+_C6321: Room_Assignment_PHY105_7.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 1
+_C6322: Room_Assignment_PHY105_8.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 2
+_C6323: Room_Assignment_PHY105_9.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 1
+_C6324: Room_Assignment_PHY105_10.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 2
+_C6325: Room_Assignment_PHY105_12.0 + Time_Assignment_PHY105_1:30_2:20_PM <= 2
+_C6326: Room_Assignment_PHY105_1.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 2
+_C6327: Room_Assignment_PHY105_2.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 2
+_C6328: Room_Assignment_PHY105_3.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 1
+_C6329: Room_Assignment_PHY105_4.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 2
 _C633: Overlap_COS217_MAT218 <= 1
-_C6330: Room_Assignment_PHY105_5 + Time_Assignment_PHY105_5 <= 2
-_C6331: Room_Assignment_PHY105_6 + Time_Assignment_PHY105_5 <= 2
-_C6332: Room_Assignment_PHY105_7 + Time_Assignment_PHY105_5 <= 1
-_C6333: Room_Assignment_PHY105_8 + Time_Assignment_PHY105_5 <= 1
-_C6334: Room_Assignment_PHY105_9 + Time_Assignment_PHY105_5 <= 2
-_C6335: Room_Assignment_PHY105_10 + Time_Assignment_PHY105_5 <= 2
-_C6336: Room_Assignment_PHY105_12 + Time_Assignment_PHY105_5 <= 2
-_C6337: Room_Assignment_PHY106_11 + Time_Assignment_PHY106_1 <= 1
-_C6338: Room_Assignment_PHY106_19 + Time_Assignment_PHY106_1 <= 2
-_C6339: Room_Assignment_PHY106_21 + Time_Assignment_PHY106_1 <= 2
+_C6330: Room_Assignment_PHY105_5.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 2
+_C6331: Room_Assignment_PHY105_6.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 2
+_C6332: Room_Assignment_PHY105_7.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 1
+_C6333: Room_Assignment_PHY105_8.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 1
+_C6334: Room_Assignment_PHY105_9.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 2
+_C6335: Room_Assignment_PHY105_10.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 2
+_C6336: Room_Assignment_PHY105_12.0 + Time_Assignment_PHY105_2:30_3:20_PM <= 2
+_C6337: Room_Assignment_PHY106_11.0 + Time_Assignment_PHY106_9:00_9:50_AM <= 1
+_C6338: Room_Assignment_PHY106_19.0 + Time_Assignment_PHY106_9:00_9:50_AM <= 2
+_C6339: Room_Assignment_PHY106_21.0 + Time_Assignment_PHY106_9:00_9:50_AM <= 2
 _C634: Overlap_COS217_MAT300 <= 1
-_C6340: Room_Assignment_PHY106_29 + Time_Assignment_PHY106_1 <= 1
-_C6341: Room_Assignment_PHY106_31 + Time_Assignment_PHY106_1 <= 2
-_C6342: Room_Assignment_PHY106_39 + Time_Assignment_PHY106_1 <= 1
-_C6343: Room_Assignment_PHY106_41 + Time_Assignment_PHY106_1 <= 2
-_C6344: Room_Assignment_PHY106_49 + Time_Assignment_PHY106_1 <= 2
-_C6345: Room_Assignment_PHY106_11 + Time_Assignment_PHY106_5 <= 1
-_C6346: Room_Assignment_PHY106_19 + Time_Assignment_PHY106_5 <= 2
-_C6347: Room_Assignment_PHY106_21 + Time_Assignment_PHY106_5 <= 2
-_C6348: Room_Assignment_PHY106_29 + Time_Assignment_PHY106_5 <= 1
-_C6349: Room_Assignment_PHY106_31 + Time_Assignment_PHY106_5 <= 1
+_C6340: Room_Assignment_PHY106_29.0 + Time_Assignment_PHY106_9:00_9:50_AM <= 1
+_C6341: Room_Assignment_PHY106_31.0 + Time_Assignment_PHY106_9:00_9:50_AM <= 2
+_C6342: Room_Assignment_PHY106_39.0 + Time_Assignment_PHY106_9:00_9:50_AM <= 1
+_C6343: Room_Assignment_PHY106_41.0 + Time_Assignment_PHY106_9:00_9:50_AM <= 2
+_C6344: Room_Assignment_PHY106_49.0 + Time_Assignment_PHY106_9:00_9:50_AM <= 2
+_C6345: Room_Assignment_PHY106_11.0 + Time_Assignment_PHY106_2:30_3:20_PM <= 1
+_C6346: Room_Assignment_PHY106_19.0 + Time_Assignment_PHY106_2:30_3:20_PM <= 2
+_C6347: Room_Assignment_PHY106_21.0 + Time_Assignment_PHY106_2:30_3:20_PM <= 2
+_C6348: Room_Assignment_PHY106_29.0 + Time_Assignment_PHY106_2:30_3:20_PM <= 1
+_C6349: Room_Assignment_PHY106_31.0 + Time_Assignment_PHY106_2:30_3:20_PM <= 1
 _C635: Overlap_COS217_MAT325 <= 1
-_C6350: Room_Assignment_PHY106_39 + Time_Assignment_PHY106_5 <= 2
-_C6351: Room_Assignment_PHY106_41 + Time_Assignment_PHY106_5 <= 1
-_C6352: Room_Assignment_PHY106_49 + Time_Assignment_PHY106_5 <= 1
-_C6353: Room_Assignment_PHY208_18 + Time_Assignment_PHY208_2 <= 1
-_C6354: Room_Assignment_PHY208_28 + Time_Assignment_PHY208_2 <= 2
-_C6355: Room_Assignment_PHY208_38 + Time_Assignment_PHY208_2 <= 2
-_C6356: Room_Assignment_PHY208_48 + Time_Assignment_PHY208_2 <= 1
-_C6357: Room_Assignment_PHY208_58 + Time_Assignment_PHY208_2 <= 1
-_C6358: Room_Assignment_PHY208_68 + Time_Assignment_PHY208_2 <= 1
-_C6359: Room_Assignment_PHY208_18 + Time_Assignment_PHY208_4 <= 2
+_C6350: Room_Assignment_PHY106_39.0 + Time_Assignment_PHY106_2:30_3:20_PM <= 2
+_C6351: Room_Assignment_PHY106_41.0 + Time_Assignment_PHY106_2:30_3:20_PM <= 1
+_C6352: Room_Assignment_PHY106_49.0 + Time_Assignment_PHY106_2:30_3:20_PM <= 1
+_C6353: Room_Assignment_PHY208_18.0 + Time_Assignment_PHY208_10:00_10:50_AM
+ <= 1
+_C6354: Room_Assignment_PHY208_28.0 + Time_Assignment_PHY208_10:00_10:50_AM
+ <= 2
+_C6355: Room_Assignment_PHY208_38.0 + Time_Assignment_PHY208_10:00_10:50_AM
+ <= 2
+_C6356: Room_Assignment_PHY208_48.0 + Time_Assignment_PHY208_10:00_10:50_AM
+ <= 1
+_C6357: Room_Assignment_PHY208_58.0 + Time_Assignment_PHY208_10:00_10:50_AM
+ <= 1
+_C6358: Room_Assignment_PHY208_68.0 + Time_Assignment_PHY208_10:00_10:50_AM
+ <= 1
+_C6359: Room_Assignment_PHY208_18.0 + Time_Assignment_PHY208_1:30_2:20_PM <= 2
 _C636: Overlap_COS217_MAT335 <= 1
-_C6360: Room_Assignment_PHY208_28 + Time_Assignment_PHY208_4 <= 2
-_C6361: Room_Assignment_PHY208_38 + Time_Assignment_PHY208_4 <= 2
-_C6362: Room_Assignment_PHY208_48 + Time_Assignment_PHY208_4 <= 2
-_C6363: Room_Assignment_PHY208_58 + Time_Assignment_PHY208_4 <= 1
-_C6364: Room_Assignment_PHY208_68 + Time_Assignment_PHY208_4 <= 2
-_C6365: Room_Assignment_PHY208_18 + Time_Assignment_PHY208_5 <= 2
-_C6366: Room_Assignment_PHY208_28 + Time_Assignment_PHY208_5 <= 2
-_C6367: Room_Assignment_PHY208_38 + Time_Assignment_PHY208_5 <= 2
-_C6368: Room_Assignment_PHY208_48 + Time_Assignment_PHY208_5 <= 2
-_C6369: Room_Assignment_PHY208_58 + Time_Assignment_PHY208_5 <= 1
+_C6360: Room_Assignment_PHY208_28.0 + Time_Assignment_PHY208_1:30_2:20_PM <= 2
+_C6361: Room_Assignment_PHY208_38.0 + Time_Assignment_PHY208_1:30_2:20_PM <= 2
+_C6362: Room_Assignment_PHY208_48.0 + Time_Assignment_PHY208_1:30_2:20_PM <= 2
+_C6363: Room_Assignment_PHY208_58.0 + Time_Assignment_PHY208_1:30_2:20_PM <= 1
+_C6364: Room_Assignment_PHY208_68.0 + Time_Assignment_PHY208_1:30_2:20_PM <= 2
+_C6365: Room_Assignment_PHY208_18.0 + Time_Assignment_PHY208_2:30_3:20_PM <= 2
+_C6366: Room_Assignment_PHY208_28.0 + Time_Assignment_PHY208_2:30_3:20_PM <= 2
+_C6367: Room_Assignment_PHY208_38.0 + Time_Assignment_PHY208_2:30_3:20_PM <= 2
+_C6368: Room_Assignment_PHY208_48.0 + Time_Assignment_PHY208_2:30_3:20_PM <= 2
+_C6369: Room_Assignment_PHY208_58.0 + Time_Assignment_PHY208_2:30_3:20_PM <= 1
 _C637: Overlap_COS217_MAT370 <= 1
-_C6370: Room_Assignment_PHY208_68 + Time_Assignment_PHY208_5 <= 1
-_C6371: Room_Assignment_REL100_9 + Time_Assignment_REL100_3 <= 1
-_C6372: Room_Assignment_REL100_51 + Time_Assignment_REL100_3 <= 1
-_C6373: Room_Assignment_REL100_54 + Time_Assignment_REL100_3 <= 2
-_C6374: Room_Assignment_REL100_65 + Time_Assignment_REL100_3 <= 2
-_C6375: Room_Assignment_REL100_24 + Time_Assignment_REL100_3 <= 2
-_C6376: Room_Assignment_REL100_43 + Time_Assignment_REL100_3 <= 2
-_C6377: Room_Assignment_REL100_61 + Time_Assignment_REL100_3 <= 2
-_C6378: Room_Assignment_REL232_43 + Time_Assignment_REL232_4 <= 2
-_C6379: Room_Assignment_REL232_44 + Time_Assignment_REL232_4 <= 2
+_C6370: Room_Assignment_PHY208_68.0 + Time_Assignment_PHY208_2:30_3:20_PM <= 1
+_C6371: Room_Assignment_REL100_9.0 + Time_Assignment_REL100_11:00_11:50_AM
+ <= 1
+_C6372: Room_Assignment_REL100_51.0 + Time_Assignment_REL100_11:00_11:50_AM
+ <= 1
+_C6373: Room_Assignment_REL100_54.0 + Time_Assignment_REL100_11:00_11:50_AM
+ <= 2
+_C6374: Room_Assignment_REL100_65.0 + Time_Assignment_REL100_11:00_11:50_AM
+ <= 2
+_C6375: Room_Assignment_REL100_24.0 + Time_Assignment_REL100_11:00_11:50_AM
+ <= 2
+_C6376: Room_Assignment_REL100_43.0 + Time_Assignment_REL100_11:00_11:50_AM
+ <= 2
+_C6377: Room_Assignment_REL100_61.0 + Time_Assignment_REL100_11:00_11:50_AM
+ <= 2
+_C6378: Room_Assignment_REL232_43.0 + Time_Assignment_REL232_1:30_2:20_PM <= 2
+_C6379: Room_Assignment_REL232_44.0 + Time_Assignment_REL232_1:30_2:20_PM <= 2
 _C638: Overlap_COS217_MAT377 <= 1
-_C6380: Room_Assignment_REL232_45 + Time_Assignment_REL232_4 <= 2
-_C6381: Room_Assignment_REL232_46 + Time_Assignment_REL232_4 <= 2
-_C6382: Room_Assignment_REL232_47 + Time_Assignment_REL232_4 <= 2
-_C6383: Room_Assignment_REL232_49 + Time_Assignment_REL232_4 <= 2
-_C6384: Room_Assignment_REL232_43 + Time_Assignment_REL232_5 <= 1
-_C6385: Room_Assignment_REL232_44 + Time_Assignment_REL232_5 <= 2
-_C6386: Room_Assignment_REL232_45 + Time_Assignment_REL232_5 <= 2
-_C6387: Room_Assignment_REL232_46 + Time_Assignment_REL232_5 <= 2
-_C6388: Room_Assignment_REL232_47 + Time_Assignment_REL232_5 <= 1
-_C6389: Room_Assignment_REL232_49 + Time_Assignment_REL232_5 <= 1
+_C6380: Room_Assignment_REL232_45.0 + Time_Assignment_REL232_1:30_2:20_PM <= 2
+_C6381: Room_Assignment_REL232_46.0 + Time_Assignment_REL232_1:30_2:20_PM <= 2
+_C6382: Room_Assignment_REL232_47.0 + Time_Assignment_REL232_1:30_2:20_PM <= 2
+_C6383: Room_Assignment_REL232_49.0 + Time_Assignment_REL232_1:30_2:20_PM <= 2
+_C6384: Room_Assignment_REL232_43.0 + Time_Assignment_REL232_2:30_3:20_PM <= 1
+_C6385: Room_Assignment_REL232_44.0 + Time_Assignment_REL232_2:30_3:20_PM <= 2
+_C6386: Room_Assignment_REL232_45.0 + Time_Assignment_REL232_2:30_3:20_PM <= 2
+_C6387: Room_Assignment_REL232_46.0 + Time_Assignment_REL232_2:30_3:20_PM <= 2
+_C6388: Room_Assignment_REL232_47.0 + Time_Assignment_REL232_2:30_3:20_PM <= 1
+_C6389: Room_Assignment_REL232_49.0 + Time_Assignment_REL232_2:30_3:20_PM <= 1
 _C639: Overlap_COS217_MAT385 <= 1
-_C6390: Room_Assignment_SML201_31 + Time_Assignment_SML201_1 <= 2
-_C6391: Room_Assignment_SML201_33 + Time_Assignment_SML201_1 <= 1
-_C6392: Room_Assignment_SML201_52 + Time_Assignment_SML201_1 <= 1
-_C6393: Room_Assignment_SML201_62 + Time_Assignment_SML201_1 <= 1
-_C6394: Room_Assignment_SML201_43 + Time_Assignment_SML201_1 <= 1
-_C6395: Room_Assignment_SML201_31 + Time_Assignment_SML201_5 <= 1
-_C6396: Room_Assignment_SML201_33 + Time_Assignment_SML201_5 <= 1
-_C6397: Room_Assignment_SML201_52 + Time_Assignment_SML201_5 <= 1
-_C6398: Room_Assignment_SML201_62 + Time_Assignment_SML201_5 <= 1
-_C6399: Room_Assignment_SML201_43 + Time_Assignment_SML201_5 <= 1
-_C64: Room_Assignment_AAS201_3 + Room_Assignment_MAT335_3
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT335_1 <= 3
-_C640: Room_Assignment_COS217_6 + Room_Assignment_MAT385_6
- + Time_Assignment_COS217_3 + Time_Assignment_MAT385_3 <= 3
-_C6400: Room_Assignment_URB201_56 + Time_Assignment_URB201_2 <= 2
-_C6401: Room_Assignment_URB201_36 + Time_Assignment_URB201_2 <= 2
-_C6402: Room_Assignment_URB201_31 + Time_Assignment_URB201_2 <= 2
-_C6403: Room_Assignment_URB201_56 + Time_Assignment_URB201_4 <= 2
-_C6404: Room_Assignment_URB201_36 + Time_Assignment_URB201_4 <= 1
-_C6405: Room_Assignment_URB201_31 + Time_Assignment_URB201_4 <= 1
-_C6406: Room_Assignment_URB201_56 + Time_Assignment_URB201_5 <= 1
-_C6407: Room_Assignment_URB201_36 + Time_Assignment_URB201_5 <= 1
-_C6408: Room_Assignment_URB201_31 + Time_Assignment_URB201_5 <= 1
-_C641: Room_Assignment_COS217_7 + Room_Assignment_MAT385_7
- + Time_Assignment_COS217_3 + Time_Assignment_MAT385_3 <= 3
+_C6390: Room_Assignment_SML201_31.0 + Time_Assignment_SML201_9:00_9:50_AM <= 2
+_C6391: Room_Assignment_SML201_33.0 + Time_Assignment_SML201_9:00_9:50_AM <= 1
+_C6392: Room_Assignment_SML201_52.0 + Time_Assignment_SML201_9:00_9:50_AM <= 1
+_C6393: Room_Assignment_SML201_62.0 + Time_Assignment_SML201_9:00_9:50_AM <= 1
+_C6394: Room_Assignment_SML201_43.0 + Time_Assignment_SML201_9:00_9:50_AM <= 1
+_C6395: Room_Assignment_SML201_31.0 + Time_Assignment_SML201_2:30_3:20_PM <= 1
+_C6396: Room_Assignment_SML201_33.0 + Time_Assignment_SML201_2:30_3:20_PM <= 1
+_C6397: Room_Assignment_SML201_52.0 + Time_Assignment_SML201_2:30_3:20_PM <= 1
+_C6398: Room_Assignment_SML201_62.0 + Time_Assignment_SML201_2:30_3:20_PM <= 1
+_C6399: Room_Assignment_SML201_43.0 + Time_Assignment_SML201_2:30_3:20_PM <= 1
+_C64: Room_Assignment_AAS201_3.0 + Room_Assignment_MAT335_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
+_C640: Room_Assignment_COS217_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C6400: Room_Assignment_URB201_56.0 + Time_Assignment_URB201_10:00_10:50_AM
+ <= 2
+_C6401: Room_Assignment_URB201_36.0 + Time_Assignment_URB201_10:00_10:50_AM
+ <= 2
+_C6402: Room_Assignment_URB201_31.0 + Time_Assignment_URB201_10:00_10:50_AM
+ <= 2
+_C6403: Room_Assignment_URB201_56.0 + Time_Assignment_URB201_1:30_2:20_PM <= 2
+_C6404: Room_Assignment_URB201_36.0 + Time_Assignment_URB201_1:30_2:20_PM <= 1
+_C6405: Room_Assignment_URB201_31.0 + Time_Assignment_URB201_1:30_2:20_PM <= 1
+_C6406: Room_Assignment_URB201_56.0 + Time_Assignment_URB201_2:30_3:20_PM <= 1
+_C6407: Room_Assignment_URB201_36.0 + Time_Assignment_URB201_2:30_3:20_PM <= 1
+_C6408: Room_Assignment_URB201_31.0 + Time_Assignment_URB201_2:30_3:20_PM <= 1
+_C641: Room_Assignment_COS217_7.0 + Room_Assignment_MAT385_7.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C642: Overlap_COS217_MAT400 <= 1
 _C643: Overlap_COS217_ORF245 <= 1
-_C644: Room_Assignment_COS217_7 + Room_Assignment_ORF245_7
- + Time_Assignment_COS217_3 + Time_Assignment_ORF245_3 <= 3
+_C644: Room_Assignment_COS217_7.0 + Room_Assignment_ORF245_7.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
 _C645: Overlap_COS217_ORF307 <= 1
 _C646: Overlap_COS217_ORF309 <= 1
-_C647: Room_Assignment_COS217_73 + Room_Assignment_ORF309_73
- + Time_Assignment_COS217_3 + Time_Assignment_ORF309_3 <= 3
+_C647: Room_Assignment_COS217_73.0 + Room_Assignment_ORF309_73.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
 _C648: Overlap_COS217_ORF350 <= 1
-_C649: Room_Assignment_COS217_6 + Room_Assignment_ORF350_6
- + Time_Assignment_COS217_3 + Time_Assignment_ORF350_3 <= 3
-_C65: Room_Assignment_AAS201_4 + Room_Assignment_MAT335_4
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT335_1 <= 3
+_C649: Room_Assignment_COS217_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
+_C65: Room_Assignment_AAS201_4.0 + Room_Assignment_MAT335_4.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C650: Overlap_COS217_ORF363 <= 1
 _C651: Overlap_COS217_ORF445 <= 1
 _C652: Overlap_COS217_PHY103 <= 1
-_C653: Room_Assignment_COS217_74 + Room_Assignment_PHY103_74
- + Time_Assignment_COS217_3 + Time_Assignment_PHY103_3 <= 3
+_C653: Room_Assignment_COS217_74.0 + Room_Assignment_PHY103_74.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
 _C654: Overlap_COS217_PHY104 <= 1
 _C655: Overlap_COS217_PHY105 <= 1
-_C656: Room_Assignment_COS217_6 + Room_Assignment_PHY105_6
- + Time_Assignment_COS217_3 + Time_Assignment_PHY105_3 <= 3
-_C657: Room_Assignment_COS217_7 + Room_Assignment_PHY105_7
- + Time_Assignment_COS217_3 + Time_Assignment_PHY105_3 <= 3
+_C656: Room_Assignment_COS217_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C657: Room_Assignment_COS217_7.0 + Room_Assignment_PHY105_7.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C658: Overlap_COS217_PHY106 <= 1
 _C659: Overlap_COS217_PHY208 <= 1
-_C66: Room_Assignment_AAS201_5 + Room_Assignment_MAT335_5
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT335_1 <= 3
+_C66: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT335_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT335_9:00_9:50_AM
+ <= 3
 _C660: Overlap_COS217_REL100 <= 1
 _C661: Overlap_COS217_REL232 <= 1
 _C662: Overlap_COS217_SML201 <= 1
 _C663: Overlap_COS217_URB201 <= 1
 _C664: Overlap_COS333_AAS201 <= 1
 _C665: Overlap_COS333_ASA203 <= 1
-_C666: Room_Assignment_ASA203_3 + Room_Assignment_COS333_3
- + Time_Assignment_ASA203_4 + Time_Assignment_COS333_4 <= 3
-_C667: Room_Assignment_ASA203_21 + Room_Assignment_COS333_21
- + Time_Assignment_ASA203_4 + Time_Assignment_COS333_4 <= 3
+_C666: Room_Assignment_ASA203_3.0 + Room_Assignment_COS333_3.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_COS333_1:30_2:20_PM
+ <= 3
+_C667: Room_Assignment_ASA203_21.0 + Room_Assignment_COS333_21.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_COS333_1:30_2:20_PM
+ <= 3
 _C668: Overlap_COS333_ASA238 <= 1
-_C669: Room_Assignment_ASA238_3 + Room_Assignment_COS333_3
- + Time_Assignment_ASA238_4 + Time_Assignment_COS333_4 <= 3
+_C669: Room_Assignment_ASA238_3.0 + Room_Assignment_COS333_3.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_COS333_1:30_2:20_PM
+ <= 3
 _C67: Overlap_AAS201_MAT370 <= 1
-_C670: Room_Assignment_ASA238_65 + Room_Assignment_COS333_65
- + Time_Assignment_ASA238_4 + Time_Assignment_COS333_4 <= 3
+_C670: Room_Assignment_ASA238_65.0 + Room_Assignment_COS333_65.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_COS333_1:30_2:20_PM
+ <= 3
 _C671: Overlap_COS333_COS126 <= 1
 _C672: Overlap_COS333_COS226 <= 1
 _C673: Overlap_COS333_COS217 <= 1
 _C674: Overlap_COS333_COS342 <= 1
 _C675: Overlap_COS333_COS423 <= 1
 _C676: Overlap_COS333_COS432 <= 1
-_C677: Room_Assignment_COS333_20 + Room_Assignment_COS432_20
- + Time_Assignment_COS333_4 + Time_Assignment_COS432_4 <= 3
+_C677: Room_Assignment_COS333_20.0 + Room_Assignment_COS432_20.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_COS432_1:30_2:20_PM
+ <= 3
 _C678: Overlap_COS333_COS484 <= 1
 _C679: Overlap_COS333_COS522 <= 1
-_C68: Room_Assignment_AAS201_2 + Room_Assignment_MAT370_2
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT370_1 <= 3
+_C68: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT370_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT370_9:00_9:50_AM
+ <= 3
 _C680: Overlap_COS333_COS528 <= 1
 _C681: Overlap_COS333_ECO100 <= 1
 _C682: Overlap_COS333_ECO102 <= 1
 _C683: Overlap_COS333_ECO202 <= 1
-_C684: Room_Assignment_COS333_20 + Room_Assignment_ECO202_20
- + Time_Assignment_COS333_4 + Time_Assignment_ECO202_4 <= 3
-_C685: Room_Assignment_COS333_21 + Room_Assignment_ECO202_21
- + Time_Assignment_COS333_4 + Time_Assignment_ECO202_4 <= 3
-_C686: Room_Assignment_COS333_22 + Room_Assignment_ECO202_22
- + Time_Assignment_COS333_4 + Time_Assignment_ECO202_4 <= 3
+_C684: Room_Assignment_COS333_20.0 + Room_Assignment_ECO202_20.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
+_C685: Room_Assignment_COS333_21.0 + Room_Assignment_ECO202_21.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
+_C686: Room_Assignment_COS333_22.0 + Room_Assignment_ECO202_22.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
 _C687: Overlap_COS333_ECO300 <= 1
 _C688: Overlap_COS333_ECO301 <= 1
-_C689: Room_Assignment_COS333_3 + Room_Assignment_ECO301_3
- + Time_Assignment_COS333_4 + Time_Assignment_ECO301_4 <= 3
+_C689: Room_Assignment_COS333_3.0 + Room_Assignment_ECO301_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ECO301_1:30_2:20_PM
+ <= 3
 _C69: Overlap_AAS201_MAT377 <= 1
 _C690: Overlap_COS333_ECO302 <= 1
 _C691: Overlap_COS333_ECO310 <= 1
 _C692: Overlap_COS333_ECO312 <= 1
 _C693: Overlap_COS333_GER101 <= 1
 _C694: Overlap_COS333_GER103 <= 1
-_C695: Room_Assignment_COS333_3 + Room_Assignment_GER103_3
- + Time_Assignment_COS333_4 + Time_Assignment_GER103_4 <= 3
+_C695: Room_Assignment_COS333_3.0 + Room_Assignment_GER103_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C696: Overlap_COS333_GER105 <= 1
-_C697: Room_Assignment_COS333_3 + Room_Assignment_GER105_3
- + Time_Assignment_COS333_4 + Time_Assignment_GER105_4 <= 3
+_C697: Room_Assignment_COS333_3.0 + Room_Assignment_GER105_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_GER105_1:30_2:20_PM
+ <= 3
 _C698: Overlap_COS333_GER107 <= 1
 _C699: Overlap_COS333_LIN201 <= 1
 _C7: Overlap_AAS201_COS126 <= 1
-_C70: Room_Assignment_AAS201_2 + Room_Assignment_MAT377_2
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT377_1 <= 3
+_C70: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C700: Overlap_COS333_LIN300 <= 1
 _C701: Overlap_COS333_MAT103 <= 1
 _C702: Overlap_COS333_MAT104 <= 1
 _C703: Overlap_COS333_MAT201 <= 1
-_C704: Room_Assignment_COS333_3 + Room_Assignment_MAT201_3
- + Time_Assignment_COS333_4 + Time_Assignment_MAT201_4 <= 3
+_C704: Room_Assignment_COS333_3.0 + Room_Assignment_MAT201_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C705: Overlap_COS333_MAT202 <= 1
 _C706: Overlap_COS333_MAT203 <= 1
 _C707: Overlap_COS333_MAT204 <= 1
 _C708: Overlap_COS333_MAT215 <= 1
 _C709: Overlap_COS333_MAT216 <= 1
-_C71: Room_Assignment_AAS201_4 + Room_Assignment_MAT377_4
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT377_1 <= 3
+_C71: Room_Assignment_AAS201_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
 _C710: Overlap_COS333_MAT217 <= 1
-_C711: Room_Assignment_COS333_3 + Room_Assignment_MAT217_3
- + Time_Assignment_COS333_4 + Time_Assignment_MAT217_4 <= 3
+_C711: Room_Assignment_COS333_3.0 + Room_Assignment_MAT217_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C712: Overlap_COS333_MAT218 <= 1
 _C713: Overlap_COS333_MAT300 <= 1
 _C714: Overlap_COS333_MAT325 <= 1
@@ -10166,37 +12530,45 @@ _C716: Overlap_COS333_MAT370 <= 1
 _C717: Overlap_COS333_MAT377 <= 1
 _C718: Overlap_COS333_MAT385 <= 1
 _C719: Overlap_COS333_MAT400 <= 1
-_C72: Room_Assignment_AAS201_5 + Room_Assignment_MAT377_5
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT377_1 <= 3
-_C720: Room_Assignment_COS333_65 + Room_Assignment_MAT400_65
- + Time_Assignment_COS333_4 + Time_Assignment_MAT400_4 <= 3
+_C72: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT377_9:00_9:50_AM
+ <= 3
+_C720: Room_Assignment_COS333_65.0 + Room_Assignment_MAT400_65.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C721: Overlap_COS333_ORF245 <= 1
-_C722: Room_Assignment_COS333_65 + Room_Assignment_ORF245_65
- + Time_Assignment_COS333_4 + Time_Assignment_ORF245_4 <= 3
+_C722: Room_Assignment_COS333_65.0 + Room_Assignment_ORF245_65.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
 _C723: Overlap_COS333_ORF307 <= 1
-_C724: Room_Assignment_COS333_20 + Room_Assignment_ORF307_20
- + Time_Assignment_COS333_4 + Time_Assignment_ORF307_4 <= 3
+_C724: Room_Assignment_COS333_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C725: Overlap_COS333_ORF309 <= 1
 _C726: Overlap_COS333_ORF350 <= 1
 _C727: Overlap_COS333_ORF363 <= 1
-_C728: Room_Assignment_COS333_21 + Room_Assignment_ORF363_21
- + Time_Assignment_COS333_4 + Time_Assignment_ORF363_4 <= 3
+_C728: Room_Assignment_COS333_21.0 + Room_Assignment_ORF363_21.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C729: Overlap_COS333_ORF445 <= 1
-_C73: Room_Assignment_AAS201_2 + Room_Assignment_MAT377_2
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT377_2 <= 3
+_C73: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT377_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C730: Overlap_COS333_PHY103 <= 1
 _C731: Overlap_COS333_PHY104 <= 1
 _C732: Overlap_COS333_PHY105 <= 1
-_C733: Room_Assignment_COS333_3 + Room_Assignment_PHY105_3
- + Time_Assignment_COS333_4 + Time_Assignment_PHY105_4 <= 3
+_C733: Room_Assignment_COS333_3.0 + Room_Assignment_PHY105_3.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
 _C734: Overlap_COS333_PHY106 <= 1
 _C735: Overlap_COS333_PHY208 <= 1
 _C736: Overlap_COS333_REL100 <= 1
 _C737: Overlap_COS333_REL232 <= 1
 _C738: Overlap_COS333_SML201 <= 1
 _C739: Overlap_COS333_URB201 <= 1
-_C74: Room_Assignment_AAS201_4 + Room_Assignment_MAT377_4
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT377_2 <= 3
+_C74: Room_Assignment_AAS201_4.0 + Room_Assignment_MAT377_4.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C740: Overlap_COS342_AAS201 <= 1
 _C741: Overlap_COS342_ASA203 <= 1
 _C742: Overlap_COS342_ASA238 <= 1
@@ -10207,11 +12579,13 @@ _C746: Overlap_COS342_COS333 <= 1
 _C747: Overlap_COS342_COS423 <= 1
 _C748: Overlap_COS342_COS432 <= 1
 _C749: Overlap_COS342_COS484 <= 1
-_C75: Room_Assignment_AAS201_5 + Room_Assignment_MAT377_5
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT377_2 <= 3
+_C75: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT377_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT377_10:00_10:50_AM <= 3
 _C750: Overlap_COS342_COS522 <= 1
-_C751: Room_Assignment_COS342_40 + Room_Assignment_COS522_40
- + Time_Assignment_COS342_5 + Time_Assignment_COS522_5 <= 3
+_C751: Room_Assignment_COS342_40.0 + Room_Assignment_COS522_40.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_COS522_2:30_3:20_PM
+ <= 3
 _C752: Overlap_COS342_COS528 <= 1
 _C753: Overlap_COS342_ECO100 <= 1
 _C754: Overlap_COS342_ECO102 <= 1
@@ -10222,8 +12596,9 @@ _C758: Overlap_COS342_ECO302 <= 1
 _C759: Overlap_COS342_ECO310 <= 1
 _C76: Overlap_AAS201_MAT385 <= 1
 _C760: Overlap_COS342_ECO312 <= 1
-_C761: Room_Assignment_COS342_42 + Room_Assignment_ECO312_42
- + Time_Assignment_COS342_5 + Time_Assignment_ECO312_5 <= 3
+_C761: Room_Assignment_COS342_42.0 + Room_Assignment_ECO312_42.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_ECO312_2:30_3:20_PM
+ <= 3
 _C762: Overlap_COS342_GER101 <= 1
 _C763: Overlap_COS342_GER103 <= 1
 _C764: Overlap_COS342_GER105 <= 1
@@ -10232,8 +12607,9 @@ _C766: Overlap_COS342_LIN201 <= 1
 _C767: Overlap_COS342_LIN300 <= 1
 _C768: Overlap_COS342_MAT103 <= 1
 _C769: Overlap_COS342_MAT104 <= 1
-_C77: Room_Assignment_AAS201_2 + Room_Assignment_MAT385_2
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT385_1 <= 3
+_C77: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C770: Overlap_COS342_MAT201 <= 1
 _C771: Overlap_COS342_MAT202 <= 1
 _C772: Overlap_COS342_MAT203 <= 1
@@ -10244,8 +12620,9 @@ _C776: Overlap_COS342_MAT217 <= 1
 _C777: Overlap_COS342_MAT218 <= 1
 _C778: Overlap_COS342_MAT300 <= 1
 _C779: Overlap_COS342_MAT325 <= 1
-_C78: Room_Assignment_AAS201_3 + Room_Assignment_MAT385_3
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT385_1 <= 3
+_C78: Room_Assignment_AAS201_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
 _C780: Overlap_COS342_MAT335 <= 1
 _C781: Overlap_COS342_MAT370 <= 1
 _C782: Overlap_COS342_MAT377 <= 1
@@ -10253,28 +12630,34 @@ _C783: Overlap_COS342_MAT385 <= 1
 _C784: Overlap_COS342_MAT400 <= 1
 _C785: Overlap_COS342_ORF245 <= 1
 _C786: Overlap_COS342_ORF307 <= 1
-_C787: Room_Assignment_COS342_40 + Room_Assignment_ORF307_40
- + Time_Assignment_COS342_5 + Time_Assignment_ORF307_5 <= 3
+_C787: Room_Assignment_COS342_40.0 + Room_Assignment_ORF307_40.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_ORF307_2:30_3:20_PM
+ <= 3
 _C788: Overlap_COS342_ORF309 <= 1
 _C789: Overlap_COS342_ORF350 <= 1
-_C79: Room_Assignment_AAS201_5 + Room_Assignment_MAT385_5
- + Time_Assignment_AAS201_1 + Time_Assignment_MAT385_1 <= 3
-_C790: Room_Assignment_COS342_9 + Room_Assignment_ORF350_9
- + Time_Assignment_COS342_5 + Time_Assignment_ORF350_5 <= 3
+_C79: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_MAT385_9:00_9:50_AM
+ <= 3
+_C790: Room_Assignment_COS342_9.0 + Room_Assignment_ORF350_9.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_ORF350_2:30_3:20_PM
+ <= 3
 _C791: Overlap_COS342_ORF363 <= 1
 _C792: Overlap_COS342_ORF445 <= 1
 _C793: Overlap_COS342_PHY103 <= 1
 _C794: Overlap_COS342_PHY104 <= 1
 _C795: Overlap_COS342_PHY105 <= 1
-_C796: Room_Assignment_COS342_9 + Room_Assignment_PHY105_9
- + Time_Assignment_COS342_5 + Time_Assignment_PHY105_5 <= 3
+_C796: Room_Assignment_COS342_9.0 + Room_Assignment_PHY105_9.0
+ + Time_Assignment_COS342_2:30_3:20_PM + Time_Assignment_PHY105_2:30_3:20_PM
+ <= 3
 _C797: Overlap_COS342_PHY106 <= 1
 _C798: Overlap_COS342_PHY208 <= 1
 _C799: Overlap_COS342_REL100 <= 1
-_C8: Room_Assignment_AAS201_1 + Room_Assignment_COS126_1
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
-_C80: Room_Assignment_AAS201_2 + Room_Assignment_MAT385_2
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT385_2 <= 3
+_C8: Room_Assignment_AAS201_1.0 + Room_Assignment_COS126_1.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
+_C80: Room_Assignment_AAS201_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C800: Overlap_COS342_REL232 <= 1
 _C801: Overlap_COS342_SML201 <= 1
 _C802: Overlap_COS342_URB201 <= 1
@@ -10285,8 +12668,9 @@ _C806: Overlap_COS423_COS126 <= 1
 _C807: Overlap_COS423_COS226 <= 1
 _C808: Overlap_COS423_COS217 <= 1
 _C809: Overlap_COS423_COS333 <= 1
-_C81: Room_Assignment_AAS201_3 + Room_Assignment_MAT385_3
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT385_2 <= 3
+_C81: Room_Assignment_AAS201_3.0 + Room_Assignment_MAT385_3.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
 _C810: Overlap_COS423_COS342 <= 1
 _C811: Overlap_COS423_COS432 <= 1
 _C812: Overlap_COS423_COS484 <= 1
@@ -10296,12 +12680,15 @@ _C815: Overlap_COS423_ECO100 <= 1
 _C816: Overlap_COS423_ECO102 <= 1
 _C817: Overlap_COS423_ECO202 <= 1
 _C818: Overlap_COS423_ECO300 <= 1
-_C819: Room_Assignment_COS423_51 + Room_Assignment_ECO300_51
- + Time_Assignment_COS423_3 + Time_Assignment_ECO300_3 <= 3
-_C82: Room_Assignment_AAS201_5 + Room_Assignment_MAT385_5
- + Time_Assignment_AAS201_2 + Time_Assignment_MAT385_2 <= 3
-_C820: Room_Assignment_COS423_55 + Room_Assignment_ECO300_55
- + Time_Assignment_COS423_3 + Time_Assignment_ECO300_3 <= 3
+_C819: Room_Assignment_COS423_51.0 + Room_Assignment_ECO300_51
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
+_C82: Room_Assignment_AAS201_5.0 + Room_Assignment_MAT385_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_MAT385_10:00_10:50_AM <= 3
+_C820: Room_Assignment_COS423_55.0 + Room_Assignment_ECO300_55
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ECO300_11:00_11:50_AM <= 3
 _C821: Overlap_COS423_ECO301 <= 1
 _C822: Overlap_COS423_ECO302 <= 1
 _C823: Overlap_COS423_ECO310 <= 1
@@ -10312,21 +12699,27 @@ _C827: Overlap_COS423_GER105 <= 1
 _C828: Overlap_COS423_GER107 <= 1
 _C829: Overlap_COS423_LIN201 <= 1
 _C83: Overlap_AAS201_MAT400 <= 1
-_C830: Room_Assignment_COS423_51 + Room_Assignment_LIN201_51
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
-_C831: Room_Assignment_COS423_52 + Room_Assignment_LIN201_52
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
-_C832: Room_Assignment_COS423_53 + Room_Assignment_LIN201_53
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
-_C833: Room_Assignment_COS423_54 + Room_Assignment_LIN201_54
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
-_C834: Room_Assignment_COS423_55 + Room_Assignment_LIN201_55
- + Time_Assignment_COS423_4 + Time_Assignment_LIN201_4 <= 3
+_C830: Room_Assignment_COS423_51.0 + Room_Assignment_LIN201_51.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C831: Room_Assignment_COS423_52.0 + Room_Assignment_LIN201_52.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C832: Room_Assignment_COS423_53.0 + Room_Assignment_LIN201_53.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C833: Room_Assignment_COS423_54.0 + Room_Assignment_LIN201_54.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
+_C834: Room_Assignment_COS423_55.0 + Room_Assignment_LIN201_55.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_LIN201_1:30_2:20_PM
+ <= 3
 _C835: Overlap_COS423_LIN300 <= 1
 _C836: Overlap_COS423_MAT103 <= 1
 _C837: Overlap_COS423_MAT104 <= 1
-_C838: Room_Assignment_COS423_54 + Room_Assignment_MAT104_54
- + Time_Assignment_COS423_5 + Time_Assignment_MAT104_5 <= 3
+_C838: Room_Assignment_COS423_54.0 + Room_Assignment_MAT104_54.0
+ + Time_Assignment_COS423_2:30_3:20_PM + Time_Assignment_MAT104_2:30_3:20_PM
+ <= 3
 _C839: Overlap_COS423_MAT201 <= 1
 _C84: Overlap_AAS201_ORF245 <= 1
 _C840: Overlap_COS423_MAT202 <= 1
@@ -10341,95 +12734,121 @@ _C848: Overlap_COS423_MAT325 <= 1
 _C849: Overlap_COS423_MAT335 <= 1
 _C85: Overlap_AAS201_ORF307 <= 1
 _C850: Overlap_COS423_MAT370 <= 1
-_C851: Room_Assignment_COS423_53 + Room_Assignment_MAT370_53
- + Time_Assignment_COS423_5 + Time_Assignment_MAT370_5 <= 3
+_C851: Room_Assignment_COS423_53.0 + Room_Assignment_MAT370_53.0
+ + Time_Assignment_COS423_2:30_3:20_PM + Time_Assignment_MAT370_2:30_3:20_PM
+ <= 3
 _C852: Overlap_COS423_MAT377 <= 1
 _C853: Overlap_COS423_MAT385 <= 1
 _C854: Overlap_COS423_MAT400 <= 1
-_C855: Room_Assignment_COS423_54 + Room_Assignment_MAT400_54
- + Time_Assignment_COS423_3 + Time_Assignment_MAT400_3 <= 3
-_C856: Room_Assignment_COS423_54 + Room_Assignment_MAT400_54
- + Time_Assignment_COS423_4 + Time_Assignment_MAT400_4 <= 3
+_C855: Room_Assignment_COS423_54.0 + Room_Assignment_MAT400_54.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_MAT400_11:00_11:50_AM <= 3
+_C856: Room_Assignment_COS423_54.0 + Room_Assignment_MAT400_54.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_MAT400_1:30_2:20_PM
+ <= 3
 _C857: Overlap_COS423_ORF245 <= 1
 _C858: Overlap_COS423_ORF307 <= 1
 _C859: Overlap_COS423_ORF309 <= 1
-_C86: Room_Assignment_AAS201_5 + Room_Assignment_ORF307_5
- + Time_Assignment_AAS201_2 + Time_Assignment_ORF307_2 <= 3
-_C860: Room_Assignment_COS423_53 + Room_Assignment_ORF309_53
- + Time_Assignment_COS423_3 + Time_Assignment_ORF309_3 <= 3
-_C861: Room_Assignment_COS423_53 + Room_Assignment_ORF309_53
- + Time_Assignment_COS423_4 + Time_Assignment_ORF309_4 <= 3
-_C862: Room_Assignment_COS423_53 + Room_Assignment_ORF309_53
- + Time_Assignment_COS423_5 + Time_Assignment_ORF309_5 <= 3
+_C86: Room_Assignment_AAS201_5.0 + Room_Assignment_ORF307_5.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_ORF307_10:00_10:50_AM <= 3
+_C860: Room_Assignment_COS423_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ORF309_11:00_11:50_AM <= 3
+_C861: Room_Assignment_COS423_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_ORF309_1:30_2:20_PM
+ <= 3
+_C862: Room_Assignment_COS423_53.0 + Room_Assignment_ORF309_53.0
+ + Time_Assignment_COS423_2:30_3:20_PM + Time_Assignment_ORF309_2:30_3:20_PM
+ <= 3
 _C863: Overlap_COS423_ORF350 <= 1
 _C864: Overlap_COS423_ORF363 <= 1
-_C865: Room_Assignment_COS423_51 + Room_Assignment_ORF363_51
- + Time_Assignment_COS423_4 + Time_Assignment_ORF363_4 <= 3
+_C865: Room_Assignment_COS423_51.0 + Room_Assignment_ORF363_51.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_ORF363_1:30_2:20_PM
+ <= 3
 _C866: Overlap_COS423_ORF445 <= 1
-_C867: Room_Assignment_COS423_53 + Room_Assignment_ORF445_53
- + Time_Assignment_COS423_3 + Time_Assignment_ORF445_3 <= 3
-_C868: Room_Assignment_COS423_54 + Room_Assignment_ORF445_54
- + Time_Assignment_COS423_3 + Time_Assignment_ORF445_3 <= 3
-_C869: Room_Assignment_COS423_53 + Room_Assignment_ORF445_53
- + Time_Assignment_COS423_4 + Time_Assignment_ORF445_4 <= 3
+_C867: Room_Assignment_COS423_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C868: Room_Assignment_COS423_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C869: Room_Assignment_COS423_53.0 + Room_Assignment_ORF445_53.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C87: Overlap_AAS201_ORF309 <= 1
-_C870: Room_Assignment_COS423_54 + Room_Assignment_ORF445_54
- + Time_Assignment_COS423_4 + Time_Assignment_ORF445_4 <= 3
+_C870: Room_Assignment_COS423_54.0 + Room_Assignment_ORF445_54.0
+ + Time_Assignment_COS423_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C871: Overlap_COS423_PHY103 <= 1
 _C872: Overlap_COS423_PHY104 <= 1
 _C873: Overlap_COS423_PHY105 <= 1
 _C874: Overlap_COS423_PHY106 <= 1
 _C875: Overlap_COS423_PHY208 <= 1
 _C876: Overlap_COS423_REL100 <= 1
-_C877: Room_Assignment_COS423_51 + Room_Assignment_REL100_51
- + Time_Assignment_COS423_3 + Time_Assignment_REL100_3 <= 3
-_C878: Room_Assignment_COS423_54 + Room_Assignment_REL100_54
- + Time_Assignment_COS423_3 + Time_Assignment_REL100_3 <= 3
+_C877: Room_Assignment_COS423_51.0 + Room_Assignment_REL100_51.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
+_C878: Room_Assignment_COS423_54.0 + Room_Assignment_REL100_54.0
+ + Time_Assignment_COS423_11:00_11:50_AM
+ + Time_Assignment_REL100_11:00_11:50_AM <= 3
 _C879: Overlap_COS423_REL232 <= 1
 _C88: Overlap_AAS201_ORF350 <= 1
 _C880: Overlap_COS423_SML201 <= 1
-_C881: Room_Assignment_COS423_52 + Room_Assignment_SML201_52
- + Time_Assignment_COS423_5 + Time_Assignment_SML201_5 <= 3
+_C881: Room_Assignment_COS423_52.0 + Room_Assignment_SML201_52.0
+ + Time_Assignment_COS423_2:30_3:20_PM + Time_Assignment_SML201_2:30_3:20_PM
+ <= 3
 _C882: Overlap_COS423_URB201 <= 1
 _C883: Overlap_COS432_AAS201 <= 1
 _C884: Overlap_COS432_ASA203 <= 1
-_C885: Room_Assignment_ASA203_12 + Room_Assignment_COS432_12
- + Time_Assignment_ASA203_3 + Time_Assignment_COS432_3 <= 3
-_C886: Room_Assignment_ASA203_12 + Room_Assignment_COS432_12
- + Time_Assignment_ASA203_4 + Time_Assignment_COS432_4 <= 3
+_C885: Room_Assignment_ASA203_12.0 + Room_Assignment_COS432_12.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_COS432_11:00_11:50_AM <= 3
+_C886: Room_Assignment_ASA203_12.0 + Room_Assignment_COS432_12.0
+ + Time_Assignment_ASA203_1:30_2:20_PM + Time_Assignment_COS432_1:30_2:20_PM
+ <= 3
 _C887: Overlap_COS432_ASA238 <= 1
-_C888: Room_Assignment_ASA238_2 + Room_Assignment_COS432_2
- + Time_Assignment_ASA238_3 + Time_Assignment_COS432_3 <= 3
-_C889: Room_Assignment_ASA238_2 + Room_Assignment_COS432_2
- + Time_Assignment_ASA238_4 + Time_Assignment_COS432_4 <= 3
+_C888: Room_Assignment_ASA238_2.0 + Room_Assignment_COS432_2.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_COS432_11:00_11:50_AM <= 3
+_C889: Room_Assignment_ASA238_2.0 + Room_Assignment_COS432_2.0
+ + Time_Assignment_ASA238_1:30_2:20_PM + Time_Assignment_COS432_1:30_2:20_PM
+ <= 3
 _C89: Overlap_AAS201_ORF363 <= 1
 _C890: Overlap_COS432_COS126 <= 1
 _C891: Overlap_COS432_COS226 <= 1
 _C892: Overlap_COS432_COS217 <= 1
-_C893: Room_Assignment_COS217_6 + Room_Assignment_COS432_6
- + Time_Assignment_COS217_3 + Time_Assignment_COS432_3 <= 3
+_C893: Room_Assignment_COS217_6.0 + Room_Assignment_COS432_6.0
+ + Time_Assignment_COS217_11:00_11:50_AM
+ + Time_Assignment_COS432_11:00_11:50_AM <= 3
 _C894: Overlap_COS432_COS333 <= 1
-_C895: Room_Assignment_COS333_20 + Room_Assignment_COS432_20
- + Time_Assignment_COS333_4 + Time_Assignment_COS432_4 <= 3
+_C895: Room_Assignment_COS333_20.0 + Room_Assignment_COS432_20.0
+ + Time_Assignment_COS333_1:30_2:20_PM + Time_Assignment_COS432_1:30_2:20_PM
+ <= 3
 _C896: Overlap_COS432_COS342 <= 1
 _C897: Overlap_COS432_COS423 <= 1
 _C898: Overlap_COS432_COS484 <= 1
-_C899: Room_Assignment_COS432_10 + Room_Assignment_COS484_10
- + Time_Assignment_COS432_3 + Time_Assignment_COS484_3 <= 3
-_C9: Room_Assignment_AAS201_2 + Room_Assignment_COS126_2
- + Time_Assignment_AAS201_1 + Time_Assignment_COS126_1 <= 3
+_C899: Room_Assignment_COS432_10.0 + Room_Assignment_COS484_10.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
+_C9: Room_Assignment_AAS201_2.0 + Room_Assignment_COS126_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS126_9:00_9:50_AM
+ <= 3
 _C90: Overlap_AAS201_ORF445 <= 1
-_C900: Room_Assignment_COS432_20 + Room_Assignment_COS484_20
- + Time_Assignment_COS432_3 + Time_Assignment_COS484_3 <= 3
+_C900: Room_Assignment_COS432_20.0 + Room_Assignment_COS484_20.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
 _C901: Overlap_COS432_COS522 <= 1
 _C902: Overlap_COS432_COS528 <= 1
 _C903: Overlap_COS432_ECO100 <= 1
 _C904: Overlap_COS432_ECO102 <= 1
 _C905: Overlap_COS432_ECO202 <= 1
-_C906: Room_Assignment_COS432_20 + Room_Assignment_ECO202_20
- + Time_Assignment_COS432_3 + Time_Assignment_ECO202_3 <= 3
-_C907: Room_Assignment_COS432_20 + Room_Assignment_ECO202_20
- + Time_Assignment_COS432_4 + Time_Assignment_ECO202_4 <= 3
+_C906: Room_Assignment_COS432_20.0 + Room_Assignment_ECO202_20.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ECO202_11:00_11:50_AM <= 3
+_C907: Room_Assignment_COS432_20.0 + Room_Assignment_ECO202_20.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ECO202_1:30_2:20_PM
+ <= 3
 _C908: Overlap_COS432_ECO300 <= 1
 _C909: Overlap_COS432_ECO301 <= 1
 _C91: Overlap_AAS201_PHY103 <= 1
@@ -10438,148 +12857,198 @@ _C911: Overlap_COS432_ECO310 <= 1
 _C912: Overlap_COS432_ECO312 <= 1
 _C913: Overlap_COS432_GER101 <= 1
 _C914: Overlap_COS432_GER103 <= 1
-_C915: Room_Assignment_COS432_8 + Room_Assignment_GER103_8
- + Time_Assignment_COS432_3 + Time_Assignment_GER103_3 <= 3
-_C916: Room_Assignment_COS432_8 + Room_Assignment_GER103_8
- + Time_Assignment_COS432_4 + Time_Assignment_GER103_4 <= 3
+_C915: Room_Assignment_COS432_8.0 + Room_Assignment_GER103_8.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_GER103_11:00_11:50_AM <= 3
+_C916: Room_Assignment_COS432_8.0 + Room_Assignment_GER103_8.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_GER103_1:30_2:20_PM
+ <= 3
 _C917: Overlap_COS432_GER105 <= 1
 _C918: Overlap_COS432_GER107 <= 1
 _C919: Overlap_COS432_LIN201 <= 1
-_C92: Room_Assignment_AAS201_1 + Room_Assignment_PHY103_1
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY103_1 <= 3
+_C92: Room_Assignment_AAS201_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
 _C920: Overlap_COS432_LIN300 <= 1
 _C921: Overlap_COS432_MAT103 <= 1
-_C922: Room_Assignment_COS432_12 + Room_Assignment_MAT103_12
- + Time_Assignment_COS432_3 + Time_Assignment_MAT103_3 <= 3
+_C922: Room_Assignment_COS432_12.0 + Room_Assignment_MAT103_12.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_MAT103_11:00_11:50_AM <= 3
 _C923: Overlap_COS432_MAT104 <= 1
 _C924: Overlap_COS432_MAT201 <= 1
-_C925: Room_Assignment_COS432_2 + Room_Assignment_MAT201_2
- + Time_Assignment_COS432_4 + Time_Assignment_MAT201_4 <= 3
-_C926: Room_Assignment_COS432_4 + Room_Assignment_MAT201_4
- + Time_Assignment_COS432_4 + Time_Assignment_MAT201_4 <= 3
-_C927: Room_Assignment_COS432_6 + Room_Assignment_MAT201_6
- + Time_Assignment_COS432_4 + Time_Assignment_MAT201_4 <= 3
-_C928: Room_Assignment_COS432_8 + Room_Assignment_MAT201_8
- + Time_Assignment_COS432_4 + Time_Assignment_MAT201_4 <= 3
+_C925: Room_Assignment_COS432_2.0 + Room_Assignment_MAT201_2.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C926: Room_Assignment_COS432_4.0 + Room_Assignment_MAT201_4.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C927: Room_Assignment_COS432_6.0 + Room_Assignment_MAT201_6.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
+_C928: Room_Assignment_COS432_8.0 + Room_Assignment_MAT201_8.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT201_1:30_2:20_PM
+ <= 3
 _C929: Overlap_COS432_MAT202 <= 1
-_C93: Room_Assignment_AAS201_2 + Room_Assignment_PHY103_2
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY103_1 <= 3
+_C93: Room_Assignment_AAS201_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY103_9:00_9:50_AM
+ <= 3
 _C930: Overlap_COS432_MAT203 <= 1
 _C931: Overlap_COS432_MAT204 <= 1
 _C932: Overlap_COS432_MAT215 <= 1
 _C933: Overlap_COS432_MAT216 <= 1
 _C934: Overlap_COS432_MAT217 <= 1
-_C935: Room_Assignment_COS432_2 + Room_Assignment_MAT217_2
- + Time_Assignment_COS432_4 + Time_Assignment_MAT217_4 <= 3
-_C936: Room_Assignment_COS432_4 + Room_Assignment_MAT217_4
- + Time_Assignment_COS432_4 + Time_Assignment_MAT217_4 <= 3
+_C935: Room_Assignment_COS432_2.0 + Room_Assignment_MAT217_2.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
+_C936: Room_Assignment_COS432_4.0 + Room_Assignment_MAT217_4.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_MAT217_1:30_2:20_PM
+ <= 3
 _C937: Overlap_COS432_MAT218 <= 1
 _C938: Overlap_COS432_MAT300 <= 1
 _C939: Overlap_COS432_MAT325 <= 1
-_C94: Room_Assignment_AAS201_1 + Room_Assignment_PHY103_1
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY103_2 <= 3
+_C94: Room_Assignment_AAS201_1.0 + Room_Assignment_PHY103_1.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
 _C940: Overlap_COS432_MAT335 <= 1
 _C941: Overlap_COS432_MAT370 <= 1
 _C942: Overlap_COS432_MAT377 <= 1
 _C943: Overlap_COS432_MAT385 <= 1
-_C944: Room_Assignment_COS432_2 + Room_Assignment_MAT385_2
- + Time_Assignment_COS432_3 + Time_Assignment_MAT385_3 <= 3
-_C945: Room_Assignment_COS432_6 + Room_Assignment_MAT385_6
- + Time_Assignment_COS432_3 + Time_Assignment_MAT385_3 <= 3
+_C944: Room_Assignment_COS432_2.0 + Room_Assignment_MAT385_2.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
+_C945: Room_Assignment_COS432_6.0 + Room_Assignment_MAT385_6.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_MAT385_11:00_11:50_AM <= 3
 _C946: Overlap_COS432_MAT400 <= 1
 _C947: Overlap_COS432_ORF245 <= 1
-_C948: Room_Assignment_COS432_8 + Room_Assignment_ORF245_8
- + Time_Assignment_COS432_3 + Time_Assignment_ORF245_3 <= 3
-_C949: Room_Assignment_COS432_8 + Room_Assignment_ORF245_8
- + Time_Assignment_COS432_4 + Time_Assignment_ORF245_4 <= 3
-_C95: Room_Assignment_AAS201_2 + Room_Assignment_PHY103_2
- + Time_Assignment_AAS201_2 + Time_Assignment_PHY103_2 <= 3
+_C948: Room_Assignment_COS432_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF245_11:00_11:50_AM <= 3
+_C949: Room_Assignment_COS432_8.0 + Room_Assignment_ORF245_8.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF245_1:30_2:20_PM
+ <= 3
+_C95: Room_Assignment_AAS201_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_AAS201_10:00_10:50_AM
+ + Time_Assignment_PHY103_10:00_10:50_AM <= 3
 _C950: Overlap_COS432_ORF307 <= 1
-_C951: Room_Assignment_COS432_10 + Room_Assignment_ORF307_10
- + Time_Assignment_COS432_3 + Time_Assignment_ORF307_3 <= 3
-_C952: Room_Assignment_COS432_20 + Room_Assignment_ORF307_20
- + Time_Assignment_COS432_3 + Time_Assignment_ORF307_3 <= 3
-_C953: Room_Assignment_COS432_10 + Room_Assignment_ORF307_10
- + Time_Assignment_COS432_4 + Time_Assignment_ORF307_4 <= 3
-_C954: Room_Assignment_COS432_20 + Room_Assignment_ORF307_20
- + Time_Assignment_COS432_4 + Time_Assignment_ORF307_4 <= 3
+_C951: Room_Assignment_COS432_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C952: Room_Assignment_COS432_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF307_11:00_11:50_AM <= 3
+_C953: Room_Assignment_COS432_10.0 + Room_Assignment_ORF307_10.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
+_C954: Room_Assignment_COS432_20.0 + Room_Assignment_ORF307_20.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF307_1:30_2:20_PM
+ <= 3
 _C955: Overlap_COS432_ORF309 <= 1
 _C956: Overlap_COS432_ORF350 <= 1
-_C957: Room_Assignment_COS432_6 + Room_Assignment_ORF350_6
- + Time_Assignment_COS432_3 + Time_Assignment_ORF350_3 <= 3
-_C958: Room_Assignment_COS432_6 + Room_Assignment_ORF350_6
- + Time_Assignment_COS432_4 + Time_Assignment_ORF350_4 <= 3
+_C957: Room_Assignment_COS432_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF350_11:00_11:50_AM <= 3
+_C958: Room_Assignment_COS432_6.0 + Room_Assignment_ORF350_6.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF350_1:30_2:20_PM
+ <= 3
 _C959: Overlap_COS432_ORF363 <= 1
 _C96: Overlap_AAS201_PHY104 <= 1
 _C960: Overlap_COS432_ORF445 <= 1
-_C961: Room_Assignment_COS432_12 + Room_Assignment_ORF445_12
- + Time_Assignment_COS432_3 + Time_Assignment_ORF445_3 <= 3
-_C962: Room_Assignment_COS432_12 + Room_Assignment_ORF445_12
- + Time_Assignment_COS432_4 + Time_Assignment_ORF445_4 <= 3
+_C961: Room_Assignment_COS432_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_ORF445_11:00_11:50_AM <= 3
+_C962: Room_Assignment_COS432_12.0 + Room_Assignment_ORF445_12.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_ORF445_1:30_2:20_PM
+ <= 3
 _C963: Overlap_COS432_PHY103 <= 1
-_C964: Room_Assignment_COS432_2 + Room_Assignment_PHY103_2
- + Time_Assignment_COS432_3 + Time_Assignment_PHY103_3 <= 3
-_C965: Room_Assignment_COS432_2 + Room_Assignment_PHY103_2
- + Time_Assignment_COS432_4 + Time_Assignment_PHY103_4 <= 3
+_C964: Room_Assignment_COS432_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY103_11:00_11:50_AM <= 3
+_C965: Room_Assignment_COS432_2.0 + Room_Assignment_PHY103_2.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY103_1:30_2:20_PM
+ <= 3
 _C966: Overlap_COS432_PHY104 <= 1
 _C967: Overlap_COS432_PHY105 <= 1
-_C968: Room_Assignment_COS432_2 + Room_Assignment_PHY105_2
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C969: Room_Assignment_COS432_4 + Room_Assignment_PHY105_4
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
+_C968: Room_Assignment_COS432_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C969: Room_Assignment_COS432_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
 _C97: Overlap_AAS201_PHY105 <= 1
-_C970: Room_Assignment_COS432_6 + Room_Assignment_PHY105_6
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C971: Room_Assignment_COS432_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C972: Room_Assignment_COS432_10 + Room_Assignment_PHY105_10
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C973: Room_Assignment_COS432_12 + Room_Assignment_PHY105_12
- + Time_Assignment_COS432_3 + Time_Assignment_PHY105_3 <= 3
-_C974: Room_Assignment_COS432_2 + Room_Assignment_PHY105_2
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C975: Room_Assignment_COS432_4 + Room_Assignment_PHY105_4
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C976: Room_Assignment_COS432_6 + Room_Assignment_PHY105_6
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C977: Room_Assignment_COS432_8 + Room_Assignment_PHY105_8
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C978: Room_Assignment_COS432_10 + Room_Assignment_PHY105_10
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C979: Room_Assignment_COS432_12 + Room_Assignment_PHY105_12
- + Time_Assignment_COS432_4 + Time_Assignment_PHY105_4 <= 3
-_C98: Room_Assignment_AAS201_1 + Room_Assignment_PHY105_1
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
+_C970: Room_Assignment_COS432_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C971: Room_Assignment_COS432_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C972: Room_Assignment_COS432_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C973: Room_Assignment_COS432_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_COS432_11:00_11:50_AM
+ + Time_Assignment_PHY105_11:00_11:50_AM <= 3
+_C974: Room_Assignment_COS432_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C975: Room_Assignment_COS432_4.0 + Room_Assignment_PHY105_4.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C976: Room_Assignment_COS432_6.0 + Room_Assignment_PHY105_6.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C977: Room_Assignment_COS432_8.0 + Room_Assignment_PHY105_8.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C978: Room_Assignment_COS432_10.0 + Room_Assignment_PHY105_10.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C979: Room_Assignment_COS432_12.0 + Room_Assignment_PHY105_12.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY105_1:30_2:20_PM
+ <= 3
+_C98: Room_Assignment_AAS201_1.0 + Room_Assignment_PHY105_1.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C980: Overlap_COS432_PHY106 <= 1
 _C981: Overlap_COS432_PHY208 <= 1
-_C982: Room_Assignment_COS432_18 + Room_Assignment_PHY208_18
- + Time_Assignment_COS432_4 + Time_Assignment_PHY208_4 <= 3
+_C982: Room_Assignment_COS432_18.0 + Room_Assignment_PHY208_18.0
+ + Time_Assignment_COS432_1:30_2:20_PM + Time_Assignment_PHY208_1:30_2:20_PM
+ <= 3
 _C983: Overlap_COS432_REL100 <= 1
 _C984: Overlap_COS432_REL232 <= 1
 _C985: Overlap_COS432_SML201 <= 1
 _C986: Overlap_COS432_URB201 <= 1
 _C987: Overlap_COS484_AAS201 <= 1
-_C988: Room_Assignment_AAS201_5 + Room_Assignment_COS484_5
- + Time_Assignment_AAS201_1 + Time_Assignment_COS484_1 <= 3
-_C989: Room_Assignment_AAS201_3 + Room_Assignment_COS484_3
- + Time_Assignment_AAS201_1 + Time_Assignment_COS484_1 <= 3
-_C99: Room_Assignment_AAS201_2 + Room_Assignment_PHY105_2
- + Time_Assignment_AAS201_1 + Time_Assignment_PHY105_1 <= 3
+_C988: Room_Assignment_AAS201_5.0 + Room_Assignment_COS484_5.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
+_C989: Room_Assignment_AAS201_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
+_C99: Room_Assignment_AAS201_2.0 + Room_Assignment_PHY105_2.0
+ + Time_Assignment_AAS201_9:00_9:50_AM + Time_Assignment_PHY105_9:00_9:50_AM
+ <= 3
 _C990: Overlap_COS484_ASA203 <= 1
-_C991: Room_Assignment_ASA203_5 + Room_Assignment_COS484_5
- + Time_Assignment_ASA203_3 + Time_Assignment_COS484_3 <= 3
-_C992: Room_Assignment_ASA203_3 + Room_Assignment_COS484_3
- + Time_Assignment_ASA203_3 + Time_Assignment_COS484_3 <= 3
+_C991: Room_Assignment_ASA203_5.0 + Room_Assignment_COS484_5.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
+_C992: Room_Assignment_ASA203_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_ASA203_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
 _C993: Overlap_COS484_ASA238 <= 1
-_C994: Room_Assignment_ASA238_3 + Room_Assignment_COS484_3
- + Time_Assignment_ASA238_1 + Time_Assignment_COS484_1 <= 3
-_C995: Room_Assignment_ASA238_3 + Room_Assignment_COS484_3
- + Time_Assignment_ASA238_3 + Time_Assignment_COS484_3 <= 3
+_C994: Room_Assignment_ASA238_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_ASA238_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
+_C995: Room_Assignment_ASA238_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_ASA238_11:00_11:50_AM
+ + Time_Assignment_COS484_11:00_11:50_AM <= 3
 _C996: Overlap_COS484_COS126 <= 1
-_C997: Room_Assignment_COS126_5 + Room_Assignment_COS484_5
- + Time_Assignment_COS126_1 + Time_Assignment_COS484_1 <= 3
-_C998: Room_Assignment_COS126_3 + Room_Assignment_COS484_3
- + Time_Assignment_COS126_1 + Time_Assignment_COS484_1 <= 3
+_C997: Room_Assignment_COS126_5.0 + Room_Assignment_COS484_5.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
+_C998: Room_Assignment_COS126_3.0 + Room_Assignment_COS484_3.0
+ + Time_Assignment_COS126_9:00_9:50_AM + Time_Assignment_COS484_9:00_9:50_AM
+ <= 3
 _C999: Overlap_COS484_COS226 <= 1
 Bounds
  0 <= Overlap_AAS201_ASA203
@@ -17428,113 +19897,113 @@ Overlap_URB201_REL100
 Overlap_URB201_REL232
 Overlap_URB201_SML201
 Binaries
-Room_Assignment_AAS201_1
-Room_Assignment_AAS201_2
-Room_Assignment_AAS201_3
-Room_Assignment_AAS201_4
-Room_Assignment_AAS201_5
-Room_Assignment_ASA203_1
-Room_Assignment_ASA203_12
-Room_Assignment_ASA203_13
-Room_Assignment_ASA203_21
-Room_Assignment_ASA203_3
-Room_Assignment_ASA203_43
-Room_Assignment_ASA203_5
-Room_Assignment_ASA238_2
-Room_Assignment_ASA238_23
-Room_Assignment_ASA238_3
-Room_Assignment_ASA238_50
-Room_Assignment_ASA238_65
-Room_Assignment_ASA238_75
-Room_Assignment_COS126_1
-Room_Assignment_COS126_2
-Room_Assignment_COS126_3
-Room_Assignment_COS126_4
-Room_Assignment_COS126_5
-Room_Assignment_COS126_6
-Room_Assignment_COS126_7
-Room_Assignment_COS126_8
-Room_Assignment_COS126_9
-Room_Assignment_COS217_6
-Room_Assignment_COS217_7
-Room_Assignment_COS217_70
-Room_Assignment_COS217_73
-Room_Assignment_COS217_74
-Room_Assignment_COS226_35
-Room_Assignment_COS226_38
-Room_Assignment_COS226_4
-Room_Assignment_COS226_42
-Room_Assignment_COS226_59
-Room_Assignment_COS226_61
-Room_Assignment_COS226_70
-Room_Assignment_COS333_20
-Room_Assignment_COS333_21
-Room_Assignment_COS333_22
-Room_Assignment_COS333_3
-Room_Assignment_COS333_65
-Room_Assignment_COS333_66
-Room_Assignment_COS333_67
-Room_Assignment_COS342_40
-Room_Assignment_COS342_42
-Room_Assignment_COS342_9
-Room_Assignment_COS423_51
-Room_Assignment_COS423_52
-Room_Assignment_COS423_53
-Room_Assignment_COS423_54
-Room_Assignment_COS423_55
-Room_Assignment_COS432_10
-Room_Assignment_COS432_12
-Room_Assignment_COS432_14
-Room_Assignment_COS432_16
-Room_Assignment_COS432_18
-Room_Assignment_COS432_2
-Room_Assignment_COS432_20
-Room_Assignment_COS432_4
-Room_Assignment_COS432_6
-Room_Assignment_COS432_8
-Room_Assignment_COS484_10
-Room_Assignment_COS484_15
-Room_Assignment_COS484_20
-Room_Assignment_COS484_25
-Room_Assignment_COS484_3
-Room_Assignment_COS484_30
-Room_Assignment_COS484_5
-Room_Assignment_COS522_16
-Room_Assignment_COS522_24
-Room_Assignment_COS522_32
-Room_Assignment_COS522_40
-Room_Assignment_COS522_48
-Room_Assignment_COS522_56
-Room_Assignment_COS522_64
-Room_Assignment_COS522_72
-Room_Assignment_COS522_8
-Room_Assignment_COS528_11
-Room_Assignment_COS528_13
-Room_Assignment_COS528_17
-Room_Assignment_COS528_19
-Room_Assignment_COS528_23
-Room_Assignment_COS528_29
-Room_Assignment_COS528_31
-Room_Assignment_COS528_37
-Room_Assignment_COS528_7
-Room_Assignment_ECO100_3
-Room_Assignment_ECO100_6
-Room_Assignment_ECO100_9
-Room_Assignment_ECO102_35
-Room_Assignment_ECO102_37
-Room_Assignment_ECO102_46
-Room_Assignment_ECO102_48
-Room_Assignment_ECO102_49
-Room_Assignment_ECO102_50
-Room_Assignment_ECO102_51
-Room_Assignment_ECO202_20
-Room_Assignment_ECO202_21
-Room_Assignment_ECO202_22
-Room_Assignment_ECO202_23
-Room_Assignment_ECO202_24
-Room_Assignment_ECO202_25
-Room_Assignment_ECO202_26
-Room_Assignment_ECO202_27
+Room_Assignment_AAS201_1.0
+Room_Assignment_AAS201_2.0
+Room_Assignment_AAS201_3.0
+Room_Assignment_AAS201_4.0
+Room_Assignment_AAS201_5.0
+Room_Assignment_ASA203_1.0
+Room_Assignment_ASA203_12.0
+Room_Assignment_ASA203_13.0
+Room_Assignment_ASA203_21.0
+Room_Assignment_ASA203_3.0
+Room_Assignment_ASA203_43.0
+Room_Assignment_ASA203_5.0
+Room_Assignment_ASA238_2.0
+Room_Assignment_ASA238_23.0
+Room_Assignment_ASA238_3.0
+Room_Assignment_ASA238_50.0
+Room_Assignment_ASA238_65.0
+Room_Assignment_ASA238_75.0
+Room_Assignment_COS126_1.0
+Room_Assignment_COS126_2.0
+Room_Assignment_COS126_3.0
+Room_Assignment_COS126_4.0
+Room_Assignment_COS126_5.0
+Room_Assignment_COS126_6.0
+Room_Assignment_COS126_7.0
+Room_Assignment_COS126_8.0
+Room_Assignment_COS126_9.0
+Room_Assignment_COS217_6.0
+Room_Assignment_COS217_7.0
+Room_Assignment_COS217_70.0
+Room_Assignment_COS217_73.0
+Room_Assignment_COS217_74.0
+Room_Assignment_COS226_35.0
+Room_Assignment_COS226_38.0
+Room_Assignment_COS226_4.0
+Room_Assignment_COS226_42.0
+Room_Assignment_COS226_59.0
+Room_Assignment_COS226_61.0
+Room_Assignment_COS226_70.0
+Room_Assignment_COS333_20.0
+Room_Assignment_COS333_21.0
+Room_Assignment_COS333_22.0
+Room_Assignment_COS333_3.0
+Room_Assignment_COS333_65.0
+Room_Assignment_COS333_66.0
+Room_Assignment_COS333_67.0
+Room_Assignment_COS342_40.0
+Room_Assignment_COS342_42.0
+Room_Assignment_COS342_9.0
+Room_Assignment_COS423_51.0
+Room_Assignment_COS423_52.0
+Room_Assignment_COS423_53.0
+Room_Assignment_COS423_54.0
+Room_Assignment_COS423_55.0
+Room_Assignment_COS432_10.0
+Room_Assignment_COS432_12.0
+Room_Assignment_COS432_14.0
+Room_Assignment_COS432_16.0
+Room_Assignment_COS432_18.0
+Room_Assignment_COS432_2.0
+Room_Assignment_COS432_20.0
+Room_Assignment_COS432_4.0
+Room_Assignment_COS432_6.0
+Room_Assignment_COS432_8.0
+Room_Assignment_COS484_10.0
+Room_Assignment_COS484_15.0
+Room_Assignment_COS484_20.0
+Room_Assignment_COS484_25.0
+Room_Assignment_COS484_3.0
+Room_Assignment_COS484_30.0
+Room_Assignment_COS484_5.0
+Room_Assignment_COS522_16.0
+Room_Assignment_COS522_24.0
+Room_Assignment_COS522_32.0
+Room_Assignment_COS522_40.0
+Room_Assignment_COS522_48.0
+Room_Assignment_COS522_56.0
+Room_Assignment_COS522_64.0
+Room_Assignment_COS522_72.0
+Room_Assignment_COS522_8.0
+Room_Assignment_COS528_11.0
+Room_Assignment_COS528_13.0
+Room_Assignment_COS528_17.0
+Room_Assignment_COS528_19.0
+Room_Assignment_COS528_23.0
+Room_Assignment_COS528_29.0
+Room_Assignment_COS528_31.0
+Room_Assignment_COS528_37.0
+Room_Assignment_COS528_7.0
+Room_Assignment_ECO100_3.0
+Room_Assignment_ECO100_6.0
+Room_Assignment_ECO100_9.0
+Room_Assignment_ECO102_35.0
+Room_Assignment_ECO102_37.0
+Room_Assignment_ECO102_46.0
+Room_Assignment_ECO102_48.0
+Room_Assignment_ECO102_49.0
+Room_Assignment_ECO102_50.0
+Room_Assignment_ECO102_51.0
+Room_Assignment_ECO202_20.0
+Room_Assignment_ECO202_21.0
+Room_Assignment_ECO202_22.0
+Room_Assignment_ECO202_23.0
+Room_Assignment_ECO202_24.0
+Room_Assignment_ECO202_25.0
+Room_Assignment_ECO202_26.0
+Room_Assignment_ECO202_27.0
 Room_Assignment_ECO300_1
 Room_Assignment_ECO300_21
 Room_Assignment_ECO300_24
@@ -17550,387 +20019,387 @@ Room_Assignment_ECO300_5
 Room_Assignment_ECO300_51
 Room_Assignment_ECO300_55
 Room_Assignment_ECO300_7
-Room_Assignment_ECO301_3
-Room_Assignment_ECO301_5
-Room_Assignment_ECO301_7
-Room_Assignment_ECO302_60
-Room_Assignment_ECO302_61
-Room_Assignment_ECO302_64
-Room_Assignment_ECO302_65
-Room_Assignment_ECO302_68
-Room_Assignment_ECO302_71
-Room_Assignment_ECO310_30
-Room_Assignment_ECO310_32
-Room_Assignment_ECO310_34
-Room_Assignment_ECO310_35
-Room_Assignment_ECO310_37
-Room_Assignment_ECO312_41
-Room_Assignment_ECO312_42
-Room_Assignment_ECO312_44
-Room_Assignment_ECO312_48
-Room_Assignment_ECO312_49
-Room_Assignment_GER101_26
-Room_Assignment_GER101_27
-Room_Assignment_GER101_28
-Room_Assignment_GER101_29
-Room_Assignment_GER103_3
-Room_Assignment_GER103_5
-Room_Assignment_GER103_8
-Room_Assignment_GER103_9
-Room_Assignment_GER105_1
-Room_Assignment_GER105_3
-Room_Assignment_GER107_70
-Room_Assignment_GER107_71
-Room_Assignment_GER107_72
-Room_Assignment_GER107_73
-Room_Assignment_GER107_74
-Room_Assignment_GER107_75
-Room_Assignment_LIN201_50
-Room_Assignment_LIN201_51
-Room_Assignment_LIN201_52
-Room_Assignment_LIN201_53
-Room_Assignment_LIN201_54
-Room_Assignment_LIN201_55
-Room_Assignment_LIN201_56
-Room_Assignment_LIN201_57
-Room_Assignment_LIN300_43
-Room_Assignment_LIN300_45
-Room_Assignment_LIN300_47
-Room_Assignment_LIN300_48
-Room_Assignment_LIN300_49
-Room_Assignment_MAT103_11
-Room_Assignment_MAT103_12
-Room_Assignment_MAT103_21
-Room_Assignment_MAT103_22
-Room_Assignment_MAT103_23
-Room_Assignment_MAT103_32
-Room_Assignment_MAT103_33
-Room_Assignment_MAT104_12
-Room_Assignment_MAT104_34
-Room_Assignment_MAT104_4
-Room_Assignment_MAT104_49
-Room_Assignment_MAT104_54
-Room_Assignment_MAT104_63
-Room_Assignment_MAT201_1
-Room_Assignment_MAT201_2
-Room_Assignment_MAT201_3
-Room_Assignment_MAT201_4
-Room_Assignment_MAT201_5
-Room_Assignment_MAT201_6
-Room_Assignment_MAT201_7
-Room_Assignment_MAT201_8
-Room_Assignment_MAT202_1
-Room_Assignment_MAT202_5
-Room_Assignment_MAT202_6
-Room_Assignment_MAT202_7
-Room_Assignment_MAT203_22
-Room_Assignment_MAT203_23
-Room_Assignment_MAT203_24
-Room_Assignment_MAT203_29
-Room_Assignment_MAT203_30
-Room_Assignment_MAT204_10
-Room_Assignment_MAT204_12
-Room_Assignment_MAT204_16
-Room_Assignment_MAT204_18
-Room_Assignment_MAT204_20
-Room_Assignment_MAT204_8
-Room_Assignment_MAT215_31
-Room_Assignment_MAT215_32
-Room_Assignment_MAT215_33
-Room_Assignment_MAT215_34
-Room_Assignment_MAT215_35
-Room_Assignment_MAT215_36
-Room_Assignment_MAT215_37
-Room_Assignment_MAT216_56
-Room_Assignment_MAT216_57
-Room_Assignment_MAT216_58
-Room_Assignment_MAT216_59
-Room_Assignment_MAT216_60
-Room_Assignment_MAT216_61
-Room_Assignment_MAT217_2
-Room_Assignment_MAT217_24
-Room_Assignment_MAT217_3
-Room_Assignment_MAT217_32
-Room_Assignment_MAT217_34
-Room_Assignment_MAT217_35
-Room_Assignment_MAT217_4
-Room_Assignment_MAT217_5
-Room_Assignment_MAT218_13
-Room_Assignment_MAT218_24
-Room_Assignment_MAT218_35
-Room_Assignment_MAT218_46
-Room_Assignment_MAT218_7
-Room_Assignment_MAT218_74
-Room_Assignment_MAT300_1
-Room_Assignment_MAT300_2
-Room_Assignment_MAT300_3
-Room_Assignment_MAT300_4
-Room_Assignment_MAT325_10
-Room_Assignment_MAT325_57
-Room_Assignment_MAT325_58
-Room_Assignment_MAT325_59
-Room_Assignment_MAT325_61
-Room_Assignment_MAT325_8
-Room_Assignment_MAT335_10
-Room_Assignment_MAT335_2
-Room_Assignment_MAT335_3
-Room_Assignment_MAT335_4
-Room_Assignment_MAT335_5
-Room_Assignment_MAT335_6
-Room_Assignment_MAT335_7
-Room_Assignment_MAT335_8
-Room_Assignment_MAT370_12
-Room_Assignment_MAT370_2
-Room_Assignment_MAT370_31
-Room_Assignment_MAT370_53
-Room_Assignment_MAT370_64
-Room_Assignment_MAT370_75
-Room_Assignment_MAT377_14
-Room_Assignment_MAT377_15
-Room_Assignment_MAT377_16
-Room_Assignment_MAT377_17
-Room_Assignment_MAT377_18
-Room_Assignment_MAT377_19
-Room_Assignment_MAT377_2
-Room_Assignment_MAT377_4
-Room_Assignment_MAT377_5
-Room_Assignment_MAT377_6
-Room_Assignment_MAT385_2
-Room_Assignment_MAT385_3
-Room_Assignment_MAT385_43
-Room_Assignment_MAT385_5
-Room_Assignment_MAT385_6
-Room_Assignment_MAT385_7
-Room_Assignment_MAT400_13
-Room_Assignment_MAT400_24
-Room_Assignment_MAT400_42
-Room_Assignment_MAT400_45
-Room_Assignment_MAT400_54
-Room_Assignment_MAT400_65
-Room_Assignment_ORF245_25
-Room_Assignment_ORF245_31
-Room_Assignment_ORF245_34
-Room_Assignment_ORF245_5
-Room_Assignment_ORF245_65
-Room_Assignment_ORF245_7
-Room_Assignment_ORF245_8
-Room_Assignment_ORF307_10
-Room_Assignment_ORF307_15
-Room_Assignment_ORF307_20
-Room_Assignment_ORF307_25
-Room_Assignment_ORF307_30
-Room_Assignment_ORF307_35
-Room_Assignment_ORF307_40
-Room_Assignment_ORF307_45
-Room_Assignment_ORF307_5
-Room_Assignment_ORF307_50
-Room_Assignment_ORF309_13
-Room_Assignment_ORF309_23
-Room_Assignment_ORF309_43
-Room_Assignment_ORF309_53
-Room_Assignment_ORF309_63
-Room_Assignment_ORF309_73
-Room_Assignment_ORF350_19
-Room_Assignment_ORF350_29
-Room_Assignment_ORF350_39
-Room_Assignment_ORF350_49
-Room_Assignment_ORF350_59
-Room_Assignment_ORF350_6
-Room_Assignment_ORF350_69
-Room_Assignment_ORF350_9
-Room_Assignment_ORF363_11
-Room_Assignment_ORF363_21
-Room_Assignment_ORF363_31
-Room_Assignment_ORF363_41
-Room_Assignment_ORF363_51
-Room_Assignment_ORF363_61
-Room_Assignment_ORF445_12
-Room_Assignment_ORF445_24
-Room_Assignment_ORF445_31
-Room_Assignment_ORF445_46
-Room_Assignment_ORF445_5
-Room_Assignment_ORF445_53
-Room_Assignment_ORF445_54
-Room_Assignment_ORF445_64
-Room_Assignment_PHY103_1
-Room_Assignment_PHY103_2
-Room_Assignment_PHY103_74
-Room_Assignment_PHY103_75
-Room_Assignment_PHY104_28
-Room_Assignment_PHY104_37
-Room_Assignment_PHY104_58
-Room_Assignment_PHY104_71
-Room_Assignment_PHY105_1
-Room_Assignment_PHY105_10
-Room_Assignment_PHY105_12
-Room_Assignment_PHY105_2
-Room_Assignment_PHY105_3
-Room_Assignment_PHY105_4
-Room_Assignment_PHY105_5
-Room_Assignment_PHY105_6
-Room_Assignment_PHY105_7
-Room_Assignment_PHY105_8
-Room_Assignment_PHY105_9
-Room_Assignment_PHY106_11
-Room_Assignment_PHY106_19
-Room_Assignment_PHY106_21
-Room_Assignment_PHY106_29
-Room_Assignment_PHY106_31
-Room_Assignment_PHY106_39
-Room_Assignment_PHY106_41
-Room_Assignment_PHY106_49
-Room_Assignment_PHY208_18
-Room_Assignment_PHY208_28
-Room_Assignment_PHY208_38
-Room_Assignment_PHY208_48
-Room_Assignment_PHY208_58
-Room_Assignment_PHY208_68
-Room_Assignment_REL100_24
-Room_Assignment_REL100_43
-Room_Assignment_REL100_51
-Room_Assignment_REL100_54
-Room_Assignment_REL100_61
-Room_Assignment_REL100_65
-Room_Assignment_REL100_9
-Room_Assignment_REL232_43
-Room_Assignment_REL232_44
-Room_Assignment_REL232_45
-Room_Assignment_REL232_46
-Room_Assignment_REL232_47
-Room_Assignment_REL232_49
-Room_Assignment_SML201_31
-Room_Assignment_SML201_33
-Room_Assignment_SML201_43
-Room_Assignment_SML201_52
-Room_Assignment_SML201_62
-Room_Assignment_URB201_31
-Room_Assignment_URB201_36
-Room_Assignment_URB201_56
-Time_Assignment_AAS201_1
-Time_Assignment_AAS201_2
-Time_Assignment_ASA203_3
-Time_Assignment_ASA203_4
-Time_Assignment_ASA203_5
-Time_Assignment_ASA238_1
-Time_Assignment_ASA238_2
-Time_Assignment_ASA238_3
-Time_Assignment_ASA238_4
-Time_Assignment_ASA238_5
-Time_Assignment_COS126_1
-Time_Assignment_COS217_3
-Time_Assignment_COS226_2
-Time_Assignment_COS333_4
-Time_Assignment_COS342_5
-Time_Assignment_COS423_3
-Time_Assignment_COS423_4
-Time_Assignment_COS423_5
-Time_Assignment_COS432_3
-Time_Assignment_COS432_4
-Time_Assignment_COS484_1
-Time_Assignment_COS484_3
-Time_Assignment_COS522_1
-Time_Assignment_COS522_5
-Time_Assignment_COS528_4
-Time_Assignment_COS528_5
-Time_Assignment_ECO100_1
-Time_Assignment_ECO100_2
-Time_Assignment_ECO102_1
-Time_Assignment_ECO202_3
-Time_Assignment_ECO202_4
-Time_Assignment_ECO202_5
-Time_Assignment_ECO300_2
-Time_Assignment_ECO300_3
-Time_Assignment_ECO301_2
-Time_Assignment_ECO301_4
-Time_Assignment_ECO301_5
-Time_Assignment_ECO302_1
-Time_Assignment_ECO302_3
-Time_Assignment_ECO310_2
-Time_Assignment_ECO310_4
-Time_Assignment_ECO312_3
-Time_Assignment_ECO312_5
-Time_Assignment_GER101_1
-Time_Assignment_GER101_2
-Time_Assignment_GER101_3
-Time_Assignment_GER103_2
-Time_Assignment_GER103_3
-Time_Assignment_GER103_4
-Time_Assignment_GER105_3
-Time_Assignment_GER105_4
-Time_Assignment_GER107_3
-Time_Assignment_LIN201_1
-Time_Assignment_LIN201_4
-Time_Assignment_LIN300_2
-Time_Assignment_MAT103_2
-Time_Assignment_MAT103_3
-Time_Assignment_MAT103_5
-Time_Assignment_MAT104_5
-Time_Assignment_MAT201_4
-Time_Assignment_MAT201_5
-Time_Assignment_MAT202_1
-Time_Assignment_MAT203_1
-Time_Assignment_MAT204_1
-Time_Assignment_MAT215_2
-Time_Assignment_MAT215_3
-Time_Assignment_MAT215_4
-Time_Assignment_MAT216_2
-Time_Assignment_MAT216_3
-Time_Assignment_MAT217_4
-Time_Assignment_MAT218_1
-Time_Assignment_MAT300_5
-Time_Assignment_MAT325_1
-Time_Assignment_MAT325_5
-Time_Assignment_MAT335_1
-Time_Assignment_MAT335_5
-Time_Assignment_MAT370_1
-Time_Assignment_MAT370_5
-Time_Assignment_MAT377_1
-Time_Assignment_MAT377_2
-Time_Assignment_MAT385_1
-Time_Assignment_MAT385_2
-Time_Assignment_MAT385_3
-Time_Assignment_MAT400_2
-Time_Assignment_MAT400_3
-Time_Assignment_MAT400_4
-Time_Assignment_ORF245_3
-Time_Assignment_ORF245_4
-Time_Assignment_ORF307_2
-Time_Assignment_ORF307_3
-Time_Assignment_ORF307_4
-Time_Assignment_ORF307_5
-Time_Assignment_ORF309_2
-Time_Assignment_ORF309_3
-Time_Assignment_ORF309_4
-Time_Assignment_ORF309_5
-Time_Assignment_ORF350_3
-Time_Assignment_ORF350_4
-Time_Assignment_ORF350_5
-Time_Assignment_ORF363_4
-Time_Assignment_ORF445_3
-Time_Assignment_ORF445_4
-Time_Assignment_PHY103_1
-Time_Assignment_PHY103_2
-Time_Assignment_PHY103_3
-Time_Assignment_PHY103_4
-Time_Assignment_PHY103_5
-Time_Assignment_PHY104_1
-Time_Assignment_PHY104_5
-Time_Assignment_PHY105_1
-Time_Assignment_PHY105_2
-Time_Assignment_PHY105_3
-Time_Assignment_PHY105_4
-Time_Assignment_PHY105_5
-Time_Assignment_PHY106_1
-Time_Assignment_PHY106_5
-Time_Assignment_PHY208_2
-Time_Assignment_PHY208_4
-Time_Assignment_PHY208_5
-Time_Assignment_REL100_3
-Time_Assignment_REL232_4
-Time_Assignment_REL232_5
-Time_Assignment_SML201_1
-Time_Assignment_SML201_5
-Time_Assignment_URB201_2
-Time_Assignment_URB201_4
-Time_Assignment_URB201_5
+Room_Assignment_ECO301_3.0
+Room_Assignment_ECO301_5.0
+Room_Assignment_ECO301_7.0
+Room_Assignment_ECO302_60.0
+Room_Assignment_ECO302_61.0
+Room_Assignment_ECO302_64.0
+Room_Assignment_ECO302_65.0
+Room_Assignment_ECO302_68.0
+Room_Assignment_ECO302_71.0
+Room_Assignment_ECO310_30.0
+Room_Assignment_ECO310_32.0
+Room_Assignment_ECO310_34.0
+Room_Assignment_ECO310_35.0
+Room_Assignment_ECO310_37.0
+Room_Assignment_ECO312_41.0
+Room_Assignment_ECO312_42.0
+Room_Assignment_ECO312_44.0
+Room_Assignment_ECO312_48.0
+Room_Assignment_ECO312_49.0
+Room_Assignment_GER101_26.0
+Room_Assignment_GER101_27.0
+Room_Assignment_GER101_28.0
+Room_Assignment_GER101_29.0
+Room_Assignment_GER103_3.0
+Room_Assignment_GER103_5.0
+Room_Assignment_GER103_8.0
+Room_Assignment_GER103_9.0
+Room_Assignment_GER105_1.0
+Room_Assignment_GER105_3.0
+Room_Assignment_GER107_70.0
+Room_Assignment_GER107_71.0
+Room_Assignment_GER107_72.0
+Room_Assignment_GER107_73.0
+Room_Assignment_GER107_74.0
+Room_Assignment_GER107_75.0
+Room_Assignment_LIN201_50.0
+Room_Assignment_LIN201_51.0
+Room_Assignment_LIN201_52.0
+Room_Assignment_LIN201_53.0
+Room_Assignment_LIN201_54.0
+Room_Assignment_LIN201_55.0
+Room_Assignment_LIN201_56.0
+Room_Assignment_LIN201_57.0
+Room_Assignment_LIN300_43.0
+Room_Assignment_LIN300_45.0
+Room_Assignment_LIN300_47.0
+Room_Assignment_LIN300_48.0
+Room_Assignment_LIN300_49.0
+Room_Assignment_MAT103_11.0
+Room_Assignment_MAT103_12.0
+Room_Assignment_MAT103_21.0
+Room_Assignment_MAT103_22.0
+Room_Assignment_MAT103_23.0
+Room_Assignment_MAT103_32.0
+Room_Assignment_MAT103_33.0
+Room_Assignment_MAT104_12.0
+Room_Assignment_MAT104_34.0
+Room_Assignment_MAT104_4.0
+Room_Assignment_MAT104_49.0
+Room_Assignment_MAT104_54.0
+Room_Assignment_MAT104_63.0
+Room_Assignment_MAT201_1.0
+Room_Assignment_MAT201_2.0
+Room_Assignment_MAT201_3.0
+Room_Assignment_MAT201_4.0
+Room_Assignment_MAT201_5.0
+Room_Assignment_MAT201_6.0
+Room_Assignment_MAT201_7.0
+Room_Assignment_MAT201_8.0
+Room_Assignment_MAT202_1.0
+Room_Assignment_MAT202_5.0
+Room_Assignment_MAT202_6.0
+Room_Assignment_MAT202_7.0
+Room_Assignment_MAT203_22.0
+Room_Assignment_MAT203_23.0
+Room_Assignment_MAT203_24.0
+Room_Assignment_MAT203_29.0
+Room_Assignment_MAT203_30.0
+Room_Assignment_MAT204_10.0
+Room_Assignment_MAT204_12.0
+Room_Assignment_MAT204_16.0
+Room_Assignment_MAT204_18.0
+Room_Assignment_MAT204_20.0
+Room_Assignment_MAT204_8.0
+Room_Assignment_MAT215_31.0
+Room_Assignment_MAT215_32.0
+Room_Assignment_MAT215_33.0
+Room_Assignment_MAT215_34.0
+Room_Assignment_MAT215_35.0
+Room_Assignment_MAT215_36.0
+Room_Assignment_MAT215_37.0
+Room_Assignment_MAT216_56.0
+Room_Assignment_MAT216_57.0
+Room_Assignment_MAT216_58.0
+Room_Assignment_MAT216_59.0
+Room_Assignment_MAT216_60.0
+Room_Assignment_MAT216_61.0
+Room_Assignment_MAT217_2.0
+Room_Assignment_MAT217_24.0
+Room_Assignment_MAT217_3.0
+Room_Assignment_MAT217_32.0
+Room_Assignment_MAT217_34.0
+Room_Assignment_MAT217_35.0
+Room_Assignment_MAT217_4.0
+Room_Assignment_MAT217_5.0
+Room_Assignment_MAT218_13.0
+Room_Assignment_MAT218_24.0
+Room_Assignment_MAT218_35.0
+Room_Assignment_MAT218_46.0
+Room_Assignment_MAT218_7.0
+Room_Assignment_MAT218_74.0
+Room_Assignment_MAT300_1.0
+Room_Assignment_MAT300_2.0
+Room_Assignment_MAT300_3.0
+Room_Assignment_MAT300_4.0
+Room_Assignment_MAT325_10.0
+Room_Assignment_MAT325_57.0
+Room_Assignment_MAT325_58.0
+Room_Assignment_MAT325_59.0
+Room_Assignment_MAT325_61.0
+Room_Assignment_MAT325_8.0
+Room_Assignment_MAT335_10.0
+Room_Assignment_MAT335_2.0
+Room_Assignment_MAT335_3.0
+Room_Assignment_MAT335_4.0
+Room_Assignment_MAT335_5.0
+Room_Assignment_MAT335_6.0
+Room_Assignment_MAT335_7.0
+Room_Assignment_MAT335_8.0
+Room_Assignment_MAT370_12.0
+Room_Assignment_MAT370_2.0
+Room_Assignment_MAT370_31.0
+Room_Assignment_MAT370_53.0
+Room_Assignment_MAT370_64.0
+Room_Assignment_MAT370_75.0
+Room_Assignment_MAT377_14.0
+Room_Assignment_MAT377_15.0
+Room_Assignment_MAT377_16.0
+Room_Assignment_MAT377_17.0
+Room_Assignment_MAT377_18.0
+Room_Assignment_MAT377_19.0
+Room_Assignment_MAT377_2.0
+Room_Assignment_MAT377_4.0
+Room_Assignment_MAT377_5.0
+Room_Assignment_MAT377_6.0
+Room_Assignment_MAT385_2.0
+Room_Assignment_MAT385_3.0
+Room_Assignment_MAT385_43.0
+Room_Assignment_MAT385_5.0
+Room_Assignment_MAT385_6.0
+Room_Assignment_MAT385_7.0
+Room_Assignment_MAT400_13.0
+Room_Assignment_MAT400_24.0
+Room_Assignment_MAT400_42.0
+Room_Assignment_MAT400_45.0
+Room_Assignment_MAT400_54.0
+Room_Assignment_MAT400_65.0
+Room_Assignment_ORF245_25.0
+Room_Assignment_ORF245_31.0
+Room_Assignment_ORF245_34.0
+Room_Assignment_ORF245_5.0
+Room_Assignment_ORF245_65.0
+Room_Assignment_ORF245_7.0
+Room_Assignment_ORF245_8.0
+Room_Assignment_ORF307_10.0
+Room_Assignment_ORF307_15.0
+Room_Assignment_ORF307_20.0
+Room_Assignment_ORF307_25.0
+Room_Assignment_ORF307_30.0
+Room_Assignment_ORF307_35.0
+Room_Assignment_ORF307_40.0
+Room_Assignment_ORF307_45.0
+Room_Assignment_ORF307_5.0
+Room_Assignment_ORF307_50.0
+Room_Assignment_ORF309_13.0
+Room_Assignment_ORF309_23.0
+Room_Assignment_ORF309_43.0
+Room_Assignment_ORF309_53.0
+Room_Assignment_ORF309_63.0
+Room_Assignment_ORF309_73.0
+Room_Assignment_ORF350_19.0
+Room_Assignment_ORF350_29.0
+Room_Assignment_ORF350_39.0
+Room_Assignment_ORF350_49.0
+Room_Assignment_ORF350_59.0
+Room_Assignment_ORF350_6.0
+Room_Assignment_ORF350_69.0
+Room_Assignment_ORF350_9.0
+Room_Assignment_ORF363_11.0
+Room_Assignment_ORF363_21.0
+Room_Assignment_ORF363_31.0
+Room_Assignment_ORF363_41.0
+Room_Assignment_ORF363_51.0
+Room_Assignment_ORF363_61.0
+Room_Assignment_ORF445_12.0
+Room_Assignment_ORF445_24.0
+Room_Assignment_ORF445_31.0
+Room_Assignment_ORF445_46.0
+Room_Assignment_ORF445_5.0
+Room_Assignment_ORF445_53.0
+Room_Assignment_ORF445_54.0
+Room_Assignment_ORF445_64.0
+Room_Assignment_PHY103_1.0
+Room_Assignment_PHY103_2.0
+Room_Assignment_PHY103_74.0
+Room_Assignment_PHY103_75.0
+Room_Assignment_PHY104_28.0
+Room_Assignment_PHY104_37.0
+Room_Assignment_PHY104_58.0
+Room_Assignment_PHY104_71.0
+Room_Assignment_PHY105_1.0
+Room_Assignment_PHY105_10.0
+Room_Assignment_PHY105_12.0
+Room_Assignment_PHY105_2.0
+Room_Assignment_PHY105_3.0
+Room_Assignment_PHY105_4.0
+Room_Assignment_PHY105_5.0
+Room_Assignment_PHY105_6.0
+Room_Assignment_PHY105_7.0
+Room_Assignment_PHY105_8.0
+Room_Assignment_PHY105_9.0
+Room_Assignment_PHY106_11.0
+Room_Assignment_PHY106_19.0
+Room_Assignment_PHY106_21.0
+Room_Assignment_PHY106_29.0
+Room_Assignment_PHY106_31.0
+Room_Assignment_PHY106_39.0
+Room_Assignment_PHY106_41.0
+Room_Assignment_PHY106_49.0
+Room_Assignment_PHY208_18.0
+Room_Assignment_PHY208_28.0
+Room_Assignment_PHY208_38.0
+Room_Assignment_PHY208_48.0
+Room_Assignment_PHY208_58.0
+Room_Assignment_PHY208_68.0
+Room_Assignment_REL100_24.0
+Room_Assignment_REL100_43.0
+Room_Assignment_REL100_51.0
+Room_Assignment_REL100_54.0
+Room_Assignment_REL100_61.0
+Room_Assignment_REL100_65.0
+Room_Assignment_REL100_9.0
+Room_Assignment_REL232_43.0
+Room_Assignment_REL232_44.0
+Room_Assignment_REL232_45.0
+Room_Assignment_REL232_46.0
+Room_Assignment_REL232_47.0
+Room_Assignment_REL232_49.0
+Room_Assignment_SML201_31.0
+Room_Assignment_SML201_33.0
+Room_Assignment_SML201_43.0
+Room_Assignment_SML201_52.0
+Room_Assignment_SML201_62.0
+Room_Assignment_URB201_31.0
+Room_Assignment_URB201_36.0
+Room_Assignment_URB201_56.0
+Time_Assignment_AAS201_10:00_10:50_AM
+Time_Assignment_AAS201_9:00_9:50_AM
+Time_Assignment_ASA203_11:00_11:50_AM
+Time_Assignment_ASA203_1:30_2:20_PM
+Time_Assignment_ASA203_2:30_3:20_PM
+Time_Assignment_ASA238_10:00_10:50_AM
+Time_Assignment_ASA238_11:00_11:50_AM
+Time_Assignment_ASA238_1:30_2:20_PM
+Time_Assignment_ASA238_2:30_3:20_PM
+Time_Assignment_ASA238_9:00_9:50_AM
+Time_Assignment_COS126_9:00_9:50_AM
+Time_Assignment_COS217_11:00_11:50_AM
+Time_Assignment_COS226_10:00_10:50_AM
+Time_Assignment_COS333_1:30_2:20_PM
+Time_Assignment_COS342_2:30_3:20_PM
+Time_Assignment_COS423_11:00_11:50_AM
+Time_Assignment_COS423_1:30_2:20_PM
+Time_Assignment_COS423_2:30_3:20_PM
+Time_Assignment_COS432_11:00_11:50_AM
+Time_Assignment_COS432_1:30_2:20_PM
+Time_Assignment_COS484_11:00_11:50_AM
+Time_Assignment_COS484_9:00_9:50_AM
+Time_Assignment_COS522_2:30_3:20_PM
+Time_Assignment_COS522_9:00_9:50_AM
+Time_Assignment_COS528_1:30_2:20_PM
+Time_Assignment_COS528_2:30_3:20_PM
+Time_Assignment_ECO100_10:00_10:50_AM
+Time_Assignment_ECO100_9:00_9:50_AM
+Time_Assignment_ECO102_9:00_9:50_AM
+Time_Assignment_ECO202_11:00_11:50_AM
+Time_Assignment_ECO202_1:30_2:20_PM
+Time_Assignment_ECO202_2:30_3:20_PM
+Time_Assignment_ECO300_10:00_10:50_AM
+Time_Assignment_ECO300_11:00_11:50_AM
+Time_Assignment_ECO301_10:00_10:50_AM
+Time_Assignment_ECO301_1:30_2:20_PM
+Time_Assignment_ECO301_2:30_3:20_PM
+Time_Assignment_ECO302_11:00_11:50_AM
+Time_Assignment_ECO302_9:00_9:50_AM
+Time_Assignment_ECO310_10:00_10:50_AM
+Time_Assignment_ECO310_1:30_2:20_PM
+Time_Assignment_ECO312_11:00_11:50_AM
+Time_Assignment_ECO312_2:30_3:20_PM
+Time_Assignment_GER101_10:00_10:50_AM
+Time_Assignment_GER101_11:00_11:50_AM
+Time_Assignment_GER101_9:00_9:50_AM
+Time_Assignment_GER103_10:00_10:50_AM
+Time_Assignment_GER103_11:00_11:50_AM
+Time_Assignment_GER103_1:30_2:20_PM
+Time_Assignment_GER105_11:00_11:50_AM
+Time_Assignment_GER105_1:30_2:20_PM
+Time_Assignment_GER107_11:00_11:50_AM
+Time_Assignment_LIN201_1:30_2:20_PM
+Time_Assignment_LIN201_9:00_9:50_AM
+Time_Assignment_LIN300_10:00_10:50_AM
+Time_Assignment_MAT103_10:00_10:50_AM
+Time_Assignment_MAT103_11:00_11:50_AM
+Time_Assignment_MAT103_2:30_3:20_PM
+Time_Assignment_MAT104_2:30_3:20_PM
+Time_Assignment_MAT201_1:30_2:20_PM
+Time_Assignment_MAT201_2:30_3:20_PM
+Time_Assignment_MAT202_9:00_9:50_AM
+Time_Assignment_MAT203_9:00_9:50_AM
+Time_Assignment_MAT204_9:00_9:50_AM
+Time_Assignment_MAT215_10:00_10:50_AM
+Time_Assignment_MAT215_11:00_11:50_AM
+Time_Assignment_MAT215_1:30_2:20_PM
+Time_Assignment_MAT216_10:00_10:50_AM
+Time_Assignment_MAT216_11:00_11:50_AM
+Time_Assignment_MAT217_1:30_2:20_PM
+Time_Assignment_MAT218_9:00_9:50_AM
+Time_Assignment_MAT300_2:30_3:20_PM
+Time_Assignment_MAT325_2:30_3:20_PM
+Time_Assignment_MAT325_9:00_9:50_AM
+Time_Assignment_MAT335_2:30_3:20_PM
+Time_Assignment_MAT335_9:00_9:50_AM
+Time_Assignment_MAT370_2:30_3:20_PM
+Time_Assignment_MAT370_9:00_9:50_AM
+Time_Assignment_MAT377_10:00_10:50_AM
+Time_Assignment_MAT377_9:00_9:50_AM
+Time_Assignment_MAT385_10:00_10:50_AM
+Time_Assignment_MAT385_11:00_11:50_AM
+Time_Assignment_MAT385_9:00_9:50_AM
+Time_Assignment_MAT400_10:00_10:50_AM
+Time_Assignment_MAT400_11:00_11:50_AM
+Time_Assignment_MAT400_1:30_2:20_PM
+Time_Assignment_ORF245_11:00_11:50_AM
+Time_Assignment_ORF245_1:30_2:20_PM
+Time_Assignment_ORF307_10:00_10:50_AM
+Time_Assignment_ORF307_11:00_11:50_AM
+Time_Assignment_ORF307_1:30_2:20_PM
+Time_Assignment_ORF307_2:30_3:20_PM
+Time_Assignment_ORF309_10:00_10:50_AM
+Time_Assignment_ORF309_11:00_11:50_AM
+Time_Assignment_ORF309_1:30_2:20_PM
+Time_Assignment_ORF309_2:30_3:20_PM
+Time_Assignment_ORF350_11:00_11:50_AM
+Time_Assignment_ORF350_1:30_2:20_PM
+Time_Assignment_ORF350_2:30_3:20_PM
+Time_Assignment_ORF363_1:30_2:20_PM
+Time_Assignment_ORF445_11:00_11:50_AM
+Time_Assignment_ORF445_1:30_2:20_PM
+Time_Assignment_PHY103_10:00_10:50_AM
+Time_Assignment_PHY103_11:00_11:50_AM
+Time_Assignment_PHY103_1:30_2:20_PM
+Time_Assignment_PHY103_2:30_3:20_PM
+Time_Assignment_PHY103_9:00_9:50_AM
+Time_Assignment_PHY104_2:30_3:20_PM
+Time_Assignment_PHY104_9:00_9:50_AM
+Time_Assignment_PHY105_10:00_10:50_AM
+Time_Assignment_PHY105_11:00_11:50_AM
+Time_Assignment_PHY105_1:30_2:20_PM
+Time_Assignment_PHY105_2:30_3:20_PM
+Time_Assignment_PHY105_9:00_9:50_AM
+Time_Assignment_PHY106_2:30_3:20_PM
+Time_Assignment_PHY106_9:00_9:50_AM
+Time_Assignment_PHY208_10:00_10:50_AM
+Time_Assignment_PHY208_1:30_2:20_PM
+Time_Assignment_PHY208_2:30_3:20_PM
+Time_Assignment_REL100_11:00_11:50_AM
+Time_Assignment_REL232_1:30_2:20_PM
+Time_Assignment_REL232_2:30_3:20_PM
+Time_Assignment_SML201_2:30_3:20_PM
+Time_Assignment_SML201_9:00_9:50_AM
+Time_Assignment_URB201_10:00_10:50_AM
+Time_Assignment_URB201_1:30_2:20_PM
+Time_Assignment_URB201_2:30_3:20_PM
 End
