@@ -10,7 +10,7 @@ def read_in(filename):
 
     for i in my_dict:
         vals = list(my_dict[i].values())
-        cleanedList = [x for x in vals if x == x]
+        cleanedList = [int(x) for x in vals if x == x]
         my_dict[i] = cleanedList
     return my_dict
 
@@ -24,39 +24,28 @@ def get_course(filename):
     return my_dict
 
 # class --> time slot class can be scheduled at
-classTimeDict = read_in("data_files/courses_times3.csv")
+classTimeDict = read_in("data_files/courses_times2.csv")
 
 # class --> room it can be scheduled in
-classRoomDict = read_in("data_files/courses_rooms2.csv")
+classRoomDict = read_in("data_files/courses_rooms3.csv")
 
 # room --> time slot room can be scheduled at
-roomTimeDict = read_in("data_files/rooms_times3.csv")
+roomTimeDict = read_in("data_files/rooms_times4.csv")
 
 # |C| x |C| number of students that conflict in a pair of courses
 overlap = np.loadtxt(open("data_files/overlap.csv"), delimiter=",")
 
 numRooms = len(roomTimeDict)
-vals = list(roomTimeDict.values())
-vals = vals[0]
-vals = set(vals)
-numTimes = len(vals)
-#Z = np.zeros((numRooms,numTimes))
-Z = {}
+numTimes = max(max(roomTimeDict.values()))
+Z = np.zeros((numRooms,numTimes))
 
 sched = pl.LpProblem("Course Scheduling")
 
 for i in roomTimeDict:
-    Z[i] = {}
-    for j in vals:
-        if j in roomTimeDict[i]:
-            Z[i][j] = 1
-        else:
-            Z[i][j] = 0
-    #for j in roomTimeDict[i]:
-        #ind = int(i)
-        #Z[i][j] = 1
+    for j in roomTimeDict[i]:
+        ind = int(i)
+        Z[ind-1][j-1] = 1
 
-print(Z)
 # class, time
 cVars = {}
 # class, room
@@ -130,27 +119,19 @@ for c1 in classTimeDict:
 for c in classTimeDict:
     for t in classTimeDict[c]:
         for r in classRoomDict[c]:
-            #print(r, " ", type(r), " ", t, " ", type(t))
-            r2 = str(int(r))
-            #print(Z[r2].keys())
-            # if t in Z[r2].keys():
-            #     con = 1
-            #     #print("IN HERE")
-            # else:
-            #     con = 0
-            print(Z[r2][t])
+
             sched += (
-                cVars[c][t] + rVars[c][r] - 1 <= Z[r2][t]
+                cVars[c][t] + rVars[c][r] - 1 <= Z[r-1][t-1]
             )
 
 # write to an lp file
 sched.writeLP("SchedulingProblem.lp")
 
 solver_list = pl.listSolvers(onlyAvailable=True)
-#solver = pl.getSolver('GLPK_CMD')
+solver = pl.getSolver('GLPK_CMD')
 
 start_time = time.time()
-sched.solve()
+sched.solve(solver)
 print("Status:", pl.LpStatus[sched.status])
 
 seconds = time.time()
@@ -165,14 +146,13 @@ time_names = get_course("data_files/map_time.csv")
 # print optimal values
 for v in sched.variables():
     if(v.varValue == 1):
-        print(len(v.name))
+        #print(len(v.name))
         var = v.name
         substring = var.split('_')
         course = substring[2]
-        val = substring[3:]
-        print(val)
+        val = substring[3]
         if(v.name[0:4] == "Room"):
-            room = room_names[int(val[0])]
+            room = room_names[val]
             finalRooms[course] = room
         else:
             time = time_names[val]
