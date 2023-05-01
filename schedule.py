@@ -24,16 +24,16 @@ def get_course(filename):
     return my_dict
 
 # class --> time slot class can be scheduled at
-classTimeDict = read_in("data_files/courses_times2.csv")
+classTimeDict = read_in("data_files/courses_times4.csv")
 
 # class --> room it can be scheduled in
-classRoomDict = read_in("data_files/courses_rooms3.csv")
+classRoomDict = read_in("data_files/courses_rooms4.csv")
 
 # room --> time slot room can be scheduled at
 roomTimeDict = read_in("data_files/rooms_times4.csv")
 
 # |C| x |C| number of students that conflict in a pair of courses
-overlap = np.loadtxt(open("data_files/overlap.csv"), delimiter=",")
+overlap = np.loadtxt(open("data_files/overlap2.csv"), delimiter=",")
 
 numRooms = len(roomTimeDict)
 numTimes = max(max(roomTimeDict.values()))
@@ -128,10 +128,10 @@ for c in classTimeDict:
 sched.writeLP("SchedulingProblem.lp")
 
 solver_list = pl.listSolvers(onlyAvailable=True)
-solver = pl.getSolver('GLPK_CMD')
+#solver = pl.getSolver('GLPK_CMD')
 
 start_time = time.time()
-sched.solve(solver)
+sched.solve()
 print("Status:", pl.LpStatus[sched.status])
 
 seconds = time.time()

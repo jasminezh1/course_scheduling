@@ -1,59 +1,200 @@
-AAS201: Computer Science 202, 10:00-10:50 AM
-ASA203: McCosh Hall 60, 2:30-3:20 PM
-ASA238: Computer Science 301, 9:00-9:50 AM
-COS126: McCosh Hall 28, 9:00-9:50 AM
-COS217: McDonnel 101A, 11:00-11:50 AM
-COS226: Robertson 020, 10:00-10:50 AM
-COS333: Princeton Neuroscience Institute A18, 1:30-2:20 PM
-COS342: McCosh Hall B12, 2:30-3:20 PM
-COS423: Wallace 006, 11:00-11:50 AM
-COS432: McCosh Hall 30, 11:00-11:50 AM
-COS484: Computer Science 402, 11:00-11:50 AM
-COS522: East Pyne 239, 2:30-3:20 PM
-COS528: McCosh Hall B22, 1:30-2:20 PM
-ECO100: Laura Wooten 121, 10:00-10:50 AM
-ECO102: Aaron Burr 216, 9:00-9:50 AM
-ECO202: East Pyne 043, 11:00-11:50 AM
-ECO300: McCosh Hall 2, 10:00-10:50 AM
-ECO301: McCosh Hall 64, 10:00-10:50 AM
-ECO302: Sherrerd Hall 102, 11:00-11:50 AM
-ECO310: Robertson 015, 1:30-2:20 PM
-ECO312: Aaron Burr 209, 11:00-11:50 AM
-GER101: Caldwell House 203, 9:00-9:50 AM
-GER103: McCosh Hall 60, 10:00-10:50 AM
-GER105: McCosh Hall 2, 11:00-11:50 AM
-GER107: McDonnel 201A, 11:00-11:50 AM
-LIN201: Aaron Burr 213, 9:00-9:50 AM
-LIN300: Guyot 154, 10:00-10:50 AM
-MAT103: McCosh Hall B22, 10:00-10:50 AM
-MAT104: McCosh Hall 46, 2:30-3:20 PM
-MAT201: McCosh Hall 2, 1:30-2:20 PM
-MAT202: McCosh Hall 62, 9:00-9:50 AM
-MAT203: Green 1 S 5, 9:00-9:50 AM
-MAT204: East Pyne 043, 9:00-9:50 AM
-MAT215: Green 1 N 11, 10:00-10:50 AM
-MAT216: Friend 108, 11:00-11:50 AM
-MAT217: McCosh Hall 60, 1:30-2:20 PM
-MAT218: McCosh Hall 64, 9:00-9:50 AM
-MAT300: Computer Science 105, 2:30-3:20 PM
-MAT325: Friend 007, 9:00-9:50 AM
-MAT335: McCosh Hall B13, 2:30-3:20 PM
-MAT370: McDonnel 201A, 9:00-9:50 AM
-MAT377: McCosh Hall 30, 9:00-9:50 AM
-MAT385: McCosh Hall 64, 11:00-11:50 AM
-MAT400: McCosh Hall 26, 10:00-10:50 AM
-ORF245: McCosh Hall 66, 1:30-2:20 PM
-ORF307: Aaron Burr 213, 2:30-3:20 PM
-ORF309: McDonnel 107, 10:00-10:50 AM
-ORF350: Green  0-S-6, 11:00-11:50 AM
-ORF363: Aaron Burr 216, 1:30-2:20 PM
-ORF445: Friend 111, 11:00-11:50 AM
-PHY103: McDonnel 201A, 2:30-3:20 PM
-PHY104: Computer Science 402, 2:30-3:20 PM
-PHY105: McCosh Hall 2, 9:00-9:50 AM
-PHY106: Aaron Burr 209, 9:00-9:50 AM
-PHY208: Green 1-C-6, 10:00-10:50 AM
-REL100: Friend 112, 11:00-11:50 AM
-REL232: Aaron Burr 209, 1:30-2:20 PM
-SML201: Green 1 N 11, 9:00-9:50 AM
-URB201: Sherrerd Hall 101, 2:30-3:20 PM
+AAS201: McCosh Hall 2, 2:30-3:20 PM
+AAS230: Sherrerd Hall 103, 10:00-10:50 AM
+AAS244: Sherrerd Hall 103, 9:00-9:50 AM
+AAS245: Friend 005, 9:00-9:50 AM
+AAS300: Aaron Burr 213, 2:30-3:20 PM
+AAS303: East Pyne 233, 11:00-11:50 AM
+AAS306: McCosh Hall 24, 11:00-11:50 AM
+AAS322: Schultz Laboratory 318, 11:00-11:50 AM
+AAS332: Sherrerd Hall 101, 10:00-10:50 AM
+AAS339: Guyot 155, 11:00-11:50 AM
+AAS350: Robertson 014, 1:30-2:20 PM
+AAS352: Jadwin A07, 11:00-11:50 AM
+AAS367: McCosh Hall 62, 9:00-9:50 AM
+AAS522: East Pyne 027, 2:30-3:20 PM
+AMS101: McDonnel 203A, 9:00-9:50 AM
+AMS351: Henry House 15, 9:00-9:50 AM
+AMS406: Green 1-C-6, 9:00-9:50 AM
+ANT201: Sherrerd Hall 102, 9:00-9:50 AM
+ANT211: Green 0-C-13N-S, 1:30-2:20 PM
+ANT219: Computer Science 301, 11:00-11:50 AM
+ANT263: Green 0 N 2, 2:30-3:20 PM
+ANT264: Friend 005, 11:00-11:50 AM
+ANT300: Friend 005, 10:00-10:50 AM
+ANT302: East Pyne 239, 9:00-9:50 AM
+ANT314: Princeton Neuroscience Institute 130, 2:30-3:20 PM
+ANT321: Sherrerd Hall 102, 11:00-11:50 AM
+ANT337: McCosh Hall B11, 9:00-9:50 AM
+ANT339: Henry House 15, 1:30-2:20 PM
+ANT347: Green 0-C-13N-S, 11:00-11:50 AM
+ANT390: Green 1-C-6, 2:30-3:20 PM
+ANT437: Jadwin A08, 11:00-11:50 AM
+ANT443: Sherrerd Hall 102, 1:30-2:20 PM
+ANT461: Aaron Burr 213, 1:30-2:20 PM
+ARA101: Jones 102, 2:30-3:20 PM
+ARA105: Caldwell House 203, 2:30-3:20 PM
+ARA301: Friend 009, 9:00-9:50 AM
+ARA303: McCosh Hall 2, 9:00-9:50 AM
+ARA305: Jadwin A09, 11:00-11:50 AM
+ARA403: Sherrerd Hall 101, 11:00-11:50 AM
+ARC203: Laura Wooten 119, 2:30-3:20 PM
+ARC205: Princeton Neuroscience Institute A02, 1:30-2:20 PM
+ARC308: Jones 102, 11:00-11:50 AM
+ARC311: McCosh Hall 60, 2:30-3:20 PM
+ARC350: Robertson 006, 1:30-2:20 PM
+ARC403: McCosh Hall B13, 9:00-9:50 AM
+ARC404: Robertson 029, 11:00-11:50 AM
+ART100: Schultz Laboratory 318, 2:30-3:20 PM
+ART106: Laura Wooten 121, 2:30-3:20 PM
+ART203: McDonnel 107, 9:00-9:50 AM
+ART213: Jadwin A09, 9:00-9:50 AM
+ART233: Aaron Burr 216, 11:00-11:50 AM
+ART313: Green 1-C-6, 11:00-11:50 AM
+ART316: McDonnel 202A, 10:00-10:50 AM
+ART323: Jadwin A07, 9:00-9:50 AM
+ART341: Sherrerd Hall 103, 1:30-2:20 PM
+ART389: Jones 102, 10:00-10:50 AM
+ART400: Robertson 006, 11:00-11:50 AM
+ART403: Friend 108, 2:30-3:20 PM
+ART411: McCosh Hall B11, 2:30-3:20 PM
+ART412: Robertson 014, 11:00-11:50 AM
+ART444: Guyot 155, 2:30-3:20 PM
+ART455: Robertson 008, 2:30-3:20 PM
+ART478: McCosh Hall 34, 2:30-3:20 PM
+ART490: Sherrerd Hall 101, 2:30-3:20 PM
+ART491: Robertson 006, 2:30-3:20 PM
+ASA201: East Pyne 027, 10:00-10:50 AM
+ASA203: Computer Science 401, 9:00-9:50 AM
+ASA238: Computer Science 104, 11:00-11:50 AM
+ASL101: East Pyne 233, 1:30-2:20 PM
+ASL105: East Pyne 023, 9:00-9:50 AM
+ASL205: East Pyne 233, 2:30-3:20 PM
+AST205: Computer Science 301, 1:30-2:20 PM
+AST250: Friend 109, 1:30-2:20 PM
+AST255: McDonnel 104, 1:30-2:20 PM
+AST301: Computer Science 302, 9:00-9:50 AM
+AST522: Princeton Neuroscience Institute A02, 10:00-10:50 AM
+ATL494: Jones 100, 2:30-3:20 PM
+ATL495: East Pyne 239, 1:30-2:20 PM
+ATL496: Computer Science 401, 2:30-3:20 PM
+ATL497: Peyton 145, 9:00-9:50 AM
+BCS105: Princeton Neuroscience Institute 259, 11:00-11:50 AM
+CBE245: East Pyne 233, 10:00-10:50 AM
+CBE250: Sherrerd Hall 103, 11:00-11:50 AM
+CBE341: Princeton Neuroscience Institute 230, 9:00-9:50 AM
+CBE351: Robertson 011, 2:30-3:20 PM
+CBE411: Wallace 006, 11:00-11:50 AM
+CBE415: Robertson 015, 1:30-2:20 PM
+CBE422: East Pyne 023, 10:00-10:50 AM
+CBE430: McCosh Hall 2, 11:00-11:50 AM
+CBE442: McCosh Hall 24, 2:30-3:20 PM
+CEE102: McCosh Hall 46, 1:30-2:20 PM
+CEE207: Jadwin A09, 2:30-3:20 PM
+CEE305: McDonnel 201A, 9:00-9:50 AM
+CEE345: Wallace 002, 10:00-10:50 AM
+CEE366: Princeton Neuroscience Institute A03, 2:30-3:20 PM
+CEE374: Computer Science 401, 11:00-11:50 AM
+CEE375: Friend 007, 11:00-11:50 AM
+CEE471: Robertson 006, 9:00-9:50 AM
+CHI101: McCosh Hall B12, 2:30-3:20 PM
+CHI103: Computer Science 401, 1:30-2:20 PM
+CHI105: McCosh Hall 60, 10:00-10:50 AM
+CHI301: East Pyne 235, 10:00-10:50 AM
+CHI303: Frist 309, 2:30-3:20 PM
+CHI305: Green 0 N 2, 1:30-2:20 PM
+CHI403: Jadwin A07, 1:30-2:20 PM
+CHI405: Computer Science 105, 11:00-11:50 AM
+CHI411: Princeton Neuroscience Institute 230, 2:30-3:20 PM
+CHI451: Princeton Neuroscience Institute A03, 11:00-11:50 AM
+CHM201: Friend 112, 1:30-2:20 PM
+CHM207: McCosh Hall 60, 1:30-2:20 PM
+CHM250: Computer Science 202, 2:30-3:20 PM
+CHM301: Guyot 154, 9:00-9:50 AM
+CHM305: Friend 005, 1:30-2:20 PM
+CHM337: Aaron Burr 216, 10:00-10:50 AM
+CHM371: Computer Science 402, 9:00-9:50 AM
+CHM373: Robertson 014, 2:30-3:20 PM
+CHM403: McCosh Hall B12, 10:00-10:50 AM
+CHM411: McCosh Hall 48, 1:30-2:20 PM
+CLA203: McCosh Hall B22, 10:00-10:50 AM
+CLA212: McCosh Hall 2, 10:00-10:50 AM
+CLA219: McCosh Hall 28, 11:00-11:50 AM
+CLA227: Robertson 008, 10:00-10:50 AM
+CLA319: Jones 102, 1:30-2:20 PM
+CLA330: McCosh Hall 2, 1:30-2:20 PM
+CLA340: Frist 309, 9:00-9:50 AM
+CLG101: East Pyne 239, 2:30-3:20 PM
+CLG105: McCosh Hall B12, 1:30-2:20 PM
+CLG213: Friend 005, 2:30-3:20 PM
+CLG301: McCosh Hall 46, 2:30-3:20 PM
+COM300: East Pyne 215, 2:30-3:20 PM
+COM302: Robertson 014, 9:00-9:50 AM
+COM310: Laura Wooten 120, 2:30-3:20 PM
+COM351: McDonnel 104, 10:00-10:50 AM
+COM370: East Pyne 235, 1:30-2:20 PM
+COM372: Jones 102, 9:00-9:50 AM
+COM421: Friend 110, 11:00-11:50 AM
+COM456: Frist 212, 10:00-10:50 AM
+COS109: McCosh Hall 62, 11:00-11:50 AM
+COS126: McCosh Hall 28, 2:30-3:20 PM
+COS217: Green 1 N 11, 10:00-10:50 AM
+COS226: McDonnel 103A, 11:00-11:50 AM
+COS240: Laura Wooten 120, 10:00-10:50 AM
+COS302: Wallace 002, 1:30-2:20 PM
+COS316: McCosh Hall 46, 11:00-11:50 AM
+COS324: McCosh Hall 28, 9:00-9:50 AM
+COS326: East Pyne 239, 11:00-11:50 AM
+COS333: McCosh Hall 66, 9:00-9:50 AM
+COS342: Friend 112, 11:00-11:50 AM
+COS350: McCosh Hall 46, 9:00-9:50 AM
+COS423: East Pyne 043, 2:30-3:20 PM
+COS432: McCosh Hall B11, 11:00-11:50 AM
+COS484: Wallace 333, 11:00-11:50 AM
+COS522: East Pyne 043, 9:00-9:50 AM
+COS528: Aaron Burr 216, 9:00-9:50 AM
+ECO100: Green 0-C-13N-S, 9:00-9:50 AM
+ECO102: McCosh Hall B11, 10:00-10:50 AM
+ECO202: McCosh Hall 66, 2:30-3:20 PM
+ECO300: Friend 108, 9:00-9:50 AM
+ECO301: Friend 007, 9:00-9:50 AM
+ECO302: McDonnel 201A, 1:30-2:20 PM
+ECO310: Princeton Neuroscience Institute A18, 2:30-3:20 PM
+ECO312: McCosh Hall 26, 9:00-9:50 AM
+GER101: Jadwin A06, 11:00-11:50 AM
+GER103: Green 1-C-6, 10:00-10:50 AM
+GER105: McDonnel 103A, 10:00-10:50 AM
+GER107: Sherrerd Hall 102, 2:30-3:20 PM
+LIN201: McDonnel 201A, 2:30-3:20 PM
+LIN300: Aaron Burr 213, 11:00-11:50 AM
+MAT103: Sherrerd Hall 101, 9:00-9:50 AM
+MAT104: Jadwin A09, 1:30-2:20 PM
+MAT201: McCosh Hall 34, 9:00-9:50 AM
+MAT202: Friend 109, 9:00-9:50 AM
+MAT203: East Pyne 215, 1:30-2:20 PM
+MAT204: Friend 009, 11:00-11:50 AM
+MAT215: Green 1-C-6, 1:30-2:20 PM
+MAT216: Princeton Neuroscience Institute A18, 11:00-11:50 AM
+MAT217: McCosh Hall 4, 9:00-9:50 AM
+MAT218: Caldwell House 203, 9:00-9:50 AM
+MAT300: McCosh Hall 30, 9:00-9:50 AM
+MAT325: McCosh Hall 64, 10:00-10:50 AM
+MAT335: McCosh Hall 64, 9:00-9:50 AM
+MAT370: Laura Wooten 120, 1:30-2:20 PM
+MAT377: McDonnel 107, 2:30-3:20 PM
+MAT385: Princeton Neuroscience Institute 230, 1:30-2:20 PM
+MAT400: Friend 108, 11:00-11:50 AM
+ORF245: McCosh Hall B12, 11:00-11:50 AM
+ORF307: Laura Wooten 119, 11:00-11:50 AM
+ORF309: Green 1 N 11, 2:30-3:20 PM
+ORF350: Schultz Laboratory 218, 2:30-3:20 PM
+ORF363: Aaron Burr 213, 9:00-9:50 AM
+ORF445: Computer Science 105, 9:00-9:50 AM
+PHY103: East Pyne 233, 9:00-9:50 AM
+PHY104: McDonnel 103A, 9:00-9:50 AM
+PHY105: McCosh Hall B22, 1:30-2:20 PM
+PHY106: Friend 110, 10:00-10:50 AM
+PHY208: Wallace 004, 1:30-2:20 PM
+REL100: McDonnel 202A, 11:00-11:50 AM
+REL232: McDonnel 103A, 1:30-2:20 PM
+SML201: McCosh Hall 48, 2:30-3:20 PM
+URB201: Princeton Neuroscience Institute A18, 10:00-10:50 AM
