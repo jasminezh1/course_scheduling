@@ -1,12 +1,23 @@
 scheduled.py is the complete version! To run the code, you only need to run this file.
     The linear programming formulation is written into the file "formulation.lp"
     The final assignments are written into the file "output.txt".
+    If you want to run it with different solvers, uncomment out line 145, and replace line 148 with sched.solve(solver). As it currently is, it will use the default solver, PULP_CBC_CMD.
+        To run it with GLPK, use solver = pl.getSolver('GLPK_CMD') on line 145.
+        To run it with COIN, use solver = pl.getSolver('COIN_CMD') on line 145.
+        To install both, depending on your environment, run the commands "brew install glpk" and "brew install coin," assuming you have Homebrews correctly installed.
+            Alternatively, you can use "sudo apt-get install glpk-utils" or "sudo apt-get install coin", although this may cause issues on Mac.
+            To check that the solvers are correctly installed, run print(solver_list = pl.listSolvers(onlyAvailable=True)), and the installed solver should appear.
 
 The folder data_files contains the relevant .csv files. The current files used are "courses_rooms4.csv", "courses_times4.csv", "overlap2.csv", "rooms_times4.csv", and "same.csv".
 
 The folder generate_data contains the scripts that generate some of the random data. generate_random includes code to generate the "overlap.csv" and "same.csv". random_csv includes code to generate .csv files for a random set of rooms and times. make_graph.py produces the graphs used in the writeup.
+    If you want to use random_csv, note that the resulting .csv file is not the final matrix. You must transpose this matrix. This is most easily done using an online .csv transposer. Then, depending on what random values you generated, you will replace rows 2 and downward in the appropriate .csv file. Note the first row are the keys, so we do not replace these. All subsequent values in each column are values associated with the key.
+    If you want to use generate_random, make sure you move the .csv file to the data_files folder.
 
 The folder previous_attempts unsurprisingly contains versions of previous attempts. These should be ignored.
     basic.py is the very basic code -- small set of classes, rooms, times. currently issue where the wrong LP solver is used.
     weighted.py builds off basic.py and includes an objective function to minimizing the number of students affected by classes overlapping.
     different_times.py has rooms and classes be only be available at different variable length times, and classes scheduled at variable number of and certain rooms
+    
+    
+    If there are any questions or concerns, please contact Jasmine (jasminez@princeton.edu).
