@@ -34,7 +34,7 @@ roomTimeDict = read_in("data_files/rooms_times4.csv")
 
 # |C| x |C| number of students that conflict in a pair of courses
 overlap = np.loadtxt(open("data_files/overlap2.csv"), delimiter=",")
-same_course = np.loadtxt(open("generate_data/same.csv"), delimiter=",")
+same_course = np.loadtxt(open("data_files/same.csv"), delimiter=",")
 
 numRooms = len(roomTimeDict)
 numTimes = max(max(roomTimeDict.values()))
@@ -139,7 +139,7 @@ for c in classTimeDict:
 
 
 # write to an lp file
-sched.writeLP("SchedulingProblem.lp")
+sched.writeLP("formulation.lp")
 
 solver_list = pl.listSolvers(onlyAvailable=True)
 #solver = pl.getSolver('GLPK_CMD')

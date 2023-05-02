@@ -493,3 +493,8 @@ Gurobi 10.0.1 (mac64[rosetta2], gurobi_cl) logging started Mon May  1 23:15:41 2
 
 Set parameter LogFile to value "gurobi.log"
 Restricted license - for non-production use only - expires 2024-10-28
+
+Gurobi 10.0.1 (mac64[rosetta2], gurobi_cl) logging started Mon May  1 23:54:52 2023
+
+Set parameter LogFile to value "gurobi.log"
+Restricted license - for non-production use only - expires 2024-10-28
