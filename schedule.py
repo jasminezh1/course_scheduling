@@ -34,6 +34,7 @@ roomTimeDict = read_in("data_files/rooms_times4.csv")
 
 # |C| x |C| number of students that conflict in a pair of courses
 overlap = np.loadtxt(open("data_files/overlap2.csv"), delimiter=",")
+same_course = np.loadtxt(open("generate_data/same.csv"), delimiter=",")
 
 numRooms = len(roomTimeDict)
 numTimes = max(max(roomTimeDict.values()))
@@ -93,12 +94,16 @@ for c in classTimeDict:
         f"Sum_of_Assignments_for_room_{c}",
     )
 
-
-# no two classes in the same room in the same time
+count1 = 0
 for c1 in classTimeDict:
+    count2 = 0
     for c2 in classTimeDict:
-        if(c1==c2): continue
+        #print(count1, " ", count2)
+        if(c1==c2): 
+            count2+=1
+            continue
 
+        # upper bound on variable
         sched += (
             oVars[c1][c2] <=1
         )
@@ -107,13 +112,21 @@ for c1 in classTimeDict:
             if(t not in classTimeDict[c2]): 
                 continue
 
+            # classes in the same course are at different times
+            sched += (
+                    cVars[c1][t] + cVars[c2][t] - 1 <= same_course[count1][count2]
+                )
             for r in classRoomDict[c1]:
                 if(r not in classRoomDict[c2]): 
                     continue
 
+                # no two classes in the same room in the same time
                 sched += (
                     cVars[c1][t] + cVars[c2][t] + rVars[c1][r] + rVars[c2][r] <=3
                 )
+
+        count2+=1
+    count1+=1
 
 # class only scheduled in a room if room available during that time
 for c in classTimeDict:
@@ -123,6 +136,7 @@ for c in classTimeDict:
             sched += (
                 cVars[c][t] + rVars[c][r] - 1 <= Z[r-1][t-1]
             )
+
 
 # write to an lp file
 sched.writeLP("SchedulingProblem.lp")
@@ -145,6 +159,7 @@ time_names = get_course("data_files/map_time.csv")
 
 # print optimal values
 for v in sched.variables():
+    #print(v.name, ": ", v.varValue)
     if(v.varValue == 1):
         #print(len(v.name))
         var = v.name
