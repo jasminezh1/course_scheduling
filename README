@@ -1,7 +1,12 @@
-scheduled.py is the most updated working version.
+scheduled.py is the complete version! To run the code, you only need to run this file.
+    The linear programming formulation is written into the file "formulation.lp"
+    The final assignments are written into the file "output.txt".
 
-basic.py is the very basic code -- small set of classes, rooms, times. currently issue where the wrong LP solver is used.
-weighted.py builds off basic.py and includes an objective function to minimizing the number of students affected by classes overlapping.
-different_times.py has rooms and classes be only be available at different variable length times, and classes scheduled at variable number of and certain rooms
+The folder data_files contains the relevant .csv files. The current files used are "courses_rooms4.csv", "courses_times4.csv", "overlap2.csv", "rooms_times4.csv", and "same.csv".
 
-ignore_attept.py is a failed attempt based on a preexisting repository. ignore this.
+The folder generate_data contains the scripts that generate some of the random data. generate_random includes code to generate the "overlap.csv" and "same.csv". random_csv includes code to generate .csv files for a random set of rooms and times. make_graph.py produces the graphs used in the writeup.
+
+The folder previous_attempts unsurprisingly contains versions of previous attempts. These should be ignored.
+    basic.py is the very basic code -- small set of classes, rooms, times. currently issue where the wrong LP solver is used.
+    weighted.py builds off basic.py and includes an objective function to minimizing the number of students affected by classes overlapping.
+    different_times.py has rooms and classes be only be available at different variable length times, and classes scheduled at variable number of and certain rooms
